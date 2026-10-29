@@ -1,0 +1,54 @@
+/// Contract between the chat feature and whatever runs the model.
+///
+/// Milestone 2 provides a llama.cpp-backed implementation. The UI depends
+/// only on this interface so engines can be swapped without touching screens.
+abstract interface class InferenceEngine {
+  /// Current availability; checked before every generation.
+  Future<EngineStatus> status();
+
+  /// Streams a reply to [history]. The stream ends after a single
+  /// [GenerationDone] or [GenerationFailed]. Cancelling the subscription
+  /// must stop generation and release compute promptly.
+  Stream<GenerationEvent> generate(List<ChatTurn> history);
+}
+
+enum ChatSpeaker { user, assistant, system }
+
+class ChatTurn {
+  const ChatTurn(this.speaker, this.text);
+  final ChatSpeaker speaker;
+  final String text;
+}
+
+sealed class EngineStatus {
+  const EngineStatus();
+}
+
+class EngineReady extends EngineStatus {
+  const EngineReady(this.modelName);
+  final String modelName;
+}
+
+/// No usable model. [reason] is shown to the user verbatim.
+class EngineUnavailable extends EngineStatus {
+  const EngineUnavailable(this.reason);
+  final String reason;
+}
+
+sealed class GenerationEvent {
+  const GenerationEvent();
+}
+
+class GenerationToken extends GenerationEvent {
+  const GenerationToken(this.text);
+  final String text;
+}
+
+class GenerationDone extends GenerationEvent {
+  const GenerationDone();
+}
+
+class GenerationFailed extends GenerationEvent {
+  const GenerationFailed(this.message);
+  final String message;
+}

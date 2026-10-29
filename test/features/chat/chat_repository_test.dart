@@ -1,0 +1,58 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:offgrid_ai/core/database/app_database.dart';
+import 'package:offgrid_ai/features/chat/data/chat_repository.dart';
+
+import '../../support/test_db.dart';
+
+void main() {
+  late AppDatabase db;
+  late ChatRepository repo;
+
+  setUp(() {
+    db = testDatabase();
+    repo = ChatRepository(db);
+  });
+  tearDown(() => db.close());
+
+  test(
+    'startConversation stores the first message and a short title',
+    () async {
+      final long =
+          'How do I purify water from a stream when I have no '
+          'filter and only a metal pot?';
+      final id = await repo.startConversation(long);
+
+      final conversation = await repo.watchConversation(id).first;
+      expect(conversation!.title.length, lessThanOrEqualTo(49));
+      expect(conversation.title, endsWith('…'));
+
+      final messages = await repo.messages(id);
+      expect(messages.single.content, long);
+      expect(messages.single.role, MessageRole.user);
+    },
+  );
+
+  test('recoverInterrupted marks streaming messages as cancelled', () async {
+    final id = await repo.startConversation('hi');
+    final msg = await repo.addAssistantMessage(
+      id,
+      'partial',
+      MessageStatus.streaming,
+    );
+
+    await repo.recoverInterrupted();
+
+    final stored = (await repo.messages(id)).firstWhere((m) => m.id == msg);
+    expect(stored.status, MessageStatus.cancelled);
+    expect(stored.content, 'partial');
+  });
+
+  test('deleting a conversation cascades to its messages', () async {
+    final id = await repo.startConversation('hi');
+    await repo.addAssistantMessage(id, 'hello', MessageStatus.complete);
+
+    await repo.deleteConversation(id);
+
+    expect(await repo.messages(id), isEmpty);
+  });
+}

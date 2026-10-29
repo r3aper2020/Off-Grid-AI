@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+/// Design tokens for OFFGRID AI. Dark-first: charcoal surfaces, one green
+/// accent, high-contrast text. Keep new colors here rather than inline.
+abstract final class AppColors {
+  static const background = Color(0xFF0B0D0C);
+  static const surface = Color(0xFF151917);
+  static const surfaceRaised = Color(0xFF1C211E);
+  static const border = Color(0xFF262C28);
+
+  static const accent = Color(0xFF43D84A);
+  static const accentMuted = Color(0xFF1F3A22);
+  static const onAccent = Color(0xFF07140A);
+
+  static const textPrimary = Color(0xFFF2F5F2);
+  static const textSecondary = Color(0xFF9AA39C);
+  static const textTertiary = Color(0xFF66706A);
+
+  static const warning = Color(0xFFF2B33D);
+  static const danger = Color(0xFFEF5B5B);
+
+  static const topoLine = Color(0xFF242A26);
+}
