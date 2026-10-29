@@ -1,0 +1,11 @@
+{
+ "id": "tools-repairs",
+ "title": "Tools, Rigging & Repairs",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "needs-review",
+ "publisher": "U.S. Army (TM 3-34.86 Rigging, TC 9-237 Welding, TM 3-34.70 Plumbing)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Army TM 3-34.86/MCRP 3-17.7J, Rigging Techniques, Procedures, and Applications (2012; content of FM 5-125, 1995), TC 9-237, Welding Theory and Application (1993; safety chapter only), and TM 3-34.70/MCRP 3-17.7E, Plumbing, Pipe Fitting, and Sewerage (2012; content of FM 3-34.471, 2001), all approved for public release; distribution is unlimited. Reformatted into sections without changing substance; figures not included; load-capacity and plumbing design tables held back. Use does not imply endorsement by the U.S. Army, DoD, or the U.S. Government.",
+ "description": "Rope, knots and splices, hoists, anchors, moving heavy loads, scaffolds, welding and cutting safety, and plumbing: water supply, sewage and latrines, repairs, fixtures, water heaters, pipe, valves, traps and pumps. Based on 1993–2001 manuals: methods are sound but some materials, codes and equipment are dated, and load and sizing tables are not included."
+}

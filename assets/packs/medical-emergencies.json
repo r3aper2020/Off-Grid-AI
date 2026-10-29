@@ -1,0 +1,223 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "medical-emergencies",
+ "title": "Medical Emergencies: Heart, Stroke, Asthma, Low Blood Sugar",
+ "category": "medical",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. National Institutes of Health (NHLBI and NIDDK)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Recognizing a heart attack, cardiac arrest (CPR and AEDs), stroke (FAST test), asthma attacks and low blood glucose, and when to call 9-1-1.",
+ "attribution": "Text from National Heart, Lung, and Blood Institute (NHLBI) and National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) web pages, retrieved October 2026; reformatted into sections without changing substance; glossary pop-ups, footnote numbers and hospital-treatment sections not included. Use does not imply endorsement by NIH, HHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Heart Attack Symptoms and When to Call 9-1-1 (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Not all heart attacks begin with the sudden and crushing chest pain that comes when the blood flow to heart gets blocked. Heart attack symptoms can start slowly and can be mild or more serious and sudden. Symptoms also may come and go over several hours. The symptoms of a heart attack can be different from person to person and different between men and women. If you’ve already had a heart attack, your symptoms may not be the same for another one."
+    },
+    {
+     "heading": "Silent heart attacks",
+     "body": "Heart attacks can happen without any symptoms or with very mild symptoms. These are called silent heart attacks. Silent heart attacks are more common in older adults and in people who have high blood sugar or diabetes."
+    },
+    {
+     "heading": "What are the symptoms of a heart attack?",
+     "body": "If you are having a heart attack, you may experience one or more of the symptoms below.\n\n- Chest pain, heaviness, or discomfort in the center or left side of the chest (this is the most common symptom)\n- Pain or discomfort in one or both arms, your back, shoulders, neck, jaw, or above your belly button\n- Shortness of breath when resting or doing a little bit of physical activity (this is more common in older adults)\n- Sweating a lot for no reason\n- Feeling unusually tired for no reason, sometimes for days (this is more common in women)\n- Nausea (feeling sick to the stomach) and vomiting\n- Light-headedness or sudden dizziness\n- Rapid or irregular heartbeat\n\nIt is also possible to have mild symptoms or even no symptoms at all and still have a heart attack."
+    },
+    {
+     "heading": "When to call 9-1-1",
+     "body": "Any time you think you might be having a heart attack, don’t ignore it. Call 9-1-1 for emergency medical care, even if you are not sure that you’re having a heart attack.\n\n- Acting fast can limit damage to your heart and save your life. The 9-1-1 operator or emergency medical services (EMS) personnel can give you advice that can help prevent damage to your heart.\n- An ambulance is the best and safest way to get to the hospital. Do not drive to the hospital or let someone else drive you. EMS personnel can check how you are doing and start tests and lifesaving medicines right away. People who arrive by ambulance often get faster treatment at the hospital.\n\nEvery minute matters. Never delay calling 9-1-1, taking aspirin or doing anything else you think might help.\n\nKnowing the difference between stable angina (chest pain in people who have coronary artery disease) and a heart attack is important.\n\n- The pain from angina usually happens after physical activity and goes away in a few minutes when you rest or take medicine to treat it.\n- The pain from a heart attack is more serious than the pain from angina. Heart attack pain doesn’t go away when you rest or take medicine.\n\nIf you don’t know whether your chest pain is angina or a heart attack, call 9-1-1."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms"
+  },
+  {
+   "title": "Cardiac Arrest: Symptoms and Warning Signs (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "It is likely that a person is having a cardiac arrest if they:\n\n- Collapse suddenly and lose consciousness (pass out)\n- Are not breathing or their breathing is ineffective or they are gasping for air\n- Do not respond to shouting or shaking\n- Do not have a pulse\n\nIf you think someone is having a cardiac arrest, call 9-1-1 and then start CPR right away. You do not need to try to find a pulse."
+    },
+    {
+     "heading": "Cardiac arrest or heart attack? Know the difference.",
+     "body": "Many people confuse cardiac arrests and heart attacks. A cardiac arrest is caused by an electrical problem in the heart that stops the heartbeat. It is often fatal unless someone takes immediate action. A heart attack is caused by a blocked arteries in the heart. The loss of blood flow damages the heart muscle, but the heart usually keeps beating.\n\nOur fact sheet describes heart attack warning signs and explains how to take action if you have symptoms."
+    },
+    {
+     "heading": "What are the warning signs?",
+     "body": "Most people who had a cardiac arrest had one or more symptoms in the hour before the event. Some symptoms may even appear a few weeks before a cardiac arrest. But many people who have a cardiac arrest had no prior symptoms.\n\nPossible warning signs of a heart attack, a key cause of cardiac arrest, include those listed below.\n\n- Shortness of breath (more common in women than men)\n- Extreme tiredness (unusual fatigue)\n- Back pain\n- Flu-like symptoms\n- Belly pain, nausea, and vomiting\n- Chest pain, mainly angina (more common in men than women)\n- Repeated dizziness or fainting, especially while exercising hard, sitting, or lying on your back\n- Heart palpitations, or feeling as if your heart is racing, fluttering, or skipping a beat"
+    },
+    {
+     "heading": "When to call your healthcare provider",
+     "body": "Call your healthcare provider if you have warning signs, such as fainting or chest pain, that might signal a higher risk of cardiac arrest. Your provider will do an exam, check your health history, and do tests to help assess your heart health. If you have coronary heart disease or other conditions that may increase your risk of a future cardiac arrest, work with your healthcare team to set up a treatment plan that works for you."
+    },
+    {
+     "heading": "When to call your healthcare provider: Do not ignore symptoms",
+     "body": "People who get medical care for warning signs are 5 times more likely to survive cardiac arrest. If you have a warning sign, see your healthcare provider."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/cardiac-arrest/symptoms"
+  },
+  {
+   "title": "Cardiac Arrest: Emergency Treatment, CPR and AEDs (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "A cardiac arrest is fatal unless treatment begins immediately. Most cardiac arrests occur outside of hospitals. This means that emergency care of the affected person depends on family, friends, or people in the community.\n\nIt is important for everyone to know the symptoms of a cardiac arrest and to act if they see someone having one. Important steps include calling 9-1-1 first, performing CPR, and using an automated external defibrillator (AED). If no one else is around — for example, if a cardiac arrest occurs at home — a family member or caregiver can call 9-1-1 while performing CPR.\n\nAEDs are special defibrillators that untrained bystanders can use. They are often available in public places like airports, office buildings, gyms, and shopping centers. AEDs give an electric shock if they detect a dangerous arrhythmia, such as ventricular fibrillation. The devices “talk” to the user to give step-by-step instructions.\n\nAEDs are not hard to use, but training is very helpful. AED training is often done along with CPR training. Many major health organizations offer classes. Some training is available online. Find a course near you."
+    },
+    {
+     "heading": "Emergency treatment",
+     "body": "Steps to help a person having a cardiac arrest are listed below.\n\n- If you see someone collapse, check to see whether the person responds to shouting and tapping on their body. Check for breathing and a pulse. If the person is not breathing normally and if they do not respond, call 9-1-1 for help.\n- Start CPR.\n- Locate an AED. Follow the AED’s verbal instructions to deliver a shock to restart the heart of the affected person.\n- Naloxone should be given as part of emergency treatment for cardiac arrest possibly caused by opioid overdose. First responders carry naloxone. If the person is known to be at risk of opioid overdose and you are trained to give naloxone, you can treat them before first responders arrive.\n- Continue CPR until first responders arrive and take over. First responders will continue CPR and may use an AED to give more shocks to restore the affected person’s heart rhythm. They may also give medicines through an intravenous (IV) line."
+    },
+    {
+     "heading": "Emergency treatment: Be ready to respond to emergencies in your community.",
+     "body": "Download AED apps on your smartphone. You can find an app that identifies locations of nearby AEDs. You can also find an app that links with 9-1-1 services in participating communities to alert trained citizens that someone near them needs CPR or defibrillation with an AED."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/cardiac-arrest/treatment"
+  },
+  {
+   "title": "Stroke Signs and the FAST Test (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "The signs and symptoms of a stroke often occur quickly. However, they can develop over hours or even days. This sometimes happens when a transient ischemic attack (TIA) — a blockage that breaks up before it damages your brain — turns into a stroke.\n\nThe type of symptoms depends on the type of stroke and the area of the brain that is affected.\n\nSigns of a TIA or stroke may include:\n\n- Sudden confusion, trouble speaking, or trouble understanding speech\n- Sudden numbness or weakness, especially on one side of the body\n- Sudden severe headache with no known cause\n- Sudden trouble seeing from one or both eyes\n- Sudden trouble walking, dizziness, or loss of balance or coordination\n\nThe FAST test can help you remember what to do if you think someone is having a stroke.\n\nF — Face: Ask the person to smile. Does one side of the face droop?\n\nA — Arms: Ask the person to raise both arms. Does one arm drift downward?\n\nS — Speech: Ask the person to repeat a simple phrase. Is their speech slurred or strange?\n\nT — Time: If you observe any of these signs, call 9-1-1 right away. Early treatment is essential.\n\nIf you think you or someone else may be having a TIA or stroke, do not drive to the hospital or let someone else drive you. Call an ambulance so that medical personnel can begin lifesaving treatment on the way to the emergency room. During a stroke, every minute counts."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/stroke/symptoms"
+  },
+  {
+   "title": "Asthma Attacks: What to Do and When to Call 9-1-1 (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Call 9-1-1 if your medicines are not relieving your symptoms during an asthma attack or if breathing is still very hard.\n\nAsthma attacks, or flare-ups, happen when swelling or tightening narrows the airways, making it harder to breathe. During an asthma attack, symptoms get much worse. Attacks can come on quickly or gradually and may be life-threatening. People with asthma that is difficult to treat may get asthma attacks more often."
+    },
+    {
+     "heading": "What does an asthma attack feel like?",
+     "body": "Asthma attacks can be very scary. For some people, an attack starts with coughing. Your chest may feel tight or like someone is sitting on it. Some people say it feels like having the air sucked out of you or trying to suck air in through a straw. You may start to wheeze or feel lightheaded."
+    },
+    {
+     "heading": "Have a plan for asthma attacks",
+     "body": "Follow your asthma action plan to help you know what to do and when to call 9-1-1 for emergency care. You should also use your reliever inhaler as soon as you start to have symptoms. Your asthma action plan should explain how to tell if your asthma is getting worse and when to increase your reliever and controller medicines.\n\nYou may be able to manage an asthma flare-up with just your reliever inhaler. If you have a serious asthma attack or your symptoms do not go away soon after taking your reliever medicine, you may need medical attention."
+    },
+    {
+     "heading": "When to call your healthcare provider",
+     "body": "You should seek care right away if you or your child have symptoms and:\n\n- Have been hospitalized for asthma in the past year or had life-threatening asthma attacks in the past\n- Recently needed corticosteroids taken by mouth to treat asthma\n- Have not been using inhaled corticosteroids\n- Use more than one canister of inhaled short-acting beta2-agonist (SABA) medicine, a reliever medicine, each month\n- Have a mental health condition or an alcohol or drug use disorder\n- Do not closely follow your asthma action plan\n- Have a food allergy\n\nFor young children with asthma, call 9-1-1 if they:\n\n- Seem drowsy, confused, or troubled\n- Have a blue tint to the skin and lips\n- Have a fast heartbeat\n\nCall your provider if:\n\n- Your medicines do not relieve an asthma attack\n- Your peak flow number is low, if you use a peak flow meter"
+    },
+    {
+     "heading": "When to go to the ER",
+     "body": "You should go to the emergency room if your symptoms do not go away soon after taking your at-home medicines or if you have a serious asthma attack. If you need emergency care, you may receive medicines through a nebulizer (a small machine that turns liquid medicine into a mist that you can breathe in) or through an intravenous (IV) line in your arm. In severe circumstances, you may also need oxygen therapy or a ventilator to help you breathe."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/attacks"
+  },
+  {
+   "title": "Asthma Symptoms and Signs It Is Getting Worse (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Symptoms of asthma may include:\n\n- Wheezing, which is a whistling sound when you breathe out\n- Coughing, especially at night or early morning\n- Shortness of breath\n- Chest tightness\n\nOther conditions can cause these symptoms. But in asthma, the symptoms often follow a pattern:\n\n- They come and go over time or within the same day.\n- They start or get worse with viral infections, such as a cold.\n- They are triggered by exercise, allergies, cold air, or breathing too fast from laughing or crying.\n- They are worse at night or in the morning.\n\nAsthma symptoms in young children may look different than symptoms in others. It is also possible for symptoms to change as you get older. Watch out for these signs that your asthma might be getting worse:\n\n- You have symptoms more often than usual, or they feel worse.\n- You need your reliever medicine more often than usual.\n- You wake up at night because of coughing or other asthma symptoms.\n- You have trouble with usual activities, including exercise, because of your asthma."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/symptoms"
+  },
+  {
+   "title": "Asthma Medicines and Action Plans (NHLBI)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Treatment for asthma usually depends on your age, how serious your symptoms are, and how your body responds to medicines. For some people, asthma can be hard to control even after stepping up treatment."
+    },
+    {
+     "heading": "How is asthma treated?",
+     "body": "Some people take daily medicines to control and prevent symptoms. You can also carry medicines, such as a reliever inhaler, to use during an asthma attack. Your healthcare provider may adjust your treatment until your asthma symptoms are controlled."
+    },
+    {
+     "heading": "Quick-relief medicines",
+     "body": "Quick-relief medicines, or relievers, help prevent or ease symptoms during an asthma attack. They may be the only medicines you need if your asthma is mild or happens only with physical activity.\n\nYour healthcare provider will probably prescribe a quick-relief inhaler for you to carry at all times. For the treatment to work well, make sure to learn how to use your asthma inhaler correctly.\n\nThe following are common relievers.\n\n- Inhaled short-acting beta2-agonists (SABAs) open the airways so air can flow through. Side effects can include tremors and rapid heartbeat.\n- Oral corticosteroids reduce swelling in your airways.\n- Short-acting anticholinergics help open the airways quickly. This medicine may be less effective than SABAs, but it is an option for people who may have side effects from SABAs."
+    },
+    {
+     "heading": "Long-term control medicines",
+     "body": "Your healthcare provider may prescribe controller medicines to take daily to help prevent asthma attacks and control symptoms:\n\n- Corticosteroids (steroid hormone medicines) reduce inflammation in the body. They may be taken as a pill or inhaled. The pill form can have more serious side effects than the inhaled form. Over time, high doses can raise your risk of cataracts (clouding of the eye) or osteoporosis. Common side effects from inhaled corticosteroids include a hoarse voice or a mouth infection called thrush.\n- Biologi medicines, such as benralizumab, may help with asthma that is difficult to control. These medicines are injected into a vein or below the skin.\n- Leukotriene modifiers reduce swelling and keep your airways open. Your provider may prescribe these pills alone or with steroid medicine.\n- Inhaled mast cell stabilizers, such as cromolyn, help prevent swelling in your airways when you are around allergens or other asthma triggers.\n- Inhaled long-acting bronchodilators, such as long-acting beta2-agonists (LABAs) or long-acting muscarinic antagonists (LAMAs), may be added to your inhaler to prevent your airways from narrowing.\n- Allergy shots, called subcutaneous immunotherapy (SCIT), turn down the body’s response to allergens."
+    },
+    {
+     "heading": "Create an asthma action plan",
+     "body": "Your healthcare provider will work with you to create a treatment plan for your asthma. An asthma action plan is a written treatment plan that describes the following:\n\n- How to identify allergens or triggers to avoid\n- How to know if you are having an asthma attack and what to do\n- Which medicines to take and when to take them\n- When to call your provider or go to the emergency room\n- Whom to contact in an emergency\n\nYou can download a sample Asthma Action Plan and use it to write down the plan you create with your provider to help you monitor and treat your symptoms."
+    },
+    {
+     "heading": "Treating specific asthma types",
+     "body": "Some people only have asthma symptoms in certain situations or around specific triggers. Your healthcare provider may give you special instructions to help with your asthma in those cases."
+    },
+    {
+     "heading": "Exercise-induced asthma",
+     "body": "In exercise-induced asthma, your symptoms start or get worse when you do physical activity. Your provider may recommend taking a reliever medicine before exercising to prevent symptoms short term. If you are taking inhaled corticosteroids to control your asthma, you may have fewer symptoms when you exercise. Training regularly and warming up before you exercise can also help prevent symptoms.\n\nTalk to your provider if your asthma symptoms make it difficult to stay physically active. It may be a sign that your asthma is not well controlled or is getting worse."
+    },
+    {
+     "heading": "Occupational asthma",
+     "body": "Occupational asthma is asthma that develops or gets worse in the workplace. It can happen in an adult who is around allergens, for example, dust and mold, or other sensitizing agents at work.\n\nOnce you become sensitized to a substance, being around a very small amount can be enough to trigger serious symptoms. Your asthma can continue to get worse every time you are around the trigger. To prevent asthma flare-ups, you should remove the sensitizing agent from your place of work and avoid any further contact."
+    },
+    {
+     "heading": "Allergic asthma",
+     "body": "Allergic asthma often starts at a young age. Breathing can become difficult when you are around certain allergens, such as pollens, dust mites, or mold. Avoiding the allergens that trigger your asthma can help control your symptoms and prevent flare-ups. Typical treatment includes inhaled corticosteroids. Your healthcare provider may also recommend adding biologic medicines or allergy shots, which can be specific to the allergen.\n\nSome people only have seasonal allergic asthma, which means that they do not have symptoms outside of a certain pollen season. Your provider may recommend medicines, such as a daily controller or a reliever inhaler, from the start of your allergy season until a few weeks after the season ends."
+    },
+    {
+     "heading": "Nocturnal asthma",
+     "body": "Nocturnal asthma refers to asthma symptoms that occur at night. It is not a separate type of asthma, but a sign of poor symptom control. It is common for asthma symptoms to get worse at night or in the early morning. Sometimes, your symptoms may wake you up at night. If this happens often, it may be a sign that your asthma is not well controlled.\n\nBeing around allergens while you sleep may also worsen your symptoms at night. Knowing your asthma triggers and avoiding them at night can help you manage your asthma and sleep better."
+    }
+   ],
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan"
+  },
+  {
+   "title": "Low Blood Glucose (Hypoglycemia) (NIDDK)",
+   "sections": [
+    {
+     "heading": "What is low blood glucose?",
+     "body": "Low blood glucose, also called low blood sugar or hypoglycemia, occurs when the level of glucose in your blood drops below what is healthy for you. For many people with diabetes, this means a blood glucose reading lower than 70 milligrams per deciliter (mg/dL). Your number might be different, so check with your doctor or health care team to find out what blood glucose level is low for you."
+    },
+    {
+     "heading": "How common is low blood glucose?",
+     "body": "Low blood glucose is common among people with type 1 diabetes and among people with type 2 diabetes who take insulin or some other diabetes medicines. In a large global study of people with diabetes who take insulin, 4 in 5 people with type 1 diabetes and nearly half of those with type 2 diabetes reported a low blood sugar event at least once over a 4-week period.\n\nSeverely low blood glucose, defined as when your blood glucose level drops so low you can’t treat it yourself, is less common. Among U.S. adults with diabetes who take insulin or some diabetes medicines that help the pancreas release insulin into the blood, 2 in 100 may develop severely low blood glucose each year."
+    },
+    {
+     "heading": "Who is more likely to develop low blood glucose?",
+     "body": "You are more likely to develop low blood glucose if you\n\n- have type 1 diabetes\n- take insulin or some other diabetes medicines\n- are age 65 or older\n- had low blood glucose before\n- have other health problems, such as kidney disease, heart disease, or cognitive impairment"
+    },
+    {
+     "heading": "What are the symptoms of low blood glucose?",
+     "body": "Symptoms of low blood glucose tend to come on quickly and can vary from person to person. As Table 1 below shows, symptoms can range from mild to severe.\n\nTable 1. Symptoms of low blood glucose\n\nMild-to-Moderate\n\nSevere\n\nIf your blood glucose level is low, you may feel\n\n- shaky or jittery\n- hungry\n- tired\n- dizzy, lightheaded, confused, or irritable\n- your heart is beating too fast or not steadily\n- you have a headache\n- you can’t see or speak clearly\n\nIf your blood glucose level is very low, your brain may stop working as it should. You may\n\n- lose consciousness\n- have a seizure\n\nSevere hypoglycemia is dangerous and needs to be treated right away."
+    },
+    {
+     "heading": "What are the symptoms of low blood glucose?: Low blood glucose during sleep",
+     "body": "Your blood glucose level can drop while you sleep and stay low for several hours, causing serious problems. Symptoms of low blood glucose while you sleep can include\n\n- crying out or having nightmares\n- sweating enough to make your pajamas or sheets damp\n- feeling tired, irritable, or confused after waking up\n\nAlthough you may not wake up or notice any symptoms, low blood glucose can interfere with your sleep, which may affect your quality of life, mood, and ability to work. Having low blood glucose during sleep can also make you less likely to notice and respond to symptoms of low blood glucose during the day."
+    },
+    {
+     "heading": "What are the complications of low blood glucose?",
+     "body": "Mild-to-moderate low blood glucose can be easily treated. But severely low blood glucose can cause serious complications, including passing out, coma, or death.\n\nRepeated episodes of low blood glucose can lead to\n\n- high blood glucose levels, if worry or fear of low blood glucose keeps you from taking the medicines you need to manage your diabetes\n- hypoglycemia unawareness, a condition in which you don’t notice any symptoms of low blood glucose until your blood glucose level has dropped very low"
+    },
+    {
+     "heading": "What causes low blood glucose in people with diabetes?",
+     "body": "Low blood glucose levels can be a side effect of insulin or some other medicines that help your pancreas release insulin into your blood. Taking these can lower your blood glucose level.\n\nInsulin and some other diabetes medicines can lower your blood glucose level.\n\nTwo types of diabetes pills can cause low blood glucose\n\n- sulfonylureas, usually taken once or twice per day, which increase insulin over several hours\n- meglitinides, taken before meals to promote a short-term increase in insulin\n\nThe following may also lower your blood glucose level\n\n- Not eating or drinking enough carbohydrates (carbs). When you eat foods or drink beverages that contain carbohydrates, your digestive system breaks down the sugars and starches into glucose. Glucose then enters your bloodstream and raises your blood glucose level. If you don’t eat enough carbohydrates or skip or delay any meals, your blood glucose level could drop lower than what is healthy for you.\n- Fasting. Continuing to take medicines that lower your glucose level while fasting for a medical procedure or for other purposes can also increase the risk for low blood glucose.\n- Increasing physical activity. Increasing your physical activity level beyond your usual routine can lower your blood glucose level for up to 24 hours after the activity. Learn more about diabetes, eating, and physical activity.\n- Drinking too much alcohol without enough food. Alcohol makes it harder for your body to keep your blood glucose level steady, especially if you haven’t eaten in a while. Alcohol can also keep you from feeling the first symptoms of low blood glucose, which can lead to severe symptoms.\n- Being sick. When you’re sick, you may not be able to eat as much or keep food down, which can lower blood glucose."
+    },
+    {
+     "heading": "How can I prevent low blood glucose if I have diabetes?",
+     "body": "If you take insulin or other medicines that lower blood glucose, the following actions may help you prevent low blood glucose levels.\n\n- Ask your doctor or health care team how to check your blood glucose level. The most common way to do so is by using a blood glucose meter. If you have hypoglycemia unawareness or have low blood glucose often, a continuous glucose monitor (CGM) may be a good option. The CGM measures your blood glucose level at regular times and can sound an alarm if it drops below your target range.\n- Make sure your regular eating plan includes meals, snacks, and beverages with enough carbohydrates to help keep your blood glucose level in your target range. Carry a source of fast-acting carbohydrate, such as glucose tablets or a juice box, with you. Also, if you drink alcoholic beverages, it’s safer to eat some food at the same time.\n- Be safe during exercise or physical activity. Physical activity can lower your blood glucose during the activity and for hours afterward. You may need to check your blood glucose before, during, and after physical activity and adjust your medicine or carbohydrate intake to prevent low blood glucose. For example, you might eat a snack before physical activity to prevent low blood glucose.\n- Work with your doctor or health care team to prevent low blood glucose. Ask your team if any of your diabetes medicines can cause low blood glucose and how you can prevent and treat symptoms. Work with your doctor or health care team to adjust your diabetes management plan as needed.\n\nSome CGMs let you track your blood glucose levels using a small sensor attached to your arm or abdomen and view the information on your smartphone."
+    },
+    {
+     "heading": "How do I treat low blood glucose?",
+     "body": "If your blood glucose is below your target, take 15 to 20 grams of glucose or carbohydrates right away.\n\nIf you begin to feel one or more symptoms of low blood glucose, check your blood glucose level. If your blood glucose level is below your target or less than 70 mg/dL, follow these steps\n\n- Eat or drink 15 to 20 grams of glucose or carbohydrates right away. Examples include\n  - four glucose tablets or one tube of glucose gel.\n  - 1/2 cup (4 ounces) of fruit juice—not low-calorie or reduced-sugar juice. If you have kidney disease, don’t drink orange juice because it has a lot of potassium. Apple, grape, or cranberry juice are good options.\n  - 1/2 can (4 to 6 ounces) of soda—not low-calorie or reduced-sugar soda.\n  - 1 tablespoon of sugar, honey, or corn syrup.\n- Wait 15 minutes and check your blood glucose level again. If your glucose level is still low, eat or drink another 15 to 20 grams of glucose or carbohydrates.\n- Check your blood glucose level again after another 15 minutes. Repeat these steps until your glucose level is back to your target range.\n- If your next meal is more than 1 hour away, have a snack to keep your blood glucose level within a range that is healthy for you. Try crackers or a piece of fruit."
+    },
+    {
+     "heading": "How do I treat low blood glucose?: Treating low blood glucose if you take medicines that slow down digestion",
+     "body": "Some diabetes medicines slow down the digestion of carbohydrates to keep blood glucose levels from rising too high after you eat. If you develop low blood glucose while taking these medicines, you will need to take glucose tablets or glucose gel right away. Eating or drinking other sources of carbohydrates won’t raise your blood glucose level quickly enough."
+    },
+    {
+     "heading": "What if I have severe low blood glucose and can’t treat myself?",
+     "body": "Glucagon—a hormone that raises blood glucose levels—is the best way to treat severely low blood glucose. Available as an injection or a nasal spray, glucagon will quickly raise your blood glucose level. Your doctor can prescribe you a glucagon kit for use in case of an emergency.\n\nIf your blood glucose level drops very low, you won’t be able to treat it by yourself. Be prepared to address severely low blood glucose by\n\n- talking with your doctor or health care team about when and how to use a glucagon emergency kit. If you have an emergency kit, regularly check the date on the package to make sure it hasn’t expired.\n- teaching your family, friends, and coworkers when and how to give you glucagon. Tell them to call 911 right away after giving you glucagon or if you don’t have a glucagon emergency kit with you.\n- wearing a medical alert identification bracelet or pendant. A medical alert ID tells other people that you have diabetes and need care right away. Getting prompt care can help prevent the serious problems that low blood glucose levels can cause."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia"
+  }
+ ]
+}

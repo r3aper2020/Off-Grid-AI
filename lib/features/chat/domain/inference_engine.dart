@@ -50,6 +50,16 @@ class GenerationToken extends GenerationEvent {
   final String text;
 }
 
+/// What a reply is doing before (and while) text arrives.
+enum GenerationPhase { searching, loadingModel, thinking, writing }
+
+/// Progress update; engines emit [GenerationPhase.loadingModel] and
+/// [GenerationPhase.thinking] before the first token.
+class GenerationProgress extends GenerationEvent {
+  const GenerationProgress(this.phase);
+  final GenerationPhase phase;
+}
+
 class GenerationDone extends GenerationEvent {
   const GenerationDone();
 }

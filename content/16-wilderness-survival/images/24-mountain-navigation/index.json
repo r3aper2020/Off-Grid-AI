@@ -1,0 +1,26 @@
+[
+ {
+  "file": "tab-7-1.webp",
+  "caption": "Table 7-1. Whiteout navigation card, example",
+  "kind": "table",
+  "page": 165,
+  "bbox": [
+   84.0,
+   99.0,
+   546.0,
+   320.3
+  ]
+ },
+ {
+  "file": "tab-7-2.webp",
+  "caption": "Table 7-2. Time-distance formulas",
+  "kind": "table",
+  "page": 166,
+  "bbox": [
+   84.0,
+   436.2,
+   528.0,
+   578.3
+  ]
+ }
+]

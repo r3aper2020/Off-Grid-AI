@@ -1,0 +1,38 @@
+[
+ {
+  "file": "tab-7-1.webp",
+  "caption": "Table 7-1. General Indicators of Shock",
+  "kind": "table",
+  "page": 98,
+  "bbox": [
+   66.0,
+   309.1,
+   519.5,
+   583.2
+  ]
+ },
+ {
+  "file": "fig-7-1.webp",
+  "caption": "Figure 7-1. Shock recovery position",
+  "kind": "figure",
+  "page": 99,
+  "bbox": [
+   92.5,
+   257.1,
+   537.4,
+   408.6
+  ]
+ },
+ {
+  "file": "fig-7-2.webp",
+  "caption": "Figure 7-2. Casualty's head turned to the side",
+  "kind": "figure",
+  "page": 100,
+  "bbox": [
+   151.0,
+   327.2,
+   442.6,
+   502.7
+  ]
+ }
+]

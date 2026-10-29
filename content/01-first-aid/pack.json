@@ -1,0 +1,11 @@
+{
+ "id": "first-aid",
+ "title": "Emergency Medicine & First Aid",
+ "category": "medical",
+ "publisher": "CDC and U.S. Army (ATP 4-02.11, 2026)",
+ "attribution": "Text from U.S. Centers for Disease Control and Prevention (CDC) web pages and U.S. Army ATP 4-02.11, Casualty Response, Tactical Combat Casualty Care, and First Aid (March 2026), approved for public release; distribution is unlimited. Reformatted into sections without changing substance; figures not included. Use does not imply endorsement by CDC, HHS, the U.S. Army, DoD, or the U.S. Government.",
+ "description": "Current first aid: severe bleeding and tourniquets, airway, breathing and chest injuries, shock, burns, fractures and splinting, head and eye injuries, bites and stings, heat and cold injuries, chemical/biological/radiological first aid, stress, moving casualties, and first aid kits.",
+ "version": "2026.10.29.4",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "review": "verified"
+}

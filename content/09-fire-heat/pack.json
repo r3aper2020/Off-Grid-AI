@@ -1,0 +1,11 @@
+{
+ "id": "fire-heat",
+ "title": "Fire & Heating Safety",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "U.S. Fire Administration (FEMA)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Fire Administration (Federal Emergency Management Agency) web pages on heating fire safety and fire extinguishers, reformatted into sections without changing substance; images not included (extinguisher class labels taken from the page's own image descriptions). Use does not imply endorsement by USFA, FEMA, DHS, or the U.S. Government.",
+ "description": "Preventing home heating fires, and choosing, using (PASS) and maintaining fire extinguishers, including which extinguisher class fits which fire."
+}

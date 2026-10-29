@@ -1,0 +1,55 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "fire-heat",
+ "title": "Fire & Heating Safety",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "publisher": "U.S. Fire Administration (FEMA)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Preventing home heating fires, and choosing, using (PASS) and maintaining fire extinguishers, including which extinguisher class fits which fire.",
+ "attribution": "Text from U.S. Fire Administration (Federal Emergency Management Agency) web pages on heating fire safety and fire extinguishers, reformatted into sections without changing substance; images not included (extinguisher class labels taken from the page's own image descriptions). Use does not imply endorsement by USFA, FEMA, DHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Heating Fire Safety (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Although trending downward since the early 1980s, heating fires remained the second leading cause of home fires in 2021. An estimated 32,200 home heating fires were reported to fire departments within the United States. These fires caused an estimated 190 deaths, 625 injuries and $442 million in property loss.\n\nDid you know:\n\nHome portable heater fires were only 3% of all home heating fires annually for 2017-2019, but they accounted for 41% of fatal heating fires in homes.\n\nMore home heating fire statistics\n\nPrevent home heating fires: Remind residents about safe heating with space heaters, wood stoves and fireplaces with our free outreach resources."
+    },
+    {
+     "heading": "Messages to share",
+     "body": "Keep anything that can burn at least 3 feet from all heat sources including fireplaces, wood stoves, radiators, space heaters or candles.\n\nNever use an oven to heat your home.\n\nTurn space heaters off when leaving the room or going to bed.\n\nMaintain heating equipment and chimneys by having them cleaned and inspected each year by a professional."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/"
+  },
+  {
+   "title": "Choosing and Using Fire Extinguishers (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "It's important to understand that with proper training and education, fire extinguishers can save lives and property. Many adults might not know how or when to use fire extinguishers. Fire departments can help with fire extinguisher training and answer questions that community members may have.\n\nFire extinguishers contain different extinguishing agents such as water, carbon dioxide, dry chemical or wet chemical, depending on the kind of fire the extinguisher is intended for.\n\nDid you know:\n\nThere are 5 primary types of fire extinguishers, each designed to put out different kinds of fires.\n\nclass A\n\nFor use with ordinary materials like cloth, wood and paper.\n\nOften found in homes and businesses\n\nclass B\n\nFor use with combustible and flammable liquids like grease, gasoline, oil and oil-based paints.\n\nOften found in homes and businesses\n\nclass C\n\nFor use with electrical equipment like appliances, tools or other equipment that is plugged into an outlet. Class C fire extinguishers use an agent that doesn't conduct electricity.\n\nOften found in homes and businesses\n\nclass D\n\nFor use with flammable metals.\n\nOften found in factories\n\nclass K\n\nFor use with vegetable oils, animal oils and fats in cooking appliances.\n\nOften found in commercial kitchens (restaurants, cafeterias, catering businesses)\n\nThere are also multipurpose fire extinguishers that might be labeled \"B-C\" or \"A-B-C\" that can be used on most types of home fires. Most home improvement stores carry multipurpose fire extinguishers that cover Class A through Class C."
+    },
+    {
+     "heading": "Messages to share",
+     "body": "- Always look for the “UL Listed” or “ULC Listed” label on a fire extinguisher to ensure it is certified for use by a nationally recognized testing laboratory.\n- Fire extinguishers vary in size and weight, but it is recommended to select the largest fire extinguisher that a user can safely and comfortably operate.\n- How to read the classification label: The number before the “A” represents a multiple of 1.25 gallons of water whereas the number before the “B” represents a multiple of the area or size in square feet of fire to be extinguished. For example, a fire extinguisher classification of 1A:10B:C indicates that it provides the equivalent of 1.25 gallons of water applied on a Class A fire. The number 10 indicates it can extinguish Class B fires up to 10 square feet in size, and the C indicates that it can be used for Class C fires.\n\nEncourage people to contact their fire department if they would like fire extinguisher training or have any questions. Help spread the word by sharing the following information and tips for using and maintaining fire extinguishers."
+    },
+    {
+     "heading": "Help people decide when to use a fire extinguisher",
+     "body": "Consider providing a checklist to help people prepare to use a fire extinguisher. For example:\n\n- Have I alerted others in the building that there is a fire?\n- Has someone called the fire department?\n- Am I physically able to use a fire extinguisher? Young children and older adults should not use fire extinguishers.\n- Is the fire small and contained in a single object or to a surface (like a pan or a wastebasket)?\n- Am I safe from the fire's toxic smoke?\n- Do I have a clear escape route?\n\nUse a fire extinguisher when all of these questions are answered “yes.” If you're unsure about whether it is safe to use a fire extinguisher, and for all other situations, alert others, leave the building, and call 911 from a mobile or neighbor's phone."
+    },
+    {
+     "heading": "Teach people how to use a fire extinguisher",
+     "body": "When operating a fire extinguisher, tell residents to remember the word PASS:\n\n- Pull the pin. Hold the extinguisher with the nozzle pointing away from you and release the locking mechanism.\n- Aim low. Point the extinguisher at the base of the fire.\n- Squeeze the lever slowly and evenly.\n- Sweep the nozzle from side-to-side."
+    },
+    {
+     "heading": "Educate on the importance of fire extinguisher maintenance",
+     "body": "Remind community residents to check fire extinguishers for:\n\nEasy access in an emergency\n\nBe sure nothing is blocking or limiting your ability to reach it.\n\nThe recommended pressure level\n\nMany extinguishers have gauges that show when pressure is too high or too low.\n\nWorking parts\n\nMake sure the can, hoses and nozzles are not damaged, dented or rusted.\n\nCleanliness\n\nRemove any dust, oil or grease that might be on the outside of the extinguisher.\n\nGuidelines and instructions\n\nSome extinguishers need to be shaken monthly; others need to be pressure tested every few years. You can recharge some fire extinguishers while others will need to be replaced if the pressure is too low."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers/"
+  }
+ ]
+}

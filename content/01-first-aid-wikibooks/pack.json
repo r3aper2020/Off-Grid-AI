@@ -1,0 +1,11 @@
+{
+ "id": "first-aid-wikibooks",
+ "title": "First Aid (Wikibooks)",
+ "category": "medical",
+ "version": "2026.10.29.1",
+ "review": "needs-review",
+ "publisher": "Wikibooks contributors",
+ "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+ "attribution": "Text from the Wikibooks book \"First Aid\" (https://en.wikibooks.org/wiki/First_Aid) by its contributors; each document links to the exact revision used, whose history lists the authors. Reformatted into sections. This pack is distributed under the same CC BY-SA 4.0 license.",
+ "description": "Broad first aid coverage: assessment, CPR, choking, bleeding, shock, burns, injuries, medical emergencies, poisoning and wilderness first aid. Volunteer-written; some guidance (e.g. CPR rate and depth) follows older guidelines."
+}

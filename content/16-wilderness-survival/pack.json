@@ -1,0 +1,11 @@
+{
+ "id": "wilderness-survival",
+ "title": "Wilderness & Environmental Survival",
+ "category": "guide",
+ "review": "verified",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "publisher": "U.S. Army (ATP 3-50.21, TC 3-97.61, ATP 3-90.97, ATP 3-90.99)",
+ "attribution": "Text from U.S. Army ATP 3-50.21 Survival (2018), TC 3-97.61 Military Mountaineering (2025), ATP 3-90.97 Mountain Warfare and Cold Weather Operations (2016), and ATP 3-90.99 Desert Operations (2021, Change 1 2025), all approved for public release; distribution is unlimited. Survival-relevant chapters only; reformatted into sections; figures not included. Use does not imply endorsement by the U.S. Army, DoD, or the U.S. Government.",
+ "description": "Survival medicine, water, edible plants, trapping and fishing, fire, shelter, navigation, tools, knots and rope, plus mountain, cold-weather and desert environments, altitude sickness, avalanches, stream crossings, rope bridges and rescue.",
+ "version": "2026.10.29.4"
+}

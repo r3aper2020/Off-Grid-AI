@@ -1,0 +1,170 @@
+[
+ {
+  "file": "fig-6-1.webp",
+  "caption": "Figure 6-1. Types of naturally occurring shelters",
+  "kind": "figure",
+  "page": 138,
+  "bbox": [
+   115.0,
+   112.5,
+   479.3,
+   348.9
+  ]
+ },
+ {
+  "file": "fig-6-2.webp",
+  "caption": "Figure 6-2. Poncho lean-to",
+  "kind": "figure",
+  "page": 140,
+  "bbox": [
+   125.5,
+   464.2,
+   468.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-3.webp",
+  "caption": "Figure 6-3. Poncho tent using overhanging branch",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   134.5,
+   449.2,
+   495.2,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-4.webp",
+  "caption": "Figure 6-4. Poncho tent using center support",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   134.5,
+   178.4,
+   495.2,
+   439.2
+  ]
+ },
+ {
+  "file": "fig-6-5.webp",
+  "caption": "Figure 6-5. Types of manmade shelters",
+  "kind": "figure",
+  "page": 142,
+  "bbox": [
+   130.0,
+   326.2,
+   464.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-6.webp",
+  "caption": "Figure 6-6. A-frame shelters",
+  "kind": "figure",
+  "page": 143,
+  "bbox": [
+   130.7,
+   208.5,
+   499.4,
+   431.4
+  ]
+ },
+ {
+  "file": "fig-6-7.webp",
+  "caption": "Figure 6-7. Snow Cave",
+  "kind": "figure",
+  "page": 144,
+  "bbox": [
+   148.0,
+   219.8,
+   446.1,
+   475.7
+  ]
+ },
+ {
+  "file": "fig-6-8.webp",
+  "caption": "Figure 6-8. Tree-Pit Snow Shelter",
+  "kind": "figure",
+  "page": 145,
+  "bbox": [
+   141.2,
+   453.8,
+   489.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-9.webp",
+  "caption": "Figure 6-9. Raised Platform Shelter",
+  "kind": "figure",
+  "page": 145,
+  "bbox": [
+   120.2,
+   105.3,
+   510.5,
+   286.2
+  ]
+ },
+ {
+  "file": "fig-6-10.webp",
+  "caption": "Figure 6-10-. Field-expedient Lean-to and Fire Reflector",
+  "kind": "figure",
+  "page": 146,
+  "bbox": [
+   125.5,
+   246.8,
+   468.2,
+   509.8
+  ]
+ },
+ {
+  "file": "fig-6-11.webp",
+  "caption": "Figure 6-11-. Below Ground Desert Shelter",
+  "kind": "figure",
+  "page": 147,
+  "bbox": [
+   150.2,
+   315.4,
+   479.3,
+   617.8
+  ]
+ },
+ {
+  "file": "fig-6-12.webp",
+  "caption": "Figure 6-12-. Swamp bed",
+  "kind": "figure",
+  "page": 148,
+  "bbox": [
+   116.5,
+   498.8,
+   477.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-13.webp",
+  "caption": "Figure 6-13. Debris hut",
+  "kind": "figure",
+  "page": 149,
+  "bbox": [
+   163.8,
+   468.8,
+   466.2,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-14.webp",
+  "caption": "Figure 6-14. Placement of ventilation holes in a snow cave",
+  "kind": "figure",
+  "page": 150,
+  "bbox": [
+   139.1,
+   458.2,
+   455.0,
+   715.7
+  ]
+ }
+]

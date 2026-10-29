@@ -1,0 +1,11 @@
+{
+ "id": "vehicle-operation",
+ "title": "Vehicle Operation & Recovery",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "U.S. Army (TC 21-305-20, Manual for the Wheeled Vehicle Operator, 2016)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Army TC 21-305-20/AFMAN 24-306(I), Manual for the Wheeled Vehicle Operator (2016), approved for public release; distribution is unlimited. Civilian-relevant chapters only; reformatted into sections without changing substance; figures not included. Use does not imply endorsement by the U.S. Army, U.S. Air Force, DoD, or the U.S. Government.",
+ "description": "Safe driving practices and maneuvers, skids, brake failure and other driving emergencies, road hazards, operator checks and maintenance, off-road and winter driving, getting a stuck vehicle out (winching, anchors, field expedients), and rollover prevention. Written for military trucks; some forms and procedures are Army-specific."
+}

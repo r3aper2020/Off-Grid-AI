@@ -1,0 +1,290 @@
+[
+ {
+  "file": "tab-p5-1.webp",
+  "caption": "Recommended process time for Chicken or Rabbit in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   105.8,
+   312.6,
+   504.9,
+   491.0
+  ]
+ },
+ {
+  "file": "tab-p5-2.webp",
+  "caption": "Recommended process time for Chicken or Rabbit in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   105.8,
+   111.7,
+   504.9,
+   290.1
+  ]
+ },
+ {
+  "file": "tab-p6-1.webp",
+  "caption": "Recommended process time for Ground or Chopped Meat in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   95.5,
+   458.8,
+   494.6,
+   565.1
+  ]
+ },
+ {
+  "file": "tab-p6-2.webp",
+  "caption": "Recommended process time for Ground or Chopped Meat in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   95.5,
+   330.1,
+   494.6,
+   436.5
+  ]
+ },
+ {
+  "file": "tab-p7-1.webp",
+  "caption": "Recommended process time for Strips, Cubes, or Chunks of Meat in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   117.2,
+   633.8,
+   516.3,
+   740.2
+  ]
+ },
+ {
+  "file": "tab-p7-2.webp",
+  "caption": "Recommended process time for Strips, Cubes, or Chunks of Meat in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   117.2,
+   505.2,
+   516.3,
+   611.5
+  ]
+ },
+ {
+  "file": "tab-p7-3.webp",
+  "caption": "Recommended process time for Meat Stock in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   117.2,
+   172.0,
+   516.3,
+   278.4
+  ]
+ },
+ {
+  "file": "tab-p7-4.webp",
+  "caption": "Recommended process time for Meat Stock in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   117.2,
+   43.4,
+   516.3,
+   149.8
+  ]
+ },
+ {
+  "file": "tab-p8-1.webp",
+  "caption": "Recommended process time for Chile Con Carne in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   97.0,
+   333.3,
+   496.1,
+   421.6
+  ]
+ },
+ {
+  "file": "tab-p8-2.webp",
+  "caption": "Recommended process time for Chile Con Carne in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   97.0,
+   222.4,
+   496.1,
+   310.8
+  ]
+ },
+ {
+  "file": "tab-p9-1.webp",
+  "caption": "Recommended process time for Clams in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   107.0,
+   455.0,
+   506.1,
+   561.3
+  ]
+ },
+ {
+  "file": "tab-p9-2.webp",
+  "caption": "Recommended process time for Clams in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   107.0,
+   326.3,
+   506.1,
+   432.7
+  ]
+ },
+ {
+  "file": "tab-p10-1.webp",
+  "caption": "Recommended process time for King and Dungeness Crab Meat in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 10,
+  "bbox": [
+   97.0,
+   634.5,
+   496.1,
+   740.9
+  ]
+ },
+ {
+  "file": "tab-p10-2.webp",
+  "caption": "Recommended process time for King and Dungeness Crab Meat in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 10,
+  "bbox": [
+   97.0,
+   505.9,
+   496.1,
+   612.2
+  ]
+ },
+ {
+  "file": "tab-p11-1.webp",
+  "caption": "Recommended process time for Fish in Pint Jars in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 11,
+  "bbox": [
+   115.2,
+   653.0,
+   514.3,
+   741.4
+  ]
+ },
+ {
+  "file": "tab-p11-2.webp",
+  "caption": "Recommended process time for Fish in Pint Jars in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 11,
+  "bbox": [
+   115.2,
+   542.4,
+   514.3,
+   630.8
+  ]
+ },
+ {
+  "file": "tab-p12-1.webp",
+  "caption": "Recommended process time for Fish in Quart Jars in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 12,
+  "bbox": [
+   96.2,
+   407.4,
+   495.4,
+   495.7
+  ]
+ },
+ {
+  "file": "tab-p12-2.webp",
+  "caption": "Recommended process time for Fish in Quart Jars in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 12,
+  "bbox": [
+   96.2,
+   296.7,
+   495.4,
+   385.1
+  ]
+ },
+ {
+  "file": "tab-p13-1.webp",
+  "caption": "Recommended process time for Oysters in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   106.0,
+   646.2,
+   505.1,
+   741.7
+  ]
+ },
+ {
+  "file": "tab-p13-2.webp",
+  "caption": "Recommended process time for Oysters in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   106.0,
+   528.1,
+   505.1,
+   623.6
+  ]
+ },
+ {
+  "file": "tab-p14-1.webp",
+  "caption": "Recommended process time for Smoked Fish in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 14,
+  "bbox": [
+   96.0,
+   653.4,
+   495.1,
+   741.7
+  ]
+ },
+ {
+  "file": "tab-p14-2.webp",
+  "caption": "Recommended process time for Smoked Fish in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 14,
+  "bbox": [
+   96.0,
+   542.5,
+   495.1,
+   630.8
+  ]
+ },
+ {
+  "file": "tab-p15-1.webp",
+  "caption": "Recommended process time for Tuna in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 15,
+  "bbox": [
+   112.7,
+   646.2,
+   511.8,
+   741.7
+  ]
+ },
+ {
+  "file": "tab-p15-2.webp",
+  "caption": "Recommended process time for Tuna in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 15,
+  "bbox": [
+   112.7,
+   528.1,
+   511.8,
+   623.6
+  ]
+ }
+]

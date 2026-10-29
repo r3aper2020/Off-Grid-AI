@@ -1,0 +1,26 @@
+[
+ {
+  "file": "tab-1-1.webp",
+  "caption": "Table 1-1. SERE proficiencies",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   90.1,
+   222.2,
+   540.0,
+   320.9
+  ]
+ },
+ {
+  "file": "fig-1-1.webp",
+  "caption": "Figure 1-1. Survival acronym",
+  "kind": "figure",
+  "page": 16,
+  "bbox": [
+   157.7,
+   162.3,
+   435.7,
+   428.7
+  ]
+ }
+]

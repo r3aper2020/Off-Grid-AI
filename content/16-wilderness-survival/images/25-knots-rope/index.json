@@ -1,0 +1,470 @@
+[
+ {
+  "file": "fig-8-1.webp",
+  "caption": "Figure 8-1. Kernmantle rope construction",
+  "kind": "figure",
+  "page": 169,
+  "bbox": [
+   92.5,
+   65.2,
+   536.8,
+   276.9
+  ]
+ },
+ {
+  "file": "fig-8-2.webp",
+  "caption": "Figure 8-2. Types of webbing: tubular joined with a knot and a sewn webbing",
+  "kind": "figure",
+  "page": 171,
+  "bbox": [
+   92.5,
+   300.6,
+   537.8,
+   629.2
+  ]
+ },
+ {
+  "file": "fig-8-3.webp",
+  "caption": "Figure 8-3. Slings and runners",
+  "kind": "figure",
+  "page": 172,
+  "bbox": [
+   74.5,
+   244.5,
+   519.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-4.webp",
+  "caption": "Figure 8-4. Carabiner components",
+  "kind": "figure",
+  "page": 173,
+  "bbox": [
+   92.5,
+   346.5,
+   537.8,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-5.webp",
+  "caption": "Figure 8-5. Improper carabiner loading",
+  "kind": "figure",
+  "page": 174,
+  "bbox": [
+   74.5,
+   307.5,
+   519.7,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-6.webp",
+  "caption": "Figure 8-6. Examples of rope-tying terminology",
+  "kind": "figure",
+  "page": 176,
+  "bbox": [
+   74.5,
+   376.5,
+   519.4,
+   715.7
+  ]
+ },
+ {
+  "file": "tab-8-1.webp",
+  "caption": "Table 8-1. Knotted kernmantle rope retained strength (single strand)",
+  "kind": "table",
+  "page": 177,
+  "bbox": [
+   84.0,
+   186.9,
+   485.4,
+   350.1
+  ]
+ },
+ {
+  "file": "fig-8-7.webp",
+  "caption": "Figure 8-7. Overhand and inline figure eight",
+  "kind": "figure",
+  "page": 178,
+  "bbox": [
+   74.5,
+   172.4,
+   519.5,
+   538.5
+  ]
+ },
+ {
+  "file": "fig-8-8.webp",
+  "caption": "Figure 8-8. Figure-eight slip knot",
+  "kind": "figure",
+  "page": 179,
+  "bbox": [
+   84.0,
+   202.6,
+   537.5,
+   723.2
+  ]
+ },
+ {
+  "file": "fig-8-9.webp",
+  "caption": "Figure 8-9. Figure eight on a bight",
+  "kind": "figure",
+  "page": 180,
+  "bbox": [
+   66.0,
+   391.0,
+   519.5,
+   657.0
+  ]
+ },
+ {
+  "file": "fig-8-10.webp",
+  "caption": "Figure 8-10. Rerouted figure-eight knot",
+  "kind": "figure",
+  "page": 181,
+  "bbox": [
+   92.5,
+   450.1,
+   537.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-11.webp",
+  "caption": "Figure 8-11. Two-loop figure eight",
+  "kind": "figure",
+  "page": 182,
+  "bbox": [
+   74.5,
+   384.1,
+   519.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-12.webp",
+  "caption": "Figure 8-12. Directional figure eight",
+  "kind": "figure",
+  "page": 183,
+  "bbox": [
+   92.5,
+   388.5,
+   537.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-13.webp",
+  "caption": "Figure 8-13. Alpine butterfly knot",
+  "kind": "figure",
+  "page": 184,
+  "bbox": [
+   75.0,
+   261.1,
+   518.7,
+   715.2
+  ]
+ },
+ {
+  "file": "fig-8-14.webp",
+  "caption": "Figure 8-14. Figure-eight bend",
+  "kind": "figure",
+  "page": 185,
+  "bbox": [
+   93.0,
+   187.8,
+   537.0,
+   643.3
+  ]
+ },
+ {
+  "file": "fig-8-15.webp",
+  "caption": "Figure 8-15. Water knot",
+  "kind": "figure",
+  "page": 186,
+  "bbox": [
+   66.0,
+   117.4,
+   519.7,
+   668.4
+  ]
+ },
+ {
+  "file": "fig-8-16.webp",
+  "caption": "Figure 8-16. Flat overhand",
+  "kind": "figure",
+  "page": 187,
+  "bbox": [
+   83.5,
+   134.5,
+   546.9,
+   584.1
+  ]
+ },
+ {
+  "file": "fig-8-17.webp",
+  "caption": "Figure 8-17. Double fisherman\u2019s knot",
+  "kind": "figure",
+  "page": 188,
+  "bbox": [
+   65.5,
+   113.6,
+   528.5,
+   549.4
+  ]
+ },
+ {
+  "file": "fig-8-18.webp",
+  "caption": "Figure 8-18. Square knot",
+  "kind": "figure",
+  "page": 190,
+  "bbox": [
+   65.5,
+   172.5,
+   528.2,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-19.webp",
+  "caption": "Figure 8-19. Bowline knot",
+  "kind": "figure",
+  "page": 191,
+  "bbox": [
+   84.0,
+   191.6,
+   537.1,
+   668.4
+  ]
+ },
+ {
+  "file": "fig-8-20.webp",
+  "caption": "Figure 8-20. Triple bowline",
+  "kind": "figure",
+  "page": 192,
+  "bbox": [
+   65.5,
+   149.6,
+   528.1,
+   679.9
+  ]
+ },
+ {
+  "file": "fig-8-21.webp",
+  "caption": "Figure 8-21. Bowline on a bight",
+  "kind": "figure",
+  "page": 193,
+  "bbox": [
+   84.0,
+   162.6,
+   537.5,
+   649.5
+  ]
+ },
+ {
+  "file": "fig-8-22.webp",
+  "caption": "Figure 8-22. Girth hitch",
+  "kind": "figure",
+  "page": 194,
+  "bbox": [
+   66.0,
+   382.5,
+   518.8,
+   668.4
+  ]
+ },
+ {
+  "file": "fig-8-23.webp",
+  "caption": "Figure 8-23. Middle-of-the-rope prusik knot",
+  "kind": "figure",
+  "page": 195,
+  "bbox": [
+   92.5,
+   320.4,
+   537.5,
+   700.8
+  ]
+ },
+ {
+  "file": "fig-8-24.webp",
+  "caption": "Figure 8-24. End-of-the-rope prusik knot",
+  "kind": "figure",
+  "page": 196,
+  "bbox": [
+   74.5,
+   355.5,
+   519.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-25.webp",
+  "caption": "Figure 8-25. Autoblock knot",
+  "kind": "figure",
+  "page": 197,
+  "bbox": [
+   92.5,
+   244.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-26.webp",
+  "caption": "Figure 8-26. Klemheist hitch",
+  "kind": "figure",
+  "page": 198,
+  "bbox": [
+   66.0,
+   276.1,
+   519.8,
+   723.2
+  ]
+ },
+ {
+  "file": "fig-8-27.webp",
+  "caption": "Figure 8-27. Bachmann hitch",
+  "kind": "figure",
+  "page": 199,
+  "bbox": [
+   92.5,
+   465.1,
+   537.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-28.webp",
+  "caption": "Figure 8-28. Middle-of-the-rope clove hitch",
+  "kind": "figure",
+  "page": 200,
+  "bbox": [
+   74.5,
+   402.1,
+   519.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-29.webp",
+  "caption": "Figure 8-29. End-of-the-rope clove hitch",
+  "kind": "figure",
+  "page": 201,
+  "bbox": [
+   84.0,
+   429.0,
+   545.8,
+   715.2
+  ]
+ },
+ {
+  "file": "fig-8-30.webp",
+  "caption": "Figure 8-30. Munter hitch",
+  "kind": "figure",
+  "page": 202,
+  "bbox": [
+   74.5,
+   481.5,
+   519.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-31.webp",
+  "caption": "Figure 8-31. Super Munter hitch",
+  "kind": "figure",
+  "page": 202,
+  "bbox": [
+   74.5,
+   83.2,
+   519.5,
+   269.4
+  ]
+ },
+ {
+  "file": "fig-8-32.webp",
+  "caption": "Figure 8-32. Munter mule knot using cord",
+  "kind": "figure",
+  "page": 204,
+  "bbox": [
+   74.5,
+   291.1,
+   519.8,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-33.webp",
+  "caption": "Figure 8-33. Munter mule knot using installation rope",
+  "kind": "figure",
+  "page": 204,
+  "bbox": [
+   74.5,
+   73.8,
+   519.4,
+   281.1
+  ]
+ },
+ {
+  "file": "fig-8-34.webp",
+  "caption": "Figure 8-34. Garda hitch",
+  "kind": "figure",
+  "page": 205,
+  "bbox": [
+   84.0,
+   217.4,
+   537.5,
+   572.6
+  ]
+ },
+ {
+  "file": "fig-8-35.webp",
+  "caption": "Figure 8-35. Big honking knot",
+  "kind": "figure",
+  "page": 206,
+  "bbox": [
+   65.5,
+   177.8,
+   528.6,
+   614.4
+  ]
+ },
+ {
+  "file": "fig-8-36.webp",
+  "caption": "Figure 8-36. Field expedient harness",
+  "kind": "figure",
+  "page": 208,
+  "bbox": [
+   65.5,
+   190.5,
+   528.7,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-37.webp",
+  "caption": "Figure 8-37. Butterfly coil with farmer\u2019s tie off",
+  "kind": "figure",
+  "page": 211,
+  "bbox": [
+   83.5,
+   169.4,
+   546.7,
+   616.6
+  ]
+ },
+ {
+  "file": "fig-8-38.webp",
+  "caption": "Figure 8-38. Mountain coil",
+  "kind": "figure",
+  "page": 212,
+  "bbox": [
+   74.5,
+   425.6,
+   520.1,
+   617.7
+  ]
+ }
+]

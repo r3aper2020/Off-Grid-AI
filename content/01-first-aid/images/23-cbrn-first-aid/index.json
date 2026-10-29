@@ -1,0 +1,134 @@
+[
+ {
+  "file": "tab-19-1.webp",
+  "caption": "Table 19-1. Initial Issue Medical Chemical, Biological, Radiological, and Nuclear Defense",
+  "kind": "table",
+  "page": 207,
+  "bbox": [
+   84.0,
+   255.7,
+   542.9,
+   588.8
+  ]
+ },
+ {
+  "file": "fig-19-1.webp",
+  "caption": "Figure 19-1. Nerve Agent Pyridostigmine Pretreatment Tablet Set",
+  "kind": "figure",
+  "page": 208,
+  "bbox": [
+   137.1,
+   468.2,
+   459.7,
+   715.7
+  ]
+ },
+ {
+  "file": "tab-19-2.webp",
+  "caption": "Table 19-2. Nerve Agent Exposure, Signs and Symptoms, and Medical Countermeasures",
+  "kind": "table",
+  "page": 210,
+  "bbox": [
+   66.0,
+   339.4,
+   519.5,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-19-2.webp",
+  "caption": "Figure 19-2. Convulsant Antidote Nerve Agent",
+  "kind": "figure",
+  "page": 211,
+  "bbox": [
+   92.5,
+   540.2,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-19-3.webp",
+  "caption": "Figure 19-3. Advanced Anticonvulsant System",
+  "kind": "figure",
+  "page": 211,
+  "bbox": [
+   92.5,
+   409.8,
+   537.5,
+   530.2
+  ]
+ },
+ {
+  "file": "fig-19-4.webp",
+  "caption": "Figure 19-4. Antidote Treatment \u2013 Nerve Agent, Auto-Injector",
+  "kind": "figure",
+  "page": 211,
+  "bbox": [
+   92.5,
+   160.5,
+   537.5,
+   336.1
+  ]
+ },
+ {
+  "file": "fig-19-5.webp",
+  "caption": "Figure 19-5. Reactive Skin Decontamination Lotion Kit",
+  "kind": "figure",
+  "page": 212,
+  "bbox": [
+   162.4,
+   318.4,
+   434.4,
+   530.0
+  ]
+ },
+ {
+  "file": "fig-19-6.webp",
+  "caption": "Figure 19-6. Injection site locations",
+  "kind": "figure",
+  "page": 213,
+  "bbox": [
+   92.5,
+   364.3,
+   537.5,
+   726.0
+  ]
+ },
+ {
+  "file": "tab-19-3.webp",
+  "caption": "Table 19-3. Self-Aid for Nerve Agent Poisoning",
+  "kind": "table",
+  "page": 214,
+  "bbox": [
+   74.5,
+   484.2,
+   519.5,
+   724.5
+  ]
+ },
+ {
+  "file": "tab-19-4.webp",
+  "caption": "Table 19-4. Buddy Aid and Combat Lifesaver Aid for Nerve Agent Casualty",
+  "kind": "table",
+  "page": 215,
+  "bbox": [
+   92.5,
+   346.8,
+   537.5,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-19-7.webp",
+  "caption": "Figure 19-7. Teammate injecting casualty\u2019s buttocks",
+  "kind": "figure",
+  "page": 216,
+  "bbox": [
+   115.2,
+   404.9,
+   478.8,
+   726.0
+  ]
+ }
+]

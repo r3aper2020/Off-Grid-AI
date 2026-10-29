@@ -1,0 +1,74 @@
+[
+ {
+  "file": "fig-4-1.webp",
+  "caption": "Figure 4-1. Carotid pulse",
+  "kind": "figure",
+  "page": 60,
+  "bbox": [
+   83.1,
+   421.8,
+   506.2,
+   597.4
+  ]
+ },
+ {
+  "file": "fig-4-2.webp",
+  "caption": "Figure 4-2. Femoral pulse",
+  "kind": "figure",
+  "page": 60,
+  "bbox": [
+   83.1,
+   421.8,
+   506.2,
+   597.4
+  ]
+ },
+ {
+  "file": "fig-4-3.webp",
+  "caption": "Figure 4-3. Radial pulse",
+  "kind": "figure",
+  "page": 60,
+  "bbox": [
+   70.0,
+   111.7,
+   524.0,
+   287.3
+  ]
+ },
+ {
+  "file": "fig-4-4.webp",
+  "caption": "Figure 4-4. Posterior tibial pulse",
+  "kind": "figure",
+  "page": 60,
+  "bbox": [
+   70.0,
+   111.7,
+   524.0,
+   287.3
+  ]
+ },
+ {
+  "file": "fig-4-5.webp",
+  "caption": "Figure 4-5. Windlass and Ratchet Tourniquets",
+  "kind": "figure",
+  "page": 62,
+  "bbox": [
+   179.5,
+   244.8,
+   414.9,
+   420.3
+  ]
+ },
+ {
+  "file": "fig-4-6.webp",
+  "caption": "Figure 4-6. Junctional Anatomy",
+  "kind": "figure",
+  "page": 69,
+  "bbox": [
+   160.3,
+   408.5,
+   469.7,
+   726.0
+  ]
+ }
+]

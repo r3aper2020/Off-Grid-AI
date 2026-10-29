@@ -1,0 +1,134 @@
+[
+ {
+  "file": "fig-15-1.webp",
+  "caption": "Figure 15-1. Webbing or rope carry",
+  "kind": "figure",
+  "page": 376,
+  "bbox": [
+   74.5,
+   244.5,
+   519.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-2.webp",
+  "caption": "Figure 15-2. Rope coil carry",
+  "kind": "figure",
+  "page": 377,
+  "bbox": [
+   92.5,
+   244.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-3.webp",
+  "caption": "Figure 15-3. Tandem rappel rigging",
+  "kind": "figure",
+  "page": 378,
+  "bbox": [
+   74.5,
+   244.5,
+   519.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-4.webp",
+  "caption": "Figure 15-4. Rope litter drag",
+  "kind": "figure",
+  "page": 380,
+  "bbox": [
+   74.5,
+   93.7,
+   520.0,
+   332.4
+  ]
+ },
+ {
+  "file": "fig-15-5.webp",
+  "caption": "Figure 15-5. Litter rigged for vertical orientation",
+  "kind": "figure",
+  "page": 381,
+  "bbox": [
+   92.5,
+   252.2,
+   537.5,
+   448.8
+  ]
+ },
+ {
+  "file": "fig-15-6.webp",
+  "caption": "Figure 15-6. Basket litter rigged for vertical orientation",
+  "kind": "figure",
+  "page": 382,
+  "bbox": [
+   74.5,
+   424.5,
+   519.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-7.webp",
+  "caption": "Figure 15-7. Litter rigged for lowering with long-tailed bowline and attendant attached",
+  "kind": "figure",
+  "page": 383,
+  "bbox": [
+   92.5,
+   244.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-8.webp",
+  "caption": "Figure 15-8. Litter rigged horizontal orientation with hoist straps",
+  "kind": "figure",
+  "page": 385,
+  "bbox": [
+   92.5,
+   472.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-9.webp",
+  "caption": "Figure 15-9. Basket litter rigged for horizontal orientation",
+  "kind": "figure",
+  "page": 385,
+  "bbox": [
+   93.2,
+   208.8,
+   537.5,
+   462.5
+  ]
+ },
+ {
+  "file": "fig-15-10.webp",
+  "caption": "Figure 15-10. Interlocking long tail bowlines",
+  "kind": "figure",
+  "page": 387,
+  "bbox": [
+   92.5,
+   400.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-15-11.webp",
+  "caption": "Figure 15-11. Tandem prusik belay",
+  "kind": "figure",
+  "page": 388,
+  "bbox": [
+   74.5,
+   406.5,
+   519.1,
+   715.7
+  ]
+ }
+]

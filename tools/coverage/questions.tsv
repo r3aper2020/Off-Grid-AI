@@ -1,0 +1,208 @@
+# pack	topic	question
+01	cpr	how do I do CPR on an adult
+01	cpr-child	how do I do CPR on a baby
+01	choking	someone is choking what do I do
+01	bleeding	how do I stop heavy bleeding
+01	tourniquet	how do I apply a tourniquet
+01	burns	how do I treat a burn
+01	fracture	how do I splint a broken leg
+01	shock	what are the signs of shock
+01	head-injury	signs of a concussion
+01	hypothermia	how do I treat hypothermia
+01	heatstroke	how do I treat heat stroke
+01	dehydration	signs of dehydration and how to treat it
+01	snakebite	how do I treat a snake bite
+01	allergic	someone is having an allergic reaction anaphylaxis
+01	wound-infection	how do I clean a wound and prevent infection
+01	stitches	how do I close a deep cut without stitches
+01	sprain	how do I treat a sprained ankle
+01	seizure	someone is having a seizure
+01	stroke	signs of a stroke
+01	heart-attack	signs of a heart attack
+01	diabetic	low blood sugar what to do
+01	childbirth	how do I deliver a baby in an emergency
+01	dental	how do I treat a toothache with no dentist
+01	eye	something in my eye
+01	frostbite	how do I treat frostbite
+01	drowning	how do I help a drowning victim
+01	poisoning	someone swallowed poison
+01	diarrhea	how do I treat diarrhea
+01	fever	how do I bring down a fever
+01	triage	how do I triage multiple injured people
+01	spinal	how do I move someone with a spine injury
+01	carry	how do I carry an injured person
+02	insulin	how do I keep insulin cold without power
+02	expired	are expired medications safe
+02	ki	when should I take potassium iodide
+02	antibiotics	can I use fish antibiotics
+02	pain	what can I use for pain relief
+02	storage	how should I store medications
+02	refill	what if I run out of my prescription medication
+02	mental	how do I cope with stress after a disaster
+02	kids-mental	how do I help children cope after a disaster
+03	tarp	how do I build a tarp shelter
+03	debris	how do I build a debris hut
+03	snow	how do I build a snow cave
+03	insulation	how do I keep a room warm without power
+03	damage	is my house safe to go back into after an earthquake
+03	saferoom	how do I build a tornado safe room
+03	windows	how do I board up windows for a hurricane
+03	roof	how do I fix a leaking roof
+04	boil	how long should I boil water
+04	bleach	how much bleach to disinfect water
+04	filter	how do I make a water filter
+04	find	how do I find water in the wild
+04	solarstill	how do I make a solar still
+04	sodis	can sunlight disinfect water
+04	storage	how much water should I store
+04	rain	how do I collect rainwater
+04	well	how do I disinfect a well after a flood
+04	toilet	how do I make an emergency toilet
+04	sewage	how do I dispose of human waste
+04	handwash	how do I wash hands without running water
+04	hygiene	how do I stay clean without running water
+05	foodsafe	is food in my fridge safe after a power outage
+05	storage	what food should I stockpile
+05	calories	how many calories does a person need per day
+05	fishing	how do I catch fish without a rod
+05	trapping	how do I make a snare
+05	cleaning	how do I clean and butcher a rabbit
+05	cooking	how do I cook without electricity
+05	insects	can I eat insects
+05	rationing	how do I ration food
+06	edible	what wild plants are edible
+06	test	universal edibility test
+06	mushrooms	are wild mushrooms safe to eat
+06	poison-ivy	how do I identify poison ivy
+06	poisonous	which plants are poisonous
+06	acorns	how do I eat acorns
+07	garden	how do I start a vegetable garden
+07	seeds	how do I save seeds
+07	compost	how do I make compost
+07	soil	how do I improve soil
+07	chickens	how do I raise chickens
+07	goats	how do I care for goats
+07	bees	how do I keep bees
+07	irrigation	how do I water a garden without running water
+07	crops	what crops give the most calories
+08	canning	how do I can vegetables safely
+08	botulism	how do I prevent botulism in canned food
+08	drying	how do I dehydrate food
+08	jerky	how do I make jerky
+08	smoking	how do I smoke meat
+08	salting	how do I salt fish
+08	rootcellar	how do I build a root cellar
+08	ferment	how do I make sauerkraut
+08	pests	how do I keep bugs out of stored grain
+09	firestart	how do I start a fire without matches
+09	firelay	how do I build a fire lay
+09	wet	how do I start a fire in the rain
+09	co	symptoms of carbon monoxide poisoning
+09	generator-co	where should I put my generator
+09	woodstove	how do I use a wood stove safely
+09	extinguisher	how do I use a fire extinguisher
+09	housefire	what do I do in a house fire
+09	rocketstove	how do I build a rocket stove
+10	solar	how do I set up a small solar power system
+10	battery	how do I size a battery bank
+10	generator	how do I safely use a portable generator
+10	inverter	what size inverter do I need
+10	wiring	how do I avoid electrical shock
+10	outage	what should I do during a long power outage
+10	budget	how do I calculate how much power I use
+11	knots	how do I tie a bowline
+11	lashing	how do I lash poles together
+11	plumbing	how do I fix a leaking pipe
+11	shutoff	how do I shut off gas and water to my house
+11	car	how do I jump start a car
+11	tire	how do I change a tire
+11	stuck	how do I get my car unstuck from mud
+11	sharpen	how do I sharpen a knife
+11	weld	how do I weld metal
+11	carpentry	how do I build a simple frame wall
+12	compass	how do I use a compass
+12	map	how do I read a topographic map
+12	stars	how do I find north using the stars
+12	nocompass	how do I find direction without a compass
+12	lost	what should I do if I am lost in the woods
+12	pace	how do I estimate distance walked
+13	ham	how do I get started with ham radio
+13	gmrs	what is the difference between FRS and GMRS radios
+13	signal	how do I signal for rescue
+13	mirror	how do I use a signal mirror
+13	sos	what is the morse code for SOS
+13	noaa	how do I get NOAA weather radio alerts
+13	antenna	how do I build a simple antenna
+14	hurricane	how do I prepare for a hurricane
+14	tornado	what do I do during a tornado
+14	flood	what do I do in a flood
+14	earthquake	what do I do during an earthquake
+14	wildfire	how do I prepare for a wildfire
+14	winter	how do I survive a winter storm at home
+14	heat	how do I stay safe in a heat wave
+14	lightning	how do I stay safe from lightning
+14	tsunami	what are tsunami warning signs
+14	volcano	how do I protect myself from volcanic ash
+14	landslide	signs of a landslide
+14	drought	how do I conserve water during a drought
+14	stranded-car	what to do if stranded in a car in a blizzard
+15	nuclear	what do I do if a nuclear bomb goes off
+15	fallout	how do I protect myself from fallout
+15	decon	how do I decontaminate after radiation exposure
+15	chemical	what do I do in a chemical spill
+15	biological	how do I protect myself in a pandemic
+15	mask	how do I make a face mask
+15	quarantine	how do I care for a sick person at home
+15	emp	how do I protect electronics from an EMP
+15	dirtybomb	what is a dirty bomb
+15	shelterinplace	how do I shelter in place
+16	desert	how do I survive in the desert
+16	jungle	how do I survive in the jungle
+16	mountain	altitude sickness symptoms
+16	sea	how do I survive at sea in a life raft
+16	cold	how do I survive in extreme cold
+16	bear	what do I do if I see a bear
+16	cougar	what do I do if a mountain lion attacks
+16	snakes	how do I avoid snake bites
+16	ticks	how do I remove a tick
+16	insects	how do I avoid mosquito bites
+16	will	how do I stay positive in a survival situation
+16	stream	how do I cross a river safely
+16	avalanche	what do I do if caught in an avalanche
+17	offgrid	how do I live off the grid
+17	soap	how do I make soap
+17	candles	how do I make candles
+17	tanning	how do I tan a hide
+17	laundry	how do I wash clothes by hand
+17	sewing	how do I repair clothing
+17	blacksmith	how do I forge iron
+17	trash	how do I deal with garbage when there is no pickup
+18	kit	what should be in an emergency kit
+18	gobag	what should I pack in a go bag
+18	plan	how do I make a family emergency plan
+18	evacuate	when should I evacuate
+18	pets	how do I prepare my pets for an emergency
+18	elderly	how do I help an elderly person during a disaster
+18	disability	emergency planning for people with disabilities
+18	kids	how do I prepare my kids for an emergency
+18	documents	what important documents should I keep
+18	money	should I keep cash for emergencies
+18	neighbors	how do I organize my neighborhood after a disaster
+18	cert	how do I search a building for survivors
+18	security	how do I keep my home secure during civil unrest
+18	cyber	how do I prepare for a cyberattack on the power grid
+18	shooter	what do I do in an active shooter situation
+18	terrorism	what do I do after a bombing
+18	economic	how do I prepare for economic collapse
+18	barter	what items are good for bartering
+# Off-topic: must find nothing (or only clearly unrelated hits get rejected).
+xx	offtopic	what is the capital of France
+xx	offtopic	who won the super bowl last year
+xx	offtopic	what is the best stock to buy
+xx	offtopic	how do I write a python script
+xx	offtopic	tell me a joke about cats
+xx	offtopic	what is the meaning of life
+xx	offtopic	recommend a good movie to watch
+xx	offtopic	how do I bake chocolate chip cookies
+xx	offtopic	what is quantum computing
+xx	offtopic	how tall is the eiffel tower

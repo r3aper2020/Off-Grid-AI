@@ -1,0 +1,326 @@
+[
+ {
+  "file": "fig-7-1.webp",
+  "caption": "Figure 7-1. Using a pole method to ford stream",
+  "kind": "figure",
+  "page": 156,
+  "bbox": [
+   169.1,
+   110.3,
+   425.0,
+   303.2
+  ]
+ },
+ {
+  "file": "fig-7-2.webp",
+  "caption": "Figure 7-2. Using a pole for multiple crossing",
+  "kind": "figure",
+  "page": 157,
+  "bbox": [
+   139.0,
+   367.9,
+   491.1,
+   658.2
+  ]
+ },
+ {
+  "file": "fig-7-3.webp",
+  "caption": "Figure 7-3. River crossing using rope",
+  "kind": "figure",
+  "page": 158,
+  "bbox": [
+   122.5,
+   390.8,
+   471.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-7-4.webp",
+  "caption": "Figure 7-4. Brush raft",
+  "kind": "figure",
+  "page": 159,
+  "bbox": [
+   136.8,
+   439.9,
+   493.2,
+   679.2
+  ]
+ },
+ {
+  "file": "fig-7-5.webp",
+  "caption": "Figure 7-5. Australian poncho raft",
+  "kind": "figure",
+  "page": 160,
+  "bbox": [
+   124.0,
+   471.8,
+   469.6,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-7-6.webp",
+  "caption": "Figure 7-6. Log raft",
+  "kind": "figure",
+  "page": 160,
+  "bbox": [
+   121.0,
+   109.7,
+   473.1,
+   338.7
+  ]
+ },
+ {
+  "file": "fig-7-7.webp",
+  "caption": "Figure 7-7. Two-log raft",
+  "kind": "figure",
+  "page": 161,
+  "bbox": [
+   122.5,
+   208.3,
+   507.7,
+   395.1
+  ]
+ },
+ {
+  "file": "fig-7-8.webp",
+  "caption": "Figure 7-8. Shadow-tip method",
+  "kind": "figure",
+  "page": 162,
+  "bbox": [
+   65.5,
+   303.2,
+   529.2,
+   472.6
+  ]
+ },
+ {
+  "file": "fig-7-9.webp",
+  "caption": "Figure 7-9. Equal-shadow method",
+  "kind": "figure",
+  "page": 163,
+  "bbox": [
+   128.5,
+   224.6,
+   502.2,
+   515.1
+  ]
+ },
+ {
+  "file": "fig-7-10.webp",
+  "caption": "Figure 7-10. Watch method",
+  "kind": "figure",
+  "page": 164,
+  "bbox": [
+   157.0,
+   286.9,
+   437.1,
+   611.8
+  ]
+ },
+ {
+  "file": "fig-7-11.webp",
+  "caption": "Figure 7-11. Northern sky",
+  "kind": "figure",
+  "page": 165,
+  "bbox": [
+   176.9,
+   127.1,
+   453.3,
+   371.3
+  ]
+ },
+ {
+  "file": "fig-7-12.webp",
+  "caption": "Figure 7-12. Southern sky",
+  "kind": "figure",
+  "page": 166,
+  "bbox": [
+   158.9,
+   367.4,
+   435.3,
+   595.1
+  ]
+ },
+ {
+  "file": "fig-7-13.webp",
+  "caption": "Figure 7-13. Floating needle compass",
+  "kind": "figure",
+  "page": 171,
+  "bbox": [
+   101.5,
+   339.4,
+   528.5,
+   623.8
+  ]
+ },
+ {
+  "file": "fig-7-14.webp",
+  "caption": "Figure 7-14. Orientating a map to terrain features",
+  "kind": "figure",
+  "page": 172,
+  "bbox": [
+   103.0,
+   468.8,
+   491.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-7-15.webp",
+  "caption": "Figure 7-15. A hill",
+  "kind": "figure",
+  "page": 172,
+  "bbox": [
+   168.2,
+   173.6,
+   425.3,
+   384.5
+  ]
+ },
+ {
+  "file": "fig-7-16.webp",
+  "caption": "Figure 7-16. A saddle",
+  "kind": "figure",
+  "page": 173,
+  "bbox": [
+   185.5,
+   521.2,
+   444.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-7-17.webp",
+  "caption": "Figure 7-17. A valley",
+  "kind": "figure",
+  "page": 173,
+  "bbox": [
+   188.5,
+   210.4,
+   441.2,
+   422.8
+  ]
+ },
+ {
+  "file": "fig-7-18.webp",
+  "caption": "Figure 7-18. A ridge",
+  "kind": "figure",
+  "page": 174,
+  "bbox": [
+   170.5,
+   528.8,
+   423.2,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-7-19.webp",
+  "caption": "Figure 7-19. A depression",
+  "kind": "figure",
+  "page": 174,
+  "bbox": [
+   169.8,
+   274.9,
+   424.6,
+   464.8
+  ]
+ },
+ {
+  "file": "fig-7-20.webp",
+  "caption": "Figure 7-20. A draw",
+  "kind": "figure",
+  "page": 175,
+  "bbox": [
+   192.2,
+   414.8,
+   438.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-7-21.webp",
+  "caption": "Figure 7-21. A spur",
+  "kind": "figure",
+  "page": 175,
+  "bbox": [
+   191.5,
+   151.4,
+   439.2,
+   362.3
+  ]
+ },
+ {
+  "file": "fig-7-22.webp",
+  "caption": "Figure 7-22. A cliff",
+  "kind": "figure",
+  "page": 176,
+  "bbox": [
+   174.4,
+   530.2,
+   419.6,
+   715.5
+  ]
+ },
+ {
+  "file": "fig-7-23.webp",
+  "caption": "Figure 7-23. Graphic scale",
+  "kind": "figure",
+  "page": 176,
+  "bbox": [
+   96.2,
+   72.7,
+   497.9,
+   243.1
+  ]
+ },
+ {
+  "file": "fig-7-24.webp",
+  "caption": "Figure 7-24. Measure map distance\u2014straight line",
+  "kind": "figure",
+  "page": 177,
+  "bbox": [
+   93.2,
+   465.7,
+   536.8,
+   651.1
+  ]
+ },
+ {
+  "file": "fig-7-25.webp",
+  "caption": "Figure 7-25. Measure map distance\u2014curved line",
+  "kind": "figure",
+  "page": 177,
+  "bbox": [
+   133.8,
+   167.7,
+   495.9,
+   350.1
+  ]
+ },
+ {
+  "file": "fig-7-26.webp",
+  "caption": "Figure 7-26. Measuring azimuth on a map",
+  "kind": "figure",
+  "page": 178,
+  "bbox": [
+   91.0,
+   418.9,
+   503.5,
+   713.3
+  ]
+ },
+ {
+  "file": "fig-7-27.webp",
+  "caption": "Figure 7-27. Plotting a direction Measuring Distances by Paces",
+  "kind": "figure",
+  "page": 179,
+  "bbox": [
+   123.2,
+   485.2,
+   506.3,
+   715.7
+  ]
+ }
+]

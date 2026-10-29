@@ -1,0 +1,134 @@
+[
+ {
+  "file": "fig-8-1.webp",
+  "caption": "Figure 8-1. Weighted clubs",
+  "kind": "figure",
+  "page": 183,
+  "bbox": [
+   100.0,
+   111.8,
+   529.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-2.webp",
+  "caption": "Figure 8-2. Sling club",
+  "kind": "figure",
+  "page": 184,
+  "bbox": [
+   86.5,
+   353.6,
+   507.7,
+   638.0
+  ]
+ },
+ {
+  "file": "fig-8-3.webp",
+  "caption": "Figure 8-3. Stone knife",
+  "kind": "figure",
+  "page": 185,
+  "bbox": [
+   163.8,
+   291.3,
+   466.9,
+   692.7
+  ]
+ },
+ {
+  "file": "fig-8-4.webp",
+  "caption": "Figure 8-4. Bamboo for spears",
+  "kind": "figure",
+  "page": 186,
+  "bbox": [
+   186.2,
+   125.8,
+   407.3,
+   419.3
+  ]
+ },
+ {
+  "file": "fig-8-5.webp",
+  "caption": "Figure 8-5. Throwing stick",
+  "kind": "figure",
+  "page": 187,
+  "bbox": [
+   109.0,
+   260.8,
+   521.6,
+   444.8
+  ]
+ },
+ {
+  "file": "fig-8-6.webp",
+  "caption": "Figure 8-6. Archery equipment (bow)",
+  "kind": "figure",
+  "page": 188,
+  "bbox": [
+   147.2,
+   338.8,
+   446.8,
+   623.3
+  ]
+ },
+ {
+  "file": "fig-8-7.webp",
+  "caption": "Figure 8-7. Bola",
+  "kind": "figure",
+  "page": 189,
+  "bbox": [
+   102.0,
+   435.4,
+   525.8,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-8-8.webp",
+  "caption": "Figure 8-8. Making cordage",
+  "kind": "figure",
+  "page": 190,
+  "bbox": [
+   109.0,
+   464.2,
+   484.8,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-8-9.webp",
+  "caption": "Figure 8-9. Horseshoe pack",
+  "kind": "figure",
+  "page": 191,
+  "bbox": [
+   139.8,
+   469.3,
+   489.7,
+   669.7
+  ]
+ },
+ {
+  "file": "fig-8-10.webp",
+  "caption": "Figure 8-10. Square pack",
+  "kind": "figure",
+  "page": 191,
+  "bbox": [
+   171.2,
+   140.9,
+   459.3,
+   428.3
+  ]
+ },
+ {
+  "file": "fig-8-11.webp",
+  "caption": "Figure 8-11. Containers for boiling food",
+  "kind": "figure",
+  "page": 193,
+  "bbox": [
+   191.5,
+   416.2,
+   439.2,
+   715.7
+  ]
+ }
+]

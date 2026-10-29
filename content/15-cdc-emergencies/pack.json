@@ -1,0 +1,11 @@
+{
+ "id": "cdc-emergencies",
+ "title": "Chemical, Radiation & Health Emergencies (CDC)",
+ "category": "medical",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+ "attribution": "Source: CDC. Text from CDC web pages (radiation and chemical emergencies, carbon monoxide, NIOSH venomous snakes and spiders, ticks, rabies, diabetes care during emergencies), reformatted into sections without changing substance; images not included. Use does not imply endorsement by CDC, HHS, or the U.S. Government.",
+ "description": "Sheltering in place and self-decontamination for radiation and chemical emergencies, preventing carbon monoxide poisoning, venomous snake and spider bites, tick removal, rabies exposure, and managing diabetes during emergencies."
+}

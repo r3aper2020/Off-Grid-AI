@@ -1,0 +1,38 @@
+[
+ {
+  "file": "tab-20-1.webp",
+  "caption": "Table 20-1. Mild Stress Reaction",
+  "kind": "table",
+  "page": 228,
+  "bbox": [
+   66.0,
+   150.9,
+   528.0,
+   535.4
+  ]
+ },
+ {
+  "file": "tab-20-2.webp",
+  "caption": "Table 20-2. Serious Stress Reaction",
+  "kind": "table",
+  "page": 229,
+  "bbox": [
+   84.0,
+   184.1,
+   546.1,
+   724.5
+  ]
+ },
+ {
+  "file": "tab-20-3.webp",
+  "caption": "Table 20-3. Preventive Measures to Combat and Operational Stress Reaction",
+  "kind": "table",
+  "page": 230,
+  "bbox": [
+   66.0,
+   454.5,
+   519.3,
+   724.5
+  ]
+ }
+]

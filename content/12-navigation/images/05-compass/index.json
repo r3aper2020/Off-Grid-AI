@@ -1,0 +1,134 @@
+[
+ {
+  "file": "fig-9-1.webp",
+  "caption": "Figure 9-1. Lensatic compass.",
+  "kind": "figure",
+  "page": 110,
+  "bbox": [
+   133.4,
+   98.1,
+   512.9,
+   335.6
+  ]
+ },
+ {
+  "file": "fig-9-2.webp",
+  "caption": "Figure 9-2. Centerhold technique.",
+  "kind": "figure",
+  "page": 112,
+  "bbox": [
+   102.0,
+   123.9,
+   501.4,
+   373.4
+  ]
+ },
+ {
+  "file": "fig-9-3.webp",
+  "caption": "Figure 9-3. Compass-to-cheek technique.",
+  "kind": "figure",
+  "page": 113,
+  "bbox": [
+   164.6,
+   432.2,
+   411.3,
+   669.7
+  ]
+ },
+ {
+  "file": "fig-9-4.webp",
+  "caption": "Figure 9-4. Compass preset at 320 degrees.",
+  "kind": "figure",
+  "page": 114,
+  "bbox": [
+   102.0,
+   386.3,
+   545.9,
+   734.5
+  ]
+ },
+ {
+  "file": "fig-9-5.webp",
+  "caption": "Figure 9-5. Bypassing an obstacle.",
+  "kind": "figure",
+  "page": 115,
+  "bbox": [
+   66.0,
+   291.8,
+   509.8,
+   541.6
+  ]
+ },
+ {
+  "file": "fig-9-6.webp",
+  "caption": "Figure 9-6. Deliberate offset to the objective.",
+  "kind": "figure",
+  "page": 116,
+  "bbox": [
+   116.4,
+   460.5,
+   538.7,
+   698.1
+  ]
+ },
+ {
+  "file": "fig-9-7.webp",
+  "caption": "Figure 9-7. Determining directions and time by shadow.",
+  "kind": "figure",
+  "page": 116,
+  "bbox": [
+   102.0,
+   68.6,
+   545.9,
+   386.4
+  ]
+ },
+ {
+  "file": "fig-9-8.webp",
+  "caption": "Figure 9-8. Determining direction by using a watch.",
+  "kind": "figure",
+  "page": 118,
+  "bbox": [
+   172.2,
+   434.4,
+   475.7,
+   680.7
+  ]
+ },
+ {
+  "file": "fig-9-9.webp",
+  "caption": "Figure 9-9. Determining direction by the",
+  "kind": "figure",
+  "page": 119,
+  "bbox": [
+   66.0,
+   294.4,
+   510.0,
+   712.0
+  ]
+ },
+ {
+  "file": "fig-9-10.webp",
+  "caption": "Figure 9-10. Constellations, northern hemisphere.",
+  "kind": "figure",
+  "page": 120,
+  "bbox": [
+   101.2,
+   280.5,
+   545.9,
+   734.5
+  ]
+ },
+ {
+  "file": "fig-9-11.webp",
+  "caption": "Figure 9-11. Constellations, southern hemisphere.",
+  "kind": "figure",
+  "page": 121,
+  "bbox": [
+   65.2,
+   280.5,
+   509.9,
+   734.5
+  ]
+ }
+]

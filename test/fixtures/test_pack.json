@@ -1,0 +1,28 @@
+{
+  "format": "offgrid-pack",
+  "formatVersion": 1,
+  "id": "test-fixture",
+  "title": "Test Fixture Pack",
+  "description": "TEST FIXTURE ONLY. Not real guidance; used by automated tests.",
+  "category": "guide",
+  "version": "1",
+  "publisher": "OFFGRID AI tests",
+  "license": "Test data",
+  "documents": [
+    {
+      "title": "Fixture Water Guide",
+      "sourceUrl": "https://example.test/water",
+      "sections": [
+        {"heading": "Boiling water", "body": "TEST FIXTURE. Bring water to a rolling boil before drinking it."},
+        {"heading": "Storing water", "body": "TEST FIXTURE. Keep stored water in clean sealed containers away from sunlight."}
+      ]
+    },
+    {
+      "title": "Fixture Fire Guide",
+      "sections": [
+        {"heading": "Building a campfire", "body": "TEST FIXTURE. Gather tinder, kindling and fuel wood before lighting a fire."},
+        {"heading": "Putting out a fire", "body": "TEST FIXTURE. Drown the fire with water and stir the ashes until cold."}
+      ]
+    }
+  ]
+}

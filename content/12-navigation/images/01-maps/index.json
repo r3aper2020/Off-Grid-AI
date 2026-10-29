@@ -1,0 +1,26 @@
+[
+ {
+  "file": "fig-2-1.webp",
+  "caption": "Figure 2-1. Scale classifications.",
+  "kind": "figure",
+  "page": 12,
+  "bbox": [
+   165.7,
+   252.1,
+   411.9,
+   477.4
+  ]
+ },
+ {
+  "file": "fig-2-2.webp",
+  "caption": "Figure 2-2. Joint operations graphic (air).",
+  "kind": "figure",
+  "page": 14,
+  "bbox": [
+   163.5,
+   350.4,
+   412.4,
+   715.6
+  ]
+ }
+]

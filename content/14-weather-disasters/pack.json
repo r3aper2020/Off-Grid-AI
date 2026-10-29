@@ -1,0 +1,11 @@
+{
+ "id": "weather-disasters",
+ "title": "Weather & Natural Disasters",
+ "category": "guide",
+ "publisher": "Ready.gov (Federal Emergency Management Agency)",
+ "attribution": "Text from Ready.gov (Federal Emergency Management Agency), reformatted into sections without changing its substance. Use does not imply endorsement by FEMA, DHS, or the U.S. Government.",
+ "description": "Before, during and after power outages, winter storms, heat, floods, hurricanes, wildfires and earthquakes.",
+ "version": "2026.10.29.2",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "review": "verified"
+}

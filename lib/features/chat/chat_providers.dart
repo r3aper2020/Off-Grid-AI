@@ -4,10 +4,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/database/app_database.dart';
 import '../../core/providers.dart';
+import '../library/data/knowledge_search.dart';
+import '../library/data/library_repository.dart';
 import '../models/model_providers.dart';
 import 'data/chat_repository.dart';
 import 'data/llama_engine.dart';
 import 'data/no_model_engine.dart';
+import 'domain/grounding.dart';
 import 'domain/inference_engine.dart';
 
 /// llama.cpp engine for the active model, or [NoModelEngine] when none is
@@ -53,20 +56,22 @@ final messagesProvider = StreamProvider.family<List<Message>, int>(
 );
 
 final generationControllerProvider =
-    NotifierProvider<GenerationController, Set<int>>(GenerationController.new);
+    NotifierProvider<GenerationController, Map<int, GenerationPhase>>(
+      GenerationController.new,
+    );
 
-/// Runs assistant replies and tracks which conversations are generating.
-/// State is the set of conversation ids with a reply in progress.
-class GenerationController extends Notifier<Set<int>> {
+/// Runs assistant replies. State maps each conversation with a reply in
+/// progress to what it is doing right now, so the UI can say so.
+class GenerationController extends Notifier<Map<int, GenerationPhase>> {
   static const _flushInterval = Duration(milliseconds: 120);
 
   final _active = <int, _ActiveGeneration>{};
 
   @override
-  Set<int> build() {
+  Map<int, GenerationPhase> build() {
     ref.onDispose(() {
       for (final g in _active.values) {
-        g.subscription.cancel();
+        g.subscription?.cancel();
         g.flushTimer?.cancel();
       }
     });
@@ -93,7 +98,17 @@ class GenerationController extends Notifier<Set<int>> {
         .where((m) => m.status == MessageStatus.complete)
         .map((m) => ChatTurn(_speaker(m.role), m.content))
         .toList();
+    final asked = [
+      for (final t in history)
+        if (t.speaker == ChatSpeaker.user) t.text,
+    ];
+    final question = asked.isEmpty ? '' : asked.last;
+    final previous = asked.length > 1 ? asked[asked.length - 2] : null;
+    // "Hi", "thanks", "ok" carry no topic: reply like a person, without
+    // library lookups or a "not from the library" disclaimer.
+    final conversational = KnowledgeSearch.termsOf(question).isEmpty;
 
+    // Show the reply bubble (and allow Stop) before any slow work starts.
     final messageId = await _repo.addAssistantMessage(
       conversationId,
       '',
@@ -101,14 +116,29 @@ class GenerationController extends Notifier<Set<int>> {
     );
     final active = _ActiveGeneration(messageId);
     _active[conversationId] = active;
-    state = {...state, conversationId};
+    _setPhase(conversationId, GenerationPhase.searching);
+
+    final hits = conversational
+        ? const <PassageHit>[]
+        : Grounding.select(await _sourcesFor(question, previous));
+    if (active.cancelled) return;
+    if (!conversational) {
+      await _repo.setCitations(messageId, [for (final h in hits) h.passageId]);
+    }
 
     active.subscription = engine
-        .generate(history)
+        .generate(
+          Grounding.apply(history, hits, conversational: conversational),
+        )
         .listen(
           (event) {
             switch (event) {
+              case GenerationProgress(:final phase):
+                _setPhase(conversationId, phase);
               case GenerationToken(:final text):
+                if (active.buffer.isEmpty) {
+                  _setPhase(conversationId, GenerationPhase.writing);
+                }
                 active.buffer.write(text);
                 active.flushTimer ??= Timer(_flushInterval, () {
                   active.flushTimer = null;
@@ -139,11 +169,33 @@ class GenerationController extends Notifier<Set<int>> {
         );
   }
 
+  /// Library passages for [question], read in the context of the
+  /// [previous] question. A search failure must never stop the assistant
+  /// from answering, so it degrades to "no sources".
+  Future<List<PassageHit>> _sourcesFor(
+    String question,
+    String? previous,
+  ) async {
+    try {
+      return await ref
+          .read(knowledgeSearchProvider)
+          .forMessage(question, previous: previous);
+    } catch (_) {
+      return const [];
+    }
+  }
+
   Future<void> cancel(int conversationId) async {
     final active = _active[conversationId];
     if (active == null) return;
-    await active.subscription.cancel();
+    active.cancelled = true;
+    await active.subscription?.cancel();
     await _finish(conversationId, MessageStatus.cancelled);
+  }
+
+  void _setPhase(int conversationId, GenerationPhase phase) {
+    if (!_active.containsKey(conversationId)) return;
+    state = {...state, conversationId: phase};
   }
 
   Future<void> _finish(int conversationId, MessageStatus status) async {
@@ -169,6 +221,7 @@ class _ActiveGeneration {
   _ActiveGeneration(this.messageId);
   final int messageId;
   final buffer = StringBuffer();
-  late StreamSubscription<GenerationEvent> subscription;
+  StreamSubscription<GenerationEvent>? subscription;
   Timer? flushTimer;
+  bool cancelled = false;
 }

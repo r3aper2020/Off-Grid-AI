@@ -1,0 +1,62 @@
+[
+ {
+  "file": "fig-13-1.webp",
+  "caption": "Figure 13-1. Individual crossing",
+  "kind": "figure",
+  "page": 345,
+  "bbox": [
+   92.5,
+   97.5,
+   537.4,
+   322.6
+  ]
+ },
+ {
+  "file": "fig-13-2.webp",
+  "caption": "Figure 13-2. Chain method for stream crossing",
+  "kind": "figure",
+  "page": 346,
+  "bbox": [
+   74.5,
+   281.7,
+   519.4,
+   506.8
+  ]
+ },
+ {
+  "file": "fig-13-3.webp",
+  "caption": "Figure 13-3. Insert side view, top view, and traveling",
+  "kind": "figure",
+  "page": 347,
+  "bbox": [
+   92.5,
+   489.1,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-4.webp",
+  "caption": "Figure 13-4. Belay with handline",
+  "kind": "figure",
+  "page": 349,
+  "bbox": [
+   92.5,
+   456.1,
+   537.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-5.webp",
+  "caption": "Figure 13-5. Moving on handline with belay",
+  "kind": "figure",
+  "page": 350,
+  "bbox": [
+   74.5,
+   255.1,
+   519.7,
+   715.7
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+{
+ "id": "communications",
+ "title": "Radio & Communications",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "CISA (NIFOG v2.02), FCC rules via eCFR (47 CFR Parts 95 and 97), NOAA National Weather Service, U.S. Army (TC 9-64)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from the Cybersecurity and Infrastructure Security Agency's National Interoperability Field Operations Guide, Version 2.02 (January 2025); Title 47 of the Code of Federal Regulations, Part 97 (Amateur Radio Service) and Part 95 Subparts A, B, D, E and J (Personal Radio Services), from the Electronic Code of Federal Regulations as of October 27, 2026 (not the official legal edition; check ecfr.gov for current rules); NOAA National Weather Service NOAA Weather Radio web pages (excerpts, not official NWS products or warnings); and U.S. Army TC 9-64, Communications-Electronics Fundamentals (2004), approved for public release; distribution is unlimited. Reformatted into sections without changing substance; figures and channel/frequency tables not included. Use does not imply endorsement by CISA, DHS, the FCC, NOAA, the U.S. Army, DoD, or the U.S. Government.",
+ "description": "Using radios in an emergency: interoperability rules and conventions, interference, reporting a medical emergency by radio, antennas and RF safety, FCC rules for amateur radio, FRS, GMRS, CB and MURS, and NOAA Weather Radio reception and SAME alerts. Frequency tables are not included; FCC rules are a snapshot from October 2026."
+}

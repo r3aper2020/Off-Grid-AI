@@ -1,0 +1,62 @@
+[
+ {
+  "file": "tab-p23-1.webp",
+  "caption": "Table for Example A Recommended process time for Peaches in a boiling-water canner",
+  "kind": "table",
+  "page": 23,
+  "bbox": [
+   106.6,
+   213.5,
+   508.2,
+   351.9
+  ]
+ },
+ {
+  "file": "tab-p24-1.webp",
+  "caption": "Table for Example B Recommended process time for Peaches in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 24,
+  "bbox": [
+   106.4,
+   497.9,
+   507.9,
+   615.1
+  ]
+ },
+ {
+  "file": "tab-p24-2.webp",
+  "caption": "Table for Example C Recommended process time for Peaches in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 24,
+  "bbox": [
+   106.9,
+   215.5,
+   508.4,
+   331.2
+  ]
+ },
+ {
+  "file": "tab-p31-1.webp",
+  "caption": "Recommended process time for fruit-based baby foods in a boiling-water canner",
+  "kind": "table",
+  "page": 31,
+  "bbox": [
+   106.7,
+   221.0,
+   508.3,
+   306.3
+  ]
+ },
+ {
+  "file": "tab-p32-1.webp",
+  "caption": "Suggested Preservation Plan for Canned and Frozen Foods",
+  "kind": "table",
+  "page": 32,
+  "bbox": [
+   33.1,
+   255.7,
+   536.7,
+   649.8
+  ]
+ }
+]

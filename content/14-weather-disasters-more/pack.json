@@ -1,0 +1,11 @@
+{
+ "id": "weather-disasters-more",
+ "title": "More Weather & Geologic Hazards",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "Ready.gov (FEMA) and National Weather Service (NOAA)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from Ready.gov (Federal Emergency Management Agency) and from National Weather Service safety web pages (weather.gov/safety), retrieved October 2026; reformatted into sections without changing substance; figures not included. NWS text is reproduced from its public web pages and is not an official NWS product or forecast. Use does not imply endorsement by FEMA, DHS, NOAA, the Department of Commerce, or the U.S. Government.",
+ "description": "Tornadoes, thunderstorms and lightning (including how people are struck), tsunamis, landslides and debris flows, volcanoes, avalanches, drought and dust storms."
+}

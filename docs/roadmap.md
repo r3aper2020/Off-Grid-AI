@@ -34,10 +34,52 @@ Remaining:
 - Show a "loading model…" state on the first message (load takes seconds).
 - iOS run once Xcode is installed (deployment target already 16.4).
 
-## 3. Offline knowledge engine
-Knowledge-pack format, import into SQLite FTS5, Library search, retrieval
-into prompts, citations that open the exact local passage, "no source found"
-behavior. Bundled starter guides that work with no model installed.
+## 3. Offline knowledge engine — 🚧 in progress
+Done:
+- Pack format + Python builder and verbatim HTML extractor (`tools/packs/`).
+- SQLite FTS5 search; Library, pack, reader and search screens.
+- Grounded answers: numbered passages, `[n]` citations as chips that open
+  the exact passage; "Not from the offline library" label otherwise.
+- Starter library: 5 packs, 19 documents, 150 sections (CDC, Ready.gov).
+- Retrieval tests on the real library for safety-critical details.
+
+Library now: 30 packs, ~5,800 sections, 477 figure/table images, from CDC,
+FEMA/Ready.gov, NWS, USDA, FDA, NIMH, EPA, CMS, NPS, CISA, FCC and Army
+manuals, plus flagged Wikibooks and historical texts. Review status shown
+throughout; background install with progress.
+
+Remaining:
+- Verify on Pixel Fold: background install time, images in the reader,
+  table-image citations.
+- Figures for the batch-3 Army manuals (carpentry, rigging, plumbing,
+  welding, antennas) — their recipes don't use `--figures auto` yet.
+- USDA canning guide: decode the U+FFFD space glyph, then require
+  table-image count == caption count.
+- OSHA tool/electrical/generator PDFs (blocked to scripts; fetch by browser).
+- Per-section safety review of hazardous improvised advice (Coverage Matrix).
+- In-app source/attribution notice (About screen).
+- ✅ Semantic search (bundled bge-small embedder + per-section vectors),
+  fused with keyword search; conversational chat voice; Markdown replies.
+- ✅ Batch 4 coverage audit (`tools/coverage/`) and new packs: power,
+  medical emergencies, home health, CDC health, signaling, sea survival,
+  wilderness/wildlife, storm shelter, SODIS, preparedness, household
+  skills (historical), self-sufficiency, gardening, livestock.
+- Gaps still open (no permitted/reachable source yet): fever care,
+  choking/anaphylaxis/drowning first aid (current federal), jump-starting
+  and tire changes, ham radio basics (fcc.gov blocks scripts — try the
+  in-app browser), CPSC generator/electrical safety (same), EMP household
+  guidance, bartering, current beekeeping/livestock health.
+- Tooling: `extract_html.py` drops any class containing "reference"
+  (hits Drupal/NHLBI/DOE pages) and all `<button>` text (accordion
+  titles) — fix to whole-token match; move the agents' recipe-local
+  converters (gtext, pg2md, djvu2md, capfig) into `tools/packs/`.
+- Offer a smaller, faster model option in the catalog for slower phones.
+
+## Beyond the original plan (see docs/vision.md)
+Folded into later milestones as the library grows: the 18-pack taxonomy,
+Survival Coverage Matrix and Knowledge Management System (tooling),
+Emergency Scenario Explorer (with Milestone 6), regional plant/mushroom
+species database with images, and the three-layer medicine model.
 
 ## 4. Model & knowledge downloads
 Download manager (pause/resume, checksums, atomic install, versioning),

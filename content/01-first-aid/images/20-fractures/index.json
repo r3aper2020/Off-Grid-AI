@@ -1,0 +1,386 @@
+[
+ {
+  "file": "fig-13-1.webp",
+  "caption": "Figure 13-1. Closed Fracture",
+  "kind": "figure",
+  "page": 136,
+  "bbox": [
+   110.5,
+   205.5,
+   483.5,
+   453.0
+  ]
+ },
+ {
+  "file": "fig-13-2.webp",
+  "caption": "Figure 13-2. Open Fracture",
+  "kind": "figure",
+  "page": 136,
+  "bbox": [
+   110.5,
+   205.5,
+   483.5,
+   453.0
+  ]
+ },
+ {
+  "file": "fig-13-3.webp",
+  "caption": "Figure 13-3. Square knots tied away from the casualty",
+  "kind": "figure",
+  "page": 140,
+  "bbox": [
+   74.5,
+   163.7,
+   519.4,
+   341.5
+  ]
+ },
+ {
+  "file": "fig-13-4.webp",
+  "caption": "Figure 13-4. Shirttail used",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   97.8,
+   451.4,
+   510.1,
+   638.4
+  ]
+ },
+ {
+  "file": "fig-13-5.webp",
+  "caption": "Figure 13-5. Belt used",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   110.4,
+   451.4,
+   510.1,
+   638.4
+  ]
+ },
+ {
+  "file": "fig-13-6.webp",
+  "caption": "Figure 13-6. Improvised sling",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   110.4,
+   462.9,
+   542.6,
+   638.4
+  ]
+ },
+ {
+  "file": "fig-13-7.webp",
+  "caption": "Figure 13-7. Ends of improvised sling",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   107.5,
+   219.6,
+   481.4,
+   406.6
+  ]
+ },
+ {
+  "file": "fig-13-8.webp",
+  "caption": "Figure 13-8. Corner of improvised sling",
+  "kind": "figure",
+  "page": 141,
+  "bbox": [
+   147.9,
+   219.6,
+   529.0,
+   406.6
+  ]
+ },
+ {
+  "file": "fig-13-9.webp",
+  "caption": "Figure 13-9. An arm immobilized with strips of clothing",
+  "kind": "figure",
+  "page": 142,
+  "bbox": [
+   160.7,
+   540.2,
+   436.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-10.webp",
+  "caption": "Figure 13-10. Application of a cravat to form a sling (two methods)",
+  "kind": "figure",
+  "page": 143,
+  "bbox": [
+   92.5,
+   396.2,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-11.webp",
+  "caption": "Figure 13-11. Completing the sling sequence",
+  "kind": "figure",
+  "page": 143,
+  "bbox": [
+   88.0,
+   193.3,
+   542.0,
+   386.2
+  ]
+ },
+ {
+  "file": "fig-13-12.webp",
+  "caption": "Figure 13-12. Board splints applied to the",
+  "kind": "figure",
+  "page": 143,
+  "bbox": [
+   88.0,
+   193.3,
+   542.0,
+   386.2
+  ]
+ },
+ {
+  "file": "fig-13-13.webp",
+  "caption": "Figure 13-13. Chest wall used as a splint for the upper",
+  "kind": "figure",
+  "page": 144,
+  "bbox": [
+   81.9,
+   528.6,
+   490.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-14.webp",
+  "caption": "Figure 13-14. Chest wall,",
+  "kind": "figure",
+  "page": 144,
+  "bbox": [
+   91.0,
+   494.1,
+   499.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-15.webp",
+  "caption": "Figure 13-15. Board splint applied to the fractured forearm",
+  "kind": "figure",
+  "page": 144,
+  "bbox": [
+   152.7,
+   314.4,
+   444.2,
+   484.1
+  ]
+ },
+ {
+  "file": "fig-13-16.webp",
+  "caption": "Figure 13-16. Fractured forearm or wrist splinted with sticks, and supported with a tail of the",
+  "kind": "figure",
+  "page": 144,
+  "bbox": [
+   72.0,
+   129.0,
+   524.7,
+   304.4
+  ]
+ },
+ {
+  "file": "fig-13-17.webp",
+  "caption": "Figure 13-17. Board splint applied to a fractured wrist and hand",
+  "kind": "figure",
+  "page": 145,
+  "bbox": [
+   92.5,
+   474.2,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-18.webp",
+  "caption": "Figure 13-18. Semi-rigid splint applied to a fractured wrist or forearm",
+  "kind": "figure",
+  "page": 145,
+  "bbox": [
+   92.5,
+   300.3,
+   537.5,
+   464.2
+  ]
+ },
+ {
+  "file": "fig-13-19.webp",
+  "caption": "Figure 13-19. Board splints applied to the fractured hip or thigh",
+  "kind": "figure",
+  "page": 146,
+  "bbox": [
+   74.5,
+   468.2,
+   519.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-20.webp",
+  "caption": "Figure 13-20. Board splint applied to the fractured or dislocated knee",
+  "kind": "figure",
+  "page": 146,
+  "bbox": [
+   74.5,
+   114.3,
+   519.5,
+   458.2
+  ]
+ },
+ {
+  "file": "fig-13-21.webp",
+  "caption": "Figure 13-21. Board splints applied to the fractured lower leg or ankle",
+  "kind": "figure",
+  "page": 147,
+  "bbox": [
+   92.5,
+   405.2,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-22.webp",
+  "caption": "Figure 13-22. Moldable splint applied to the fractured lower leg or ankle",
+  "kind": "figure",
+  "page": 147,
+  "bbox": [
+   92.5,
+   154.8,
+   537.4,
+   395.2
+  ]
+ },
+ {
+  "file": "fig-13-23.webp",
+  "caption": "Figure 13-23. Improvised splint applied to the fractured lower leg or ankle",
+  "kind": "figure",
+  "page": 148,
+  "bbox": [
+   74.5,
+   516.2,
+   519.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-24.webp",
+  "caption": "Figure 13-24. Poles rolled in a blanket and used as splints that are applied to the fractured",
+  "kind": "figure",
+  "page": 148,
+  "bbox": [
+   74.5,
+   258.9,
+   519.5,
+   506.2
+  ]
+ },
+ {
+  "file": "fig-13-25.webp",
+  "caption": "Figure 13-25. Uninjured leg used as a splint for the fractured leg (anatomical splint)",
+  "kind": "figure",
+  "page": 149,
+  "bbox": [
+   92.5,
+   468.2,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-26.webp",
+  "caption": "Figure 13-26. The application of belts, sling, and swathe to immobilize a fractured collarbone",
+  "kind": "figure",
+  "page": 149,
+  "bbox": [
+   89.2,
+   96.4,
+   543.6,
+   272.0
+  ]
+ },
+ {
+  "file": "fig-13-27.webp",
+  "caption": "Figure 13-27. The application of the sling and swathe to immobilize a fractured or dislocated",
+  "kind": "figure",
+  "page": 150,
+  "bbox": [
+   72.3,
+   528.6,
+   524.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-28.webp",
+  "caption": "Figure 13-28. The spinal column must maintain a normal spine position",
+  "kind": "figure",
+  "page": 151,
+  "bbox": [
+   92.5,
+   289.6,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-29.webp",
+  "caption": "Figure 13-29. Placing the casualty face-up with a fractured back onto the litter",
+  "kind": "figure",
+  "page": 152,
+  "bbox": [
+   74.5,
+   373.6,
+   519.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-13-30.webp",
+  "caption": "Figure 13-30. Casualty with a roll of cloth",
+  "kind": "figure",
+  "page": 153,
+  "bbox": [
+   88.0,
+   357.6,
+   542.0,
+   544.7
+  ]
+ },
+ {
+  "file": "fig-13-31.webp",
+  "caption": "Figure 13-31. Immobilization of the fractured",
+  "kind": "figure",
+  "page": 153,
+  "bbox": [
+   88.0,
+   357.6,
+   542.0,
+   544.7
+  ]
+ },
+ {
+  "file": "fig-13-32.webp",
+  "caption": "Figure 13-32. Preparing the casualty with a fractured neck for transportation",
+  "kind": "figure",
+  "page": 154,
+  "bbox": [
+   110.4,
+   93.1,
+   486.4,
+   715.7
+  ]
+ }
+]

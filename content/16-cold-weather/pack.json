@@ -1,0 +1,11 @@
+{
+ "id": "cold-weather",
+ "title": "Cold Weather & Arctic Environments",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "U.S. Army (ATP 3-90.96) and National Weather Service (NOAA)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Army ATP 3-90.96/MCTP 12-10E, Arctic and Extreme Cold Weather Operations (24 February 2025, including Change 2), approved for public release; distribution is unlimited — chapter 1 sections II-III only, excluding material reproduced by permission of third parties; and from National Weather Service cold-safety web pages, which quote CDC frostbite guidance (Source: CDC). NWS text is not an official NWS product. Reformatted into sections without changing substance; figures not included. Use does not imply endorsement by the U.S. Army, DoD, NOAA, CDC, or the U.S. Government.",
+ "description": "Extreme cold, frostbite and hypothermia, arctic climates, snow, ice, avalanches, permafrost, weather (wind, white out, ice fog), wildlife and insects, and cold-weather hazards to people and equipment. The windchill and frostbite-time tables are not included."
+}

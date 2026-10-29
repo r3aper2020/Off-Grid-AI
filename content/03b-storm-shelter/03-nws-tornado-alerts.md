@@ -1,0 +1,10 @@
+# Tornado Watch, Warning and Emergency: What to Do (NWS)
+Source: https://www.weather.gov/safety/tornado-ww
+
+## Tornado watch, warning and emergency
+
+What is the difference between a Tornado Watch, a Tornado Warning and a Tornado Emergency? The National Weather Service has three key alerts to watch out for.
+
+- Tornado Watch: Be Prepared! Tornadoes are possible in and near the watch area. Review and discuss your emergency plans, take inventory of your supplies and check your safe room. Be ready to act quickly if a warning is issued or you suspect a tornado is approaching. Acting early helps to save lives! Watches are issued by the Storm Prediction Center for counties where tornadoes may occur. The watch area is typically large, covering numerous counties or even states.
+- Tornado Warning: Take Action! A tornado has been sighted or indicated by weather radar. There is imminent danger to life and property. Move to an interior room on the lowest floor of a sturdy building. Avoid windows. If in a mobile home, a vehicle, or outdoors, move to the closest substantial shelter and protect yourself from flying debris. Warnings are issued by your local forecast office. Warnings typically encompass a much smaller area (around the size of a city or small county) that may be impacted by a tornado identified by a forecaster on radar or by a trained spotter/law enforcement who is watching the storm.
+- Tornado Emergency: Seek Shelter Immediately! A tornado emergency is the National Weather Service’s highest alert level. It is issued when a violent tornado has touched down in the watch area. There is a severe threat to human life and property, with catastrophic damage confirmed. Immediately seek refuge in the safest location possible. Call friends and family who are within the watch area to ensure they are aware of the situation. If you see a tornado approaching, do not attempt to outrun it in a vehicle; shelter in place. Once safe, be sure to monitor your local forecast for the latest updates.

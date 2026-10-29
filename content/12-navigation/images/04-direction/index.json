@@ -1,0 +1,254 @@
+[
+ {
+  "file": "fig-6-1.webp",
+  "caption": "Figure 6-1. Three norths.",
+  "kind": "figure",
+  "page": 65,
+  "bbox": [
+   162.9,
+   364.3,
+   411.9,
+   655.9
+  ]
+ },
+ {
+  "file": "fig-6-2.webp",
+  "caption": "Figure 6-2. Origin of azimuth circle.",
+  "kind": "figure",
+  "page": 66,
+  "bbox": [
+   201.4,
+   504.3,
+   446.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-6-3.webp",
+  "caption": "Figure 6-3. Back azimuth.",
+  "kind": "figure",
+  "page": 66,
+  "bbox": [
+   102.0,
+   210.4,
+   545.7,
+   404.2
+  ]
+ },
+ {
+  "file": "fig-6-4.webp",
+  "caption": "Figure 6-4. Measuring an azimuth.",
+  "kind": "figure",
+  "page": 68,
+  "bbox": [
+   102.0,
+   154.7,
+   545.9,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-6-5.webp",
+  "caption": "Figure 6-5. Types of protractors.",
+  "kind": "figure",
+  "page": 69,
+  "bbox": [
+   93.8,
+   392.5,
+   480.3,
+   715.4
+  ]
+ },
+ {
+  "file": "fig-6-6.webp",
+  "caption": "Figure 6-6. Military protractor.",
+  "kind": "figure",
+  "page": 70,
+  "bbox": [
+   152.4,
+   392.3,
+   484.9,
+   718.8
+  ]
+ },
+ {
+  "file": "fig-6-7.webp",
+  "caption": "Figure 6-7. Plotting an azimuth on the map.",
+  "kind": "figure",
+  "page": 71,
+  "bbox": [
+   120.4,
+   392.5,
+   453.0,
+   712.0
+  ]
+ },
+ {
+  "file": "fig-6-8.webp",
+  "caption": "Figure 6-8. Declination diagrams.",
+  "kind": "figure",
+  "page": 72,
+  "bbox": [
+   102.0,
+   194.3,
+   546.2,
+   423.7
+  ]
+ },
+ {
+  "file": "fig-6-9.webp",
+  "caption": "Figure 6-9. Declination diagram with arbitrary line.",
+  "kind": "figure",
+  "page": 73,
+  "bbox": [
+   66.0,
+   420.4,
+   436.8,
+   710.2
+  ]
+ },
+ {
+  "file": "fig-6-10.webp",
+  "caption": "Figure 6-10. Converting to grid azimuth.",
+  "kind": "figure",
+  "page": 74,
+  "bbox": [
+   195.5,
+   434.4,
+   444.1,
+   704.5
+  ]
+ },
+ {
+  "file": "fig-6-11.webp",
+  "caption": "Figure 6-11. Converting to magnetic azimuth.",
+  "kind": "figure",
+  "page": 74,
+  "bbox": [
+   102.0,
+   84.8,
+   458.3,
+   416.5
+  ]
+ },
+ {
+  "file": "fig-6-12.webp",
+  "caption": "Figure 6-12. Converting to a magnetic azimuth",
+  "kind": "figure",
+  "page": 75,
+  "bbox": [
+   66.0,
+   378.2,
+   425.7,
+   710.2
+  ]
+ },
+ {
+  "file": "fig-6-13.webp",
+  "caption": "Figure 6-13. Converting to a grid azimuth on a map.",
+  "kind": "figure",
+  "page": 75,
+  "bbox": [
+   135.5,
+   70.4,
+   440.4,
+   329.6
+  ]
+ },
+ {
+  "file": "fig-6-14.webp",
+  "caption": "Figure 6-14. Converting to a magnetic azimuth on a map.",
+  "kind": "figure",
+  "page": 76,
+  "bbox": [
+   102.0,
+   406.3,
+   491.4,
+   696.1
+  ]
+ },
+ {
+  "file": "fig-6-15.webp",
+  "caption": "Figure 6-15. Converting to a grid azimuth",
+  "kind": "figure",
+  "page": 76,
+  "bbox": [
+   102.0,
+   84.5,
+   446.7,
+   388.3
+  ]
+ },
+ {
+  "file": "fig-6-16.webp",
+  "caption": "Figure 6-16. Intersection, using map and compass.",
+  "kind": "figure",
+  "page": 78,
+  "bbox": [
+   102.0,
+   322.4,
+   545.5,
+   728.6
+  ]
+ },
+ {
+  "file": "fig-6-17.webp",
+  "caption": "Figure 6-17. Intersection, using a straightedge.",
+  "kind": "figure",
+  "page": 79,
+  "bbox": [
+   66.0,
+   420.4,
+   509.9,
+   681.5
+  ]
+ },
+ {
+  "file": "fig-6-18.webp",
+  "caption": "Figure 6-18. Resection with map and compass.",
+  "kind": "figure",
+  "page": 80,
+  "bbox": [
+   102.0,
+   252.7,
+   546.0,
+   710.2
+  ]
+ },
+ {
+  "file": "fig-6-19.webp",
+  "caption": "Figure 6-19. Resection with straightedge.",
+  "kind": "figure",
+  "page": 81,
+  "bbox": [
+   66.0,
+   266.7,
+   510.1,
+   570.4
+  ]
+ },
+ {
+  "file": "fig-6-20.webp",
+  "caption": "Figure 6-20. Modified resection.",
+  "kind": "figure",
+  "page": 82,
+  "bbox": [
+   102.0,
+   238.6,
+   545.4,
+   570.3
+  ]
+ },
+ {
+  "file": "fig-6-21.webp",
+  "caption": "Figure 6-21. Polar plot.",
+  "kind": "figure",
+  "page": 83,
+  "bbox": [
+   66.0,
+   320.2,
+   509.4,
+   611.8
+  ]
+ }
+]

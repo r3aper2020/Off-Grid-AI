@@ -1,0 +1,11 @@
+{
+ "id": "medical-emergencies",
+ "title": "Medical Emergencies: Heart, Stroke, Asthma, Low Blood Sugar",
+ "category": "medical",
+ "version": "2026.10.29.6",
+ "review": "verified",
+ "publisher": "U.S. National Institutes of Health (NHLBI and NIDDK)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from National Heart, Lung, and Blood Institute (NHLBI) and National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) web pages, retrieved October 2026; reformatted into sections without changing substance; glossary pop-ups, footnote numbers and hospital-treatment sections not included. Use does not imply endorsement by NIH, HHS, or the U.S. Government.",
+ "description": "Recognizing a heart attack, cardiac arrest (CPR and AEDs), stroke (FAST test), asthma attacks and low blood glucose, and when to call 9-1-1."
+}

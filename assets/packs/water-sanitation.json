@@ -1,0 +1,306 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "water-sanitation",
+ "title": "Water & Sanitation",
+ "category": "guide",
+ "version": "2026.10.29.3",
+ "publisher": "CDC and U.S. Army (TC 4-02.3)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Making water safe to drink, finding water, storing an emergency supply, and field hygiene and sanitation.",
+ "attribution": "Text from U.S. Centers for Disease Control and Prevention (CDC) web pages, reformatted into sections without changing its substance. Use does not imply endorsement by CDC, HHS, or the U.S. Government. Also includes text from U.S. Army TC 4-02.3, Field Hygiene and Sanitation (May 2015), approved for public release; distribution is unlimited; use does not imply endorsement by the U.S. Army or DoD.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "How to Make Water Safe in an Emergency",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- After an emergency, your tap water may not be available or safe to use.\n- Use bottled, boiled, or treated water to avoid getting sick.\n- Boiling is the best way to kill germs in water."
+    },
+    {
+     "heading": "Overview",
+     "body": "After an emergency or disaster—such as a water main break, hurricane, or flood—you can take steps to make sure you have safe water.\n\nIf you know or suspect your water is unsafe, do not use that water to:\n\n- Drink\n- Wash dishes\n- Brush your teeth\n- Wash or prepare food\n- Wash your hands\n- Make ice\n- Make baby formula\n\nInstead, use bottled, boiled, or treated water for drinking, cooking, and personal hygiene. Follow recommendations from your health department for boiling or treating your water.\n\nAlso consider if there are other sources of safe water in or near your home you could use. Never use water from radiators or boilers that are part of your home heating system for drinking, cooking, or hygiene. This water could make you sick."
+    },
+    {
+     "heading": "Overview: Water with fuel or toxic chemicals in it",
+     "body": "You cannot make water containing fuel, toxic chemicals, or radioactive materials safe by boiling or disinfecting it. If you know or suspect your water contains fuel or toxic chemicals: 1) Use bottled water or a different source of water 2) Contact your health department for specific advice."
+    },
+    {
+     "heading": "Boil",
+     "body": "If you don’t have safe bottled water, boil your water to make it safe to drink."
+    },
+    {
+     "heading": "Boil: Steps for boiling water",
+     "body": "If the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water and follow the steps below.\n\n- Bring clear water to a rolling boil for 1 minute (at elevations above 6,500 feet, boil for 3 minutes).\n- Let the boiled water cool.\n- Store the boiled water in clean, sanitized containers with tight covers."
+    },
+    {
+     "heading": "Boil: Making boiled water taste better",
+     "body": "Improve the flat taste of boiled water by:\n\n- Pouring it from one container to another and then letting it stand for a few hours\n- Adding a pinch of salt for each quart or liter of boiled water"
+    },
+    {
+     "heading": "Disinfect",
+     "body": "You can kill most germs in water with chemical disinfectants, such as unscented household chlorine bleach, iodine, or chlorine dioxide tablets. However, disinfectants do not work as well as boiling for killing some germs, including the parasites Cryptosporidium and Giardia."
+    },
+    {
+     "heading": "Disinfect: Steps for using bleach to disinfect water",
+     "body": "If the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water and follow the steps below.\n\n- Follow the instructions on the bleach label for disinfecting drinking water. If the label does not have instructions, check the \"active ingredient\" on the label to find the bleach's concentration of sodium hypochlorite. In the United States, it will typically be between 5% and 9% sodium hypochlorite. Then, based on the concentration you have, use the tables below to add the appropriate amount of bleach to the water.\n- Stir the bleach and water mixture well.\n- Let the water stand for at least 30 minutes before you drink it.\n- Store the disinfected water in clean, sanitized containers with tight covers.\n\n**Bleach with a 5% to 9% concentration of sodium hypochlorite**\n\nUse the measurements below to make water safe to use. If the water is cloudy, murky, colored, or very cold, add double the amount of bleach listed below.\n\n1 quart or liter of water\n\n- If you have a dropper: Add 2 drops of bleach\n- If you have something that measures in milliliters (mL): Add 0.1 mL of bleach\n- If you have a measuring spoon: Add a tiny amount (too small to measure)\n\n1 gallon of water\n\n- If you have a dropper: Add 8 drops of bleach\n- If you have something that measures milliliters (mL): Add ½ mL of bleach\n- If you have a measuring spoon: Add a little less than ⅛ teaspoon\n\n5 gallons of water\n\n- If you have a dropper: Add 40 drops of bleach\n- If you have something that measures milliliters (mL): Add 2½ mL of bleach\n- If you have a measuring spoon: Add ½ teaspoon of bleach\n\n**Bleach with a 1% concentration of sodium hypochlorite**\n\nUse the measurements below to make water safe to use. If the water is cloudy, murky, colored, or very cold, add double the amount of bleach listed below.\n\n1 quart or liter of water\n\n- If you have a dropper: Add 10 drops of bleach\n- If you have something that measures milliliters (mL): Add ½ mL of bleach\n- If you have a measuring spoon: Add ⅛ teaspoon of bleach\n\n1 gallon of water\n\n- If you have a dropper: Add 40 drops of bleach\n- If you have something that measures milliliters (mL): Add 2½ mL of bleach\n- If you have a measuring spoon: Add ½ teaspoon of bleach\n\n5 gallons of water\n\n- If you have a dropper: Add 200 drops of bleach\n- If you have something that measures milliliters (mL): Add 12½ mL of bleach\n- If you have a measuring spoon: Add 2½ teaspoons of bleach"
+    },
+    {
+     "heading": "Disinfect: Using chemical tablets or drops to disinfect water",
+     "body": "Follow the instructions on the label or package of chlorine dioxide, chlorine, or iodine tablets or drops. Chemical disinfectants are made to disinfect specific amounts of water.\n\n**If Cryptosporidium is in your water**\n\nIodine, tablets with iodine (tetraglycine hydroperiodide), or chlorine tablets kill most germs, but will not kill Cryptosporidium germs. Chlorine dioxide tablets will kill Cryptosporidium as long as you follow the instructions correctly."
+    },
+    {
+     "heading": "Disinfect: Who should avoid water disinfected with iodine",
+     "body": "If you are pregnant, have thyroid problems, or have a hypersensitivity to iodine, avoid drinking water disinfected with iodine. Additionally, no one should drink water disinfected with iodine for more than a few weeks at a time."
+    },
+    {
+     "heading": "Filter",
+     "body": "Portable water filters do not remove all types of germs from water.\n\nPortable filters:\n\n- Will not remove viruses\n- Must have an absolute pore (hole) size of 0.3 micron or smaller to remove bacteria\n- Must have an absolute pore size of 1 micron or smaller to remove parasites (such as Giardia or Cryptosporidium)"
+    },
+    {
+     "heading": "Filter: Using a filter",
+     "body": "- Follow the instructions for the water filter you are using.\n- After filtering, add a chemical disinfectant—such as iodine, chlorine, or chlorine dioxide—to the filtered water. The disinfectant will kill any viruses and bacteria."
+    },
+    {
+     "heading": "Using light: UV light",
+     "body": "Portable units that deliver ultraviolet (UV) light can kill germs in small amounts of clear water. UV light does not work well in cloudy water because small particles can block germs from the light.\n\n**Using UV light**\n\nIf the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water.\n\nFollow the instructions for the UV light unit to disinfect clear water."
+    },
+    {
+     "heading": "Using light: Solar disinfection",
+     "body": "In emergencies, the sun’s rays can improve the quality of your water by reducing the number of germs in it. Solar disinfection does not work well in cloudy water because small particles can block germs from the light.\n\n**Using solar disinfection**\n\nIf the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water and follow the steps below.\n\n- Fill clean, clear plastic bottles with clear water.\n- Lay the bottles down on their side and in the sun for 6 hours (if sunny) or 2 days (if cloudy). Laying the bottles down allows the sun’s rays to kill more germs in the water. You can also lay the bottles on a dark surface to help the sun's rays kill more germs."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/water-emergency/about/index.html"
+  },
+  {
+   "title": "How to Find Clean Water in an Emergency",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- In an emergency, your tap water may not be available or safe to use.\n- In these situations, use bottled, boiled, or treated water for drinking, cooking, and personal hygiene.\n- If you do not have bottled, boiled, or treated water, you can find other sources of clean water inside or outside of your home."
+    },
+    {
+     "heading": "Inside the home",
+     "body": "If you do not have bottled, boiled, or treated water, other sources of clean and safe water that can be found inside your home include:\n\n- Water from your home's tap water heater tank. This refers to the tank that connects to the water that comes out of your faucets and showerheads. (This is different than the tank used to supply hot water to radiators in older homes. In these homes, be sure to use the tap water heater tank, not the home heating system tank.)\n- Melted ice cubes made with water that was not contaminated\n- Water from your home's toilet tank (not from the bowl), if it is clear and has not been chemically treated with toilet cleaners such as those that change the color of the water\n- Liquid from canned fruit and vegetables\n- Water from swimming pools and spas can be used for personal hygiene, cleaning, and related uses, but not for drinking."
+    },
+    {
+     "heading": "Inside the home: Pay attention to reports from local officials",
+     "body": "Listen to reports from local officials for advice on water precautions in your home. You may need to shut off the main water valve to your home to prevent contaminants from entering pipes in your home."
+    },
+    {
+     "heading": "Outside the home",
+     "body": "Rivers, streams, and lakes might be contaminated with livestock waste, human sewage, chemicals, and other contaminants. Using contaminated water for drinking, bathing, and other hygiene activities can make you sick. During flood events, well water might also be contaminated.\n\nWater from sources outside the home must be treated to kill harmful germs as described in Make Water Safe in an Emergency. If you suspect or know the water is contaminated with toxic chemicals or fuels, it cannot be made safe and you should not drink or bathe in this water.\n\nPossible sources of water that could be made safe by treatment include:\n\n- Rainwater\n- Streams, rivers, and other moving bodies of water\n- Ponds and lakes\n- Natural springs"
+    },
+    {
+     "heading": "Outside the home: Safety alert",
+     "body": "Do not use water that has been contaminated by fuel or toxic chemicals.\n\nDrinking Water Advisories\n\nNational Center for Environmental Health"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html"
+  },
+  {
+   "title": "How to Create an Emergency Water Supply",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- During a water-related emergency or outbreak, safe drinking water may not be available.\n- Prepare for an emergency by creating and storing a 3-day supply of water that will meet your family’s needs.\n- Store at least 1 gallon of water per day for each person."
+    },
+    {
+     "heading": "Bottled water",
+     "body": "Unopened, commercially bottled water is the safest and most reliable source of water in an emergency.\n\nIf you do not have bottled water, you can make your water safe to drink by following the instructions on CDC's Making Water Safe in an Emergency page. Use clean containers to collect and store your water."
+    },
+    {
+     "heading": "How much emergency water to store",
+     "body": "Store at least 1 gallon of water per person, per day for 3 days. You can use this water during an emergency for drinking, cooking, brushing teeth, and other uses. Try to store a 2-week supply if possible.\n\nConsider storing more water than this for pregnant women, people who are sick, pets, or if you live in a hot climate."
+    },
+    {
+     "heading": "Other considerations",
+     "body": "- Observe the expiration date for store-bought water.\n- If you are filling containers with water to store, replace the water every 6 months.\n- Store a bottle of unscented liquid household chlorine bleach (label should say it contains between 5% and 9% of sodium hypochlorite). You can use bleach to disinfect your water, if necessary, and for general cleaning and sanitizing."
+    },
+    {
+     "heading": "Choosing a container",
+     "body": "If you are filling containers with water to store, it is best to use FDA-approved food-grade water storage containers. They can be found at surplus or camping supply stores. Contact the storage container manufacturer if you are not sure whether the container is food-grade.\n\nIf you are not able to use a food-grade water storage container, be sure the container you choose:\n\n- Has a top that can be closed tightly.\n- Is made of durable, unbreakable materials (not glass).\n- Has a narrow neck or opening, if possible, so you can pour water out of it."
+    },
+    {
+     "heading": "Choosing a container: Don't use unsafe containers",
+     "body": "Do not use containers that were previously used to hold liquid or solid toxic chemicals, such as bleach or pesticides."
+    },
+    {
+     "heading": "Cleaning the container before use",
+     "body": "Before filling with water, follow these steps to clean and sanitize water storage containers:"
+    },
+    {
+     "heading": "Cleaning the container before use: Steps to take",
+     "body": "- Wash\n- Wash the storage container with soap and rinse completely with water.\n- Sanitize\n- Sanitize the container with a solution made by mixing 1 teaspoon of unscented liquid household chlorine bleach in 1 quart (4 cups) of water. Use bleach that contains 5%–9% sodium hypochlorite.\n- Cover and shake\n- Cover the container tightly and shake it well. Make sure the sanitizing bleach solution touches all inside surfaces of the container.\n- Wait\n- Wait at least 30 seconds and then pour the sanitizing solution out of the container.\n- Dry\n- Let the empty container air-dry before use.\n- Fill\n- Pour clean water into the sanitized container and cover it with a tight lid."
+    },
+    {
+     "heading": "Storing the water",
+     "body": "Tips for storing water from your home:\n\n- Label container as \"drinking water\" and include storage date.\n- Replace water every six months.\n- Keep containers in a place with a cool temperature (50°F –70°F).\n- Keep containers away from direct sunlight.\n- Keep containers away from toxic substances, such as gasoline or pesticides."
+    },
+    {
+     "heading": "Using the water",
+     "body": "Tips for taking water out of the container:\n\n- If using a scoop or other device, use a clean one each time you remove water from the container to avoid contaminating the water.\n- Do not to touch the water or insides of the container with your hands.\n- Do not scoop out water with your hands."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+  },
+  {
+   "title": "Field Hygiene: Disease Prevention, Waste and Heat/Cold Injury (TC 4-02.3)",
+   "sections": [
+    {
+     "heading": "Health Threats in Military Operations: DISEASE AND NONBATTLE INJURIES",
+     "body": "**Chapter 1**\n\n**Health Threats in Military Operations**\n\n1-1. Disease and nonbattle injuries (DNBIs) have been a costly consequence of military operations for as long as there have been armies. Historically around 80 percent of reported casualties among U.S. military personnel have been attributed to DNBI. The result has been tens of thousands of U.S. military personnel who have died, were severely disabled, or temporarily rendered incapable of performing their duties. High numbers of DNBI casualties has had a significant impact on unit readiness and severely jeopardized the ability of some units to accomplish their mission.\n\nNote. Disease and nonbattle injury casualties are defined as Soldiers who are lost to their organization by reason of disease or injury and who are not battle casualties.\n\n1-2. To reduce the high rates of DNBI, the armed forces of the U.S. implemented fundamental changes in the way that they address field hygiene and sanitation and health threats endemic to an area of operations.\n\nAlthough incidences of DNBI have declined since the end of the Vietnam War there is no doubt that they still adversely affect U.S. military forces. Table 1-1 depicts percentages of DNBI recorded in U.S. military operations from 1991 to 2003.\n\n{{img:0}}\n\n1-3. The reduction in DNBI casualty rates can be attributed to—\n\n Command emphasis.  Proactive leaders and unit field sanitation teams.  Awareness of the threat.  Education and training.  Ready access to safe rations, potable water, laundry, shower, and latrine facilities.\n\nImproved preventive medicine measures, personal protection equipment, and chemoprophylaxis and medical treatment protocols.",
+     "images": [
+      {
+       "asset": "assets/packs/images/water-sanitation--04-field-hygiene--tab-1-1.webp",
+       "caption": "Table 1-1. Percentage of disease and nonbattle injury rates in contemporary operations",
+       "kind": "table"
+      }
+     ]
+    },
+    {
+     "heading": "Health Threats in Military Operations: HEALTH THREATS",
+     "body": "1-4. The environments in which U.S. military forces routinely operate present significant health threats to Soldiers in the field and when deployed. Health threats most commonly encountered by U.S. military personnel include—\n\n Endemic diseases.  Food- and waterborne diseases.  Hazardous plants and animals.  Entomological hazards (nuisance pests and disease-carrying vectors).  Toxic industrial materials (industrial and agricultural).  Deployment-related stress.  Sleep deprivation.  Hazardous noise.  Climatic or environmental extremes (heat, cold, high altitudes)."
+    },
+    {
+     "heading": "Health Threats in Military Operations: PREDISPOSING FACTORS",
+     "body": "1-5. Predisposing factors are things which make a Soldier more susceptible to becoming a DNBI casualty.\n\nThese include—\n\n Breakdown in basic hygiene and sanitation practices.  Weakening of the natural defenses of the human body.  Harshness of the environment."
+    },
+    {
+     "heading": "Health Threats in Military Operations: BREAKDOWN IN BASIC HYGIENE AND SANITATION PRACTICES",
+     "body": "1-6. Basic hygiene and sanitation practices may begin to breakdown when Soldiers are not able to readily and regularly access potable water, safe rations, showers, latrines, and laundry facilities. Soldiers may become apathetic and begin neglecting their personal hygiene and fail to properly dispose of potentially hazardous solid and human waste products."
+    },
+    {
+     "heading": "Health Threats in Military Operations: NATURAL DEFENSES OF THE HUMAN BODY",
+     "body": "1-7. Extended periods of time in the field and prolonged deployments in austere environments place tremendous stress on the human body. These stresses can negatively impact the body’s natural defense mechanisms and can weaken its ability to efficiently protect against disease. When Soldiers are placed in high-stress situations for extended periods of time coupled with significant climatic changes, interrupted sleep periods or sleep deprivation, and irregular meals they become more susceptible to illness and injury."
+    },
+    {
+     "heading": "Health Threats in Military Operations: HARSHNESS OF THE ENVIRONMENT",
+     "body": "1-8. Harsh environments are a reality of U.S. military operations. Conducting operations in these environments exposes Soldiers to extremes of heat or cold, high altitude environments, endemic diseases, food- and waterborne disease, hazardous pests and animals, entomological hazards, toxic industrial materials (industrial and agricultural), deployment-related stress, and hazardous noise."
+    },
+    {
+     "heading": "Health Threats in Military Operations: PREVENTIVE MEDICINE MEASURES",
+     "body": "1-9. Preventive medicine measures are simple, common sense actions that every Soldier can and must perform to preserve his health and avoid unnecessary injury while in the field or when deployed.\n\nNote. In order to be effective, preventive medicine measures must be an item of command interest."
+    },
+    {
+     "heading": "Health Threats in Military Operations: Health Threats in Military Operations",
+     "body": "1-10. The principles of preventive medicine measures are—\n\n Soldiers perform individual techniques of preventive medicine measures.  Field sanitation teams train Soldiers in preventive medicine measures and advise commanders\n\nand unit leaders on implementation of unit-level preventive medicine measures.\n\n Commanders and subordinate leaders provide for and enforce preventive medicine measures.\n\n1-11. The key point to remember is that disciplined, well trained, physically fit, and appropriately supported Soldiers can avoid becoming DNBI casualties and remain healthy to successfully perform their mission while in the field and deployed. This is especially true when they are aware of the threats present in their area of operations and provided the information and resources necessary to counter the threat.\n\nThis page intentionally left blank."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: SOLDIER RESPONSIBILITIES",
+     "body": "**Health Threats in Military Operations: Chapter 2**\n\n**Individual Preventive Medicine Measures**\n\n2-1. Regulations state that individual Soldiers are responsible for their own well-being. For example, AR 40-5 states that every Soldier is responsible for his own well-being and that he will implement and employ all protective measures possible to preserve his health. Each Soldier, as a minimum, will protect against—\n\n Skin diseases by washing the body as often as practicable.  Heat injury in hot and sunny climates by following work or rest and water consumption guidelines, by properly adhering to uniform wear policies, and by using sunscreen on exposed body parts.\n\n Cold injury in cold climates by wearing proper cold-weather clothing and frequently changing socks to keep feet dry, by careful handling of gasoline-type liquids, and by avoiding contact between skin and cold metal.\n\n Mosquito, fly, tick, and other arthropod-borne diseases by using insect repellents, netting, and insecticide aerosols; by taking approved chemoprophylaxis; and by wearing the uniform properly.\n\n Enteric (gastrointestinal) diseases by using water purification procedures whenever water quality is uncertain and by avoiding foods prepared by unapproved food vendors, and by properly disposing of bodily wastes. (Refer to Appendix A for water disinfection techniques and procedures)."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: PERSONAL HYGIENE",
+     "body": "2-2. Personal hygiene refers to a set of practices intended to preserve the health of the individual Soldier and consequently the health of every Soldier who must work and live in close proximity to them.\n\n2-3. To maintain an effective personal hygiene regimen, each Soldier must maintain a supply of personal hygiene items for use when they are going to the field or deploying.\n\nNote. Soldiers being deployed for unspecified periods of time should consider packing a 90-day supply of prescription medications and standard toiletry articles until sustainment of these items can be assured.\n\n2-4. Personal hygiene items may include, but is not limited to, the following items:\n\n Absorbent body powder.  Alcohol-based hand sanitizer.  Antiperspirant/deodorant.  Comb.  Dental floss.  Department of Defense-approved insect repellent.  Eye drops.  Feminine hygiene products.  Foot powder.  Hairbrush.\n\n Lip balm.  Prescription medications (for example, birth control, blood pressure, and so forth).  Sanitizing wipes.  Shampoo.  Shaving kit.  Soap.  Sunscreen lotion.  Toilet tissue.  Toothbrush.  Toothpaste.  Towels.  Washcloths.\n\nNote. Alcohol-based hand sanitizer, sunscreen, and DOD-approved insect repellents are available through unit supply channels for issue to Soldiers as needed."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: SKIN CARE",
+     "body": "2-5. The skin is the largest organ of the human body and protects the body from disease-causing bacteria and viruses. The skin also provides protection from the direct rays of the sun, insulates the body from cold, and helps to regulate the temperature of the body in hot environments.\n\n2-6. As the body’s first line of defense it is essential that Soldiers protect their skin by keeping it as clean as possible. Showering regularly helps to reduce bacteria that are resident on the skin and can help to prevent infection from scrapes, cuts, punctures, and cracked skin. Soldiers can protect their skin by—\n\n Showering or bathing regularly to keep the skin clean.  Using absorbent body powder to control moisture buildup. Pay particular attention to areas where wetness is a problem (such as underarms, between the thighs and buttocks, feet, and, for females, under the breasts).\n\n Wearing the uniform properly and modifying the wear of the uniform when directed. Utility\n\nuniforms are designed to fit loosely to allow for ventilation and provide protection from the sun.\n\n Wear moisture wicking undergarments designed to pull moisture away from the skin.  Changing into clean dry socks and applying antifungal foot powder to protect the feet from\n\nprolonged periods of dampness.\n\n Applying DOD-approved insect repellent when needed.\n\nNote. Use of insect repellents must always be in compliance with the manufacturer’s instructions.\n\n Applying sunscreen to exposed skin."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: SHOWERING",
+     "body": "2-7. Under ideal conditions Soldiers should shower daily, or at least once every week to maintain good personal hygiene.\n\nFrequent showering prevents skin infections and helps to prevent potential parasite infestations. When showers are not available, washing daily with a washcloth and soap and water is advised. Particular attention should be given to sweaty areas or places that become wet—armpits, feet, genitals, between thighs and buttocks, and under breasts.\n\n2-8. It is highly recommended that female Soldiers who are menstruating have daily access to shower facilities. This however does not mean that there must be a fixed facility with hot and cold running water on site. In situations where shower facilities are not available, female Soldiers can establish a private space\n\nwith adequate drainage and bathe using a washcloth and soap and water. A full canteen of water should be adequate for one Soldier and a five-gallon water container for multiple Soldiers. Provisions for heating water would be preferred, but may not always be possible. The site designated for Soldiers to wash themselves must provide privacy and security.\n\n2-9. Female Soldiers who are not menstruating should be treated the same as male Soldiers with regard to accessing fixed shower facilities. Shower runs should be coordinated without gender preference influencing their frequency. Soldiers should avoid using perfume, cologne, or scented soaps, which can attract insects.\n\nHowever, unscented lotion can be used to keep the skin from drying, cracking, and becoming infected.\n\nCosmetics are not authorized in the field. Frequent showering also helps to prevent genital and urinary tract infections."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: LAUNDERING CLOTHING REGULARLY",
+     "body": "2-10. Laundering of uniforms is critically important for preventing parasite infestation since head and body lice are generally spread by direct contact with infested Soldiers, their uniforms, or bedding.\n\n2-11. The following are steps that can be taken to help prevent and control the spread of head and body lice:\n\n Shower and bathe regularly and change into properly laundered uniforms at least once a week.  Do not share clothing, beds, bedding, and towels used by a Soldier known to harbor parasites.  Fumigation or dusting with DOD-approved insecticides may be necessary to control and prevent\n\nthe spread of body lice."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: HAND WASHING AND SANITIZING",
+     "body": "2-12. One of the most effective practices that Soldiers can perform to protect themselves and others from the spread of disease is to thoroughly wash or sanitize their hands frequently. Regular washing or sanitizing of the hands denies disease-causing bacteria and viruses from gaining easy entry into the body. Soldiers who fail to wash their hands frequently increase the risk of spreading germs picked up from other sources and possibly infecting themselves when touching their eyes, nose, or mouth. One of the most common ways Soldiers catch a cold is by rubbing their nose or their eyes with an unwashed hand which has been contaminated with a cold-causing virus.\n\n2-13. Germs can be spread directly to others or onto surfaces that others might touch which may cause other Soldiers around you to become sick. The important thing to remember is that, in addition to colds, serious diseases like infectious diarrhea and meningitis can easily be prevented when Soldiers make a habit of frequently washing their hands.\n\n2-14. When to wash and or sanitize the hands (at a minimum)—\n\n Before eating or snacking.  After eating or snacking.  Before handling or preparing food.  After using the latrine.  After handling anything that could potentially transfer germs.  Frequently during the work day to keep your hands free of germs.  After coming into contact with any local flora or fauna.  After physical contact with local nationals.\n\nNote. Maintain cultural awareness to ensure that no insult is conveyed when this is done.\n\n2-15. Ways to clean or sanitize the hands is through the use of—\n\n Soap and potable water.\n\nNote. Nonpotable water should only be used as a last resort. Nonpotable water may be contaminated which would negate the benefits of hand washing.\n\n Alcohol-based hand sanitizing solutions when soap and water are not available.\n\nNote. Alcohol-based hand sanitizers are not effective if the Soldier’s hands are caked with dirt or grease.\n\n Alcohol wipes (included in the accessory packet of every meal, ready-to-eat, individual) to clean\n\nhands.\n\n Commercial cleansing wipes if available."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: ORAL HYGIENE",
+     "body": "2-16. The issue of oral hygiene is a readiness issue. Soldiers who fail to maintain a vigorous oral hygiene regimen can quickly become nondeployable. When neglected bacteria in the mouth use starches and sugar to produce acids that can quickly result in gingivitis and tooth decay. Not brushing for just a few days can cause inflammation of the gums and result in irritated and bleeding gums. If gum disease already exists, it can quickly become worse. To prevent tooth decay and gum disease Soldiers must maintain good oral hygiene practices at all times by—  Flossing their teeth.  Brushing their teeth."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: FLOSSING",
+     "body": "2-17. Flossing is important because it removes food particles from between the teeth and under the gums where brushing cannot reach. Soldiers should floss at least once per day."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: BRUSHING",
+     "body": "2-18. Soldiers should brush at least twice a day, especially before sleeping. Brushing should include the use of fluoride toothpaste to brush all the surfaces of the teeth using a circular motion. Soldiers should not rinse, eat, or drink anything for at least 30 minutes after brushing to allow the fluoride to stay on the teeth longer and protect them better. If toothpaste is not available, Soldiers should brush their teeth anyway.\n\nBrushing should include the tongue and the roof of the mouth. Soldiers can also enhance their oral hygiene by chewing the gum contained in the accessory packet of every field ration. The gum is made with a sweetener that helps control the buildup of oral bacteria and reduces tooth decay when used regularly.\n\n2-19. Soldiers must brush regularly even when running water is not available. While in the field this can be accomplished by keeping a small toothbrush in a ventilated toothbrush cover or case and kept in a convenient pocket.\n\nNote. After brushing, rinse the toothbrush by pouring a small amount of water over the bristles.\n\n2-20. If a toothbrush is not available, Soldiers can rinse their mouths with water after eating then wrap a piece of cloth around a finger and wipe the surfaces of the teeth and gums."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: SANITATION",
+     "body": "2-21. Sanitation involves the appropriate and hygienic disposal and treatment of all solid waste and unhealthy human waste, such as sewerage and drainage. Refer to ATP 4-25.12 for detailed discussion on waste management in the field.\n\n2-22. Proper management of waste materials generated in the field is critical in protecting the health of Soldiers and the environment. Handling these materials improperly can create dangerous working conditions, damage vital natural resources, impede mission accomplishment, and cause irreparable harm to training areas. Poor waste management practices can also lead to criminal and civil penalties, substantial cleanup costs, and detract from the military’s relationships with local communities and host nations. As a result, the DOD demands integration of environmental considerations into all military planning and decision making."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: WASTE MANAGEMENT IN THE FIELD",
+     "body": "2-23. Individual Soldier waste management responsibilities include the following:\n\n Proper collection, handling, and disposal of liquid and solid human waste.  Collection and disposal of trash.  Cleanliness of individual living and work spaces."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: COLLECTION, HANDLING , AND DISPOSAL OF LIQUID AND SOLID HUMAN WASTE",
+     "body": "2-24. Failure to properly dispose of human waste provides a fertile environment for filth flies, rats, mice, and other disease-carrying pests.\n\n2-25. Prevention of disease is relatively simple when basic sanitation practices are established and enforced. When Soldiers use latrine facilities, the problem of pests is minimized or eliminated."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: Portable Latrines",
+     "body": "2-26. Portable latrine systems enable Soldiers to relieve themselves in highly mobile and fluid environments by providing a rapidly accessible, clean, and private environment for both men and women.\n\nThese systems can easily be carried on vehicles and quickly set up by untrained personnel. These systems have long shelf lives and require no external support. Collection bags can be conveniently disposed of along with trash."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: Improvised Latrines",
+     "body": "2-27. The types of improvised latrines listed below can be used for field use. Generally, the use of improvised latrines in the U.S. is prohibited. The use of improvised latrines such as cat holes and slit trenches has become less common due to ecological and statutory restrictions."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: COLLECTION AND DISPOSAL OF TRASH",
+     "body": "2-28. The primary options for disposal of nonhazardous solid waste in the field are burning, burial, or backhauling. Within the U.S. all solid waste generated during field exercises must be backhauled to garrison or picked up by contractors. During overseas training exercises, host-nation requirements must be followed which normally require the same policies of backhauling or contract disposal. If incineration, burning, or landfilling is used during contingency operations, additional security measures must be taken to deter scavenging by local populations. For detailed discussion regarding the methods for the collection and disposal of nonhazardous solid waste refer to ATP 4-25.12.\n\n2-29. Methods for the collection and disposal of nonhazardous solid waste include—\n\nIncineration.\n\n Burn pits.  Burial.  Landfilling.  Tactical burial."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: MAINTENANCE OF INDIVIDUAL LIVING AND WORK SPACES",
+     "body": "2-30. Routine maintenance and regular cleaning of living and work spaces is vitally important for maintaining the health of the individual Soldier and for those Soldiers who must live and work in close proximity to each other.\n\n2-31. For example, bringing food into these areas and then leaving uneaten food items or failing to remove trash associated with meals can quickly attract disease carrying arthropods, rodents, and other potentially dangerous pests.\n\n2-32. Eating in designated areas and keeping trash to a minimum reduces the likelihood that pests will be attracted to these areas and thus reduce the potential for infestation and the spread of disease."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: PHYSICAL FITNESS",
+     "body": "2-33. Physical fitness plays a large part in a Soldier’s ability to cope with combat and operational stress, fight infection and disease, and avoid common musculoskeletal injuries. In cases where injuries do occur well-conditioned Soldiers generally recover more quickly. Physical training also helps Soldiers acclimatize more quickly and effectively in hot weather environments.\n\n2-34. Leaders must be aware of the positive morale benefits associated with vigorous physical training opportunities and should consider deploying with physical fitness and sports equipment to provide variety in their physical training programs."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: WATER- AND FOODBORNE ILLNESS",
+     "body": "2-35. Soldiers must be aware of the disease potential associated with the consumption of water and foods from unapproved sources. Avoiding water- and or foodborne illness is relatively simple when Soldiers adhere to a few basic rules, these include—\n\n Do not consume foods, drinks, ice, or dairy products from civilian vendors unless approved by\n\nveterinary personnel.\n\n Washing or disinfecting the hands.  Soldiers should consider every source of water to be unpotable and foods to be contaminated unless specifically authorized by leaders. In situations where there is a suspicion of contamination, the Soldier should disinfect all water using the information contained in Appendix A of this publication."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: ARTHROPODS, RODENTS, AND OTHER ANIMAL THREATS",
+     "body": "2-36. Of the 80 diseases said to be of military importance, over two-thirds are caused by pathogens transmitted by arthropods, rodents, and other animals. In addition to disease, these pests can inflict severe physical, psychological, and economic stresses that threaten the military mission. For example, arthropod bites can be painfully distracting and can lead to secondary infections, dermatitis, or allergic reactions.\n\n2-37. Soldiers can avoid the incidence of vector-borne diseases and the associated discomfort caused by stinging and biting arthropods by adhering to established preventive medicine measures. For other animal threats, refer to ATP 4-25.12."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: DEPARTMENT OF DEFENSE INSECT REPELLENT SYSTEM",
+     "body": "2-38. Insect repellents are one commonly used form of preventive medicine measures. They provide commanders with a quick and inexpensive measure to protect Soldiers. They can be applied quickly and effectively to prevent arthropod-borne disease. Repellents are often the only means of protection against arthropod-borne diseases in environments when vector control measures are not possible or when the speed of military developments prevents the use of chemoprophylaxis or vaccines.\n\n2-39. The frequent application of DOD-approved insect repellents is so important because many of the disease-causing pathogens of military importance are carried (vectored) and transmitted by ticks, chigger mites, fleas, and body lice. In order to transmit the disease all of these vectors must come into close contact with Soldiers’ uniforms before they bite.\n\n2-40. When used properly, the DOD Insect Repellent System will prevent disease, pain associated with the annoyance caused by bites of arthropods such as mosquitoes, sand flies, ticks and chiggers. The system consists of three components—\n\n Permethrin on uniforms and mosquito nets.\n\nNote. Current issue Army Combat Uniforms and pop-up bed nets are factory treated with the insect repellent permethrin to ward off stinging and biting arthropods.\n\n Application of DOD-approved insect repellent to exposed skin.  Proper wear of the uniform."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: MOSQUITO BED NETS",
+     "body": "2-41. When operating in areas where stinging and biting arthropods are present mosquito bed nets regardless of configuration must always be used to protect Soldiers when resting or sleeping. Standard issue permethrin and insecticide spray can be applied to the mesh or sprayed on insects that may be trapped inside the netting. Detailed instructions for the use of bed nets can be found in the Armed Forces Pest Management Board Technical Guide Number 36."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: IMMUNIZATIONS AND CHEMOPROPHYLAXIS",
+     "body": "2-42. Although immunizations and chemoprophylactic measures are considered individual preventive medicine measures the time and place of their administration is usually not controlled by the individual Soldier but rather by the direction of the commander and medical professionals administering or observing their administration.\n\n2-43. Various vaccines are available for some viral pathogens (yellow fever virus, Japanese encephalitis virus). Even when appropriate chemoprophylaxis or vaccination is available for the disease of greatest concern, their use entails considerable medical management. When risk is unknown or considered to be low, personal protection measures may be the appropriate strategy for prevention. Therefore, the proper use of other preventive medicine measures described earlier offer the most practical means of interrupting and preventing arthropod-borne disease transmission.\n\n2-44. In summary, there are three required components for effective personal protection—\n\n First, the measure itself must be effective when properly used.  Second, the development and continual maintenance of a well-defined education program is a\n\nmust.\n\n Third, every Soldier must be informed about the importance of preventive medicine measures for\n\nreducing the occurrence of disease caused by pest- or arthropod-borne pathogens."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: HEAT INJURY",
+     "body": "2-45. To avoid heat injury—\n\n Soldiers must become acclimatized. Significant heat acclimatization requires at least three to\n\nfive days and full acclimatization can take up to two weeks.\n\n Use sunscreen on all exposed body parts.  Drink plenty of water, depending on the heat and activity level, Soldiers may need to drink from ½ to 1½ quarts of water per hour. Three gallons or 12-quarts per day in hot, dry climates.\n\nDrinking water is a must in order to prevent heat Illness.\n\n Use work or rest cycles, as leaders direct. A rest period helps prevent dangerous increases in\n\nbody temperatures by minimizing heat production.\n\n Eat all meals to replace salts; eating all meals in the field will usually provide the body’s requirements for salts. Field rations are designed to meet the daily requirements for minerals and electrolytes (sodium).\n\n Modify the uniform, when directed/authorized by the commander to reduce heat stress and to\n\nprotect against ultraviolet radiation."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: COLD INJURY",
+     "body": "2-46. To avoid cold injury—\n\n Wear clothing as directed by commanders and leaders.  Wear clothing in loose layers (top and bottom). Avoid tight clothing, including tight underwear.  Keep clothing clean and dry.  Remove or loosen excess clothing when working or in heated areas to prevent sweating.  Wear headgear to prevent body heat loss. The body loses large amounts of heat through the\n\nhead.\n\nIf Soldiers must remain in a small area, exercise the toes, feet, fingers, and hands.\n\n Change wet or damp clothes as soon as possible.  Keep the body warm by continuing to move, if possible.  Exercise large muscle groups (arms, shoulders, trunk, and legs) frequently to keep warm.  Avoid the use of alcohol as it makes the body lose heat faster.  Avoid standing directly on cold, wet ground, when possible.  Avoid tobacco products. Using tobacco products decreases blood flow to the skin.  Eat all meals to maintain energy.  Drink plenty of water or warm nonalcoholic fluids. Dark yellow urine indicates that Soldiers are\n\nnot drinking enough fluids.\n\nNote. Dehydration can occur in cold climates.\n\n Buddies should monitor each other for cold-weather injury.\n\nNote. Soldiers must not attempt to rewarm frozen body parts unless under medical supervision.\n\n2-47. Protect the feet—\n\n Have several pairs of issue boot socks. Keep socks clean and dry. Change wet or damp socks as\n\nsoon as possible.\n\n Wash feet daily, if possible.  Apply foot powder on feet and in boots when changing socks.\n\n Avoid tight-fitting socks and boots (fully lace boots up, as loose as possible).  Wear overshoes to keep boots dry.\n\n2-48. Protect the hands—\n\n Wear gloves with inserts or mittens with inserts.  Warm hands under clothing if they become numb.  Avoid skin contact with snow, fuel, or bare metal.  Waterproof gloves by treating with waterproofing compounds.\n\n2-49. Protect the face and ears—\n\n Cover face and ears with a scarf or other material, if available.  Wear insulated cap with flaps down or wear a balaclava and secure under chin.  Warm face and ears by covering them with hands. Do not rub face and ears.  Do not use face camouflage when windchill is minus 10 degrees Fahrenheit or below. The dark\n\ncolors of the camouflage make detection of cold-weather injury difficult (frostbite).\n\n2-50. Protect eyes by—\n\n Wearing sunglasses.  Wearing issued eye protection.\n\n2-51. Protect fellow Soldiers by watching for signs of frostbite on the Soldier’s exposed skin.\n\nNote. The affected skin will appear as pale, gray, or waxy areas. Refer to ATTP 3-97.11/MCRP 3-35.1D."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: TOXIC INDUSTRIAL MATERIALS",
+     "body": "2-52. Recognize and prepare for toxic industrial material threats in the following areas:\n\n Occupational hazards—\n\n Exhaust from engines and fuel space heaters.  Gases from weapons firing, such as rockets and M8 smoke.\n\nSolvents used to clean weapons.\n\n Greases and oil from vehicle maintenance repair.  Detergents used to clean equipment.\n\nIndustrial hazards—  Compressed gases.\n\nIndustrial solvents.\n\n Hazardous chemical waste.  Materials and water used at waste sewage and water treatment plants.\n\n Biological and radiological hazards include—\n\n Medical waste.  Materials used at medical research facilities.  Radioactive isotopes.\n\nSubstances at nuclear power plants.\n\n Depleted uranium.\n\nIf necessary request preventive medicine assistance in identifying sources.\n\n2-53. Recognize the injury as follows:\n\n Carbon monoxide is a colorless, odorless, and tasteless gas that causes headache, sleepiness,\n\ncoma, and death.\n\n Smoke used for obscuration and signaling is extremely irritating and can cause severe coughing,\n\nwheezing, and lung damage, if inhaled.\n\n Bore/gun gases are extremely irritating and react with body fluids to produce hydrochloric acid in the throat, lungs, and eyes. It causes coughing, acid burns to tissues, and flu-like lung disease.  Fuel, solvents, grease, and oils cause skin rashes, burns, drying, and infections. They also cause\n\ndamage to the liver, blood, and brain.\n\nNote. Many toxic industrial materials are known carcinogens."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: PROTECT SELF AND MISSION FROM TOXIC INDUSTRIAL MATERIALS",
+     "body": "2-54. To avoid carbon monoxide poisoning from petroleum or fossil fueled space heaters or vehicle engine exhaust—\n\n Ensure that living spaces are well ventilated when using petroleum or fossil fueled space heaters.  Run engines outdoors or with vehicle bay or shop exhaust ventilation systems as the primary\n\nsystem with the secondary system being shop doors and windows open.  Keep sleeping area windows open slightly for ventilation and air movement.  DO NOT sleep in vehicles with the engine running or use engine exhaust for heat.  DO NOT park vehicles with the engines running near air intakes to tents, trailers, or\n\nenvironmental control units.\n\n2-55. To avoid inhaling bore or gun gases—\n\n Use onboard vehicle ventilation systems.  Keep bore evacuator well maintained.  Try to keep some air movement in gun emplacements.\n\n2-56. When using solvents, grease, and oils—  Only use authorized safety solvent.  Never substitute an unauthorized solvent to clean equipment. For example, do not use a degreasing agent like denatured alcohol instead of an authorized nontoxic, nonhazardous solvent preservative cleaning agent.\n\n Wear coveralls, if available, and rubber gloves.  Wash or change clothing often, especially when soiled by chemicals or fuel.  Always follow label instructions for use and safety precautions.  Use ventilation systems in areas where fumes are present or when conditions and materials\n\ndictate.\n\n2-57. When required to handle biological waste—\n\n Always use disposable rubber gloves when working with biological materials.  Wear coveralls or rubberized aprons, as necessary.  Wear goggles or safety glasses, as necessary.  Wear facemasks and air-filtered breathing masks approved for specific tasks, when removing or\n\nworking with biological waste.\n\n Dispose of biological waste materials according to unit standard operating procedures and\n\nproduct label instructions."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: NOISE HAZARDS",
+     "body": "2-58. There are several personal protective devices available to lessen the risk of hearing loss. These devices primarily consist of various types of earplugs and earmuffs. An important consideration in selecting these devices is their ability to be worn comfortably and consistently when hearing protection is required.\n\n2-59. When Soldiers are subjected to extremely high, steady-state noise levels (greater than 103 decibel, A-weighting time-weighted average or greater than 165 decibel, A-weighting), earplugs and earmuffs must be worn together to prevent hearing loss.\n\n2-60. Soldiers protect themselves from noise hazards by—\n\n Wearing properly fitted earplugs and or earmuffs.  Keeping earplugs and earmuffs clean to prevent ear infections.  Avoiding high intensity noise areas or limiting the time spent in hazardous noise environments\n\nonly to the time required to perform critical tasks."
+    },
+    {
+     "heading": "Individual Preventive Medicine Measures: SLEEP DEPRIVATION",
+     "body": "2-61. Sleep deprivation degrades performance and leads to errors in judgment. Quality sleep is essential to sustain performance, and performance is critical to the successful outcome of operations.\n\n2-62. Seven to eight hours of sleep in each 24-hour period will sustain performance indefinitely. Sleep periods do not need to be taken all at one time, they can be divided into two or more sleep periods (including naps) per 24-hour time period as long as seven or more hours of sleep is obtained.\n\n2-63. Naps also add to recuperative sleep time. A nap boosts both immediate and long-term performance.\n\nThe benefits of a short nap are evident for up to two days after the nap.\n\n2-64. Performance will be degraded with less than eight hours of sleep every 24-hours. Less than seven hours of sleep within every 24-hour period will result in stabilizing performance at a lower level, and less than four hours of sleep in every 24 hours will degrade performance continuously and rapidly with no stabilization.\n\n2-65. To the extent possible, sleep in a quiet, undisturbed environment away from other activity and protected from wake up and wait intrusions. Sleeping in noisy active environments with frequent awakenings is far less restorative.\n\n2-66. When working on limited or no sleep, caffeine in doses of 200 to 300 milligrams (the equivalent of two to three cups of coffee) every three to four hours will improve performance. Sleep, like fuel, ammunition, food, and water is necessary to sustain performance. It is a command responsibility to ensure all personnel get adequate restorative sleep. Refer to FM 6-22.5.\n\nThis page intentionally left blank."
+    }
+   ],
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc4_02x3.pdf"
+  }
+ ]
+}

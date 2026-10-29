@@ -1,0 +1,11 @@
+{
+ "id": "food-storage",
+ "title": "Food Storage & Power Outages (FDA)",
+ "category": "guide",
+ "review": "verified",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. Food and Drug Administration",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Food and Drug Administration web pages and the FDA Refrigerator & Freezer Storage Chart (2018), reformatted into sections; the chart's storage times are shown as images of the original. Use does not imply endorsement by FDA, HHS, or the U.S. Government.",
+ "description": "Storing food safely in the refrigerator, freezer and cupboard; refrigerator and freezer storage times; keeping food and water safe before, during and after power outages and floods."
+}

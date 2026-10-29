@@ -1,0 +1,110 @@
+[
+ {
+  "file": "fig-5-1.webp",
+  "caption": "Figure 5-1. Converting map distance to ground distance.",
+  "kind": "figure",
+  "page": 51,
+  "bbox": [
+   66.0,
+   518.2,
+   509.9,
+   734.5
+  ]
+ },
+ {
+  "file": "fig-5-2.webp",
+  "caption": "Figure 5-2. Using a graphic (bar) scale.",
+  "kind": "figure",
+  "page": 52,
+  "bbox": [
+   102.0,
+   141.5,
+   546.0,
+   327.8
+  ]
+ },
+ {
+  "file": "fig-5-3.webp",
+  "caption": "Figure 5-3. Transferring map distance to paper strip.",
+  "kind": "figure",
+  "page": 53,
+  "bbox": [
+   106.5,
+   350.5,
+   468.3,
+   670.1
+  ]
+ },
+ {
+  "file": "fig-5-4.webp",
+  "caption": "Figure 5-4. Measuring straight-line map distance.",
+  "kind": "figure",
+  "page": 54,
+  "bbox": [
+   143.2,
+   420.3,
+   505.1,
+   712.0
+  ]
+ },
+ {
+  "file": "fig-5-5.webp",
+  "caption": "Figure 5-5. Measuring a curved line.",
+  "kind": "figure",
+  "page": 56,
+  "bbox": [
+   147.0,
+   84.8,
+   500.7,
+   732.0
+  ]
+ },
+ {
+  "file": "fig-5-6.webp",
+  "caption": "Figure 5-6. Determining the exact distance.",
+  "kind": "figure",
+  "page": 57,
+  "bbox": [
+   66.0,
+   364.4,
+   509.7,
+   714.0
+  ]
+ },
+ {
+  "file": "fig-5-7.webp",
+  "caption": "Figure 5-7. Reading the extension scale.",
+  "kind": "figure",
+  "page": 58,
+  "bbox": [
+   102.0,
+   378.5,
+   545.9,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-5-8.webp",
+  "caption": "Figure 5-8. Constructing a time-distance scale.",
+  "kind": "figure",
+  "page": 59,
+  "bbox": [
+   66.0,
+   119.6,
+   509.9,
+   474.5
+  ]
+ },
+ {
+  "file": "fig-5-9.webp",
+  "caption": "Figure 5-9. Using a 100-meter unit-of-measure method.",
+  "kind": "figure",
+  "page": 62,
+  "bbox": [
+   162.1,
+   378.4,
+   485.6,
+   628.1
+  ]
+ }
+]

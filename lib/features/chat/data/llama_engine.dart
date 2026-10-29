@@ -17,19 +17,42 @@ class LlamaInferenceEngine implements InferenceEngine {
   final String modelName;
 
   static const _contextTokens = 4096;
-  static const _maxReplyTokens = 1024;
 
-  /// Conservative prompt budget in characters (~3 chars per token), leaving room
-  /// for the reply inside the context window.
-  static const _historyCharBudget = (_contextTokens - _maxReplyTokens) * 3;
+  /// About 400 words: room for a full procedure, while keeping a
+  /// rambling reply from running for minutes on a phone CPU.
+  static const _maxReplyTokens = 600;
+
+  /// Earlier turns sent with each message: the last two exchanges, so a
+  /// conversation flows ("what if it's raining?") without the model
+  /// blending older questions into new answers, or every reply slowing.
+  static const _priorTurns = 4;
+
+  /// Earlier replies are cut to this length; enough to know what was said.
+  static const _priorReplyChars = 500;
 
   static const systemPrompt =
-      'You are OFFGRID AI, a calm, practical assistant running entirely on '
-      'the user\'s phone with no internet access. Give clear, concise, '
-      'step-by-step answers. Prioritize safety. If something could be a '
-      'life-threatening emergency and help may be reachable, say to contact '
-      'emergency services first. If you are not sure, say so plainly rather '
-      'than guessing.';
+      'You are OFFGRID AI, a survival and preparedness companion running '
+      'entirely on the user\'s phone with no internet. Talk like a calm, '
+      'experienced friend: warm, plain words, short sentences, speaking '
+      'directly to the user. No lectures, no jargon, no filler.\n'
+      'How you answer:\n'
+      '- Most important action first. If someone may be in danger right '
+      'now, start with what to do immediately, as a few short numbered '
+      'steps.\n'
+      '- Keep it short, usually under 150 words, unless asked for more.\n'
+      '- If the best answer depends on something you don\'t know (who is '
+      'hurt and how badly, what supplies they have, the weather, where they '
+      'are), give the safe first steps, then ask one short question so you '
+      'can tailor the next steps.\n'
+      '- When it helps, end with a brief offer of the next useful thing, '
+      'like "Want me to walk you through making a splint?". Not every time.\n'
+      '- Remember what the user told you earlier in this conversation and '
+      'build on it. Never repeat or re-answer an earlier question; if the '
+      'latest message changes topic, answer only the new topic.\n'
+      '- If life may be at risk and help could be reachable, tell them to '
+      'call emergency services (911 in the US) first.\n'
+      '- Never invent facts, numbers or doses. If you aren\'t sure, say so.\n'
+      '- For greetings, thanks or small talk, reply briefly and naturally.';
 
   llama.LlamaEngine? _engine;
   Future<llama.LlamaEngine>? _loading;
@@ -50,6 +73,9 @@ class LlamaInferenceEngine implements InferenceEngine {
   @override
   Stream<GenerationEvent> generate(List<ChatTurn> history) async* {
     final llama.LlamaEngine engine;
+    if (_engine == null) {
+      yield const GenerationProgress(GenerationPhase.loadingModel);
+    }
     try {
       engine = await _ensureLoaded();
     } on Object catch (e) {
@@ -57,6 +83,7 @@ class LlamaInferenceEngine implements InferenceEngine {
       return;
     }
 
+    yield const GenerationProgress(GenerationPhase.thinking);
     _generating = true;
     try {
       final chunks = engine.create(
@@ -111,6 +138,10 @@ class LlamaInferenceEngine implements InferenceEngine {
         llama.LlamaModel(llama.ModelSource.path(modelFile.path)),
         params: llama.ModelParams(
           contextSize: _contextTokens,
+          // Phone CPUs mix fast and slow cores; llama.cpp's default uses
+          // all of them, and the slow ones hold the fast ones back.
+          numberOfThreads: Platform.isAndroid ? 4 : 0,
+          numberOfThreadsBatch: Platform.isAndroid ? 4 : 0,
           // Android Vulkan support in llamadart is experimental; CPU is the
           // reliable baseline. Apple devices use Metal automatically.
           device: Platform.isAndroid
@@ -131,21 +162,30 @@ class LlamaInferenceEngine implements InferenceEngine {
   }
 
   static List<llama.LlamaChatMessage> _toMessages(List<ChatTurn> history) {
-    // Keep the most recent turns that fit the budget, always including the
-    // latest user message.
-    final kept = <ChatTurn>[];
-    var used = 0;
-    for (final turn in history.reversed) {
-      if (turn.speaker == ChatSpeaker.system) continue;
-      used += turn.text.length;
-      if (kept.isNotEmpty && used > _historyCharBudget) break;
-      kept.add(turn);
-    }
+    // System turns (e.g. citation rules) extend the base system prompt.
+    final instructions = [
+      systemPrompt,
+      for (final t in history)
+        if (t.speaker == ChatSpeaker.system) t.text,
+    ].join('\n\n');
+
+    // The latest user message plus the exchange before it.
+    final turns = [
+      for (final t in history)
+        if (t.speaker != ChatSpeaker.system) t,
+    ];
+    final kept = [
+      for (final t in turns.reversed.skip(1).take(_priorTurns))
+        t.speaker == ChatSpeaker.assistant && t.text.length > _priorReplyChars
+            ? ChatTurn(t.speaker, '${t.text.substring(0, _priorReplyChars)}…')
+            : t,
+    ];
+    if (turns.isNotEmpty) kept.insert(0, turns.last);
 
     return [
-      const llama.LlamaChatMessage.fromText(
+      llama.LlamaChatMessage.fromText(
         role: llama.LlamaChatRole.system,
-        text: systemPrompt,
+        text: instructions,
       ),
       for (final turn in kept.reversed)
         llama.LlamaChatMessage.fromText(

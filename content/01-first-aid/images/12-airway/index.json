@@ -1,0 +1,242 @@
+[
+ {
+  "file": "fig-5-1.webp",
+  "caption": "Figure 5-1. Airway, lungs, and the rib cage",
+  "kind": "figure",
+  "page": 74,
+  "bbox": [
+   182.5,
+   540.2,
+   411.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-2.webp",
+  "caption": "Figure 5-2. Casualty positioning",
+  "kind": "figure",
+  "page": 75,
+  "bbox": [
+   92.5,
+   117.9,
+   537.5,
+   685.5
+  ]
+ },
+ {
+  "file": "fig-5-3.webp",
+  "caption": "Figure 5-3. Airway, blocked",
+  "kind": "figure",
+  "page": 76,
+  "bbox": [
+   70.0,
+   116.2,
+   524.0,
+   291.8
+  ]
+ },
+ {
+  "file": "fig-5-4.webp",
+  "caption": "Figure 5-4. Airway, opened",
+  "kind": "figure",
+  "page": 76,
+  "bbox": [
+   70.0,
+   116.2,
+   524.0,
+   291.8
+  ]
+ },
+ {
+  "file": "fig-5-5.webp",
+  "caption": "Figure 5-5. Head-tilt/chin-lift technique of opening the airway",
+  "kind": "figure",
+  "page": 77,
+  "bbox": [
+   92.5,
+   93.4,
+   537.5,
+   320.2
+  ]
+ },
+ {
+  "file": "fig-5-6.webp",
+  "caption": "Figure 5-6. Jaw-thrust technique of opening the airway",
+  "kind": "figure",
+  "page": 78,
+  "bbox": [
+   161.3,
+   429.5,
+   435.5,
+   605.1
+  ]
+ },
+ {
+  "file": "fig-5-7.webp",
+  "caption": "Figure 5-7. Unconscious Casualty Recovery Position",
+  "kind": "figure",
+  "page": 79,
+  "bbox": [
+   103.8,
+   539.8,
+   526.4,
+   715.4
+  ]
+ },
+ {
+  "file": "fig-5-8.webp",
+  "caption": "Figure 5-8. Bag valve mask",
+  "kind": "figure",
+  "page": 79,
+  "bbox": [
+   151.8,
+   205.4,
+   478.6,
+   381.0
+  ]
+ },
+ {
+  "file": "fig-5-9.webp",
+  "caption": "Figure 5-9. Bag valve mask holding",
+  "kind": "figure",
+  "page": 80,
+  "bbox": [
+   70.0,
+   528.6,
+   524.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-10.webp",
+  "caption": "Figure 5-10. Bag valve mask applied to",
+  "kind": "figure",
+  "page": 80,
+  "bbox": [
+   70.0,
+   528.6,
+   524.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-11.webp",
+  "caption": "Figure 5-11. The universal sign for choking",
+  "kind": "figure",
+  "page": 81,
+  "bbox": [
+   207.1,
+   468.2,
+   425.8,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-12.webp",
+  "caption": "Figure 5-12. Anatomical view of the",
+  "kind": "figure",
+  "page": 82,
+  "bbox": [
+   94.7,
+   456.6,
+   487.6,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-13.webp",
+  "caption": "Figure 5-13. Profile view of the",
+  "kind": "figure",
+  "page": 82,
+  "bbox": [
+   105.9,
+   456.6,
+   490.2,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-14.webp",
+  "caption": "Figure 5-14. Profile view of the chest thrust",
+  "kind": "figure",
+  "page": 83,
+  "bbox": [
+   206.7,
+   468.2,
+   426.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-15.webp",
+  "caption": "Figure 5-15. Abdominal thrust on an unresponsive casualty",
+  "kind": "figure",
+  "page": 84,
+  "bbox": [
+   150.1,
+   504.9,
+   446.7,
+   680.5
+  ]
+ },
+ {
+  "file": "fig-5-16.webp",
+  "caption": "Figure 5-16. Hand placement for the chest thrust",
+  "kind": "figure",
+  "page": 85,
+  "bbox": [
+   128.5,
+   360.1,
+   501.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-17.webp",
+  "caption": "Figure 5-17. Breastbone depressed 1 1/2 to 2 inches",
+  "kind": "figure",
+  "page": 85,
+  "bbox": [
+   173.5,
+   186.3,
+   456.5,
+   350.1
+  ]
+ },
+ {
+  "file": "fig-5-18.webp",
+  "caption": "Figure 5-18. Opening the casualty\u2019s mouth",
+  "kind": "figure",
+  "page": 86,
+  "bbox": [
+   77.5,
+   470.4,
+   512.6,
+   657.5
+  ]
+ },
+ {
+  "file": "fig-5-19.webp",
+  "caption": "Figure 5-19. Opening the casualty\u2019s mouth",
+  "kind": "figure",
+  "page": 86,
+  "bbox": [
+   84.1,
+   470.4,
+   518.8,
+   657.5
+  ]
+ },
+ {
+  "file": "fig-5-20.webp",
+  "caption": "Figure 5-20. Using a finger to dislodge a foreign body",
+  "kind": "figure",
+  "page": 86,
+  "bbox": [
+   120.2,
+   255.4,
+   473.1,
+   431.0
+  ]
+ }
+]

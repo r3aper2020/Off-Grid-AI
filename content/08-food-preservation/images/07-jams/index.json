@@ -1,0 +1,146 @@
+[
+ {
+  "file": "tab-p5-1.webp",
+  "caption": "To Extract Juice",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   102.6,
+   385.8,
+   509.0,
+   537.6
+  ]
+ },
+ {
+  "file": "tab-p5-2.webp",
+  "caption": "Sea Level",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   103.4,
+   131.8,
+   509.8,
+   179.5
+  ]
+ },
+ {
+  "file": "tab-p6-1.webp",
+  "caption": "Recommended process time for Jelly without Added Pectin in a boiling-water canner",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   102.5,
+   301.0,
+   478.5,
+   391.4
+  ]
+ },
+ {
+  "file": "tab-p6-2.webp",
+  "caption": "Ingredient Quantities",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   83.0,
+   53.7,
+   489.8,
+   180.1
+  ]
+ },
+ {
+  "file": "tab-p8-1.webp",
+  "caption": "Recommended process time for Jellies and Jam with Added Pectin in a boiling-water canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   107.9,
+   597.7,
+   483.8,
+   688.2
+  ]
+ },
+ {
+  "file": "tab-p8-2.webp",
+  "caption": "Recommended process time for Pear-Apple Jam in a boiling-water canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   107.8,
+   205.3,
+   483.7,
+   295.8
+  ]
+ },
+ {
+  "file": "tab-p9-1.webp",
+  "caption": "Recommended process time for Strawberry-Rhubarb Jelly in a boiling-water canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   125.8,
+   523.9,
+   501.7,
+   614.4
+  ]
+ },
+ {
+  "file": "tab-p9-2.webp",
+  "caption": "Recommended process time for Blueberry-Spice Jam in a boiling-water canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   125.8,
+   159.0,
+   501.7,
+   249.5
+  ]
+ },
+ {
+  "file": "tab-p10-1.webp",
+  "caption": "Recommended process time for Grape-Plum Jelly in a boiling-water canner",
+  "kind": "table",
+  "page": 10,
+  "bbox": [
+   108.8,
+   383.9,
+   484.7,
+   474.4
+  ]
+ },
+ {
+  "file": "tab-p11-1.webp",
+  "caption": "Recommended process time for Golden Pepper Jelly in a boiling-water canner",
+  "kind": "table",
+  "page": 11,
+  "bbox": [
+   126.8,
+   570.1,
+   502.7,
+   653.8
+  ]
+ },
+ {
+  "file": "tab-p12-1.webp",
+  "caption": "Recommended process time for Peach-Pineapple Spread in a boiling-water canner",
+  "kind": "table",
+  "page": 12,
+  "bbox": [
+   108.8,
+   642.2,
+   484.7,
+   736.1
+  ]
+ },
+ {
+  "file": "tab-p13-1.webp",
+  "caption": "Recommended process time for Remade Soft Jellies in a boiling-water canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   123.3,
+   314.6,
+   499.2,
+   405.1
+  ]
+ }
+]

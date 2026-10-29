@@ -1,0 +1,11 @@
+{
+ "id": "nuclear-survival",
+ "title": "Nuclear & Radiological Survival",
+ "category": "guide",
+ "review": "needs-review",
+ "license": "Public domain — U.S. Government-sponsored report (Oak Ridge National Laboratory, ORNL-5037), published without copyright",
+ "publisher": "Cresson H. Kearny, Oak Ridge National Laboratory (1979)",
+ "attribution": "Text from Nuclear War Survival Skills, ORNL-5037 (September 1979), Oak Ridge National Laboratory, from the U.S. Department of Energy OSTI archive. The 1979 original only; later editions contain copyrighted additions. Reformatted into sections; figures not included.",
+ "description": "Fallout and blast shelters you can build, shelter ventilation and cooling, water and food storage, a homemade fallout meter, light, sanitation and care without doctors. Written in 1979: core physics and shelter methods hold, threat assessments and some medical advice are dated.",
+ "version": "2026.10.29.3"
+}

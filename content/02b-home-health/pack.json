@@ -1,0 +1,11 @@
+{
+ "id": "home-health",
+ "title": "Home Health: Diarrhea, Hygiene, Medicines & Dental",
+ "category": "medical",
+ "version": "2026.10.29.6",
+ "review": "verified",
+ "publisher": "U.S. NIH (NIDDK), Food and Drug Administration, HHS ASPR, and Indian Health Service",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), U.S. Food and Drug Administration (FDA), Administration for Strategic Preparedness and Response (ASPR) web pages and an Indian Health Service Division of Oral Health card, retrieved October 2026; reformatted into sections without changing substance; footnote numbers and images not included. Use does not imply endorsement by NIH, FDA, ASPR, IHS, HHS, or the U.S. Government.",
+ "description": "Caring for diarrhea, stomach flu and food poisoning at home and spotting dehydration in adults and children; hand sanitizer, antibiotics, reading OTC medicine labels, masks and N95 respirators; free prescriptions after a disaster (EPAP); and dental emergencies when no dentist is available."
+}

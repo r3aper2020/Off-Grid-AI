@@ -1,0 +1,483 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "power",
+ "title": "Power & Electricity",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. Fire Administration (FEMA), Ready.gov (FEMA), U.S. Food and Drug Administration, Federal Aviation Administration, U.S. Energy Information Administration, and U.S. Department of Energy",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Generator, carbon monoxide and electrical fire safety; lithium-ion battery safety (charging, storage, flooding, travel); keeping medical devices and phones powered in outages; space weather and the grid; watts and watthours; how batteries, solar PV, storage, inverters, wind turbines and hydropower work.",
+ "attribution": "Text from U.S. Fire Administration web pages and handouts, Ready.gov (Federal Emergency Management Agency), FDA medical-device emergency pages, the FAA PackSafe lithium batteries page, EIA Energy Explained (Source: U.S. Energy Information Administration), and U.S. Department of Energy solar, wind and hydropower basics pages, retrieved October 2026; reformatted into sections without changing substance; photos and figures not included. Use does not imply endorsement by USFA, FEMA, DHS, FDA, FAA, EIA, DOE, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Carbon Monoxide Safety (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Carbon monoxide, also known as CO, is called the “invisible killer” because it's a colorless, odorless, poisonous gas. It is undetectable to the human senses, so people may not know that they are being exposed.\n\nCO poisoning can occur when a fuel-burning appliance or machine, such as a furnace, heater or generator, is not working or vented properly.\n\nDid you know:\n\nBreathing in CO at high levels can be fatal. More than 150 people in the United States die every year from accidental nonfire-related CO.\n\nSource: Consumer Product Safety Commission\n\nKeep your community informed about the dangers of CO with these messages and free materials."
+    },
+    {
+     "heading": "Messages to share: Protect your family from the dangers of CO",
+     "body": "Install and maintain CO alarms inside your home to provide early warning of CO.\n\nInstall CO alarms in a central location outside each separate sleeping area and on every level of your home.\n\nUse portable generators outdoors in well-ventilated areas away from all doors, windows and vents.\n\nMake sure vents for the dryer, furnace, stove and fireplace are clear of snow and other debris."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/"
+  },
+  {
+   "title": "Portable Generators and Winter Storms (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Portable Generators and Winter Storms",
+     "body": "Portable generators are useful during winter storms, but if not used safely, they can cause injuries and death.\n\n- Use portable generators outdoors in well-ventilated areas away from all doors, windows and vents.\n\n- Make sure you have carbon monoxide alarms in your home.\n\n- Do not use a generator in a wet area. This can cause shock or electrocution.\n\n- Connect appliances to the generator with heavy-duty extension cords.\n\n- Do not fuel your generator when it is running. Spilling gas on a hot engine can cause a fire."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/portable_generators_winter_storms_flyer.pdf"
+  },
+  {
+   "title": "Fire Hazards During Severe Weather: Generators, Downed Lines and Outages (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Severe weather can happen at any time, in any part of the country. That's why it's important for your community to be ready for severe weather events and to understand the fire risks that can come with them.\n\nDid you know:\n\nThe town of Ocean Isle Beach, North Carolina, experienced several fires during and after Hurricane Isaias.\n\nHelp your fire department increase community awareness about preventing home fires during and after severe weather with these free fire safety and prevention outreach materials."
+    },
+    {
+     "heading": "Fire hazards during severe weather",
+     "body": "- Lightning\n- Portable generators not often used or maintained\n- Leaking gas lines, damaged gas propane containers and leaking vehicle gas tanks\n- Appliances and vehicles exposed to water\n- Debris near severed electrical wires and transformers\n- Damaged or downed utility lines\n- Exposed electrical outlets and wiring"
+    },
+    {
+     "heading": "Messages to share",
+     "body": "Never use candles for emergency lighting. Use flashlights and stock up on extra batteries.\n\nMake sure your smoke alarm has a backup battery.\n\nUse surge protectors.\n\nConsider unplugging appliances.\n\nDisconnect motor vehicle batteries in flood-prone areas.\n\nConnect appliances to portable generators with heavy-duty extension cords.\n\nDon't fuel your generator when it is running. Spilling gas on a hot engine can cause a fire."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/"
+  },
+  {
+   "title": "Appliance and Electrical Fire Safety: Outlets, Extension Cords and Power Strips (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "It is hard to imagine a home without electricity. We take this utility for granted, but there are fire risks to consider. In 2021, an estimated 24,200 residential building electrical fires were reported to United States fire departments. These fires caused an estimated 295 deaths, 900 injuries and over $1.2 billion in property loss.\n\nDid you know:\n\nFailure to clean (31%) was the leading factor contributing to the ignition of clothes dryer fires in homes from 2018-2020.\n\nSource: National Fire Incident Reporting System\n\nHelp increase awareness about dangerous appliance and electrical fires in your community with these messages and free materials."
+    },
+    {
+     "heading": "Messages to share: Appliances",
+     "body": "Always plug major appliances — refrigerators, stoves, washers and dryers — directly into a wall outlet.\n\nNever use an extension cord with a major appliance. The extension cord can overheat and start a fire.\n\nUnplug small appliances when you are not using them.\n\nKeep anything that can burn away from lamps, light fixtures and light bulbs.\n\nUse lightbulbs that match the recommended wattage on the lamp or fixture.\n\nIf the appliance has a cracked, damaged or loose cord, replace the appliance."
+    },
+    {
+     "heading": "Messages to share: Electrical: Outlet safety",
+     "body": "Do not overload outlets.\n\nInsert plugs fully into sockets.\n\nNever force a 3-prong cord into a 2-slot outlet.\n\nInstall tamper-resistant electrical outlets if you have young children.\n\nReplace wall outlets if plugs do not fit snugly."
+    },
+    {
+     "heading": "Messages to share: Electrical: Extension cord, power strips and surge protection safety",
+     "body": "Do not overload power strips.\n\nUse power strips that have internal overload protection.\n\nReplace worn, old or damaged extension cords right away.\n\nAvoid putting cords where they can be damaged or pinched, like under a carpet or rug."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/"
+  },
+  {
+   "title": "Prevent Home Electrical Fires (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Prevent Home Electrical Fires",
+     "body": "Electrical malfunction is a leading cause of home fires year after year.\n\nShare these electrical fire safety tips in your community:\n\n- Electrical work should only be done by a qualified electrician.\n\n- Check your electrical cords. If they are cracked or damaged, replace them. Don’t try to repair them.\n\n- Don’t overload extension cords or wall outlets.\n\n- Never use extension cords with appliances. Plug them directly into wall outlets."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/prevent_home_electrical_fires_flyer.pdf"
+  },
+  {
+   "title": "Lithium-Ion and Other Battery Fire Safety (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Lithium-ion batteries and other types of batteries present fire dangers if community residents don't follow product instructions when using, storing or disposing of them.\n\nDid you know:\n\nYou should store lithium-ion batteries at room temperature when possible. Do not charge them at temperatures below 32 degrees F (0 degrees C) or above 105 degrees F (40 degrees C).\n\nSource: NFPA PDF\n\nShare these safety tips to help increase awareness in your community about the fire dangers of lithium-ion and other types of batteries."
+    },
+    {
+     "heading": "Take C.H.A.R.G.E. of battery safety",
+     "body": "- Choose certified products.\n- Handle with care.\n- Always stay alert.\n- Recycle properly.\n- Get out quickly.\n- Educate others."
+    },
+    {
+     "heading": "Messages to share",
+     "body": "Stop using lithium-ion batteries if you notice an odor, change in color, too much heat, change in shape, leaking or odd noises.\n\nDon't put lithium-ion batteries in the trash. Recycle them at your local battery recycling location.\n\nStore spare lithium-ion batteries away from anything that can burn.\n\nDon't put lithium-ion batteries in direct sunlight or keep them in hot cars. This is a fire risk.\n\nRemove lithium-ion batteries from your checked smart luggage and keep them with you on the plane.\n\nRemove spare, loose lithium-ion batteries from checked luggage and keep them with you on the plane."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/"
+  },
+  {
+   "title": "Lithium-Ion Battery Safety for Electronic Devices (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Lithium-Ion Battery Safety for Electronic Devices: Before purchasing",
+     "body": "- 1. Review the Consumer Product Safety Commission website (www.saferproducts.gov) for any recall information on the products you are considering.\n\n- 2. Look for a Nationally Recognized Testing Laboratory stamp on the packaging and product. Examples can be found on this link: www.osha.gov/nationally-recognized-testing-laboratory-program/current-list-of-nrtls."
+    },
+    {
+     "heading": "Lithium-Ion Battery Safety for Electronic Devices: How to stay safe when charging",
+     "body": "- 1. Always use the charger provided by the manufacturer for the device being charged.\n\n- 2. Do not overload outlets. Using multiplug adapters or power strips on an outlet may result in overheating and a potential fire hazard.\n\n- 3. Charging devices should be plugged directly into an outlet and not into extension cords or multiplug adapters.\n\n- 4. When in doubt, have a professionally licensed electrician test your existing circuits to ensure safe use."
+    },
+    {
+     "heading": "Lithium-Ion Battery Safety for Electronic Devices: Proper disposal of batteries",
+     "body": "- 1. Place tape over battery ends and terminals to help prevent accidental discharges and potential fires.\n\n- 2. Repairs to any lithium-ion battery packs should only be performed by a certified repair facility.\n\n- 3. Do not place lithium-ion batteries in trash or recycle bins as they have the potential to ignite. Locate collection sites in your community and check with your local authorities to determine proper recycling methods for used batteries."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-safety-handout.pdf"
+  },
+  {
+   "title": "Lithium-Ion Battery Safety After Flooding (U.S. Fire Administration)",
+   "sections": [
+    {
+     "heading": "Lithium-Ion Battery Safety After Flooding",
+     "body": "Follow these precautions for lithium-ion batteries exposed to flooding.\n\n- Notify your local fire department if you believe that lithium-ion batteries might have been exposed to flooding in your home or garage, especially those found in devices such as E-bikes, golf carts and electric vehicles.\n\n- Disconnect any potentially flooded lithium-ion battery-powered devices or vehicles from chargers.\n\n- Remove any potentially flooded batteries or vehicles from buildings or garages. Separate the vehicle from combustibles and structures by 50 feet on all sides.\n\n- If you observe batteries or vehicles emitting a cloud of smoke or gases, or exhibiting a popping or hissing sound, move to a safe distance and notify your local fire department."
+    },
+    {
+     "heading": "Disposing of Flood-Damaged Lithium-Ion Products",
+     "body": "It is important to properly dispose of flood damaged lithium-ion powered products.\n\n- Place flood damaged lithium-ion powered products in metal or non-combustible tubs and keep at least 6 feet away from debris and structures.\n\n- Do not put lithium-ion battery-powered products in with storm debris for pick up.\n\n- Never put lithium-ion batteries inside garbage or recycle carts or bins."
+    }
+   ],
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-after-flooding-handout.pdf"
+  },
+  {
+   "title": "Lithium Batteries: Thermal Runaway, Spares and Terminal Protection (FAA PackSafe)",
+   "sections": [
+    {
+     "heading": "Overview (part 1)",
+     "body": "Power Banks, cell phone battery charging cases, rechargeable and non-rechargeable lithium batteries, cell phone batteries, laptop batteries, external batteries, portable rechargers\n\nLithium batteries are required to undergo safety testing. All lithium ion batteries are capable of overheating and undergoing a process called thermal runaway. Thermal runaway can occur without warning as a result of various factors, including if the battery is damaged, overheated, exposed to water, overcharged, or improperly packed. Thermal runaway can also occur on its own due to manufacturing defects.\n\nFlight crews are trained to recognize and respond to lithium battery fires in the cabin. Passengers should notify flight crew immediately if their lithium battery or device is overheating, expanding, smoking or burning.\n\nSpare (uninstalled) lithium ion and lithium metal batteries, including power banks and cell phone battery charging cases, must be carried in carry-on baggage only. When a carry-on bag is checked at the gate or at planeside, all spare lithium batteries and power banks must be removed from the bag and kept with the passenger in the aircraft cabin. The battery terminals must be protected from short circuit.\n\nThis covers spare lithium metal and spare rechargeable lithium ion batteries for personal electronics such as cameras, cell phones, laptop computers, tablets, watches, calculators, etc. This also includes external battery chargers (portable rechargers) containing a lithium ion battery. For lithium batteries that are installed in a device (laptop, cell phone, camera, etc.), see the entry for \"portable electronic devices, containing batteries\".\n\nSize limits: Lithium metal (non-rechargeable) batteries are limited to 2 grams of lithium content per battery. Lithium ion (rechargeable) batteries are limited to a rating of 100 watt hours (Wh) per battery. These limits allow for nearly all types of lithium batteries used by the average person in their electronic devices. With airline approval, passengers may also carry up to two spare larger lithium ion batteries (exceeding 101–160 Wh) or Lithium metal batteries (exceeding 2-8 grams). This size covers the larger after-market extended-life laptop computer batteries and some larger batteries used in professional audio/visual equipment.\n\nQuantity limits: None for most batteries — but batteries must be for use by the passenger. Batteries carried for further sale or distribution (vendor samples, etc.) are prohibited. There is a limit of two spare batteries per person for the larger lithium ion batteries described above (exceeding 101–160 Wh per battery). Many airlines, both domestic and international, may have stricter quantity and Wh limits to include how many power banks/portable chargers each passenger is allowed to travel with, regardless of Wh capacity. Please check with your air carrier for its specific restrictions before traveling.\n\nBatteries must be protected from damage.\n\nBattery terminals (usually the ends) must be protected from short circuit (i.e., the terminals must not come in contact with other metal). Methods include: leaving the batteries in their retail packaging, covering battery terminals with tape, using a battery case, using a battery sleeve in a camera bag, or putting them snugly in a plastic bag or protective pouch.\n\nSee the regulation: 49 CFR 175.10(a)(18)\n\nDamaged or recalled batteries and battery-powered devices, which are likely to create sparks or generate a dangerous evolution of heat must not be carried aboard an aircraft (e.g., carry-on or checked baggage) unless the damaged or recalled battery has been removed, or otherwise made safe. The airline may offer further public guidance on transporting individual recalled products.\n\nFor additional information on recalls, visit the Consumer Product Safety Commission, manufacturer, or vendor website."
+    },
+    {
+     "heading": "Overview (part 2)",
+     "body": "Tip: Newer lithium ion batteries have the Wh rating marked on them. To calculate Wh, multiply the battery voltage by the Amp hours (Ah)."
+    }
+   ],
+   "sourceUrl": "https://www.faa.gov/hazmat/packsafe/lithium-batteries"
+  },
+  {
+   "title": "Medical Devices in Power Outages and Natural Disasters (FDA)",
+   "sections": [
+    {
+     "heading": "General Safety",
+     "body": "- Keep your device and supplies clean and dry.\n- If you depend on your device to keep you alive, seek emergency services immediately. If possible, notify your local Public Health Authority to request evacuation prior to adverse weather events.\n- Always use battery powered flashlights or lanterns rather than gas lights or torches when oxygen is in use (to minimize the risk of fire).\n- If your device appears to be damaged, or if you need a back-up device, contact your distributor or device manufacturer.\n- Check all power cords and batteries to make sure they are not wet or damaged by water. If electrical circuits and electrical equipment have gotten wet, turn off the power at the main breaker.\n- Maintain your device only in a well lit area so you can assess your device's performance (e.g., refilling your insulin pump, checking your glucose meter).\n- Keep your device in as clean and secure location as possible: off the ground, away from animals or crowded areas.\n- Always check your device for pests before you use it (e.g., syringes, mechanical devices)."
+    },
+    {
+     "heading": "Power Outage",
+     "body": "- Notify your electric company and fire department to let them know you have a medical device that needs power (e.g., ventilator, apnea monitor).\n- Read your user instructions or call your distributor or device manufacturer to find out if your device can be used with batteries or a generator.\n- Locate a generator if possible.\n- Make sure you check for water before plugging in your device. Do not plug in a power cord if the cord or the device is wet.\n- When the power is restored, check to make sure the settings on your medical device have not changed (often medical devices reset to a default mode when power is interrupted)."
+    },
+    {
+     "heading": "Warning about Potential Carbon Monoxide Problems when Using Generators",
+     "body": "Since many medical devices used in the home require a source of electrical power, generators are often used to supply electricity during a general power outage. The following points should be followed to prevent carbon monoxide poisoning.\n\n- Never run a generator, pressure washer, or any gasoline-powered engine inside a basement, garage, or other enclosed structure, even if the doors or windows are open, unless the equipment is professionally installed and vented.\n- Never run a motor vehicle, generator, pressure washer, or any gasoline-powered engine outside an open window or door where exhaust can vent into an enclosed area."
+    },
+    {
+     "heading": "Water Contamination",
+     "body": "Some medical devices and equipment, such as dialyzers or IV pumps, require safe water in their use, cleaning, and maintenance.\n\nHurricanes, especially if accompanied by a tidal surge or flooding, can contaminate the public water supply. In the area hit by a hurricane, water treatment plants may not be operating; even if they are, storm damage and flooding can contaminate water lines.\n\nListen to and follow public announcements about the safety of the municipal water supply.\n\nIn an emergency situation, follow these steps to ensure that your water is safe for use with your medical device:\n\n- Use only bottled, boiled, or treated water until your supply is tested and found safe.\n- If you use bottled water, be sure it came from a safe source. If you do not know that the water came from a safe source, you should boil or treat it before you use it.\n- Boiling water, when practical, is the preferred way to kill harmful bacteria and parasites. Bringing water to a rolling boil for 1 minute will kill most organisms.\n- When boiling water is not practical, you can treat water with chlorine tablets, iodine tablets, or unscented household chlorine bleach (5.25% sodium hypochlorite). If you use chlorine tablets or iodine tablets, follow the directions that come with the packaging.\n- If you use household chlorine bleach, add 1/8 teaspoon (~0.75 mL) of bleach per gallon of water if the water is clear. For cloudy water, add 1/4 teaspoon (~1.50 mL) of bleach per gallon. Mix the solution thoroughly and let it stand for about 30 minutes before using it.\n\nNote: Treating water with chlorine tablets, iodine tablets, or liquid bleach will not kill parasitic organisms.\n\nUse a bleach solution to rinse water containers before reusing them. Use water storage tanks and other types of containers with caution. For example, fire truck storage tanks and previously used cans or bottles may be contaminated with microbes or chemicals.\n\nFor additional information on keeping water safe, see https://www.ready.gov/water"
+    },
+    {
+     "heading": "Sterility",
+     "body": "- When performing medical procedures, maintain a clean environment by using bleach, alcohol, or a disinfectant in the area you are working (e.g., catheter changes, dressing changes, suctioning).\n- Check sterile packaging to make sure it is dry and intact (e.g., sterile gauze). If the packaging is wet or damaged, do not use the product inside.\n- When you purchase supplies, always check the packaging to make sure it hasn't been damaged."
+    },
+    {
+     "heading": "Re-use of Medical Devices",
+     "body": "Do not reuse a medical device intended for single use.\n\nIf you find that you need additional single use products, contact a healthcare provider or emergency response personnel.\n\n- If you need to reuse a device that is intended for multiple uses, the device must be cleaned and disinfected or sterilized according to the device manufacturer’s instructions. Devices should not be boiled unless explicitly allowed on the product label or instructions for use.\n- If you have supplies that are intended for multiple use with your medical device, follow the appropriate procedures for cleaning and disinfecting.\n- If you need sterile water for cleaning, disinfecting, or sterilizing your device or its components, follow the above procedures for ensuring that your water is safe."
+    },
+    {
+     "heading": "Dealing with Heat and Humidity",
+     "body": "Heat and humidity can have an effect on home diagnostic test kits (including blood glucose tests used by people with diabetes). Test results may not be accurate. Read your owner’s manual to make sure your test kit is performing properly."
+    },
+    {
+     "heading": "Special Information about Using Blood Glucose Meters",
+     "body": "Heat and humidity can damage blood glucose meters and test strips.\n\nIf you use a blood glucose meter, check the meter and test strip package insert for information on use during unusual heat and humidity. Store and handle the meter and test strips according to the instructions. Perform quality-control checks to make sure that your home glucose testing is accurate and reliable.\n\nTo protect your device from heat and humidity, follow the steps below:\n\n- Use a dry cloth to wipe off your device regularly (e.g., mechanical infusion pumps).\n- Keep your device out of direct sunlight.\n- Enclose your medical products in plastic containers to keep them dry (e.g., wound care supplies).\n- Do not use ice if there is a danger of water contamination; use dry ice or instant cold packs to keep your device cool (e.g., prefilled syringes).\n- Do not use disposable devices that are wet (e.g., wound dressings, disposable thermometers, tubing)."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters"
+  },
+  {
+   "title": "Medical Devices Requiring Refrigeration During a Power Outage (FDA)",
+   "sections": [
+    {
+     "heading": "FDA advice about medical devices that have been exposed to unusually high storage temperatures",
+     "body": "Many medical devices require specific storage conditions. The manufacturer’s instructions, in the product labeling will explain specific needs for refrigeration, freezing, or controlled room temperature.\n\nMedical devices that have specific storage requirements are not safe if those requirements have been violated. But do not necessarily discard working devices without specific storage requirements, because this may cause product shortages.\n\n**If the power goes out:**\n\n- Do not open refrigerators or freezers until the power is restored. Most refrigerators and freezers will maintain their temperatures for at least one day if they have not been opened.\n- If you must remove products from a refrigerator or freezer, keep the products on ice or dry ice at the required temperature until use.\n\n**When the power is restored:**\n\n- Measure the temperature of the refrigerator or freezer. Discard products if the temperature has risen above the safe storage temperature.\n- If you are not sure whether or not a product is safe to use, run quality control checks (when appropriate) and contact the manufacturer.\n\n**Laboratory Reagents**\n\nThe majority of reagents used for laboratory testing are temperature sensitive, with most requiring routine refrigeration.\n\nA small subset of materials require freezer, or below freezer-level conditions (ranging from freezing to 70 degrees below freezing).\n\nWithout refrigeration, most reagents will deteriorate within hours. No reagents that require refrigeration will last more than 2-3 days without it.\n\nRun control solutions to determine whether or not your reagent is still potent.\n\nSee product labeling/manufacturers instructions for specific storage temperature information.\n\nWhen using glucose meters, always run controls to make sure the meter is functioning properly. Make sure control strips and solutions are appropriate for your meter. Both moisture and heat may compromise the performance of test strips. Users should check manufacturer’s instructions to determine if their testing materials will be safe for use."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/medical-devices-requiring-refrigeration"
+  },
+  {
+   "title": "Space Weather and Power Grid Outages (Ready.gov)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "The term “space weather” refers to the variable conditions on the sun and in space that can influence the performance of technology we use on Earth.\n\nSpace weather can produce electromagnetic fields that induce extreme currents in wires, disrupting power lines, and even causing widespread power outages. Severe space weather also produces solar energetic particles, which can damage satellites used for commercial communications, global positioning, intelligence gathering and weather forecasting.\n\nThe sun is the main source of space weather. Sudden bursts of plasma and magnetic field structures from the sun's atmosphere called coronal mass ejections together with sudden bursts of radiation, or solar flares, all cause space weather effects here on Earth."
+    },
+    {
+     "heading": "Before Space Weather Occurs",
+     "body": "Space weather-related power outages can cause:\n\n- Loss of water and wastewater distribution systems.\n- Loss of perishable foods and medications.\n- Loss of heating/air conditioning and electrical lighting systems.\n- Loss of computer systems, telephone systems and communications systems (including disruptions in airline flights, satellite networks and GPS services).\n- Loss of public transportation systems.\n- Loss of fuel distribution systems and fuel pipelines.\n- Loss of all electrical systems that do not have back-up power."
+    },
+    {
+     "heading": "Before Space Weather Occurs: Prepare Now",
+     "body": "- Build an emergency kit\n- Make a family communications plan.\n- Learn more about preparing for power outages.\n- Be aware that most medication that requires refrigeration can be kept in a closed refrigerator for several hours without a problem. Check with your physician or pharmacist if you are unsure about your specific medication.\n- Keep your car’s gas tank at least half full. Gas stations rely on electricity to power their pumps.\n- Know where the manual release lever of your electric garage door opener is located and how to operate it.\n- Keep extra batteries or external chargers to charge your phone, laptop and other small electronics in the event of a power outage. Keep a car phone charger in your car."
+    },
+    {
+     "heading": "During a Space Weather Occurrence",
+     "body": "- Keep your electricity usage as low as possible, which can help power companies avoid imposing rolling blackouts during periods when the power grid is compromised.\n- Follow the Emergency Alert System (EAS) instructions.\n- Disconnect electrical appliances if instructed to do so by local officials.\n- Do not use the telephone unless absolutely necessary. Keep phone lines open for emergency personnel during emergency situations."
+    },
+    {
+     "heading": "After a Space Weather Occurrence",
+     "body": "Throw out unsafe food:\n\n- Throw away any food that has been exposed to a temperature of 40° F (4° C) or higher for two hours or more, or that has an unusual odor, color or texture. When in doubt, throw it out!\n- Never taste food or rely on appearance or odor to determine its safety. Some foods may look and smell fine, but if they have been at room temperature too long, bacteria that cause foodborne illnesses can start growing quickly. Some types of bacteria produce toxins that cannot be destroyed by cooking.\n- You can refreeze food in the freezer if the food is colder than 40° F and has ice crystals on it.\n- Measure the food’s temperature with a food thermometer if you are not sure that it is cold enough."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/space-weather"
+  },
+  {
+   "title": "Get Tech Ready: Keeping Phones and Devices Powered (Ready.gov)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Technology has made it easier than ever to prepare for emergencies, but it can be unreliable in an emergency if you haven’t kept your gadgets protected and powered up. Here are some tips to make sure you are tech ready:"
+    },
+    {
+     "heading": "Be Informed",
+     "body": "- Download the FEMA app. Get weather alerts from the National Weather Service for up to five different locations anywhere in the United States.\n- Sign up for FEMA text messages to get updates from FEMA (standard message and data rates apply).\n\nHere are basic commands to get started:\n\n- To sign up to get preparedness tips: text PREPARE to 43362.\n- To search for open shelters (for disaster survivors): text SHELTER and a ZIP code to 43362.\n- To get a list of all keywords you can subscribe to: text LIST to 43362.\n- To unsubscribe (at any time): text STOP to 43362.\n- Before a disaster, follow local government on social media to stay up-to-date with official information before, during and after a disaster. Sign up for Twitter alerts from trusted government agencies to get notified when critical information goes out."
+    },
+    {
+     "heading": "Make A Plan",
+     "body": "- Use text messages, social media and email to connect with friends and family during emergencies.\n- Mobile networks can become overwhelmed during emergencies, making it hard to make and get phone calls. Text messages require less bandwidth, which means they are able to be transmitted more reliably during situations when many people are trying to use their mobile phones at the same time.\n- Social media channels such as Facebook and Twitter can also be an effective way to update family and friends during emergencies. Facebook’s Safety Check feature allows users to easily post a status update indicating that they are safe during a time of disaster.\n- Have an emergency charging option for your phone and other mobile devices. Smartphones have become a vital tool to get emergency alerts and warnings so it’s important to make sure you can keep them powered up in an emergency.\n- At home: Prior to severe weather make sure that all of your electronic devices are fully charged. If the power goes out save battery power by minimizing device use. Keep a back-up power source on hand.\n- In your car: Keep a portable phone charger in your car at all times and consider purchasing a back-up power supply to keep in your car as well.\n- Change the settings on your phone to low power mode or place it on airplane mode to conserve energy.\n- Store important documents on a secure, password-protected jump drive or in the cloud.\n- There are several apps for mobile devices that let you use your phone’s camera as a scanning device. This lets you capture electronic versions of important documents such as insurance policies, identification documents and medical records. Don’t forget to include your pet’s information.\n- Back-up your computer to protect photos and other important electronic documents.\n- Scan old photos to protect them from loss.\n- Keep your contacts updated and synced across all of your channels, including phone, email and social media. This will make it easy to reach out to the right people quickly to get information and give updates. Consider creating a group listserv of your top contacts.\n- Create a group chat via a texting app or a thread for family/friends/coworkers to communicate quickly during a disaster.\n- Sign up for direct deposit and electronic banking through your financial institution so you can access your paycheck and make electronic payments wherever you are. Federal benefit recipients can sign up by calling 800-333-1795 or at GoDirect.org."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/get-tech-ready"
+  },
+  {
+   "title": "Measuring Electricity: Watts, Kilowatts and Watthours (EIA)",
+   "sections": [
+    {
+     "heading": "Electricity is measured in Watts and kilowatts",
+     "body": "Electricity is measured in units of power called Watts, named after James Watt, the inventor of the steam engine. One Watt is a very small amount of power. Some devices need only a few Watts to operate, but other devices require larger amounts, and their consumption is measured in kilowatts (kW). One kilowatt is equal to 1,000 Watts.\n\nFor very large amounts of electricity, like what power plants generate, we use even larger units:\n\n- Megawatts (MW): One MW is 1,000 kW, or 1,000,000 Watts.\n- Gigawatts (GW): One GW is 1,000 MW, or 1,000,000,000 Watts."
+    },
+    {
+     "heading": "Electricity use over time is measured in Watthours",
+     "body": "Watts measure power at a specific moment, but we use Watthours (Wh) to measure how much electricity is used over a period of time. One Watthour is the energy of one Watt used for one hour.\n\nElectric utilities and power plants generally measure electricity in kilowatthours (kWh). One kWh is one kilowatt generated for one hour. For example, if you use a 40-Watt (0.04 kW) light bulb for five hours, you have used 200 Wh, or 0.2 kWh, of electrical energy."
+    },
+    {
+     "heading": "Utility companies measure and monitor electricity use with meters",
+     "body": "Electric utility companies use meters to measure how much electricity their customers use. These meters are usually located on the outside of the building or home where the power line connects. In the past, electricity meters were mechanical devices that a utility employee had to read manually. Eventually, automated meters could periodically report electricity use to the utility. Today, many utilities use electronic smart meters. These meters wirelessly send power usage data in real time. Some advanced smart meters can even track the electricity use of individual devices and allow the utility or customer to control electricity use remotely."
+    }
+   ],
+   "sourceUrl": "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php"
+  },
+  {
+   "title": "Batteries, Circuits, and Transformers (EIA)",
+   "sections": [
+    {
+     "heading": "Batteries produce electricity",
+     "body": "Batteries generate electricity using two different metals submerged in a chemical solution called an electrolyte. One end of the battery is attached to one of the metals, and the other end is attached to the other metal. A chemical reaction occurs between the metals and the electrolyte. This reaction causes one metal to release more electrons than the other.\n\nThe metal that releases more electrons develops a positive (+) charge, and the other metal develops a negative (-) charge. When a wire or an electrical conductor, connects one end of the battery to the other, electrons flow through the wire to balance the electrical charge.\n\nAn electrical load is any device that uses electricity to do perform work, such as a light bulb. If a light bulb is placed along the wire, the flowing electricity will power it on. Electrons flow from the negative end of the battery, through the wire and the light bulb, and back through the positive end, creating a continuous flow."
+    },
+    {
+     "heading": "Electricity travels in circuits",
+     "body": "For electricity to flow, it needs a complete path, or electrical circuit. The on-off switch on electrical devices either closes (turns on) or opens (turns off) this circuit:\n\n- Turning off a light or device opens the circuit and stops electrons from flowing.\n- Turning on a light closes the circuit, allowing electricity to flow from one wire, through the light bulb, and then through the other wire to complete the circuit."
+    },
+    {
+     "heading": "Transformers help move electricity efficiently",
+     "body": "To overcome the challenge of sending electricity over long distances, William Stanley invented the transformer. A transformer adjusts the voltage (electrical pressure) of electricity in power lines.\n\nHigh-voltage transmission lines (the ones you see hanging between tall metal towers) carry electricity over long distances. Higher voltage electricity is more efficient and less expensive for long distance travel. Lower voltage electricity is safer to use in homes and businesses. Transformers play a crucial role by either increasing (stepping up) or reducing (stepping down) voltages as electricity travels from power plants to homes and businesses."
+    }
+   ],
+   "sourceUrl": "https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php"
+  },
+  {
+   "title": "Photovoltaics and Electricity (EIA)",
+   "sections": [
+    {
+     "heading": "Photovoltaic cells",
+     "body": "A photovoltaic (PV) cell, commonly called a solar cell, is a nonmechanical device that converts sunlight directly into electricity. Some PV cells can convert artificial light into electricity.\n\nSunlight is composed of photons, or particles of solar energy. These photons contain varying amounts of energy that correspond to the different wavelengths of the solar spectrum.\n\nA PV cell is made of semiconductor material. When photons strike a PV cell, they will reflect off the cell, pass through the cell, or be absorbed by the semiconductor material. Only the photons that are absorbed provide energy to generate electricity. When the semiconductor material absorbs enough sunlight (solar energy), electrons are dislodged from the material's atoms. Special treatment of the PV cell's surface during manufacturing makes the front surface of the cell more receptive to the dislodged, or free, electrons so that the electrons naturally migrate to the surface of the cell."
+    },
+    {
+     "heading": "The flow of electricity in a solar cell",
+     "body": "The movement of electrons, which all carry a negative charge, toward the front surface of the PV cell creates an imbalance of electrical charge between the cell's front and back surfaces. This imbalance, in turn, creates a voltage potential similar to the negative and positive terminals of a battery. Electrical conductors on the PV cell absorb the electrons. When the conductors are connected in an electrical circuit to an external load, such as a battery, electricity flows through the circuit."
+    },
+    {
+     "heading": "PV cells, panels, and arrays",
+     "body": "The PV cell is the basic building block of a PV system. Individual cells can vary from 0.5 inches to about 4.0 inches across. However, one PV cell can only produce 1 or 2 Watts, which is only enough electricity for small uses, such as powering calculators or wristwatches.\n\nPV cells are electrically connected in a packaged, weather-tight PV panel (sometimes called a module). PV panels vary in size and in the amount of electricity they can produce. Electricity-generating capacity for PV panels increases with the number of cells in the panel or in the surface area of the panel. PV panels can be connected in groups to form a PV array. A PV array can be composed of as few as two PV panels to hundreds of PV panels. The number of PV panels connected in a PV array determines the amount of electricity the array can generate.\n\nPV cells generate direct current (DC) electricity. DC electricity can be used to charge batteries that power devices that use DC electricity. Nearly all electricity is supplied as alternating current (AC) in electricity transmission and distribution systems. Devices called inverters are used on PV panels or in PV arrays to convert the DC electricity to AC electricity.\n\nPV cells and panels produce the most electricity when they are directly facing the sun. PV panels and arrays can use tracking systems to keep the panels facing the sun, but these systems are expensive. Most PV systems have panels in a fixed position that are usually facing directly south in the northern hemisphere—or directly north in the southern hemisphere—at an angle that optimizes the physical and economic performance of the system."
+    },
+    {
+     "heading": "PV system efficiency",
+     "body": "The efficiency with which PV cells convert sunlight to electricity varies by the type of semiconductor material and PV cell technology. The efficiency of commercially available PV panels averaged less than 10% in the mid-1980s, increased to around 15% by 2015, and is now approaching 25% for state-of-the art modules. Experimental PV cells and PV cells for niche markets, such as space satellites, have achieved nearly 50% efficiency."
+    },
+    {
+     "heading": "PV system applications",
+     "body": "When the sun is shining, PV systems can generate electricity to directly power devices such as water pumps or supply electric power grids. PV systems can also charge a battery to provide electricity when the sun is not shining for individual devices, single homes, or electric power grids.\n\nSome advantages of PV systems are:\n\n- PV systems can supply electricity in locations where electricity distribution systems (power lines) do not exist, and they can also supply electricity to electric power grids.\n- PV arrays can be installed quickly.\n- The environmental effects of PV systems located on buildings are minimal."
+    },
+    {
+     "heading": "History of PV systems",
+     "body": "The first practical PV cell was developed in 1954 by Bell Telephone researchers. Beginning in the late 1950s, PV cells were used to power U.S. space satellites. By the late 1970s, PV panels were providing electricity in remote, or off-grid, locations that did not have electric power lines. Since 2004, most PV systems in the United States are grid-connected—they are connected to an electric power grid. These PV systems are installed on or near homes and buildings and at utility-scale power plants that have at least 1 megawatt of electric-generation capacity. Technological advances, lower costs for PV systems, and various financial incentives and government policies, especially tax credits and net metering, have helped to greatly expand PV use since the mid-1990s. Millions of grid-connected PV systems are now installed in the United States.\n\nElectricity generation at utility-scale PV power plants increased from 6 million kilowatthours (kWh) (or 6,000 megawatthours [MWh]) in 2004 to about 292 billion kWh (or 292,817,000 MWh) in 2025. About 93 billion kWh (or 93,148,000 MWh) were generated by small-scale, grid-connected PV systems in 2025, up from 18 billion kWh (or 18,812,000 MWh) in 2016. Small-scale PV systems have less than 1,000 kilowatts of electricity-generation capacity. Most small-scale PV systems are located on buildings and are sometimes called rooftop PV systems."
+    }
+   ],
+   "sourceUrl": "https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php"
+  },
+  {
+   "title": "Solar Photovoltaic Technology Basics (DOE)",
+   "sections": [
+    {
+     "heading": "What Is Photovoltaic Technology?",
+     "body": "Photovoltaic (PV) materials and devices convert sunlight into electrical energy. A single PV device is known as a cell. An individual PV cell is usually small, typically producing about 1 or 2 watts of power. These cells are made of different semiconductor materials and are often less than the thickness of four human hairs. Cells are sandwiched between protective materials such as glass and/or plastic to withstand the outdoors for many years.\n\nTo boost the power output of PV cells, they are connected in chains to form larger units known as modules or panels. Modules can be used individually, or several can be connected to form arrays. One or more arrays are then connected to the electrical grid as part of a complete PV system. Because of this modular structure, PV systems can be built to meet almost any electric power need, small or large."
+    },
+    {
+     "heading": "What Is a Photovoltaic System?",
+     "body": "PV modules and arrays are just one part of a PV system. Systems also include mounting structures that point panels toward the sun, along with the components that take the direct-current (DC) electricity produced by modules and convert it to the alternating-current (AC) electricity used to power the appliances in your home."
+    }
+   ],
+   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-photovoltaic-technology-basics"
+  },
+  {
+   "title": "Solar Photovoltaic System Design Basics: Mounting, Inverters and Storage (DOE)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Solar photovoltaic modules are where the electricity gets generated, but are only one of the many parts in a complete photovoltaic (PV) system. In order for the generated electricity to be useful in a home or business, a number of other technologies must be in place."
+    },
+    {
+     "heading": "Overview: Mounting Structures",
+     "body": "PV arrays must be mounted on a stable, durable structure that can support the array and withstand wind, rain, hail, and corrosion over decades. These structures tilt the PV array at a fixed angle determined by the local latitude, orientation of the structure, and electrical load requirements. To obtain the highest annual energy output, modules in the northern hemisphere are pointed due south and inclined at an angle equal to the local latitude. Rack mounting is currently the most common method because it is robust, versatile, and easy to construct and install. More sophisticated and less expensive methods continue to be developed.\n\nFor PV arrays mounted on the ground, tracking mechanisms automatically move panels to follow the sun across the sky, which provides more energy and higher returns on investment. One-axis trackers are typically designed to track the sun from east to west. Two-axis trackers allow for modules to remain pointed directly at the sun throughout the day. Naturally, tracking involves more up-front costs and sophisticated systems are more expensive and require more maintenance. As systems have improved, the cost-benefit analysis increasingly favors tracking for ground-mounted systems."
+    },
+    {
+     "heading": "Overview: Building-Integrated PV",
+     "body": "While most solar modules are placed in dedicated mounting structures, they can also be integrated directly into building materials like roofing, windows, or façades. These systems are known as building-integrated PV (BIPV). Integrating solar into buildings could improve material and supply chain efficiencies by combining redundant parts, and reduce system cost by using existing building systems and support structures. BIPV systems could provide power for direct current (DC) applications in buildings, like LED lighting, computers, sensors, and motors, and support grid-integrated efficient building applications, like electric vehicle charging. BIPV systems still face technical and commercial barriers to widespread use, but their unique value makes them a promising alternative to traditional mounting structures and building materials."
+    },
+    {
+     "heading": "Overview: Inverters",
+     "body": "Inverters are used to convert the direct current (DC) electricity generated by solar photovoltaic modules into alternating current (AC) electricity, which is used for local transmission of electricity, as well as most appliances in our homes. PV systems either have one inverter that converts the electricity generated by all of the modules, or microinverters that are attached to each individual module. A single inverter is generally less expensive and can be more easily cooled and serviced when needed. The microinverter allows for independent operation of each panel, which is useful if some modules might be shaded, for example. It is expected that inverters will need to be replaced at least once in the 25-year lifetime of a PV array.\n\nAdvanced inverters, or \"smart inverters,\" allow for two-way communication between the inverter and the electrical utility. This can help balance supply and demand either automatically or via remote communication with utility operators. Allowing utilities to have this insight into (and possible control of) supply and demand allows them to reduce costs, ensure grid stability, and reduce the likelihood of power outages."
+    },
+    {
+     "heading": "Overview: Storage",
+     "body": "Batteries allow for the storage of solar photovoltaic energy, so we can use it to power our homes at night or when weather elements keep sunlight from reaching PV panels. Not only can they be used in homes, but batteries are playing an increasingly important role for utilities. As customers feed solar energy back into the grid, batteries can store it so it can be returned to customers at a later time. The increased use of batteries will help modernize and stabilize our country's electric grid."
+    }
+   ],
+   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics"
+  },
+  {
+   "title": "Solar Energy and Storage Basics (DOE)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Sometimes two is better than one. Coupling solar energy and storage technologies is one such case. The reason: Solar energy is not always produced at the time energy is needed most. Peak power usage often occurs on summer afternoons and evenings, when solar energy generation is falling. Temperatures can be hottest during these times, and people who work daytime hours get home and begin using electricity to cool their homes, cook, and run appliances.\n\nStorage helps solar contribute to the electricity supply even when the sun isn’t shining. It can also help smooth out variations in how solar energy flows on the grid. These variations are attributable to changes in the amount of sunlight that shines onto photovoltaic (PV) panels or concentrating solar-thermal power (CSP) systems. Solar energy production can be affected by season, time of day, clouds, dust, haze, or obstructions like shadows, rain, snow, and dirt. Sometimes energy storage is co-located with, or placed next to, a solar energy system, and sometimes the storage system stands alone, but in either configuration, it can help more effectively integrate solar into the energy landscape."
+    },
+    {
+     "heading": "What Is Energy Storage?",
+     "body": "“Storage” refers to technologies that can capture electricity, store it as another form of energy (chemical, thermal, mechanical), and then release it for use when it is needed. Lithium-ion batteries are one such technology. Although using energy storage is never 100% efficient—some energy is always lost in converting energy and retrieving it—storage allows the flexible use of energy at different times from when it was generated. So, storage can increase system efficiency and resilience, and it can improve power quality by matching supply and demand.\n\nStorage facilities differ in both energy capacity, which is the total amount of energy that can be stored (usually in kilowatt-hours or megawatt-hours), and power capacity, which is the amount of energy that can be released at a given time (usually in kilowatts or megawatts). Different energy and power capacities of storage can be used to manage different tasks. Short-term storage that lasts just a few minutes will ensure a solar plant operates smoothly during output fluctuations due to passing clouds, while longer-term storage can help provide supply over days or weeks when solar energy production is low or during a major weather event, for example."
+    },
+    {
+     "heading": "Advantages of Combining Storage and Solar",
+     "body": "Balancing electricity loads – Without storage, electricity must be generated and consumed at the same time, which may mean that grid operators take some generation offline, or “curtail” it, to avoid over-generation and grid reliability issues. Conversely, there may be other times, after sunset or on cloudy days, when there is little solar production but plenty of demand for power. Enter storage, which can be filled or charged when generation is high and power consumption is low, then dispensed when the load or demand is high. When some of the electricity produced by the sun is put into storage, that electricity can be used whenever grid operators need it, including after the sun has set. In this way, storage acts as an insurance policy for sunshine.\n\n“Firming” solar generation – Short-term storage can ensure that quick changes in generation don’t greatly affect the output of a solar power plant. For example, a small battery can be used to ride through a brief generation disruption from a passing cloud, helping the grid maintain a “firm” electrical supply that is reliable and consistent.\n\nProviding resilience – Solar and storage can provide backup power during an electrical disruption. They can keep critical facilities operating to ensure continuous essential services, like communications. Solar and storage can also be used for microgrids and smaller-scale applications, like mobile or portable power units."
+    },
+    {
+     "heading": "Types of Energy Storage",
+     "body": "The most common type of energy storage in the power grid is pumped hydropower. But the storage technologies most frequently coupled with solar power plants are electrochemical storage (batteries) with PV plants and thermal storage (fluids) with CSP plants. Other types of storage, such as compressed air storage and flywheels, may have different characteristics, such as very fast discharge or very large capacity, that make them attractive to grid operators. More information on other types of storage is below."
+    },
+    {
+     "heading": "Pumped-Storage Hydropower",
+     "body": "Pumped-storage hydropower is an energy storage technology based on water. Electrical energy is used to pump water uphill into a reservoir when energy demand is low. Later, the water can be allowed to flow back downhill and turn a turbine to generate electricity when demand is high. Pumped hydro is a well-tested and mature storage technology that has been used in the United States since 1929. However, it requires suitable landscapes and reservoirs, which may be natural lakes or man-made by constructing dams, requiring lengthy regulatory permits, long implementation times, and large initial capital. Other than energy arbitrage, pumped hydro’s value of services to integrate variable renewables are not fully realized, which can make the financial payback period long. These are some of the reasons pumped hydro has not been built recently, even though interest is evident from requests to the Federal Energy Regulatory Commission for preliminary permits and licenses."
+    },
+    {
+     "heading": "Electrochemical Storage",
+     "body": "Many of us are familiar with electrochemical batteries, like those found in laptops and mobile phones. When electricity is fed into a battery, it causes a chemical reaction, and energy is stored. When a battery is discharged, that chemical reaction is reversed, which creates voltage between two electrical contacts, causing current to flow out of the battery. The most common chemistry for battery cells is lithium-ion, but other common options include lead-acid, sodium, and nickel-based batteries."
+    },
+    {
+     "heading": "Thermal Energy Storage",
+     "body": "Thermal energy storage is a family of technologies in which a fluid, such as water or molten salt, or other material is used to store heat. This thermal storage material is then stored in an insulated tank until the energy is needed. The energy may be used directly for heating and cooling, or it can be used to generate electricity. In thermal energy storage systems intended for electricity, the heat is used to boil water. The resulting steam drives a turbine and produces electrical power using the same equipment that is used in conventional electricity generating stations. Thermal energy storage is useful in CSP plants, which focus sunlight onto a receiver to heat a working fluid. Supercritical carbon dioxide is being explored as a working fluid that could take advantage of higher temperatures and reduce the size of generating plants."
+    },
+    {
+     "heading": "Flywheel Storage",
+     "body": "A flywheel is a heavy wheel attached to a rotating shaft. Expending energy can make the wheel turn faster. This energy can be extracted by attaching the wheel to an electrical generator, which uses electromagnetism to slow the wheel down and produce electricity. Although flywheels can quickly provide power, they can’t store a lot of energy."
+    },
+    {
+     "heading": "Compressed Air Storage",
+     "body": "Compressed air storage systems consist of large vessels, like tanks, or natural formations, like caves. A compressor system pumps the vessels full of pressurized air. Then the air can be released and used to drive a turbine that produces electricity. Existing compressed air energy storage systems often use the released air as part of a natural gas power cycle to produce electricity."
+    },
+    {
+     "heading": "Solar Fuels",
+     "body": "Solar power can be used to create new fuels that can be combusted (burned) or consumed to provide energy, effectively storing the solar energy in the chemical bonds. Among the possible fuels researchers are examining are hydrogen, produced by separating it from the oxygen in water, and methane, produced by combining hydrogen and carbon dioxide. Methane is the main component of natural gas, which is commonly used to produce electricity or heat homes."
+    },
+    {
+     "heading": "Virtual Storage",
+     "body": "Energy can also be stored by changing how we use the devices we already have. For example, by heating or cooling a building before an anticipated peak of electrical demand, the building can “store” that thermal energy so it doesn’t need to consume electricity later in the day. The building itself is acting as a thermos by storing cool or warm air. A similar process can be applied to water heaters to spread demand out over the day.\n\nUltimately, residential and commercial solar customers, and utilities and large-scale solar operators alike, can benefit from solar-plus-storage systems. As research continues and the costs of solar energy and storage come down, solar and storage solutions will become more accessible to all Americans."
+    }
+   ],
+   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics"
+  },
+  {
+   "title": "How Do Wind Turbines Work? (DOE)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Wind turbines work on a simple principle: instead of using electricity to make wind—like a fan—wind turbines use wind to make electricity. Wind turns the propeller-like blades of a turbine around a rotor, which spins a generator, which creates electricity."
+    },
+    {
+     "heading": "How Wind Turbines Make Electricity",
+     "body": "Wind is a form of solar energy caused by a combination of three concurrent events:\n\n- The sun unevenly heating the atmosphere\n- Irregularities of the earth's surface\n- The rotation of the earth.\n\nWind flow patterns and speeds vary greatly across the United States and are modified by bodies of water, vegetation, and differences in terrain. Humans use this wind flow, or motion energy, for many purposes: sailing, flying a kite, and even generating electricity.\n\nThe terms \"wind energy\" and \"wind power\" both describe the process by which the wind is used to generate mechanical power or electricity. This mechanical power can be used for specific tasks (such as grinding grain or pumping water) or a generator can convert this mechanical power into electricity.\n\nA wind turbine turns wind energy into electricity using the aerodynamic force from the rotor blades, which work like an airplane wing or helicopter rotor blade. When wind flows across the blade, the air pressure on one side of the blade decreases. The difference in air pressure across the two sides of the blade creates both lift and drag. The force of the lift is stronger than the drag and this causes the rotor to spin. The rotor connects to the generator, either directly (if it’s a direct drive turbine) or through a shaft and a series of gears (a gearbox) that speed up the rotation and allow for a physically smaller generator. This translation of aerodynamic force to rotation of a generator creates electricity."
+    },
+    {
+     "heading": "Types of Wind Turbines",
+     "body": "Most wind turbines fall into two basic types."
+    },
+    {
+     "heading": "Horizontal-Axis Turbines",
+     "body": "Horizontal-axis wind turbines are what many people picture when thinking of wind turbines.\n\nMost commonly, they have three blades and operate \"upwind,\" with the turbine pivoting at the top of the tower so the blades face into the wind."
+    },
+    {
+     "heading": "Vertical-Axis Turbines",
+     "body": "Vertical-axis wind turbines come in several varieties, including the eggbeater-style Darrieus model, named after its French inventor. These turbines are omnidirectional, meaning they don’t need to be adjusted to point into the wind to operate."
+    },
+    {
+     "heading": "Applications of Wind Turbines",
+     "body": "Wind turbines can be built on land or offshore in large bodies of water like oceans and lakes. Modern wind turbines can be categorized by where they are installed and how they are connected to the grid."
+    },
+    {
+     "heading": "Land-Based Wind",
+     "body": "Land-based wind turbines range in size from 100 kilowatts to as large as several megawatts.\n\nLarger wind turbines are more cost effective and are grouped together into wind plants, which provide bulk power to the electrical grid."
+    },
+    {
+     "heading": "Offshore Wind",
+     "body": "Offshore wind turbines tend to be massive, and taller than the Statue of Liberty.\n\nThey do not have the same transportation challenges of land-based wind installations, as the large components can be transported on ships instead of on roads.\n\nThese turbines are able to capture powerful ocean winds and generate vast amounts of energy."
+    },
+    {
+     "heading": "Distributed Wind",
+     "body": "When wind turbines of any size are installed on the \"customer\" side of the electric meter or are installed at or near the place where the energy they produce will be used, they're called distributed wind.\n\nMany turbines used in distributed applications are small wind turbines. Single small wind turbines—below 100 kilowatts—are typically used for residential, agricultural, and small commercial and industrial applications.\n\nSmall turbines can be used in hybrid energy systems with other distributed energy resources, such as microgrids powered by diesel generators, batteries, and photovoltaics."
+    }
+   ],
+   "sourceUrl": "https://www.energy.gov/cmei/systems/how-do-wind-turbines-work"
+  },
+  {
+   "title": "How Hydropower Works (DOE)",
+   "sections": [
+    {
+     "heading": "How Do We Get Energy From Water?",
+     "body": "Hydropower, or hydroelectric power, is a renewable source of energy that generates power by using a dam or diversion structure to alter the natural flow of a river or other body of water. Hydropower relies on the endless, constantly recharging system of the water cycle to produce electricity, using a fuel—water—that is not reduced or eliminated in the process. There are many types of hydropower facilities, though they are all powered by the kinetic energy of flowing water as it moves downstream. Hydropower utilizes turbines and generators to convert that kinetic energy into electricity, which is then fed into the electrical grid to power homes, businesses, and industries."
+    },
+    {
+     "heading": "How Exactly Is Electricity Generated At Hydropower Plants?",
+     "body": "Because hydropower uses water to generate electricity, plants are usually located on or near a water source. The energy available from the moving water depends on both the volume of the water flow and the change in elevation—also known as the head—from one point to another. The greater the flow and the higher the head, the more the electricity that can be generated.\n\nAt the plant level, water flows through a pipe—also known as a penstock—and then spins the blades in a turbine, which, in turn, spins a generator that ultimately produces electricity. Most conventional hydroelectric facilities operate this way, including run-of-the-river systems and pumped storage systems."
+    }
+   ],
+   "sourceUrl": "https://www.energy.gov/cmei/water/how-hydropower-works"
+  },
+  {
+   "title": "Types and Sizes of Hydropower Plants, Including Micro Hydropower (DOE)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "There are three types of hydropower facilities: impoundment, diversion, and pumped storage. Some hydropower plants use dams and some do not.\n\nAlthough not all dams were built for hydropower, they have proven useful for pumping tons of renewable energy to the grid. Of the more than 90,000 dams in the United States, less than 3% produce power. The other dams are used for recreation, stock/farm ponds, flood control, water supply, and irrigation.\n\nHydropower plants range in size from small systems suitable for a single home or village to large projects producing electricity for utilities. Learn more about the sizes of hydropower plants."
+    },
+    {
+     "heading": "Impoundment",
+     "body": "The most common type of hydroelectric power plant is an impoundment facility. An impoundment facility, typically a large hydropower system, uses a dam to store river water in a reservoir. Water released from the reservoir flows through a turbine, spinning it, which in turn activates a generator to produce electricity. The water may be released to meet changing electricity needs or other needs, such as flood control, recreation, fish passage, and other environmental and water quality needs."
+    },
+    {
+     "heading": "Diversion",
+     "body": "A diversion, sometimes called a “run-of-river” facility, channels a portion of a river through a canal and/or a penstock to utilize the natural decline of the river bed elevation to produce energy. A penstock is a closed conduit that channels the flow of water to turbines with water flow regulated by gates, valves, and turbines. A diversion may not require the use of a dam."
+    },
+    {
+     "heading": "Pumped Storage",
+     "body": "Another type of hydropower, called pumped storage hydropower, or PSH, works like a giant battery. A PSH facility is able to store the electricity generated by other power sources, like solar, wind, and nuclear, for later use. These facilities store energy by pumping water from a reservoir at a lower elevation to a reservoir at a higher elevation.\n\nWhen the demand for electricity is low, a PSH facility stores energy by pumping water from the lower reservoir to an upper reservoir. During periods of high electrical demand, the water is released back to the lower reservoir and turns a turbine, generating electricity."
+    },
+    {
+     "heading": "Sizes Of Hydroelectric Power Plants",
+     "body": "Hydropower facilities range in size from large power plants, which supply many consumers with electricity, to small and even ‘micro’ plants, which are operated by individuals for their own energy needs or to sell power to utilities.\n\nLarge Hydropower\n\nAlthough definitions vary, DOE defines large hydropower plants as facilities that have a capacity of more than 30 megawatts (MW).\n\nSmall Hydropower\n\nAlthough definitions vary, DOE defines small hydropower plants as projects that generate between 100 kilowatts and 10 MW.\n\nMicro Hydropower\n\nA micro hydropower plant has a capacity of up to 100 kilowatts. A small or micro hydroelectric power system can produce enough electricity for a single home, farm, ranch, or village."
+    }
+   ],
+   "sourceUrl": "https://www.energy.gov/cmei/water/types-hydropower-plants"
+  }
+ ]
+}

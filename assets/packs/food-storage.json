@@ -1,0 +1,113 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "food-storage",
+ "title": "Food Storage & Power Outages (FDA)",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. Food and Drug Administration",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Storing food safely in the refrigerator, freezer and cupboard; refrigerator and freezer storage times; keeping food and water safe before, during and after power outages and floods.",
+ "attribution": "Text from U.S. Food and Drug Administration web pages and the FDA Refrigerator & Freezer Storage Chart (2018), reformatted into sections; the chart's storage times are shown as images of the original. Use does not imply endorsement by FDA, HHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Are You Storing Food Safely? (FDA)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Whether putting food in the refrigerator, the freezer, or the cupboard, you have plenty of opportunities to prevent foodborne illnesses.\n\nThe goal is to keep yourself and others from being sickened by microorganisms such as Salmonella, E. coli O157:H7, and C. botulinum, which causes botulism. Keeping foods chilled at proper temperatures is one of the best ways to prevent or slow the growth of these bacteria.\n\nThese food storage tips can help you steer clear of foodborne illnesses."
+    },
+    {
+     "heading": "Storage Basics",
+     "body": "- Refrigerate or freeze perishables right away. Foods that require refrigeration should be put in the refrigerator as soon as you get them home. Stick to the \"two-hour rule\" for leaving items needing refrigeration out at room temperature. Never allow meat, poultry, seafood, eggs, or produce or other foods that require refrigeration to sit at room temperature for more than two hours—one hour if the air temperature is above 90° F. This also applies to items such as leftovers, \"doggie bags,\" and take-out foods. Also, when putting food away, don't crowd the refrigerator or freezer so tightly that air can't circulate.\n- Keep your appliances at the proper temperatures. Keep the refrigerator temperature at or below 40° F (4° C). The freezer temperature should be 0° F (-18° C). Check temperatures periodically. Appliance thermometers are the best way of knowing these temperatures and are generally inexpensive.\n- Check storage directions on labels. Many items other than meats, vegetables, and dairy products need to be kept cold. If you've neglected to properly refrigerate something, it's usually best to throw it out.\n- Use ready-to-eat foods as soon as possible. Refrigerated ready-to-eat foods such as luncheon meats should be used as soon as possible. The longer they're stored in the refrigerator, the more chance Listeria, a bacterium that causes foodborne illness, can grow, especially if the refrigerator temperature is above 40° F (4° C).\n- Be alert for spoiled food. Anything that looks or smells suspicious should be thrown out. Mold is a sign of spoilage. It can grow even under refrigeration. Mold is not a major health threat, but it can make food unappetizing. The safest practice is to discard food that is moldy.\n- Be aware that food can make you very sick even when it doesn't look, smell, or taste spoiled. That's because foodborne illnesses are caused by pathogenic bacteria, which are different from the spoilage bacteria that make foods \"go bad.\" Many pathogenic organisms are present in raw or undercooked meat, poultry, seafood, milk, and eggs; unclean water; and on fruits and vegetables. Keeping these foods properly chilled will slow the growth of bacteria.\n- Following the other recommended food handling practices will further reduce your risk of getting sick — clean your hands, surfaces and produce, separate raw foods from ready-to-eat foods, and cook to safe temperatures."
+    },
+    {
+     "heading": "Refrigeration Tips",
+     "body": "- Marinate food in the refrigerator. Bacteria can multiply rapidly in foods left to marinate at room temperature. Also, never reuse marinating liquid as a sauce unless you bring it to a rapid boil first.\n- Clean the refrigerator regularly and wipe spills immediately. This helps reduce the growth of Listeria bacteria and prevents drips from thawing meat that can allow bacteria from one food to spread to another. Clean the fridge out frequently.\n- Keep foods covered. Store refrigerated foods in covered containers or sealed storage bags, and check leftovers daily for spoilage. Store eggs in their carton in the refrigerator itself rather than on the door, where the temperature is warmer.\n- Check expiration dates. A \"use by\" date means that the manufacturer recommends using the product by this date for the best flavor or quality. The date is not a food safety date. At some point after the use-by date, a product may change in taste, color, texture, or nutrient content, but, the product may be wholesome and safe long after that date. If you're not sure or if the food looks questionable, throw it out.\n- The exception to this is infant formula. Infant formula and some baby foods are unique in that they must be used by the use-by date that appears on the package."
+    },
+    {
+     "heading": "Freezer Facts",
+     "body": "- Food that is properly frozen and cooked is safe. Food that is properly handled and stored in the freezer at 0° F (-18° C) will remain safe. While freezing does not kill most bacteria, it does stop bacteria from growing. Though food will be safe indefinitely at 0° F, quality will decrease the longer the food is in the freezer. Tenderness, flavor, aroma, juiciness, and color can all be affected. Leftovers should be stored in tight containers. With commercially frozen foods, it's important to follow the cooking instructions on the package to assure safety.\n- Freezing does not reduce nutrients. There is little change in a food's protein value during freezing.\n- Freezer burn does not mean food is unsafe. Freezer burn is a food-quality issue, not a food safety issue. It appears as grayish-brown leathery spots on frozen food. It can occur when food is not securely wrapped in air-tight packaging, and causes dry spots in foods.\n- Refrigerator/freezer thermometers should be monitored. Refrigerator/freezer thermometers may be purchased in the housewares section of department, appliance, culinary, and grocery stores. Place one in your refrigerator and one in your freezer, in the front in an easy-to-read location. Check the temperature regularly—at least once a week."
+    },
+    {
+     "heading": "If You Lose Electricity",
+     "body": "If you lose electricity, keep refrigerator and freezer doors closed as much as possible. Your refrigerator will keep food cold for about four hours if it's unopened. A full freezer will keep an adequate temperature for about 48 hours if the door remains closed.\n\nOnce Power is Restored . . .\n\nYou'll need to determine the safety of your food. Here's how:\n\n- If an appliance thermometer was kept in the freezer, check the temperature when the power comes back on. If the freezer thermometer reads 40°F or below, the food is safe and may be refrozen.\n- If a thermometer has not been kept in the freezer, check each package of food to determine its safety. You can't rely on appearance or odor. If the food still contains ice crystals or is 40 °F or below, it is safe to refreeze or cook.\n- Refrigerated food should be safe as long as the power was not out for more than four hours and the refrigerator door was kept shut. Discard any refrigerated perishable food (such as meat, poultry, fish, milk, eggs or leftovers) that has been at refrigerator temperatures above 40°F for four hours or more. Perishable foods with temperatures that are 45°F or below (measured with a food thermometer) should be safe, but should be cooked and consumed as soon as possible."
+    },
+    {
+     "heading": "Tips for Non-Refrigerated Items",
+     "body": "- Check canned goods for damage. Can damage is shown by swelling, leakage, punctures, holes, fractures, extensive deep rusting, or crushing or denting severe enough to prevent normal stacking or opening with a manual, wheel-type can opener. Stickiness on the outside of cans may indicate a leak. Newly purchased cans that appear to be leaking should be returned to the store for a refund or exchange. Otherwise, throw the cans away.\n- Keep food away from poisons. Don't store non-perishable foods near household cleaning products and chemicals."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+  },
+  {
+   "title": "Food and Water Safety During Power Outages and Floods (FDA)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Know the proper food safety precautions to take before, during, and after a power outage.\n\nEmergencies can happen, especially with extreme weather conditions. When they do, the best strategy is to already have a plan in place. This includes knowing the proper food safety precautions to take before, during, and after a power outage — and being prepared to safely handle food and water in the event that flooding occurs.\n\nNote: Your local officials will notify you of any evacuations or states of emergency."
+    },
+    {
+     "heading": "Prepare Yourself Before Power Emergencies",
+     "body": "- Make sure you have appliance thermometers in your refrigerator and freezer.\n- Check to ensure that the freezer temperature is at or below 0° F, and the refrigerator is at or below 40° F.\n- In case of a power outage, the appliance thermometers will indicate the temperatures in the refrigerator and freezer to help you determine if the food is safe.\n- Freeze containers of water for ice to help keep food cold in the freezer, refrigerator, or coolers in case the power goes out. If your normal water supply is contaminated or unavailable, the melting ice will also supply drinking water.\n- Freeze refrigerated items such as leftovers, milk, and fresh meat and poultry that you may not need immediately. This helps keep them at a safe temperature longer.\n- Group food together in the freezer. This helps the food stay cold longer.\n- Have coolers on hand to keep refrigerated food cold if the power will be out for more than 4 hours.\n- Purchase or make ice cubes in advance, and freeze gel packs ahead of time. Store all of these in the freezer for future use in the refrigerator or in coolers.\n- Check out local sources to know where dry ice and block ice can be purchased, in case it should be needed.\n- Store food on shelves that will be safely out of the way of contaminated water in case of flooding.\n- Make sure to have a supply of bottled water stored where it will be as safe as possible from flooding. If your bottled water has an odor, do not drink or use it. Instead, dispose of it, or if applicable, call your bottled water provider to make arrangements to get a replacement.\n\nDuring an emergency, if you use food or beverage containers to hold non-food substances like gasoline, dispose of them after use and do not recycle them."
+    },
+    {
+     "heading": "Power Outages: During and After: When the Power Goes Out . . .",
+     "body": "Here are basic tips for keeping food safe:\n\n- Keep the refrigerator and freezer doors closed as much as possible to maintain the cold temperature.\n- The refrigerator will keep food cold for about 4 hours if it is unopened.\n- A full freezer will keep the temperature for approximately 48 hours (24 hours if it is half full) if the door remains closed.\n- Buy dry or block ice to keep the refrigerator as cold as possible if the power is going to be out for a prolonged period of time. Fifty pounds of dry ice should keep an 18 cubic foot, fully stocked freezer cold for two days.\n- If you plan to eat refrigerated or frozen meat, poultry, fish, or eggs while they are still at safe temperatures, it is important that each item is thoroughly cooked to a safe minimum internal temperature to ensure that any foodborne bacteria that may be present are destroyed. However, if perishable food has been held at room temperature for 2 hours or more (or 1 hour if outdoor temperatures are above 90 º F) — discard it."
+    },
+    {
+     "heading": "Power Outages: During and After: Once Power is Restored . . .",
+     "body": "Determine the safety of your food:\n\n- If an appliance thermometer was kept in the freezer, check the temperature when the power comes back on. If the freezer thermometer reads 40° F or below, the food is safe and may be refrozen.\n- If a thermometer has not been kept in the freezer, check each package of food to determine its safety. You can’t rely on appearance or odor. If the food still contains ice crystals or is 40° F or below, it is safe to refreeze or cook.\n- If the power was out for no more than 4 hours, refrigerated food should be safe as long as the doors were kept closed. When the power comes back on, check the temperature in the refrigerator or of the food. Discard any refrigerated perishable food (such as meat, poultry, seafood, milk, eggs, or leftovers) that has been at refrigerator temperatures above 40°F for 4 hours or more. Perishable foods with temperatures that are 45°F or below (measured with a food thermometer) should be safe, but should be cooked and consumed as soon as possible.\n\nPerishable food such as meat, poultry, seafood, milk, and eggs that are not kept adequately refrigerated or frozen may cause illness if consumed, even when they are thoroughly cooked."
+    },
+    {
+     "heading": "If Flooding Occurs",
+     "body": "Be prepared to safely handle food and water in the event that flooding occurs."
+    },
+    {
+     "heading": "If Flooding Occurs: Keep Water Safe",
+     "body": "Follow these steps to keep your WATER SAFE during and after flood conditions.\n\n- Only use water from a safe source for drinking and washing or preparing food.\n- Use bottled water that has not been exposed to flood waters, if it is available.\n- If you don’t have bottled water, you should boil or disinfect water to make it safe. (see steps below)\n- If you have a well that has been flooded, the water should be tested and disinfected after flood waters recede. If you suspect that your well may be contaminated, contact your local or state health department or agricultural extension agent for specific advice.\n\n**How to Boil or Disinfect Water To Make It Safe**\n\nIf the water is cloudy, first filter it through clean cloths, or allow it to settle and then draw off the clear water for boiling/ disinfecting. Then, follow one of these two procedures:\n\nBoiling\n\nBoiling water will kill most types of disease-causing organisms that may be present.\n\n- Boil the water for 1 minute.\n- Let it cool, and store it in clean containers with covers.\n\nDisinfecting with Bleach\n\nBleach will kill some, but not all, types of disease-causing organisms that may be in the water.\n\n- Add 1/8 teaspoon (or 8 drops) of unscented household (5.25% concentration) liquid bleach for each gallon of water.\n- Stir it well and let it stand for 30 minutes before you use it.\n- Store disinfected water in clean containers with covers."
+    },
+    {
+     "heading": "If Flooding Occurs: Keep Food Safe",
+     "body": "Follow these steps to keep your FOOD SAFE during and after flood conditions.\n\n- Do not eat any food that may have come into contact with flood water.\n- Discard any food and beverage that is not in a waterproof container if there is any chance that it has come into contact with flood water.\n- Food containers that are waterproof include undamaged, commercially prepared foods in all-metal cans and “retort pouches” (like flexible, shelf-stable juice or seafood pouches).\n- Food containers that are not waterproof include those with screw-caps, snap lids, pull tops, and crimped caps.\n- Also discard cardboard juice/milk/baby formula boxes and home canned foods if they have come in contact with flood water, because they cannot be effectively cleaned and sanitized.\n- Discard any food in damaged cans. Damaged cans are those with swelling, leakage, punctures, holes, fractures, extensive deep rusting, or crushing/denting that is severe enough to prevent normal stacking or opening with a manual, wheel-type can opener. See box on next page for steps to clean/save undamaged packages.\n- Thoroughly wash metal pans, ceramic dishes, and utensils (including can openers) with soap and water, using hot water if available. Rinse and then sanitize them by boiling in clean water or immersing them for 15 minutes in a solution of 1 tablespoon of unscented household (5.25% concentration) liquid bleach per gallon of water.\n- Thoroughly wash countertops with soap and water, using hot water if available. Rinse and then sanitize by applying a solution of 1 tablespoon of unscented household (5.25% concentration) liquid bleach per gallon of water. Allow to air dry."
+    },
+    {
+     "heading": "How To Save Undamaged Food Packages Exposed to Flood Water",
+     "body": "Undamaged, commercially prepared foods in all-metal cans and “retort pouches” (like flexible, shelf-stable juice or seafood pouches) can be saved if you follow this procedure.\n\n- Remove the labels, if they are the removable kind, since they can harbor dirt and bacteria.\n- Brush or wipe away any dirt or silt.\n- Thoroughly wash the cans or retort pouches with soap and water, using hot water if it is available.\n- Rinse the cans or retort pouches with water that is safe for drinking, if available, since dirt or residual soap will reduce the effectiveness of chlorine sanitation.\n- Sanitize cans and retort pouches by immersion in one of the two following ways:\n  - Place in water and allow the water to come to a boil and continue boiling for 2 minutes.\n  - Place in a solution of 1 cup (8 oz/250 mL) of unscented household (5.25% concentration) bleach mixed with 5 gallons of water and soak for 15 minutes.\n- Air dry cans or retort pouches for a minimum of 1 hour before opening or storing.\n- If the labels were removable, then re-label your cans or retort pouches, including the expiration date, with a permanent marking pen.\n\nFood in reconditioned cans or retort pouches should be used as soon as possible thereafter.\n\nBaby Formula Tip\n\nFor infants, try to use prepared, canned baby formula that requires no added water. Otherwise, dilute any concentrated baby formula in reconditioned, all-metal containers with clean drinking water."
+    },
+    {
+     "heading": "About Foodborne Illness: Know the Symptoms",
+     "body": "Consuming dangerous foodborne bacteria will usually cause illness within 1 to 3 days of eating the contaminated food. However, sickness can also occur within 20 minutes or up to 6 weeks later. Although most people will recover from a foodborne illness within a short period of time, some can develop chronic, severe, or even life-threatening health problems.\n\nFoodborne illness can sometimes be confused with other illnesses that have similar symptoms. The symptoms of foodborne illness can include:\n\n- Vomiting, diarrhea, and abdominal pain\n- Flu-like symptoms, such as fever, headache, and body ache"
+    },
+    {
+     "heading": "About Foodborne Illness: Take Action",
+     "body": "If you think that you or a family member has a foodborne illness, contact your healthcare provider immediately. To report a complaint or adverse event (illness or serious allergic reaction), visit Industry and Consumer Assistance."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods"
+  },
+  {
+   "title": "Refrigerator & Freezer Storage Chart (FDA, 2018)",
+   "sections": [
+    {
+     "heading": "REFRIGERATOR & FREEZER STORAGE CHART",
+     "body": "These short but safe time limits will help keep refrigerated food 40° F (4° C) from spoiling or becoming dangerous.\n\nSince product dates aren’t a guide for safe use of a product, consult this chart and follow these tips.\n\n- Purchase the product before “sell-by” or expiration dates.\n\n- Follow handling recommendations on product.\n\n- Keep meat and poultry in its package until just before using.\n\n- If freezing meat and poultry in its original package longer than 2 months, overwrap these packages with airtight heavy-duty foil, plastic wrap, or freezer paper; or place the package inside a plastic bag.\n\nBecause freezing 0° F (-18° C) keeps food safe indefinitely, the following recommended storage times are for quality only.\n\n{{img:0}}\n\n{{img:1}}\n\nMarch 2018",
+     "images": [
+      {
+       "asset": "assets/packs/images/food-storage--03-storage-chart--tab-left.webp",
+       "caption": "Refrigerator & Freezer Storage Chart: Eggs; TV Dinners, Frozen Casseroles; Deli & Vacuum-Packed Products; Raw Hamburger, Ground & Stew Meat; Ham, Corned Beef; Hot Dogs & Lunch Meats",
+       "kind": "table"
+      },
+      {
+       "asset": "assets/packs/images/food-storage--03-storage-chart--tab-right.webp",
+       "caption": "Refrigerator & Freezer Storage Chart: Soups & Stews; Bacon & Sausage; Fresh Meat (Beef, Veal, Lamb, & Pork); Meat Leftovers; Fresh Poultry; Cooked Poultry, Leftover; Fish & Shellfish",
+       "kind": "table"
+      }
+     ]
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/media/74435/download"
+  }
+ ]
+}

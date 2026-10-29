@@ -1,0 +1,410 @@
+[
+ {
+  "file": "fig-4-1.webp",
+  "caption": "Figure 4-1. Boiling",
+  "kind": "figure",
+  "page": 75,
+  "bbox": [
+   130.8,
+   345.7,
+   499.4,
+   540.0
+  ]
+ },
+ {
+  "file": "fig-4-2.webp",
+  "caption": "Figure 4-2. Umbrella-shaped flowers",
+  "kind": "figure",
+  "page": 79,
+  "bbox": [
+   170.3,
+   396.8,
+   459.4,
+   715.8
+  ]
+ },
+ {
+  "file": "fig-4-3.webp",
+  "caption": "Figure 4-3. Leaf margins",
+  "kind": "figure",
+  "page": 80,
+  "bbox": [
+   107.2,
+   465.8,
+   486.4,
+   715.2
+  ]
+ },
+ {
+  "file": "fig-4-4.webp",
+  "caption": "Figure 4-4. Leaf shapes",
+  "kind": "figure",
+  "page": 80,
+  "bbox": [
+   131.5,
+   114.9,
+   462.7,
+   432.3
+  ]
+ },
+ {
+  "file": "fig-4-5.webp",
+  "caption": "Figure 4-5. Leaf arrangements",
+  "kind": "figure",
+  "page": 81,
+  "bbox": [
+   146.0,
+   450.8,
+   484.7,
+   716.2
+  ]
+ },
+ {
+  "file": "fig-4-6.webp",
+  "caption": "Figure 4-6. Root structures",
+  "kind": "figure",
+  "page": 82,
+  "bbox": [
+   151.8,
+   386.2,
+   441.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-7.webp",
+  "caption": "Figure 4-7. Simple loop snare",
+  "kind": "figure",
+  "page": 90,
+  "bbox": [
+   126.2,
+   500.2,
+   468.3,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-8.webp",
+  "caption": "Figure 4-8. Apache foot snare",
+  "kind": "figure",
+  "page": 90,
+  "bbox": [
+   150.2,
+   220.9,
+   443.3,
+   436.3
+  ]
+ },
+ {
+  "file": "fig-4-9.webp",
+  "caption": "Figure 4-9. Drag noose snare",
+  "kind": "figure",
+  "page": 91,
+  "bbox": [
+   191.5,
+   368.2,
+   439.2,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-10.webp",
+  "caption": "Figure 4-10. Twitch-up snare",
+  "kind": "figure",
+  "page": 92,
+  "bbox": [
+   114.2,
+   420.8,
+   480.0,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-11.webp",
+  "caption": "Figure 4-11. Squirrel pole noose",
+  "kind": "figure",
+  "page": 93,
+  "bbox": [
+   136.0,
+   405.8,
+   494.6,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-12.webp",
+  "caption": "Figure 4-12. Noosing wand",
+  "kind": "figure",
+  "page": 93,
+  "bbox": [
+   145.8,
+   212.9,
+   484.7,
+   318.8
+  ]
+ },
+ {
+  "file": "fig-4-13.webp",
+  "caption": "Figure 4-13. Treadle spring snare",
+  "kind": "figure",
+  "page": 94,
+  "bbox": [
+   145.0,
+   267.3,
+   449.6,
+   658.2
+  ]
+ },
+ {
+  "file": "fig-4-14.webp",
+  "caption": "Figure 4-14. Deadfall.",
+  "kind": "figure",
+  "page": 95,
+  "bbox": [
+   138.2,
+   411.8,
+   491.8,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-15.webp",
+  "caption": "Figure 4-15. Paiute deadfall",
+  "kind": "figure",
+  "page": 96,
+  "bbox": [
+   109.8,
+   414.8,
+   484.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-16.webp",
+  "caption": "Figure 4-16. Bow trap",
+  "kind": "figure",
+  "page": 97,
+  "bbox": [
+   145.0,
+   381.8,
+   484.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-17.webp",
+  "caption": "Figure 4-17. Pig spear shaft",
+  "kind": "figure",
+  "page": 98,
+  "bbox": [
+   118.8,
+   455.2,
+   475.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-18.webp",
+  "caption": "Figure 4-18. Bottle trap",
+  "kind": "figure",
+  "page": 98,
+  "bbox": [
+   107.8,
+   99.4,
+   511.4,
+   391.6
+  ]
+ },
+ {
+  "file": "fig-4-19.webp",
+  "caption": "Figure 4-19. Deer skinning example",
+  "kind": "figure",
+  "page": 100,
+  "bbox": [
+   130.0,
+   92.5,
+   463.4,
+   571.8
+  ]
+ },
+ {
+  "file": "fig-4-20.webp",
+  "caption": "Figure 4-20. Mist net bird snare",
+  "kind": "figure",
+  "page": 102,
+  "bbox": [
+   100.8,
+   453.8,
+   493.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-21.webp",
+  "caption": "Figure 4-21. Ojibwa bird pole",
+  "kind": "figure",
+  "page": 103,
+  "bbox": [
+   131.5,
+   456.3,
+   498.7,
+   652.2
+  ]
+ },
+ {
+  "file": "fig-4-22.webp",
+  "caption": "Figure 4-22. Cleaning a snake",
+  "kind": "figure",
+  "page": 104,
+  "bbox": [
+   118.0,
+   238.6,
+   476.6,
+   523.1
+  ]
+ },
+ {
+  "file": "fig-4-23.webp",
+  "caption": "Figure 4-23. Turtles with poisonous flesh",
+  "kind": "figure",
+  "page": 105,
+  "bbox": [
+   169.8,
+   501.3,
+   460.7,
+   692.7
+  ]
+ },
+ {
+  "file": "fig-4-24.webp",
+  "caption": "Figure 4-24. Amphibians",
+  "kind": "figure",
+  "page": 106,
+  "bbox": [
+   145.8,
+   473.2,
+   448.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-25.webp",
+  "caption": "Figure 4-25. Fish with poisonous flesh",
+  "kind": "figure",
+  "page": 107,
+  "bbox": [
+   182.2,
+   315.8,
+   448.4,
+   716.0
+  ]
+ },
+ {
+  "file": "fig-4-26.webp",
+  "caption": "Figure 4-26. Improvised fish hooks",
+  "kind": "figure",
+  "page": 108,
+  "bbox": [
+   83.2,
+   510.8,
+   510.7,
+   716.0
+  ]
+ },
+ {
+  "file": "fig-4-27.webp",
+  "caption": "Figure 4-27. Stakeout",
+  "kind": "figure",
+  "page": 108,
+  "bbox": [
+   130.8,
+   74.6,
+   463.3,
+   242.0
+  ]
+ },
+ {
+  "file": "fig-4-28.webp",
+  "caption": "Figure 4-28. Making a gill net",
+  "kind": "figure",
+  "page": 109,
+  "bbox": [
+   137.5,
+   306.3,
+   492.4,
+   553.2
+  ]
+ },
+ {
+  "file": "fig-4-29.webp",
+  "caption": "Figure 4-29. Setting a gill net in a stream",
+  "kind": "figure",
+  "page": 110,
+  "bbox": [
+   138.2,
+   435.8,
+   456.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-30.webp",
+  "caption": "Figure 4-30. Various types of fish traps",
+  "kind": "figure",
+  "page": 110,
+  "bbox": [
+   173.5,
+   68.2,
+   420.5,
+   366.1
+  ]
+ },
+ {
+  "file": "fig-4-31.webp",
+  "caption": "Figure 4-31. Types of spear points",
+  "kind": "figure",
+  "page": 111,
+  "bbox": [
+   159.2,
+   284.9,
+   471.0,
+   519.9
+  ]
+ },
+ {
+  "file": "fig-4-32a.webp",
+  "caption": "Figure 4-32a. Fish poisoning plants",
+  "kind": "figure",
+  "page": 112,
+  "bbox": [
+   164.5,
+   168.4,
+   428.8,
+   542.8
+  ]
+ },
+ {
+  "file": "fig-4-32b.webp",
+  "caption": "Figure 4-32b. Fish poisoning plants",
+  "kind": "figure",
+  "page": 113,
+  "bbox": [
+   182.5,
+   498.8,
+   447.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-33.webp",
+  "caption": "Figure 4-33. Edible mollusks",
+  "kind": "figure",
+  "page": 114,
+  "bbox": [
+   165.2,
+   277.4,
+   428.1,
+   635.3
+  ]
+ }
+]

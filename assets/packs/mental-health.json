@@ -1,0 +1,51 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "mental-health",
+ "title": "Mental Health in Disasters",
+ "category": "medical",
+ "version": "2026.10.29.5",
+ "publisher": "National Institute of Mental Health (NIH)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Helping someone with thoughts of suicide and helping children and teens cope after disasters. The current U.S. crisis line is 988 (call or text); the children's guide still lists the old Lifeline number 1-800-273-8255.",
+ "attribution": "Text from National Institute of Mental Health (NIMH) publications, which NIMH places in the public domain (NIMH images are not reused); reformatted into sections without changing substance. Source: National Institute of Mental Health. Use does not imply endorsement by NIMH, NIH, HHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "5 Action Steps to Help Someone Having Thoughts of Suicide (NIMH)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "We can all take steps to help prevent suicide. Knowing the warning signs for suicide and how to get help can save lives."
+    },
+    {
+     "heading": "5 Action Steps: Here are 5 steps you can take to #BeThe1To help someone who is having thoughts of suicide:",
+     "body": "- ASK: “Are you thinking about suicide?” It’s not an easy question to ask, but it can help start a conversation. Studies show that asking people if they are suicidal does not increase suicidal behavior or thoughts.\n- BE THERE: Listening without judgment is key to learning what the person is thinking and feeling. Research suggests acknowledging and talking about suicide may reduce suicidal thoughts.\n- HELP KEEP THEM SAFE: Reducing access to highly lethal items or places can help prevent suicide. Asking the person if they have a plan and making lethal means less available or less deadly can help the person stay safe when suicidal thoughts arise.\n- HELP THEM CONNECT: Connecting the person with the 988 Suicide & Crisis Lifeline (call or text 988) and other community resources can give them a safety net when they need it. You can also help them reach out to a trusted family member, friend, spiritual advisor, or mental health professional.\n- FOLLOW UP: Staying in touch with the person after they have experienced a crisis or been discharged from care can make a difference. Studies show that supportive, ongoing contact can play an important role in suicide prevention.\n\nLearn more about suicide prevention and the #BeThe1To campaign .\n\nU.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES National Institutes of Health NIMH Identifier No. OM 24-4315 Revised 2024"
+    }
+   ],
+   "sourceUrl": "https://www.nimh.nih.gov/health/publications/5-action-steps-for-helping-someone-in-emotional-pain"
+  },
+  {
+   "title": "Helping Children and Adolescents Cope With Disasters and Other Traumatic Events (NIMH)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Every year, children and adolescents experience disasters and other traumatic events. Family, friends, and trusted adults play an essential role in helping youth cope with these experiences."
+    },
+    {
+     "heading": "How do children and adolescents respond to traumatic events?",
+     "body": "It is typical for children and adolescents to have a range of reactions after experiencing or witnessing a traumatic event, such as a natural disaster, an act of violence, or a serious accident.\n\nRegardless of age, children and adolescents may:\n\n- Report having physical problems such as stomachaches or headaches.\n- Have nightmares or other sleep problems, including refusing to go to bed.\n- Have trouble concentrating.\n- Lose interest in activities they normally enjoy.\n- Have feelings of guilt for not preventing injuries or deaths.\n- Have thoughts of revenge.\n\nYoung children (age 5 and younger) may:\n\n- Cling to caregivers and/or cry and be tearful.\n- Have tantrums, or be irritable or disruptive.\n- Suddenly return to behaviors such as bed-wetting and thumb-sucking.\n- Show increased fearfulness (for example, fear of the dark, monsters, or being alone).\n- Incorporate aspects of the traumatic event into imaginary play.\n\nOlder children (age 6 and older) and adolescents may:\n\n- Have problems in school.\n- Withdraw or become isolated from family and friends.\n- Avoid reminders of the event.\n- Use drugs, alcohol, or tobacco.\n- Be disruptive, disrespectful, or destructive.\n- Be angry or resentful.\n\nMany of these reactions are normal and will lessen with time. If these symptoms last for more than a month, the family should reach out to a health care provider."
+    },
+    {
+     "heading": "What can adults do to help?",
+     "body": "How adults respond to trauma can strongly influence how children and adolescents react to trauma. When caregivers and family members take steps to support their own ability to cope, they can provide better care for others.\n\nCaregivers and family members can help by creating a safe and supportive environment, remaining as calm as possible, and reducing stressors. Children and adolescents need to know that their family members love them and will do their best to take care of them.\n\nDo:\n\n- Ensure children and adolescents are safe and that their basic needs are addressed.\n- Allow them to be sad or cry.\n- Let them talk, write, or draw pictures about the event and their feelings.\n- Limit their exposure to repetitive news reports about traumatic events.\n- Let them sleep in your room (for a short time) or sleep with a light on if they are having trouble sleeping.\n- Try to stick to routines, such as reading bedtime stories, eating dinner together, and playing games.\n- Help them feel in control by letting them make some decisions for themselves, such as choosing their meals or picking out their clothes.\n- Pay attention to sudden changes in behaviors, speech, language use, or strong emotions.\n- Contact a health care provider if new problems develop, particularly if any of the following symptoms occur for more than a few weeks:\n- Having flashbacks (reliving the event)\n- Having a racing heart and sweating\n- Being easily startled\n- Being emotionally numb\n- Being very sad or depressed\n\nDon’t:\n\n- Expect children and adolescents to be brave or tough.\n- Make them discuss the event before they are ready.\n- Get angry if they show strong emotions.\n- Get upset if they begin bed-wetting, acting out, or thumb-sucking.\n- Make promises you can’t keep (such as “You will be OK tomorrow” or “You will go home soon.”)"
+    },
+    {
+     "heading": "Where can I find help?",
+     "body": "The Substance Abuse and Mental Health Services Administration (SAMHSA) offers a Disaster Distress Helpline, which provides immediate crisis counseling for people who are experiencing emotional distress related to any natural or human-caused disaster. The helpline is free, multilingual, confidential, and available 24 hours a day, 7 days a week. You can call or text the helpline at 800-985-5990 or visit the Disaster Distress Helpline website .\n\nSAMHSA provides the Behavioral Health Treatment Services Locator , an online resource for locating mental health treatment facilities and programs in your state. For additional resources, visit NIMH's Help for Mental Illnesses webpage.\n\nIf you, your child, or someone you know is in immediate distress or is thinking about hurting themselves, call the National Suicide Prevention Lifeline toll-free at 1-800-273-TALK (8255). You also can text the Crisis Text Line (HELLO to 741741) or use the Lifeline Chat on the National Suicide Prevention Lifeline website ."
+    }
+   ],
+   "sourceUrl": "https://www.nimh.nih.gov/health/publications/helping-children-and-adolescents-cope-with-disasters-and-other-traumatic-events"
+  }
+ ]
+}

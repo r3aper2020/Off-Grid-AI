@@ -1,0 +1,38 @@
+[
+ {
+  "file": "fig-11-1.webp",
+  "caption": "Figure 11-1. The Injury/Evaluation/Distance Checklist",
+  "kind": "figure",
+  "page": 124,
+  "bbox": [
+   74.5,
+   560.0,
+   519.5,
+   685.5
+  ]
+ },
+ {
+  "file": "fig-11-2.webp",
+  "caption": "Figure 11-2. Applying a bandage to the ear",
+  "kind": "figure",
+  "page": 127,
+  "bbox": [
+   120.0,
+   168.6,
+   500.1,
+   388.1
+  ]
+ },
+ {
+  "file": "fig-11-3.webp",
+  "caption": "Figure 11-3. Applying a bandage to the jaw",
+  "kind": "figure",
+  "page": 128,
+  "bbox": [
+   102.0,
+   279.6,
+   443.4,
+   534.3
+  ]
+ }
+]

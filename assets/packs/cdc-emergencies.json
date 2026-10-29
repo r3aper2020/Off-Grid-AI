@@ -1,0 +1,455 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "cdc-emergencies",
+ "title": "Chemical, Radiation & Health Emergencies (CDC)",
+ "category": "medical",
+ "version": "2026.10.29.5",
+ "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Sheltering in place and self-decontamination for radiation and chemical emergencies, preventing carbon monoxide poisoning, venomous snake and spider bites, tick removal, rabies exposure, and managing diabetes during emergencies.",
+ "attribution": "Source: CDC. Text from CDC web pages (radiation and chemical emergencies, carbon monoxide, NIOSH venomous snakes and spiders, ticks, rabies, diabetes care during emergencies), reformatted into sections without changing substance; images not included. Use does not imply endorsement by CDC, HHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "What to Do: Get Inside",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "What to do in a radiation emergency"
+    },
+    {
+     "heading": "At a glance",
+     "body": "- During a radiation emergency, get inside as soon as possible.\n- Take off any clothes that were exposed to radiation, if you can.\n- Wash any body part exposed to radiation, if you can."
+    },
+    {
+     "heading": "Overview",
+     "body": "Examples of radiation emergencies include:\n\n- A nuclear power plant accident\n- A nuclear explosion\n- A dirty bomb\n\nIf something like this happens, you may be asked to get inside a building and take shelter. The walls of your home can block much of the harmful radiation, and radioactive materials become weaker over time. Staying inside for at least 24 hours can protect you and your family until it is safe to leave the area. Getting inside of a building and staying there is called “sheltering in place.”\n\nSheltering in a Radiation Emergency"
+    },
+    {
+     "heading": "If you are indoors during a radiation emergency",
+     "body": "- Stay inside.\n- Close and lock all windows and doors.\n- Go to the basement or the middle of the building.\n- Stay as far away from the walls and roof of the building as you can. Radiation settles on the outside of buildings.\n- If possible, turn off fans, air conditioners, and forced-air heating units that bring air in from the outside.\n- Close fireplace dampers."
+    },
+    {
+     "heading": "If you are outside or in a vehicle",
+     "body": "- Get inside a building right away. Brick or concrete multi-story building or basement are best, but being inside any building is safer than being outside.\n- Carefully remove your outer layer of clothing before entering the building, if you can. Radioactive material can settle on your clothing and your body, like dust or mud.\n- Once inside, go to the basement or the middle of the building. Radioactive material settles on the outside of buildings. The best thing to do is stay as far away from the walls and roof of the building as you can.\n- Wash the parts of your body that were uncovered when you were outside. Then put on clean clothing, if you can.\n- If you must be outside and cannot get inside immediately, cover your mouth and nose with a mask, cloth, or towel. This can help reduce the amount of radioactive material that could get inside your body."
+    },
+    {
+     "heading": "If you have pets",
+     "body": "Bring pets inside with you, if you can. Bring indoors and wipe any supplies from outside that your pets might need for at least 24 hours."
+    },
+    {
+     "heading": "If you have pets: Decontamination",
+     "body": "Wash your pet carefully with shampoo or soap and water and rinse completely. Wash your hands and face after washing your pet."
+    },
+    {
+     "heading": "If you have pets: Pet food and supplies",
+     "body": "Pet food in sealed containers (cans, bottles, boxes) will be safe for animals to eat. Wipe off pet food containers with a damp cloth or clean towel before opening them. Wash or wipe off pet bowls, dishes, and mats too."
+    },
+    {
+     "heading": "If you have pets: Disaster shelters",
+     "body": "Animals arriving at shelters as a result of a natural disaster need special care. They may have been exposed to contaminated soil and water. They may not have had access to safe food and fresh water and may be stressed and dehydrated. Some may be injured and/or ill."
+    },
+    {
+     "heading": "If you have pets: Pet health",
+     "body": "Stressed animals may or may not show signs of illness and may also exhibit behavioral disorders. Following some simple animal management and disease control guidelines can help improve animal health and reduce the risk of disease transmission and injury between animals and people."
+    },
+    {
+     "heading": "If you have pets: Resources",
+     "body": "How to Decontaminate Pets After a Radiation Emergency - CDC\n\nGuidelines for Animal Health & Control of Disease Transmission in Pet Shelters – American Veterinary Medical Association and CDC.\n\nResources for Planning How to Protect Your Pets in an Emergency – Organizations and resources that you can contact or access to help you plan how to protect your pets."
+    },
+    {
+     "heading": "If you have loved ones in other places",
+     "body": "Stay where you are! Going outside to get loved ones could expose you and them to dangerous levels of radiation.\n\nSchools, daycares, hospitals, nursing homes, and other places have emergency plans in place to keep people safe at the facility."
+    },
+    {
+     "heading": "If someone needs to shelter with you",
+     "body": "Providing shelter to someone who was outside during a radiation emergency can save their life without endangering your own.\n\nAsk them to remove their outer layer of clothing before entering the building or shelter. Once inside, ask them to wash the parts of their body that were uncovered when they were outside.\n\nThen ask them to put on clean clothing, if they can. This will help limit their radiation exposure and keep radioactive material from spreading. Learn more about decontamination."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/response/get-inside.html"
+  },
+  {
+   "title": "How to Self-Decontaminate after a Radiation Emergency",
+   "sections": [
+    {
+     "heading": "What to know",
+     "body": "It is important to get radioactive material off your body as soon as possible to lower your risk of harm. Removing radioactive material from a person, object, or place is called decontamination. Decontaminating yourself will lower your exposure to harmful radioactive material."
+    },
+    {
+     "heading": "Tap water may be contaminated",
+     "body": "If the tap water is contaminated, public health officials may recommend that you drink bottled water instead of tap water.\n\nYou can still use tap water for decontamination. Any radioactive material that gets into surface or ground water sources will be diluted when it mixes with clean water and the level of radioactive contamination will be reduced to very low levels. The tap water will be safe to use for washing\n\n- Skin\n- Hair\n- Clothing"
+    },
+    {
+     "heading": "Steps for decontamination: Remove outer clothing",
+     "body": "- Take off your outer layer of clothing. Taking off your outer layer of clothing can remove up to 90% of radioactive material.\n- Be very careful in removing your clothing to prevent inhaling radioactive dust released from shaking.\n- Put the clothing in a plastic bag or other sealable container and put the bag far away from other people and pets."
+    },
+    {
+     "heading": "Steps for decontamination: Wash yourself",
+     "body": "**If you can't take a shower**\n\n- At a sink or faucet, wash your hands, face, and parts of your body that were not covered. Use soap and plenty of water.\n- If you do not have access to a sink or faucet, use:\n- A moist wipe\n- A clean wet cloth\n- A damp paper towel\n- Pay special attention to your hands and face.\n- Gently blow your nose and wipe your eyelids, eyelashes, and ears with a moist wipe, a clean wet cloth, or a damp paper towel.\n- Put the used wipes, cloth, or towel in a plastic bag or other sealable container. Place the bag in a place far away from other people and pets.\n\n**If you can take a shower**\n\n- Take a warm shower and gently wash yourself with lots of soap. Do not scald, scrub, or scratch your skin.\n- Wash your hair with shampoo or soap.\n- Keep cuts and abrasions covered when washing to stop radioactive material from getting in open wounds."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/prevention/self-decontaminate.html"
+  },
+  {
+   "title": "What to Do to Shelter in Place for a Chemical Emergency",
+   "sections": [
+    {
+     "heading": "What to know",
+     "body": "- In some chemical emergencies, you may need stay put and seal off the space (shelter in place) instead of evacuating.\n- Listen to local authorities using radio, television, mobile news app, or text alerts to know when to shelter in place and when to evacuate."
+    },
+    {
+     "heading": "Overview",
+     "body": "Some chemical emergencies, such as a train derailment or terrorist attack, may make leaving the area (evacuating) dangerous. It may be safer for you to stay put and seal off the space.\n\n\"Stay put and seal off the space\" is also called \"shelter in place.\" It means that leaving the area or building during a chemical emergency may place you in danger. It is a way to keep you as safe as possible until the emergency is under control.\n\nYou may need to stay put for a few hours, possibly a few days, or longer."
+    },
+    {
+     "heading": "Overview: Stay informed",
+     "body": "In the event of a chemical emergency, listen to the radio, television, mobile alerts, or your mobile news app to get up-to-date information.\n\nFollow any instructions from the police, fire, or other local officials."
+    },
+    {
+     "heading": "Make a plan",
+     "body": "Make a plan to keep you and your loved ones safe. Be sure to practice so everyone knows what to do.\n\nFollow these 5 steps to safely shelter in place during a chemical emergency:"
+    },
+    {
+     "heading": "Make a plan: Step 1: Choose a safe room",
+     "body": "Choose a safe room that you can seal off from outside air. Choose the best room that:\n\n- Is large and has a source of water\n- Is on the highest floor possible"
+    },
+    {
+     "heading": "Make a plan: Step 2: Make an emergency plan",
+     "body": "Make an emergency plan to stay in contact if you and your loved ones are separated.\n\n- Let a friend or relative outside of your area know where you are.\n- You may need to send messages through texts or social media."
+    },
+    {
+     "heading": "Make a plan: Step 3: Make Go Kits",
+     "body": "Make Go Kits for your household.\n\n- You may want 2 kits for yourself (one for home and one for your vehicle) and 2 kits for your pet.\n- Include a supply of large and small trash bags and several pairs of disposable gloves."
+    },
+    {
+     "heading": "Make a plan: Step 4: Make a pack to seal your space",
+     "body": "Make a kit of items to seal windows and doors:\n\n- Duct tape and scissors\n- Towels and plastic sheets\n- Pre-cut plastic sheets (2-4 mil thick) to fit your windows. (You can cut these ahead of time. Sheet supplies are available at home improvement stores. Label each sheet.)"
+    },
+    {
+     "heading": "Make a plan: Step 5: Practice sealing your space",
+     "body": "Practice sealing all:\n\n- Window air conditioners\n- Bathroom and kitchen exhaust fans\n- Stove and dryer vents"
+    },
+    {
+     "heading": "Make a plan: Protect your pets",
+     "body": "Take additional steps to prepare your pets to safely shelter in place during a chemical emergency."
+    },
+    {
+     "heading": "Shelter in place: If you are home, get inside",
+     "body": "- If you are home, go inside and take any pets with you.\n- Close and lock all windows and doors.\n- Turn off the fan, air conditioner, and furnace. Close the fireplace damper.\n- Get your Go Kits and any medications for you and your pets. Take your phone and charger cables with you.\n- Go to your safe room, the room you can seal off from outside air, and shut the door. This room should have no or few windows, be as far away as possible from the outside, at the highest point in the building, and have a water source if possible.\n\n**Prepare your space**\n\n- If you already have the supplies, use duct tape to put plastic sheeting on your windows.\n- Close any vents and use duct tape to seal them off.\n- Put duct tape around the door to seal the room off from outside air.\n- If you do not have plastic sheeting supplies, put towels, sheets, or clothing in the vents and under the door.\n\n**Protect your pets**\n\n- If you have pets, take steps to prepare your space for your pets to safely shelter in place. Remove any plants that might harm your pet.\n- Close off any small areas where small pets can hide or get stuck, such as under heavy furniture.\n\n**Stay connected**\n\n- Turn on the radio or your mobile news app.\n- Call or text a friend or relative outside your area to let them know where you are and that you are safe."
+    },
+    {
+     "heading": "Shelter in place: Find a place to shelter if you are not home",
+     "body": "If you are outside, cars, trucks, or other vehicles may not be airtight enough to protect you.\n\n- Listen to the radio, your mobile news app, or check your phone for messages to find the nearest shelter and go there.\n- Follow instructions from your police, fire, or other local officials."
+    },
+    {
+     "heading": "Shelter in place: Reminder",
+     "body": "If you are not at home during a chemical emergency, follow the instructions from local officials. Use your emergency plan to stay in contact if you and your loved ones are separated and find the nearest location to shelter in place."
+    },
+    {
+     "heading": "Next steps",
+     "body": "- When it is safe to leave, you will get the \"all clear\" from police, fire or other local officials.\n- Follow instructions from your police, fire, or other local officials for what to do when you go outside to make sure you stay safe.\n\nPets\n\nNational Center for Environmental Health"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html"
+  },
+  {
+   "title": "About Getting Chemicals Off Your Body",
+   "sections": [
+    {
+     "heading": "What to know",
+     "body": "- Focus on getting the chemicals off of your body.\n- Pay attention to any news alerts.\n- Get help by calling the Poison Control Center at 800-222-1222, calling 911, or going to the nearest hospital."
+    },
+    {
+     "heading": "Overview",
+     "body": "In a chemical emergency, you can come in contact with (be exposed to) chemicals through breathing. If you have breathed in the chemical, you should get away from the area and breathe fresh air."
+    },
+    {
+     "heading": "Overview: Stay informed",
+     "body": "Check the radio, television, mobile news app, or text message alerts for more information. This includes whether you need to stay put and seal off your space or evacuate.\n\nYou can also be exposed to chemicals if they splash on your skin or into your eyes. You can also be exposed by accidentally eating or drinking chemicals (ingestion).\n\nOnce you get away from the area of the chemical release, get any chemical off your body as soon as possible. Do not worry about what type of chemical it is. Focus on getting the chemical off your body. This is called decontamination."
+    },
+    {
+     "heading": "What to do",
+     "body": "To prevent health effects, it is important to get the chemical off your body as soon as possible. Ideally within 10 minutes, take off all your clothes and shower."
+    },
+    {
+     "heading": "What to do: Warning",
+     "body": "If you swallowed the chemical, do not make yourself throw up and do not drink anything else."
+    },
+    {
+     "heading": "What to do: Follow these steps to get the chemical off your body",
+     "body": "- Blot, do not rub, your skin, face, hands, and hair with a moist wipe, wet cloth, or damp paper towel.\n- Take off as many of your clothes as you can, even if only to your underwear. Taking off your clothes removes 80% to 90% of the chemical.\n- If you cannot take off your clothes, take off your contacts and put it in a plastic bag. Put that plastic bag in another plastic bag. Continue to step 6.\n- Cut off clothing if it has to be taken off over your head. If you cannot cut clothing off, hold your breath and close your eyes when you pull it over your head. Taking clothes off this way helps stop the chemical from getting in your eyes, nose, and mouth.\n- Put clothes in a plastic bag, close it up, and put it in a second plastic bag. If you wear contact lenses, take them out and put them in the bag, too.\n- Wash your hair, face, hands, and skin. Wash from head to feet with lukewarm water and mild soap for at least 2 to 3 minutes. Try not to let the water run into your eyes, nose, and mouth. Do not scrub!\n- Flush your eyes for 10 to 15 minutes if your eyes are burning or you can't see normally. Do not use eyedrops.\n- Do not drink fluids, and do not make yourself throw up if you swallowed the chemical.\n- Dry your hair, face, hands, and skin to remove any remaining chemical. Use anything that will soak up water.\n- Put the used things in a plastic bag, close it up, and place it in a second plastic bag. Close it up, too.\n- Dress in any available clean clothes. Try not to touch anything you think might have come in contact with the chemical.\n- Put on a mask and gloves and repeat steps 1 through 10 for children."
+    },
+    {
+     "heading": "What to do: Throw the clothes away",
+     "body": "- Wear gloves and put the plastic bags in a closed container where they are unlikely to be accidentally opened. This prevents prevents others from coming in contact with the chemical.\n- If you do not have gloves, use plastic bags to cover your hands.\n- Do not put the bags in the regular trash!\n- Follow instructions on what to do with your dirty things."
+    },
+    {
+     "heading": "Get help: Get help",
+     "body": "If you have finished getting the chemical off your body, have any symptoms, or cannot get the chemical off, get help. Call the Poison Control Center at 800-222-1222 or call 911. You can also get help by going to the nearest hospital.\n\n- You may need to be checked by a healthcare provider after breathing in the chemical or after getting the chemical off your body. Your pet may need to be checked by a veterinarian.\n- The healthcare provider or veterinarian will look for any harmful effects from having come in contact with the chemical.\n- Check news updates for instructions for when it is safe to go outside.\n\nWhat to Do to Evacuate in a Chemical Emergency\n\nNational Center for Environmental Health\n\nSources\n\n- National Center for Environmental Health"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/chemical-emergencies/response/get-chemical-off-body.html"
+  },
+  {
+   "title": "Carbon Monoxide (CO) Poisoning Basics",
+   "sections": [
+    {
+     "heading": "At a glance",
+     "body": "- Carbon monoxide (CO) is an odorless, colorless gas that can cause sudden illness and death if inhaled.\n- Find quick facts about CO poisoning and what can be done to prevent it."
+    },
+    {
+     "heading": "What it is",
+     "body": "Carbon monoxide (CO) is an odorless, colorless gas that kills without warning. It claims the lives of hundreds of people every year and makes thousands more ill.\n\nMany household items including gas- and oil-burning furnaces, portable generators, and charcoal grills produce this poison gas."
+    },
+    {
+     "heading": "Symptoms",
+     "body": "The most common symptoms of CO poisoning are headache, dizziness, weakness, upset stomach, vomiting, chest pain, and confusion. CO symptoms are often described as “flu-like.”\n\nIf you breathe in a lot of CO, it can make you pass out or kill you. People who are sleeping, drunk, or under the influence of other substances can die from CO poisoning before they have symptoms."
+    },
+    {
+     "heading": "Risk factors",
+     "body": "Everyone is at risk for CO poisoning. Infants, the elderly, and people with chronic heart disease, anemia, or breathing problems are more likely to get sick from CO.\n\nEach year, more than 400 Americans die from unintentional CO poisoning not linked to fires, more than 100,000 visit an emergency department, and more than 14,000 are hospitalized."
+    },
+    {
+     "heading": "Reducing risk",
+     "body": "CO is found in fumes produced any time you burn fuel in cars or trucks, small engines, stoves, lanterns, grills, fireplaces, gas ranges, or furnaces. CO can build up indoors and poison people and animals who breathe it. However, you can reduce your risk of CO poisoning with a few small steps."
+    },
+    {
+     "heading": "Reducing risk: CO detectors",
+     "body": "Install battery-operated or battery back-up CO detectors near every sleeping area in your home.\n\nCheck CO detector batteries when you change the time on your clocks each spring and fall to be sure they are functioning properly.\n\nConsider buying a detector with a digital readout. This type of detector can tell you the highest level of CO concentration in your home, in addition to sounding an alarm.\n\nReplace your CO detector following the manufacturer's instructions or every 5 years. Set a reminder on your smartphone or other device calendar when you purchase and install the detector."
+    },
+    {
+     "heading": "Reducing risk: Oil and gas furnaces and other household appliances",
+     "body": "Have your heating system, water heater, and any other gas, oil, or coal burning appliances serviced by a qualified technician every year.\n\nMake sure your gas appliances are vented properly. Horizontal vent pipes for appliances, such as a water heater, should go up slightly as they go toward outdoors, as shown below. This prevents CO from leaking if the joints or pipes aren't fitted tightly.\n\nWhen you buy gas equipment, buy only equipment carrying the seal of a national testing agency, such as Underwriters' Laboratories.\n\nIf you smell an odor from your gas refrigerator, have an expert service it. An odor from your gas refrigerator can mean it could be leaking CO.\n\nNever heat your house with a gas oven. Don't cook or burn anything on a stove or fireplace that isn't vented."
+    },
+    {
+     "heading": "Reducing risk: Chimneys, charcoal, and portable appliances",
+     "body": "Have your chimney checked or cleaned every year. Chimneys can be blocked by debris, which can cause CO to build up inside your home or cabin.\n\nNever burn charcoal indoors. Burning charcoal - red, gray, black, or white - gives off CO.\n\nNever use a portable gas camp stove indoors. Do not use portable flameless chemical heaters indoors."
+    },
+    {
+     "heading": "Reducing risk: Portable generators",
+     "body": "Never use a generator inside your home or garage, even if doors and windows are open.\n\nOnly use generators outside, more than 20 feet away from any windows, doors, and vents.\n\nWhen using a generator, use a battery-powered or battery backup CO detector in your home."
+    },
+    {
+     "heading": "Reducing risk: If you have a had a poisoning incident related to any generator...",
+     "body": "Let the Consumer Product Safety Commission know!"
+    },
+    {
+     "heading": "Reducing risk: Automobile",
+     "body": "Have a mechanic check the exhaust system of your car or truck every year. A small leak in the exhaust system can lead to a buildup of CO inside the car.\n\nNever run your car or truck inside a garage that is attached to a house, even with the garage door open. Always open the door to a detached garage to let in fresh air when you run a car or truck inside.\n\nIf you drive a car or SUV with a tailgate, when you open the tailgate open the vents or windows to make sure air is moving through. If only the tailgate is open, CO from the exhaust will be pulled into the car or SUV.\n\nCO Poisoning on Your Boat\n\nNational Center for Environmental Health"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/carbon-monoxide/about/index.html"
+  },
+  {
+   "title": "Venomous Snakes at Work",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- Venomous snakes can pose a serious risk to outdoor workers.\n- Venomous snakebites can cause serious injury and lasting health effects.\n- Employers and workers can take steps to prevent snakebites and know what to do if a bite occurs."
+    },
+    {
+     "heading": "Overview",
+     "body": "Venomous snakes found in the United States include rattlesnakes, copperheads, cottonmouths (also called water moccasins), and coral snakes.\n\nEach year, and estimated 7,000–8,000 people are bitten by venomous snakes in the United States. About 5 people die from these bites. Prompt medical treatment can reduce the risk of death and serious injury.\n\nSnakebites can also cause lasting injuries. Among people bitten by rattlesnakes, an estimated 10%–44% have lasting effects, such as loss of part or all of a finger or impaired use of the affected area."
+    },
+    {
+     "heading": "Types: Rattlesnakes",
+     "body": "- The largest venomous snakes in the United States. Many species live in the United States.\n- Can quickly and accurately strike one-third or more of their body length from any position (coiled or stretched out).\n- May use their rattles as a warning if they are feeling threatened.\n- Do not always rattle before biting.\n- Can be found sunning near logs, boulders, or open areas.\n- Found across the United States in mountains, prairies, deserts, and beaches.\n- Antivenom is recommended for the treatment of signs of progressive envenomation (e.g., worsening of local tissue injury, systemic symptoms)."
+    },
+    {
+     "heading": "Types: Copperheads",
+     "body": "- Vary in color from reddish to golden tan.\n- Colored bands on their bodies are typically hourglass-shaped.\n- Have a deep facial pit between each eye and their nostril.\n- Adults are about 1.5 – 3 feet long.\n- Not usually aggressive, but will freeze if frightened, and strike if they feel threatened.\n- Found in Eastern states and as far west as Texas in forests, rocky areas, swamps, and near water.\n- If bitten, receiving antivenom as soon as possible helps limbs to recover faster and it lessens the chance that a limb will be disabled after copperhead snake envenomation."
+    },
+    {
+     "heading": "Types: Cottonmouths/Water Moccasins",
+     "body": "- Adults are typically over 4 feet long.\n- Adults are dark tan, brown, or nearly black, with vague black or dark brown cross-bands.\n- Juveniles have a bold cross-banded pattern of brown or orange with a yellow tail.\n- Found in the Southeastern United States in or around water."
+    },
+    {
+     "heading": "Types: Coral Snakes",
+     "body": "- Sometimes confused with nonvenomous king snakes, which have similar colored bands.\n- May hide in leaf piles or burrow into the ground.\n- Found in the Southern United States in wooded, sandy, or marshy areas."
+    },
+    {
+     "heading": "Symptoms",
+     "body": "Signs or symptoms of a snake bite can vary depending on the type of snake.\n\nAround the wound, you may experience:\n\n- Puncture marks\n- Bleeding, redness, swelling, bruising, or blistering\n- Severe pain and tenderness\n\nAfter a snake bite, you may experience:\n\n- Nausea, vomiting, or diarrhea\n- Trouble seeing or breathing\n- In extreme cases, breathing may stop\n- Rapid heart rate, weak pulse, low blood pressure\n- Metallic, mint, or rubber taste in the mouth\n- Increased salivation and sweating\n- Numbness or tingling around face and/or limbs\n- Muscle twitching"
+    },
+    {
+     "heading": "Prevention: What employers can do",
+     "body": "Employers can protect their workers from venomous snake bites by training them about:\n\n- Their risk of being bitten by venomous snakes.\n- How to identify venomous snakes.\n- How to prevent snake bites.\n- What they should do if they see a snake or if a snake bites them."
+    },
+    {
+     "heading": "Prevention: What workers can do",
+     "body": "- Do not touch or handle any snake.\n- Stay away from tall grass and piles of leaves when possible.\n- Avoid climbing on rocks or piles of wood where a snake may be hiding.\n- Be aware that snakes tend to be most active at dawn and dusk and in warm weather.\n- Wear boots and long pants when working outdoors.\n- Wear leather gloves when handling brush and debris."
+    },
+    {
+     "heading": "First Aid: If a snake bites you",
+     "body": "- Seek emergency medical attention as soon as possible to start antivenom (if needed) and stop irreversible damage.\n- Do not drive yourself to the hospital because the snakebite can make you dizzy or pass out.\n- Take a photograph from a safe distance to identify the snake if possible, which may aid in faster treatment.\n- Keep calm.\n- Inform your supervisor.\n- Apply first aid while waiting for someone to take you to the hospital.\n- Lay or sit down with the bite in a neutral position of comfort.\n- Remove rings and watches before swelling starts.\n- Wash the bite with soap and water.\n- Cover the bite with a clean, dry dressing.\n- Mark the leading edge of tenderness/swelling on the skin and write the time alongside it."
+    },
+    {
+     "heading": "First Aid: What not to do",
+     "body": "- Do not pick up the snake or try to trap it.\n- NEVER handle a venomous snake, not even a dead one or its decapitated head.\n- Do not wait for symptoms to appear; get medical help right away.\n- Do not apply a tourniquet, electric shock, or folk therapies.\n- Do not slash the wound with a knife or cut it in any way.\n- Do not try to suck out the venom.\n- Do not apply ice or immerse the wound in water.\n- Do not drink alcohol as a painkiller or take pain relievers (such as, aspirin, ibuprofen, naproxen).\n\nVenomous Spiders\n\nNational Institute for Occupational Safety and Health\n\nSources\n\n- Alberts MB, Shalit M, LoGalbo F [2004]. Suction for venomous snakebite: A study of \"mock venom\" extraction in a human model. Ann Emerg Med, Vol. 43, No. 2, Feb, pp. 181-186.\n- Anderson VE, Gerardo CJ, Rapp-Olsson M, Bush SP, Mullins ME, Greene S, Toschlog EA, Quackenbush E, Rose SR, Schwartz RB, Charlton NP, Lewis B, Kleinschmidt KC, Sharma K, Lavonas EJ [2018]. Early administration of fab antivenom resulted in faster limb recovery in copperhead snake envenomation patients. Clin Toxicol (Phila), Vol., Sep 3, pp. 1-6.\n- Bush SP [2004]. Snakebite suction devices don't remove venom: They just suck. Ann Emerg Med, Vol. 43, No. 2, Feb, pp. 187-188.\n- Dart RC, McNally JT, Spaite DW, Gustafson R: The Sequelae of Pitviper Poisoning in the United States. In Campbell JA, Brodie ED, editors: Biology of the Pitvipers, Tyler TX, 1992, Selva, pages 369-382.\n- Gold BS, Dart RC, Barish RA [2002]. Bites of venomous snakes. N Engl J Med, Vol. 347, No. 5, Aug 1, pp. 347-356.\n- Kanaan NC, Ray J, Stewart M, Russell KW, Fuller M, Bush SP, Caravati EM, Cardwell MD, Norris RL, Weinstein SA [2015]. Wilderness medical society practice guidelines for the treatment of pitviper envenomations in the united states and canada. Wilderness Environ Med, Vol. 26, No. 4, Dec, pp. 472-487.\n- Langley RL, Morrow WE [1997]. Deaths resulting from animal attacks in the united states. Wilderness Environ Med, Vol. 8, No. 1, Feb, pp. 8-16.\n- Spyres MB, Ruha AM, Seifert S, Onisko N, Padilla-Jones A, Smith EA [2016]. Occupational snake bites: A prospective case series of patients reported to the toxic north american snakebite registry. J Med Toxicol, Vol. 12, No. 4, Dec, pp. 365-369.\n- Torpy JM, Schwartz LA, Golub RM [2012]. JAMA patient page. Snakebite. JAMA, Vol. 307, No. 15, Apr 18, p. 1657."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html"
+  },
+  {
+   "title": "Venomous Spiders at Work",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- Outdoor workers may encounter venomous spiders.\n- Black widows and brown recluses are two types of venomous spiders in the United States.\n- Employers and workers can take steps to prevent spider bites."
+    },
+    {
+     "heading": "Overview",
+     "body": "Venomous spiders found in the United States include the black widow and the brown recluse. These spiders can be dangerous to outdoor workers. Spiders are usually not aggressive, and most bites occur because a spider is trapped or touched."
+    },
+    {
+     "heading": "Types: Black widow spiders",
+     "body": "- Have a pattern of red coloration on the underside of their abdomen.\n- Build webs between objects.\n- Bites may occur when contact is made with their webs.\n- Bites have two puncture marks.\n- The venom is a neurotoxin that produces pain at the bite area and then spreads to the chest, abdomen, or the entire body.\n- Found:\n- Throughout North America, but are most common in the southern and western United States.\n- In workplaces containing undisturbed areas such as woodpiles, eaves, fences, and areas where debris has accumulated.\n- Living in outdoor toilets where there are lots of flies."
+    },
+    {
+     "heading": "Types: Brown recluse spiders",
+     "body": "- Also known as the violin spider.\n- Brown with a dark violin-shaped marking on its head.\n- Has six equal-sized eyes (most spiders have eight eyes).\n- Cannot bite humans without counterpressure, like if it is accidentally trapped against the skin.\n- Bites may cause a stinging sensation with localized pain. A small white blister usually develops at the site of the bite.\n- The venom can cause a severe lesion by destroying skin tissue (skin necrosis). This skin lesion will require professional medical attention.\n- Found:\n- In the midwestern and southern United States.\n- In workplaces with secluded, dry, sheltered areas such as under structures or logs or in piles of rocks or leaves.\n- Indoors in dark closets, shoes, or attics."
+    },
+    {
+     "heading": "Symptoms",
+     "body": "Symptoms associated with spider bites can vary from minor to severe. Although extremely rare, death can occur in the most severe cases.\n\nPossible symptoms resulting from a spider bite include:\n\n- Itching or rash\n- Pain radiating from the bite, muscle pain, or muscle cramping\n- Reddish to purplish color or blister\n- Sweating, fever, or chills\n- Difficulty breathing\n- Headache\n- Nausea and vomiting\n- Anxiety or restlessness\n- High blood pressure"
+    },
+    {
+     "heading": "Prevention",
+     "body": "Employers can protect their workers from spider bites by training them on:\n\n- Their risk of exposure to spiders.\n- How to identify spiders.\n- How to prevent exposure to spiders.\n- What they should do if they are bitten by a spider.\n\nWorkers can take the following preventive steps:\n\n- Inspect or shake out any clothing, shoes, towels, or equipment before use.\n- Wear protective clothing such as a long-sleeved shirt and long pants, hat, gloves, and boots when handling stacked or undisturbed piles of materials.\n- Minimize the empty spaces between stacked materials.\n- Remove and reduce debris and rubble from around the outdoor work areas.\n- Trim or eliminate tall grasses from around outdoor work areas.\n- Store apparel and outdoor equipment in tightly closed plastic bags.\n- Keep tetanus boosters up-to-date (every 10 years). Spider bites can become infected with tetanus spores."
+    },
+    {
+     "heading": "First Aid",
+     "body": "If a worker is bitten by a spider:\n\n- Stay calm.\n- Identify the type of spider if it is possible to do so safely to aid in medical treatment.\n- Wash the bite area with soap and water.\n- Apply a cloth dampened with cold water or filled with ice to the bite area to reduce swelling.\n- Elevate bite area if possible.\n- Do not attempt to remove venom.\n\nImmediately notify a supervisor and seek professional medical attention."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html"
+  },
+  {
+   "title": "What to Do After a Tick Bite",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- If you find a tick attached to your skin, simply remove the tick as soon as possible.\n- There are several tick removal devices on the market, but a plain set of tweezers works very well.\n- If you develop a rash or fever within several days to weeks after removing a tick, see your doctor."
+    },
+    {
+     "heading": "How to remove a tick",
+     "body": "If you find a tick attached to your skin, remove the tick as soon as possible. Do not wait to go to a healthcare provider to remove the tick. Delaying tick removal to get help from a healthcare provider could increase your risk of getting a disease spread through tick bites, known as tickborne diseases.\n\n- Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers. If fine-tipped tweezers are not available, use regular tweezers or your fingers to grasp the tick. Grasp the tick close to the skin's surface to avoid squeezing the tick's body.\n- Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin. If this happens, your body will naturally push the mouthparts out over time as your skin heals. You can also remove the mouthparts with tweezers. If you cannot remove the mouthparts easily with tweezers, leave them alone.\n- Dispose of the live tick by taking one of these steps: place it in a sealed container; wrap it tightly in tape; flush it down the toilet; or put it in alcohol. Do not crush the tick with your fingers.\n- After removing the tick, thoroughly clean the bite area and your hands with soap and water, rubbing alcohol, or hand sanitizer.\n- If you find a tick attached to you, there may be other ticks on your body. Do a careful tick check to look for other ticks and promptly remove them."
+    },
+    {
+     "heading": "How to remove a tick: A word of caution",
+     "body": "Do not use petroleum jelly, heat, nail polish, or other substances to try and make the tick detach from the skin. This may agitate the tick and force infected fluid from the tick into the skin.\n\nFine-tipped tweezers\n\nUse fine-tipped tweezers to grasp the tick as close as possible to the skin's surface.\n\nRegular tweezers\n\nIf you don't have fine-tipped tweezers, regular tweezers can be used to remove attached ticks.\n\nFingers\n\nWhen using fingers to remove an attached tick, avoid squeezing the tick's body.\n\nTick under sock\n\nCheck your body for ticks after spending time in grassy, brushy, or wooded areas.\n\nTick in hair\n\nA tick in a man's hair, showing how easily ticks can blend in.\n\nRemoving tick in hair\n\nRemove attached ticks promptly to reduce your risk of getting a disease spread through tick bites.\n\nTick crawling\n\nA blacklegged tick crawling up a man's leg."
+    },
+    {
+     "heading": "Avoid: tick testing",
+     "body": "People who have removed a tick sometimes wonder if they should have it tested to see if it is infected. Although some commercial groups offer testing, in general this is not recommended, because:\n\n- Laboratories that conduct tick testing are not required to have the high standards of quality control used by clinical diagnostic laboratories. Results of tick testing should not be used for treatment decisions.\n- Positive results showing that the tick contains a disease-causing organism do not necessarily mean that you have been infected.\n- Negative results can lead to false assurance. You may have been unknowingly bitten by a different tick that was infected.\n- If you have been infected, you will probably develop symptoms before results of the tick test are available. If you do become ill, you should not wait for tick testing results before beginning appropriate treatment."
+    },
+    {
+     "heading": "Avoid: tick testing: Keep reading",
+     "body": "Learn where ticks that spread diseases can be found and steps to prevent tick bites."
+    },
+    {
+     "heading": "Follow-up",
+     "body": "If you develop a rash or fever within several weeks of removing a tick, see your doctor:\n\n- Tell the doctor about your recent tick bite,\n- When the bite occurred, and\n- Where you most likely acquired the tick."
+    },
+    {
+     "heading": "Tick bite guide",
+     "body": "About the Tool\n\n- The Tick Bite Guide is an interactive tool that will assist individuals on removing attached ticks and determining when to seek health care, if appropriate, after a tick bite.\n- The online mobile-friendly tool asks a series of questions covering topics such as tick attachment time and symptoms. Based on the user's responses, the tool then provides information about recommended actions and resources."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+  },
+  {
+   "title": "About Rabies",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- Rabies is a viral disease that is deadly if people don't receive medical care before symptoms start.\n- Rabies spreads primarily through bites or scratches from an infected animal.\n- The animals most frequently found with rabies in the U.S. are bats, skunks, raccoons, and foxes.\n- Around 100,000 Americans are vaccinated against rabies following a potential rabies exposure each year."
+    },
+    {
+     "heading": "Overview",
+     "body": "Rabies is a fatal but preventable viral disease. It can be spread to people and pets through the bites and scratches of an infected animal. Rabies primarily affects the central nervous system, leading to severe brain disease and death if medical care is not received before symptoms start.\n\nIf you may have been exposed to rabies, you should urgently seek medical attention. Medical care following a rabies exposure is called post-exposure prophylaxis (PEP). PEP includes wound care, human rabies immune globulin (HRIG), and a series of four or five rabies vaccines, which must be given as soon as possible after an exposure. You must get this care to prevent the disease from developing, and it's nearly 100% effective if you get it after exposure.\n\nThe disease is rare in people in the United States, with fewer than 10 deaths reported each year. But because it's found in wildlife throughout the country (except for Hawaii), rabies poses a serious public health threat."
+    },
+    {
+     "heading": "Overview: Rabies vaccination in people",
+     "body": "Each year, around 100,000 Americans are vaccinated against rabies after a potential rabies exposure."
+    },
+    {
+     "heading": "Signs and symptoms",
+     "body": "After a rabies exposure, the rabies virus must travel to the brain before it can cause symptoms. This time between exposure and the appearance of symptoms is the incubation period, which may last for weeks to months. Once clinical signs of rabies appear, the disease is nearly always fatal.\n\nThe first symptoms of rabies may include:\n\n- Flu-like illness including weakness or discomfort, fever, or headache\n- Discomfort, prickling, or an itching sensation at the site of the bite\n\nUsually, severe disease appears within 2 weeks of the first symptoms. People are more familiar with the \"classic\" symptoms of advanced rabies, which include:\n\n- Anxiety\n- Confusion\n- Agitation\n- Hallucinations\n- Being very thirsty but panicked by fluids\n- Having lots of saliva\n- Aggressive behavior like thrashing and biting"
+    },
+    {
+     "heading": "Animals that carry rabies",
+     "body": "In the United States, more than 90% of reported cases of rabies in animals occur in wildlife. Rabies is found in many wildlife species, which include:\n\n- Bats\n- Raccoons\n- Skunks\n- Foxes\n\nNearly 3 out of 4 Americans live in a community where animals carry rabies. Contact with infected bats is the leading cause of human rabies deaths in this country; at least 7 out of 10 people who die from rabies in the United States were infected by bats."
+    },
+    {
+     "heading": "Animals that carry rabies: Rabies in dogs",
+     "body": "Rabid dogs in the U.S. are uncommon because of effective rabies prevention and control programs. Around the world, domestic dogs are responsible for more than 95% of the estimated 70,000 human deaths each year."
+    },
+    {
+     "heading": "People at risk",
+     "body": "People who are at increased risk for rabies exposures may want to consider pre-exposure vaccination for increased protection."
+    },
+    {
+     "heading": "People at risk: Travelers",
+     "body": "Since 1990, more than 80 people in the United States have died after being infected with rabies during travel. In Africa, Asia, and specific areas of Central and South America, rabies in dogs is still a major problem. Additionally, access to PEP may be hard to get in those places. As a result, tens of thousands of people die of the disease each year.\n\nWhen you're traveling, it is important to keep your distance from wild and unfamiliar animals, including dogs and cats.\n\nBefore you travel abroad, consult your doctor, a travel clinic, or your local or state health department to find out your risk rabies exposure."
+    },
+    {
+     "heading": "People at risk: Outdoor enthusiasts",
+     "body": "People who enjoy certain outdoor activities that may lead to contact with wildlife, like spelunking, camping, and hunting are at higher risk of being exposed to rabies."
+    },
+    {
+     "heading": "People at risk: Jobs with animals",
+     "body": "People with jobs that involve frequent animal contact are at increased risk of a rabies exposure. These include:\n\n- Veterinary professionals, including technicians\n- Animal control workers\n- Wildlife researchers or rehabilitation workers\n- Agricultural workers who work closely with animals"
+    },
+    {
+     "heading": "Prevention",
+     "body": "Rabies prevention efforts by veterinary, wildlife management, and public health professionals mean that human cases of rabies in the U.S. are rare. Every year, wildlife management professionals distribute more than 5 million oral vaccines to wildlife through baits to control rabies at its source. Veterinarians vaccinate more than 90 million cats and dogs each year. These vaccinations significantly reduce the risk that you or your pets get rabies.\n\nYou can help prevent rabies by:\n\n- Making sure your pets are up to date on their rabies vaccines\n- Keeping wildlife wild - stay away from wildlife for both human and animal safety\n- Calling animal control to remove stray animals from your neighborhood\n- Washing bites or scratches immediately with soap and water after possible rabies exposure\n- Seeking medical care urgently if you may have been exposed to rabies\n\nAround the world, large-scale dog vaccination programs are the most effective way to prevent rabies. However, in many countries, there aren't enough resources to reach all the dogs that need it. CDC works with public and private partners to improve international vaccine access for people and animals, making travel safer and improving global health.\n\nPrevention\n\nNational Center for Emerging and Zoonotic Infectious Diseases (NCEZID)\n\nSources\n\n- International Rabies Taskforce"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/rabies/about/index.html"
+  },
+  {
+   "title": "Diabetes Care During Emergencies",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- Managing diabetes can be difficult during a major storm, loss of electricity, or infectious disease outbreak.\n- Plan ahead so you can manage your diabetes during times of emergency."
+    },
+    {
+     "heading": "Be prepared",
+     "body": "Natural disasters, disease outbreaks, and other emergencies can happen at any moment. They may cause widespread and long-lasting impacts on supplies, services, and health care systems. Planning ahead can help.\n\nHaving essential supplies, prescriptions, important paperwork, and practical skills will help you during an emergency. People with diabetes should also be prepared to manage their condition during any kind of emergency. This includes whether they have to shelter in place, evacuate, or protect themselves from an infectious disease."
+    },
+    {
+     "heading": "Diabetes care kit",
+     "body": "In addition to having basic emergency supplies, people with diabetes should also put together a diabetes care kit. Keep the kit in a waterproof bag or storage container."
+    },
+    {
+     "heading": "Diabetes care kit: Put your medical information in a sealed plastic bag, including:",
+     "body": "- Copies of any prescriptions, including eye health prescriptions.\n- Current dosages and times when you take medicines.\n- For insulin pumps: your basal rates, insulin-to-carbohydrate ratio, insulin sensitivity factor, blood sugar target, and correction factors.\n- Your pharmacy and doctor's name, address, and phone number.\n- The make, model, and serial number of your insulin pump or continuous glucose monitor.\n- A copy of your photo ID and health insurance card."
+    },
+    {
+     "heading": "Diabetes care kit: Pack enough diabetes supplies to last at least 1 to 2 weeks, including:",
+     "body": "- Insulin and syringes for every injection. Learn more about insulin storage.\n- Oral diabetes and all other prescription medicines.\n- Blood sugar (glucose) meter.\n- Extra batteries for your blood sugar meter and insulin pump.\n- Lancets and lancing devices.\n- Insulin pump supplies, including extra pump sets and insertion devices.\n- Glucagon kits.\n- Ketone strips.\n- Alcohol wipes.\n- Glucose tablets or 15 grams of quick carbs (such as juice, hard candy, or honey) to treat low blood sugar.\n- An empty container to safely carry syringes, needles, and lancets.\n\nBe sure to follow the storage instructions and check expiration dates for your supplies every few months. Anything that's close to expiring, replace with fresh supplies. You can use the supplies that were in the kit for your daily care before they reach the expiration date."
+    },
+    {
+     "heading": "Prepare what you need for other health concerns: Dialysis",
+     "body": "If you get dialysis treatments for chronic kidney disease, your routine may be interrupted by road closures or loss of power. Find potentially life-saving tips if you can't get dialysis treatment in an emergency, including the 3-day emergency diet."
+    },
+    {
+     "heading": "Prepare what you need for other health concerns: Mental health",
+     "body": "Disasters and emergencies can take a toll on your health. Don't forget to take care of your emotional health during an emergency, so that you can help yourself and your family. If you're able to, connect with family, friends, and your community to take care of each other."
+    },
+    {
+     "heading": "Prepare what you need for other health concerns: In case you can't speak for yourself",
+     "body": "Wearing a medical ID, usually a bracelet or necklace, can keep you safe and healthy if you can’t speak for yourself. Emergency medical technicians are trained to look for a medical ID when caring for someone who can’t speak for themselves."
+    },
+    {
+     "heading": "Find a shelter if needed",
+     "body": "If you have to go to a shelter during an emergency, look for one that can meet your medical needs. Do you:\n\n- Have a home health nurse?\n- Use a walker?\n- Use oxygen?\n- Need assistance to go to the bathroom?\n- Require wound care or medicine through an IV?\n\nIf you answered \"yes\" to any of these questions, then it's likely you should find a special medical needs shelter.\n\nWhen you get to the shelter, tell someone in charge about your diabetes and any other conditions, like being on dialysis. They can help you with medical care and insulin storage.\n\nTake Charge of Your Diabetes Medicines\n\nNational Center for Chronic Disease Prevention and Health Promotion; Diabetes"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/diabetes/articles/diabetes-care-emergencies.html"
+  }
+ ]
+}

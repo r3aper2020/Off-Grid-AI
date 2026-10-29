@@ -1,0 +1,134 @@
+[
+ {
+  "file": "fig-2-1.webp",
+  "caption": "Figure 2-1. Jaw Thrust Method",
+  "kind": "figure",
+  "page": 24,
+  "bbox": [
+   149.5,
+   540.1,
+   444.5,
+   715.5
+  ]
+ },
+ {
+  "file": "fig-2-2.webp",
+  "caption": "Figure 2-2. Application of a pressure dressing",
+  "kind": "figure",
+  "page": 25,
+  "bbox": [
+   179.5,
+   317.8,
+   451.0,
+   669.7
+  ]
+ },
+ {
+  "file": "fig-2-3.webp",
+  "caption": "Figure 2-3. Key body pressure points",
+  "kind": "figure",
+  "page": 26,
+  "bbox": [
+   159.2,
+   279.5,
+   434.3,
+   537.0
+  ]
+ },
+ {
+  "file": "fig-2-4.webp",
+  "caption": "Figure 2-4. Treatment of Shock",
+  "kind": "figure",
+  "page": 31,
+  "bbox": [
+   101.4,
+   234.8,
+   482.1,
+   699.8
+  ]
+ },
+ {
+  "file": "tab-2-1.webp",
+  "caption": "Table 2-1. Typical Illnesses, Infections, Causes and Treatments",
+  "kind": "table",
+  "page": 32,
+  "bbox": [
+   56.8,
+   138.4,
+   537.2,
+   718.7
+  ]
+ },
+ {
+  "file": "tab-2-1-p33.webp",
+  "caption": "Table 2-1. Typical Illnesses, Infections, Causes and Treatments (continued)",
+  "kind": "table",
+  "page": 33,
+  "bbox": [
+   83.8,
+   159.0,
+   545.8,
+   724.7
+  ]
+ },
+ {
+  "file": "tab-2-1-p34.webp",
+  "caption": "Table 2-1. Typical Illnesses, Infections, Causes and Treatments (continued)",
+  "kind": "table",
+  "page": 34,
+  "bbox": [
+   65.8,
+   271.4,
+   527.8,
+   724.7
+  ]
+ },
+ {
+  "file": "tab-2-1-p35.webp",
+  "caption": "Table 2-1. Typical Illnesses, Infections, Causes and Treatments (continued)",
+  "kind": "table",
+  "page": 35,
+  "bbox": [
+   83.8,
+   219.3,
+   545.8,
+   724.7
+  ]
+ },
+ {
+  "file": "fig-2-5.webp",
+  "caption": "Figure 2-5. Building a splint",
+  "kind": "figure",
+  "page": 46,
+  "bbox": [
+   123.2,
+   158.5,
+   471.0,
+   462.4
+  ]
+ },
+ {
+  "file": "fig-2-6.webp",
+  "caption": "Figure 2-6. Slings",
+  "kind": "figure",
+  "page": 47,
+  "bbox": [
+   124.0,
+   479.3,
+   506.3,
+   681.2
+  ]
+ },
+ {
+  "file": "fig-2-7.webp",
+  "caption": "Figure 2-7. Heat transfer",
+  "kind": "figure",
+  "page": 50,
+  "bbox": [
+   149.5,
+   334.6,
+   444.7,
+   592.0
+  ]
+ }
+]

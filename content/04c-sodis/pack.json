@@ -1,0 +1,11 @@
+{
+ "id": "sodis-water",
+ "title": "Solar Water Disinfection (SODIS)",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "review": "needs-review",
+ "publisher": "Eawag – Swiss Federal Institute of Aquatic Science and Technology (Sandec, SODIS Reference Centre)",
+ "license": "Copying and adapting permitted with acknowledgement: \"This document is an open-source document – copying and adapting is allowed provided that proper acknowledgement of the source is made.\"",
+ "attribution": "Excerpts from SODIS manual: Guidance on solar water disinfection, by Samuel Luzi, Monika Tobler, Fabian Suter and Regula Meierhofer, Eawag/Sandec, Dübendorf, January 2016 (ISBN 978-3-906484-59-4), www.sodis.ch. Sections 1.1, 2.2.3-2.2.8 and 2.4, reformatted into sections without changing substance; photos, figures and data tables not included. Use does not imply endorsement by Eawag.",
+ "description": "Disinfecting drinking water with sunlight in clear PET bottles: the four steps, exposure times for sunny and cloudy days, bottle choice and safety, turbidity limit and the newspaper test, temperature, re-growth, and safe storage. Written for low-income-country programs; less effective against some viruses and protozoa."
+}

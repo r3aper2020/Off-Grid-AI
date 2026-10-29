@@ -1,0 +1,482 @@
+[
+ {
+  "file": "tab-p5-1.webp",
+  "caption": "Recommended process time for Asparagus in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   106.0,
+   350.3,
+   505.1,
+   456.6
+  ]
+ },
+ {
+  "file": "tab-p5-2.webp",
+  "caption": "Recommended process time for Asparagus in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   106.0,
+   221.4,
+   505.1,
+   327.8
+  ]
+ },
+ {
+  "file": "tab-p6-1.webp",
+  "caption": "Recommended process time for Beans or Peas in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   97.0,
+   538.4,
+   496.1,
+   644.8
+  ]
+ },
+ {
+  "file": "tab-p6-2.webp",
+  "caption": "Recommended process time for Beans or Peas in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   97.0,
+   409.5,
+   496.1,
+   515.9
+  ]
+ },
+ {
+  "file": "tab-p7-1.webp",
+  "caption": "Recommended process time for Beans, Dry, with Tomato or Molasses Sauce in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   107.0,
+   524.8,
+   506.1,
+   631.2
+  ]
+ },
+ {
+  "file": "tab-p7-2.webp",
+  "caption": "Recommended process time for Beans, Dry, with Tomato or Molasses Sauce in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   107.0,
+   396.0,
+   506.1,
+   502.3
+  ]
+ },
+ {
+  "file": "tab-p8-1.webp",
+  "caption": "Recommended process time for Lima Beans in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   96.0,
+   632.2,
+   495.1,
+   738.5
+  ]
+ },
+ {
+  "file": "tab-p8-2.webp",
+  "caption": "Recommended process time for Lima Beans in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   96.0,
+   503.3,
+   495.1,
+   609.6
+  ]
+ },
+ {
+  "file": "tab-p9-1.webp",
+  "caption": "Recommended process time for Snap and Italian Beans in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   111.0,
+   633.0,
+   510.1,
+   738.3
+  ]
+ },
+ {
+  "file": "tab-p9-2.webp",
+  "caption": "Recommended process time for Snap and Italian Beans in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   111.0,
+   505.6,
+   510.1,
+   611.0
+  ]
+ },
+ {
+  "file": "tab-p9-3.webp",
+  "caption": "Recommended process time for Beets in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   111.0,
+   156.3,
+   510.1,
+   262.7
+  ]
+ },
+ {
+  "file": "tab-p9-4.webp",
+  "caption": "Recommended process time for Beets in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   111.0,
+   27.4,
+   510.1,
+   133.8
+  ]
+ },
+ {
+  "file": "tab-p10-1.webp",
+  "caption": "Recommended process time for Carrots in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 10,
+  "bbox": [
+   103.0,
+   356.2,
+   502.1,
+   462.6
+  ]
+ },
+ {
+  "file": "tab-p10-2.webp",
+  "caption": "Recommended process time for Carrots in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 10,
+  "bbox": [
+   103.0,
+   227.6,
+   502.1,
+   334.0
+  ]
+ },
+ {
+  "file": "tab-p11-1.webp",
+  "caption": "Recommended process time for Cream Style Corn in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 11,
+  "bbox": [
+   116.2,
+   566.6,
+   515.3,
+   654.9
+  ]
+ },
+ {
+  "file": "tab-p11-2.webp",
+  "caption": "Recommended process time for Cream Style Corn in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 11,
+  "bbox": [
+   116.2,
+   455.7,
+   515.3,
+   544.0
+  ]
+ },
+ {
+  "file": "tab-p12-1.webp",
+  "caption": "Recommended process time for Whole Kernel Corn in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 12,
+  "bbox": [
+   96.2,
+   631.2,
+   495.4,
+   737.6
+  ]
+ },
+ {
+  "file": "tab-p12-2.webp",
+  "caption": "Recommended process time for Whole Kernel Corn in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 12,
+  "bbox": [
+   96.2,
+   502.6,
+   495.4,
+   609.0
+  ]
+ },
+ {
+  "file": "tab-p13-1.webp",
+  "caption": "Recommended process time for Mixed Vegetables in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   109.0,
+   631.9,
+   508.1,
+   738.3
+  ]
+ },
+ {
+  "file": "tab-p13-2.webp",
+  "caption": "Recommended process time for Mixed Vegetables in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   109.0,
+   503.0,
+   508.1,
+   609.4
+  ]
+ },
+ {
+  "file": "tab-p13-3.webp",
+  "caption": "Recommended process time for Mushrooms in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   107.0,
+   173.4,
+   506.1,
+   268.9
+  ]
+ },
+ {
+  "file": "tab-p13-4.webp",
+  "caption": "Recommended process time for Mushrooms in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   107.0,
+   55.3,
+   506.1,
+   150.8
+  ]
+ },
+ {
+  "file": "tab-p14-1.webp",
+  "caption": "Recommended process time for Okra in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 14,
+  "bbox": [
+   96.2,
+   443.2,
+   495.4,
+   549.6
+  ]
+ },
+ {
+  "file": "tab-p14-2.webp",
+  "caption": "Recommended process time for Okra in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 14,
+  "bbox": [
+   96.2,
+   314.4,
+   495.4,
+   420.7
+  ]
+ },
+ {
+  "file": "tab-p15-1.webp",
+  "caption": "Recommended process time for Peas, Green or English in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 15,
+  "bbox": [
+   106.5,
+   587.0,
+   503.1,
+   693.6
+  ]
+ },
+ {
+  "file": "tab-p15-2.webp",
+  "caption": "Recommended process time for Peas, Green or English in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 15,
+  "bbox": [
+   106.5,
+   457.9,
+   503.1,
+   564.5
+  ]
+ },
+ {
+  "file": "tab-p16-1.webp",
+  "caption": "Recommended process time for Peppers in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 16,
+  "bbox": [
+   95.3,
+   643.0,
+   494.4,
+   738.6
+  ]
+ },
+ {
+  "file": "tab-p16-2.webp",
+  "caption": "Recommended process time for Peppers in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 16,
+  "bbox": [
+   95.3,
+   525.2,
+   494.4,
+   620.8
+  ]
+ },
+ {
+  "file": "tab-p16-3.webp",
+  "caption": "Recommended process time for Sweet Potatoes in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 16,
+  "bbox": [
+   95.3,
+   164.8,
+   493.4,
+   271.2
+  ]
+ },
+ {
+  "file": "tab-p16-4.webp",
+  "caption": "Recommended process time for Sweet Potatoes in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 16,
+  "bbox": [
+   95.3,
+   36.2,
+   493.4,
+   142.6
+  ]
+ },
+ {
+  "file": "tab-p17-1.webp",
+  "caption": "Recommended process time for White Potatoes in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 17,
+  "bbox": [
+   109.0,
+   398.2,
+   508.1,
+   504.6
+  ]
+ },
+ {
+  "file": "tab-p17-2.webp",
+  "caption": "Recommended process time for White Potatoes in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 17,
+  "bbox": [
+   109.0,
+   269.4,
+   508.1,
+   375.7
+  ]
+ },
+ {
+  "file": "tab-p18-1.webp",
+  "caption": "Recommended process time for Pumpkin and Winter Squash in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 18,
+  "bbox": [
+   104.0,
+   431.2,
+   503.1,
+   537.6
+  ]
+ },
+ {
+  "file": "tab-p18-2.webp",
+  "caption": "Recommended process time for Pumpkin and Winter Squash in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 18,
+  "bbox": [
+   104.0,
+   302.4,
+   503.1,
+   408.7
+  ]
+ },
+ {
+  "file": "tab-p19-1.webp",
+  "caption": "Recommended process time for Soups in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 19,
+  "bbox": [
+   107.0,
+   559.2,
+   506.1,
+   683.6
+  ]
+ },
+ {
+  "file": "tab-p19-2.webp",
+  "caption": "Recommended process time for Soups in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 19,
+  "bbox": [
+   107.0,
+   412.4,
+   506.1,
+   536.7
+  ]
+ },
+ {
+  "file": "tab-p20-1.webp",
+  "caption": "Recommended process time for Spinach and Other Greens in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 20,
+  "bbox": [
+   98.0,
+   631.6,
+   497.1,
+   737.9
+  ]
+ },
+ {
+  "file": "tab-p20-2.webp",
+  "caption": "Recommended process time for Spinach and Other Greens in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 20,
+  "bbox": [
+   98.0,
+   502.7,
+   497.1,
+   609.0
+  ]
+ },
+ {
+  "file": "tab-p21-1.webp",
+  "caption": "Recommended process time for Succotash in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 21,
+  "bbox": [
+   112.0,
+   631.2,
+   511.1,
+   737.6
+  ]
+ },
+ {
+  "file": "tab-p21-2.webp",
+  "caption": "Recommended process time for Succotash in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 21,
+  "bbox": [
+   112.0,
+   502.6,
+   511.1,
+   609.0
+  ]
+ }
+]

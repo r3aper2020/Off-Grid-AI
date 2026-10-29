@@ -4,7 +4,7 @@ Offline-first mobile AI assistant (iOS + Android, Flutter). Emergency
 preparedness is the first specialty, but the core is a general assistant that
 works with no internet, cellular service, or cloud.
 
-Read before changing code: `docs/architecture.md`, `docs/decisions.md`,
+Read before changing code: `docs/vision.md`, `docs/architecture.md`, `docs/decisions.md`,
 `docs/roadmap.md`. Work one milestone at a time; don't build features from a
 later milestone early.
 

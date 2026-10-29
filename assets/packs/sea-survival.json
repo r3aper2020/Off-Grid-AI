@@ -1,0 +1,181 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "sea-survival",
+ "title": "Water & Sea Survival",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. Coast Guard Boating Safety Division, NOAA (National Weather Service, National Ocean Service), National Park Service",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Life jackets, staying afloat after capsizing, cold shock and the H.E.L.P. and huddle positions, life rafts and immersion suits, boating in severe weather, escaping rip currents, and avoiding sharks.",
+ "attribution": "Text from the U.S. Coast Guard's A Boater's Guide to the Federal Requirements for Recreational Boats (November 2023), the National Weather Service cold water safety page, the NOAA National Ocean Service rip current fact page and the National Park Service Shark Awareness article, retrieved October 2026. Reformatted into sections without changing substance; images, the life jacket label diagram and third-party (Red Cross) rewarming steps not included. Use does not imply endorsement by the USCG, DHS, NOAA, the Department of Commerce, the National Park Service, the Department of the Interior, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Life Jackets (PFDs) and Engine Cut-Off Switches (USCG Boater's Guide)",
+   "sections": [
+    {
+     "heading": "Equipment Requirements",
+     "body": "The United States Coast Guard sets minimum standards for recreational vessels and associated safety equipment. To meet these standards, required equipment must be U.S. Coast Guard “approved” or “certified.” This means that the equipment meets U.S. Coast Guard specifications, standards, and regulations for performance, construction, or materials. The Coast Guard does not regulate anchors, paddles, rearview mirrors, or diver/ski flags."
+    },
+    {
+     "heading": "Engine Cut-Off Switches (46 USC §4301)",
+     "body": "Federal Law requires that the boat operator, of vessels less than 26’, shall use the installed engine cut-off switch link while operating on plane or above displacement speed.\n\nWarning: Remember to shut off your engines when approaching swimmers or other persons in the water. Keep those in the water on the operator’s side of the boat, always in view. Propeller guards are helpful but are not suitable for all types of boats. The best and safest action when people are in the water near your boat is to shut off your engine(s).\n\nWarning: Never forget the danger to persons in the water of injuries that boat propellers can inflict. Most propeller injuries and fatalities involve open motorboats from 16 to 25 feet in length and result from operator inattention, inexperience, and carelessness."
+    },
+    {
+     "heading": "Personal Flotation Devices (33 CFR 175)",
+     "body": "https://www.ecfr.gov/current/title-33/chapter-I/subchapter-S/part-175/subpart- B?toc=1\n\nNotice: Drowning is the leading cause of death while boating. Most deaths from drowning occur near shore in calm weather, not out at sea during a storm; 9 out of 10 drowning fatalities occur on inland waters, most within a few feet of safety. Many of these drownings may have been prevented if a PFD was worn.\n\nWarning: It is recommended that you continue to wear your PFD anytime you enter the water unless while swimming in a designated swimming area. It is also recommended that you designate a responsible Water Watcher to monitor children and adults alike.\n\nYou may have heard reference to Type I, II, III, IV, and V or Level 50, 70, 100, 150, and 275 “Personal Flotation Devices” (PFDs). PFDs fall within two main classes: (1) Those which provide face-up, in-water support to the user regardless of physical conditions (lifejackets), and (2)\n\nthose which require the user to make swimming and other postural movements to position the user with the face out of the water (buoyancy aid).\n\nNotice: Federal Regulations no longer mention type codes but instead uses wearable PFD and throwable PFD; this guide mentions type codes and level devices to assist the reader in comparing the old and new regulatory language.\n\nAll recreational vessels must carry one wearable PFD for each person on board. Any boat 16 feet and longer (except canoes and kayaks) must also carry one throwable PFD (Type IV). You and all your passengers should always wear your PFD when the vessel is underway.\n\nAlways check and read the manufacturer’s information booklet and label provided with all PFDs. They will provide valuable information, including performance, size, intended use, and Coast Guard approval information.\n\nPFDs must be:\n\nIn good and serviceable condition,\n\n- Appropriate size and type for the intended user,\n\n- Appropriate for the intended activity, and\n\n- U.S. Coast Guard-approved (check the label).\n\nSome items that are not required but are a good idea to have with your wearable PFD are a whistle and an emergency light."
+    },
+    {
+     "heading": "Stowage",
+     "body": "- Wearable PFDs must be readily accessible.\n\nYou should be able to put them on in a reasonable amount of time in an emergency (vessel sinking, on fire, etc.).\n\nThey should not be stowed in plastic bags, in locked or closed compartments, or have other gear stowed on top of them.\n\nThrowable PFDs must be immediately available for use. They should be on the main deck within arm’s reach, hanging on a lifeline, or other easily reached location."
+    },
+    {
+     "heading": "Child Life Jacket Requirements",
+     "body": "On a vessel that is underway, children under 13 years of age must wear an appropriate U.S.\n\nCoast Guard-approved life jacket unless they are:\n\n- Below deck, or\n\n- Within an enclosed cabin.\n\nNotice: If a State has established a child life jacket wear requirement for children that differs from the Coast Guard requirement, the State’s requirement will be applicable on waters subject to that State’s jurisdiction.\n\nChild-size PFDs are often approved for specific weight ranges. Check the “User Weight” on the label and for an approval statement that will read something like: “approved for use on recreational boats and uninspected commercial vessels not carrying passengers for hire by persons weighing “less than 30, lbs.,” “30 to 50 lbs.,” “less than 50 lbs.,” or “50 to 90 lbs.”\n\nCaution: When trying to decide on the right size PFD, the fit, snug but not tight, is the most important characteristic.\n\nFor more information on PFD selection pleases visit https://www.uscgboating.org/recreational-boaters/life-jacket-wear-wearing-your-life-jacket.php ."
+    },
+    {
+     "heading": "Inflatable Life Jackets",
+     "body": "Inflatable Life Jackets require regular maintenance and attention to the condition of the inflation mechanism.\n\nThey must have a full cylinder.\n\n- All status indicators must be green."
+    }
+   ],
+   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf"
+  },
+  {
+   "title": "Boating Safety and Survival Tips: Capsizing, Cold Water, Life Rafts, Severe Weather (USCG Boater's Guide)",
+   "sections": [
+    {
+     "heading": "Boat Operator Training",
+     "body": "**Safety and Survival Tips**\n\nBoating safety is no accident. To further develop your boating knowledge, proficiency, and confidence, take a boating safety courses that meet the American National Standard for knowledge based and on-water skills training.\n\nWarning: On average, 74 percent of boating incidents involving fatalities occur on boats where the boat operator has had no formal instruction on how to operate the vessel.\n\nNotice: To locate local course offerings or for more information on recreational boating and boating safety, contact your state boating agency or U.S. Coast Guard District office."
+    },
+    {
+     "heading": "Carbon Monoxide Hazards",
+     "body": "Carbon Monoxide (CO) can be a silent killer on houseboats and other recreational vessels. Each year, boaters are injured or killed by carbon monoxide. Virtually all such poisonings are preventable.\n\nAlways monitor people swimming near and around your boat. Keep people clear of the rear deck area and swim platform of the boat while the generator or engines are running.\n\nDo not confuse carbon monoxide poisoning with seasickness or intoxication. If someone on board complains of irritated eyes, headaches, nausea, weakness, or dizziness, immediately move the person to fresh air, investigate the cause, and take corrective action. If necessary, seek medical attention.\n\nRegular maintenance and proper operation of the boat are the best defenses against poisoning from carbon monoxide. To find out more about how you can prevent carbon monoxide poisoning on recreational boats, visit the U.S. Coast Guard Boating Safety Division website at www.uscgboating.org."
+    },
+    {
+     "heading": "Safe Loading (33 CFR 183, subpart C)",
+     "body": "Never load your boat with passengers and cargo beyond its safe carrying capacity. Too many people and/or too much gear can cause the boat to become unstable. Always balance the load so that the boat maintains proper trim. When loading your boat:\n\n- Distribute the load evenly fore and aft and from side to side.\n\n- Keep the load low in the boat.\n\n- Keep passengers seated, caution them to avoid standing.\n\n- Secure gear to prevent its shifting.\n\nIf your boat does not have a capacity plate:\n\nIf the manufacturer is not in business, look online to find a sister vessel.\n\n- Check with the manufacturer if they are still in business.\n\n- Hire a Naval Architect/Marine Engineer.\n\n- Use this rule of thumb to estimate capacity, which does not account for\n\ndisplacement/volume. The rule is based on a 150-pound person.\n\nMaximum Number of Persons = Boat Length X Boat Width/15.\n\nWarning: Do not exceed the load specified on your boat’s capacity plate."
+    },
+    {
+     "heading": "Anchoring",
+     "body": "It is recommended that you become familiar with anchoring before you ever need to do so.\n\nCalculate the amount of anchor line you will need to let out. The general rule is five to seven times as much line as the depth of water plus the distance from the surface of the water to where the anchor will attach to the bow. For example, if the water is eight feet deep and it is two feet from the surface of the water to your bow cleat, you would multiply 10 feet by 5 or 7 to get the amount of anchor line to put out.\n\nWarning: Do not anchor from the stern as this could swamp the boat."
+    },
+    {
+     "heading": "Vessels Operating Offshore",
+     "body": "If you operate your vessel offshore, you should consider carrying additional safety equipment beyond the minimum federal requirements. This equipment should include appropriate communications gear, an inflatable life raft, an Emergency Position Indicating Radio Beacon (EPIRB), and a means of accurately determining your location. In cold waters, you should also consider carrying an immersion suit for everyone on board."
+    },
+    {
+     "heading": "Maritime Telecommunications",
+     "body": "It is recommended you always carry a means of sending distress alerts and communicating with other boats. A VHF marine radio is the most common.\n\nNotice: The Coast Guard does not advocate cellular phones as substitute for the regular maritime radio distress and safety systems recognized by the Federal Communications Commission and the International Radio Regulations particularly VHF maritime radio. However, cellular phones can have a place on board as an added measure of safety.\n\nChannel 16 is the primary VHF-FM marine radio calling and distress channel. It should not be used for general conversation or radio checks. Such traffic should be conducted on another authorized working channel. For more information on maritime communications please visit https://www.navcen.uscg.gov/maritime-telecommunications"
+    },
+    {
+     "heading": "Life Rafts",
+     "body": "If you are planning to boat offshore or in an area where rescue is not close at hand, you may want to consider carrying a U.S. Coast Guard approved life raft. The life raft should be large enough for everyone on board. It should have the appropriate emergency equipment pack, and it should be professionally serviced according to the manufacturer’s instructions."
+    },
+    {
+     "heading": "EPIRBs and PLBs",
+     "body": "406 MHz Satellite Emergency Position Indicating Radio Beacons (EPIRBs) and Personal Locator Beacons (PLBs) are designed to quickly and reliably alert rescue personnel, indicate an accurate distress position, and guide rescue units to the distress scene, even when all other communications fail. They must be properly registered with NOAA."
+    },
+    {
+     "heading": "Immersion Suits",
+     "body": "Immersion suits will delay the effects of hypothermia in cold water. They should be properly stowed and maintained in accordance with the manufacturer’s instructions."
+    },
+    {
+     "heading": "Determining Your Location",
+     "body": "It is advisable to carry on board a device to determine your position, such as a Global Positional System (GPS) device. These devices can be mounted or hand-held and will provide the boater with an accurate location to aid rescue agencies in the event of an emergency."
+    },
+    {
+     "heading": "Hunters, Anglers, and Paddlers",
+     "body": "Yes, the boating regulations apply to hunters, anglers, and paddlers who are on a boat.\n\nOperators need to be fully aware of their boat’s limitations, paying particular attention to loading and stability. Semi-V hull vessels, flat-bottom Jon boats, or canoes, kayaks and Stand- Up Paddleboards tend to be less stable and can easily capsize. Standing in a boat raises the center of gravity and risks capsizing the boat. Practice casting from seated and standing positions from your boat before venturing out into unsheltered waters. Are you sure you can climb back into the boat when you fall out. With all your gear on? Have you practiced?"
+    },
+    {
+     "heading": "Staying Afloat",
+     "body": "If the boat capsizes, or you fall overboard, follow these tips to stay afloat:\n\n- Remain calm: do not thrash about or try to remove clothing or footwear. It is a common belief that persons dressed in heavy clothing or waders will sink immediately if they fall overboard. This is not true. Air trapped in clothing provides buoyancy, and bending the knees will trap air in waders, providing additional buoyancy. Thrashing in the water leads to exhaustion and increases the loss of air that keeps you afloat. If you are wearing a PFD, keep it on.\n\n- Keep your knees bent.\n\n- Float on your back and paddle slowly to safety."
+    },
+    {
+     "heading": "Cold-Water Survival",
+     "body": "Sudden immersion in cold water can induce rapid, uncontrolled breathing, cardiac arrest, and other physical conditions that can result in drowning. In an unexpected plunge, or in situations where you must enter cold water, here are a few guidelines to follow:\n\n- Button up clothing.\n\n- Cover your head if possible; about 50 percent of body heat is lost from the head.\n\n- Keep your head out of the water if possible.\n\nIf entering the water voluntarily, enter slowly.\n\nIf you cannot immediately get out of the water and rescue is not imminent, draw your knees to your chest and wrap your arms across your chest, hugging your life jacket in the Heat Escape Lessening Posture (H.E.L.P.); this will protect the major areas of your body from heat loss.\n\nIf your boat has capsized and there are others in the water with you, huddle together with your arms around each other. These huddles are good for morale, keep everyone together, and make a larger target to spot in the water, all of which increase your chances of being seen and rescued."
+    },
+    {
+     "heading": "Cold-Related Injury",
+     "body": "Immersion in cold water speeds the loss of body heat and can lead to hypothermia.\n\nHypothermia is the abnormal lowering of internal body temperature. If your vessel capsizes, it will likely float on or just below the surface. Smaller outboard powered vessels, built after 1978, are designed to support you even if full of water or capsized. To reduce the effects of hypothermia, get in or on the boat. Try to get as much of your body out of the water as possible. If you do not get in the boat, a life jacket will enable you to keep your head out of the water. This is important because about 50 percent of body heat loss is from the head.\n\nCold water survival can be broken down into three phases:\n\n- Cold Shock: an initial deep and sudden gasp followed by hyperventilation. Cold shock\n\nwill pass in about one minute.\n\n- Cold Incapacitation: in the next 10 minutes you will lose the effective use of your\n\nfingers, arms, and legs for any meaningful movement. Concentrate on self-rescue.\n\n- Hypothermia: Depending on the temperature of the water, loss of consciousness may\n\noccur in as little as one hour.\n\nFor more information, see Cold Water Boot Camp at http://www.coldwaterbootcampusa.org/ .\n\nNotice: It may be possible to revive a drowning victim who has been under water for considerable time and shows no signs of life. Numerous documented cases exist where victims have been resuscitated with no apparent harmful effects after long immersions, especially in\n\ncold water immersions. Start CPR immediately and get the victim to a hospital as quickly as possible."
+    },
+    {
+     "heading": "Fueling Precautions",
+     "body": "Most fires and explosions happen during or shortly after fueling. To avoid an accident, follow these safety guidelines.\n\n- Refuel any portable tanks ashore.\n\n- Close all hatches and other openings before refueling. Extinguish all smoking materials. Turn off engines, all electrical equipment, radios, stoves, and other appliances. Remove all passengers.\n\n- Keep the fill nozzle in contact with the tank and wipe up any spilled fuel.\n\n- After fueling, open all ports, hatches, and doors to ventilate. Run the blower for at least four minutes. Check the bilges for fuel vapors before starting the engine. Do the “sniff test” to make sure there is no odor of gasoline anywhere in the boat.\n\nWarning: Do not start the engine until all traces of fuel vapors are eliminated!"
+    },
+    {
+     "heading": "Fuel Management",
+     "body": "Practice the “One-Third Rule” by using:\n\n- One-third of the fuel to go out.\n\n- One-third to get back.\n\n- One-third held in reserve."
+    },
+    {
+     "heading": "Weather",
+     "body": "You should never leave the dock without first checking the local weather forecast. You can get the weather information from the TV, online, or from one of the weather channels on your VHF-FM radio.\n\nAt certain times of the year, weather can change rapidly, and you should continually keep a “weather eye” out. While you are out in a boat, here are a few signs you can look for that indicate an approaching weather change:\n\n- Flat clouds getting lower and thicker.\n\n- Puffy, vertically rising clouds getting higher.\n\n- Dark, threatening clouds, especially to the west/southwest.\n\n- A sudden drop in temperature.\n\n- A halo around the sun or moon.\n\n- Flashes on the horizon.\n\n- Seas becoming heavy.\n\nIncreasing wind or a sudden change in wind direction.\n\n- Heavy AM radio static, which can indicate nearby thunderstorm activity.\n\nIf you have a barometer on board, check it every two to three hours. A rising barometer indicates fair weather and a rise in wind velocity; a falling barometer indicates rain approaching."
+    },
+    {
+     "heading": "What to Do in Severe Weather",
+     "body": "If possible, head for the nearest shore that is safe to approach.\n\n- Reduce speed, keeping just enough power to maintain headway.\n\n- Make sure everyone on board is wearing their life jacket.\n\n- Turn on your running lights.\n\n- Head the boat into the waves at a 45-degree angle.\n\n- Keep the bilges free of water.\n\n- Seat any passengers on the bottom of the boat, near the center line.\n\nIf the engine fails, trail a sea anchor from the bow of the boat to keep it headed into the waves (a bucket can work as a sea anchor in an emergency).\n\n- Anchor the boat, if necessary."
+    },
+    {
+     "heading": "Float Plan",
+     "body": "Did you break down, capsize, or stop in for a cold beverage? How long would it be until someone noticed and followed up? In a survival situation, time is of the essence. Play it safe; let a responsible person know where you are going and when you will be back. A Float Plan contains critical information about you whereabouts for local marine police or the Coast Guard.\n\nA sample Float Plan Form may be found at https://floatplancentral.cgaux.org/\n\nNotice: It is a best practice to include a photo of your boat."
+    },
+    {
+     "heading": "Boater’s Pre-Departure Checklist",
+     "body": "Have you ever forgotten something? Before departure, always be sure your vessel is in good working order and properly equipped for emergencies. Avoid inconvenience and potential danger by taking a few minutes every time to verify you haven’t forgotten something critical, like putting in the drain plugs."
+    }
+   ],
+   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf"
+  },
+  {
+   "title": "Cold Water Can Be Dangerous: Cold Shock and Hypothermia (NWS)",
+   "sections": [
+    {
+     "heading": "Cold Water Can Be Dangerous",
+     "body": "Warm air doesn’t always mean warm water in lakes, streams or oceans, and even water temperature that may not sound very cold can be deadly. Plunging into cold water of any temperature becomes dangerous if you aren’t prepared for what the sudden exposure can do to your body and brain. Warm air temperatures can create a false sense of security for boaters and beach goers, so if you are planning to be on or near the water, arrive knowing the conditions and how to protect yourself.\n\nWhen your body hits cold water, “Cold Shock” can cause dramatic changes in breathing, heart rate and blood pressure. The sudden gasp and rapid breathing alone creates a greater risk of drowning, even for confident swimmers in calm waters. In rougher open water, this danger increases. Unplanned immersion in cold water can be life-threatening for anyone without protection from the temperatures or a lifejacket to help you stay afloat. When Cold Shock and Hypothermia begin to impact your ability to think and act, lifejackets and floatation can create extra time for help to arrive or for you to get out of danger. Even the most experienced cold water surfers, swimmers or boaters know to prepare for the conditions."
+    },
+    {
+     "heading": "Cold Water Can Be Dangerous: Facts",
+     "body": "- Wearing a life jacket significantly increases chances of survival.\n- Cold shock can be just as severe and dangerous from water temperatures of 50-60°F (10-15°C) as it is from water at 35°F (2°C).\n- Gasping for a breath or rapid breathing from sudden immersion can be triggered by water as warm as 77°F (25°C)."
+    },
+    {
+     "heading": "Cold Water Can Be Dangerous: Understanding the Danger of Cold Water",
+     "body": "Knowing what happens when you enter cold water and what you can do in those first seconds could save your life and give time for help to arrive.\n\nCOLD SHOCK\n\nGasping for Breath & Rapid Breathing (occurs during the first 2-3 minutes or more) Cold Water Immersion can trigger involuntary gasping, rapid breathing or hyperventilating due to the “shock” of sudden immersion. This uncontrolled rapid breathing can quickly create a drowning emergency if you inhale water and cannot stay afloat.\n\nHeart and Blood Pressure Problems Cold water can cause a sudden spike in heart rate and blood pressure. This increase can cause heart failure and stroke for vulnerable people.\n\nCognitive Impairment Cold Shock can cause an immediate panic, fear or stress reaction that then impairs clear thinking and decision making. Extended exposure and the onset of hypothermia can further hamper cognitive ability and the ability to choose the right actions to avoid severe injury or death.\n\nPHYSICAL INCAPACITATION Physical incapacitation is a loss of muscular control in the arms, legs, hands and feet. The impact can be felt within seconds of entering cold water, and the longer the exposure or the colder the water, the more severe the impact can become. Symptoms of physical incapacitation may include weakness, exhaustion, and an inability to control fingers, hands, arms or legs. The progressive loss of muscular control makes self-rescue or staying afloat without assistance virtually impossible. A loss of muscular control to keep your head above the water plus a lack of a lifejacket or floatation device means drowning will become inevitable\n\nHYPOTHERMIA The onset of hypothermia begins when core body temperature drops to 95°F (35°C). After the initial dangers of Cold Shock in the first few minutes of immersion, a person’s body temperature will continue to drop, increasing the risk of drowning or death. As core body temperature continues to drop, impairments to physical and cognitive ability increase until drowning or death without rescue become inevitable.\n\nAfter escaping from cold water, get into a warm, dry, protected environment as quickly as possible. Even removed from cold water, a victim’s core temperature can continue to drop to dangerous levels."
+    },
+    {
+     "heading": "Cold Water Can Be Dangerous: Risks",
+     "body": "Cold water risks come from immersion into any body of cold water, including oceans, lakes, rivers, streams or pools. In many places, parts of the year, or bodies of water, warm air temperatures may not coincide with safer, warm waters. Many areas of the country have warm days, yet the water stays cold, such as in the Pacific Northwest, where ocean temperatures may stay in the 60’s year round. In the waters around Annapolis, MD, temperatures may only be above 60°F for 5.5 months of the year. Weather conditions along any large body of water can also cause dramatic drops in water temperatures, even in the middle of summer. Cold Shock and the dangers of sudden cold water immersion can happen along almost any shore at any time of the year\n\nRisks that may cause immersion in cold water include:\n\n- Recreational activities such as kayaking, canoeing, whitewater rafting, paddle boarding, and lake boating.\n- Turbulent water, waves and surf, which can overturn watercraft or fill a boat with water.\n- Falling off watercraft, docks, rocks or jetties.\n- Falling through the ice.\n- Sneaker waves that can pull beach walkers into the surf.\n- Rising tides, rising rivers, tidal currents and rip currents."
+    },
+    {
+     "heading": "Cold Water Can Be Dangerous: Preparedness",
+     "body": "Being prepared for an outing on cold water means being prepared for the possibility of suddenly being immersed into cold water. Your ability to survive cold water immersion depends on your ability to stay afloat and to stay warm until help arrives. Below are several things to consider prior to venturing out on cold water.\n\n- Always wear a life jacket in and around the water.\n- Always dress for water temperature, not for air temperature.\n- Some examples are:\n- Wet suit\n- Dry suit\n- Immersion suit\n- Survival suit\n- Exposure coveralls\n- Carry an Emergency Position Indicating Radio Beacon (EPIRB), personal locator beacon (PLB) or VHF Radio.\n- File a float plan with someone you trust. The plan should include details about the trip, boat, passengers, towing or trailer vehicle, communication equipment, and emergency contacts.\n- Know Before You Go:\n- Be sure to check the weather and water temperature before you go out on the water\n- If water is too cold, consider staying off/out of water until water is warmer"
+    },
+    {
+     "heading": "Cold Water Can Be Dangerous: Take Action",
+     "body": "Cold water can kill. The following guidelines and images from the U.S. Coast Guard will increase your chance for survival:\n\n- Stay calm.\n- Minimize time in the water. Get out as soon as possible safely.\n- If possible, utilize any floating objects to get out of the water.\n- Keep as much of your body out of the water as possible.\n- Evaluate your options.\n- If you can swim to safety, stay calm and do so.\n- If you cannot swim to safety, conserve energy and heat and await rescue.\n- If you cannot get to safety, assume the Heat Escape Lessening Position (H.E.L.P.) position. This protects the critical body areas and slows down the loss of heat. H.E.L.P position means:\n- Draw your knees to your chin and keep your legs together.\n- Press both arms against your side and keep your head out of the water.\n- If possible, form a huddle in the water with others to conserve body heat.\n\n[Rewarming steps credited by NWS to the Red Cross are not included (third-party content).]"
+    }
+   ],
+   "sourceUrl": "https://www.weather.gov/safety/coldwater"
+  },
+  {
+   "title": "What Is a Rip Current? (NOAA National Ocean Service)",
+   "sections": [
+    {
+     "heading": "A rip current is a powerful, channeled current.",
+     "body": "Rip currents are powerful, narrow channels of fast-moving water that are prevalent along the East, Gulf, and West coasts of the U.S., as well as along the shores of the Great Lakes.\n\nMoving at speeds of up to eight feet per second, rip currents can move faster than an Olympic swimmer.\n\nPanicked swimmers often try to counter a rip current by swimming straight back to shore—putting themselves at risk of drowning because of fatigue.\n\nLifeguards rescue tens of thousands of people from rip currents in the U.S. every year, but it is estimated that 100 people are killed by rip currents annually. If caught in a rip current, don't fight it! Swim parallel to the shore and swim back to land at an angle.\n\nWhile the terms are often confused, rip currents are different than rip tides. A rip tide is a specific type of current associated with the swift movement of tidal water through inlets and the mouths of estuaries, embayments, and harbors."
+    }
+   ],
+   "sourceUrl": "https://oceanservice.noaa.gov/facts/ripcurrent.html"
+  },
+  {
+   "title": "Shark Awareness (National Park Service)",
+   "sections": [
+    {
+     "heading": "Reducing the chance of a shark encounter",
+     "body": "While shark encounters are extremely rare, it is always a good idea to refresh yourself on the steps you can take to reduce that chance even further.\n\nThere are many inherent dangers while swimming in ocean or sound waters. Swimmers are advised to be aware of conditions and their surroundings.\n\nSharks are a normal and important part of the natural surroundings we enjoy at ocean beaches. The presence of sharks requires that we take precautions while enjoying the resource.\n\n- Don’t swim too far from shore\n- Stay in groups Solitary individuals are more likely to encounter a shark\n- Avoid being in the water during darkness or twilight Sharks are most active at these times\n- Don’t go into the water if bleeding from a wound Sharks have a very acute sense of smell\n- Leave shiny objects at home The reflected light resembles fish scales\n- Avoid brightly colored swimwear Sharks see contrast particularly well\n- Be aware sharks hunt for seals in shallow water.\n- Stay close to shore where rescuers can reach you.\n- Don't isolate yourself. Swim, paddle, kayak, and surf in groups.\n- Avoid areas where seals are present.\n- Avoid areas where schools of fish are visible.\n- Avoid murky or low-visibility water.\n- Limit splashing.\n- Follow all signage and flag warnings at beaches and instructions of the lifeguards.\n\nShark encounters are still extremely unlikely, but use of the above recommendations will further reduce the chances of injury, and allow you to more safely share the ocean with these spectacular animals. Find more information about sharks at Cape Cod National Seashore."
+    }
+   ],
+   "sourceUrl": "https://www.nps.gov/articles/sharkawareness.htm"
+  }
+ ]
+}

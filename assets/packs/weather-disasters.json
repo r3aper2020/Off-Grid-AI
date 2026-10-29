@@ -1,0 +1,245 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "weather-disasters",
+ "title": "Weather & Natural Disasters",
+ "category": "guide",
+ "version": "2026.10.29.2",
+ "publisher": "Ready.gov (Federal Emergency Management Agency)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Before, during and after power outages, winter storms, heat, floods, hurricanes, wildfires and earthquakes.",
+ "attribution": "Text from Ready.gov (Federal Emergency Management Agency), reformatted into sections without changing its substance. Use does not imply endorsement by FEMA, DHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Power Outages",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Extended power outages may impact the whole community and the economy. A power outage is when the electrical power goes out unexpectedly.\n\nA power outage may:\n\n- Disrupt communications, water and transportation.\n- Close retail businesses, grocery stores, gas stations, ATMs, banks and other services.\n- Cause food spoilage and water contamination.\n- Prevent use of medical devices."
+    },
+    {
+     "heading": "Power Outage Tips",
+     "body": "- Keep freezers and refrigerators closed.\n- Use a generator, but ONLY outdoors and away from windows.\n- Do not use a gas stove or oven to heat your home. It increases your risk of carbon monoxide poisoning. Using an oven or stovetop can also increase the risk of fires, burns and could damage the appliance.\n- Disconnect appliances and electronics to avoid damage from electrical surges.\n- Have alternate plans for refrigerating medicines or using power-dependent medical devices.\n- Check with local officials about heating and cooling locations open near you."
+    },
+    {
+     "heading": "How to Protect Yourself During A Power Outage",
+     "body": "Go to a community location with power if heat or cold is extreme."
+    },
+    {
+     "heading": "How to Protect Yourself During A Power Outage: Preparing for a Power Outage",
+     "body": "Take an inventory of the items you need that rely on electricity. Plan for batteries and other alternative power sources to meet your needs when the power goes out, such as a portable charger or power bank. Have flashlights for every household member. Determine whether your home phone will work in a power outage and how long battery backup will last."
+    },
+    {
+     "heading": "How to Protect Yourself During A Power Outage: Know Your Medical Needs",
+     "body": "Talk to your medical provider about a power outage plan for medical devices powered by electricity and refrigerated medicines. Find out how long medication can be stored at higher temperatures and get specific guidance for any medications that are critical for life."
+    },
+    {
+     "heading": "How to Protect Yourself During A Power Outage: Using Appliances During Power Outages",
+     "body": "Install carbon monoxide detectors with battery backup in central locations on every level of your home. Avoid carbon monoxide poisoning. Generators, camp stoves or charcoal grills should always be used outdoors and at least 20 feet away from windows. Never use a gas stovetop or oven to heat your home. Turn off or disconnect appliances, equipment, or electronics. Power may return with momentary surges or spikes that can cause damage."
+    },
+    {
+     "heading": "How to Protect Yourself During A Power Outage: Food Storage",
+     "body": "Have enough nonperishable food and water. Keep freezers and refrigerators closed. The refrigerator will keep food cold for about four hours. A full freezer will keep the temperature for about 48 hours. Use coolers with ice if necessary. Monitor temperatures with a thermometer. Throw out food if the temperature is 40 degrees or higher."
+    },
+    {
+     "heading": "Generator Safety",
+     "body": "Generators can be helpful when the power goes out. It is important to know how use them safely to prevent carbon monoxide (CO) poisoning and other hazards.\n\n- Generators and fuel should always be used outdoors and at least 20 feet away from windows, doors and attached garages.\n- Install working carbon monoxide detectors on every level of your home. Carbon monoxide is a colorless, odorless gas that can kill you, your family and pets.\n- Keep the generator dry and protected from rain or flooding. Touching a wet generator or devices connected to one can cause electrical shock.\n- Always connect the generator to appliances with heavy-duty extension cords.\n- Let the generator cool before refueling. Fuel spilled on hot engine parts can ignite.\n- Follow manufacturer’s instructions carefully."
+    },
+    {
+     "heading": "Returning After A Power Outage",
+     "body": "- When in doubt, throw it out! Throw away any food that has been exposed to temperatures 40 degrees or higher for two hours or more, or that has an unusual odor, color or texture.\n- If the power is out for more than a day, discard any medication that should be refrigerated, unless the drug’s label says otherwise. Consult your doctor or pharmacist immediately for a new supply."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/power-outages"
+  },
+  {
+   "title": "Winter Weather",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Winter storms create a higher risk of car accidents, hypothermia, frostbite, carbon monoxide poisoning, and heart attacks from overexertion. Winter storms including blizzards can bring extreme cold, freezing rain, snow, ice and high winds.\n\nA winter storm can:\n\nLast a few hours or several days.\n\nCut off heat, power and communication services.\n\nPut older adults, children, sick individuals and pets at greater risk."
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather",
+     "body": "IF YOU ARE UNDER A WINTER STORM WARNING, FIND SHELTER RIGHT AWAY\n\nKnow your winter weather terms:"
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather: Winter Storm Warning",
+     "body": "Issued when hazardous winter weather in the form of heavy snow, heavy freezing rain, or heavy sleet is imminent or occurring. Winter Storm Warnings are usually issued 12 to 24 hours before the event is expected to begin."
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather: Winter Storm Watch",
+     "body": "Alerts the public to the possibility of a blizzard, heavy snow, heavy freezing rain, or heavy sleet. Winter Storm Watches are usually issued 12 to 48 hours before the beginning of a Winter Storm."
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather: Winter Weather Advisory",
+     "body": "Issued for accumulations of snow, freezing rain, freezing drizzle, and sleet which will cause significant inconveniences and, if caution is not exercised, could lead to life-threatening situations."
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather: Know Your Risk for Winter Storms",
+     "body": "Pay attention to weather reports and warnings of freezing weather and winter storms. Listen for emergency information and alerts. Sign up for your community’s warning system. The Emergency Alert System (EAS) and National Oceanic and Atmospheric Administration (NOAA) Weather Radio also provide emergency alerts."
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather: Preparing for Winter Weather",
+     "body": "Prepare your home to keep out the cold with insulation, caulking and weather stripping. Learn how to keep pipes from freezing. Install and test smoke alarms and carbon monoxide detectors with battery backups. Gather supplies in case you need to stay home for several days without power. Keep in mind each person’s specific needs, including medication. Remember the needs of your pets. Have extra batteries for radios and flashlights. If you are unable to afford your heating costs, weatherization or energy-related home repairs, contact the Low Income Home Energy Assistance Program (LIHEAP) for help."
+    },
+    {
+     "heading": "How to Protect Yourself from Winter Weather: In Case of Emergency",
+     "body": "Be prepared for winter weather at home, at work and in your car. Create an emergency supply kit for your car. Include jumper cables, sand, a flashlight, warm clothes, blankets, bottled water and non-perishable snacks. Keep a full tank of gas."
+    },
+    {
+     "heading": "Stay Safe During Winter Weather",
+     "body": "Avoid carbon monoxide poisoning. Only use generators and grills outdoors and away from windows and never heat your home with a gas stovetop or oven. Using an oven or stovetop can also increase the risk of fires, burns and could damage the appliance.\n\n- Stay off roads if at all possible. If trapped in your car, then stay inside.\n- Limit your time outside. If you need to go outside, then wear layers of warm clothing. Watch for signs of frostbite and hypothermia.\n- Reduce the risk of a heart attack by avoiding overexertion when shoveling snow and walking in the snow."
+    },
+    {
+     "heading": "Stay Safe During Winter Weather: Learn the signs of, and basic treatments for, frostbite and hypothermia.",
+     "body": "Frostbite causes loss of feeling and color around the face, fingers and toes.\n\n- Signs: Numbness, white or grayish-yellow skin, firm or waxy skin.\n- Actions: Go to a warm room. Soak in warm water. Use body heat to warm. Do not massage or use a heating pad.\n\nHypothermia is an unusually low body temperature. A temperature below 95 degrees is an emergency.\n\n- Signs: Shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech or drowsiness.\n- Actions: Go to a warm room. Warm the center of the body first—chest, neck, head and groin. Keep dry and wrapped up in warm blankets, including the head and neck."
+    },
+    {
+     "heading": "Generator Safety",
+     "body": "Generators can be helpful when the power goes out. It is important to know how use them safely to prevent carbon monoxide (CO) poisoning and other hazards.\n\n- Generators and fuel should always be used outdoors and at least 20 feet away from windows, doors and attached garages.\n- Install working carbon monoxide detectors on every level of your home. Carbon monoxide is a colorless, odorless gas that can kill you, your family and pets.\n- Keep the generator dry and protected from rain or flooding. Touching a wet generator or devices connected to one can cause electrical shock.\n- Always connect the generator to appliances with heavy-duty extension cords.\n- Let the generator cool before refueling. Fuel spilled on hot engine parts can ignite.\n- Follow manufacturer’s instructions carefully."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/winter-weather"
+  },
+  {
+   "title": "Extreme Heat",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov or call the FEMA Helpline at 1-800-621-3362.\n\nExtreme heat is a period of high heat and humidity with temperatures above 90 degrees for at least two to three days. In extreme heat your body works extra hard to maintain a normal temperature, which can lead to death. Extreme heat is responsible for the highest number of annual deaths among all weather-related hazards.\n\nOlder adults, children and people with certain illnesses and chronic conditions are at greater risk from extreme heat.\n\nHumidity increases the feeling of heat."
+    },
+    {
+     "heading": "Before Extreme Heat",
+     "body": "- Learn to recognize the signs of heat illnesses.\n- Do not rely on a fan as your primary cooling device. Fans create air flow and a false sense of comfort, but do not reduce body temperature or prevent heat-related illnesses.\n- Identify places in your community where you can go to get cool such as libraries and shopping malls or contact your local health department to find cooling options in your area.\n- Cover windows with drapes or shades.\n- Weather-strip doors and windows.\n- Use window reflectors specifically designed to reflect heat back outside.\n- Add insulation to keep the heat out.\n- Use a powered attic ventilator or attic fan to regulate the attic temperature by removing hot air.\n- Install window air conditioners and insulate around them.\n- If you are unable to afford your cooling costs, weatherization or energy-related home repairs, contact the Low Income Home Energy Assistance Program (LIHEAP) for help."
+    },
+    {
+     "heading": "During Extreme Heat",
+     "body": "- Never leave people or pets in a closed car on a warm day.\n- If air conditioning is not available in your home find a cooling center.\n- Take cool showers or baths.\n- Wear loose, lightweight, light-colored clothing.\n- Use your oven less to help reduce the temperature in your home.\n- If you’re outside, find shade. Wear a hat wide enough to protect your face.\n- Drink plenty of fluids to stay hydrated.\n- Avoid high-energy activities or outdoor work during midday heat if possible.\n- Check on family members, older adults and neighbors.\n- Watch for heat cramps, heat exhaustion and heat stroke.\n- Consider pet safety. If your pets are outside make sure they have plenty of cool water and access to comfortable shade. Asphalt and dark pavement can be very hot to your pet’s feet.\n- Heat waves may cause you to lose power. Visit Power Outages to learn how to stay safe."
+    },
+    {
+     "heading": "Heat-Related Illnesses",
+     "body": "Know the signs of heat-related illnesses and ways to respond. If you are sick and need medical attention, contact your healthcare provider for advice and shelter in place if you can. If you are experiencing a medical emergency call 9-1-1.\n\nGet more detailed information about heat-related illnesses from the CDC and National Weather Service.\n\nHEAT STROKE\n\n- Signs:\n- Extremely high body temperature (above 103 degrees F)\n- Red, hot and dry skin with no sweat\n- Rapid, strong pulse\n- Dizziness, confusion or unconsciousness\n\nIf you suspect heat stroke, call 9-1-1 or take the person to a hospital immediately. If possible, move the person suffering from heat stroke into a cool, shaded area. Remove any outer clothing. Place a cold, wet cloth or ice pack on the head, neck, armpits, and groin. Alternatively, soak the person’s clothing with cool water. Elevate their feet.\n\nHEAT CRAMPS\n\n- Signs: Muscle pains or spasms in the stomach, arms or legs\n\nHEAT EXHAUSTION\n\n- Signs: Heavy sweating, paleness, muscle cramps, tiredness, weakness, fast or weak pulse, dizziness, headache, fainting, nausea, vomiting\n\nIf you have signs of heat cramps or heat exhaustion, go to a cooler location and cool down by removing excess clothing and taking sips of sports drinks or water. Call your healthcare provider if symptoms get worse or last more than an hour."
+    },
+    {
+     "heading": "Summer Break",
+     "body": "While the kids are home for the summer, get the whole family prepared.\n\n- Make a family communication plan and include the whole family.\n- Practice evacuation plans and other emergency procedures with children on a regular basis.\n- Teach kids when and how to call important phone numbers like 9-1-1.\n- Make sure the kids have an emergency contact person and know how to reach them.\n- Create a family password or phrase to prevent your child from going with a stranger.\n- Keep the kids occupied with online emergency preparedness games.\n- Download the free Prepare with Pedro activity book to help kids learn to prepare.\n- Decide on a family meeting place you can go if separated."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/heat"
+  },
+  {
+   "title": "Floods",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov, or call the FEMA Helpline at 1-800-621-3362.\n\nFlooding is a temporary overflow of water on land that is normally dry. Floods are the most common disaster in the United States. Failing to evacuate flooded areas or entering flood waters can lead to injury or death.\n\nFloods may:\n\n- Result from rain, snow, coastal storms, storm surges and overflows of dams and other water systems.\n- Develop slowly or quickly. Flash floods can come without warning.\n- Cause outages, disrupt transportation, damage buildings and create landslides."
+    },
+    {
+     "heading": "If you are under a flood warning",
+     "body": "- Find safe shelter right away.\n- Do not walk, swim or drive through flood waters. Turn Around, Don’t Drown!\n- Remember, just six inches of moving water can knock you down, and one foot of moving water can sweep your vehicle away.\n- Stay off bridges over fast-moving water.\n- Depending on the type of flooding:\n- Evacuate if told to do so.\n- Move to higher ground or a higher floor.\n- Stay where you are."
+    },
+    {
+     "heading": "Before a Flood",
+     "body": "- Know your risk for floods, visit FEMA's Flood Map Service Center to know types of flood risks in your area. However, remember that flooding doesn’t follow lines on a map.\n- Where it rains it can flood. Sign up for your community’s warning system. The Emergency Alert System (EAS) and National Oceanic and Atmospheric Administration (NOAA)\n- Weather Radio also provide emergency alerts. The National Risk Index\n- Get flood coverage under FEMA’s National Flood Insurance Program (NFIP). Homeowner’s insurance policies do not cover flooding. It typically takes up to 30 days for a policy to go into effect, so the time to buy is well before a disaster. The NFIP now offers a simple path to get a personalized flood insurance quote and purchase a policy with just a few clicks. Visit floodsmart.gov/policy-quote to get a quote, buy a policy and learn more about how flood insurance can protect you.\n- Preparing for a Flood - Make a plan for your household, including your pets so that you and your family know what to do, where to go and what you will need to protect yourselves from flooding.\n- Learn and practice evacuation routes, shelter plans and flash flood response.\n- Gather supplies, including non-perishable foods, cleaning supplies and water for several days, in case you must leave immediately or if services are cut off in your area.\n- In case of emergency, keep documents in a waterproof container.\n- Create password-protected digital copies. Protect your property.\n- Move valuables to higher levels.\n- Declutter drains and gutters.\n- Install check valves. Consider a sump pump with a battery."
+    },
+    {
+     "heading": "During a Flood",
+     "body": "- Evacuate immediately, if told to do so. Never drive around barricades. Local responders use them to safely direct traffic out of flooded areas.\n- Contact your healthcare provider if you are sick and need medical attention. Wait for further care instructions and shelter in place, if possible. If you are experiencing a medical emergency, call 9-1-1.\n- Listen to EAS, NOAA Weather Radio or local alerting systems for current emergency information and instructions regarding flooding.\n- Do not walk, swim or drive through flood waters. Turn Around. Don’t Drown!\n- Stay off bridges over fast-moving water. Fast-moving water can wash bridges away without warning.\n- Stay inside your car if it is trapped in rapidly moving water. Get on the roof if water is rising inside the car.\n- Get to the highest level if trapped in a building. Only get on the roof if necessary and once there, signal for help. Do not climb into a closed attic to avoid getting trapped by rising floodwater."
+    },
+    {
+     "heading": "After a Flood",
+     "body": "- Pay attention to authorities for information and instructions. Return home only when authorities say it is safe.\n- Avoid driving except in emergencies.\n- Wear heavy work gloves, protective clothing and boots during cleanup and use appropriate face coverings or masks if cleaning mold or other debris.\n- People with asthma and other lung conditions and/or immune suppression should not enter buildings with indoor water leaks or mold growth that can be seen or smelled. Children should not take part in disaster cleanup work.\n- Be aware that snakes and other animals may be in your house.\n- Be aware of the risk of electrocution. Do not touch electrical equipment if it is wet or if you are standing in water. Turn off the electricity to prevent electric shock if it is safe to do so.\n- Avoid wading in floodwater, which can be contaminated and contain dangerous debris. Underground or downed power lines can electrically charge the water.\n- Use a generator or other gasoline-powered machinery ONLY outdoors and away from windows."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/floods"
+  },
+  {
+   "title": "Hurricanes",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov, or call the FEMA Helpline at 1-800-621-3362.\n\nHurricanes are dangerous and can cause major damage from storm surges, wind damage, rip currents and flooding. They can happen along any U.S. coast or in any territory in the Atlantic or Pacific oceans. Historically, storm surge is the leading cause of hurricane-related deaths in the United States. In parts of the western North Pacific, hurricanes are called typhoons.\n\nEastern Pacific Hurricane Season: May 15-November 30.\n\nAtlantic Hurricane Season: June 1-November 30.\n\nCentral Pacific Typhoon Season: June 1-November 30."
+    },
+    {
+     "heading": "Before a Hurricane/Typhoon",
+     "body": "- Know Your Hurricane Risk\n- Hurricanes are not just a coastal problem. Find out how rain, wind, water and even tornadoes could happen far inland from where a hurricane or tropical storm makes landfall. Start preparing now.\n- Make an Emergency Plan\n- Make sure everyone in your household knows and understands your hurricane plans.\n- Identify whether you may need additional help during an emergency if you or anyone else in your household is an individual with a disability.\n- Ensure your business has a continuity plan to continue operating when disaster strikes.\n- Know your Evacuation Zone\n- You may have to evacuate quickly due to a hurricane if you live in an evacuation zone. Learn your evacuation routes, practice with your household and pets, and identify where you will stay.\n- Follow the instructions from local emergency managers, who work closely with state, local, tribal and territorial agencies and partners. They will provide the latest recommendations based on the threat to your community and issue safety measures.\n- Recognize Warnings and Alerts\n- Be sure to have several ways to receive alerts. Download the FEMA app and receive real-time alerts from the National Weather Service for up to five locations nationwide.\n- Sign up for community alerts in your area and be aware of the Emergency Alert System (EAS) and Wireless Emergency Alert (WEA), which require no sign up.\n- Review Important Documents\n- Make sure your insurance policies and personal documents, such as ID, are up to date. Make copies and keep them in a secure password-protected digital space.\n- Strengthen your Home\n- De-clutter drains and gutters, bring in outside furniture and consider hurricane shutters.\n- Get Tech Ready\n- Keep your cell phone charged when you know a hurricane is in the forecast and purchase backup charging devices to power electronics.\n- Gather Supplies\n- Have enough supplies for your household. Include medication, disinfectant supplies and pet supplies in your go bag or car trunk. You may not have access to these supplies for days or even weeks after a hurricane.\n- Help your Neighborhood\n- Check with neighbors, senior adults or those who may need additional help securing hurricane plans to see how you can be of assistance to others."
+    },
+    {
+     "heading": "During a Hurricane/Typhoon",
+     "body": "- Stay Informed\n- Pay attention to emergency information and alerts.\n- If you live in a mandatory evacuation zone and local officials tell you to evacuate, do so immediately.\n- Dealing with the Weather\n- Determine how best to protect yourself from high winds and flooding.\n- Take refuge in a designated storm shelter or an interior room for high winds.\n- Go to the highest level of the building if you are trapped by flooding. Do not climb into a closed attic. You may become trapped by rising flood water.\n- Do not walk, swim or drive through flood waters. Turn Around. Don’t Drown! Just six inches of fast-moving water can knock you down, and one foot of moving water can sweep your vehicle away."
+    },
+    {
+     "heading": "After a Hurricane/Typhoon",
+     "body": "- Pay attention to local officials for information and special instructions.\n- Be careful during cleanup. Wear protective clothing and use appropriate face coverings or masks if cleaning mold or other debris. People with asthma and other lung conditions and/or immune suppression should not enter buildings with indoor water leaks or mold growth that can be seen or smelled, even if these individuals are not allergic to mold. Children should not help with disaster cleanup work.\n- Wear protective clothing and work with someone else.\n- Do not touch electrical equipment if it is wet or if you are standing in water. If it is safe to do so, turn off electricity at the main breaker or fuse box to prevent electric shock.\n- Do not wade in flood water, which can contain dangerous pathogens that cause illnesses. This water also can contain debris, chemicals, waste and wildlife. Underground or downed power lines can electrically charge the water.\n- Save phone calls for emergencies. Phone systems often are down or busy after a disaster. Use text messages or social media to communicate with family and friends.\n- Document any property damage with photographs. Contact your insurance company for assistance."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/hurricanes"
+  },
+  {
+   "title": "Wildfires",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov or call the FEMA Helpline at 1-800-621-3362.\n\nWildfires are unplanned fires that burn out of control in natural areas like forests, grasslands or prairies. These fires spread quickly and can devastate wildlife, natural areas and communities."
+    },
+    {
+     "heading": "Prepare for Wildfires",
+     "body": "Recognize Warnings and Alerts\n\n- Have several ways to receive alerts. Download the FEMA app and receive real-time alerts from the National Weather Service for up to five locations nationwide. Sign up for community alerts in your area and be aware of the Emergency Alert System (EAS) and Wireless Emergency Alert (WEA), which requires no-sign up.\n- Pay attention to air quality alerts.\n\nMake an Emergency Plan\n\n- Make sure everyone in your household knows and understands what to do if you need to quickly evacuate.\n- Don’t forget a plan for the office, kids’ school or daycare and anywhere you frequent.\n\nReview Important Documents\n\n- Make sure your insurance policies and personal documents, like ID, are up to date.\n- Make copies and keep them in a secure password-protected digital space.\n\nStrengthen your Home\n\n- Use fire-resistant materials to build, renovate or make repairs.\n- Find an outdoor water source with a hose that can reach any area of your property.\n- Create a fire-resistant zone that is free of leaves, debris or flammable materials for at least 30 feet from your home.\n- Designate a room that can be closed off from outside air. Close all doors and windows. Set up a portable air cleaner to keep indoor pollution levels low when smoky conditions exist.\n\nKnow your Evacuation Zone\n\n- You may have to evacuate quickly due to a wildfire. Learn your evacuation routes, practice with pets and identify where you will go.\n- Follow the instructions from local authorities. They will provide the latest recommendations based on the threat to your community and appropriate safety measures.\n\nGather Supplies\n\n- Have enough supplies for your household, including a first aid kit, in your go bag or car trunk.\n- Being prepared allows you to avoid unnecessary excursions and to address minor medical issues at home, alleviating the burden on urgent care centers and hospitals.\n- Remember that not everyone can afford to respond by stocking up on necessities. For those who can afford it, making essential purchases and slowly building up supplies in advance will allow for longer time periods between shopping trips.\n- Be cautious when carrying flammable or combustible household products that can cause fires or explosions if handled wrong, such as aerosols, cooking oils, rubbing alcohol and hand sanitizer\n- If available, store an N95 mask to protect yourself from smoke inhalation.\n- Keep your cell phone charged when wildfires could be in your area. Purchase backup charging devices to power electronics."
+    },
+    {
+     "heading": "Stay Safe During",
+     "body": "- Pay attention to emergency alerts and notifications for information and instructions.\n- Evacuate immediately if authorities tell you to do so.\n- Check with local authorities for the latest information about public shelters or check open locations on the FEMA app. You can also download the free Red Cross Emergency app for a list of open Red Cross shelters in your area.\n- Consider making plans with friends or family to shelter with them where you may be safer and more comfortable.\n- If trapped, call 9-1-1 and give your location, but be aware that emergency response could be delayed or impossible. Turn on lights to help rescuers find you.\n- Use an N95 mask to protect yourself from smoke inhalation or limit your exposure to smoke by doing the following:\n- Choose a room to close off from outside air and set up a portable air cleaner or filter to keep the air in this room clean even when it’s smoky in the rest of the building and outdoors.\n- Use high efficiency filters in your central air conditioning system to capture fine particles from smoke. If your system has fresh air intake, set the system to “recirculate” mode and close the outdoor intake damper.\n- If you are not ordered to evacuate but smoky conditions exist, stay inside in a safe location or go to a community building where smoke levels are lower.\n- If you are sick and need medical attention, contact your healthcare provider for further care instructions and shelter in place, if possible."
+    },
+    {
+     "heading": "Returning Home After a Wildfire",
+     "body": "- Do not return home until authorities say it is safe to do so.\n- Avoid hot ash, charred trees, smoldering debris and live embers. The ground may contain heat pockets that can burn you or spark another fire.\n- When cleaning, wear protective clothing – including a long-sleeved shirt, long pants, work gloves and sturdy thick-soled shoes – during clean-up efforts.\n- Use a respirator to limit your exposure, and wet debris to minimize breathing dust particles. People with asthma, COPD and/or other lung conditions should take precautions in areas with poor air quality, as it can worsen symptoms.\n- Document property damage with photographs. Conduct an inventory and contact your insurance company for assistance.\n- Send text messages or use social media to reach out to family and friends. Phone systems are often busy following a disaster. Make calls only in emergencies."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/wildfires"
+  },
+  {
+   "title": "Earthquakes",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov or call the FEMA Helpline at 1-800-621-3362."
+    },
+    {
+     "heading": "Prepare Before an Earthquake",
+     "body": "- The best time to prepare for any disaster is before it happens.\n- Practice how to protect yourself during earthquakes, with family and coworkers.\n- Sign up for earthquake alerts and get notified before an earthquake happens.\n- Make an Emergency Plan: Create a family emergency communications plan that has an out-of-state contact. Plan where to meet if you get separated. Make a supply kit that includes enough food and water for several days, a flashlight, a fire extinguisher and a whistle.\n- Being prepared allows you to avoid unnecessary trips and address minor medical issues at home, lessening the burden on urgent care centers and hospitals.\n- Remember that not everyone can afford to respond by stocking up on necessities. For those who can afford it, make essential purchases and slowly build up supplies.\n- Protect Your Home: Secure heavy items in your home like bookcases, refrigerators, water heaters, televisions and objects that hang on walls. Store heavy and breakable objects on low shelves.\n- Consider making improvements to your building to fix structural issues that could cause your building to collapse during an earthquake.\n- Consider obtaining an earthquake insurance policy. A standard homeowner’s insurance policy does not cover earthquake damage."
+    },
+    {
+     "heading": "During an Earthquake",
+     "body": "- If an earthquake happens, protect yourself right away.\n- If you are inside, stay and do not run outside; avoid doorways.\n- If you are in bed, turn face down and cover your head and neck with a pillow.\n- If you are in a car, pull over and stop. Set your parking brake.\n- If you're outside, stay there. Move to an open area away from buildings, trees, streetlights and power lines. Drop and coveruntil shaking stops to protect yourself from flying debris. Learn more at Earthquake Country Alliance."
+    },
+    {
+     "heading": "During an Earthquake: 1. Drop (or Lock)",
+     "body": "Drop where you are onto hands and knees."
+    },
+    {
+     "heading": "During an Earthquake: 2. Cover",
+     "body": "Cover your head and neck with one arm and hand. If a sturdy table or desk is nearby, crawl underneath it for shelter. If no shelter is nearby, crawl next to an interior wall (away from windows). Stay on your knees; bend over to protect vital organs."
+    },
+    {
+     "heading": "During an Earthquake: 3. Hold On",
+     "body": "Hold until the shaking stops. If under shelter, hold on with one hand and be ready to move with it when the shelter moves. If not under shelter, hold on to your head and neck with both arms and hands."
+    },
+    {
+     "heading": "During an Earthquake: Using a Cane?",
+     "body": "If you use a cane: DROP, COVER, and HOLD ON or sit on a chair, bed, etc. and cover your head and neck with both hands. Keep your cane near you so it can be used when the shaking stops."
+    },
+    {
+     "heading": "During an Earthquake: Using a Walker or Wheelchair?",
+     "body": "If you use a walker or wheelchair: LOCK your wheels (if applicable). If using a walker carefully get as low as possible. Bend over and COVER your head/neck with your arms, a book, or a pillow. Then HOLD ON until the shaking stops."
+    },
+    {
+     "heading": "After an Earthquake",
+     "body": "- There can be serious hazards after an earthquake, such as damage to the building, leaking gas and water lines or downed power lines.\n- Expect aftershocks to follow the main shock of an earthquake. Be ready to Drop, Cover and Hold On if you feel an aftershock.\n- If you are in a damaged building, go outside and quickly move away from the building. Do not enter damaged buildings.\n- If you are trapped, send a text or bang on a pipe or wall. Cover your mouth with your shirt for protection and instead of shouting, use a whistle.\n- If you are in an area that may experience tsunamis, go inland or to higher ground immediately after the shaking stops. Avoid contact with floodwaters as they can contain chemicals, sewage and debris.\n- Check yourself to see if you are hurt and help others if you have training. Be the help until help arrives.\n- If you are sick or injured and need medical attention, contact your healthcare provider for instructions. If you are experiencing a medical emergency, call 9-1-1.\n- Once you are safe, pay attention to local news reports for emergency information and instructions via battery-operated radio, TV, social media or from cell phone text alerts.\n- Use social media to let people know you’re okay.\n- Use text messages to communicate. This may be more reliable than phone calls and can save batter power.\n- Be careful when cleaning up. Wear protective clothing, including a long-sleeved shirt, long pants, work gloves and sturdy thick-soled shoes. Do not try to remove heavy debris by yourself. Use an appropriate mask if cleaning mold or other debris. People with asthma and other lung conditions and/or immune suppression should not enter buildings with indoor water leaks or mold growth that can be seen or smelled. Children should not take part in disaster cleanup work."
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/earthquakes"
+  }
+ ]
+}

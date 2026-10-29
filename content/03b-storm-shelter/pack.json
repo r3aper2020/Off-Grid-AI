@@ -1,0 +1,11 @@
+{
+ "id": "storm-shelter",
+ "title": "Tornado Shelter",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "review": "verified",
+ "publisher": "NOAA (Storm Prediction Center and National Weather Service)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from the NOAA Storm Prediction Center Online Tornado FAQ (Tornado Safety, Roger Edwards) and National Weather Service tornado safety pages, retrieved October 2026. Reformatted into sections without changing substance. Not an official NWS forecast or warning product. Use does not imply endorsement by NOAA, the Department of Commerce, or the U.S. Government.",
+ "description": "Where to take shelter from a tornado in a house with or without a basement, apartment, mobile home, office, school, store, church, car or the open outdoors; planning a safe room; tornado watches, warnings and emergencies; after the tornado."
+}

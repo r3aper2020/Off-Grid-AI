@@ -1,0 +1,518 @@
+[
+ {
+  "file": "tab-p5-1.webp",
+  "caption": "Preparing and using syrups",
+  "kind": "table",
+  "page": 5,
+  "bbox": [
+   91.1,
+   314.8,
+   532.7,
+   613.4
+  ]
+ },
+ {
+  "file": "tab-p6-1.webp",
+  "caption": "Recommended process time for Apple Butter in a boiling-water canner",
+  "kind": "table",
+  "page": 6,
+  "bbox": [
+   101.8,
+   260.0,
+   500.9,
+   370.9
+  ]
+ },
+ {
+  "file": "tab-p7-1.webp",
+  "caption": "Recommended process time for Apple Juice in a boiling-water canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   110.9,
+   620.5,
+   510.0,
+   731.4
+  ]
+ },
+ {
+  "file": "tab-p7-2.webp",
+  "caption": "Recommended process time for Apples, sliced in a boiling-water canner",
+  "kind": "table",
+  "page": 7,
+  "bbox": [
+   110.9,
+   246.4,
+   510.0,
+   342.9
+  ]
+ },
+ {
+  "file": "tab-p8-1.webp",
+  "caption": "Recommended process time for Applesauce in a boiling-water canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   102.3,
+   498.9,
+   501.4,
+   599.0
+  ]
+ },
+ {
+  "file": "tab-p8-2.webp",
+  "caption": "Recommended process time for Spiced Apple Rings in a boiling-water canner",
+  "kind": "table",
+  "page": 8,
+  "bbox": [
+   102.3,
+   56.8,
+   501.4,
+   153.3
+  ]
+ },
+ {
+  "file": "tab-p9-1.webp",
+  "caption": "Recommended process time for Spiced Crab Apples in a boiling-water canner",
+  "kind": "table",
+  "page": 9,
+  "bbox": [
+   111.3,
+   349.6,
+   510.4,
+   435.3
+  ]
+ },
+ {
+  "file": "tab-p10-1.webp",
+  "caption": "Recommended process time for Berries, whole in a boiling-water canner",
+  "kind": "table",
+  "page": 10,
+  "bbox": [
+   103.9,
+   262.1,
+   503.1,
+   387.5
+  ]
+ },
+ {
+  "file": "tab-p11-1.webp",
+  "caption": "Recommended process time for Berry Syrup in a boiling-water canner",
+  "kind": "table",
+  "page": 11,
+  "bbox": [
+   113.5,
+   527.5,
+   512.6,
+   624.0
+  ]
+ },
+ {
+  "file": "tab-p12-1.webp",
+  "caption": "Recommended process time for Cantaloupe Pickles in a boiling-water canner",
+  "kind": "table",
+  "page": 12,
+  "bbox": [
+   104.2,
+   646.1,
+   503.3,
+   730.8
+  ]
+ },
+ {
+  "file": "tab-p13-1.webp",
+  "caption": "Recommended process time for Cherries, whole in a boiling-water canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   111.7,
+   570.9,
+   510.8,
+   696.2
+  ]
+ },
+ {
+  "file": "tab-p13-2.webp",
+  "caption": "Recommended process time for Cranberry-Orange Chutney in a boiling-water canner",
+  "kind": "table",
+  "page": 13,
+  "bbox": [
+   111.9,
+   125.1,
+   511.0,
+   209.9
+  ]
+ },
+ {
+  "file": "tab-p14-1.webp",
+  "caption": "Recommended process time for Figs in a boiling-water canner",
+  "kind": "table",
+  "page": 14,
+  "bbox": [
+   103.1,
+   390.4,
+   502.2,
+   490.6
+  ]
+ },
+ {
+  "file": "tab-p14-2.webp",
+  "caption": "Recommended process time for F Purees in a boiling-water canner ruit",
+  "kind": "table",
+  "page": 14,
+  "bbox": [
+   103.1,
+   87.0,
+   502.2,
+   183.5
+  ]
+ },
+ {
+  "file": "tab-p15-1.webp",
+  "caption": "Recommended process time for Grapefruit and Orange Sections in a boiling-water canner",
+  "kind": "table",
+  "page": 15,
+  "bbox": [
+   111.9,
+   439.0,
+   511.0,
+   535.7
+  ]
+ },
+ {
+  "file": "tab-p16-1.webp",
+  "caption": "Recommended process time for Grape Juice in a boiling-water canner",
+  "kind": "table",
+  "page": 16,
+  "bbox": [
+   103.1,
+   622.5,
+   502.2,
+   733.4
+  ]
+ },
+ {
+  "file": "tab-p16-2.webp",
+  "caption": "Recommended process time for Grapes, whole in a boiling-water canner Recommended process time for Grapes, whole in a boiling-water canner",
+  "kind": "table",
+  "page": 16,
+  "bbox": [
+   102.8,
+   233.1,
+   501.9,
+   358.4
+  ]
+ },
+ {
+  "file": "tab-p17-1.webp",
+  "caption": "Recommended process time for Mango Chutney in a boiling-water canner",
+  "kind": "table",
+  "page": 17,
+  "bbox": [
+   111.3,
+   417.7,
+   510.4,
+   513.2
+  ]
+ },
+ {
+  "file": "tab-p18-1.webp",
+  "caption": "Recommended process time for Mango Sauce in a boiling-water canner",
+  "kind": "table",
+  "page": 18,
+  "bbox": [
+   103.0,
+   593.7,
+   502.1,
+   678.4
+  ]
+ },
+ {
+  "file": "tab-p18-2.webp",
+  "caption": "Recommended process time for Mixed Fruit Cocktail in a boiling-water canner",
+  "kind": "table",
+  "page": 18,
+  "bbox": [
+   103.9,
+   190.8,
+   503.1,
+   287.4
+  ]
+ },
+ {
+  "file": "tab-p19-1.webp",
+  "caption": "Recommended process time for Peaches, halved or sliced in a boiling-water canner",
+  "kind": "table",
+  "page": 19,
+  "bbox": [
+   113.4,
+   227.6,
+   512.6,
+   356.5
+  ]
+ },
+ {
+  "file": "tab-p20-1.webp",
+  "caption": "Recommended process time for Pears, halved in a boiling-water canner",
+  "kind": "table",
+  "page": 20,
+  "bbox": [
+   103.0,
+   527.1,
+   502.2,
+   627.2
+  ]
+ },
+ {
+  "file": "tab-p20-2.webp",
+  "caption": "Recommended process time for Asian Pears, halved or sliced in a boiling-water canner",
+  "kind": "table",
+  "page": 20,
+  "bbox": [
+   104.6,
+   62.1,
+   503.7,
+   162.2
+  ]
+ },
+ {
+  "file": "tab-p21-1.webp",
+  "caption": "Recommended process time for Pineapple in a boiling-water canner",
+  "kind": "table",
+  "page": 21,
+  "bbox": [
+   113.8,
+   448.9,
+   512.9,
+   549.2
+  ]
+ },
+ {
+  "file": "tab-p22-1.webp",
+  "caption": "Recommended process time for Plums, halved or whole in a boiling-water canner",
+  "kind": "table",
+  "page": 22,
+  "bbox": [
+   105.2,
+   631.4,
+   504.3,
+   731.5
+  ]
+ },
+ {
+  "file": "tab-p22-2.webp",
+  "caption": "Recommended process time for Rhubarb, stewed in a boiling-water canner",
+  "kind": "table",
+  "page": 22,
+  "bbox": [
+   104.8,
+   292.5,
+   503.9,
+   389.0
+  ]
+ },
+ {
+  "file": "tab-p23-1.webp",
+  "caption": "Recommended process time for Zucchini-Pineapple in a boiling-water canner",
+  "kind": "table",
+  "page": 23,
+  "bbox": [
+   113.5,
+   598.6,
+   512.6,
+   694.1
+  ]
+ },
+ {
+  "file": "tab-p23-2.webp",
+  "caption": "Recommended process time for Spicy Cranberry Salsa in a boiling-water canner",
+  "kind": "table",
+  "page": 23,
+  "bbox": [
+   113.5,
+   124.1,
+   512.6,
+   219.7
+  ]
+ },
+ {
+  "file": "tab-p24-1.webp",
+  "caption": "Recommended process time for Mango Salsa in a boiling-water canner",
+  "kind": "table",
+  "page": 24,
+  "bbox": [
+   104.1,
+   284.9,
+   503.2,
+   369.7
+  ]
+ },
+ {
+  "file": "tab-p25-1.webp",
+  "caption": "Recommended process time for Peach-Apple Salsa in a boiling-water canner",
+  "kind": "table",
+  "page": 25,
+  "bbox": [
+   113.2,
+   204.7,
+   512.3,
+   289.4
+  ]
+ },
+ {
+  "file": "tab-p26-x1.webp",
+  "caption": "Quantities of Ingredients Needed for:",
+  "kind": "table",
+  "page": 26,
+  "bbox": [
+   57.0,
+   411.0,
+   420.8,
+   567.6
+  ]
+ },
+ {
+  "file": "tab-p26-2.webp",
+  "caption": "Recommended process time for Apple Pie Filling in a boiling-water canner",
+  "kind": "table",
+  "page": 26,
+  "bbox": [
+   104.2,
+   62.8,
+   503.4,
+   159.3
+  ]
+ },
+ {
+  "file": "tab-p27-x1.webp",
+  "caption": "Quantities of Ingredients Needed for:",
+  "kind": "table",
+  "page": 27,
+  "bbox": [
+   75.0,
+   590.0,
+   438.8,
+   720.1
+  ]
+ },
+ {
+  "file": "tab-p27-2.webp",
+  "caption": "Recommended process time for Blueberry Pie Filling in a boiling-water canner",
+  "kind": "table",
+  "page": 27,
+  "bbox": [
+   113.7,
+   288.6,
+   512.8,
+   385.1
+  ]
+ },
+ {
+  "file": "tab-p27-x3.webp",
+  "caption": "Quantities of Ingredients Needed for:",
+  "kind": "table",
+  "page": 27,
+  "bbox": [
+   75.0,
+   98.9,
+   438.8,
+   243.1
+  ]
+ },
+ {
+  "file": "tab-p28-1.webp",
+  "caption": "Recommended process time for Cherry Pie Filling in a boiling-water canner",
+  "kind": "table",
+  "page": 28,
+  "bbox": [
+   103.8,
+   468.9,
+   502.9,
+   565.4
+  ]
+ },
+ {
+  "file": "tab-p28-2.webp",
+  "caption": "Recommended process time for Festive Mincemeat Pie Filling in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 28,
+  "bbox": [
+   104.0,
+   59.7,
+   503.1,
+   145.9
+  ]
+ },
+ {
+  "file": "tab-p29-1.webp",
+  "caption": "Recommended process time for Festive Mincemeat Pie Filling in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 29,
+  "bbox": [
+   112.2,
+   653.4,
+   511.3,
+   738.2
+  ]
+ },
+ {
+  "file": "tab-p29-2.webp",
+  "caption": "Recommended process time for Green Tomato Pie Filling in a boiling-water canner",
+  "kind": "table",
+  "page": 29,
+  "bbox": [
+   112.0,
+   221.7,
+   511.1,
+   306.4
+  ]
+ },
+ {
+  "file": "tab-p30-x1.webp",
+  "caption": "Quantities of Ingredients Needed for:",
+  "kind": "table",
+  "page": 30,
+  "bbox": [
+   57.0,
+   590.5,
+   434.3,
+   720.1
+  ]
+ },
+ {
+  "file": "tab-p30-2.webp",
+  "caption": "Recommended process time for Peach Pie Filling in a boiling-water canner",
+  "kind": "table",
+  "page": 30,
+  "bbox": [
+   102.8,
+   227.8,
+   501.9,
+   324.4
+  ]
+ },
+ {
+  "file": "tab-p31-1.webp",
+  "caption": "Process times for some acid foods in a dial-gauge pressure canner",
+  "kind": "table",
+  "page": 31,
+  "bbox": [
+   81.0,
+   260.4,
+   536.0,
+   739.0
+  ]
+ },
+ {
+  "file": "tab-p32-1.webp",
+  "caption": "Process times for some acid foods in a weighted-gauge pressure canner",
+  "kind": "table",
+  "page": 32,
+  "bbox": [
+   79.0,
+   245.3,
+   534.0,
+   723.9
+  ]
+ }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "file": "tab-3-1.webp",
+  "caption": "Table 3-1. Means to make potable water",
+  "kind": "table",
+  "page": 56,
+  "bbox": [
+   122.2,
+   199.2,
+   529.3,
+   695.8
+  ]
+ },
+ {
+  "file": "tab-3-1-p57.webp",
+  "caption": "Table 3-1. Means to make potable water (continued)",
+  "kind": "table",
+  "page": 57,
+  "bbox": [
+   101.8,
+   475.8,
+   545.8,
+   722.7
+  ]
+ },
+ {
+  "file": "fig-3-1.webp",
+  "caption": "Figure 3-1. Bamboo water catch (or rain catcher)",
+  "kind": "figure",
+  "page": 58,
+  "bbox": [
+   157.0,
+   465.8,
+   436.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-3-2.webp",
+  "caption": "Figure 3-2. Water machine",
+  "kind": "figure",
+  "page": 58,
+  "bbox": [
+   155.5,
+   78.9,
+   439.3,
+   322.9
+  ]
+ },
+ {
+  "file": "fig-3-3.webp",
+  "caption": "Figure 3-3. Procuring water from green bamboo",
+  "kind": "figure",
+  "page": 59,
+  "bbox": [
+   181.0,
+   152.7,
+   449.6,
+   414.7
+  ]
+ },
+ {
+  "file": "fig-3-4.webp",
+  "caption": "Figure 3-4. Vine water procurement technique",
+  "kind": "figure",
+  "page": 60,
+  "bbox": [
+   171.6,
+   147.4,
+   422.5,
+   502.4
+  ]
+ },
+ {
+  "file": "fig-3-5.webp",
+  "caption": "Figure 3-5. Water from Banana Stump",
+  "kind": "figure",
+  "page": 61,
+  "bbox": [
+   176.5,
+   334.9,
+   453.0,
+   583.3
+  ]
+ },
+ {
+  "file": "fig-3-6.webp",
+  "caption": "Figure 3-6. How to open a coconut",
+  "kind": "figure",
+  "page": 62,
+  "bbox": [
+   124.0,
+   321.3,
+   469.6,
+   692.7
+  ]
+ },
+ {
+  "file": "fig-3-7.webp",
+  "caption": "Figure 3-7. Vegetation bag still",
+  "kind": "figure",
+  "page": 63,
+  "bbox": [
+   162.2,
+   452.2,
+   468.3,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-3-8.webp",
+  "caption": "Figure 3-8. Transpiration bag still",
+  "kind": "figure",
+  "page": 64,
+  "bbox": [
+   143.5,
+   407.6,
+   451.0,
+   725.0
+  ]
+ },
+ {
+  "file": "fig-3-9.webp",
+  "caption": "Figure 3-9. Belowground solar still",
+  "kind": "figure",
+  "page": 65,
+  "bbox": [
+   177.2,
+   521.6,
+   453.0,
+   725.0
+  ]
+ },
+ {
+  "file": "fig-3-10.webp",
+  "caption": "Figure 3-10. Beach well",
+  "kind": "figure",
+  "page": 66,
+  "bbox": [
+   139.0,
+   478.7,
+   455.1,
+   692.7
+  ]
+ },
+ {
+  "file": "fig-3-11.webp",
+  "caption": "Figure 3-11. Sub-surface Water",
+  "kind": "figure",
+  "page": 66,
+  "bbox": [
+   134.5,
+   175.1,
+   459.2,
+   396.5
+  ]
+ },
+ {
+  "file": "fig-3-12.webp",
+  "caption": "Figure 3-12. Water filtering systems",
+  "kind": "figure",
+  "page": 68,
+  "bbox": [
+   139.0,
+   437.2,
+   454.4,
+   715.7
+  ]
+ }
+]

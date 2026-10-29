@@ -1,0 +1,11 @@
+{
+ "id": "water-sanitation",
+ "title": "Water & Sanitation",
+ "category": "guide",
+ "publisher": "CDC and U.S. Army (TC 4-02.3)",
+ "attribution": "Text from U.S. Centers for Disease Control and Prevention (CDC) web pages, reformatted into sections without changing its substance. Use does not imply endorsement by CDC, HHS, or the U.S. Government. Also includes text from U.S. Army TC 4-02.3, Field Hygiene and Sanitation (May 2015), approved for public release; distribution is unlimited; use does not imply endorsement by the U.S. Army or DoD.",
+ "description": "Making water safe to drink, finding water, storing an emergency supply, and field hygiene and sanitation.",
+ "version": "2026.10.29.3",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "review": "verified"
+}

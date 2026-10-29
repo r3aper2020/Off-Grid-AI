@@ -1,0 +1,11 @@
+{
+ "id": "signaling",
+ "title": "Signaling for Rescue",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "review": "verified",
+ "publisher": "Federal Aviation Administration, U.S. Coast Guard Boating Safety Division, NOAA (SARSAT and National Weather Service)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text and figures from the FAA Aeronautical Information Manual, Chapter 6 Section 2 (Basic with Changes 1-3, July 2026); text from the U.S. Coast Guard's A Boater's Guide to the Federal Requirements for Recreational Boats (November 2023); text from NOAA SARSAT web pages (sarsat.noaa.gov) and the National Weather Service SKYWARN page, retrieved October 2026. Reformatted into sections without changing substance; rescue coordination center phone tables and photos not included. SKYWARN® is a registered trademark of NOAA's National Weather Service. Use does not imply endorsement by the FAA, DOT, USCG, DHS, NOAA, the Department of Commerce, or the U.S. Government.",
+ "description": "Getting found: ground-to-air visual code and body signals, 406 MHz beacons (PLB, EPIRB, ELT) and avoiding false alerts, flares, smoke, distress flag and SOS lights, VHF MAYDAY and DSC distress calls, and the SKYWARN spotter network."
+}

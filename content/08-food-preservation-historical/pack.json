@@ -1,0 +1,11 @@
+{
+ "id": "food-preservation-historical",
+ "title": "Root Cellars, Home Butchering and Fireless Cooking (Historical)",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "historical",
+ "publisher": "U.S. Department of Agriculture",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Adapted from U.S. Department of Agriculture Farmers' Bulletins 1939, Home Storage of Vegetables and Fruits (revised 1960); 1186, Pork on the Farm (1921); 1415, Beef on the Farm (1924); and 771, Homemade Fireless Cookers and Their Use (1916), from National Agricultural Library scans at the Internet Archive; selected sections only. Reformatted into sections without changing substance; figures not included; scanning (OCR) errors are left as found. Use does not imply endorsement by USDA or the U.S. Government.",
+ "description": "Storing vegetables and fruits in cellars and pits (1960), slaughtering and cutting hogs and cattle (1921, 1924), and homemade fireless cookers (1916); the bulletins' curing, canning and fumigation instructions are left out as unsafe. Food in a fireless cooker cools for hours and can fall into the 40–140°F danger zone where bacteria multiply, and the 1916 bulletin recommends asbestos insulation — do not follow it as current advice."
+}

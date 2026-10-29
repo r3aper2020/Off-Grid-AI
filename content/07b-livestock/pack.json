@@ -1,0 +1,11 @@
+{
+ "id": "livestock",
+ "title": "Small-Farm Livestock and Home Slaughter (USDA, older editions)",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "review": "needs-review",
+ "publisher": "U.S. Department of Agriculture",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105); USDA: \"Department publications contain public information. They are not copyrighted and may be reproduced in whole or in part with or without credit.\"",
+ "attribution": "Text from USDA publications: Raising Livestock on Small Farms (ARS, 1977), Agriculture Fact Sheet 3-6-2 Keeping Layers for the Family Egg Supply (1977; written at the University of Missouri), Farmers' Bulletins 2131 Raising Rabbits (rev. 1964) and 2222 Raising a Small Flock of Sheep (rev. 1977), from National Agricultural Library scans at the Internet Archive (OCR text; scanning errors left as found), and Farmers' Bulletins 2263, 2264 and 2265 on beef, lamb and pork slaughtering, cutting and cooking on the farm (1977-1981; USDA authors with Auburn University and University of Florida co-authors) via Project Gutenberg. Reformatted into sections without changing substance; tables, figures, meat curing, smoking and canning, and passages with illegible quantities not included. Use does not imply endorsement by USDA or the U.S. Government.",
+ "description": "Keeping chickens for eggs, turkeys, ducks and geese, a family milk cow and butter making, dairy goats, sheep, rabbits and hogs on a small place; humane stunning, bleeding, skinning or scalding, evisceration, chilling, cutting, wrapping and freezing beef, lamb and pork; lard rendering and fresh sausage. Older USDA editions (1964-1981): prices, drugs and some practices are dated."
+}

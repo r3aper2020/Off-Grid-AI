@@ -1,0 +1,146 @@
+[
+ {
+  "file": "fig-5-1.webp",
+  "caption": "Figure 5-1. Fire triangle",
+  "kind": "figure",
+  "page": 118,
+  "bbox": [
+   150.6,
+   489.7,
+   443.4,
+   715.2
+  ]
+ },
+ {
+  "file": "fig-5-2.webp",
+  "caption": "Figure 5-2. Types of firewalls",
+  "kind": "figure",
+  "page": 119,
+  "bbox": [
+   146.5,
+   293.6,
+   482.8,
+   650.0
+  ]
+ },
+ {
+  "file": "fig-5-3.webp",
+  "caption": "Figure 5-3. Base and brace",
+  "kind": "figure",
+  "page": 120,
+  "bbox": [
+   118.8,
+   468.8,
+   475.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-4.webp",
+  "caption": "Figure 5-4. Tinder and kindling examples",
+  "kind": "figure",
+  "page": 120,
+  "bbox": [
+   108.2,
+   125.3,
+   485.5,
+   400.8
+  ]
+ },
+ {
+  "file": "fig-5-5.webp",
+  "caption": "Figure 5-5. Fire lays",
+  "kind": "figure",
+  "page": 125,
+  "bbox": [
+   153.2,
+   456.8,
+   476.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-6.webp",
+  "caption": "Figure 5-6. Starting a fire with a battery",
+  "kind": "figure",
+  "page": 127,
+  "bbox": [
+   183.2,
+   289.7,
+   446.1,
+   533.7
+  ]
+ },
+ {
+  "file": "fig-5-7.webp",
+  "caption": "Figure 5-7. Using a convex lens as a fire-starter",
+  "kind": "figure",
+  "page": 128,
+  "bbox": [
+   167.4,
+   491.2,
+   426.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-8.webp",
+  "caption": "Figure 5-8. Flint and steel fire-starter",
+  "kind": "figure",
+  "page": 129,
+  "bbox": [
+   154.0,
+   489.8,
+   476.6,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-9.webp",
+  "caption": "Figure 5-9. Fire plow",
+  "kind": "figure",
+  "page": 129,
+  "bbox": [
+   138.2,
+   170.7,
+   492.5,
+   408.6
+  ]
+ },
+ {
+  "file": "fig-5-10.webp",
+  "caption": "Figure 5-10. Bow and drill fire-starter",
+  "kind": "figure",
+  "page": 131,
+  "bbox": [
+   142.8,
+   240.9,
+   487.6,
+   531.3
+  ]
+ },
+ {
+  "file": "fig-5-11.webp",
+  "caption": "Figure 5-11. Hand drill fire-starter",
+  "kind": "figure",
+  "page": 132,
+  "bbox": [
+   190.0,
+   426.8,
+   403.9,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-12.webp",
+  "caption": "Figure 5-12. Fire bundle",
+  "kind": "figure",
+  "page": 133,
+  "bbox": [
+   129.2,
+   453.8,
+   500.1,
+   715.7
+  ]
+ }
+]

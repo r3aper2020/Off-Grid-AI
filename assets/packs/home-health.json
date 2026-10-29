@@ -1,0 +1,487 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "home-health",
+ "title": "Home Health: Diarrhea, Hygiene, Medicines & Dental",
+ "category": "medical",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. NIH (NIDDK), Food and Drug Administration, HHS ASPR, and Indian Health Service",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Caring for diarrhea, stomach flu and food poisoning at home and spotting dehydration in adults and children; hand sanitizer, antibiotics, reading OTC medicine labels, masks and N95 respirators; free prescriptions after a disaster (EPAP); and dental emergencies when no dentist is available.",
+ "attribution": "Text from National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), U.S. Food and Drug Administration (FDA), Administration for Strategic Preparedness and Response (ASPR) web pages and an Indian Health Service Division of Oral Health card, retrieved October 2026; reformatted into sections without changing substance; footnote numbers and images not included. Use does not imply endorsement by NIH, FDA, ASPR, IHS, HHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Diarrhea: Symptoms, Dehydration and When to See a Doctor (NIDDK)",
+   "sections": [
+    {
+     "heading": "What are the symptoms of diarrhea?",
+     "body": "Diarrhea causes similar symptoms for adults and children, such as\n\n- loose, watery stools three or more times a day, or more often than what is normal for you\n- an urgent need to use the bathroom\n- cramping or pain in the abdomen\n- loss of control of bowel movements\n- nausea\n- weight loss, if you have chronic diarrhea\n\nSymptoms of diarrhea caused by some infections may also include\n\n- bloody stools\n- fever and chills\n- lightheadedness and dizziness\n- vomiting\n\nDiarrhea may also cause dehydration and malabsorption.\n\nYou may have cramping or an urgent need to use the bathroom when you have diarrhea."
+    },
+    {
+     "heading": "What are the symptoms of dehydration and malabsorption?",
+     "body": "Dehydration and malabsorption can be serious health problems related to diarrhea."
+    },
+    {
+     "heading": "What are the symptoms of dehydration and malabsorption?: Dehydration",
+     "body": "Symptoms of dehydration may include\n\n- extreme thirst or dry mouth\n- urinating less than usual\n- feeling tired, dizzy, or lightheaded\n- dark-colored urine\n- skin that, when pinched and released, does not flatten back to normal right away\n- sunken eyes or cheeks\n\nIn addition to the symptoms above, infants, toddlers, and young children with dehydration may also have\n\n- no wet diapers for 3 hours or more\n- no tears when crying\n- sunken soft spot in the skull\n- drowsiness"
+    },
+    {
+     "heading": "What are the symptoms of dehydration and malabsorption?: Malabsorption",
+     "body": "Symptoms of malabsorption may include\n\n- bloating\n- changes in appetite\n- gas\n- loose, greasy, foul-smelling bowel movements\n- weight loss or poor weight gain in children"
+    },
+    {
+     "heading": "When should I seek a doctor’s help?",
+     "body": "Diarrhea can become dangerous if it leads to severe dehydration. Diarrhea may also be a sign of a more serious problem.\n\nTalk with a doctor right away if you or an adult or child in your care has symptoms such as\n\n- change in mental state, such as irritability or lack of energy\n- frequent vomiting\n- severe pain in the abdomen or rectum\n- stools that are black and tarry or contain red blood or pus\n- symptoms of dehydration"
+    },
+    {
+     "heading": "When should I seek a doctor’s help?: Additional symptoms for adults",
+     "body": "You should also talk with a doctor right away if you or an adult in your care has symptoms such as\n\n- diarrhea lasting more than 2 days\n- high fever\n- six or more loose stools per day\n\nPeople who have diarrhea and are pregnant, are over age 65, are currently taking antibiotics, or have a weakened immune system are more likely to have health problems from diarrhea and should keep in touch with their doctor."
+    },
+    {
+     "heading": "When should I seek a doctor’s help?: Additional symptoms for infants and children",
+     "body": "You should also talk with a doctor right away if an infant or child has symptoms such as\n\n- diarrhea lasting more than a day\n- any fever in infants or high fever in older children\n- refusing to eat or drink anything for longer than a few hours in infants\n- frequent loose stools\n\nIf an infant or child has diarrhea, don’t hesitate to call a doctor for advice. Diarrhea is especially dangerous in newborns and infants and can lead to severe dehydration in just a day or two. A child with symptoms of dehydration can die within a day if left untreated.\n\nSeek a doctor’s help right away if the child has diarrhea and is younger than 12 months, was born prematurely, or has a history of other medical conditions. Also, seek a doctor’s help right away if the child can’t drink enough liquids or oral rehydration solutions to prevent dehydration."
+    },
+    {
+     "heading": "What causes diarrhea?",
+     "body": "Acute diarrhea often has different causes than persistent and chronic diarrhea."
+    },
+    {
+     "heading": "What causes diarrhea?: Acute diarrhea",
+     "body": "The most common causes of acute diarrhea are viral gastroenteritis, food poisoning, and medicine side effects.\n\n**Viral gastroenteritis**\n\nViral gastroenteritis is an infection of your intestines and a common cause of acute diarrhea. Many different viruses can cause viral gastroenteritis. The most common viruses include\n\n- norovirus\n- rotavirus\n- adenovirus\n- astrovirus\n\n**Food poisoning**\n\nDiarrhea can be a symptom of food poisoning. Food poisoning is an infection or irritation of your digestive tract that spreads through foods or drinks. Microbes—viruses, bacteria, and parasites—cause most food poisoning. Food poisoning usually goes away within a week, but some infections can last longer.\n\nThe most common microbes that cause food poisoning include\n\n- certain types of Salmonella\n- Clostridium perfringens, also called C. perfringens\n- certain types of Campylobacter\n- Staphylococcus aureus, also called staph\n- Escherichia coli, also called E. coli\n\nAny food or drink can contain microbes that cause food poisoning. However, some foods are more likely to lead to food poisoning than others, including\n\n- undercooked meats, poultry, and seafood\n- fruits and vegetables\n- raw or untreated milk, eggs, and cheeses\n\n**Travelers’ diarrhea**\n\nConsuming contaminated food and water or other drinks while traveling may also cause diarrhea, a condition known as travelers’ diarrhea. Travelers’ diarrhea can occur anywhere. However, it’s more likely to affect people traveling to areas where sanitation and access to clean water are limited.\n\n**Medicine side effects**\n\nMedicines, such as antibiotics, antacids containing magnesium, and medicines commonly used to treat cancer, may cause acute diarrhea. Some liquid medicines contain sugar alcohols—such as sorbitol, mannitol, and xylitol—which may also cause diarrhea in some people."
+    },
+    {
+     "heading": "What causes diarrhea?: Persistent and chronic diarrhea",
+     "body": "Some infections, food allergies and intolerances, digestive tract problems, abdominal surgery, and long-term use of medicines can cause persistent and chronic diarrhea.\n\n**Infections**\n\nSome infections may cause ongoing diarrhea. After the infection goes away, you may have problems digesting certain carbohydrates, which can make diarrhea last longer.\n\n**Food allergies and intolerances**\n\nAllergies to foods such as cow’s milk, soy, cereal grains, eggs, and seafood may cause chronic diarrhea.\n\nSome people have problems digesting certain carbohydrates, which can also cause chronic diarrhea.\n\n- Lactose intolerance is a condition in which you may have diarrhea after you consume foods or drinks that contain lactose. Lactose is a sugar naturally found in milk and milk products.\n- Dietary fructose intolerance is a condition in which you may have diarrhea after you consume foods or drinks that contain fructose. Fructose is a sugar found in fruits, fruit juices, and honey. Fructose is also added to many foods and soft drinks.\n- Sucrose intolerance is a condition in which you may have diarrhea after you consume foods or drinks that contain sucrose. Sucrose is also known as table sugar or white sugar.\n- Sugar alcohols commonly found in sugar-free candies and gum may also cause diarrhea in some people.\n\n**Digestive tract problems**\n\nDigestive tract problems that may cause chronic diarrhea include\n\n- celiac disease\n- Crohn’s disease\n- diabetes problems, such as autonomic neuropathy\n- problems with the pancreas\n- small intestinal bacterial overgrowth\n- ulcerative colitis\n\n**Disorders of gut-brain interaction**\n\nDisorders of gut-brain interaction, which used to be called functional gastrointestinal (GI) disorders, are related to problems with how the brain and gut work together. Disorders of gut-brain interaction aren’t diseases. They are groups of symptoms that occur together.\n\nTwo disorders of gut-brain interaction that cause chronic diarrhea are\n\n- irritable bowel syndrome, in which you have repeated pain in your abdomen and changes in your bowel movements\n- functional diarrhea, in which you have chronic diarrhea that isn’t due to another cause\n\n**Abdominal surgery**\n\nYou may develop chronic diarrhea if you had surgery on your appendix, gallbladder, large intestine, liver, pancreas, or small intestine.\n\nIf you had surgery on your stomach or esophagus, you may develop a condition called dumping syndrome. Chronic diarrhea is a possible symptom of dumping syndrome.\n\n**Long-term use of certain medicines**\n\nCertain medicines that must be taken for a long time may cause chronic diarrhea. For example, antibiotics can change your gut flora and increase your chances of developing a Clostridioides difficile (C. difficile) infection. A C. difficile infection can cause chronic diarrhea."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes"
+  },
+  {
+   "title": "Treating Diarrhea at Home, Including Children (NIDDK)",
+   "sections": [
+    {
+     "heading": "How can I treat acute diarrhea at home?",
+     "body": "In most cases, you can treat acute diarrhea at home, without medical treatment."
+    },
+    {
+     "heading": "How can I treat acute diarrhea at home?: Hydrate and replace electrolytes",
+     "body": "When you have diarrhea, you need to replace lost fluids and electrolytes to stay hydrated. Drink plenty of water and liquids that contain electrolytes, such as broths and sports drinks. You can also drink oral rehydration solutions, liquids that contain glucose and electrolytes. You can make rehydration solutions at home or buy them from a store that sells medicines or baby supplies.\n\nOlder adults; people with a weak immune system; and people who have diabetes, kidney disease, or other health conditions should talk with their doctor before drinking oral rehydration solutions. There may be specific solutions or amounts of liquid that would work best for you.\n\nWhen you have diarrhea, you may lose your appetite for a short time. When your appetite returns, you can most often go back to eating your normal diet, even if you still have diarrhea."
+    },
+    {
+     "heading": "How can I treat acute diarrhea at home?: Antidiarrheal medicine",
+     "body": "In most cases, you can safely treat acute diarrhea with over-the-counter medicines such as loperamide and bismuth subsalicylate. Doctors typically recommend against over-the-counter medicines for infants, children, or people who have bloody stools or fever.\n\nSee a doctor if your diarrhea gets worse or lasts more than 2 days while taking over-the-counter medicine.\n\nIn most cases, you can treat acute diarrhea by staying hydrated."
+    },
+    {
+     "heading": "How can I treat my child’s acute diarrhea at home?",
+     "body": "If your child has diarrhea, talk with their doctor for advice.\n\nIt’s important for children to stay hydrated when they have diarrhea. They should drink plenty of water, as well as oral rehydration solutions, broths, and sports drinks. Infants should drink breast milk or formula as usual. Talk with a doctor before giving oral rehydration solutions to your infant.\n\nDoctors typically recommend against giving infants, toddlers, and young children over-the-counter medicines to treat diarrhea."
+    },
+    {
+     "heading": "How do doctors treat diarrhea?",
+     "body": "Most cases of acute diarrhea go away on their own. However, doctors may use a combination of tools to treat diarrhea in some people."
+    },
+    {
+     "heading": "How do doctors treat diarrhea?: Hydration",
+     "body": "If you are severely dehydrated, your doctor may recommend you receive intravenous (IV) fluids. Doctors may need to treat people with severe dehydration in a hospital. If you aren’t severely dehydrated, your doctor may recommend staying hydrated and replacing electrolytes at home."
+    },
+    {
+     "heading": "How do doctors treat diarrhea?: Medicines",
+     "body": "Antibiotics or other medicines may help people with some digestive tract infections. Doctors may also prescribe medicines to treat conditions that cause chronic diarrhea, such as Crohn’s disease, irritable bowel syndrome, or ulcerative colitis."
+    },
+    {
+     "heading": "How do doctors treat diarrhea?: Diet changes",
+     "body": "Chronic diarrhea caused by a food allergy or intolerance can be treated by avoiding foods and drinks that trigger the reaction. Doctors may suggest tracking what you eat and drink, as well as your bowel habits, to find out what may be causing diarrhea."
+    },
+    {
+     "heading": "How do doctors treat diarrhea?: Probiotic supplements",
+     "body": "Probiotics are live microorganisms—most often bacteria—that are like the ones you have in your digestive tract. Researchers are still studying the use of probiotics to treat diarrhea. However, many doctors and professional societies don’t believe that the evidence supports their use in treating or preventing diarrhea.\n\nFor safety reasons, talk with your doctor before using probiotics or any other complementary or alternative medicines or practices."
+    },
+    {
+     "heading": "How can I prevent diarrhea?",
+     "body": "You can take steps to lower your risk of getting diarrhea, such as washing your hands, avoiding contaminated foods and drinks, and getting vaccinated against certain viruses."
+    },
+    {
+     "heading": "How can I prevent diarrhea?: Wash your hands",
+     "body": "Washing your hands can lower your chances of getting or spreading infections that can cause diarrhea. Wash your hands thoroughly with soap and water for at least 20 seconds\n\n- after using the bathroom\n- after changing diapers\n- before and after handling or preparing food\n- before and after caring for someone with diarrhea\n- after handling garbage\n\nIf you don’t have soap and water available, use a hand sanitizer that is at least 60% alcohol."
+    },
+    {
+     "heading": "How can I prevent diarrhea?: Keep foods and drinks safe",
+     "body": "Protect yourself against food poisoning by keeping foods and drinks safe. Properly storing, cooking, cleaning, and handling foods can help lower your chances of getting sick.\n\nWhen traveling to areas with limited sanitation and water filtration systems, only\n\n- drink bottled water and use it to make ice, prepare foods, and brush your teeth\n- consume drinks that are in factory-sealed containers\n- eat meat, fish, or shellfish if they’ve been cooked to a safe temperature and are served hot\n- eat raw vegetables and raw fruits if they’ve been washed in clean water or are peeled"
+    },
+    {
+     "heading": "How can I prevent diarrhea?: Vaccinate infants to prevent rotavirus infection",
+     "body": "Two oral vaccines are approved to protect children from rotavirus, a virus that causes viral gastroenteritis. Doctors usually give infants the vaccines in either two or three doses.\n\nFor the rotavirus vaccine to be effective, infants should receive all doses by age 8 months. Infants age 15 weeks or older who have never received the rotavirus vaccine should not start the series."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment"
+  },
+  {
+   "title": "Viral Gastroenteritis (Stomach Flu): Symptoms and Dehydration (NIDDK)",
+   "sections": [
+    {
+     "heading": "What are the symptoms of viral gastroenteritis?",
+     "body": "The symptoms of viral gastroenteritis include\n\n- watery diarrhea\n- pain or cramping in your abdomen\n- nausea or vomiting\n- sometimes fever"
+    },
+    {
+     "heading": "What are the symptoms of dehydration?",
+     "body": "Symptoms of dehydration, the most common complication of viral gastroenteritis, may include the following in adults\n\n- extreme thirst and dry mouth\n- urinating less than usual\n- feeling tired\n- dark-colored urine\n- decreased skin turgor, meaning that when a person’s skin is pinched and released, the skin does not flatten back to normal right away\n- sunken eyes or cheeks\n- light-headedness or fainting\n\nIf you are the parent or caretaker of an infant or young child with viral gastroenteritis, you should watch for the following signs of dehydration\n\n- thirst\n- urinating less than usual, or no wet diapers for 3 hours or more\n- lack of energy\n- dry mouth\n- no tears when crying\n- decreased skin turgor\n- sunken eyes or cheeks"
+    },
+    {
+     "heading": "Seek care right away",
+     "body": "In most cases, viral gastroenteritis is not harmful. However, viral gastroenteritis can become dangerous if it leads to dehydration. Anyone with signs or symptoms of dehydration should see a doctor right away. A person with severe dehydration may need treatment at a hospital.\n\nViral gastroenteritis symptoms may be similar to the symptoms of other health problems. Certain symptoms may suggest that a person has a different health problem.\n\nThe symptoms listed below may suggest that an adult or child has a severe case of viral gastroenteritis, dehydration, or a more serious health problem instead of viral gastroenteritis."
+    },
+    {
+     "heading": "Seek care right away: Adults",
+     "body": "Adults with any of the following symptoms should see a doctor right away\n\n- change in mental state, such as irritability or lack of energy\n- diarrhea lasting more than 2 days\n- high fever\n- vomiting often\n- six or more loose stools in a day\n- severe pain in the abdomen or rectum\n- stools that are black and tarry or contain blood or pus\n- symptoms of dehydration\n\nAdults should also see a doctor if they aren’t able to drink enough liquids or oral rehydration solutions—such as Pedialyte, Naturalyte, Infalyte, and CeraLyte—to prevent dehydration or if they do not improve after drinking oral rehydration solutions.\n\nOlder adults, pregnant women, and adults with a weakened immune system or another health condition should also see a doctor right away if they have any symptoms of viral gastroenteritis."
+    },
+    {
+     "heading": "Seek care right away: Infants and children",
+     "body": "If an infant or child has signs or symptoms of viral gastroenteritis, don’t hesitate to call a doctor for advice. Diarrhea is especially dangerous in newborns and infants, leading to severe dehydration in just a day or two. A child with symptoms of dehydration can die within a day if left untreated.\n\nIf you are the parent or caretaker of an infant or child with any of the following signs or symptoms, seek a doctor’s help right away\n\n- change in the child’s mental state, such as irritability or lack of energy\n- diarrhea lasting more than a day\n- any fever in infants\n- high fever in older children\n- frequent loose stools\n- vomiting often\n- severe pain in the abdomen or rectum\n- signs or symptoms of dehydration\n- stools that are black and tarry or contain blood or pus\n\nYou should also seek a doctor’s help right away if a child has signs or symptoms of viral gastroenteritis and the child is an infant, was born prematurely, or has a history of other medical conditions. Also seek a doctor’s help right away if the child is not able to drink enough liquids or oral rehydration solutions to prevent dehydration or if the child does not improve after drinking oral rehydration solutions."
+    },
+    {
+     "heading": "What kinds of viruses cause viral gastroenteritis?",
+     "body": "Many different viruses can cause viral gastroenteritis. The most common causes of viral gastroenteritis include\n\n- norovirus. Norovirus is the most common cause of viral gastroenteritis. Symptoms usually begin 12 to 48 hours after you come into contact with the virus and last 1 to 3 days.\n- rotavirus. Symptoms usually begin about 2 days after you come into contact with the virus and last for 3 to 8 days. Vaccines can prevent rotavirus infection.\n- adenovirus. Symptoms typically begin 3 to 10 days after you come into contact with the virus and last 1 to 2 weeks.\n- astrovirus. Symptoms typically begin 4 to 5 days after you come into contact with the virus and last 1 to 4 days.\n\nNorovirus causes infections in people of all ages. Rotavirus, adenovirus, and astrovirus most often infect infants and young children, but they can also infect adults.\n\nViruses may cause viral gastroenteritis any time of the year. In the United States, norovirus, rotavirus, and astrovirus are more likely to cause infections in the winter."
+    },
+    {
+     "heading": "Do flu viruses cause viral gastroenteritis (“stomach flu”)?",
+     "body": "Although some people call viral gastroenteritis “stomach flu,” influenza (flu) viruses do not cause viral gastroenteritis. Flu viruses cause infections of the respiratory system, while viral gastroenteritis is an infection of the intestines."
+    },
+    {
+     "heading": "Are viruses the only cause of gastroenteritis?",
+     "body": "No. While viruses cause viral gastroenteritis, bacteria, parasites, and chemicals may cause other kinds of gastroenteritis.\n\nWhen gastroenteritis is caused by consuming foods or drinks contaminated with viruses, bacteria, parasites, or chemicals, this is called food poisoning."
+    },
+    {
+     "heading": "How does viral gastroenteritis spread?",
+     "body": "Viral gastroenteritis spreads from person to person through contact with an infected person’s stool or vomit.\n\nIf you have viral gastroenteritis, viruses will be present in your stool and vomit. You may spread the virus in small bits of stool or vomit, especially if you don’t wash your hands thoroughly after using the bathroom and\n\n- touch surfaces or objects used by other people\n- prepare or serve foods and drinks for other people\n- shake hands with or touch another person\n\nInfected people who do not have symptoms can still spread viruses. For example, norovirus may be found in your stool before you have symptoms and up to 2 weeks after you recover.\n\nNorovirus is especially contagious, meaning that it spreads easily from person to person. Norovirus can live for months on surfaces such as countertops and changing tables. When an infected person vomits, the virus may become airborne and land on surfaces or on another person.\n\nViral gastroenteritis may spread in households, day care centers and schools, nursing homes, cruise ships, restaurants, and other places where people gather in groups.\n\nIf water comes into contact with stools of infected people, the water may become contaminated with a virus. The contaminated water can spread the virus to foods or drinks, and people who consume these foods or drinks may become infected. People who swim in contaminated water may also become infected."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/viral-gastroenteritis/symptoms-causes"
+  },
+  {
+   "title": "Treating Viral Gastroenteritis (Stomach Flu) (NIDDK)",
+   "sections": [
+    {
+     "heading": "How can I treat viral gastroenteritis?",
+     "body": "In most cases, people with viral gastroenteritis get better on their own without medical treatment. You can treat viral gastroenteritis by replacing lost fluids and electrolytes to prevent dehydration. In some cases, over-the-counter medicines may help relieve your symptoms.\n\nResearch shows that following a restricted diet does not help treat viral gastroenteritis. When you have viral gastroenteritis, you may vomit after you eat or lose your appetite for a short time. When your appetite returns, you can most often go back to eating your normal diet, even if you still have diarrhea. Find tips on what to eat when you have viral gastroenteritis.\n\nIf your child has symptoms of viral gastroenteritis, such as vomiting or diarrhea, don’t hesitate to call a doctor for advice."
+    },
+    {
+     "heading": "How can I treat viral gastroenteritis?: Replace lost fluids and electrolytes",
+     "body": "When you have viral gastroenteritis, you need to replace lost fluids and electrolytes to prevent dehydration or treat mild dehydration. You should drink plenty of liquids. If vomiting is a problem, try sipping small amounts of clear liquids.\n\nMost adults with viral gastroenteritis can replace fluids and electrolytes with liquids such as\n\n- water\n- fruit juices\n- sports drinks\n- broths\n\nEating saltine crackers can also help replace electrolytes.\n\nIf your child has viral gastroenteritis, you should give your child an oral rehydration solution—such as Pedialyte, Naturalyte, Infalyte, and CeraLyte—as directed to replace lost fluids and electrolytes. Oral rehydration solutions are liquids that contain glucose and electrolytes. Talk with a doctor about giving these solutions to your infant. Infants should drink breast milk or formula as usual.\n\nOlder adults, adults with a weakened immune system, and adults with severe diarrhea or symptoms of dehydration should also drink oral rehydration solutions."
+    },
+    {
+     "heading": "How can I treat viral gastroenteritis?: Over-the-counter medicines",
+     "body": "In some cases, adults can take over-the-counter medicines such as loperamide (Imodium) and bismuth subsalicylate (Pepto-Bismol, Kaopectate) to treat diarrhea caused by viral gastroenteritis.\n\nThese medicines can be unsafe for infants and children. Talk with a doctor before giving your child an over-the-counter medicine.\n\nIf you have bloody diarrhea or fever—signs of infections with bacteria or parasites—don’t use over-the-counter medicines to treat diarrhea. See a doctor for treatment."
+    },
+    {
+     "heading": "How do doctors treat viral gastroenteritis?",
+     "body": "Your doctor may prescribe medicine to control severe vomiting. Doctors don’t prescribe antibiotics to treat viral gastroenteritis. Antibiotics don’t work for viral infections.\n\nIn some cases, your doctor may recommend probiotics. Probiotics are live microbes, most often bacteria, that are like the ones you normally have in your digestive tract. Studies suggest that some probiotics may help shorten a case of diarrhea. Researchers are still studying the use of probiotics to treat viral gastroenteritis. For safety reasons, talk with your doctor before using probiotics or any other complementary or alternative medicines or practices.\n\nAnyone with signs or symptoms of dehydration should see a doctor right away. Doctors may need to treat people with severe dehydration in a hospital."
+    },
+    {
+     "heading": "How can I prevent viral gastroenteritis?",
+     "body": "You can take several steps to keep from getting or spreading infections that cause viral gastroenteritis. Wash your hands thoroughly with soap and water\n\n- after using the bathroom\n- after changing diapers\n- before and after handling, preparing, or eating food\n\nYou can clean surfaces that may have come into contact with infected stool or vomit, such as countertops and changing tables, with a mixture of 5 to 25 tablespoons of household bleach and 1 gallon of water. If clothes or linens may have come into contact with an infected person’s stool or vomit, you should wash them with detergent for the longest cycle available and machine dry them. To protect yourself from infection, wear rubber gloves while handling the soiled laundry and wash your hands afterward.\n\nIf you have viral gastroenteritis, avoid handling and preparing food for others while you are sick and for 2 days after your symptoms stop. People who have viral gastroenteritis may spread the virus to any food they handle, especially if they do not thoroughly wash their hands. Contaminated water may also spread a virus to foods before they are harvested. For example, contaminated fruits, vegetables, and oysters have been linked to norovirus outbreaks. Wash fruits and vegetables before using them, and thoroughly cook oysters and other shellfish. Find tips to help keep food safe.\n\nThe flu vaccine does not protect against viral gastroenteritis. Although some people call viral gastroenteritis “stomach flu,” influenza (flu) viruses do not cause viral gastroenteritis. However, rotavirus vaccines can prevent viral gastroenteritis caused by rotavirus."
+    },
+    {
+     "heading": "How can I prevent viral gastroenteritis?: Rotavirus Vaccines",
+     "body": "Two vaccines, which infants receive by mouth, are approved to protect against rotavirus infections\n\n- RotaTeq: Infants receive three doses, at ages 2 months, 4 months, and 6 months\n- Rotarix: Infants receive this vaccine in two doses, at ages 2 months and 4 months\n\nFor the rotavirus vaccine to be most effective, infants should receive the first dose by 15 weeks of age. Infants should receive all doses by 8 months of age.\n\nIf you have a baby, talk with your baby’s doctor about rotavirus vaccination."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/viral-gastroenteritis/treatment"
+  },
+  {
+   "title": "Food Poisoning: Symptoms and When to Seek Care (NIDDK)",
+   "sections": [
+    {
+     "heading": "What are the symptoms of food poisoning?",
+     "body": "Common symptoms of food poisoning include\n\n- diarrhea or bloody diarrhea\n- vomiting\n- pain in your abdomen\n- fever\n- headache\n\nSymptoms range from mild to severe and may last from a few hours to several days.\n\nLess commonly, some types of food poisoning—such as botulism and fish and shellfish poisoning—can affect your nervous system. Symptoms may include\n\n- blurred vision\n- headache\n- paralysis\n- tingling or numbness of your skin\n- weakness\n\nPeople with nervous system symptoms should see a doctor or go to an emergency room right away."
+    },
+    {
+     "heading": "What are the symptoms of dehydration?",
+     "body": "Symptoms of dehydration, the most common complication of food poisoning, may include the following in adults\n\n- extreme thirst and dry mouth\n- urinating less than usual\n- light-headedness; dizziness, which may occur when the person stands up; or fainting\n- feeling tired\n- dark-colored urine\n- decreased skin turgor, meaning that when you pinch and release the person’s skin, it does not flatten back to normal right away\n- sunken eyes or cheeks\n\nIf you are the parent or caretaker of an infant or a young child with symptoms of food poisoning, you should watch for the following signs of dehydration\n\n- thirst and dry mouth\n- urinating less than usual, or no wet diapers for 3 hours or more\n- lack of energy\n- no tears when crying\n- decreased skin turgor, meaning that when you pinch and release the child’s skin, it does not flatten back to normal right away\n- sunken eyes or cheeks\n\nAnyone with signs or symptoms of dehydration should see a doctor or go to an emergency room right away. A person with severe dehydration may need treatment at a hospital."
+    },
+    {
+     "heading": "Seek care right away",
+     "body": "Food poisoning can become dangerous if it leads to severe dehydration or other complications. The symptoms listed below may suggest that an adult or child has a severe form of food poisoning, dehydration or other complications, or a serious health problem other than food poisoning. Anyone with these signs or symptoms should see a doctor right away."
+    },
+    {
+     "heading": "Seek care right away: Adults",
+     "body": "Adults with any of the following symptoms should see a doctor right away\n\n- change in mental state, such as irritability, lack of energy, or confusion\n- high fever\n- vomiting often\n- six or more loose stools in a single day\n- diarrhea that continues for more than 3 days\n- nervous system symptoms\n- severe pain in the abdomen or rectum\n- stools that are black and tarry or contain blood or pus\n- symptoms of dehydration or other complications\n\nAdults should also see a doctor if they aren’t able to drink enough liquids or oral rehydration solutions—such as Pedialyte, Naturalyte, Infalyte, and CeraLyte—to prevent dehydration or if they do not improve after drinking oral rehydration solutions.\n\nOlder adults, pregnant women, and adults with a weakened immune system or another health condition should also see a doctor right away if they have any symptoms of food poisoning."
+    },
+    {
+     "heading": "Seek care right away: Infants and children",
+     "body": "If an infant or child has signs or symptoms of food poisoning, don’t hesitate to call a doctor for advice. Diarrhea is especially dangerous in newborns and infants, leading to severe dehydration in just a day or two. A child with symptoms of dehydration can die within a day if left untreated.\n\nIf you are the parent or caretaker of an infant or child with any of the following signs or symptoms, seek a doctor’s help right away\n\n- change in the child’s mental state, such as irritability or lack of energy\n- diarrhea lasting more than a day\n- any fever in infants\n- high fever in older children\n- frequent loose stools\n- vomiting often\n- nervous system symptoms\n- severe pain in the abdomen or rectum\n- signs or symptoms of complications, such as dehydration or hemolytic uremic syndrome\n- stools that are black and tarry or contain blood or pus\n\nYou should also seek a doctor’s help right away if a child has signs or symptoms of food poisoning and the child is an infant, was born prematurely, or has a history of other medical conditions. Also seek a doctor’s help right away if the child is not able to drink enough liquids or oral rehydration solutions to prevent dehydration or if the child does not improve after drinking oral rehydration solutions."
+    },
+    {
+     "heading": "What causes food poisoning?",
+     "body": "Infections with microbes—viruses, bacteria, and parasites—cause most food poisoning. Harmful chemicals also cause some cases of food poisoning.\n\nMicrobes can spread to food at any time while the food is grown, harvested or slaughtered, processed, stored, shipped, or prepared.\n\nSome harmful microbes may already be present in foods when you buy them. Foods that may contain microbes include\n\n- fresh produce\n- raw or undercooked meat, poultry, and eggs\n- dairy products and fruit juices that have not been pasteurized—heated to kill harmful microbes\n- fish and shellfish\n- foods that people handle during preparation, sometimes called “deli foods,” such as sliced meat, salads and cut fruit, sandwiches, and baked goods\n- processed and ready-to-eat meats such as hot dogs or deli meat\n- foods that are not properly canned or sealed\n\nIf you don’t keep raw foods—such as beef, poultry, seafood, and eggs—separate from other foods, microbes from the raw foods can spread to other foods. Microbes can also spread from raw foods to your hands, kitchen utensils, cutting boards, and kitchen surfaces during food preparation. If you don’t wash your hands, utensils, cutting boards, and surfaces completely after they have come into contact with raw foods, they can spread microbes to other foods.\n\nMicrobes can cause food poisoning if you don’t take steps to kill or slow the growth of microbes in food. Microbes can grow if people don’t cook food thoroughly, keep cooked food hot, or promptly refrigerate or freeze food that can spoil.\n\nMicrobes present in the stool or vomit of people who are infected can also spread to food and cause food poisoning. People may spread these microbes to foods and drinks, especially if they don’t wash their hands thoroughly after using the bathroom, after changing a diaper, and before preparing foods and drinks.\n\nFind tips to keep food safe and help prevent food poisoning."
+    },
+    {
+     "heading": "What kinds of microbes cause food poisoning?: Viruses",
+     "body": "Viruses invade normal cells in your body. Many viruses cause infections that can be spread from person to person.\n\nIf water comes into contact with stools of infected people, the water may become contaminated with a virus. The contaminated water can spread the virus to foods. For example, if contaminated water is used to water or wash produce, the virus can spread to the produce. Similarly, shellfish that were living in contaminated water could contain a virus.\n\nIf people who are infected with a virus prepare or handle foods, they may spread the virus to the foods.\n\nCommon viruses that cause food poisoning include norovirus and hepatitis A."
+    },
+    {
+     "heading": "What kinds of microbes cause food poisoning?: Bacteria",
+     "body": "Bacteria are tiny organisms that can cause infection or disease. Bacteria can enter your body through contaminated food or water.\n\nBacteria grow quickly when the temperature of food is between 40 and 140 degrees. Keeping food colder than 40 degrees in a refrigerator or freezer can slow or stop the growth of bacteria. Cooking food thoroughly often kills bacteria.\n\nMany types of bacteria can cause food poisoning, including\n\n- certain types of Salmonella\n- certain types of Clostridium, including the common C. perfringens and the less common C. botulinum, which causes an illness called botulism\n- certain types of Campylobacter, including C. jejuni\n- Staphylococcus aureus, also called staph\n- Escherichia coli, also called E. coli\n- certain types of Vibrio\n- Listeria monocytogenes, also called Listeria"
+    },
+    {
+     "heading": "What kinds of microbes cause food poisoning?: Parasites",
+     "body": "Parasites are tiny organisms that live inside other organisms. Parasites can enter your body through food or water and settle in your digestive tract. In developed countries such as the United States, parasitic infections are rare.\n\nParasites that cause food poisoning include\n\n- Toxoplasma gondii, which causes an illness called toxoplasmosis\n- Giardia\n- Cryptosporidium, which causes an illness called cryptosporidiosis or crypto"
+    },
+    {
+     "heading": "What kinds of microbes cause food poisoning?: Travelers’ diarrhea",
+     "body": "People who travel from the United States to developing countries may develop travelers’ diarrhea. Eating food or drinking water contaminated with bacteria, parasites, or viruses causes travelers’ diarrhea. Although travelers’ diarrhea is most often acute, some parasites cause diarrhea that lasts longer."
+    },
+    {
+     "heading": "How do harmful chemicals cause food poisoning?",
+     "body": "Harmful chemicals may be present in certain foods, including\n\n- fish and shellfish that contain toxins produced by algae or bacteria\n- certain types of wild mushrooms\n- unwashed produce that contains large amounts of chemical pesticides\n\nLast Reviewed June 2019\n\nPrevious: Definition & Facts\n\nNext: Diagnosis\n\nThis content is provided as a service of the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), part of the National Institutes of Health. NIDDK translates and disseminates research findings to increase knowledge and understanding about health and disease among patients, health professionals, and the public. Content produced by NIDDK is carefully reviewed by NIDDK scientists and other experts."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/food-poisoning/symptoms-causes"
+  },
+  {
+   "title": "Treating Food Poisoning (NIDDK)",
+   "sections": [
+    {
+     "heading": "How can I treat food poisoning?",
+     "body": "In most cases, people with food poisoning get better on their own without medical treatment. You can treat food poisoning by replacing lost fluids and electrolytes to prevent dehydration. In some cases, over-the-counter medicines may help relieve your symptoms.\n\nWhen you have food poisoning, you may vomit after you eat or lose your appetite for a short time. When your appetite returns, you can most often go back to eating your normal diet, even if you still have diarrhea. Find tips on what to eat when you have food poisoning.\n\nIf your child has symptoms of food poisoning, such as vomiting or diarrhea, don’t hesitate to call a doctor for advice."
+    },
+    {
+     "heading": "How can I treat food poisoning?: Replace lost fluids and electrolytes",
+     "body": "When you have food poisoning, you need to replace lost fluids and electrolytes to prevent dehydration or treat mild dehydration. You should drink plenty of liquids. If vomiting is a problem, try sipping small amounts of clear liquids. Replacing lost fluids and electrolytes is the most important treatment for food poisoning.\n\nAdults. Most adults with food poisoning can replace fluids and electrolytes with liquids such as\n\n- water\n- fruit juices with water added to dilute the juice\n- sports drinks\n- broths\n\nEating saltine crackers can also help replace electrolytes.\n\nOlder adults, adults with a weakened immune system, and adults with severe diarrhea or symptoms of dehydration should drink oral rehydration solutions, such as Pedialyte, Naturalyte, Infalyte, and CeraLyte. Oral rehydration solutions are liquids that contain glucose and electrolytes.\n\nChildren. If your child has food poisoning, you should give your child an oral rehydration solution—such as Pedialyte, Naturalyte, Infalyte, and CeraLyte—as directed. Talk with a doctor about giving these solutions to your infant. Infants should drink breast milk or formula as usual."
+    },
+    {
+     "heading": "How can I treat food poisoning?: Over-the-counter medicines",
+     "body": "In some cases, adults can take over-the-counter medicines such as loperamide (Imodium) and bismuth subsalicylate (Pepto-Bismol, Kaopectate) to treat diarrhea caused by food poisoning.\n\nThese medicines can be dangerous for infants and children. Talk with a doctor before giving your child an over-the-counter medicine.\n\nIf you have bloody diarrhea or fever—signs of infections with bacteria or parasites—don’t use over-the-counter medicines to treat diarrhea. See a doctor for treatment."
+    },
+    {
+     "heading": "How do doctors treat food poisoning?",
+     "body": "To treat food poisoning caused by bacteria or parasites, your doctor may prescribe antibiotics or medicines that target parasites, in addition to rehydration solutions.\n\nIn some cases, doctors may recommend probiotics. Probiotics are live microbes, most often bacteria, that may be similar to microbes you normally have in your digestive tract. Studies suggest that some probiotics may help shorten a bout of diarrhea. Researchers are still studying the use of probiotics to treat food poisoning. For safety reasons, talk with your doctor before using probiotics or any other complementary or alternative medicines or practices. This is especially important when children, older adults, or those with weak immune systems have diarrhea.\n\nDoctors may need to treat people with life-threatening symptoms and complications—such as severe dehydration, hemolytic uremic syndrome, or paralysis—in a hospital."
+    },
+    {
+     "heading": "How can I prevent food poisoning?",
+     "body": "You can prevent some food poisoning by properly storing, cooking, cleaning, and handling foods. For example,\n\n- keep raw meat, poultry, seafood, and eggs separate from other foods\n- prepare salads and refrigerate them before handling raw meat, poultry, seafood, or eggs\n- promptly refrigerate or freeze foods that can spoil\n- wash your hands with soap and water before and after handling food\n- wash fruits and vegetables before eating, cutting, or cooking\n- cook foods long enough and at high enough temperatures to kill harmful microbes\n- wash utensils and surfaces after each use\n- don’t eat foods that can spoil that have been sitting out for more than 2 hours, or in temperatures over 90 degrees, for more than 1 hour\n\nFood safety is especially important for people who are more likely to get food poisoning and related complications, including\n\n- infants and children\n- pregnant women and their fetuses\n- older adults\n- people with weak immune systems\n\nFind tips on food safety for people in these groups."
+    },
+    {
+     "heading": "How can I prevent food poisoning?: Food recalls",
+     "body": "You can help prevent food poisoning by watching for food recalls. Companies recall foods—take foods off the market—if they find out that the foods could make people sick. If you learn that a food was recalled because it could cause food poisoning, check to see if you have the food. If you do, make sure no one eats it. You can return the food to the store or dispose of it.\n\nLearn more about recently recalled foods."
+    },
+    {
+     "heading": "How can I prevent food poisoning?: Travelers’ diarrhea",
+     "body": "To reduce your chances of getting travelers’ diarrhea when traveling to developing countries, avoid eating or drinking the following\n\n- unbottled or untreated water. Also avoid brushing your teeth with unbottled or untreated water. Tap, well, lake, or river water may contain microbes.\n- ice, foods, and drinks prepared with untreated tap or well water.\n- unpasteurized juice, milk, and milk products like cheese or yogurt. Pasteurization kills harmful microbes.\n- food or drinks from street vendors.\n- warm food that was not served hot.\n- raw or undercooked meat, fish, or shellfish.\n- raw vegetables and fruits that you have not washed in clean water or peeled yourself.\n\nIf you are worried about travelers’ diarrhea, talk with your doctor before traveling. Your doctor may recommend ways that you can treat local water to kill or remove harmful microbes. Your doctor may also recommend that you bring antibiotics with you in case you get diarrhea during your trip. Early treatment with antibiotics can shorten a case of travelers’ diarrhea. Doctors may prescribe an antibiotic such as rifaximin (Xifaxan) or rifamycin (Aemcolo) to treat adults with travelers’ diarrhea caused by certain strains of Escherichia coli (E. coli) who do not have fever or blood in the stool. For severe travelers’ diarrhea, your doctor may prescribe azithromycin (Zithromax, Zmax) or ciprofloxacin (Cipro).\n\nDoctors may advise some people—especially people with weakened immune systems—to take antibiotics before and during a trip to help prevent travelers’ diarrhea.\n\nLast Reviewed June 2019\n\nPrevious: Diagnosis\n\nNext: Eating, Diet, & Nutrition\n\nThis content is provided as a service of the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), part of the National Institutes of Health. NIDDK translates and disseminates research findings to increase knowledge and understanding about health and disease among patients, health professionals, and the public. Content produced by NIDDK is carefully reviewed by NIDDK scientists and other experts."
+    }
+   ],
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/food-poisoning/treatment"
+  },
+  {
+   "title": "Safely Using Hand Sanitizer (FDA)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Español 简体中文 Tagalog 한국어 Việt\n\nWatch \"Safely Using Hand Sanitizer\" video below.\n\nWe can help stop the spread of COVID-19 and other infectious diseases by washing our hands regularly with soap and water for 20 seconds – especially after going to the bathroom, before eating, and after coughing, sneezing, or blowing our nose. If soap and water are not available, the Centers for Disease Control and Prevention recommend using alcohol-based hand sanitizers containing at least 60% alcohol to help you avoid getting sick and spreading germs to others.\n\nRub the hand sanitizer all over your hands, making sure to get between your fingers and on the back of your hands. Do not wipe or rinse off the hand sanitizer before it dries. Do not use hand sanitizer if your hands are visibly dirty or greasy; wash your hands with soap and water instead.\n\nIf you use alcohol-based hand sanitizers, keep these safety tips in mind."
+    },
+    {
+     "heading": "Hand Sanitizers Are Drugs",
+     "body": "Hand sanitizers are regulated as over-the-counter (OTC, or nonprescription) drugs by the U.S. Food and Drug Administration. If you use alcohol-based hand sanitizers, read and follow the Drug Facts label, particularly the warnings section.\n\nStore hand sanitizer out of the reach of pets and children, and kids should use it only with adult supervision. Call your doctor or the Poison Help Line at 1-800-222-1222 if you have a serious reaction to hand sanitizer.\n\nAlso, remember these safety tips:\n\n- Keep hand sanitizer out of your eyes.\n- Use hand sanitizer in a well-ventilated area.\n- Supervise children using hand sanitizer.\n- Do not drink hand sanitizer. This is particularly important for young children, especially toddlers, who may be attracted by the pleasant smell or brightly colored bottles of hand sanitizer. Drinking even a small amount of hand sanitizer can cause alcohol poisoning in children. (But there is no need to be concerned if your children eat with or lick their hands after using hand sanitizer.) Poison control centers have had an increase in calls about accidental ingestion of hand sanitizer, so it is important that adults monitor young children’s use.\n- Beware of alcohol-based hand sanitizers that are packaged in containers that may appear as food or drinks, and of those that contain food flavors or fragrances.\n- The FDA found hand sanitizers that contain food flavors or fragrances, such as chocolate or raspberry. Eating or drinking these products can cause serious injury or death.\n- Do not use these products on your pets, and do not allow pets to swallow hand sanitizer. If you think your pet has eaten something potentially dangerous, call your veterinarian or a pet poison control center right away. The FDA offers advice and resources related to potentially dangerous items for your pet.\n- Hand sanitizer is flammable. Keep hand sanitizer away from heat and flames. When using hand sanitizer, rub your hands until they feel completely dry before performing activities that may involve heat, sparks, static electricity, or open flames."
+    },
+    {
+     "heading": "Check the FDA’s List of Hand Sanitizers Consumers Should Not Use",
+     "body": "The FDA discovered serious safety concerns with some hand sanitizers during testing. This includes some hand sanitizers that:\n\n- Are contaminated with potentially toxic types of alcohol.\n- Do not contain enough active ingredient (ethyl alcohol or isopropyl alcohol).\n- Have labels containing false, misleading, or unproven claims.\n\nBefore you buy hand sanitizer or use hand sanitizer you have at home, check the FDA’s list of hand sanitizers consumers should not use at www.fda.gov/handsanitizerlist.\n\nHealth care professionals and consumers are encouraged to report adverse events or side effects related to the use of these products to the FDA’s MedWatch Safety Information and Adverse Event Reporting program:\n\n- Complete and submit the report online.\n- Download the form or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the form or submit by fax to 1-800-FDA-0178.\n\nHand sanitizers are a convenient alternative when handwashing with soap and water isn’t possible. You can help protect yourself and your family from diseases with simple hygiene. For more information, visit: Q&A for Consumers: Hand Sanitizers and COVID-19. For the latest information and resources on COVID-19, visit covid.gov."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/safely-using-hand-sanitizer"
+  },
+  {
+   "title": "When and How to Use Antibiotics (FDA)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Antibiotics are powerful medications that save countless lives every day. But they’re not the answer for every illness.\n\nAntibiotics treat only some infections caused by bacteria – and none caused by viruses. Most often, antibiotics work by killing the targeted bacteria or by making it difficult for the bacteria to multiply.\n\nTalk to your health care professional about the best treatment for you when you are sick. The U.S. Food and Drug Administration encourages taking all medications, including antibiotics, as directed by your health care professional.\n\nHere’s how you can safely use antibiotics so you can get well, protect yourself and your family, and combat antimicrobial resistance."
+    },
+    {
+     "heading": "Antibiotics Treat Some Bacterial Infections but Don’t Treat Any Viruses",
+     "body": "Antibiotics aren’t always the answer when you’re sick. Your doctor needs to diagnose your condition to know how to treat it effectively. For example, they might prescribe antibiotics to treat or prevent a bacterial infection, such as:\n\n- Strep throat.\n- Whooping cough.\n- Urinary tract infection (UTI).\n\nAntibiotics do not work on viruses and are not needed for many respiratory infections. Viral illnesses that cannot be treated with antibiotics include:\n\n- Common cold.\n- Influenza (flu).\n- COVID-19."
+    },
+    {
+     "heading": "Always Take Your Antibiotics as Prescribed, Even if You Start to Feel Better",
+     "body": "Antibiotics are most effective when you take them as prescribed. For antibiotics to work properly and help you get well, you should:\n\n- Take them exactly as prescribed.\n- Not skip doses.\n- Not save your doses for the next time you get sick.\n- Not take antibiotics prescribed for someone else.\n- Tell your health care professional about all the medications you are taking to reduce the chances of drug interactions and side effects.\n- Talk to a doctor or pharmacist if you have any questions about your antibiotics or if you have any new or unusual symptoms or side effects while on the medication.\n\nYou can report new or unusual side effects to the FDA’s MedWatch program at 800-FDA-1088 or online on this FDA page."
+    },
+    {
+     "heading": "Antibiotic Use and Antimicrobial Resistance",
+     "body": "The misuse and overuse of antibiotics are contributing to the growing problem of antibiotic resistance, also called antimicrobial resistance. This happens when bacteria (not your body) develop defenses against antibiotics, making it harder – and sometimes impossible – to treat an infection.\n\nWhen someone becomes infected with antibiotic-resistant bacteria, their treatment can become more complicated. For example, fewer antibiotics are effective against their condition. In rare cases, treatment options are extremely limited or even nonexistent. In addition, the antimicrobial-resistant bacteria can spread to other people.\n\nWhen antibiotics don’t work, the result can be:\n\n- Longer illnesses.\n- More complicated illnesses.\n- More medical appointments and longer hospital stays.\n- More deaths caused by bacterial infections.\n\nBy using antibiotics properly, you can help slow the spread of antimicrobial-resistant threats and ensure that these lifesaving drugs will work when you and your loved ones need them."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/know-when-and-how-use-antibiotics-and-when-skip-them"
+  },
+  {
+   "title": "Reading the Over-the-Counter Drug Facts Label (FDA)",
+   "sections": [
+    {
+     "heading": "Always Read the Label",
+     "body": "Reading the product label is the most important part of taking care of yourself or your family when using nonprescription medicines, also known as OTC medicines. These medicines are available without a prescription. It is especially important to read the label of OTC medicines because they can be taken without seeing a doctor. FDA regulation makes sure the labels on all OTC medicines (from a bottle of sunscreen to a bottle of cough syrup) have information listed in the same order; are arranged in a consistent style and contain easier to understand words."
+    },
+    {
+     "heading": "What's On The Label",
+     "body": "All nonprescription, OTC medicine labels have detailed usage and warning information so consumers can properly choose and use the products."
+    },
+    {
+     "heading": "Active Ingredient(s)",
+     "body": "Active Ingredient(s). The substance(s) in the product that cause the intended therapeutic effect. This also states the amount of substance(s) for each dosage unit."
+    },
+    {
+     "heading": "Purpose(s)",
+     "body": "Purpose(s). Product action or pharmacologic category."
+    },
+    {
+     "heading": "Use(s)",
+     "body": "Use(s). Symptoms or diseases the product will treat or prevent."
+    },
+    {
+     "heading": "Warning(s)",
+     "body": "Warning(s). When not to use the product; conditions that may require advice from a doctor before taking the product; possible interactions or side effects; when to stop taking the product and when to contact a doctor; pregnancy or breastfeeding warnings; when it is appropriate to talk to a doctor or pharmacist; keep product out of children’s reach."
+    },
+    {
+     "heading": "Directions",
+     "body": "Directions. Dosage instructions-- how much to take, how to take, how often, and how long to take the drug."
+    },
+    {
+     "heading": "Inactive Ingredients",
+     "body": "Inactive Ingredients. Substances such as binders, colors or flavorings."
+    },
+    {
+     "heading": "Other Information",
+     "body": "Other Information. How to store the product properly and information about certain ingredients (such as the amount of calcium, potassium, or sodium the product contains).\n\nNote: The Drug Facts labeling requirements do not apply to dietary supplements, which are regulated as food products, and are labeled with a Supplement Facts panel."
+    },
+    {
+     "heading": "The Label Also Tells You...",
+     "body": "- Statement of identity (name, purpose, and strength of the active ingredient).\n- Net quantity of contents (how much of the product is in each package).\n- The expiration date, when applicable (date after which you should not use the product). If there is no expiration date on the label, the drug should be considered expired three years after purchase.\n- Lot or batch code (manufacturer information to help identify the product).\n- Name and address of manufacturer, packer, or distributor."
+    },
+    {
+     "heading": "Reading the Label: The Key to Proper Medicine Use",
+     "body": "The label tells you what a medicine is supposed to do, who should or should not take it, and how to use it. But efforts to provide good labeling can't help unless you read and use the information. It's up to you to be informed and use your medicines wisely and responsibly.\n\nThe manufacturers of OTC medicines sometimes make changes to their products or labeling (new ingredients, dosages, or warnings). In addition, many OTC medicines may have similar brand names with different active ingredients. Make sure to read the label each time you use the product. Always look for special \"flags\" or \"banners\" on the front product label alerting you to such changes. If you read the label and still have questions, ask your doctor, pharmacist, or other health care professional for advice."
+    },
+    {
+     "heading": "Tamper-Evident Packaging: An Important Safety Feature",
+     "body": "The makers of OTC medicines widely use tamper-evident packaging for their products. This is to help protect consumers against possible criminal tampering. Drug products with tamper-evident packaging have a statement on the packaging describing this safety feature. It is always important to inspect the outer packaging before you buy an OTC drug product and to look at the product again before you take it.\n\nOTC medicines are sold in containers with child safety closures. Use them properly. Remember—keep all medicines out of the sight and reach of children."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/drugs/understanding-over-counter-medicines/over-counter-drug-facts-label"
+  },
+  {
+   "title": "Face Masks, Surgical Masks and N95 Respirators (FDA)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "N95 respirators and surgical masks are examples of personal protective equipment that are used to protect the wearer from particles or from liquid contaminating the face. The Centers for Disease Control and Prevention (CDC) National Institute for Occupational Safety and Health (NIOSH) also regulates N95 respirators. The Department of Labor's Occupational Safety and Health Administration (OSHA) regulates entities for compliance with worker safety rules and OSHA standards, including, for example, the proper use of respirators in different work environments.\n\nIt is important to recognize that the optimal way to prevent transmission of microorganisms, such as viruses, is to use a combination of interventions from across the hierarchy of controls, not just PPE alone."
+    },
+    {
+     "heading": "Face Masks",
+     "body": "A face mask is a product that covers the wearer's nose and mouth. Face masks are for use as source control by the general public and health care personnel (HCP) in accordance with CDC recommendations, and are not personal protective equipment. Face masks may or may not meet any fluid barrier or filtration efficiency levels; therefore, they are not a substitute for N95 respirators or other Filtering Facepiece Respirators (FFRs), which provide respiratory protection to the wearer, or for surgical masks, which provide fluid barrier protection to the wearer."
+    },
+    {
+     "heading": "Barrier Face Coverings",
+     "body": "A barrier face covering, as described in ASTM F3502-21, is a product worn on the face specifically covering at least the wearer's nose and mouth, with the primary purpose of providing source control and to provide a degree of particulate filtration to reduce the amount of inhaled particulate material. Barrier face coverings are not a substitute for N95 respirators and other Filtering Facepiece Respirators (FFRs), which provide respiratory protection to the wearer, or for surgical masks, which provide fluid barrier and particulate material protection to the wearer.\n\nBarrier face coverings may be made from a variety of materials that are not flammable. By definition, a barrier face covering should meet the particulate filtration efficiency, airflow resistance, and leakage assessment recommendations as described in ASTM F3502-21."
+    },
+    {
+     "heading": "Surgical Masks",
+     "body": "A surgical mask is a loose-fitting, disposable device that creates a physical barrier between the mouth and nose of the wearer and potential contaminants in the immediate environment. Surgical masks are regulated under 21 CFR 878.4040. Surgical masks are not to be shared and may be labeled as surgical, isolation, dental, or medical procedure masks. They may come with or without a face shield. These are sometimes referred to as face masks, as described above, although not all face masks are regulated as surgical masks.\n\nSurgical masks are made in different thicknesses and with different ability to protect you from contact with liquids. These properties may also affect how easily you can breathe through the face mask and how well the surgical mask protects you.\n\nIf worn properly, a surgical mask is meant to help block large-particle droplets, splashes, sprays, or splatter that may contain germs (viruses and bacteria), keeping it from reaching your mouth and nose. Surgical masks may also help reduce exposure of your saliva and respiratory secretions to others.\n\nWhile a surgical mask may be effective in blocking splashes and large-particle droplets, a face mask, by design, it does not filter or block very small particles in the air that may be transmitted by coughs, sneezes, or certain medical procedures. Surgical masks also do not provide complete protection from germs and other contaminants because of the loose fit between the surface of the mask and your face.\n\nSurgical masks are not intended to be used more than once. If your surgical mask is damaged or soiled, or if breathing through the mask becomes difficult, you should remove it, discard it safely, and replace it with a new one. To safely discard your surgical mask, place it in a plastic bag and put it in the trash. Wash your hands after handling the used mask."
+    },
+    {
+     "heading": "N95 Respirators",
+     "body": "An N95 respirator is a respiratory protective device designed to achieve a very close facial fit and very efficient filtration of airborne particles. Note that the edges of the respirator are designed to form a seal around the nose and mouth. Surgical N95 Respirators are commonly used in healthcare settings and are a subset of N95 Filtering Facepiece Respirators (FFRs), often referred to as N95s."
+    },
+    {
+     "heading": "Comparing Surgical Masks and Surgical N95 Respirators",
+     "body": "The FDA regulates surgical masks and surgical N95 respirators differently based on their intended use.\n\nA surgical mask is a loose-fitting, disposable device that creates a physical barrier between the mouth and nose of the wearer and potential contaminants in the immediate environment. These are often referred to as face masks, although not all face masks are regulated as surgical masks. Note that the edges of the mask are not designed to form a seal around the nose and mouth.\n\nAn N95 respirator is a respiratory protective device designed to achieve a very close facial fit and very efficient filtration of airborne particles. Note that the edges of the respirator are designed to form a seal around the nose and mouth.\n\nSurgical N95 Respirators are commonly used in healthcare settings and are a subset of N95 Filtering Facepiece Respirators (FFRs), often referred to as N95s."
+    },
+    {
+     "heading": "General N95 Respirator Precautions",
+     "body": "- People with chronic respiratory, cardiac, or other medical conditions that make breathing difficult should check with their health care provider before using an N95 respirator because the N95 respirator can make it more difficult for the wearer to breathe.\n- Some models have exhalation valves that can make breathing out easier and help reduce heat build-up. Note that N95 respirators with exhalation valves should not be used when sterile conditions are needed.\n- All FDA-cleared N95 respirators are labeled as \"single-use,\" disposable devices. If your respirator is damaged or soiled, or if breathing becomes difficult, you should remove the respirator, discard it properly, and replace it with a new one. To safely discard your N95 respirator, place it in a plastic bag and put it in the trash. Wash your hands after handling the used respirator.\n- N95 respirators are not designed for children or people with facial hair. Because a proper fit cannot be achieved on children and people with facial hair, the N95 respirator may not provide full protection."
+    },
+    {
+     "heading": "N95 Respirators in Industrial and Health Care Settings",
+     "body": "Most N95 respirators are manufactured for use in construction and other industrial type jobs that expose workers to dust and small particles. They are regulated by the National Personal Protective Technology Laboratory (NPPTL) in the National Institute for Occupational Safety and Health (NIOSH), which is part of the Centers for Disease Control and Prevention (CDC).\n\nHowever, some N95 respirators are intended for use in a healthcare setting. Specifically, single-use, disposable respiratory protective devices used and worn by healthcare personnel during procedures to protect both the patient and healthcare personnel from the transfer of microorganisms, body fluids, and particulate material. These surgical N95 respirators are class II devices regulated by the FDA, under 21 CFR 878.4040, and CDC NIOSH under 42 CFR Part 84.\n\nN95s respirators regulated under product code MSH are class II medical devices exempt from 510(k) premarket notification, unless:\n\n- The respirator is intended to prevent specific diseases or infections, or\n- The respirator is labeled or otherwise represented as filtering surgical smoke or plumes, filtering specific amounts of viruses or bacteria, reducing the amount of and/or killing viruses, bacteria, or fungi, or affecting allergenicity, or\n- The respirator contains coating technologies unrelated to filtration (e.g., to reduce and or kill microorganisms).\n\nThe FDA has a Memorandum of Understanding (MOU) with CDC NIOSH which outlines the framework for coordination and collaboration between the FDA and NIOSH for regulation of this subset of N95 respirators.\n\nFor additional differences between surgical masks and N95 respirators, please see CDC's infographic."
+    }
+   ],
+   "sourceUrl": "https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-face-masks-and-barrier-face-coverings"
+  },
+  {
+   "title": "Free Prescriptions and Medical Supplies After a Disaster: EPAP (ASPR)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "If you don't have health insurance and live in a disaster area declared by the President, you may be able to get free prescription medications and medical supplies through the Emergency Prescription Assistance Program (EPAP)."
+    },
+    {
+     "heading": "What is EPAP?",
+     "body": "EPAP is a federal program that helps people in disaster areas who don't have health insurance get the medicine and medical supplies they need—at no cost.\n\nIf you qualify, you can get a 30-day supply of your prescription drugs, vaccines, medical supplies (like insulin testing strips), and some medical equipment (like wheelchairs, walkers, and canes). The pharmacist can provide you with a 30-day supply of most prescription drugs while EPAP is active. You can renew your prescription for as long as EPAP is active in your area. For additional details on the products that EPAP covers, see Items Covered by EPAP."
+    },
+    {
+     "heading": "Who Qualifies for Assistance?: You may qualify if you:",
+     "body": "Don't have health insurance\n\n(this includes Medicare, Medicaid, or private insurance).\n\nLive in a disaster area where EPAP is active\n\nHave a prescription or proof of a prescription"
+    },
+    {
+     "heading": "Who Qualifies for Assistance?: What is Included?",
+     "body": "Most prescription medications\n\nVaccines\n\nMedical supplies\n\n(including diabetic supplies)\n\nMedical equipment\n\n(like walkers, wheelchairs, crutches, and canes)"
+    },
+    {
+     "heading": "How Does It Work?: Check if EPAP is active in your area.",
+     "body": "- See the list of zip codes above or call the EPAP Hotline at 1-855-793-7470 (TTY 1-800-876-1089).\n- NOTE: EPAP is activated by ZIP code, not by county. This means some parts of a county may be covered, while others are not."
+    },
+    {
+     "heading": "How Does It Work?: Verify that you meet the criteria for assistance through EPAP.",
+     "body": "- Read the criteria on this website."
+    },
+    {
+     "heading": "How Does It Work?: Check to see if the medication, medical supplies, or medical equipment you need are covered by the program.",
+     "body": "- Check the list of items covered by EPAP or call Express Scripts at 1-855-793-7470 to learn if your prescription, medical supplies, or medical equipment are covered."
+    },
+    {
+     "heading": "How Does It Work?: Find an EPAP-enrolled pharmacy.",
+     "body": "- You can get your medicine at any participating pharmacy, even if you have left the disaster area. Use the EPAP Pharmacy Locator or call the hotline to find one."
+    },
+    {
+     "heading": "How Does It Work?: Bring your prescription information to the pharmacy.",
+     "body": "- The pharmacy needs one of the following:\n- A new prescription from a doctor or nurse\n- A current prescription bottle\n- Proof of an existing prescription\n- A prescription sent directly from your doctor to the pharmacy\n- The pharmacist can provide you with a 30-day supply of most prescription drugs while EPAP is active. You can renew your prescription for as long as EPAP is active in your area."
+    },
+    {
+     "heading": "Important for Pharmacists: Need Help?",
+     "body": "Call the EPAP Hotline at 1-855-793-7470 (TTY 1-800-876-1089) for questions, pharmacy locations, and more information."
+    }
+   ],
+   "sourceUrl": "https://www.aspr.gov/readiness-response/response-operations/epap/patients"
+  },
+  {
+   "title": "Dental Emergencies in Your Home (Indian Health Service)",
+   "sections": [
+    {
+     "heading": "Dental emergencies in your home",
+     "body": "DENTAL EMERGENCIES - In Your Home\n\nIF YOU NEED MORE HELP, CALL 911"
+    },
+    {
+     "heading": "Toothache",
+     "body": "- Rinse with warm water\n- Use floss or toothpick to remove anything caught between teeth\n- Do NOT put medicine on tooth!\n- See dentist"
+    },
+    {
+     "heading": "Knocked-out tooth",
+     "body": "- Find tooth\n- Hold tooth by part that was not in the gums\n- Gently rinse tooth with water\n- Put tooth back in tooth socket, if not able, store tooth in milk\n- See dentist ASAP"
+    },
+    {
+     "heading": "Broken tooth",
+     "body": "- Rinse with warm water\n- Use cold compress/ ice pack on face outside near tooth area\n- See dentist ASAP"
+    },
+    {
+     "heading": "Tongue or lip cut",
+     "body": "- Put easy direct pressure to area\n- Use cold compress/ ice pack on area\n- If bleeding doesn’t stop, go to hospital or dentist ASAP"
+    },
+    {
+     "heading": "Object stuck between teeth",
+     "body": "- Gently use floss or toothpick to remove\n- Do NOT put anything sharp in mouth\n- If object cannot be removed, see dentist"
+    },
+    {
+     "heading": "Possible broken jaw",
+     "body": "- Use cold compress/ ice pack on area\n- Go to hospital ASAP"
+    }
+   ],
+   "sourceUrl": "https://www.ihs.gov/doh/documents/centers/abq/DentalEmergMagnets_PORTAL.pdf"
+  }
+ ]
+}

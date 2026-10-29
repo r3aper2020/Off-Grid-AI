@@ -1,0 +1,86 @@
+[
+ {
+  "file": "fig-4-1.webp",
+  "caption": "Figure 4-1. Individual caloric requirements",
+  "kind": "figure",
+  "page": 64,
+  "bbox": [
+   85.9,
+   107.5,
+   508.1,
+   299.3
+  ]
+ },
+ {
+  "file": "fig-4-2.webp",
+  "caption": "Figure 4-2. Modular cold-weather glove system",
+  "kind": "figure",
+  "page": 68,
+  "bbox": [
+   65.5,
+   327.1,
+   528.8,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-3.webp",
+  "caption": "Figure 4-3. Mountaineering boots",
+  "kind": "figure",
+  "page": 70,
+  "bbox": [
+   65.5,
+   232.5,
+   528.6,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-4-4.webp",
+  "caption": "Figure 4-4. Extended cold-weather clothing system",
+  "kind": "figure",
+  "page": 71,
+  "bbox": [
+   83.5,
+   169.5,
+   546.4,
+   406.6
+  ]
+ },
+ {
+  "file": "fig-4-5.webp",
+  "caption": "Figure 4-5. Floorless shelter (10-man arctic tent)",
+  "kind": "figure",
+  "page": 78,
+  "bbox": [
+   74.5,
+   218.8,
+   518.9,
+   448.4
+  ]
+ },
+ {
+  "file": "fig-4-6.webp",
+  "caption": "Figure 4-6. Poncho lean-to",
+  "kind": "figure",
+  "page": 79,
+  "bbox": [
+   92.5,
+   99.0,
+   536.9,
+   360.4
+  ]
+ },
+ {
+  "file": "fig-4-7.webp",
+  "caption": "Figure 4-7. Snow-cave shelter",
+  "kind": "figure",
+  "page": 81,
+  "bbox": [
+   92.5,
+   244.5,
+   537.5,
+   715.7
+  ]
+ }
+]

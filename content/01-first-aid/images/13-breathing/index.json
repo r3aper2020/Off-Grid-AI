@@ -1,0 +1,62 @@
+[
+ {
+  "file": "fig-6-1.webp",
+  "caption": "Figure 6-1. Vented chest seal examples",
+  "kind": "figure",
+  "page": 88,
+  "bbox": [
+   111.2,
+   479.0,
+   500.5,
+   734.5
+  ]
+ },
+ {
+  "file": "fig-6-2.webp",
+  "caption": "Figure 6-2. Catheter-over-needle device",
+  "kind": "figure",
+  "page": 88,
+  "bbox": [
+   182.2,
+   212.7,
+   410.2,
+   387.7
+  ]
+ },
+ {
+  "file": "fig-6-3.webp",
+  "caption": "Figure 6-3. Check for breathing",
+  "kind": "figure",
+  "page": 89,
+  "bbox": [
+   207.2,
+   540.2,
+   422.6,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-6-4.webp",
+  "caption": "Figure 6-4. Tension Pneumothorax",
+  "kind": "figure",
+  "page": 92,
+  "bbox": [
+   178.5,
+   468.2,
+   413.7,
+   715.2
+  ]
+ },
+ {
+  "file": "fig-6-5.webp",
+  "caption": "Figure 6-5. Needle Decompression of the Chest Site Selection",
+  "kind": "figure",
+  "page": 93,
+  "bbox": [
+   120.0,
+   309.9,
+   494.6,
+   608.5
+  ]
+ }
+]

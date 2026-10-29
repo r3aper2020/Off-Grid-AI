@@ -1,0 +1,386 @@
+[
+ {
+  "file": "fig-10-1.webp",
+  "caption": "Figure 10-1. Contour lines.",
+  "kind": "figure",
+  "page": 124,
+  "bbox": [
+   163.7,
+   434.1,
+   410.4,
+   627.9
+  ]
+ },
+ {
+  "file": "fig-10-2.webp",
+  "caption": "Figure 10-2. Contour interval note.",
+  "kind": "figure",
+  "page": 124,
+  "bbox": [
+   66.0,
+   223.7,
+   411.0,
+   346.3
+  ]
+ },
+ {
+  "file": "fig-10-3.webp",
+  "caption": "Figure 10-3. Points on contour lines.",
+  "kind": "figure",
+  "page": 125,
+  "bbox": [
+   102.0,
+   488.7,
+   448.2,
+   710.2
+  ]
+ },
+ {
+  "file": "fig-10-4.webp",
+  "caption": "Figure 10-4. Points between contour lines.",
+  "kind": "figure",
+  "page": 126,
+  "bbox": [
+   159.6,
+   446.7,
+   414.5,
+   648.1
+  ]
+ },
+ {
+  "file": "fig-10-5.webp",
+  "caption": "Figure 10-5. Depression.",
+  "kind": "figure",
+  "page": 127,
+  "bbox": [
+   195.5,
+   504.2,
+   444.1,
+   704.5
+  ]
+ },
+ {
+  "file": "fig-10-6.webp",
+  "caption": "Figure 10-6. Uniform, gentle slope.",
+  "kind": "figure",
+  "page": 128,
+  "bbox": [
+   66.0,
+   504.2,
+   509.9,
+   704.5
+  ]
+ },
+ {
+  "file": "fig-10-7.webp",
+  "caption": "Figure 10-7. Uniform, steep slope.",
+  "kind": "figure",
+  "page": 128,
+  "bbox": [
+   66.0,
+   182.2,
+   509.9,
+   431.9
+  ]
+ },
+ {
+  "file": "fig-10-8.webp",
+  "caption": "Figure 10-8. Concave slope.",
+  "kind": "figure",
+  "page": 129,
+  "bbox": [
+   102.0,
+   476.3,
+   545.7,
+   718.8
+  ]
+ },
+ {
+  "file": "fig-10-9.webp",
+  "caption": "Figure 10-9. Convex slope.",
+  "kind": "figure",
+  "page": 129,
+  "bbox": [
+   102.0,
+   126.5,
+   545.7,
+   385.2
+  ]
+ },
+ {
+  "file": "fig-10-10.webp",
+  "caption": "Figure 10-10. Slope diagram.",
+  "kind": "figure",
+  "page": 130,
+  "bbox": [
+   159.6,
+   420.2,
+   405.3,
+   583.8
+  ]
+ },
+ {
+  "file": "fig-10-11.webp",
+  "caption": "Figure 10-11. Contour line around a slope.",
+  "kind": "figure",
+  "page": 130,
+  "bbox": [
+   66.0,
+   98.5,
+   509.6,
+   406.7
+  ]
+ },
+ {
+  "file": "fig-10-12.webp",
+  "caption": "Figure 10-12. Measuring horizontal distance.",
+  "kind": "figure",
+  "page": 131,
+  "bbox": [
+   102.0,
+   362.6,
+   545.9,
+   605.1
+  ]
+ },
+ {
+  "file": "fig-10-13.webp",
+  "caption": "Figure 10-13. Percentage of slope in meters.",
+  "kind": "figure",
+  "page": 132,
+  "bbox": [
+   73.2,
+   378.4,
+   502.8,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-10-14.webp",
+  "caption": "Figure 10-14. Degree of slope.",
+  "kind": "figure",
+  "page": 132,
+  "bbox": [
+   73.2,
+   84.6,
+   502.9,
+   307.2
+  ]
+ },
+ {
+  "file": "fig-10-15.webp",
+  "caption": "Figure 10-15. Gradient.",
+  "kind": "figure",
+  "page": 133,
+  "bbox": [
+   102.0,
+   448.2,
+   545.9,
+   684.1
+  ]
+ },
+ {
+  "file": "fig-10-16.webp",
+  "caption": "Figure 10-16. Ridgeline.",
+  "kind": "figure",
+  "page": 133,
+  "bbox": [
+   102.0,
+   140.4,
+   545.6,
+   362.3
+  ]
+ },
+ {
+  "file": "fig-10-17.webp",
+  "caption": "Figure 10-17. Hill.",
+  "kind": "figure",
+  "page": 134,
+  "bbox": [
+   66.0,
+   420.0,
+   509.6,
+   655.9
+  ]
+ },
+ {
+  "file": "fig-10-18.webp",
+  "caption": "Figure 10-18. Saddle.",
+  "kind": "figure",
+  "page": 134,
+  "bbox": [
+   66.0,
+   126.2,
+   509.9,
+   337.1
+  ]
+ },
+ {
+  "file": "fig-10-19.webp",
+  "caption": "Figure 10-19. Valley.",
+  "kind": "figure",
+  "page": 135,
+  "bbox": [
+   116.4,
+   420.3,
+   531.5,
+   647.5
+  ]
+ },
+ {
+  "file": "fig-10-20.webp",
+  "caption": "Figure 10-20. Ridge.",
+  "kind": "figure",
+  "page": 135,
+  "bbox": [
+   102.0,
+   98.6,
+   545.9,
+   306.4
+  ]
+ },
+ {
+  "file": "fig-10-21.webp",
+  "caption": "Figure 10-21. Depression.",
+  "kind": "figure",
+  "page": 136,
+  "bbox": [
+   73.2,
+   406.4,
+   497.3,
+   648.1
+  ]
+ },
+ {
+  "file": "fig-10-22.webp",
+  "caption": "Figure 10-22. Draw.",
+  "kind": "figure",
+  "page": 136,
+  "bbox": [
+   73.2,
+   96.9,
+   502.9,
+   300.5
+  ]
+ },
+ {
+  "file": "fig-10-23.webp",
+  "caption": "Figure 10-23. Spur.",
+  "kind": "figure",
+  "page": 137,
+  "bbox": [
+   109.2,
+   446.6,
+   538.8,
+   675.9
+  ]
+ },
+ {
+  "file": "fig-10-24a.webp",
+  "caption": "Figure 10-24A. Cliff.",
+  "kind": "figure",
+  "page": 137,
+  "bbox": [
+   102.0,
+   110.8,
+   545.7,
+   366.1
+  ]
+ },
+ {
+  "file": "fig-10-24b.webp",
+  "caption": "Figure 10-24B. Cliff.",
+  "kind": "figure",
+  "page": 138,
+  "bbox": [
+   66.0,
+   448.2,
+   509.8,
+   718.6
+  ]
+ },
+ {
+  "file": "fig-10-25.webp",
+  "caption": "Figure 10-25. Cut and fill.",
+  "kind": "figure",
+  "page": 139,
+  "bbox": [
+   102.0,
+   488.5,
+   545.8,
+   718.8
+  ]
+ },
+ {
+  "file": "fig-10-26.webp",
+  "caption": "Figure 10-26. Terrain features.",
+  "kind": "figure",
+  "page": 139,
+  "bbox": [
+   102.0,
+   96.8,
+   545.9,
+   416.5
+  ]
+ },
+ {
+  "file": "fig-10-27.webp",
+  "caption": "Figure 10-27. Ridgelining and streamlining.",
+  "kind": "figure",
+  "page": 142,
+  "bbox": [
+   66.0,
+   432.1,
+   509.7,
+   711.6
+  ]
+ },
+ {
+  "file": "fig-10-28.webp",
+  "caption": "Figure 10-28. Connecting points.",
+  "kind": "figure",
+  "page": 143,
+  "bbox": [
+   102.0,
+   516.7,
+   545.6,
+   711.6
+  ]
+ },
+ {
+  "file": "fig-10-29.webp",
+  "caption": "Figure 10-29. Dropping perpendiculars.",
+  "kind": "figure",
+  "page": 144,
+  "bbox": [
+   66.0,
+   224.4,
+   509.8,
+   628.0
+  ]
+ },
+ {
+  "file": "fig-10-30.webp",
+  "caption": "Figure 10-30. Drawing lines to additional points.",
+  "kind": "figure",
+  "page": 145,
+  "bbox": [
+   102.0,
+   291.4,
+   545.6,
+   669.9
+  ]
+ },
+ {
+  "file": "fig-10-31.webp",
+  "caption": "Figure 10-31. Drawing a hasty profile.",
+  "kind": "figure",
+  "page": 146,
+  "bbox": [
+   66.0,
+   266.4,
+   509.6,
+   673.9
+  ]
+ }
+]

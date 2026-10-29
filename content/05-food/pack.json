@@ -1,0 +1,11 @@
+{
+ "id": "food",
+ "title": "Food Safety & Emergency Food",
+ "category": "guide",
+ "publisher": "CDC and Ready.gov (FEMA)",
+ "attribution": "Text from U.S. Centers for Disease Control and Prevention (CDC) web pages, reformatted into sections without changing its substance. Use does not imply endorsement by CDC, HHS, or the U.S. Government. Text from Ready.gov (Federal Emergency Management Agency), reformatted into sections without changing its substance. Use does not imply endorsement by FEMA, DHS, or the U.S. Government.",
+ "description": "Keeping food safe after power outages and floods, and stocking emergency food.",
+ "version": "2026.10.29.2",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "review": "verified"
+}

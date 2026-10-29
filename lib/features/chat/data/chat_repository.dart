@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:drift/drift.dart';
 
 import '../../../core/database/app_database.dart';
@@ -64,9 +66,22 @@ class ChatRepository {
   Future<int> addAssistantMessage(
     int conversationId,
     String text,
-    MessageStatus status,
-  ) {
-    return _insert(conversationId, MessageRole.assistant, text, status);
+    MessageStatus status, {
+    List<int>? citations,
+  }) {
+    return _insert(
+      conversationId,
+      MessageRole.assistant,
+      text,
+      status,
+      citations: citations,
+    );
+  }
+
+  Future<void> setCitations(int id, List<int> passageIds) {
+    return (_db.update(_db.messages)..where((m) => m.id.equals(id))).write(
+      MessagesCompanion(citations: Value(jsonEncode(passageIds))),
+    );
   }
 
   Future<void> updateMessage(int id, String text, MessageStatus status) {
@@ -92,8 +107,9 @@ class ChatRepository {
     int conversationId,
     MessageRole role,
     String text,
-    MessageStatus status,
-  ) async {
+    MessageStatus status, {
+    List<int>? citations,
+  }) async {
     final id = await _db
         .into(_db.messages)
         .insert(
@@ -103,6 +119,7 @@ class ChatRepository {
             content: text,
             status: status,
             createdAt: DateTime.now(),
+            citations: Value(citations == null ? null : jsonEncode(citations)),
           ),
         );
     await (_db.update(_db.conversations)

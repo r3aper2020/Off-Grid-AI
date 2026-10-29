@@ -1,0 +1,11 @@
+{
+ "id": "cbrn",
+ "title": "Chemical, Biological, Radiological & Nuclear Emergencies",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "FEMA (Ready.gov; Planning Guidance for Response to a Nuclear Detonation, 3rd ed.) and FDA",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from Ready.gov (Federal Emergency Management Agency); FEMA, Planning Guidance for Response to a Nuclear Detonation, Third Edition (2022, updated 06/12/2023), chapters 1 and 3, from the HHS REMM copy, excluding material credited to third parties (NCRP, Kramer 2014); and the U.S. Food and Drug Administration page Frequently Asked Questions on Potassium Iodide (KI). Reformatted into sections without changing substance; figures not included. Use does not imply endorsement by FEMA, DHS, FDA, HHS, or the U.S. Government.",
+ "description": "Radiation and nuclear emergencies (get inside, stay inside, stay tuned; shelter quality; fallout; decontamination), potassium iodide, hazardous materials and household chemicals, biological threats and explosions. The KI dosing table is not included — check the FDA page or follow officials' instructions for doses."
+}

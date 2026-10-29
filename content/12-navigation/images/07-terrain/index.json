@@ -1,0 +1,98 @@
+[
+ {
+  "file": "fig-11-1.webp",
+  "caption": "Figure 11-1. Map oriented with 11 degrees west declination.",
+  "kind": "figure",
+  "page": 148,
+  "bbox": [
+   66.0,
+   434.4,
+   509.9,
+   734.5
+  ]
+ },
+ {
+  "file": "fig-11-2.webp",
+  "caption": "Figure 11-2. Map oriented with 21 degrees east declination.",
+  "kind": "figure",
+  "page": 148,
+  "bbox": [
+   66.0,
+   84.7,
+   462.1,
+   416.5
+  ]
+ },
+ {
+  "file": "fig-11-3.webp",
+  "caption": "Figure 11-3. Map oriented with 15 degrees east declination.",
+  "kind": "figure",
+  "page": 149,
+  "bbox": [
+   149.7,
+   294.4,
+   498.2,
+   600.2
+  ]
+ },
+ {
+  "file": "fig-11-4.webp",
+  "caption": "Figure 11-4. Map oriented with 10 degrees west declination.",
+  "kind": "figure",
+  "page": 150,
+  "bbox": [
+   66.0,
+   406.3,
+   509.9,
+   734.5
+  ]
+ },
+ {
+  "file": "fig-11-5.webp",
+  "caption": "Figure 11-5. Terrain association.",
+  "kind": "figure",
+  "page": 151,
+  "bbox": [
+   102.0,
+   294.3,
+   492.6,
+   651.7
+  ]
+ },
+ {
+  "file": "fig-11-6.webp",
+  "caption": "Figure 11-6. Field-expedient method.",
+  "kind": "figure",
+  "page": 152,
+  "bbox": [
+   66.0,
+   308.3,
+   510.0,
+   669.9
+  ]
+ },
+ {
+  "file": "fig-11-7.webp",
+  "caption": "Figure 11-7. Example of terrain association.",
+  "kind": "figure",
+  "page": 154,
+  "bbox": [
+   66.0,
+   224.4,
+   510.1,
+   598.2
+  ]
+ },
+ {
+  "file": "fig-11-8.webp",
+  "caption": "Figure 11-8. Terrain association navigation.",
+  "kind": "figure",
+  "page": 163,
+  "bbox": [
+   102.0,
+   420.3,
+   546.0,
+   718.3
+  ]
+ }
+]

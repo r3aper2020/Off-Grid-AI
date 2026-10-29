@@ -1,0 +1,11 @@
+{
+ "id": "community-cert",
+ "title": "Community Emergency Response (CERT)",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "needs-review",
+ "publisher": "FEMA Community Emergency Response Team program (copy hosted by UC Irvine)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from FEMA, CERT Basic Training Participant Manual (2019 update), units 1-8, from a copy hosted by UC Irvine Emergency Management (em.uci.edu), not fetched from fema.gov. Reformatted into sections without changing substance; figures, forms and several tables not included. Use does not imply endorsement by FEMA, DHS, UC Irvine, or the U.S. Government.",
+ "description": "Neighborhood disaster response training: preparedness, team organization and size-up, disaster first aid and triage, disaster psychology, fire safety and utility shutoff, light search and rescue, and terrorism. Unreviewed because this copy was not obtained from FEMA; several medical and fire tables are not included."
+}

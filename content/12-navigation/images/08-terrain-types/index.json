@@ -1,0 +1,38 @@
+[
+ {
+  "file": "fig-13-1.webp",
+  "caption": "Figure 13-1. Deserts.",
+  "kind": "figure",
+  "page": 173,
+  "bbox": [
+   102.0,
+   164.6,
+   545.5,
+   470.3
+  ]
+ },
+ {
+  "file": "fig-13-2.webp",
+  "caption": "Figure 13-2. Mountain systems.",
+  "kind": "figure",
+  "page": 176,
+  "bbox": [
+   82.9,
+   168.6,
+   489.6,
+   451.9
+  ]
+ },
+ {
+  "file": "fig-13-3.webp",
+  "caption": "Figure 13-3. Jungles and savannas.",
+  "kind": "figure",
+  "page": 178,
+  "bbox": [
+   66.0,
+   126.6,
+   509.5,
+   432.4
+  ]
+ }
+]

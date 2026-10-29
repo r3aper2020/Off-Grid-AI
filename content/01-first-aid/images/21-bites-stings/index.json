@@ -1,0 +1,98 @@
+[
+ {
+  "file": "fig-16-1.webp",
+  "caption": "Figure 16-1. Characteristics of the nonvenomous snake",
+  "kind": "figure",
+  "page": 175,
+  "bbox": [
+   153.7,
+   75.4,
+   476.3,
+   276.4
+  ]
+ },
+ {
+  "file": "fig-16-2.webp",
+  "caption": "Figure 16-2. Characteristics of the venomous pit viper",
+  "kind": "figure",
+  "page": 176,
+  "bbox": [
+   146.5,
+   148.2,
+   447.5,
+   345.3
+  ]
+ },
+ {
+  "file": "fig-16-3.webp",
+  "caption": "Figure 16-3. The Viper Snake examples",
+  "kind": "figure",
+  "page": 177,
+  "bbox": [
+   85.0,
+   527.4,
+   546.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-16-4.webp",
+  "caption": "Figure 16-4. The Coral snake",
+  "kind": "figure",
+  "page": 178,
+  "bbox": [
+   143.9,
+   454.2,
+   450.2,
+   651.0
+  ]
+ },
+ {
+  "file": "fig-16-5.webp",
+  "caption": "Figure 16-5. The Cobra",
+  "kind": "figure",
+  "page": 178,
+  "bbox": [
+   143.9,
+   454.2,
+   450.2,
+   651.0
+  ]
+ },
+ {
+  "file": "fig-16-6.webp",
+  "caption": "Figure 16-6. The Sea snake example",
+  "kind": "figure",
+  "page": 179,
+  "bbox": [
+   223.4,
+   540.2,
+   409.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-16-7.webp",
+  "caption": "Figure 16-7. Venomous Arthropods",
+  "kind": "figure",
+  "page": 180,
+  "bbox": [
+   207.4,
+   185.8,
+   389.5,
+   361.3
+  ]
+ },
+ {
+  "file": "fig-16-8.webp",
+  "caption": "Figure 16-8. Scorpion",
+  "kind": "figure",
+  "page": 183,
+  "bbox": [
+   232.8,
+   447.6,
+   396.9,
+   623.2
+  ]
+ }
+]

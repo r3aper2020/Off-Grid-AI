@@ -1,0 +1,302 @@
+[
+ {
+  "file": "fig-3-1.webp",
+  "caption": "Figure 3-1. Topographical map.",
+  "kind": "figure",
+  "page": 20,
+  "bbox": [
+   80.4,
+   96.4,
+   524.3,
+   690.4
+  ]
+ },
+ {
+  "file": "fig-4-1.webp",
+  "caption": "Figure 4-1. Prime meridian and equator.",
+  "kind": "figure",
+  "page": 24,
+  "bbox": [
+   163.5,
+   494.7,
+   411.6,
+   717.9
+  ]
+ },
+ {
+  "file": "fig-4-2.webp",
+  "caption": "Figure 4-2. Reference lines.",
+  "kind": "figure",
+  "page": 24,
+  "bbox": [
+   163.5,
+   269.1,
+   411.1,
+   484.7
+  ]
+ },
+ {
+  "file": "fig-4-3.webp",
+  "caption": "Figure 4-3. Latitude and longitude.",
+  "kind": "figure",
+  "page": 25,
+  "bbox": [
+   195.5,
+   420.3,
+   441.7,
+   634.0
+  ]
+ },
+ {
+  "file": "fig-4-4.webp",
+  "caption": "Figure 4-4. Determining latitude.",
+  "kind": "figure",
+  "page": 27,
+  "bbox": [
+   100.9,
+   238.7,
+   544.7,
+   733.2
+  ]
+ },
+ {
+  "file": "fig-4-5.webp",
+  "caption": "Figure 4-5. Determining longitude.",
+  "kind": "figure",
+  "page": 28,
+  "bbox": [
+   66.0,
+   196.6,
+   509.8,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-4-6.webp",
+  "caption": "Figure 4-6. Determining geographic coordinates.",
+  "kind": "figure",
+  "page": 29,
+  "bbox": [
+   102.0,
+   252.7,
+   545.6,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-4-7.webp",
+  "caption": "Figure 4-7. Using the proportional parts method.",
+  "kind": "figure",
+  "page": 31,
+  "bbox": [
+   102.0,
+   266.5,
+   545.8,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-4-8.webp",
+  "caption": "Figure 4-8. UTM grid zone location.",
+  "kind": "figure",
+  "page": 33,
+  "bbox": [
+   102.0,
+   202.6,
+   545.8,
+   473.6
+  ]
+ },
+ {
+  "file": "fig-4-9.webp",
+  "caption": "Figure 4-9. False eastings and northings for the UPS grid.",
+  "kind": "figure",
+  "page": 34,
+  "bbox": [
+   116.4,
+   406.3,
+   459.5,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-4-10.webp",
+  "caption": "Figure 4-10. Grid zone designation for UPS grid.",
+  "kind": "figure",
+  "page": 35,
+  "bbox": [
+   103.5,
+   404.6,
+   547.3,
+   644.8
+  ]
+ },
+ {
+  "file": "fig-4-11.webp",
+  "caption": "Figure 4-11. Grid zone designation and 100,000-meter",
+  "kind": "figure",
+  "page": 36,
+  "bbox": [
+   66.0,
+   350.4,
+   509.8,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-4-12.webp",
+  "caption": "Figure 4-12. Grid lines.",
+  "kind": "figure",
+  "page": 37,
+  "bbox": [
+   102.0,
+   406.4,
+   525.7,
+   721.5
+  ]
+ },
+ {
+  "file": "fig-4-13.webp",
+  "caption": "Figure 4-13. Columbus map, southwest corner.",
+  "kind": "figure",
+  "page": 38,
+  "bbox": [
+   73.2,
+   364.4,
+   496.9,
+   718.8
+  ]
+ },
+ {
+  "file": "fig-4-14.webp",
+  "caption": "Figure 4-14. Coordinate scales.",
+  "kind": "figure",
+  "page": 39,
+  "bbox": [
+   144.5,
+   364.5,
+   504.5,
+   726.7
+  ]
+ },
+ {
+  "file": "fig-4-15.webp",
+  "caption": "Figure 4-15. Determining grids without coordinate point.",
+  "kind": "figure",
+  "page": 40,
+  "bbox": [
+   120.1,
+   279.7,
+   455.8,
+   501.5
+  ]
+ },
+ {
+  "file": "fig-4-16.webp",
+  "caption": "Figure 4-16. Placing a coordinate scale on a grid.",
+  "kind": "figure",
+  "page": 41,
+  "bbox": [
+   178.5,
+   438.0,
+   469.3,
+   715.5
+  ]
+ },
+ {
+  "file": "fig-4-17.webp",
+  "caption": "Figure 4-17. Zero-zero point.",
+  "kind": "figure",
+  "page": 41,
+  "bbox": [
+   195.5,
+   92.7,
+   443.2,
+   375.4
+  ]
+ },
+ {
+  "file": "fig-4-18.webp",
+  "caption": "Figure 4-18. 1:50,000 coordinating scale.",
+  "kind": "figure",
+  "page": 42,
+  "bbox": [
+   73.2,
+   299.3,
+   509.9,
+   600.0
+  ]
+ },
+ {
+  "file": "fig-4-19.webp",
+  "caption": "Figure 4-19. Example of obtaining an eight-digit coordinate",
+  "kind": "figure",
+  "page": 43,
+  "bbox": [
+   118.5,
+   368.1,
+   526.4,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-4-20.webp",
+  "caption": "Figure 4-20. The 10,000-meter grid square.",
+  "kind": "figure",
+  "page": 44,
+  "bbox": [
+   66.0,
+   94.4,
+   510.0,
+   470.0
+  ]
+ },
+ {
+  "file": "fig-4-21.webp",
+  "caption": "Figure 4-21. The 1,000-meter grid square.",
+  "kind": "figure",
+  "page": 45,
+  "bbox": [
+   163.5,
+   280.3,
+   483.6,
+   642.0
+  ]
+ },
+ {
+  "file": "fig-4-22.webp",
+  "caption": "Figure 4-22. The 100-meter and 10-meter grid squares.",
+  "kind": "figure",
+  "page": 46,
+  "bbox": [
+   66.0,
+   392.2,
+   450.1,
+   724.0
+  ]
+ },
+ {
+  "file": "fig-4-23.webp",
+  "caption": "Figure 4-23. Grid reference box.",
+  "kind": "figure",
+  "page": 47,
+  "bbox": [
+   116.4,
+   434.2,
+   524.8,
+   704.5
+  ]
+ },
+ {
+  "file": "fig-4-24.webp",
+  "caption": "Figure 4-24. Sample reference using GEOREF.",
+  "kind": "figure",
+  "page": 48,
+  "bbox": [
+   121.5,
+   322.6,
+   450.7,
+   723.0
+  ]
+ }
+]

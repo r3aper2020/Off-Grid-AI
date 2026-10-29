@@ -5,7 +5,10 @@ import '../core/database/app_database.dart';
 import '../features/chat/presentation/chat_home_screen.dart';
 import '../features/chat/presentation/conversation_screen.dart';
 import '../features/chat/presentation/history_screen.dart';
+import '../features/library/presentation/document_screen.dart';
 import '../features/library/presentation/library_screen.dart';
+import '../features/library/presentation/pack_screen.dart';
+import '../features/library/presentation/search_screen.dart';
 import '../features/models/presentation/models_screen.dart';
 import '../features/settings/presentation/settings_screen.dart';
 import '../features/tools/presentation/navigation_screen.dart';
@@ -18,6 +21,16 @@ GoRouter buildRouter() => GoRouter(
   navigatorKey: _rootKey,
   initialLocation: '/chat',
   routes: [
+    // Full-screen reader, reachable from the Library and from chat
+    // citations; back returns to wherever it was opened from.
+    GoRoute(
+      path: '/doc/:id',
+      parentNavigatorKey: _rootKey,
+      builder: (_, state) => DocumentScreen(
+        documentId: int.parse(state.pathParameters['id']!),
+        passageId: int.tryParse(state.uri.queryParameters['passage'] ?? ''),
+      ),
+    ),
     StatefulShellRoute.indexedStack(
       builder: (context, state, shell) => AppShell(shell: shell),
       branches: [
@@ -51,6 +64,17 @@ GoRouter buildRouter() => GoRouter(
               builder: (_, state) => LibraryScreen(
                 category: _category(state.uri.queryParameters['category']),
               ),
+              routes: [
+                GoRoute(
+                  path: 'pack/:id',
+                  builder: (_, state) =>
+                      PackScreen(packId: state.pathParameters['id']!),
+                ),
+                GoRoute(
+                  path: 'search',
+                  builder: (_, _) => const SearchScreen(),
+                ),
+              ],
             ),
           ],
         ),

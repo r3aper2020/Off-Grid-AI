@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/database/app_database.dart';
+import '../../library/library_providers.dart';
+import '../../library/domain/pack_format.dart';
+import '../../library/presentation/passage_body.dart';
+import '../../library/presentation/review_badge.dart';
 import '../chat_providers.dart';
+import '../domain/grounding.dart';
+import '../domain/inference_engine.dart';
 import 'chat_input.dart';
+import 'message_text.dart';
+import 'thinking_indicator.dart';
 
 class ConversationScreen extends ConsumerWidget {
   const ConversationScreen({super.key, required this.conversationId});
@@ -20,9 +29,8 @@ class ConversationScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final conversation = ref.watch(conversationProvider(conversationId));
     final messages = ref.watch(messagesProvider(conversationId));
-    final generating = ref
-        .watch(generationControllerProvider)
-        .contains(conversationId);
+    final phase = ref.watch(generationControllerProvider)[conversationId];
+    final generating = phase != null;
 
     return Scaffold(
       appBar: AppBar(
@@ -45,8 +53,10 @@ class ConversationScreen extends ConsumerWidget {
                   reverse: true,
                   padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
                   itemCount: list.length,
-                  itemBuilder: (context, i) =>
-                      _MessageBubble(message: list[list.length - 1 - i]),
+                  itemBuilder: (context, i) => _MessageBubble(
+                    message: list[list.length - 1 - i],
+                    phase: phase,
+                  ),
                 ),
               ),
             ),
@@ -68,9 +78,12 @@ class ConversationScreen extends ConsumerWidget {
 }
 
 class _MessageBubble extends StatelessWidget {
-  const _MessageBubble({required this.message});
+  const _MessageBubble({required this.message, this.phase});
 
   final Message message;
+
+  /// Progress of the reply in this conversation, if one is running.
+  final GenerationPhase? phase;
 
   @override
   Widget build(BuildContext context) {
@@ -84,10 +97,9 @@ class _MessageBubble extends StatelessWidget {
         ? AppColors.surfaceRaised
         : AppColors.surface;
 
-    final text =
-        message.content.isEmpty && message.status == MessageStatus.streaming
-        ? '…'
-        : message.content;
+    final waiting =
+        message.content.isEmpty && message.status == MessageStatus.streaming;
+    final text = message.content;
 
     return Align(
       alignment: isUser ? Alignment.centerRight : Alignment.centerLeft,
@@ -131,7 +143,19 @@ class _MessageBubble extends StatelessWidget {
                     ],
                   ),
                 ),
-              SelectableText(text),
+              if (waiting)
+                ThinkingIndicator(phase: phase)
+              else if (isUser || isNotice)
+                SelectableText(text)
+              else
+                MessageText(text),
+              if (message.role == MessageRole.assistant &&
+                  message.status == MessageStatus.complete &&
+                  message.citations != null)
+                _Sources(
+                  citationsJson: message.citations!,
+                  cited: Grounding.citedNumbers(message.content),
+                ),
               if (message.status == MessageStatus.cancelled)
                 const Padding(
                   padding: EdgeInsets.only(top: 6),
@@ -145,6 +169,179 @@ class _MessageBubble extends StatelessWidget {
                 ),
             ],
           ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Tappable sources under an assistant reply: one chip per citation the
+/// model actually used. Replies citing nothing are labelled as such so
+/// users can tell library-backed answers from general knowledge.
+class _Sources extends ConsumerWidget {
+  const _Sources({required this.citationsJson, required this.cited});
+
+  final String citationsJson;
+  final List<int> cited;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final sources = ref.watch(citationSourcesProvider(citationsJson)).value;
+    if (sources == null) return const SizedBox.shrink();
+
+    final used = [
+      for (final n in cited)
+        if (n >= 1 && n <= sources.length && sources[n - 1] != null)
+          (n, sources[n - 1]!),
+    ];
+
+    if (used.isEmpty) {
+      return const Padding(
+        padding: EdgeInsets.only(top: 8),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              Icons.info_outline_rounded,
+              size: 13,
+              color: AppColors.textTertiary,
+            ),
+            SizedBox(width: 5),
+            Flexible(
+              child: Text(
+                'Not from the offline library',
+                style: TextStyle(fontSize: 11, color: AppColors.textTertiary),
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    final flagged = used
+        .map((u) => u.$2.reviewStatus)
+        .where((s) => s != ReviewStatus.verified)
+        .toSet();
+
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Wrap(
+            spacing: 6,
+            runSpacing: 6,
+            children: [
+              for (final (n, hit) in used)
+                ActionChip(
+                  visualDensity: VisualDensity.compact,
+                  avatar: Text(
+                    '$n',
+                    style: const TextStyle(
+                      fontSize: 11,
+                      fontWeight: FontWeight.w700,
+                      color: AppColors.accent,
+                    ),
+                  ),
+                  label: Text(
+                    hit.heading,
+                    style: const TextStyle(fontSize: 12),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  tooltip: '${hit.documentTitle} — ${hit.heading}',
+                  onPressed: () => context.push(
+                    '/doc/${hit.documentId}?passage=${hit.passageId}',
+                  ),
+                  side: hit.reviewStatus == ReviewStatus.verified
+                      ? null
+                      : const BorderSide(color: AppColors.warning),
+                ),
+            ],
+          ),
+          for (final status in flagged)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: ReviewBadge(status: status),
+            ),
+          // Diagrams and tables from the cited passages, so a "how do I"
+          // answer shows the picture, and table values stay exact.
+          _CitedImages(
+            passageIds: [for (final (_, hit) in used) hit.passageId],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _CitedImages extends ConsumerWidget {
+  const _CitedImages({required this.passageIds});
+
+  final List<int> passageIds;
+
+  /// Enough to cover a procedure's figures without an endless strip.
+  static const _max = 8;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final images =
+        (ref.watch(citedFiguresProvider(passageIds.join(','))).value ??
+                const <SectionImage>[])
+            .take(_max)
+            .toList();
+    if (images.isEmpty) return const SizedBox.shrink();
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: SizedBox(
+        height: 132,
+        child: ListView.separated(
+          scrollDirection: Axis.horizontal,
+          itemCount: images.length,
+          separatorBuilder: (_, _) => const SizedBox(width: 8),
+          itemBuilder: (context, i) {
+            final img = images[i];
+            return Semantics(
+              image: true,
+              button: true,
+              label: img.caption,
+              child: GestureDetector(
+                onTap: () => openImageViewer(context, img),
+                child: SizedBox(
+                  width: 150,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(8),
+                          child: ColoredBox(
+                            color: Colors.white,
+                            child: Image.asset(
+                              img.asset,
+                              width: 150,
+                              fit: BoxFit.contain,
+                              errorBuilder: (_, _, _) =>
+                                  const SizedBox.shrink(),
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        img.caption,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontSize: 10,
+                          color: AppColors.textTertiary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            );
+          },
         ),
       ),
     );

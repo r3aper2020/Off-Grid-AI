@@ -1,0 +1,139 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "cdc-health",
+ "title": "Seizures, Caring for the Sick & Hygiene (CDC)",
+ "category": "medical",
+ "version": "2026.10.29.6",
+ "publisher": "U.S. Centers for Disease Control and Prevention",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Seizure first aid and when to call 911, caring for someone sick at home and flu emergency warning signs, personal hygiene and wound protection when clean water is scarce, and staying safe after a disaster (floodwater, cleanup, power outages, animals, electrical hazards).",
+ "attribution": "Text from CDC web pages (cdc.gov), retrieved October 2026; reformatted into sections without changing substance; links, references and images not included. Use does not imply endorsement by CDC, HHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "First Aid for Seizures",
+   "sections": [
+    {
+     "heading": "KEY POINTS",
+     "body": "- Seizures are common, affecting 1 in 10 people.\n- You can learn to recognize a seizure, keep someone safe during a seizure, and when to call 911 for help."
+    },
+    {
+     "heading": "Overview",
+     "body": "Seizures are common. About 1 in 10 people in the United States may have a seizure in their lifetime. This means that someday you may need to help someone.\n\nThere are easy steps to help someone during and after a seizure."
+    },
+    {
+     "heading": "Recognizing a seizure: Seizures may not look like you'd expect.",
+     "body": "- There are many different types of seizures.\n- Some seizures cause someone to act confused or stare into space.\n- Others cause someone to lose awareness, fall down, and shake.\n- Most seizures last just a few minutes."
+    },
+    {
+     "heading": "How to keep someone safe during a seizure: Steps to keeping a person safe during a seizure",
+     "body": "- Keep yourself and others calm.\n- Stay with the person.\n- Remove anything near them that can cause an injury.\n- Check to see if they are wearing a medical bracelet for information about any medical conditions, medicines, and emergency contacts.\n- If the person is lying down, turn them gently on their side, with their mouth pointing to the ground. This will keep their airway clear.\n- Time the seizure to track if it lasts more than 5 minutes. If it does, seek immediate medical attention or call 911.\n- When the seizure is over, help them sit in a safe place to recover.\n- Once they are alert, comfort them and explain what happened.\n- Offer to call a friend or loved one to help them get home safely."
+    },
+    {
+     "heading": "Extra steps for generalized seizures: Generalized seizures affect both sides of the brain and may cause loss of consciousness.",
+     "body": "When a person has a generalized seizure, they may:\n\n- Fall down if they lose muscle tone or consciousness.\n- Shake or jerk.\n- Twitch in body or eyelids.\n- Become unaware of what's around them.\n\n**To help someone with this type of seizure, follow these steps to keep them safe:**\n\n- Ease them to the ground if they appear to be falling.\n- Turn them gently onto one side with their mouth pointing to the ground. This will keep their airway clear.\n- Clear the space around them to prevent injury.\n- Put something soft and flat under their head (like a jacket).\n- Take off their eyeglasses.\n- Loosen anything around the neck that could block breathing.\n- Time the seizure to track if it lasts more than 5 minutes. If it does, seek immediate medical attention or call 911."
+    },
+    {
+     "heading": "When to call for help: Seizures don’t usually require emergency medical attention.",
+     "body": "**But you should call 911 if one or more of these things happen:**\n\n- The seizure lasts longer than 5 minutes.\n- They have another seizure soon after the first one.\n- They have trouble breathing or waking up after the seizure.\n- They are injured during the seizure.\n- The seizure happens in water.\n\n**It is also important to call 911 if the person having the seizure:**\n\n- Has never had a seizure before.\n- Has diabetes and loses consciousness.\n- Is pregnant."
+    },
+    {
+     "heading": "What to avoid",
+     "body": "- Don't hold the person down or stop their movements. This could injure you or them.\n- Don't put anything in their mouth. This can hurt their teeth or jaw.\n- Don't give mouth-to-mouth breaths during the seizure. People usually start breathing again on their own after a seizure.\n- Don't offer water or food until they are fully alert. This is not necessary and could cause them to choke."
+    },
+    {
+     "heading": "Get Seizure First Aid Training",
+     "body": "Some people may need to know how to provide more detailed help, especially those who:\n\n- Have loved ones with epilepsy.\n- Coach or lead groups.\n- Work in public settings such as schools."
+    },
+    {
+     "heading": "Get Seizure First Aid Training: Free first aid training",
+     "body": "Free, online on-demand training is available through the Epilepsy Foundation."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html"
+  },
+  {
+   "title": "Caring for Someone Sick",
+   "sections": [
+    {
+     "heading": "KEY POINTS",
+     "body": "- Minimize contact and avoid being face-to-face with the sick person.\n- Wash your hands often, especially after touching the sick person or their tissues or laundry.\n- Wearing a mask is an additional prevention strategy that you can choose to further protect yourself and others.\n- People who experience emergency warning signs of flu complications should obtain medical care right away."
+    },
+    {
+     "heading": "Caring for someone sick: Steps to take if you get flu",
+     "body": "- If you get very sick or are at higher risk of flu-related complications, call your doctor. Your doctor might prescribe antiviral drugs to treat flu.\n- Stay at home and rest.\n- Avoid close contact with well people in your house so you won't make them sick."
+    },
+    {
+     "heading": "Caring for someone sick: When caring for people who have flu:",
+     "body": "- Avoid being face-to-face with the sick person. If possible, it is best to spend the least amount of time in close contact with a sick person.\n- Wearing a mask, especially when face-to-face with a well person, is an additional prevention strategy that you can choose to further protect yourself and others.\n- When holding sick children, place their chin on your shoulder so they will not cough in your face.\n- Wash your hands often and right way.\n- If soap and water are not available, use an alcohol-based hand rub.\n- Make sure to wash your hands after touching the sick person. Wash after handling their tissues or laundry.\n- Clean and disinfect surfaces and objects.\n- Take steps for cleaner air.\n- You can improve air quality by bringing in fresh outside air, purifying indoor air, or gathering outdoors. Cleaner air can reduce the risk of exposure to viruses."
+    },
+    {
+     "heading": "Caring for someone sick: Emergency Warning Signs of Flu Complications",
+     "body": "People experiencing these warning signs should obtain medical care right away.\n\n**In children**\n\n- Fast breathing or trouble breathing\n- Bluish lips or face\n- Ribs pulling in with each breath\n- Chest pain\n- Severe muscle pain (child refuses to walk)\n- Dehydration (no urine for 8 hours, dry mouth, no tears when crying)\n- Not alert or interacting when awake\n- Seizures\n- Fever above 104 degrees Fahrenheit that is not controlled by fever-reducing medicine\n- In children younger than 12 weeks, any fever\n- Fever or cough that improve but then return or worsen\n- Worsening of chronic medical conditions\n\n**In adults**\n\n- Difficulty breathing or shortness of breath\n- Persistent pain or pressure in the chest or abdomen\n- Persistent dizziness, confusion, inability to arouse\n- Seizures\n- Not urinating\n- Severe muscle pain\n- Severe weakness or unsteadiness\n- Fever or cough that improve but then return or worsen\n- Worsening of chronic medical conditions\n\nThese lists are not all inclusive. Please consult your medical provider for any other symptom that is severe or concerning."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/flu/takingcare/caring-for-someone.html"
+  },
+  {
+   "title": "Guidelines for Personal Hygiene During an Emergency",
+   "sections": [
+    {
+     "heading": "AT A GLANCE",
+     "body": "- Good personal hygiene and handwashing are critical to help prevent the spread of disease.\n- Sanitation and hygiene are especially important during an emergency, such as a natural disaster, when finding clean, safe water could be difficult.\n- Learn about important cleanliness tips to keep yourself and loved ones healthy during an emergency."
+    },
+    {
+     "heading": "Wash your hands",
+     "body": "Keep hands clean to help prevent the spread of germs.\n\n- Wash your hands with soap and water for at least 20 seconds, especially during key times when you are most likely to spread germs. Follow CDC's five easy steps to make sure you are washing your hands the right way. Wash your hands with soap and water that has been boiled or disinfected if local authorities or your doctor recommend extra caution. During a boil water advisory or \"do not drink water\" advisory, it may be safe to wash hands with tap water.\n- If clean tap water is not available, create a temporary handwashing station by using a large water jug.\n- If you do not have soap and water, use an alcohol-based hand sanitizer that contains at least 60% alcohol."
+    },
+    {
+     "heading": "Bathe in safe water",
+     "body": "Follow local guidance on water that is safe for bathing.\n\nIf you are using municipal water, listen to your local health and drinking water authorities for guidance on whether you can bathe or shower after a water-related emergency. Sometimes water that is not safe to drink can be used for bathing, but be careful not to swallow any water or get it in your eyes.\n\nDo not bathe:\n\n- In water that may be contaminated with sewage or toxic chemicals.\n- In rivers, streams, or lakes that are contaminated by flood water, human sewage, or animal waste.\n\nIf you have a drinking water well, listen to your local health authorities for advice on using well water for showering and bathing. If extensive flooding has occurred or you suspect your well may be contaminated, contact your local, state, or tribal health department for specific advice on well testing and disinfection."
+    },
+    {
+     "heading": "Brush your teeth with clean water",
+     "body": "Use only clean water to brush your teeth after a water-related emergency. Listen to local authorities to find out if tap water is safe to use.\n\n- Find information about preparing a home water supply and making your water safe for brushing your teeth.\n- Visit CDC's Oral Health website for information on caring for your teeth."
+    },
+    {
+     "heading": "Protect wounds",
+     "body": "Keeping wounds clean and covered is crucial during an emergency. Open wounds and rashes that have been exposed to contaminated water can become infected.\n\nNaturally occurring bacteria such as Vibrio that live in certain coastal waters can also cause a skin infection when an open wound is exposed to salt water or brackish water. Brackish water is a mix of salt and fresh water often found where rivers meet the sea.\n\nTo protect yourself and your family:\n\n- Avoid contact with flood waters, salt water, or brackish water if you have an open wound (including cuts and scrapes).\n- Keep open wounds as clean as possible by washing well with soap and clean water.\n- Cover clean, open wounds with a waterproof bandage to reduce your chance of infection.\n- Seek immediate medical care if a wound develops redness, swelling, or oozing."
+    },
+    {
+     "heading": "Change diapers safely",
+     "body": "It's always important to change diapers in a safe, germ-free way, but an emergency can make this difficult. Even a microscopic amount of poop can contain millions of germs. CDC has guidelines and checklists to help parents, childcare providers, emergency responders, and others learn how to safely change diapers in emergency situations."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html"
+  },
+  {
+   "title": "What to Do to Prevent Getting Hurt or Sick After a Disaster",
+   "sections": [
+    {
+     "heading": "KEY POINTS",
+     "body": "- After a disaster, there are a number of hazards that can make you sick or hurt you.\n- Know how to protect yourself and others from injury or illness after a disaster."
+    },
+    {
+     "heading": "Stay out of floodwater",
+     "body": "Floodwater and standing water can be dangerous and can make you vulnerable to infectious diseases, chemical hazards, and injuries. Protect yourself and your loved ones from the risks brought by floodwater.\n\n- Never drive in flooded areas. Cars can be swept away or break down. Turn around, don't drown!\n- Stay out of floodwater—it can contain many things that can hurt you or make you sick.\n- Even experienced swimmers can drown in floodwater. Avoid moving water, regardless of depth or speed. If you are caught in an area where floodwater is rising, wear a life jacket or keep at hand another flotation device.\n- Do not let a wound touch floodwater. Immediately clean out all open wounds and cuts with soap and clean water."
+    },
+    {
+     "heading": "Clean up safely",
+     "body": "Take steps to protect yourself and your loved ones during your cleanup after a hurricane, flood, or other natural disaster. Follow our cleanup tips and monitor your radio or television for up-to-date emergency information.\n\n- Stay away from damaged buildings or structures until they have been examined and certified as safe by a building inspector or other government authority.\n- Leave immediately if you hear unusual noises that signal that the structure may fall or if you smell gas or suspect a leak.\n- To prevent illness, disinfect and dry buildings and items in them. This will prevent growth of some bacteria, viruses, mold, and mildew that can cause illness.\n- Always wash your hands with soap and boiled or disinfected water before preparing or eating food, after toilet use, after participating in cleanup activities, and after handling articles contaminated by floodwater or sewage.\n- Wear safety gear, including N95 masks, boots, and gloves when needed.\n- Never use electrical tools while standing in water.\n- Work in teams and take breaks. If it's hot outside, drink water often."
+    },
+    {
+     "heading": "Stay safe during a power outage",
+     "body": "During a power outage, you may face a number of hazards that can affect your health and safety.\n\n- To prevent carbon monoxide poisoning, use generators, pressure washers, grills, and similar items outdoors only. Generators should be used at least 20 feet away from your home.\n- If possible, use flashlights or other battery-operated lights instead of candles. If you use candles, be sure to put them in safe holders away from flammable items. Do not leave a burning candle unattended.\n- Identify and throw away food that may not be safe to eat.\n- Check with local authorities to be sure your water is safe.\n- In hot weather, stay cool and drink plenty of fluids to prevent heat-related illness.\n- In cold weather, wear layers of clothing, which help to keep in body heat.\n- Avoid downed power lines. If a power line falls on a car, you should stay inside the vehicle.\n\nFollow additional tips to help you prepare for and cope with sudden loss of power."
+    },
+    {
+     "heading": "Protect yourself from insects and stray animals",
+     "body": "Protect yourself from insects and wild or stray animals after natural disasters.\n\n- Avoid wild or stray animals.\n- Call local authorities to handle animals.\n- Secure all food sources and remove any animal carcasses.\n- Get rid of dead animals, according to guidelines from your local animal control authority, as soon as you can. See Safety Guidelines: Disposing of Dead Animals for answers to frequently asked questions."
+    },
+    {
+     "heading": "Protect yourself from electrical hazards",
+     "body": "Take steps to protect yourself and others from electrical hazards after a disaster.\n\n- Never touch a fallen power line.\n- Do not drive through standing water if downed power lines are in the water.\n- If you believe someone has had electric shock, call or have someone else call 911 or emergency medical help."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/natural-disasters/response/index.html"
+  }
+ ]
+}

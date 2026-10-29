@@ -1,0 +1,206 @@
+[
+ {
+  "file": "fig-6-2-1.webp",
+  "caption": "Figure 6-2-1. Ground-Air Visual Code for Use by Survivors",
+  "kind": "figure",
+  "page": 495,
+  "bbox": [
+   59.4,
+   358.5,
+   552.0,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-2.webp",
+  "caption": "Figure 6-2-2. Ground-Air Visual Code for use by Ground Search Parties",
+  "kind": "figure",
+  "page": 495,
+  "bbox": [
+   59.7,
+   142.8,
+   552.2,
+   353.0
+  ]
+ },
+ {
+  "file": "fig-6-2-3.webp",
+  "caption": "Figure 6-2-3. Urgent Medical Assistance",
+  "kind": "figure",
+  "page": 496,
+  "bbox": [
+   186.5,
+   563.2,
+   424.5,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-4.webp",
+  "caption": "Figure 6-2-4. All OK",
+  "kind": "figure",
+  "page": 496,
+  "bbox": [
+   246.2,
+   285.0,
+   366.4,
+   558.5
+  ]
+ },
+ {
+  "file": "fig-6-2-5.webp",
+  "caption": "Figure 6-2-5. Short Delay",
+  "kind": "figure",
+  "page": 497,
+  "bbox": [
+   202.3,
+   451.4,
+   409.4,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-6.webp",
+  "caption": "Figure 6-2-6. Long Delay",
+  "kind": "figure",
+  "page": 497,
+  "bbox": [
+   202.1,
+   172.3,
+   411.3,
+   445.1
+  ]
+ },
+ {
+  "file": "fig-6-2-7.webp",
+  "caption": "Figure 6-2-7. Drop Message",
+  "kind": "figure",
+  "page": 498,
+  "bbox": [
+   200.9,
+   449.9,
+   410.1,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-8.webp",
+  "caption": "Figure 6-2-8. Receiver Operates",
+  "kind": "figure",
+  "page": 498,
+  "bbox": [
+   202.6,
+   171.8,
+   410.6,
+   445.1
+  ]
+ },
+ {
+  "file": "fig-6-2-9.webp",
+  "caption": "Figure 6-2-9. Do Not Land Here",
+  "kind": "figure",
+  "page": 499,
+  "bbox": [
+   201.5,
+   450.8,
+   410.0,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-10.webp",
+  "caption": "Figure 6-2-10. Land Here",
+  "kind": "figure",
+  "page": 499,
+  "bbox": [
+   200.8,
+   171.0,
+   409.9,
+   445.1
+  ]
+ },
+ {
+  "file": "fig-6-2-11.webp",
+  "caption": "Figure 6-2-11. Negative (Ground)",
+  "kind": "figure",
+  "page": 500,
+  "bbox": [
+   201.2,
+   449.6,
+   410.0,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-12.webp",
+  "caption": "Figure 6-2-12. Affirmative (Ground)",
+  "kind": "figure",
+  "page": 500,
+  "bbox": [
+   200.8,
+   181.6,
+   409.9,
+   445.1
+  ]
+ },
+ {
+  "file": "fig-6-2-13.webp",
+  "caption": "Figure 6-2-13. Pick Us Up",
+  "kind": "figure",
+  "page": 501,
+  "bbox": [
+   200.8,
+   450.5,
+   410.1,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-14.webp",
+  "caption": "Figure 6-2-14. Affirmative (Aircraft)",
+  "kind": "figure",
+  "page": 501,
+  "bbox": [
+   200.9,
+   206.4,
+   410.5,
+   445.1
+  ]
+ },
+ {
+  "file": "fig-6-2-15.webp",
+  "caption": "Figure 6-2-15. Negative (Aircraft)",
+  "kind": "figure",
+  "page": 502,
+  "bbox": [
+   201.0,
+   460.8,
+   410.4,
+   724.5
+  ]
+ },
+ {
+  "file": "fig-6-2-16.webp",
+  "caption": "Figure 6-2-16. Message received and understood (Aircraft)",
+  "kind": "figure",
+  "page": 502,
+  "bbox": [
+   186.5,
+   222.4,
+   424.7,
+   455.1
+  ]
+ },
+ {
+  "file": "fig-6-2-17.webp",
+  "caption": "Figure 6-2-17. Message received and NOT understood (Aircraft)",
+  "kind": "figure",
+  "page": 503,
+  "bbox": [
+   119.5,
+   426.9,
+   492.7,
+   724.5
+  ]
+ }
+]

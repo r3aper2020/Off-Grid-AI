@@ -1,0 +1,11 @@
+{
+ "id": "water-systems",
+ "title": "Wells, Septic & Home Water Systems",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "U.S. Environmental Protection Agency",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Environmental Protection Agency web pages on private wells, emergency disinfection of drinking water, and septic systems, reformatted into sections without changing substance; images not included; a section EPA adapted from the National Ground Water Association is omitted. Use does not imply endorsement by EPA or the U.S. Government.",
+ "description": "Private wells (types, location, testing, treatment, contaminants and flood response), emergency boiling and disinfection of drinking water, and how septic systems work, how to care for them, and the main system types."
+}

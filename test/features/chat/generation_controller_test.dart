@@ -96,7 +96,12 @@ void main() {
 
     await c.read(generationControllerProvider.notifier).reply(id);
 
-    expect(engine.lastHistory!.map((t) => t.text), ['first', 'second']);
+    expect(
+      engine.lastHistory!
+          .where((t) => t.speaker != ChatSpeaker.system)
+          .map((t) => t.text),
+      ['first', 'second'],
+    );
     await stream.close();
   });
 

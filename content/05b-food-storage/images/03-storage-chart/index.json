@@ -1,0 +1,26 @@
+[
+ {
+  "file": "tab-left.webp",
+  "caption": "Refrigerator & Freezer Storage Chart: Eggs; TV Dinners, Frozen Casseroles; Deli & Vacuum-Packed Products; Raw Hamburger, Ground & Stew Meat; Ham, Corned Beef; Hot Dogs & Lunch Meats",
+  "kind": "table",
+  "page": 1,
+  "bbox": [
+   18,
+   44,
+   305,
+   632
+  ]
+ },
+ {
+  "file": "tab-right.webp",
+  "caption": "Refrigerator & Freezer Storage Chart: Soups & Stews; Bacon & Sausage; Fresh Meat (Beef, Veal, Lamb, & Pork); Meat Leftovers; Fresh Poultry; Cooked Poultry, Leftover; Fish & Shellfish",
+  "kind": "table",
+  "page": 1,
+  "bbox": [
+   309,
+   102,
+   597,
+   632
+  ]
+ }
+]

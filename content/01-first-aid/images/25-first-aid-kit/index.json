@@ -1,0 +1,86 @@
+[
+ {
+  "file": "tab-a-1.webp",
+  "caption": "Table A-1. Joint First Aid Kit contents",
+  "kind": "table",
+  "page": 231,
+  "bbox": [
+   92.4,
+   297.4,
+   537.6,
+   584.8
+  ]
+ },
+ {
+  "file": "fig-a-1.webp",
+  "caption": "Figure A-1. Individual First Aid Kit, Generation I",
+  "kind": "figure",
+  "page": 232,
+  "bbox": [
+   110.5,
+   468.2,
+   483.5,
+   715.7
+  ]
+ },
+ {
+  "file": "tab-a-2.webp",
+  "caption": "Table A-2. Individual First Aid Kit Generation I Contents",
+  "kind": "table",
+  "page": 232,
+  "bbox": [
+   74.5,
+   235.4,
+   519.5,
+   472.7
+  ]
+ },
+ {
+  "file": "fig-a-2.webp",
+  "caption": "Figure A-2. Individual First Aid Kit, Generation II",
+  "kind": "figure",
+  "page": 233,
+  "bbox": [
+   128.5,
+   468.2,
+   501.5,
+   715.7
+  ]
+ },
+ {
+  "file": "tab-a-3.webp",
+  "caption": "Table A-3. Individual First Aid Kit Generation II Contents",
+  "kind": "table",
+  "page": 233,
+  "bbox": [
+   92.5,
+   228.5,
+   537.5,
+   472.7
+  ]
+ },
+ {
+  "file": "tab-a-4.webp",
+  "caption": "Table A-4. Combat lifesaver supplies for the United States Army",
+  "kind": "table",
+  "page": 234,
+  "bbox": [
+   74.5,
+   146.2,
+   519.5,
+   695.5
+  ]
+ },
+ {
+  "file": "tab-a-5.webp",
+  "caption": "Table A-5. Combat lifesaver supplies for the United States Marine Corps",
+  "kind": "table",
+  "page": 236,
+  "bbox": [
+   74.5,
+   260.5,
+   518.6,
+   724.5
+  ]
+ }
+]

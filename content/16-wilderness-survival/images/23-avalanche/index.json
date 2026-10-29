@@ -1,0 +1,134 @@
+[
+ {
+  "file": "fig-5-1.webp",
+  "caption": "Figure 5-1. Movement through avalanche terrain",
+  "kind": "figure",
+  "page": 84,
+  "bbox": [
+   74.5,
+   318.1,
+   519.7,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-2.webp",
+  "caption": "Figure 5-2. Snowpack layers",
+  "kind": "figure",
+  "page": 85,
+  "bbox": [
+   92.5,
+   287.1,
+   537.8,
+   633.8
+  ]
+ },
+ {
+  "file": "fig-5-3.webp",
+  "caption": "Figure 5-3. Slope angle",
+  "kind": "figure",
+  "page": 87,
+  "bbox": [
+   92.5,
+   244.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-4.webp",
+  "caption": "Figure 5-4. Slope shape",
+  "kind": "figure",
+  "page": 88,
+  "bbox": [
+   74.5,
+   387.1,
+   519.4,
+   681.2
+  ]
+ },
+ {
+  "file": "fig-5-5.webp",
+  "caption": "Figure 5-5. Avalanche problem types",
+  "kind": "figure",
+  "page": 90,
+  "bbox": [
+   65.5,
+   128.7,
+   528.0,
+   385.3
+  ]
+ },
+ {
+  "file": "fig-5-6.webp",
+  "caption": "Figure 5-6. Avalanche danger scale",
+  "kind": "figure",
+  "page": 91,
+  "bbox": [
+   92.5,
+   209.7,
+   538.0,
+   454.3
+  ]
+ },
+ {
+  "file": "fig-5-7.webp",
+  "caption": "Figure 5-7. Avalanche problems",
+  "kind": "figure",
+  "page": 92,
+  "bbox": [
+   74.5,
+   534.1,
+   519.4,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-8.webp",
+  "caption": "Figure 5-8. Individual avalanche equipment",
+  "kind": "figure",
+  "page": 96,
+  "bbox": [
+   74.5,
+   340.5,
+   519.1,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-9.webp",
+  "caption": "Figure 5-9. Signal search",
+  "kind": "figure",
+  "page": 98,
+  "bbox": [
+   74.5,
+   358.9,
+   520.2,
+   657.5
+  ]
+ },
+ {
+  "file": "fig-5-10.webp",
+  "caption": "Figure 5-10. Probing",
+  "kind": "figure",
+  "page": 99,
+  "bbox": [
+   92.5,
+   244.5,
+   537.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-5-11.webp",
+  "caption": "Figure 5-11. Shoveling",
+  "kind": "figure",
+  "page": 100,
+  "bbox": [
+   74.5,
+   340.5,
+   519.5,
+   715.7
+  ]
+ }
+]

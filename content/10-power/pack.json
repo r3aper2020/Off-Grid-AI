@@ -1,0 +1,11 @@
+{
+ "id": "power",
+ "title": "Power & Electricity",
+ "category": "guide",
+ "version": "2026.10.29.6",
+ "review": "verified",
+ "publisher": "U.S. Fire Administration (FEMA), Ready.gov (FEMA), U.S. Food and Drug Administration, Federal Aviation Administration, U.S. Energy Information Administration, and U.S. Department of Energy",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Fire Administration web pages and handouts, Ready.gov (Federal Emergency Management Agency), FDA medical-device emergency pages, the FAA PackSafe lithium batteries page, EIA Energy Explained (Source: U.S. Energy Information Administration), and U.S. Department of Energy solar, wind and hydropower basics pages, retrieved October 2026; reformatted into sections without changing substance; photos and figures not included. Use does not imply endorsement by USFA, FEMA, DHS, FDA, FAA, EIA, DOE, or the U.S. Government.",
+ "description": "Generator, carbon monoxide and electrical fire safety; lithium-ion battery safety (charging, storage, flooding, travel); keeping medical devices and phones powered in outages; space weather and the grid; watts and watthours; how batteries, solar PV, storage, inverters, wind turbines and hydropower work."
+}

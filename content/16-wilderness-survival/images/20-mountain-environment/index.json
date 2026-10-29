@@ -1,0 +1,62 @@
+[
+ {
+  "file": "fig-1-1.webp",
+  "caption": "Figure 1-1. Soldiers in mountainous terrain",
+  "kind": "figure",
+  "page": 22,
+  "bbox": [
+   65.5,
+   76.5,
+   528.3,
+   715.7
+  ]
+ },
+ {
+  "file": "tab-1-1.webp",
+  "caption": "Table 1-1. Operational terrain levels",
+  "kind": "table",
+  "page": 30,
+  "bbox": [
+   66.5,
+   142.6,
+   528.0,
+   497.8
+  ]
+ },
+ {
+  "file": "fig-1-2.webp",
+  "caption": "Figure 1-2. Terrain levels",
+  "kind": "figure",
+  "page": 30,
+  "bbox": [
+   66.5,
+   110.6,
+   528.0,
+   465.8
+  ]
+ },
+ {
+  "file": "tab-1-2.webp",
+  "caption": "Table 1-2. Dismounted mobility classes",
+  "kind": "table",
+  "page": 31,
+  "bbox": [
+   101.3,
+   89.6,
+   528.8,
+   230.0
+  ]
+ },
+ {
+  "file": "tab-1-3.webp",
+  "caption": "Table 1-3. Weather hazards and their effects on troops",
+  "kind": "table",
+  "page": 34,
+  "bbox": [
+   66.0,
+   358.5,
+   523.7,
+   722.9
+  ]
+ }
+]

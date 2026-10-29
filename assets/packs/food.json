@@ -1,0 +1,103 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "food",
+ "title": "Food Safety & Emergency Food",
+ "category": "guide",
+ "version": "2026.10.29.2",
+ "publisher": "CDC and Ready.gov (FEMA)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "description": "Keeping food safe after power outages and floods, and stocking emergency food.",
+ "attribution": "Text from U.S. Centers for Disease Control and Prevention (CDC) web pages, reformatted into sections without changing its substance. Use does not imply endorsement by CDC, HHS, or the U.S. Government. Text from Ready.gov (Federal Emergency Management Agency), reformatted into sections without changing its substance. Use does not imply endorsement by FEMA, DHS, or the U.S. Government.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Keep Food Safe After a Disaster or Emergency",
+   "sections": [
+    {
+     "heading": "What to know",
+     "body": "- Foods may be unsafe to eat after a disaster or emergency.\n- Prepare for emergencies and take steps during and after power outages, floods, and other emergencies to keep food safe.\n- If you're unsure if a food is safe to eat after an emergency, throw it out."
+    },
+    {
+     "heading": "Why it's important",
+     "body": "If you are in a disaster or emergency, take steps to prevent illness from unsafe food. Refrigerated or frozen foods may not be safe to eat after a loss of power. Food that may have had contact with floodwater or storm water may also be unsafe to eat."
+    },
+    {
+     "heading": "Prepare for emergencies",
+     "body": "- Keep appliance thermometers in your refrigerator and freezer. The refrigerator should be at 40°F or below. The freezer should be at 0°F or below.\n- Freeze containers of water and gel packs to help keep food at 40°F or below.\n- Have a cooler and frozen gel packs ready in case you have to remove food from the refrigerator to keep it cold.\n- Buy dry ice or block ice to keep food cold in the refrigerator if you think the power could be out for a long time."
+    },
+    {
+     "heading": "Steps to take during a power outage",
+     "body": "- Keep refrigerator and freezer doors closed.\n- If the doors stay closed, food will stay safe up to: 4 hours in a refrigerator, 48 hours in a full freezer, 24 hours in a half-full freezer.\n- If the power has been out for 4 hours, and a cooler and ice are available, put refrigerated perishable foods in the cooler. To keep them at 40°F or below, add ice or a cold source like frozen gel packs."
+    },
+    {
+     "heading": "Steps to take after a power outage",
+     "body": "- Never taste food to know if it is safe to eat. When in doubt, throw it out.\n- Throw out perishable food in your refrigerator (meat, fish, cut fruits and vegetables, eggs, milk, and leftovers) after 4 hours without power or without a cold source like ice. Throw out any food with an unusual smell, color, or texture.\n- If you have an appliance thermometer in your refrigerator, check to see if it is still at 40 °F or below.\n- Check temperatures of food kept in coolers or your refrigerator with an added cold source. Throw out food that has thawed or is above 40°.\n- You can safely refreeze or cook thawed frozen food that still contains ice crystals or is at 40 °F or below."
+    },
+    {
+     "heading": "Steps to take after a power outage: Resource",
+     "body": "Check this FoodSafety.gov chart for a list of what foods you should throw out and foods you can refreeze."
+    },
+    {
+     "heading": "Steps to take after a flood: Throw away these foods",
+     "body": "- Perishable food that has not been refrigerated or frozen properly due to power outages\n- Food that may have come in contact with floodwater or stormwater\n- Food with an unusual smell, color, or texture\n- Food in packages that are not waterproof\n- Food in cardboard containers, including juice/milk/baby formula boxes\n- Food containers with screw caps, snap lids, crimped caps, twist caps, flip tops, and snap tops\n- Home-canned foods and canned foods or food containers that are bulging, open, or damaged\n- Throw out cans or food containers that spurt liquid or foam when you open them or contain food that is discolored, moldy, or smells bad"
+    },
+    {
+     "heading": "Steps to take after a flood: When in doubt, throw it out!",
+     "body": "Unsafe food can make you sick even if it looks and smells normal."
+    },
+    {
+     "heading": "Steps to take after a flood: Clean and sanitize food-contact surfaces that have been flooded",
+     "body": "Throw out wooden cutting boards, baby bottle nipples, and pacifiers if they have come into contact with floodwaters. Sanitizing methods are not effective for removing contaminates in floodwater from these items.\n\nClean and sanitize dishes, utensils, and other surfaces that touch food (like refrigerator drawers or kitchen countertops) in a four-step process:"
+    },
+    {
+     "heading": "Steps to take after a flood: Steps to take",
+     "body": "- Wash\n- Wash with hot, soapy water.\n- Rinse\n- Rinse with clean, safe water.\n- Sanitize\n- Make a solution of 1 cup (8 oz/240 mL) of unscented household chlorine bleach in 5 gallons of clean water. Soak items for 1 minute in the beach solution (solution should completely cover the items). For items that you can't put in the solution (like countertops), apply solution with a cloth.\n- Dry\n- Allow to air dry."
+    },
+    {
+     "heading": "Steps to take after a flood: How to save commercially prepared food",
+     "body": "This includes food in cans, plastic, or metal pouches (like flexible, shelf stable juice packages)."
+    },
+    {
+     "heading": "Steps to take after a flood: Steps to take",
+     "body": "- Remove labels\n- Remove labels if possible. Note the expiration date.\n- Wipe away dirt\n- Brush or wipe away dirt or silt.\n- Wash\n- Wash cans and pouches with hot, soapy water.\n- Rinse\n- Rinse cans and pouches with clean, safe water.\n- Sanitize\n- Sanitize cans and pouches in one of two ways: Place them in a solution of 1 cup (8 oz/240 mL) of unscented household bleach in 5 gallons of water for 15 minutes, OR put them in a pot of water, bring to a boil, and continue boiling for 2 minutes.\n- Re-label\n- Re-label cans or pouches with a marker. Include the expiration date.\n- Use\n- Use food in cans or pouches as soon as possible."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+  },
+  {
+   "title": "Food",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Following a disaster there may be power outages that could last for several days. Stock canned foods, dry mixes and other staples that do not require refrigeration, cooking, water or special preparation. Be sure to include a manual can opener and eating utensils."
+    },
+    {
+     "heading": "Suggested Emergency Food Supplies",
+     "body": "Consider the following things when putting together your emergency food supplies:\n\n- Store at least a several-day supply of non-perishable food.\n- Choose foods your family will eat.\n- Remember any special dietary needs.\n\nWe suggest the following items when selecting emergency food supplies. You may already have many of these on hand. Download the Recommended Supplies List (PDF).\n\n- Ready-to-eat canned meats, fruits, vegetables and a can opener\n- Protein or fruit bars\n- Dry cereal or granola\n- Peanut butter\n- Dried fruit\n- Canned juices\n- Non-perishable pasteurized milk\n- High-energy foods\n- Food for infants\n- Comfort/stress foods"
+    },
+    {
+     "heading": "Food Safety and Sanitation",
+     "body": "Without electricity or a cold source food stored in refrigerators and freezers can become unsafe. Bacteria in food grow rapidly at temperatures between 40 and 140 degrees Fahrenheit and if these foods are consumed you can become very sick. Thawed food usually can be eaten if it is still “refrigerator cold.” It can be re-frozen if it still contains ice crystals. Remember “When in doubt, throw it out.”"
+    },
+    {
+     "heading": "Food Safety and Sanitation: Do:",
+     "body": "- Keep food in covered containers.\n- Keep cooking and eating utensils clean.\n- Throw away any food that has come into contact with contaminated flood water.\n- Throw away any food that has been at room temperature for two hours or more.\n- Throw away any food that has an unusual odor, color or texture.\n- Use ready-to-feed formula. If you must mix infant formula use bottled water or boiled water as a last resort."
+    },
+    {
+     "heading": "Food Safety and Sanitation: Don’t:",
+     "body": "- Eat foods from cans that are swollen, dented or corroded, even though the product may look safe to eat.\n- Eat any food that looks or smells abnormal, even if the can looks normal.\n- Let garbage accumulate inside, both for fire and sanitation reasons."
+    },
+    {
+     "heading": "Cooking",
+     "body": "Alternative cooking sources can be used in times of emergency including candle warmers, chafing dishes, fondue pots or a fireplace. Charcoal grills and camp stoves are for outdoor use only. Commercially canned food may be eaten out of the can without warming.\n\nTo heat food in a can:\n\n- Remove the label.\n- Thoroughly wash and disinfect the can. (Use a diluted solution of one part bleach to 10 parts water.)\n- Open the can before heating."
+    },
+    {
+     "heading": "Managing Food without Power",
+     "body": "- Keep the refrigerator and freezer doors closed as much as possible.\n- The refrigerator will keep food cold for about four hours if it is unopened.\n- Refrigerated or frozen foods should be kept at 40 degrees Fahrenheit or below for proper food storage.\n- Use a refrigerator thermometer to check temperature.\n- Refrigerated food should be safe as long as the power was out for no more than four hours.\n- Discard any perishable food such as meat, poultry, fish, eggs or leftovers that have been above 40 degrees Fahrenheit for two hours or more.\n\nUsing Dry Ice:\n\n- Know where you can get dry ice prior to a power outage.\n- Twenty-five pounds of dry ice will keep a 10 cubic foot freezer below freezing for three to four days.\n- If you use dry ice to keep your food cold, make sure it does not come in direct contact with the food.\n- Use care when handling dry ice. Wear dry, heavy gloves to avoid injury.\n\nFor more information about food safety during an emergency visit FoodSafety.gov.\n\nReturn to top"
+    }
+   ],
+   "sourceUrl": "https://www.ready.gov/food"
+  }
+ ]
+}

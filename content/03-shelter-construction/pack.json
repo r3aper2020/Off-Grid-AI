@@ -1,0 +1,11 @@
+{
+ "id": "shelter-construction",
+ "title": "Shelter & Construction",
+ "category": "guide",
+ "version": "2026.10.29.5",
+ "review": "verified",
+ "publisher": "U.S. Army (TM 3-34.47 Carpentry, 2022; TM 3-34.44 Concrete and Masonry, Change 1 2021)",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from U.S. Army TM 3-34.47/MCRP 3-40D.3, Carpentry (2022), and TM 3-34.44/MCRP 3-40D.4, Concrete and Masonry (2012, Change 1 September 2021), both approved for public release; distribution is unlimited. Civilian-relevant chapters only; reformatted into sections without changing substance; figures not included; load, span, mix-proportion, curing-protection and form-stripping tables held back. Use does not imply endorsement by the U.S. Army, DoD, or the U.S. Government.",
+ "description": "Building with wood, concrete and masonry: lumber and fasteners, layout and foundations, framing, roofing, doors and windows, finish carpentry, concrete mixing, placing and curing, and block, stone and brick masonry. Structural tables (spans, loads, mix ratios) are not included; check the original manuals for those values."
+}

@@ -1,0 +1,314 @@
+[
+ {
+  "file": "fig-a-1.webp",
+  "caption": "Figure A-1. Elements of ropes and knots",
+  "kind": "figure",
+  "page": 196,
+  "bbox": [
+   160.0,
+   301.4,
+   433.6,
+   608.3
+  ]
+ },
+ {
+  "file": "fig-a-2.webp",
+  "caption": "Figure A-2. Overhand",
+  "kind": "figure",
+  "page": 197,
+  "bbox": [
+   188.5,
+   298.4,
+   441.9,
+   596.3
+  ]
+ },
+ {
+  "file": "fig-a-3.webp",
+  "caption": "Figure A-3. Round turn and two half hitches",
+  "kind": "figure",
+  "page": 198,
+  "bbox": [
+   89.5,
+   450.2,
+   505.0,
+   662.6
+  ]
+ },
+ {
+  "file": "fig-a-4.webp",
+  "caption": "Figure A-4. Figure-eight knot",
+  "kind": "figure",
+  "page": 199,
+  "bbox": [
+   204.2,
+   373.1,
+   425.3,
+   639.6
+  ]
+ },
+ {
+  "file": "fig-a-5.webp",
+  "caption": "Figure A-5. Square knot",
+  "kind": "figure",
+  "page": 200,
+  "bbox": [
+   140.5,
+   147.7,
+   453.7,
+   433.6
+  ]
+ },
+ {
+  "file": "fig-a-6.webp",
+  "caption": "Figure A-6. Single sheet bend",
+  "kind": "figure",
+  "page": 201,
+  "bbox": [
+   163.0,
+   403.5,
+   467.5,
+   638.5
+  ]
+ },
+ {
+  "file": "fig-a-7.webp",
+  "caption": "Figure A-7. Double sheet bend",
+  "kind": "figure",
+  "page": 201,
+  "bbox": [
+   105.2,
+   124.4,
+   524.2,
+   309.8
+  ]
+ },
+ {
+  "file": "fig-a-8.webp",
+  "caption": "Figure A-8. Bowline knot",
+  "kind": "figure",
+  "page": 202,
+  "bbox": [
+   167.5,
+   278.6,
+   426.7,
+   504.5
+  ]
+ },
+ {
+  "file": "fig-a-9.webp",
+  "caption": "Figure A-9. Bowline on a bight knot",
+  "kind": "figure",
+  "page": 203,
+  "bbox": [
+   201.2,
+   327.1,
+   428.1,
+   638.5
+  ]
+ },
+ {
+  "file": "fig-a-10.webp",
+  "caption": "Figure A-10. French bowline",
+  "kind": "figure",
+  "page": 204,
+  "bbox": [
+   127.0,
+   342.5,
+   467.6,
+   586.5
+  ]
+ },
+ {
+  "file": "fig-a-11.webp",
+  "caption": "Figure A-11. Speir knot",
+  "kind": "figure",
+  "page": 205,
+  "bbox": [
+   207.2,
+   182.3,
+   423.2,
+   514.8
+  ]
+ },
+ {
+  "file": "fig-a-12.webp",
+  "caption": "Figure A-12. Half hitch and a two half hitch",
+  "kind": "figure",
+  "page": 206,
+  "bbox": [
+   179.9,
+   66.9,
+   414.2,
+   415.8
+  ]
+ },
+ {
+  "file": "fig-a-13.webp",
+  "caption": "Figure A-13. Timber hitch",
+  "kind": "figure",
+  "page": 207,
+  "bbox": [
+   190.0,
+   385.6,
+   439.9,
+   662.6
+  ]
+ },
+ {
+  "file": "fig-a-14.webp",
+  "caption": "Figure A-14. Timber hitch and half hitch",
+  "kind": "figure",
+  "page": 207,
+  "bbox": [
+   138.2,
+   140.5,
+   491.8,
+   303.4
+  ]
+ },
+ {
+  "file": "fig-a-15.webp",
+  "caption": "Figure A-15. Clove hitch",
+  "kind": "figure",
+  "page": 208,
+  "bbox": [
+   165.7,
+   404.6,
+   427.6,
+   638.0
+  ]
+ },
+ {
+  "file": "fig-a-16.webp",
+  "caption": "Figure A-16. Sheepshank",
+  "kind": "figure",
+  "page": 209,
+  "bbox": [
+   193.0,
+   346.0,
+   437.1,
+   650.0
+  ]
+ },
+ {
+  "file": "fig-a-17.webp",
+  "caption": "Figure A-17. Prussic",
+  "kind": "figure",
+  "page": 210,
+  "bbox": [
+   183.0,
+   463.7,
+   411.7,
+   623.9
+  ]
+ },
+ {
+  "file": "fig-a-18.webp",
+  "caption": "Figure A-18. Square lashing",
+  "kind": "figure",
+  "page": 211,
+  "bbox": [
+   169.0,
+   102.7,
+   460.6,
+   508.5
+  ]
+ },
+ {
+  "file": "fig-a-19.webp",
+  "caption": "Figure A-19. Diagonal lashing",
+  "kind": "figure",
+  "page": 212,
+  "bbox": [
+   149.5,
+   279.5,
+   444.7,
+   627.0
+  ]
+ },
+ {
+  "file": "fig-a-20.webp",
+  "caption": "Figure A-20. Shear lashing",
+  "kind": "figure",
+  "page": 213,
+  "bbox": [
+   182.5,
+   351.1,
+   447.5,
+   638.5
+  ]
+ },
+ {
+  "file": "tab-a-1.webp",
+  "caption": "Table A-1. Tensile strength of natural fibers",
+  "kind": "table",
+  "page": 214,
+  "bbox": [
+   129.7,
+   69.0,
+   470.6,
+   194.7
+  ]
+ },
+ {
+  "file": "fig-a-21.webp",
+  "caption": "Figure A-21. Twisting fibers",
+  "kind": "figure",
+  "page": 215,
+  "bbox": [
+   199.8,
+   371.6,
+   430.1,
+   560.0
+  ]
+ },
+ {
+  "file": "fig-a-22.webp",
+  "caption": "Figure A-22. Three-strand braid",
+  "kind": "figure",
+  "page": 216,
+  "bbox": [
+   144.2,
+   188.5,
+   450.3,
+   532.9
+  ]
+ },
+ {
+  "file": "fig-a-23.webp",
+  "caption": "Figure A-23. Broad braid",
+  "kind": "figure",
+  "page": 217,
+  "bbox": [
+   145.2,
+   264.2,
+   454.4,
+   615.7
+  ]
+ },
+ {
+  "file": "fig-a-24.webp",
+  "caption": "Figure A-24. Finish braid",
+  "kind": "figure",
+  "page": 218,
+  "bbox": [
+   119.5,
+   365.2,
+   474.5,
+   715.7
+  ]
+ },
+ {
+  "file": "fig-a-25.webp",
+  "caption": "Figure A-25. Whipping the end of a rope",
+  "kind": "figure",
+  "page": 219,
+  "bbox": [
+   170.5,
+   125.8,
+   460.0,
+   524.2
+  ]
+ }
+]

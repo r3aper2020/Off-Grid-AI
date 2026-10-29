@@ -1,0 +1,218 @@
+[
+ {
+  "file": "fig-f-1.webp",
+  "caption": "Figure F-1. Line orienteering.",
+  "kind": "figure",
+  "page": 197,
+  "bbox": [
+   108.4,
+   98.6,
+   463.6,
+   404.3
+  ]
+ },
+ {
+  "file": "fig-f-2.webp",
+  "caption": "Figure F-2. A cross-country orienteering map.",
+  "kind": "figure",
+  "page": 198,
+  "bbox": [
+   102.0,
+   308.4,
+   545.8,
+   631.9
+  ]
+ },
+ {
+  "file": "fig-f-3.webp",
+  "caption": "Figure F-3. A score orienteering map.",
+  "kind": "figure",
+  "page": 199,
+  "bbox": [
+   66.0,
+   154.5,
+   509.8,
+   558.1
+  ]
+ },
+ {
+  "file": "fig-f-4.webp",
+  "caption": "Figure F-4. Control markers.",
+  "kind": "figure",
+  "page": 201,
+  "bbox": [
+   123.7,
+   156.8,
+   449.1,
+   350.5
+  ]
+ },
+ {
+  "file": "fig-f-5.webp",
+  "caption": "Figure F-5. Recorder's sheet.",
+  "kind": "figure",
+  "page": 202,
+  "bbox": [
+   102.0,
+   252.4,
+   546.1,
+   710.2
+  ]
+ },
+ {
+  "file": "fig-f-6.webp",
+  "caption": "Figure F-6. Cross-country orienteering event card.",
+  "kind": "figure",
+  "page": 203,
+  "bbox": [
+   66.0,
+   406.1,
+   510.0,
+   655.9
+  ]
+ },
+ {
+  "file": "fig-f-7.webp",
+  "caption": "Figure F-7. Results board.",
+  "kind": "figure",
+  "page": 203,
+  "bbox": [
+   191.8,
+   70.2,
+   382.5,
+   341.3
+  ]
+ },
+ {
+  "file": "fig-f-8.webp",
+  "caption": "Figure F-8. Clue description card.",
+  "kind": "figure",
+  "page": 204,
+  "bbox": [
+   102.0,
+   168.5,
+   546.0,
+   614.0
+  ]
+ },
+ {
+  "file": "fig-f-9.webp",
+  "caption": "Figure F-9. Map symbols.",
+  "kind": "figure",
+  "page": 206,
+  "bbox": [
+   102.0,
+   294.6,
+   546.1,
+   656.1
+  ]
+ },
+ {
+  "file": "fig-f-9-p207.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 207,
+  "bbox": [
+   66.0,
+   154.8,
+   510.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p208.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 208,
+  "bbox": [
+   102.0,
+   154.7,
+   546.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p209.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 209,
+  "bbox": [
+   66.0,
+   154.7,
+   510.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p210.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 210,
+  "bbox": [
+   102.0,
+   140.6,
+   546.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p211.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 211,
+  "bbox": [
+   66.0,
+   140.6,
+   510.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p212.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 212,
+  "bbox": [
+   102.0,
+   140.6,
+   546.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p213.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 213,
+  "bbox": [
+   66.0,
+   140.6,
+   510.1,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-9-p214.webp",
+  "caption": "Figure F-9. Map symbols (continued).",
+  "kind": "figure",
+  "page": 214,
+  "bbox": [
+   102.0,
+   490.3,
+   545.7,
+   726.0
+  ]
+ },
+ {
+  "file": "fig-f-10.webp",
+  "caption": "Figure F-10. Handrails.",
+  "kind": "figure",
+  "page": 215,
+  "bbox": [
+   66.0,
+   294.3,
+   509.8,
+   655.9
+  ]
+ }
+]

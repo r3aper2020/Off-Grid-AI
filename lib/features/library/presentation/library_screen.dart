@@ -4,9 +4,9 @@ import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/database/app_database.dart';
-import '../../../core/format.dart';
 import '../../../core/widgets/screen_header.dart';
 import '../data/library_repository.dart';
+import 'review_badge.dart';
 
 class LibraryScreen extends ConsumerWidget {
   const LibraryScreen({super.key, this.category});
@@ -25,6 +25,7 @@ class LibraryScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final packs = ref.watch(packsProvider(category));
+    final sync = ref.watch(librarySyncProvider);
 
     return Scaffold(
       body: SafeArea(
@@ -37,10 +38,28 @@ class LibraryScreen extends ConsumerWidget {
               action: HeaderIconButton(
                 icon: Icons.search_rounded,
                 tooltip: 'Search library',
-                // Full-text search arrives with the knowledge engine.
-                onPressed: null,
+                onPressed: () => context.go('/library/search'),
               ),
             ),
+            if (sync != null)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Installing references… ${sync.done} of ${sync.total}',
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                    const SizedBox(height: 6),
+                    LinearProgressIndicator(
+                      value: sync.total == 0 ? null : sync.done / sync.total,
+                      minHeight: 4,
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                  ],
+                ),
+              ),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
@@ -74,7 +93,7 @@ class LibraryScreen extends ConsumerWidget {
                 loading: () => const SizedBox.shrink(),
                 error: (e, _) => Center(child: Text('Could not load: $e')),
                 data: (list) => list.isEmpty
-                    ? const _EmptyLibrary()
+                    ? _EmptyLibrary(filtered: category != null)
                     : ListView.separated(
                         padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
                         itemCount: list.length,
@@ -104,7 +123,9 @@ class _PackTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      clipBehavior: Clip.antiAlias,
       child: ListTile(
+        onTap: () => context.go('/library/pack/${pack.id}'),
         leading: Container(
           width: 36,
           height: 36,
@@ -115,9 +136,16 @@ class _PackTile extends StatelessWidget {
           child: Icon(packIcon(pack.category), size: 20),
         ),
         title: Text(pack.title, style: Theme.of(context).textTheme.titleSmall),
-        subtitle: Text(
-          '${pack.format.toUpperCase()} • ${formatBytes(pack.sizeBytes)}',
-          style: Theme.of(context).textTheme.bodySmall,
+        subtitle: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(pack.publisher, style: Theme.of(context).textTheme.bodySmall),
+            if (ReviewBadge.shortLabel(pack.reviewStatus) != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 4),
+                child: ReviewBadge(status: pack.reviewStatus),
+              ),
+          ],
         ),
         trailing: const Icon(
           Icons.chevron_right_rounded,
@@ -129,7 +157,8 @@ class _PackTile extends StatelessWidget {
 }
 
 class _EmptyLibrary extends StatelessWidget {
-  const _EmptyLibrary();
+  const _EmptyLibrary({required this.filtered});
+  final bool filtered;
 
   @override
   Widget build(BuildContext context) {
@@ -146,13 +175,15 @@ class _EmptyLibrary extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              'No references installed',
+              filtered
+                  ? 'Nothing in this category yet'
+                  : 'No references installed',
               style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: 8),
             const Text(
-              'Knowledge packs you install appear here and stay available '
-              'without a connection.',
+              'Reference guides appear here and stay available without a '
+              'connection.',
               textAlign: TextAlign.center,
               style: TextStyle(color: AppColors.textSecondary),
             ),
