@@ -287,7 +287,6 @@ class KnowledgeSearch {
     List<(PassageHit, double)> semantic,
     int limit,
   ) {
-    if (semantic.isEmpty) return lexical;
     final score = <int, double>{};
     final byId = <int, PassageHit>{};
     for (final (rank, h) in lexical.indexed) {
@@ -299,10 +298,21 @@ class KnowledgeSearch {
       score[h.passageId] = (score[h.passageId] ?? 0) + weight / (_rrfK + rank);
       byId[h.passageId] = h;
     }
+    // Current official guidance outranks old or unreviewed text on the
+    // same topic (a 1911 scout handbook shouldn't answer "I'm lost").
+    for (final MapEntry(:key, :value) in byId.entries) {
+      score[key] = score[key]! * _trust[value.reviewStatus]!;
+    }
     final ids = score.keys.toList()
       ..sort((a, b) => score[b]!.compareTo(score[a]!));
     return [for (final id in ids.take(limit)) byId[id]!];
   }
+
+  static const _trust = {
+    ReviewStatus.verified: 1.0,
+    ReviewStatus.needsReview: 0.8,
+    ReviewStatus.historical: 0.5,
+  };
 
   /// How much extra a meaning match earns per 0.1 of similarity above
   /// [semanticMin] (0.80 → ×2).

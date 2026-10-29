@@ -14,18 +14,18 @@ abstract final class Grounding {
   static const passageBudgetChars = 3500;
 
   static const citeInstruction =
-      'Excerpts from the user\'s offline survival guides are attached to '
-      'their latest message, numbered [1], [2] and so on. Treat them as your '
-      'source of truth. Right after a sentence that uses one, put its '
-      'number in square brackets, like [1]; only use numbers you were given. '
-      'Answer naturally: don\'t mention "excerpts" or "passages", and don\'t '
-      'quote them at length. If they don\'t answer the question, say in one '
-      'short sentence that your offline guides don\'t cover it, then give '
-      'brief general guidance without bracketed numbers. Excerpts marked '
-      'UNREVIEWED or HISTORICAL may be outdated: if you rely on one, briefly '
-      'tell the user to double-check critical steps. An excerpt may mention '
-      'a [Table image] or [Figure] you cannot see: never guess its numbers; '
-      'tell the user to tap that source to see it.';
+      'Excerpts from the user\'s offline guides are attached to their '
+      'message, numbered [1], [2] and so on. Base your answer on them and put '
+      'the number in brackets after each sentence that uses one, like [1]. '
+      'Don\'t mention "excerpts". If they don\'t answer the question, say in '
+      'one sentence that the offline guides don\'t cover it, then answer '
+      'briefly from general knowledge without numbers. If you rely on one '
+      'marked UNREVIEWED or HISTORICAL, say it may be outdated. Only give '
+      'numbers (times, amounts, doses, distances) that are written in the '
+      'excerpts. If they are in a [Table image], don\'t estimate them: say '
+      'the exact values are in that table and to tap the source to see it. '
+      'If someone is badly hurt, start by telling them to call 911 if they '
+      'can.';
 
   static const noSourceInstruction =
       'Nothing in the user\'s offline survival guides matched their latest '
