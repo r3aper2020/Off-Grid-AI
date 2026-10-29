@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/widgets/screen_header.dart';
@@ -40,7 +41,7 @@ class SettingsScreen extends ConsumerWidget {
 
     final modelSummary = switch (engine) {
       EngineReady(:final modelName) => modelName,
-      EngineUnavailable() => 'Not installed',
+      EngineUnavailable() => 'Not installed — tap to import',
       null => '…',
     };
 
@@ -61,6 +62,11 @@ class SettingsScreen extends ConsumerWidget {
                         leading: const Icon(Icons.memory_rounded),
                         title: const Text('Model'),
                         subtitle: Text(modelSummary),
+                        trailing: const Icon(
+                          Icons.chevron_right_rounded,
+                          color: AppColors.textTertiary,
+                        ),
+                        onTap: () => context.go('/settings/models'),
                       ),
                     ],
                   ),

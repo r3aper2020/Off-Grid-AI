@@ -14,16 +14,25 @@ Unit and widget tests.
 **Not yet verified:** running on a physical iPhone/Android phone (Xcode was
 incomplete and no emulator existed on the dev machine at build time).
 
-## 2. On-device AI
-- Pick and vet a llama.cpp bridge that runs on both iOS and Android with a
-  compatible license; record the choice in `decisions.md`.
-- `LlamaEngine implements InferenceEngine`: load GGUF from app storage,
-  stream tokens, stop on subscription cancel, run off the UI isolate.
-- Chat template per model, context window trimming.
-- Memory guardrails: refuse or unload on low memory; clear errors for
-  corrupt/unsupported files.
-- Sideload a GGUF for testing (download manager comes in M4).
-- Measure tokens/sec, RAM, and battery on real devices.
+## 2. On-device AI — ✅ working on Android
+Done:
+- `llamadart` chosen (see decisions), `LlamaInferenceEngine` streams tokens,
+  stops on cancel, loads lazily, unloads on memory pressure.
+- Settings → AI model: import `.gguf` (atomic, header-validated), switch
+  active model, delete.
+- Clear errors for missing/corrupt/unloadable model files.
+- One-tap download of the recommended model (size + SHA-256 verified,
+  cancellable); see decisions.
+- Tests for import safety, download verification/cancel, engine selection.
+
+Verified on device (2026-10-29, Pixel Fold, Android 17): recommended model
+downloads (with automatic resume after dropped connections), loads, and
+answers in chat — including in airplane mode.
+
+Remaining:
+- Measure load time, tokens/sec, RAM, and battery over a long chat.
+- Show a "loading model…" state on the first message (load takes seconds).
+- iOS run once Xcode is installed (deployment target already 16.4).
 
 ## 3. Offline knowledge engine
 Knowledge-pack format, import into SQLite FTS5, Library search, retrieval

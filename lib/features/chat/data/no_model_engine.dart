@@ -15,4 +15,10 @@ class NoModelEngine implements InferenceEngine {
   @override
   Stream<GenerationEvent> generate(List<ChatTurn> history) =>
       Stream.value(const GenerationFailed(reason));
+
+  @override
+  Future<void> release() async {}
+
+  @override
+  Future<void> dispose() async {}
 }

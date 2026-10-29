@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -5,6 +7,7 @@ import 'package:offgrid_ai/app/app.dart';
 import 'package:offgrid_ai/core/database/app_database.dart';
 import 'package:offgrid_ai/core/providers.dart';
 import 'package:offgrid_ai/features/chat/data/no_model_engine.dart';
+import 'package:offgrid_ai/features/models/model_providers.dart';
 
 import 'support/test_db.dart';
 
@@ -20,7 +23,12 @@ void main() {
     addTearDown(tester.view.reset);
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [databaseProvider.overrideWithValue(db)],
+        overrides: [
+          databaseProvider.overrideWithValue(db),
+          modelsDirectoryProvider.overrideWithValue(
+            Directory('${Directory.systemTemp.path}/offgrid_test_models'),
+          ),
+        ],
         child: const OffgridApp(),
       ),
     );
@@ -43,7 +51,7 @@ void main() {
 
     await tester.tap(find.text('Settings'));
     await tester.pumpAndSettle();
-    expect(find.text('Not installed'), findsOneWidget);
+    expect(find.text('Not installed — tap to import'), findsOneWidget);
   });
 
   testWidgets('sending a message without a model explains why', (tester) async {

@@ -7,8 +7,14 @@ abstract final class AppTheme {
     const scheme = ColorScheme.dark(
       primary: AppColors.accent,
       onPrimary: AppColors.onAccent,
+      primaryContainer: AppColors.accentMuted,
+      onPrimaryContainer: AppColors.accent,
       secondary: AppColors.accent,
       onSecondary: AppColors.onAccent,
+      // Unset containers fall back to the accent itself, which made e.g.
+      // progress-bar tracks indistinguishable from the fill.
+      secondaryContainer: AppColors.accentMuted,
+      onSecondaryContainer: AppColors.accent,
       surface: AppColors.surface,
       onSurface: AppColors.textPrimary,
       onSurfaceVariant: AppColors.textSecondary,
@@ -113,6 +119,10 @@ abstract final class AppTheme {
         labelStyle: text.labelLarge?.copyWith(fontWeight: FontWeight.w600),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         showCheckmark: false,
+      ),
+      progressIndicatorTheme: const ProgressIndicatorThemeData(
+        color: AppColors.accent,
+        linearTrackColor: AppColors.track,
       ),
       listTileTheme: const ListTileThemeData(
         iconColor: AppColors.accent,

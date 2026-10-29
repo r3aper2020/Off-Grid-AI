@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Used only when the user taps Download on the AI model screen.
+         Core features never touch the network (see docs/decisions.md). -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="offgrid_ai"
+        android:label="OFFGRID AI"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

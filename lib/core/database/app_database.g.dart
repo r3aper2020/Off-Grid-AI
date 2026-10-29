@@ -1231,12 +1231,430 @@ class KnowledgePacksCompanion extends UpdateCompanion<KnowledgePack> {
   }
 }
 
+class $InstalledModelsTable extends InstalledModels
+    with TableInfo<$InstalledModelsTable, InstalledModel> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $InstalledModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _displayNameMeta = const VerificationMeta(
+    'displayName',
+  );
+  @override
+  late final GeneratedColumn<String> displayName = GeneratedColumn<String>(
+    'display_name',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _fileNameMeta = const VerificationMeta(
+    'fileName',
+  );
+  @override
+  late final GeneratedColumn<String> fileName = GeneratedColumn<String>(
+    'file_name',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways('UNIQUE'),
+  );
+  static const VerificationMeta _sizeBytesMeta = const VerificationMeta(
+    'sizeBytes',
+  );
+  @override
+  late final GeneratedColumn<int> sizeBytes = GeneratedColumn<int>(
+    'size_bytes',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _isActiveMeta = const VerificationMeta(
+    'isActive',
+  );
+  @override
+  late final GeneratedColumn<bool> isActive = GeneratedColumn<bool>(
+    'is_active',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_active" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _installedAtMeta = const VerificationMeta(
+    'installedAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> installedAt = GeneratedColumn<DateTime>(
+    'installed_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    displayName,
+    fileName,
+    sizeBytes,
+    isActive,
+    installedAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'installed_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<InstalledModel> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('display_name')) {
+      context.handle(
+        _displayNameMeta,
+        displayName.isAcceptableOrUnknown(
+          data['display_name']!,
+          _displayNameMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_displayNameMeta);
+    }
+    if (data.containsKey('file_name')) {
+      context.handle(
+        _fileNameMeta,
+        fileName.isAcceptableOrUnknown(data['file_name']!, _fileNameMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_fileNameMeta);
+    }
+    if (data.containsKey('size_bytes')) {
+      context.handle(
+        _sizeBytesMeta,
+        sizeBytes.isAcceptableOrUnknown(data['size_bytes']!, _sizeBytesMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_sizeBytesMeta);
+    }
+    if (data.containsKey('is_active')) {
+      context.handle(
+        _isActiveMeta,
+        isActive.isAcceptableOrUnknown(data['is_active']!, _isActiveMeta),
+      );
+    }
+    if (data.containsKey('installed_at')) {
+      context.handle(
+        _installedAtMeta,
+        installedAt.isAcceptableOrUnknown(
+          data['installed_at']!,
+          _installedAtMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_installedAtMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  InstalledModel map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return InstalledModel(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      displayName: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}display_name'],
+      )!,
+      fileName: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}file_name'],
+      )!,
+      sizeBytes: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}size_bytes'],
+      )!,
+      isActive: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}is_active'],
+      )!,
+      installedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}installed_at'],
+      )!,
+    );
+  }
+
+  @override
+  $InstalledModelsTable createAlias(String alias) {
+    return $InstalledModelsTable(attachedDatabase, alias);
+  }
+}
+
+class InstalledModel extends DataClass implements Insertable<InstalledModel> {
+  final int id;
+  final String displayName;
+
+  /// File name inside the models directory (not an absolute path, so the
+  /// app container can move between OS updates/restores).
+  final String fileName;
+  final int sizeBytes;
+  final bool isActive;
+  final DateTime installedAt;
+  const InstalledModel({
+    required this.id,
+    required this.displayName,
+    required this.fileName,
+    required this.sizeBytes,
+    required this.isActive,
+    required this.installedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['display_name'] = Variable<String>(displayName);
+    map['file_name'] = Variable<String>(fileName);
+    map['size_bytes'] = Variable<int>(sizeBytes);
+    map['is_active'] = Variable<bool>(isActive);
+    map['installed_at'] = Variable<DateTime>(installedAt);
+    return map;
+  }
+
+  InstalledModelsCompanion toCompanion(bool nullToAbsent) {
+    return InstalledModelsCompanion(
+      id: Value(id),
+      displayName: Value(displayName),
+      fileName: Value(fileName),
+      sizeBytes: Value(sizeBytes),
+      isActive: Value(isActive),
+      installedAt: Value(installedAt),
+    );
+  }
+
+  factory InstalledModel.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return InstalledModel(
+      id: serializer.fromJson<int>(json['id']),
+      displayName: serializer.fromJson<String>(json['displayName']),
+      fileName: serializer.fromJson<String>(json['fileName']),
+      sizeBytes: serializer.fromJson<int>(json['sizeBytes']),
+      isActive: serializer.fromJson<bool>(json['isActive']),
+      installedAt: serializer.fromJson<DateTime>(json['installedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'displayName': serializer.toJson<String>(displayName),
+      'fileName': serializer.toJson<String>(fileName),
+      'sizeBytes': serializer.toJson<int>(sizeBytes),
+      'isActive': serializer.toJson<bool>(isActive),
+      'installedAt': serializer.toJson<DateTime>(installedAt),
+    };
+  }
+
+  InstalledModel copyWith({
+    int? id,
+    String? displayName,
+    String? fileName,
+    int? sizeBytes,
+    bool? isActive,
+    DateTime? installedAt,
+  }) => InstalledModel(
+    id: id ?? this.id,
+    displayName: displayName ?? this.displayName,
+    fileName: fileName ?? this.fileName,
+    sizeBytes: sizeBytes ?? this.sizeBytes,
+    isActive: isActive ?? this.isActive,
+    installedAt: installedAt ?? this.installedAt,
+  );
+  InstalledModel copyWithCompanion(InstalledModelsCompanion data) {
+    return InstalledModel(
+      id: data.id.present ? data.id.value : this.id,
+      displayName: data.displayName.present
+          ? data.displayName.value
+          : this.displayName,
+      fileName: data.fileName.present ? data.fileName.value : this.fileName,
+      sizeBytes: data.sizeBytes.present ? data.sizeBytes.value : this.sizeBytes,
+      isActive: data.isActive.present ? data.isActive.value : this.isActive,
+      installedAt: data.installedAt.present
+          ? data.installedAt.value
+          : this.installedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('InstalledModel(')
+          ..write('id: $id, ')
+          ..write('displayName: $displayName, ')
+          ..write('fileName: $fileName, ')
+          ..write('sizeBytes: $sizeBytes, ')
+          ..write('isActive: $isActive, ')
+          ..write('installedAt: $installedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode =>
+      Object.hash(id, displayName, fileName, sizeBytes, isActive, installedAt);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is InstalledModel &&
+          other.id == this.id &&
+          other.displayName == this.displayName &&
+          other.fileName == this.fileName &&
+          other.sizeBytes == this.sizeBytes &&
+          other.isActive == this.isActive &&
+          other.installedAt == this.installedAt);
+}
+
+class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
+  final Value<int> id;
+  final Value<String> displayName;
+  final Value<String> fileName;
+  final Value<int> sizeBytes;
+  final Value<bool> isActive;
+  final Value<DateTime> installedAt;
+  const InstalledModelsCompanion({
+    this.id = const Value.absent(),
+    this.displayName = const Value.absent(),
+    this.fileName = const Value.absent(),
+    this.sizeBytes = const Value.absent(),
+    this.isActive = const Value.absent(),
+    this.installedAt = const Value.absent(),
+  });
+  InstalledModelsCompanion.insert({
+    this.id = const Value.absent(),
+    required String displayName,
+    required String fileName,
+    required int sizeBytes,
+    this.isActive = const Value.absent(),
+    required DateTime installedAt,
+  }) : displayName = Value(displayName),
+       fileName = Value(fileName),
+       sizeBytes = Value(sizeBytes),
+       installedAt = Value(installedAt);
+  static Insertable<InstalledModel> custom({
+    Expression<int>? id,
+    Expression<String>? displayName,
+    Expression<String>? fileName,
+    Expression<int>? sizeBytes,
+    Expression<bool>? isActive,
+    Expression<DateTime>? installedAt,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (displayName != null) 'display_name': displayName,
+      if (fileName != null) 'file_name': fileName,
+      if (sizeBytes != null) 'size_bytes': sizeBytes,
+      if (isActive != null) 'is_active': isActive,
+      if (installedAt != null) 'installed_at': installedAt,
+    });
+  }
+
+  InstalledModelsCompanion copyWith({
+    Value<int>? id,
+    Value<String>? displayName,
+    Value<String>? fileName,
+    Value<int>? sizeBytes,
+    Value<bool>? isActive,
+    Value<DateTime>? installedAt,
+  }) {
+    return InstalledModelsCompanion(
+      id: id ?? this.id,
+      displayName: displayName ?? this.displayName,
+      fileName: fileName ?? this.fileName,
+      sizeBytes: sizeBytes ?? this.sizeBytes,
+      isActive: isActive ?? this.isActive,
+      installedAt: installedAt ?? this.installedAt,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (displayName.present) {
+      map['display_name'] = Variable<String>(displayName.value);
+    }
+    if (fileName.present) {
+      map['file_name'] = Variable<String>(fileName.value);
+    }
+    if (sizeBytes.present) {
+      map['size_bytes'] = Variable<int>(sizeBytes.value);
+    }
+    if (isActive.present) {
+      map['is_active'] = Variable<bool>(isActive.value);
+    }
+    if (installedAt.present) {
+      map['installed_at'] = Variable<DateTime>(installedAt.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('InstalledModelsCompanion(')
+          ..write('id: $id, ')
+          ..write('displayName: $displayName, ')
+          ..write('fileName: $fileName, ')
+          ..write('sizeBytes: $sizeBytes, ')
+          ..write('isActive: $isActive, ')
+          ..write('installedAt: $installedAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
   late final $ConversationsTable conversations = $ConversationsTable(this);
   late final $MessagesTable messages = $MessagesTable(this);
   late final $KnowledgePacksTable knowledgePacks = $KnowledgePacksTable(this);
+  late final $InstalledModelsTable installedModels = $InstalledModelsTable(
+    this,
+  );
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -1245,6 +1663,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     conversations,
     messages,
     knowledgePacks,
+    installedModels,
   ];
   @override
   StreamQueryUpdateRules get streamUpdateRules => const StreamQueryUpdateRules([
@@ -2140,6 +2559,238 @@ typedef $$KnowledgePacksTableProcessedTableManager =
       KnowledgePack,
       PrefetchHooks Function()
     >;
+typedef $$InstalledModelsTableCreateCompanionBuilder =
+    InstalledModelsCompanion Function({
+      Value<int> id,
+      required String displayName,
+      required String fileName,
+      required int sizeBytes,
+      Value<bool> isActive,
+      required DateTime installedAt,
+    });
+typedef $$InstalledModelsTableUpdateCompanionBuilder =
+    InstalledModelsCompanion Function({
+      Value<int> id,
+      Value<String> displayName,
+      Value<String> fileName,
+      Value<int> sizeBytes,
+      Value<bool> isActive,
+      Value<DateTime> installedAt,
+    });
+
+class $$InstalledModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $InstalledModelsTable> {
+  $$InstalledModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get displayName => $composableBuilder(
+    column: $table.displayName,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get fileName => $composableBuilder(
+    column: $table.fileName,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sizeBytes => $composableBuilder(
+    column: $table.sizeBytes,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get isActive => $composableBuilder(
+    column: $table.isActive,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get installedAt => $composableBuilder(
+    column: $table.installedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$InstalledModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $InstalledModelsTable> {
+  $$InstalledModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get displayName => $composableBuilder(
+    column: $table.displayName,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get fileName => $composableBuilder(
+    column: $table.fileName,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sizeBytes => $composableBuilder(
+    column: $table.sizeBytes,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get isActive => $composableBuilder(
+    column: $table.isActive,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get installedAt => $composableBuilder(
+    column: $table.installedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$InstalledModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $InstalledModelsTable> {
+  $$InstalledModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get displayName => $composableBuilder(
+    column: $table.displayName,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get fileName =>
+      $composableBuilder(column: $table.fileName, builder: (column) => column);
+
+  GeneratedColumn<int> get sizeBytes =>
+      $composableBuilder(column: $table.sizeBytes, builder: (column) => column);
+
+  GeneratedColumn<bool> get isActive =>
+      $composableBuilder(column: $table.isActive, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get installedAt => $composableBuilder(
+    column: $table.installedAt,
+    builder: (column) => column,
+  );
+}
+
+class $$InstalledModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $InstalledModelsTable,
+          InstalledModel,
+          $$InstalledModelsTableFilterComposer,
+          $$InstalledModelsTableOrderingComposer,
+          $$InstalledModelsTableAnnotationComposer,
+          $$InstalledModelsTableCreateCompanionBuilder,
+          $$InstalledModelsTableUpdateCompanionBuilder,
+          (
+            InstalledModel,
+            BaseReferences<
+              _$AppDatabase,
+              $InstalledModelsTable,
+              InstalledModel
+            >,
+          ),
+          InstalledModel,
+          PrefetchHooks Function()
+        > {
+  $$InstalledModelsTableTableManager(
+    _$AppDatabase db,
+    $InstalledModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$InstalledModelsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$InstalledModelsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$InstalledModelsTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> displayName = const Value.absent(),
+                Value<String> fileName = const Value.absent(),
+                Value<int> sizeBytes = const Value.absent(),
+                Value<bool> isActive = const Value.absent(),
+                Value<DateTime> installedAt = const Value.absent(),
+              }) => InstalledModelsCompanion(
+                id: id,
+                displayName: displayName,
+                fileName: fileName,
+                sizeBytes: sizeBytes,
+                isActive: isActive,
+                installedAt: installedAt,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String displayName,
+                required String fileName,
+                required int sizeBytes,
+                Value<bool> isActive = const Value.absent(),
+                required DateTime installedAt,
+              }) => InstalledModelsCompanion.insert(
+                id: id,
+                displayName: displayName,
+                fileName: fileName,
+                sizeBytes: sizeBytes,
+                isActive: isActive,
+                installedAt: installedAt,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$InstalledModelsTable, InstalledModel>(table),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $InstalledModelsTable,
+                    InstalledModel
+                  >(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$InstalledModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $InstalledModelsTable,
+      InstalledModel,
+      $$InstalledModelsTableFilterComposer,
+      $$InstalledModelsTableOrderingComposer,
+      $$InstalledModelsTableAnnotationComposer,
+      $$InstalledModelsTableCreateCompanionBuilder,
+      $$InstalledModelsTableUpdateCompanionBuilder,
+      (
+        InstalledModel,
+        BaseReferences<_$AppDatabase, $InstalledModelsTable, InstalledModel>,
+      ),
+      InstalledModel,
+      PrefetchHooks Function()
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -2150,4 +2801,6 @@ class $AppDatabaseManager {
       $$MessagesTableTableManager(_db, _db.messages);
   $$KnowledgePacksTableTableManager get knowledgePacks =>
       $$KnowledgePacksTableTableManager(_db, _db.knowledgePacks);
+  $$InstalledModelsTableTableManager get installedModels =>
+      $$InstalledModelsTableTableManager(_db, _db.installedModels);
 }

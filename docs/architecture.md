@@ -7,7 +7,8 @@ Flutter UI (Chat · Library · Tools · Settings)
         │  Riverpod providers
         ▼
 Feature domain interfaces
-  InferenceEngine        (chat)          — Milestone 2: llama.cpp
+  InferenceEngine        (chat)          — LlamaInferenceEngine (llamadart)
+  ModelStore             (models)        — imported GGUF files + registry
   LibraryRepository      (library)       — Milestone 3: FTS5 retrieval
   (preparedness, emergency, navigation)  — later milestones
         │
@@ -37,15 +38,17 @@ lib/
       chat_providers.dart    providers + GenerationController
     library/                 pack registry + Library screen
     tools/                   Tools list + Navigation shell
+    models/                  ModelStore (import/activate/delete), AI model screen
     settings/                status overview, data controls
 ```
 
-## Data model (schema v1)
+## Data model (schema v2)
 
 | Table | Purpose |
 |---|---|
 | `conversations` | Chat threads; title from first user message |
 | `messages` | `role` (user/assistant/system), `status` (complete/streaming/cancelled/failed/notice); cascades on conversation delete |
+| `installed_models` (v2) | Imported GGUF files: file name in `models/`, size, `isActive` (at most one) |
 | `knowledge_packs` | Installed-pack registry (id, category, format, version, size, path). Passages/FTS tables arrive in Milestone 3 |
 
 ## Chat generation flow

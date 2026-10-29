@@ -6,6 +6,7 @@ import '../features/chat/presentation/chat_home_screen.dart';
 import '../features/chat/presentation/conversation_screen.dart';
 import '../features/chat/presentation/history_screen.dart';
 import '../features/library/presentation/library_screen.dart';
+import '../features/models/presentation/models_screen.dart';
 import '../features/settings/presentation/settings_screen.dart';
 import '../features/tools/presentation/navigation_screen.dart';
 import '../features/tools/presentation/tools_screen.dart';
@@ -72,6 +73,13 @@ GoRouter buildRouter() => GoRouter(
             GoRoute(
               path: '/settings',
               builder: (_, _) => const SettingsScreen(),
+              routes: [
+                GoRoute(
+                  path: 'models',
+                  parentNavigatorKey: _rootKey,
+                  builder: (_, _) => const ModelsScreen(),
+                ),
+              ],
             ),
           ],
         ),

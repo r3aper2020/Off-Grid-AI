@@ -8,6 +8,9 @@ abstract final class AppColors {
   static const surfaceRaised = Color(0xFF1C211E);
   static const border = Color(0xFF262C28);
 
+  /// Unfilled part of progress bars; must read clearly on [surface].
+  static const track = Color(0xFF353D38);
+
   static const accent = Color(0xFF43D84A);
   static const accentMuted = Color(0xFF1F3A22);
   static const onAccent = Color(0xFF07140A);

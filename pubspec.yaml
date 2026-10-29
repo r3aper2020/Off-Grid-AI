@@ -40,6 +40,9 @@ dependencies:
   drift_flutter: ^0.3.1
   path_provider: ^2.1.6
   path: ^1.9.1
+  llamadart: ^0.17.0
+  file_picker: ^13.3.0
+  crypto: ^3.0.8
 dev_dependencies:
   flutter_test:
     sdk: flutter

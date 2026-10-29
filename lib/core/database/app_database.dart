@@ -47,16 +47,34 @@ class KnowledgePacks extends Table {
   Set<Column> get primaryKey => {id};
 }
 
-@DriftDatabase(tables: [Conversations, Messages, KnowledgePacks])
+/// GGUF models imported into app-private storage. At most one is active.
+class InstalledModels extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  TextColumn get displayName => text()();
+
+  /// File name inside the models directory (not an absolute path, so the
+  /// app container can move between OS updates/restores).
+  TextColumn get fileName => text().unique()();
+  IntColumn get sizeBytes => integer()();
+  BoolColumn get isActive => boolean().withDefault(const Constant(false))();
+  DateTimeColumn get installedAt => dateTime()();
+}
+
+@DriftDatabase(
+  tables: [Conversations, Messages, KnowledgePacks, InstalledModels],
+)
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor])
     : super(executor ?? driftDatabase(name: 'offgrid'));
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
+    onUpgrade: (m, from, to) async {
+      if (from < 2) await m.createTable(installedModels);
+    },
     beforeOpen: (details) async {
       await customStatement('PRAGMA foreign_keys = ON');
     },

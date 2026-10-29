@@ -10,6 +10,12 @@ abstract interface class InferenceEngine {
   /// [GenerationDone] or [GenerationFailed]. Cancelling the subscription
   /// must stop generation and release compute promptly.
   Stream<GenerationEvent> generate(List<ChatTurn> history);
+
+  /// Frees model memory if idle. The next [generate] reloads the model.
+  Future<void> release();
+
+  /// Releases everything; the engine is not used afterwards.
+  Future<void> dispose();
 }
 
 enum ChatSpeaker { user, assistant, system }

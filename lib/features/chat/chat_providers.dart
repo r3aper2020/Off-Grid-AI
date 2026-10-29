@@ -4,14 +4,33 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/database/app_database.dart';
 import '../../core/providers.dart';
+import '../models/model_providers.dart';
 import 'data/chat_repository.dart';
+import 'data/llama_engine.dart';
 import 'data/no_model_engine.dart';
 import 'domain/inference_engine.dart';
 
-/// Swapped for the llama.cpp engine once model management exists.
-final inferenceEngineProvider = Provider<InferenceEngine>(
-  (ref) => const NoModelEngine(),
-);
+/// llama.cpp engine for the active model, or [NoModelEngine] when none is
+/// installed. Rebuilt (and the old model freed) only when the active model
+/// actually changes.
+final inferenceEngineProvider = Provider<InferenceEngine>((ref) {
+  final active = ref.watch(
+    activeModelProvider.select((a) {
+      final m = a.value;
+      return m == null ? null : (id: m.id, name: m.displayName);
+    }),
+  );
+  if (active == null) return const NoModelEngine();
+
+  final store = ref.read(modelStoreProvider);
+  final model = ref.read(activeModelProvider).requireValue!;
+  final engine = LlamaInferenceEngine(
+    modelFile: store.fileFor(model),
+    modelName: active.name,
+  );
+  ref.onDispose(engine.dispose);
+  return engine;
+});
 
 final engineStatusProvider = FutureProvider<EngineStatus>(
   (ref) => ref.watch(inferenceEngineProvider).status(),

@@ -11,9 +11,9 @@ later milestone early.
 ## Non-negotiables
 
 - **Offline after setup.** No network calls on startup or in any core flow.
-  The release Android manifest has no `INTERNET` permission; adding it is a
-  decision that goes in `docs/decisions.md` (only for the optional download
-  manager, Milestone 4).
+  The only network code is `ModelDownload`
+  (`lib/features/models/data/model_downloader.dart`), run only when the user
+  taps Download. Any new network use needs an entry in `docs/decisions.md`.
 - **Never fake an answer.** If no model, no source, or no data exists, say so
   plainly. App-generated assistant text is stored as `MessageStatus.notice`
   and is never fed back to a model.

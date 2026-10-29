@@ -23,6 +23,12 @@ class FakeEngine implements InferenceEngine {
     lastHistory = history;
     return controller.stream;
   }
+
+  @override
+  Future<void> release() async {}
+
+  @override
+  Future<void> dispose() async {}
 }
 
 void main() {
