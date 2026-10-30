@@ -174,7 +174,9 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
   /// Library passages for [question]. The user's own words are searched
   /// first (a short follow-up together with the [previous] question). Only
   /// when that finds fewer than [Grounding.rewriteBelowHits] passages, or
-  /// the message looks like a follow-up, does the model rewrite the
+  /// its best match is not close in meaning
+  /// ([KnowledgeSearch.confidentSimilarity]), or the message looks like a
+  /// follow-up, does the model rewrite the
   /// message into plainer search queries (an extra prompt pass that costs
   /// seconds on a phone); then the user's words and the rewrites are
   /// searched together. A search failure must never stop the assistant
@@ -192,7 +194,12 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
           previous != null &&
           KnowledgeSearch.termsOf(question).length <=
               KnowledgeSearch.followUpMaxTerms;
-      if (direct.length >= Grounding.rewriteBelowHits && !followUp) {
+      final confident =
+          direct.isNotEmpty &&
+          (direct.first.similarity ?? 1) >= KnowledgeSearch.confidentSimilarity;
+      if (direct.length >= Grounding.rewriteBelowHits &&
+          confident &&
+          !followUp) {
         return direct;
       }
       final rewrites = Grounding.parseRewrites(

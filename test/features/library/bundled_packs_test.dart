@@ -241,6 +241,7 @@ void main() {
           contains('Hygiene'),
           contains('Sanitation'),
           contains('Medicine'),
+          contains('Latrines'),
         ),
       );
     });

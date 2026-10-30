@@ -15,11 +15,12 @@ abstract final class Grounding {
   /// (no prompt cache), so this is the main first-word latency knob:
   /// 6,500 took over two minutes on a Pixel Fold; 4,000 is the ceiling
   /// until a faster model or prompt caching lands.
-  static const passageBudgetChars = 4000;
+  static const passageBudgetChars = 4500;
 
   /// Passages given to the model at most. Fewer, better passages keep the
-  /// model answering the question instead of summarising the notes.
-  static const maxPassages = 4;
+  /// model answering the question instead of summarising the notes; a 4B
+  /// model given four covers all four.
+  static const maxPassages = 3;
 
   static const citeInstruction =
       'Reference passages from the user\'s offline library are attached to '

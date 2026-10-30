@@ -6,10 +6,29 @@ import 'package:offgrid_ai/core/database/app_database.dart';
 import 'package:offgrid_ai/features/library/data/knowledge_search.dart';
 import 'package:offgrid_ai/features/library/data/pack_installer.dart';
 import 'package:offgrid_ai/features/library/domain/pack_format.dart';
+import 'package:offgrid_ai/features/library/domain/passage_vectors.dart';
+import 'package:offgrid_ai/features/library/domain/text_embedder.dart';
 
 import '../../support/test_db.dart';
 
 final fixture = File('test/fixtures/test_pack.json').readAsStringSync();
+
+List<double> axis(int i) => [
+  for (var k = 0; k < PassageVectors.dim; k++) k == i ? 1.0 : 0.0,
+];
+
+/// Query vector 0.8 along section 0's axis and 0.6 along section 1's.
+class LeaningEmbedder implements TextEmbedder {
+  @override
+  Future<List<double>?> embedQuery(String text) async => [
+    for (var k = 0; k < PassageVectors.dim; k++)
+      k == 0
+          ? 0.8
+          : k == 1
+          ? 0.6
+          : 0.0,
+  ];
+}
 
 void main() {
   late AppDatabase db;
@@ -314,6 +333,32 @@ void main() {
       final hits = await search.forQuestion('how do I stop bleeding');
       expect(hits, hasLength(1));
     });
+
+    test(
+      'a keyword hit far from the best match in meaning is dropped',
+      () async {
+        // Both fixture water sections share the word "water"; the question's
+        // vector sits close to "Boiling water" (0.8) and far from "Storing
+        // water" (0.6), so only the first is a source.
+        await db.delete(db.knowledgePacks).go();
+        final h = [
+          for (final d in PackData.fromJson(jsonDecode(fixture)).documents)
+            for (final s in d.sections)
+              PassageVectors.sectionHash(s.heading, s.body),
+        ];
+        await installer.install(
+          fixture,
+          source: 'test',
+          vectors: PassageVectors.encode([
+            for (final (k, hash) in h.indexed) (hash, axis(k)),
+          ]),
+        );
+        final leaning = KnowledgeSearch(db, embedder: LeaningEmbedder());
+        final hits = await leaning.forQuestion('how do I boil my water');
+        expect(hits.map((x) => x.heading), ['Boiling water']);
+        expect(hits.first.similarity, closeTo(0.8, 0.02));
+      },
+    );
 
     test('several phrasings are fused, user words first', () async {
       final hits = await search.forQueries([

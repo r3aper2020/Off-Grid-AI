@@ -466,3 +466,24 @@ original question all over again. `LlamaInferenceEngine.trimReply` now
 keeps the opening and the last third of the budget (the ending) with the
 middle elided, and the system prompt says to continue from an answered
 question rather than repeat the steps.
+
+## 2026-10-30 — Retrieval precision: relative similarity floor, confidence-gated rewrite
+On the phone, "it's getting dark, I'm lost in the woods, what do I do first.
+I have no cell service either" was answered with advice about cleaning
+scrapes. The passages given were "Call 911 if you have cell phone
+service", "Minor injuries like scrapes", "If someone in your group gets
+injured": "cell", "service" and "first" are rare words in the library, so
+the keyword coverage gate admitted them, they ranked above the STOP and
+keep-warm passages, and the model covered what it was handed. Three
+changes:
+- Every hit now carries its cosine similarity to the question, and
+  passages more than 0.12 below the best match are dropped
+  (`KnowledgeSearch.relativeFloor`): incidental keyword hits ride along
+  only when they are also close in meaning.
+- The query rewrite also runs when the best direct match is below 0.72
+  (`confidentSimilarity`), not only when fewer than 3 passages are found —
+  a scenario phrased in the user's words rarely matches the library's.
+- At most 3 passages / 3,500 characters go to the model: a 4B model given
+  four passages covers all four.
+Also: the builder no longer glues an intro ending in ":" ("For
+children:") onto the unrelated section before it; it joins what follows.

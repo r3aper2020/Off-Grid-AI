@@ -21,6 +21,7 @@ class PassageHit {
     this.reviewStatus = ReviewStatus.verified,
     this.images = const [],
     this.aliases = '',
+    this.similarity,
   });
 
   final int passageId;
@@ -41,6 +42,25 @@ class PassageHit {
 
   /// The document's plain-language aliases (retrieval only; never shown).
   final String aliases;
+
+  /// Cosine similarity to the question this hit was ranked for, when
+  /// vectors were available (set by [KnowledgeSearch.forQuestion] and
+  /// [KnowledgeSearch.forQueries]); null otherwise.
+  final double? similarity;
+
+  PassageHit withSimilarity(double? value) => PassageHit(
+    passageId: passageId,
+    documentId: documentId,
+    heading: heading,
+    body: body,
+    documentTitle: documentTitle,
+    packTitle: packTitle,
+    snippet: snippet,
+    reviewStatus: reviewStatus,
+    images: images,
+    aliases: aliases,
+    similarity: value,
+  );
 
   /// Everything a question's words may match against.
   String get searchable => '$documentTitle $aliases $heading $body';
@@ -166,6 +186,10 @@ class KnowledgeSearch {
     'safely',
     'really',
     'still',
+    // Ordering words ("what do I do first", "next step"): they matched
+    // "First Aid kit" and pulled scrapes into a lost-in-the-woods answer.
+    'first', 'next', 'step', 'steps', 'immediately', 'right', 'away',
+    'exactly',
   };
 
   /// Everyday words mapped to the wording official sources use, so a
@@ -203,7 +227,7 @@ class KnowledgeSearch {
     String question, {
     int limit = 12,
   }) async {
-    return _finish(await _rank(question, limit), limit);
+    return _finish(await _rank(question, limit), limit, question);
   }
 
   /// Passages for several phrasings of one need (the user's message plus
@@ -227,7 +251,11 @@ class KnowledgeSearch {
     }
     final ids = score.keys.toList()
       ..sort((a, b) => score[b]!.compareTo(score[a]!));
-    return _finish([for (final id in ids.take(limit)) byId[id]!], limit);
+    return _finish(
+      [for (final id in ids.take(limit)) byId[id]!],
+      limit,
+      queries.first,
+    );
   }
 
   /// Weight of a rewritten query's ranking relative to the user's words.
@@ -278,28 +306,59 @@ class KnowledgeSearch {
   static const lexicalKept = 20;
   static const semanticKept = 20;
 
-  /// Completes a ranked list: a short intro section brings its
-  /// sub-sections, a "(part n)" section brings the parts around it, and
-  /// near-duplicates (the same procedure in two manuals) are dropped.
-  Future<List<PassageHit>> _finish(List<PassageHit> ranked, int limit) async {
+  /// Completes a ranked list: passages much further from the question in
+  /// meaning than the best one are dropped (a keyword hit on "cell
+  /// service" shouldn't ride along with the lost-hiker guidance), a short
+  /// intro section brings its sub-sections, a "(part n)" section brings
+  /// the parts around it, and near-duplicates (the same procedure in two
+  /// manuals) are dropped. Each hit carries its similarity for callers.
+  Future<List<PassageHit>> _finish(
+    List<PassageHit> ranked,
+    int limit,
+    String question,
+  ) async {
+    final q = await _queryVector(question);
+    final vectors = q == null ? null : await _vectors();
+    double? simOf(PassageHit h) {
+      final v = vectors?[h.passageId];
+      return v == null ? null : PassageVectors.similarity(q!, v.vector);
+    }
+
+    final scored = [for (final h in ranked) h.withSimilarity(simOf(h))];
+    final best = scored
+        .map((h) => h.similarity ?? 0)
+        .fold(0.0, (a, b) => a > b ? a : b);
     final out = <PassageHit>[];
     final seen = <int>{};
-    for (final hit in ranked) {
+    // Neighbouring parts go after every ranked passage, so a long split
+    // section's continuation doesn't take the budget from a better match.
+    final parts = <PassageHit>[];
+    for (final hit in scored) {
       if (!seen.add(hit.passageId)) continue;
+      final sim = hit.similarity;
+      if (sim != null && sim < best - relativeFloor) continue;
       if (_isDuplicate(hit, out)) continue;
       out.add(hit);
-      final extra = <PassageHit>[];
       if (hit.body.length < shortSectionChars) {
-        extra.addAll(await _subsections(hit));
+        for (final e in await _subsections(hit)) {
+          if (seen.add(e.passageId)) out.add(e.withSimilarity(simOf(e)));
+        }
       }
-      extra.addAll(await _neighbourParts(hit));
-      for (final e in extra) {
-        if (seen.add(e.passageId)) out.add(e);
+      for (final e in await _neighbourParts(hit)) {
+        if (seen.add(e.passageId)) parts.add(e.withSimilarity(simOf(e)));
       }
       if (out.length >= limit * 2) break;
     }
-    return out;
+    return [...out, ...parts];
   }
+
+  /// How far below the best match's similarity a passage may fall and
+  /// still be given to the model.
+  static const relativeFloor = 0.12;
+
+  /// A best match below this means the user's words didn't find the
+  /// library's; worth asking the model to rephrase the search.
+  static const confidentSimilarity = 0.72;
 
   /// Passages closest in meaning to [question], best first: section
   /// vectors, lifted by how well the whole document matches (a question

@@ -153,9 +153,14 @@ def clean_sections(sections: list, report: list) -> list:
                 continue
             nxt = kept[i + 1] if i + 1 < len(kept) else None
             prev = kept[i - 1] if i > 0 else None
-            if nxt and nxt[0].startswith(sec[0] + ": "):
-                # Intro paragraph of a group: it belongs with the first child.
-                nxt[1] = f"{sec[1]}\n\n{nxt[1]}"
+            intro = (nxt and nxt[0].startswith(sec[0] + ": ")) or \
+                sec[0].rstrip().endswith(":") or \
+                text_only(sec[1]).rstrip().endswith(":")
+            if nxt and intro and \
+                    len(f"**{sec[0]}**\n\n{sec[1]}\n\n{nxt[1]}") <= MAX_SECTION_CHARS:
+                # An intro ("For children:") belongs with what follows it,
+                # never glued onto the unrelated section before it.
+                nxt[1] = f"**{sec[0]}**\n\n{sec[1]}\n\n{nxt[1]}"
                 report.append(f"merged '{sec[0][:50]}' into '{nxt[0][:50]}'")
             elif prev and len(joined(prev[1], sec[1], sec[0])) <= MAX_SECTION_CHARS:
                 prev[1] = joined(prev[1], sec[1], sec[0])
