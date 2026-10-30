@@ -4,10 +4,10 @@
  "id": "communications",
  "title": "Radio & Communications",
  "category": "guide",
- "version": "2026.10.30.1",
+ "version": "2026.10.30.2",
  "publisher": "CISA (NIFOG v2.02), FCC rules via eCFR (47 CFR Parts 95 and 97), NOAA National Weather Service, U.S. Army (TC 9-64)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
- "description": "Using radios in an emergency: interoperability rules and conventions, interference, reporting a medical emergency by radio, antennas and RF safety, FCC rules for amateur radio, FRS, GMRS, CB and MURS, and NOAA Weather Radio reception and SAME alerts. Frequency tables are not included; FCC rules are a snapshot from October 2026.",
+ "description": "Using radios in an emergency: interoperability rules and conventions, interference, reporting a medical emergency by radio, antennas and RF safety, FCC rules for amateur radio, FRS, GMRS, CB and MURS, and NOAA Weather Radio reception and SAME alerts. Frequency tables are not included; FCC rules are a snapshot from October 2026. Radiotelephone procedure (prowords, message format) and the phonetic alphabet.",
  "attribution": "Text from the Cybersecurity and Infrastructure Security Agency's National Interoperability Field Operations Guide, Version 2.02 (January 2025); Title 47 of the Code of Federal Regulations, Part 97 (Amateur Radio Service) and Part 95 Subparts A, B, D, E and J (Personal Radio Services), from the Electronic Code of Federal Regulations as of October 27, 2026 (not the official legal edition; check ecfr.gov for current rules); NOAA National Weather Service NOAA Weather Radio web pages (excerpts, not official NWS products or warnings); and U.S. Army TC 9-64, Communications-Electronics Fundamentals (2004), approved for public release; distribution is unlimited. Reformatted into sections without changing substance; figures and channel/frequency tables not included. Use does not imply endorsement by CISA, DHS, the FCC, NOAA, the U.S. Army, DoD, or the U.S. Government.",
  "review": "verified",
  "documents": [
@@ -1122,6 +1122,75 @@
    ],
    "sourceUrl": "https://www.weather.gov/nwr/nwr_receivers",
    "aliases": "weather radio, NOAA weather radio, which weather radio to buy, programming weather radio, SAME code, weather alert radio, weather radio for county, weather radio features, public alert radio, weather radio setup, emergency alert radio, radio for storms, hand crank weather radio, weather radio battery backup, all hazards radio"
+  },
+  {
+   "title": "Radiotelephone Procedure: Prowords, Phonetic Alphabet and Message Format (TC 3-21.75 Ch. 11)",
+   "sections": [
+    {
+     "heading": "Radiotelephone Procedures",
+     "body": "Radio, the least secure means of communication, speeds the exchange of messages and helps avoid errors.\n\nProper radio procedures must be used to reduce the enemy’s opportunity to hamper radio communications. Each time you talk over a radio, the sound of your voice travels in all directions. The enemy can listen to your radio transmissions while you are communicating with other friendly radio stations. You must always assume that the enemy is listening to get information about you and your unit, or to locate your position to destroy you with artillery fire."
+    },
+    {
+     "heading": "RULES",
+     "body": "11-1. Radio procedure rules, listed below, will help you use transmission times efficiently and avoid violations of communications.\n\n- Prior to operation, assure equipment is properly configured. The TM is a good place to begin.\n\nExamples of items to check include tuning, power settings, and connections.\n\n- Change frequencies and call signs IAW unit signal operating instructions (SOI).\n\n- Use varied transmission schedules and lengths.\n\n- Use established formats to expedite transmissions such as sending reports.\n\n- Encode messages or use secure voice.\n\n- Clarity of radio communications varies widely, so use the phonetic alphabet and numbers.\n\n- Transmit clear, complete, and concise messages. When possible, write them out beforehand.\n\n- Speak clearly, slowly, and in natural phrases as you enunciate each word. If a receiving\n\noperator must write the message, allow time for him to do so.\n\n- Listen before transmitting to avoid interfering with other transmissions.\n\n- Long messages risk becoming garbled and create increased electronic signature. The use of\n\nprowords is essential in reducing transmission time and avoiding confusion.\n\n- Minimize transmission time."
+    },
+    {
+     "heading": "TYPES OF NETS",
+     "body": "11-2.\n\nStations are grouped into nets according to requirements of the tactical situation. A Net is two or more stations in communications with each other, operating on the same frequency. Nets can be for voice and/or data communications. The types of nets follow:\n\nCommand Net (Command and control the unit's maneuver).\n\nIntelligence Net (Communicate enemy information and develop situational awareness).\n\nOperations and Intelligence Net\n\nAdministration and Logistics Net (Coordinate sustainment assets)."
+    },
+    {
+     "heading": "PRECEDENCE OF REPORTS",
+     "body": "Flash (For initial enemy contact reports).\n\nImmediate (Situations which greatly affect the security of national and allied forces).\n\nPriority (Important message over routine traffic).\n\nRoutine (All types of messages that are not urgent).\n\nCommunications"
+    },
+    {
+     "heading": "MESSAGE FORMAT",
+     "body": "Heading--A heading consists of the following information:\n\n- 1. Identity of distant station and self.\n\n- 2. Transmission instructions (Relay To, Read Back, Do Not Answer).\n\n- 3. Precedence.\n\n- 4. FROM/TO.\n\nText--Text is used to--\n\n- 1. Separate heading from message with Break.\n\n- 2. State reason for message.\n\nEnding--An ending consists of--\n\nFinal Instructions (Correction, I Say Again, More to Follow, Standby, Execute, Wait).\n\nOVER or OUT (never use both together)."
+    },
+    {
+     "heading": "COMMON MESSAGES",
+     "body": "11-3. for fire.\n\nSoldiers should know how to prepare and use the Nine-Line MEDEVAC Request and the call\n\nNine-Line MEDEVAC Request--For a more detailed description (Table 4-3, FM 4-02.2):\n\nSpecial equipment required.\n\nPatient type.\n\nSecurity of pickup sight (wartime).\n\nLine 1 Location of pickup site.\n\nLine 2 Radio frequency, call sign, and suffix.\n\nLine 3 Number of patients by precedence.\n\nLine 4 Line 5 Line 6 Line 6 Number and type of wound, injury, or illness (peacetime).\n\nLine 7 Method of marking pickup site.\n\nLine 8 Line 9 CBRN contamination (wartime).\n\nLine 9 Terrain description (Peacetime).\n\nPatient nationality and status.\n\nCall for Fire--The normal call for fire is sent in three parts, each of which has the following six elements. The six elements, detailed in the sequence in which they are transmitted, follow: For a more detailed explanation for calling for fire, see FM 6-30, Chapter 4:\n\n- Observer identification.\n\n- Warning order.\n\n- Target location.\n\n- Target description.\n\n- Method of engagement.\n\n- Method of fire and control.\n\nChapter 11"
+    },
+    {
+     "heading": "PROWORDS",
+     "body": "11-4. radio checks:\n\nThe following paragraphs discuss common, strength, and readability prowords, as well as\n\nCommon Prowords--Common prowords are those words used on a regular basis while conducting radio operations. They are NOT interchangeable, as the meanings are specific and clear to the receiver. An example is \"Say Again\" versus \"Repeat.\" \"Say Again\" means to repeat the last transmission, while \"Repeat\" refers to fire support, and means to fire the last mission again (Figure 11-1).\n\nStrength and Readability Prowords--Certain strength and readability prowords must be used during\n\nradio checks:\n\nStrength Prowords\n\n- Loud.\n\n- Good.\n\n- Weak.\n\n- Very Weak.\n\n- Poor.\n\nReadability Prowords\n\n- Clear.\n\n- Readable.\n\n- Unreadable.\n\n- Distorted.\n\n- With Interference.\n\n- Intermittent.\n\nRadio Checks--Rating signal strength and readability. An example radio check follows:\n\nRadio Check What is my strength and readability?\n\nRoger\n\nI received your transmission satisfactorily.\n\nCommunications\n\n{{img:0}}",
+     "images": [
+      {
+       "asset": "assets/packs/images/communications--30-radiotelephone--fig-11-1.webp",
+       "caption": "Figure 11-1. Common prowords.",
+       "kind": "figure"
+      }
+     ]
+    }
+   ],
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_21x75.pdf",
+   "aliases": "how to talk on a radio properly, radio prowords meaning, say again vs repeat, roger vs wilco, over and out meaning, radio check how do you hear me, radio message format, radio etiquette emergency, keep radio transmissions short, radio net types, precedence of messages"
+  },
+  {
+   "title": "Radio Technique and the Phonetic Alphabet (FAA Aeronautical Information Manual 4-2)",
+   "sections": [
+    {
+     "heading": "Radio Technique",
+     "body": "- Listenbefore you transmit. Many times you can get the information you want through ATIS or by monitoring the frequency. Except for a few situations where some frequency overlap occurs, if you hear someone else talking, the keying of your transmitter will be futile and you will probably jam their receivers causing them to repeat their call. If you have just changed frequencies, pause, listen, and make sure the frequency is clear.\n- Think before keying your transmitter. Know what you want to say and if it is lengthy; e.g., a flight plan or IFR position report, jot it down.\n- The microphone should be very close to your lips and after pressing the mike button, a slight pause may be necessary to be sure the first word is transmitted. Speak in a normal, conversational tone.\n- When you release the button, wait a few seconds before calling again. The controller or FSS specialist may be jotting down your number, looking for your flight plan, transmitting on a different frequency, or selecting the transmitter for your frequency.\n- Be alert to the sounds or the lack of sounds in your receiver. Check your volume, recheck your frequency, and make sure that your microphone is not stuck in the transmit position. Frequency blockage can, and has, occurred for extended periods of time due to unintentional transmitter operation. This type of interference is commonly referred to as a “stuck mike,” and controllers may refer to it in this manner when attempting to assign an alternate frequency. If the assigned frequency is completely blocked by this type of interference, use the procedures described for en route IFR radio frequency outage to establish or reestablish communications with ATC.\n- Be sure that you are within the performance range of your radio equipment and the ground station equipment. Remote radio sites do not always transmit and receive on all of a facility's available frequencies, particularly with regard to VOR sites where you can hear but not reach a ground station's receiver. Remember that higher altitudes increase the range of VHF “line of sight” communications."
+    },
+    {
+     "heading": "General",
+     "body": "- Radio communications are a critical link in the ATC system. The link can be a strong bond between pilot and controller or it can be broken with surprising speed and disastrous results. Discussion herein provides basic procedures for new pilots and also highlights safe operating concepts for all pilots.\n- The single, most important thought in pilot‐controller communications is understanding. It is essential, therefore, that pilots acknowledge each radio communication with ATC by using the appropriate aircraft call sign. Brevity is important, and contacts should be kept as brief as possible, but controllers must know what you want to do before they can properly carry out their control duties. And you, the pilot, must know exactly what the controller wants you to do. Since concise phraseology may not always be adequate, use whatever words are necessary to get your message across. Pilots are to maintain vigilance in monitoring air traffic control radio communications frequencies for potential traffic conflicts with their aircraft especially when operating on an active runway and/or when conducting a final approach to landing.\n- All pilots will find the Pilot/Controller Glossary very helpful in learning what certain words or phrases mean. Good phraseology enhances safety and is the mark of a professional pilot. Jargon, chatter, and “CB” slang have no place in ATC communications. The Pilot/Controller Glossary is the same glossary used in FAA Order JO 7110.65, Air Traffic Control. We recommend that it be studied and reviewed from time to time to sharpen your communication skills."
+    },
+    {
+     "heading": "Phonetic Alphabet",
+     "body": "The International Civil Aviation Organization (ICAO) phonetic alphabet is used by FAA personnel when communications conditions are such that the information cannot be readily received without their use. ATC facilities may also request pilots to use phonetic letter equivalents when aircraft with similar sounding identifications are receiving communications on the same frequency. Pilots should use the phonetic alphabet when identifying their aircraft during initial contact with air traffic control facilities. Additionally, use the phonetic equivalents for single letters and to spell out groups of letters or difficult words during adverse communications conditions. (See TBL 4-2-2.)\nTBL 4-2-7Phonetic Alphabet/Morse Code\n\n- A — Alfa (AL-FAH) — Morse ● —\n- B — Bravo (BRAH-VOH) — Morse — ● ● ●\n- C — Charlie (CHAR-LEE) or (SHAR-LEE) — Morse — ● — ●\n- D — Delta (DELL-TAH) — Morse — ● ●\n- E — Echo (ECK-OH) — Morse ●\n- F — Foxtrot (FOKS-TROT) — Morse ● ● — ●\n- G — Golf (GOLF) — Morse — — ●\n- H — Hotel (HOH-TEL) — Morse ● ● ● ●\n- I — India (IN-DEE-AH) — Morse ● ●\n- J — Juliett (JEW-LEE-ETT) — Morse ● — — —\n- K — Kilo (KEY-LOH) — Morse — ● —\n- L — Lima (LEE-MAH) — Morse ● — ● ●\n- M — Mike (MIKE) — Morse — —\n- N — November (NO-VEM-BER) — Morse — ●\n- O — Oscar (OSS-CAH) — Morse — — —\n- P — Papa (PAH-PAH) — Morse ● — — ●\n- Q — Quebec (KEH-BECK) — Morse — — ● —\n- R — Romeo (ROW-ME-OH) — Morse ● — ●\n- S — Sierra (SEE-AIR-RAH) — Morse ● ● ●\n- T — Tango (TANG-GO) — Morse —\n- U — Uniform (YOU-NEE-FORM) or (OO-NEE-FORM) — Morse ● ● —\n- V — Victor (VIK-TAH) — Morse ● ● ● —\n- W — Whiskey (WISS-KEY) — Morse ● — —\n- X — Xray (ECKS-RAY) — Morse — ● ● —\n- Y — Yankee (YANG-KEY) — Morse — ● — —\n- Z — Zulu (ZOO-LOO) — Morse — — ● ●\n- 1 — One (WUN) — Morse ● — — — —\n- 2 — Two (TOO) — Morse ● ● — — —\n- 3 — Three (TREE) — Morse ● ● ● — —\n- 4 — Four (FOW-ER) — Morse ● ● ● ● —\n- 5 — Five (FIFE) — Morse ● ● ● ● ●\n- 6 — Six (SIX) — Morse — ● ● ● ●\n- 7 — Seven (SEV-EN) — Morse — — ● ● ●\n- 8 — Eight (AIT) — Morse — — — ● ●\n- 9 — Nine (NIN-ER) — Morse — — — — ●\n- 0 — Zero (ZEE-RO) — Morse — — — — —"
+    },
+    {
+     "heading": "Figures: How Numbers Are Spoken",
+     "body": "- Figures indicating hundreds and thousands in round number, as for ceiling heights, and upper wind levels up to 9,900 must be spoken in accordance with the following.\n- Numbers above 9,900 must be spoken by separating the digits preceding the word “thousand.”\n- Transmit airway or jet route numbers as follows.\n- All other numbers must be transmitted by pronouncing each digit.\n- When a radio frequency contains a decimal point, the decimal point is spoken as “POINT.”"
+    },
+    {
+     "heading": "Time",
+     "body": "- FAA uses Coordinated Universal Time (UTC) for all operations. The word “local” or the time zone equivalent must be used to denote local when local time is given during radio and telephone communications. The term “Zulu” may be used to denote UTC.\n- To convert from Standard Time to Coordinated Universal Time:\n- TBL 4-2-12Standard Time to Coordinated Universal Time\n- Eastern Standard Time Central Standard Time\n- Mountain Standard Time\n- Pacific Standard Time\n- Alaska Standard Time Hawaii Standard Time\n- Add 5 hours\n- Add 6 hours\n- Add 7 hours\n- Add 8 hours\n- Add 9 hours\n- Add 10 hours\n- A reference may be made to local daylight or standard time utilizing the 24-hour clock system. The hour is indicated by the first two figures and the minutes by the last two figures.\n- Time may be stated in minutes only (two figures) in radiotelephone communications when no misunderstanding is likely to occur.\n- Current time in use at a station is stated in the nearest quarter minute in order that pilots may use this information for time checks. Fractions of a quarter minute less than 8 seconds are stated as the preceding quarter minute; fractions of a quarter minute of 8 seconds or more are stated as the succeeding quarter minute."
+    }
+   ],
+   "sourceUrl": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html",
+   "aliases": "radio phonetic alphabet, nato phonetic alphabet alfa bravo charlie, how to say numbers on the radio, spell a word phonetically on radio, radio technique listen before transmit, how to use a handheld radio properly, morse code letters, how to pronounce niner, radio time zulu"
   }
  ]
 }

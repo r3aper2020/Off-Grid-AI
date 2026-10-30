@@ -34,3 +34,10 @@ D=content/20-home-energy
 # 18-microhydropower-systems.md | https://www.energy.gov/energysaver/microhydropower-systems
 for f in 01-insulation.md 02-where-insulate-home.md 03-types-insulation.md 04-insulation-materials.md 05-air-sealing-your-home.md 06-caulking.md 07-weatherstripping.md 08-passive-solar-homes.md 09-home-heating-systems.md 10-wood-and-pellet-heating.md 11-small-space-heaters.md 12-planning-home-solar-electric-system.md 13-grid-connected-renewable-energy-systems.md 14-grid-or-stand-alone-renewable-energy-systems.md 15-balance-system-equipment-required-renewable-energy-systems.md 16-solar-water-heaters.md 17-small-wind-electric-systems.md 18-microhydropower-systems.md; do [ -f "$D/$f" ] || { echo "missing $f"; exit 1; }; done
 echo "home-energy: $(ls $D/*.md | wc -l) documents present"
+# --- Added 2026-10-30, communications pack (version 2026.10.30.2):
+#   30-radiotelephone.md  TC 3-21.75 (Aug 2013, "Approved for public release; distribution is unlimited"),
+#     pages 204-207 only (Section II Radiotelephone Procedures; Section III COMSEC not taken):
+#     tools/.venv/bin/python tools/packs/extract_pdf.py <src>/tc3-21-75.pdf --pages 204-207 --caps-headings --figures auto ...
+#     Figure 11-1 (prowords table) shipped as an image. Only this radio section of the manual is used.
+#   31-faa-phonetic-alphabet.md  FAA AIM Chapter 4 Section 2 (public domain), paragraphs 4-2-1, 4-2-2, 4-2-7, 4-2-8, 4-2-12;
+#     the phonetic table re-joined one line per letter (letter — word (pronunciation) — Morse) and checked by eye.

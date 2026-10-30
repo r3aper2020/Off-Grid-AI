@@ -98,8 +98,6 @@ Remaining:
 - DOE Energy Saver pages: 16 of 18 came through with a single "Overview"
   split into parts (their headings are layout blocks the extractor
   doesn't see); re-extract with proper section headings.
-- ATP 6-02.53 radiotelephone procedure (prowords, phonetic alphabet):
-  extracted, not yet shipped.
 - Section-level aliases for the longest documents (Army chapters with
   100+ sections) so sub-topics match as well as whole documents.
 - Re-extract ATP 3-90.99 desert health (the shipped appendix was the

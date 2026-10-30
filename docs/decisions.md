@@ -535,10 +535,17 @@ exclusion. The library is now 55 packs / ~7,220 sections.
   microhydro. Photo credits dropped (no images shipped).
 - **vehicle-operation** +1 doc: TC 21-305-20 Ch. 12 jump starting with
   jumper cables (the cable order and the explosion warnings).
-Held back: ATP 6-02.53 radiotelephone procedure (prowords, phonetic
-alphabet) was extracted but the agent writing its recipe was cut off
-twice by an output filter; the extraction sits in the batch 5 energy
-recipe's notes for a later pass.
+- **communications** +2 docs: TC 3-21.75 Section II radiotelephone
+  procedure (rules, nets, message format, common messages, the prowords
+  table as a figure) — only that section of the manual is used, since the
+  rest is a combat-skills manual we exclude — and FAA AIM 4-2 radio
+  technique with the ICAO phonetic alphabet, one line per letter.
+  (ATP 6-02.53 turned out to hold no proword list; its antenna and
+  adverse-conditions appendices were extracted and not shipped.)
+Also: "field dress a deer / gutting / skinning and butchering" aliases
+on the Army food chapter, which already covers preparing game. No
+current federal page on fever care or choking first aid exists beyond
+what is shipped (CDC "Caring for Someone Sick", Army airway chapter).
 Blocked or not found: aphis.usda.gov and usda.gov (403; the APHIS
 emergency pages are agency response material anyway — Ready.gov's pets
 page already covers households), a current federal wild-game page, a

@@ -1,6 +1,6 @@
 # Food: Plants, Trapping, Fishing and Cooking (ATP 3-50.21 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
-Aliases: how to find food in the wild, universal edibility test, is this plant safe to eat, edible plants, trapping small animals, how to make a snare, fish trap, catching fish without rod, eating insects, hunting for survival, cooking without pots, stone boiling, reflector oven, smoking meat, drying meat, seaweed edible, preparing wild game, skinning animals, how to cook in the wild, bait for traps, deadfall trap, wild food preservation, wild plant identification, how long can you go without food, eat bugs survival
+Aliases: how to find food in the wild, field dress a deer, gutting a deer, field dressing game, skinning and butchering an animal, universal edibility test, is this plant safe to eat, edible plants, trapping small animals, how to make a snare, fish trap, catching fish without rod, eating insects, hunting for survival, cooking without pots, stone boiling, reflector oven, smoking meat, drying meat, seaweed edible, preparing wild game, skinning animals, how to cook in the wild, bait for traps, deadfall trap, wild food preservation, wild plant identification, how long can you go without food, eat bugs survival
 
 ## Food
 **Chapter 4**
