@@ -50,3 +50,6 @@ app.*.map.json
 # Python tooling
 tools/.venv/
 __pycache__/
+
+# Bundled embedding model: fetched by tools/fetch_models.sh (too large for GitHub)
+assets/models/*.gguf

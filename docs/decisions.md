@@ -375,8 +375,10 @@ off-topic controls find something (cookies → Army baking, stock → sheep
 ## 2026-10-30 — Embedder: bge-base-en-v1.5 (MIT, 118 MB) replaces bge-small
 bge-small (33M parameters) ranked "Planing the First End Square" for
 "close a deep cut without stitches". bge-base (110M, 768 dims, CompendiumLabs
-GGUF q8_0, sha256 ad1afe72…1173c) is bundled in `assets/models/`; query
-embedding takes ~0.1–0.3 s on a phone CPU. Vectors stay int8 (~770 B per
+GGUF q8_0, sha256 ad1afe72…1173c) is bundled in `assets/models/` at build time
+but not committed: at 118 MB it exceeds GitHub's file limit, so
+`tools/fetch_models.sh` downloads and verifies it (sha256 above) after a
+clone. Query embedding takes ~0.1–0.3 s on a phone CPU. Vectors stay int8 (~770 B per
 section, ~4.9 MB total). Schema v7 nulls every stored passage vector
 (dimension changed) and reinstalls bundled packs. The bundle grows by
 ~80 MB; still well under store limits.

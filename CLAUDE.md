@@ -28,6 +28,7 @@ later milestone early.
 
 ```bash
 flutter pub get
+tools/fetch_models.sh              # once after cloning: bundled embedder (not in git)
 dart run build_runner build        # after changing Drift tables
 flutter analyze
 flutter test
