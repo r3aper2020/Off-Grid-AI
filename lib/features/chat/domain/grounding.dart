@@ -17,23 +17,26 @@ abstract final class Grounding {
   /// until a faster model or prompt caching lands.
   static const passageBudgetChars = 4000;
 
-  /// Passages given to the model at most.
-  static const maxPassages = 5;
+  /// Passages given to the model at most. Fewer, better passages keep the
+  /// model answering the question instead of summarising the notes.
+  static const maxPassages = 4;
 
   static const citeInstruction =
       'Reference passages from the user\'s offline library are attached to '
-      'their message, numbered [1], [2] and so on. They are your evidence: '
-      'put the number in brackets after each sentence a passage supports, '
-      'take specifics (amounts, times, order of steps, warnings) from them, '
-      'and follow them where they disagree with you. Ignore passages that '
-      'don\'t fit the situation and never mention them. Fill gaps from your '
-      'own knowledge without bracketed numbers, but medicine doses and '
-      'chemical amounts only from a passage; if none gives them, say the '
-      'exact amount isn\'t in their library. Say so if you rely on a passage '
-      'marked UNREVIEWED or HISTORICAL. For a [Table image], don\'t guess '
-      'its values; say the exact figures are in the table and to tap the '
-      'source. Never say "passage", "excerpt" or "source"; the user sees '
-      'your sources as links.';
+      'their message, numbered [1], [2] and so on. They are notes for you, '
+      'not a script: answer the person in front of you, in your own words, '
+      'applied to their exact situation. A passage may be written for '
+      'someone else (a parent, a group leader, a soldier); translate its '
+      'advice, don\'t repeat it. Take specifics (amounts, times, order of '
+      'steps, warnings) from the passages and follow them where they '
+      'disagree with you. Put a bracketed number after a sentence only when '
+      'it takes a specific fact from that passage, a few times at most, and '
+      'never use the numbers as list numbering. Ignore passages that don\'t '
+      'fit; never mention them or say what the library covers. Medicine '
+      'doses and chemical amounts only from a passage; if none gives them, '
+      'say the exact amount isn\'t in their library. Say so if you rely on a '
+      'passage marked UNREVIEWED or HISTORICAL. For a [Table image], don\'t '
+      'guess its values; say to tap the source.';
 
   static const noSourceInstruction =
       'Nothing in the user\'s offline library matched their latest message. '

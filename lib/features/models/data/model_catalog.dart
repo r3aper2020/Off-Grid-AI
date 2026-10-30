@@ -74,8 +74,9 @@ abstract final class ModelCatalog {
           'c876f159707a4e4f70e045106c69db15bfc935a4981706fd4f65c6e7ea1e81c5',
       license: 'Apache-2.0',
       summary:
-          'For older or 6 GB phones: about half the wait, with thinner '
-          'answers. Keep a 4B model as well if your phone can hold it.',
+          'Only if a 4B model won\'t fit (6 GB phones). About half the wait, '
+          'but answers are much thinner and tend to recite the library '
+          'instead of advising. Use a 4B model whenever you can.',
       minMemoryGb: 6,
     ),
   ];
