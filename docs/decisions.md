@@ -487,3 +487,76 @@ changes:
   four passages covers all four.
 Also: the builder no longer glues an intro ending in ":" ("For
 children:") onto the unrelated section before it; it joins what follows.
+
+## 2026-10-30 — Library batch 5: the 24-category audit and what filled the gaps
+An audit against a 24-category survival taxonomy found 11 categories
+strong, 9 partial, 3 thin (medicines, edible plants, long-term
+homesteading) and 1 missing (general science). Seven new packs and one
+extension fill the biggest holes, from sources we can ship; recipes in
+`tools/packs/recipes/batch5_*.sh` hold every URL, licence line and
+exclusion. The library is now 55 packs / ~7,220 sections.
+- **otc-medicines** (16 docs, verified): Drug Facts panels for common
+  over-the-counter medicines from DailyMed (NLM), one current label each,
+  dosing tables rendered one row per line and checked against the label.
+  Answers "how much ibuprofen" with a cited dose for the first time.
+- **herbal-remedies** (30 docs, verified): NIH NCCIH "Herbs at a Glance",
+  each page's safety section intact; each states it is public domain.
+- **edible-plants** (3 docs, 135 sections, needs-review): FM 21-76 (1992)
+  Chapter 9 edibility test and Appendices B/C, text only (the 1992
+  edition's plant photographs carry individual photographer credits in
+  the same book, so none shipped). Superseded manual; attribution says it
+  is never proof a plant is safe to eat.
+- **food-handling** (14 docs, verified): USDA FSIS jerky, smoking,
+  freezing, shelf-stable storage, molds, leftovers, camping, emergencies,
+  eggs. fsis.usda.gov blocks scripts; pages were read in the app's
+  browser and hashed (batch3/4 CDC precedent). FSIS no longer publishes
+  a wild-game handling page; nothing on hunting was found.
+- **infant-feeding** (11 docs, verified): CDC's Infant and Young Child
+  Feeding in Emergencies toolkit plus formula and bottle-cleaning pages,
+  fetched in the browser. Cup-feeding page excluded (adapted from
+  WHO/UNICEF).
+- **ham-radio-basics** (10 docs, verified): the FCC's plain-language
+  Amateur Radio Service pages (licensing, FAQ, exams, classes, call
+  signs) and the Personal Radio Services pages (FRS, GMRS, CB, MURS),
+  fetched in the browser. The CFR texts stay library-only.
+- **practical-science** (13 docs, 165 sections, verified): OpenStax
+  College Physics 2e and Chemistry 2e chapters on temperature, heat
+  transfer, fluids, current and circuits, electrical safety, simple
+  machines, solutions and dilution, reactions, gases, acids and bases,
+  batteries. New `tools/packs/extract_openstax.py`.
+- **household-historical** +2 docs: USDA FB 1334 Home Tanning (1923) and
+  FB 1438 Making Fermented Pickles (1924), OCR checked word by word with
+  every fix listed in the recipe.
+- **home-energy** (18 docs, verified): DOE Energy Saver pages on
+  insulation and where to put it, air sealing, caulking, weatherstripping,
+  passive solar design, heating systems, wood and pellet stoves, space
+  heaters, planning a solar electric system, grid-tied vs off-grid,
+  balance-of-system equipment, solar water heaters, small wind and
+  microhydro. Photo credits dropped (no images shipped).
+- **vehicle-operation** +1 doc: TC 21-305-20 Ch. 12 jump starting with
+  jumper cables (the cable order and the explosion warnings).
+Held back: ATP 6-02.53 radiotelephone procedure (prowords, phonetic
+alphabet) was extracted but the agent writing its recipe was cut off
+twice by an output filter; the extraction sits in the batch 5 energy
+recipe's notes for a later pass.
+Blocked or not found: aphis.usda.gov and usda.gov (403; the APHIS
+emergency pages are agency response material anyway — Ready.gov's pets
+page already covers households), a current federal wild-game page, a
+USDA-owned home-drying guide (USDA defers to a university site).
+
+## 2026-10-30 — Licence calls made for batch 5 (owner's decision: ship)
+- **DailyMed Drug Facts.** Labeling text is written by each manufacturer
+  under FDA's OTC monograph and published by NLM, which states DailyMed
+  content carries no copyright restriction. It is not a §105 government
+  work in the strict sense and the pack names trade names (nominatively).
+  Shipped as verified; a lawyer should confirm before commercial release,
+  and the recipe can be re-pointed at store-brand labels.
+- **OpenStax.** The live books were relicensed in 2026 to CC BY-NC-SA
+  with a clause forbidding ingestion into generative AI systems. The pack
+  uses the 2023 content versions OpenStax still serves from its archive,
+  whose metadata and the 2022 PDF copyright page state CC BY 4.0, which
+  is irrevocable for those versions. Attribution follows OpenStax's
+  required form. Shipped on the owner's instruction; the publisher's
+  stated intent cuts against AI use, so this is the pack to drop first
+  if counsel objects.
+- **FM 21-76 (1992).** Distribution A (text). Photographs excluded.

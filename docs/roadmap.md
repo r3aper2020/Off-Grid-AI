@@ -71,11 +71,16 @@ Remaining:
   medical emergencies, home health, CDC health, signaling, sea survival,
   wilderness/wildlife, storm shelter, SODIS, preparedness, household
   skills (historical), self-sufficiency, gardening, livestock.
+- ✅ Batch 5 (2026-10-30): OTC drug labels with doses, NIH herbs, FM 21-76
+  edible/poisonous plants, USDA food handling, CDC infant feeding, FCC
+  ham/GMRS/FRS/CB pages, OpenStax practical science, home tanning and
+  fermented pickles. See decisions.
 - Gaps still open (no permitted/reachable source yet): fever care,
-  choking/anaphylaxis/drowning first aid (current federal), jump-starting
-  and tire changes, ham radio basics (fcc.gov blocks scripts — try the
-  in-app browser), CPSC generator/electrical safety (same), EMP household
-  guidance, bartering, current beekeeping/livestock health.
+  choking/anaphylaxis/drowning first aid (current federal), wild-game
+  handling, CPSC generator/electrical safety (bot wall), EMP household
+  guidance, bartering, current beekeeping/livestock health, regional plant
+  and mushroom identification with images (needs an authored, reviewed
+  layer), tropical/jungle survival.
 - Tooling: `extract_html.py` drops any class containing "reference"
   (hits Drupal/NHLBI/DOE pages) and all `<button>` text (accordion
   titles) — fix to whole-token match; move the agents' recipe-local
@@ -90,6 +95,11 @@ Remaining:
   when the right action depends on the person's state (conscious or not),
   keep trivial answers short, and cite only passage numbers (never
   paragraph numbers like "[4-31]").
+- DOE Energy Saver pages: 16 of 18 came through with a single "Overview"
+  split into parts (their headings are layout blocks the extractor
+  doesn't see); re-extract with proper section headings.
+- ATP 6-02.53 radiotelephone procedure (prowords, phonetic alphabet):
+  extracted, not yet shipped.
 - Section-level aliases for the longest documents (Army chapters with
   100+ sections) so sub-topics match as well as whole documents.
 - Re-extract ATP 3-90.99 desert health (the shipped appendix was the

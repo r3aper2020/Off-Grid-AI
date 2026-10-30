@@ -1,0 +1,337 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "ham-radio-basics",
+ "title": "Ham Radio, GMRS, FRS, CB and MURS: Licensing and Rules in Plain Language (FCC)",
+ "category": "guide",
+ "version": "2026.10.30.1",
+ "publisher": "U.S. Federal Communications Commission",
+ "license": "Public domain (U.S. Government work, 17 U.S.C. § 105)",
+ "description": "How to get an amateur (ham) licence, what you may transmit, exams and licence classes, call signs, and which radios (FRS, GMRS, CB, MURS) need no licence.",
+ "attribution": "Text from FCC Wireless Telecommunications Bureau pages on the Amateur Radio Service and Personal Radio Services (fetched 2026-10-30). Reformatted into sections. Use does not imply endorsement by the FCC.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Amateur Radio Service: What It Is and How to Get Licensed (FCC)",
+   "sections": [
+    {
+     "heading": "About the Amateur Radio Service",
+     "body": "- **HA** - Amateur\n- **HV** - Amateur Vanity\n\nThe amateur and amateur-satellite services are for qualified persons of any age who are interested in radio technique solely with a personal aim and without pecuniary interest. These services present an opportunity for self-training, intercommunication, and technical investigations. Twenty-nine small frequency bands throughout the spectrum are allocated to this service internationally. Some 1,300 digital, analog, pulse, and spread-spectrum emission types may be transmitted.\n\nMillions of amateur operators in all areas of the world communicate with each other directly or through ad hoc relay systems and amateur-satellites. They exchange messages by voice, teleprinting, telegraphy, facsimile, and television. In areas where the FCC regulates the services, an amateur operator must have an FCC or Canadian license. FCC-issued Reciprocal Permit for Alien Amateur Licensee are no longer needed. Reciprocal operation in the U.S. is now authorized by Section 47 C.F.R. § 97.107.\n\nAll frequencies are shared. No frequency is assigned for the exclusive use of any amateur station. Station control operators cooperate in selecting transmitting channels to make the most effective use of the frequencies. They design, construct, modify, and repair their stations. The FCC equipment authorization program does not generally apply to amateur station transmitters."
+    },
+    {
+     "heading": "Operator Class & Examinations",
+     "body": "The FCC has issued six types of license operator class, each authorizing varying levels of privileges. The class for which each licensee is qualified is determined by the degree of skill and knowledge in operating a station that the licensee demonstrates during an examination to volunteer examiners (VEs) in their community.\n\nMost new amateur operators start at the Technician Class and then may advance to the General Class or Amateur Extra Class operator license. The VEs give examination credit for the license class currently held so that examinations required for that license need not be repeated. The VEs construct the written examinations from question pools that have been made public. Helpful study guides and training courses are widely available."
+    },
+    {
+     "heading": "License Grants & Exams",
+     "body": "Operation of an amateur station requires an amateur operator license grant from the FCC. Before receiving a license grant, you must pass an examination administered by a team of volunteer examiners (VEs). The VEs determine the license operator class for which you are qualified through the testing of your skills and abilities in operating an amateur station. You can contact a VE team in your community to make arrangements for being administered the examination elements you desire. If you need assistance in finding a VE team in your area, contact a Volunteer Examiner Coordinator (VEC).\n\nAfter you successfully complete the exam, the VEC collects your infromation from your VE team and, after carefully screening it, forwards the information thereon to the FCC for processing. Your operating authority begins when your license grant information appears on the amateur service licensee database of the Universal Licensing System."
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service",
+   "aliases": "how do I get a ham radio license, what is amateur radio, ham radio basics, do I need a license for ham radio, how to become a ham radio operator, amateur radio license classes, ham radio license cost, can I use ham radio without a license, ham radio rules part 97, ham radio for emergencies"
+  },
+  {
+   "title": "Amateur Communications and Operations FAQ (FCC)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "The following are answers to frequently asked questions about communications appropriate for the amateur service. See Part 97 of the Commission's Rules, 47 C.F.R. Part 97, (\"rules\") for the complete regulations.\n\n**Can I operate my station as soon as I see that information about my amateur operator / primary station license grant appears on the amateur service data base?**\n\n**Yes.** You have authority to operate when the information about your license grant appears on the data base. You don't have to wait until you receive the license document."
+    },
+    {
+     "heading": "Does this mean that I don't have to wait until the license document arrives in the mail?",
+     "body": "That is correct. You do not have to have the license document in your possession in order to operate an amateur station at a location where communications are regulated by the FCC. See Part 97. Appendix 1.\n\n**May my station transmit (a certain type of communication) on amateur service frequencies?**\n\nYou determine for yourself whether your communications should be transmitted on amateur service frequencies."
+    },
+    {
+     "heading": "What are the standards that I should use when deciding whether or not my station should transmit a certain type of communications?",
+     "body": "Section 97.113 provides four general standards for you to observe. In summary, any amateur-operator-to-amateur-operator communication is permitted, unless it is:\n\n1. Specifically prohibited, or\n1. Transmitted for compensation, or\n1. Done for the pecuniary benefit of the station control operator, or\n1. Done for the pecuniary benefit of the station control operator's employer.\n\n**Do these standards also apply to repeaters? Packet? Message forwarding? ATV? Phone nets? Bulletin stations?**\n\n**Yes.** They apply to all amateur service communications."
+    },
+    {
+     "heading": "Why doesn't the FCC just provide me with a list of communications suitable/unsuitable for the amateur service?",
+     "body": "A request to develop and maintain a list of anecdotal examples has been considered. See Report and Order in PR Docket No. 92-136 adopted July 15, 1993, 58 Fed. Reg. 43071, August 13, 1993; 8 FCC Rcd 5072 (1993). The FCC, however, declined to devote staff resources to such a project. In summary, there are two reasons:\n\n1. There would have to be thousands of examples\n1. To maintain a list would necessitate that the FCC intrude upon the day-to-day functioning of the amateur service to a far greater degree than is desirable."
+    },
+    {
+     "heading": "What types of communications are specifically prohibited?",
+     "body": "Section 97.113 contains the specific prohibitions. In summary, your amateur station may not transmit:\n\n1. Communications specifically prohibited by the Rules;\n1. Communications for hire or for material compensation, direct or indirect, paid or promised, except as otherwise provided in the Rules;\n1. Communications in which the station licensee or control operator has a pecuniary interest, including communications on behalf of an employer. You may, however, notify other amateur operators of the availability for sale or trade of apparatus normally used in an amateur station, provided that such activity is not conducted on a regular basis;\n1. Music using a phone emission except as specifically provided elsewhere in Section 97.113; communications intended to facilitate a criminal act; messages in codes or ciphers intended to obscure the meaning thereof, except as provided for space telecommand (see Section 97.211(b)), telecommand of model craft (see Section 97.215(b)), and RTTY and data emission codes (see Section 97.309(b)); obscene or indecent words or language; or false or deceptive messages, signals or identification;\n1. Communications, on a regular basis, which could reasonably be furnished alternatively through other radio services.\n\n**Is the content of the communications my amateur station transmits protected against someone receiving, divulging, publishing or utilizing them?**\n\n**No.** Amateur stations are not afforded privacy protection. See Section 705 of the Communications Act of 1934 [47 U.S.C. 605].\n\n**May my amateur station transmit codes or ciphers so as to obscure the meaning of the messages?**\n\n**No.** See Section 97.211(b)."
+    },
+    {
+     "heading": "What types of two-way communications are amateur stations specifically authorized to transmit?",
+     "body": "Section 97.111(a) provides for two-way communications. In summary, amateur stations are authorized to exchange messages with:\n\n1. Other stations in the amateur service, except those in any country whose administration has given notice that it objects to such communications. Moreover, transmissions to a different country, where permitted, must be made in plain language and must be limited to messages of a technical nature relating to tests and to remarks of a personal character for which, by reason of their unimportance, recourse to the public telecommunications service is not justified. Section 97.117 provides for international communications. The FCC also issues a public notice listing arrangements for international communications.\n1. A station in another FCC-regulated service while providing emergency communications;\n1. A United States Government station necessary to providing communications in RACES; and\n1. A station in a service not regulated by the FCC, but authorized by the FCC to communicate with amateur stations.\n1. A participating United States military station during the annual Armed Forces Day Communications Test.\n\n**Which are the countries whose administrations have given notice that they object to communications between the amateur station they have authorized and amateur stations authorized by the United States?**\n\nCurrently, there are no such \"banned countries.\""
+    },
+    {
+     "heading": "What types of one-way communications are amateur stations authorized to transmit?",
+     "body": "Section 97.111(b) provides for one-way communications. In summary, auxiliary, beacon, space and stations in distress are specifically authorized to make certain one-way transmissions. Additionally, an amateur station may transmit the following types of one-way communications:\n\n1. Brief transmissions necessary to make adjustments to the station;\n1. Brief transmissions necessary for establishing two-way communications with other stations;\n1. Telecommand;\n1. Transmissions necessary to providing emergency communications;\n1. Transmissions necessary to assisting persons learning, or improving proficiency in, the international Morse code;\n1. Transmissions necessary to disseminate an information bulletin; and\n1. Telemetry."
+    },
+    {
+     "heading": "What is an \"information bulletin\"?",
+     "body": "The term is defined in Section 97.3(b). It is a message directed only to amateur operators and consists solely of subject matter of direct interest to the amateur service. The control operator of the station transmitting an information bulletin is responsible for determining that the subject matter is of direct interest to the amateur service."
+    },
+    {
+     "heading": "Does an amateur station transmitting information bulletins have to share the channel?",
+     "body": "**Yes**. Section 97.101 provides that each station licensee and each control operator must cooperate in selecting transmitting channels and in making the most effective use of the amateur service frequencies. A specific transmitting channel is not assigned for the exclusive use of any amateur station. Section 97.101 also provides that no amateur operator shall cause interference to any radio communication or signal. There is no exemption for amateur stations transmitting for information bulletins.\n\n**Is broadcasting prohibited?**\n\n**Yes**. Section 97.113 prohibits amateur stations from engaging in any form of broadcasting or in any activity related to program production or news gathering for broadcasting purposes."
+    },
+    {
+     "heading": "Is there an exception to this prohibition?",
+     "body": "**Yes**. There is one exception: Communications directly related to the immediate safety of human life or the protection of property may be provided by amateur stations to broadcasters for dissemination to the public where no other means of communication is reasonably available before or at the time of the event.\n\n**What is \"broadcasting\"?**\n\nSection 97.3 defines the term \"broadcasting,\" in the context of the amateur service, as a transmission intended for reception by the general public, either direct or delayed."
+    },
+    {
+     "heading": "May my station retransmit the signals emanating from other amateur stations?",
+     "body": "**Yes**, generally. Section 97.113, however, requires that the control operator of your station manually cause the retransmission because the radio signals of other amateur stations must not be automatically retransmitted."
+    },
+    {
+     "heading": "What do the words \"manually\" and \"automatically\" imply?",
+     "body": "\"Manually\" means the retransmission is caused by some immediate physical action, e.g.,activating a push-to-talk key, voice-actuated-switch or similar action, by the control operator. \"Automatically\" means the retransmission is accomplished by some other means, such as a device which determines that a specific reaction is called for and then causes it to occur."
+    },
+    {
+     "heading": "Are there exceptions where my amateur station may automatically retransmit the radio signals of other amateur stations?",
+     "body": "**Yes**. The Rules provide such accommodation for three types of operation. Section 97.201 accommodates auxiliary stations, Section 97.205 accommodates repeater stations and Section 97.207 accommodates space stations."
+    },
+    {
+     "heading": "May my station retransmit the programs or signals emanating from any other type of radio station?",
+     "body": "Section 97.113 provides two exceptions for retransmissions that are for the exclusive use of amateur operators. Your amateur station may retransmit occasionally as an incident of normal amateur radio communications, but not on a regular basis:\n\n1. Propagation and weather forecast information intended for use by the general public and originated from United States Government stations; and\n1. Communications, including incidental music, originating on United States Government frequencies between a space shuttle and its associated Earth stations. You must, however, obtain prior approval for shuttle retransmissions from the National Aeronautics and Space Administration."
+    },
+    {
+     "heading": "May I permit a local government employee to operate an amateur station for which I am the licensee?",
+     "body": "**Yes**. Provided the person holds an amateur operator license. Section 97.7 authorizes only persons who have been granted an amateur operator/primary station license, or who is eligible for alien control operator privileges, or who hold an amateur service licenses issued to them by the Government of Canada and they are Canadian citizens, to be the control operator of an station."
+    },
+    {
+     "heading": "Is it correct that a third party cannot operate my amateur station?",
+     "body": "**Yes**. only the control operator can \"operate\" the station. Section 97.3 defines the term \"control operator\" as an amateur operator designated by the licensee of the station as responsible for the transmissions from that station to ensure compliance with the Rules."
+    },
+    {
+     "heading": "What is a \"third-party communication\"?",
+     "body": "Section 97.3 defines the term \"third-party communication\" as a message from the control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party).\n\n**Is it correct that there is no distinction between a third party who holds an amateur operator license grant and one who doesn't?**\n\nYou are correct. The Rules make no distinction between a third party who holds an amateur operator license grant and one who does not."
+    },
+    {
+     "heading": "May I allow the third party to speak the words of the message during the transmission of a third-party communication?",
+     "body": "**Yes**. You may allow the third party to participate in stating the message by speaking, typing, telegraph keying the words of the message, pointing the video camera or by whatever means the message is generated. Section 97.115, however, prohibits you from allowing the third party to so participate where the third party is a prior amateur service licensee whose license was revoked; suspended for less than the balance of the license term and the suspension is still in effect; suspended for the balance of the license term and relicensing has not taken place; or surrendered for cancellation following notice of revocation, suspension or monetary forfeiture proceedings. The third party, moreover, may not be the subject of a cease and desist order that relates to amateur service operation and which is still in effect."
+    },
+    {
+     "heading": "What do the Rules provide with respect to compensation for the use of an amateur station or for being the control operator of an amateur station?",
+     "body": "Section 97.113 states that an station must not transmit communications for hire or for material compensation, direct or indirect, paid or promised, except as otherwise provided in Part 97. Section 97.3, moreover, defines the term \"amateur service\" as \"A radiocommunication service for the purpose of self-training, intercommunication and technical investigations carried out by amateurs, that is, duly authorized persons interested in radio technique solely with a personal aim and without pecuniary interest.\""
+    },
+    {
+     "heading": "Are there exceptions to this rule?",
+     "body": "**Yes**. Section 97.113 provides for four situations where a person may accept compensation for being the control operator of an amateur station:\n\n1. As an incident of a teaching position during periods of time when an amateur station is used by that teacher as a part of classroom instruction at an educational institution.\n1. As the control operator of a club station transmitting telegraphy practice or information bulletins. Compensation may be accepted, however, only:\n\n- For those periods of time when the station is transmitting telegraphy practice or bulletins; and\n- Where the station transmits telegraphy practice and bulletins for at least 40 hours per week; and\n- Where operations are scheduled on at least six amateur service MF and HF bands using reasonable measures to maximize coverage; and\n- Where the schedule of normal operating times and frequencies is published at least 30 days in advance of the actual transmissions; and\n- Where the control operator does not accept any direct or indirect compensation for any other service as a control operator.\n\n1. A station licensee or control operator may participate on behalf of an employer in an emergency preparedness or disaster readiness test or drill, limited to the duration and scope of such test or drill, and operational testing immediately prior to such test or drill.\n1. An amateur operator may notify other amateur operators of the availability for sale or trade of apparatus normally used in an amateur station, provided that such activity is not conducted on a regular basis.\n\nNote that control operators of other types of stations (refer to Section 97.5) transmitting telegraphy practice or information bulletins may not accept compensation."
+    },
+    {
+     "heading": "Is it correct that my station must not transmit analog voice emissions on the HF band digital emission segments even during an emergency?",
+     "body": "**Yes**. The Rules, including the analog/digital emission exclusive segments, are carefully designed to provide an amateur radio service in the United States that has certain fundamental purposes. Section 97.1 declares that the foremost purpose is expressed in the principle of recognition and enhancement of the value of the amateur service to the public as a voluntary, noncommercial communication service, particularly with respect to providing emergency communications. It would be illogical to abandon these Rules -- which are carefully developed through the rule making process with the input of amateur operators and organizations experienced in providing emergency communications -- during an event of the very type for which the Rules were intended."
+    },
+    {
+     "heading": "Are there exceptions?",
+     "body": "**Yes**. There are two exceptions. In summary:\n\n1. Section 97.403 states that no provision of the Rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communications in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available.\n1. Section 97.405 states that no provision of the Rules prevents the use by an amateur station in distress of any means at its disposal to attract attention, make known its condition and location, and obtain assistance. A sinking ship is a good example. It further states that no provision of the Rules prevents the use by a station, in that exceptional circumstance, of any means of radiocommunications at its disposal to assist a station in distress.\n\n**What is \"Field Day\"?**\n\nField Day is an emergency preparation exercise conducted each June under the sponsorship of the American Radio Relay League, Inc."
+    },
+    {
+     "heading": "Do the Rules apply during Field Day?",
+     "body": "**Yes**. All of the Rules apply in all respects every day. The sponsor of a contest or other operating event may, however, impose additional limitations on your operation as a condition of your participation in the event.\n\n**May I obtain a waiver to operate my station temporarily in a way that is contrary to the Rules?**\n\n**Yes**. If you can satisfy the standards of Section 1.925 of the Rules.\n\n**How do I apply for a waiver?**\n\nFollow the procedures in Section 1.925, including payment of any applicable fees.\n\n**Must I provide the FCC with a report on the data obtained while the station was operating under a waiver?**\n\n**No**. You are not required routinely to submit to the FCC a report of your findings.\n\n**What rules apply to authorization for special temporary authority (STA)?**\n\nThe Rules applicable to STA in Section 1.931 of the Rules"
+    },
+    {
+     "heading": "What provisions should I take to prevent disrupting other amateur stations?",
+     "body": "That depends upon your operation. Here are some suggestions for you to consider:\n\n1. Simulate over-the-air operation with hard-wire interconnection or use a non-radiating dummy antenna system.\n1. Use an uncongested frequency band.\n1. Select a frequency band having only short-range propagation characteristics.\n1. Transmit only during periods when the channel is unlikely to be in use by other amateur stations.\n1. Confirm that the channel is clear before transmitting.\n1. Do not use any channels designated by the amateur service community for repeaters, space stations, networks, etc.\n1. Use the lowest possible transmitter power.\n1. Operate under the STA for the shortest time period possible"
+    },
+    {
+     "heading": "How short of a time period is \"temporary\"?",
+     "body": "Typically, an STA for an amateur station is granted for a period sufficient for you to obtain the data that you need. This should be no more than 30 to 90 days. For a very ambitious project, as much as six months might be justified."
+    },
+    {
+     "heading": "Does an STA to operate my station in a manner not provided for in the Rules entitle me to exclusive or primary use of the frequencies?",
+     "body": "**No**. An STA does not entitle you to an exclusive channel. Moreover, if complaints are received that your station is causing disruption to other operations, your STA may be terminated at the FCC's discretion.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- Amateur Radio\n- Amateur Wireless Service\n\n **Updated:**\n Friday, April 21, 2017"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service/amateur-communications-operations",
+   "aliases": "what can I say on ham radio, can I use ham radio for business, ham radio in an emergency without license, transmit on ham frequencies emergency, is it legal to listen to ham radio, ham radio prohibited communications, can I relay messages for others ham radio, station identification call sign how often, ham radio music broadcast rules, encrypted messages ham radio"
+  },
+  {
+   "title": "Amateur Radio License Examinations (FCC)",
+   "sections": [
+    {
+     "heading": "The Exam",
+     "body": "Operation of an amateur station requires an amateur operator license grant from the FCC. For individuals entering the amateur service, or upgrading their license operator class, there are three classes of license, each authorizing privileges corresponding to the qualifications required. The classes of license, from highest to lowest are: Amateur Extra Class, General Class, and Technician Class.\n\nBefore receiving a license grant, you must pass an examination administered by a team of volunteer examiners (VEs). The VEs determine the operator class for which you are qualified by testing your knowledge in operating an amateur station. Most new amateur radio operators start with the \"no-code\" Technician Class operator license. Some newcomers, however, begin at the General Class. A few even begin at the Amateur Extra Class.\n\nTo request examination, please contact a Volunteer Examiner Coordinator (VEC).\n\nIn the amateur radio license examination system, there are three written examination elements [Elements 2, 3, and 4]. For each operator class, you must pass the elements indicated:\n\nOperator Class | Required Written Elements\nAmateur Extra | 2, 3, 4\nGeneral | 2, 3\nTechnician | 2\n\nYour VEs accommodate physical disabilities that require a special examination procedure. They may, however, require you to provide a physician's certification indicating the nature of your disability before determining which, if any, special procedure must be used. Your VE may charge you a reimbursement fee for their out-of-pocket expenses incurred in preparing, processing, administering or coordinating your examination."
+    },
+    {
+     "heading": "Written Elements",
+     "body": "Your written examination establishes your level of operational and technical ability in performing properly the duties of an amateur service licensee.\n\nEach written examination consists of a set of questions:\n\nElement | Operation Privileges | Questions | Minimum Passing Score\n2 | Technician Class | 35 | 26\n3 | General Class | 35 | 26\n4 | Amateur Extra Class | 50 | 37\n\nThe Volunteer Examiner Coordinators maintain a common question pool for each written examination element. Each pool contains at least ten times the number of questions required for a single examination. Every question set administered to an examinee is prepared by a VE. The questions you are asked on your written examination are taken from the appropriate pool. These pools are revised and updated periodically to incorporate the latest rules, new technology and interests of the amateur service community. Make sure that you prepare for your examination by studying material based upon the question pools currently in use. The pools are available to you in several non-government publications. Non-government sources also offer learning opportunities in the form of audio and video tapes, manuals and books, and computer and live instructional courses."
+    },
+    {
+     "heading": "Volunteer Examiner Responsibilities",
+     "body": "The volunteer examiners are responsible for the proper conduct and necessary supervision of your examination, including:\n\n- Observing you throughout your entire examination.\n- Determining the correctness of your answers.\n- Issuing a Certificate of Successful Completion of Examination (CSCE) when you score a passing grade.\n- Terminating your examination if you do not comply with their instructions.\n\nVolunteer Examiners (VEs) are Amateur Extra Class radio operators who volunteer their time and talent to prepare and administer amateur radio operator license examinations. The examination for a Technician Class operator license grant is also prepared and administered by Advanced and General Class operators. Advanced Class licensees may also prepare and administer General Class license examinations. A VE is a person at least 18 years of age whose license has never been revoked or suspended. Your close relatives, however, cannot be your VEs. Each VE, moreover, has been accredited by a Volunteer-Examiner Coordinator (VEC), an organization that exists for the purpose of furthering the amateur service.\n\nContact a VE team in your community to make arrangements for being administered the examination elements you desire. The VE teams make public announcements stating the location and time of each examination session. If you need assistance in finding a VE team in your area, contact a VEC.\n\nThe Volunteer Examiner Coordinator (VEC) collects your Form 605 document from your VE team and, after carefully screening it, forwards the information thereon to the FCC electronically."
+    },
+    {
+     "heading": "Authority to Operate",
+     "body": "Your operating authority begins when your license grant information appears in the Amateur Radio Service licensing information, available by searching the Universal Licensing System (ULS). These searches allow the viewing of pending applications and granted license information. There is no requirement that you have a license grant document showing the information in ULS in your possession before you begin operating. For more information, refer to more information on Communications & Operations.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- Amateur Radio\n\n **Updated:**\n Monday, October 3, 2022"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service/examinations",
+   "aliases": "ham radio test how to take it, technician license exam, where to take the ham radio exam, how hard is the ham test, volunteer examiners, ham radio exam questions pool, ham license test fee, amateur radio exam elements"
+  },
+  {
+   "title": "Amateur Operator License Classes (FCC)",
+   "sections": [
+    {
+     "heading": "About",
+     "body": "The FCC issues six license classes, each authorizing varying levels of privileges. The class for which each licensee is qualified is determined by the degree of skill and knowledge in operating a station that the licensee demonstrates during an examination to volunteer examiners (VEs) in their community. Operator class license classes are:\nCurrent:\n\n- Technician\n- General\n- Amateur Extra\n\nGrandfathered Operator Classes:\n\n- Novice\n- Technician Plus\n- Advanced"
+    },
+    {
+     "heading": "Current Operator Classes",
+     "body": "Most new amateur radio operators start at the Technician Class and then may advance to the General Class or Amateur Extra Class. The VEs give examination credit for the license class currently held so that examinations required for that license class need not be repeated. The VEs prepare the written examinations from question pools that have been made public. Helpful study guides and training courses are widely available."
+    },
+    {
+     "heading": "Technician",
+     "body": "The privileges of a Technician Class operator license include operating an amateur station that may transmit on channels in any of 17 frequency bands above 50 MHz with up to 1,500 watts of power. To pass the Technician Class examination, at least 26 questions from a 35 question written examination must be answered correctly. Technician Class licensees also have privileges in four amateur service bands in the HF range (3-30 MHz) (Refer to Section 97.301(e))."
+    },
+    {
+     "heading": "General",
+     "body": "The General Class operator license authorizes privileges in all 29 amateur service bands. Upon accreditation by a Volunteer-Examiner Coordinator (VEC), an individual can help administer certain examinations. In addition to the above written examination, the requirement for a General Class operator license includes a 35 question written examination for which 26 correctly answered questions is the minimum passing score."
+    },
+    {
+     "heading": "Amateur Extra",
+     "body": "The privileges of an Amateur Extra Class operator license include additional spectrum in the HF bands. In addition to the two above written examinations, the requirement for an Amateur Extra Class operator license includes answering correctly at least 37 questions on a 50 question written examination."
+    },
+    {
+     "heading": "Grandfathered Operator Classes",
+     "body": "No new Novice, Technician Plus, or Advanced Class amateur service operator licenses will be issued. These licenses, however, may be modified or renewed. Technician Plus class operator licenses will be converted to Technician Class licenses if renewed. Technician Plus class operator licenses will also be converted to Technician Class when modified to show a vanity call sign."
+    },
+    {
+     "heading": "Novice",
+     "body": "The Novice Class operator license is for persons who have passed the 5 wpm telegraphy examination, but only the first part of the written examination formerly required for the Technician Class. Privileges include four bands in the HF range, one band in the VHF range (30-300 MHz), and one band in the UHF range (300-3,000 MHz)."
+    },
+    {
+     "heading": "Technician Plus",
+     "body": "The Technician Plus Class operator license was issued to Technician Class licensees, who, in addition to passing a written examination, also had passed at least a 5wpm telegraphy examination. A Technician Plus Class licensee is authorized the privileges of a Technician Class licensees plus the privileges of a Novice Class licensee."
+    },
+    {
+     "heading": "Advanced",
+     "body": "The privileges of an Advanced Class operator license include 275 kHz of additional spectrum in the HF bands.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- Amateur Radio\n- Amateur Wireless Service\n\n **Updated:**\n Thursday, April 20, 2017"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service/operator-class",
+   "aliases": "technician vs general vs extra, ham radio license levels, what can a technician license do, which bands can I use technician, upgrade ham license, amateur extra privileges, novice advanced license still valid"
+  },
+  {
+   "title": "Amateur Call Sign Systems (FCC)",
+   "sections": [
+    {
+     "heading": "About",
+     "body": "A unique call sign is assigned to each amateur station during the processing of its license applications. Each new call sign is assigned sequentially using the sequential call sign system, which is based on the alphabetized regional-group list for the licensee's operator class and mailing address. The station is reassigned its same call sign upon renewal or modification of its license, unless the licensee applies for a change to a new sequentially assigned or vanity call sign on FCC Form 605.\n\nThe vanity call sign system offers you the opportunity to request a specific call sign for your primary station and for your club station. A vanity call sign is selected by the FCC from a list of call signs requested by the station licensee or license trustee.\n\nWhen transmitting in conjunction with an event of special significance, an amateur station may transmit the identification announcement using a special event call sign. Substituting a special event call sign may help call attention \"on-air\" to a station's participation in the special event and to the unique opportunity for the amateur service community to exchange greetings with the station."
+    },
+    {
+     "heading": "Sequential Call Sign System",
+     "body": "Each call sign has a one letter prefix (K, N, W) or a two letter prefix (AA-AL, KA-KZ, NA-NZ, WA-WZ) and a one, two, or three letter suffix separated by a numeral (0-9) indicating the geographic region. Two letter prefixes that are designated for regions 11-13 are not available in regions 1-10. Certain combinations of letters are not used. When the call signs in any regional-group list are exhausted, the selection is made from the next lower group. The groups are:\n\nGroup A - Amateur Extra Class\nPrimary stations licensed to Amateur Extra class operators.\nRegion | Prefix | Letters in Suffix\n1-10 | K, N, or W, and two letter suffix; | 2\ntwo letter prefix with first letter A, N, K, or W | 1\ntwo letter prefix with first letter A | 2\n11 | AL, KL, NL, or WL | 1\n12 | KP, NP, or WP | 1\n13 | AH, KH, NH, or WH | 1\nGroup B - Advanced Class\nPrimary stations licensed to Advanced class operators.\nRegion | Prefix | Letters in Suffix\n1-10 | Two letter prefix with first letter K, N, or W | 2\n11 | AL | 2\n12 | KP | 2\n13 | AH | 2\nGroup C - General, Technician, and Technician Plus Classes\nPrimary stations licensed to General, Technician, and Technician Plus class operators.\nRegion | Prefix | Letters in Suffix\n1-10 | K, N, or W | 3\n11 | KL, NL, or WL | 2\n12 | NP or WP | 2\n13 | KH, NH, or WH | 2\nGroup D - Novice, Club, and Military Recreations Station\nPrimary stations licensed to Novice class operators, and for club and military recreation stations.\nRegion | Prefix | Letters in Suffix\n1-10 | Two letter prefix with first letter K or W | 3\n11 | KL or WL | 3\n12 | KP or WP | 3\n13 | KH or WH | 3\n\nGeographic Region-based Numerals\nRegion | States & Other Areas | Numeral\n1 | Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont | 1\n2 | New Jersey and New York | 2\n3 | Delaware, District of Columbia, Maryland and Pennsylvania | 3\n4 | Alabama, Florida, Georgia, Kentucky, North Carolina, South Carolina, Tennessee and Virginia | 4\n5 | Arkansas, Louisiana, Mississippi, New Mexico, Oklahoma and Texas | 5\n6 | California | 6\n7 | Arizona, Idaho, Montana, Nevada, Oregon, Utah, Washington and Wyoming | 7\n8 | Michigan, Ohio and West Virginia | 8\n9 | Illinois, Indiana and Wisconsin | 9\n10 | Colorado, Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota and South Dakota | 0\n11 | Alaska | 0-9\n12 | Caribbean Insular areas:\nNavassa Island | 1\nVirgin Islands | 2\nCommonwealth of Puerto Rico except Desecheo Island | 3 or 4\nDesecheo Island | 5\n13 | Hawaii and Pacific Insular areas:\nBaker or Howland Island | 1\nGuam | 2\nJohnston Island | 3\nMidway Island | 4\nPalmyra or Jarvis Island | 5\nKingman Reef | 5 followed by suffix letter K\nHawaii except Kure Island | 6 or 7\nKure Island | 7 followed by the letter K\nAmerican Samoa | 8\nWake, Wilkes, or Peale Island | 9\nCommonwealth of Northern Mariana Islands | 0\n14 | (unofficial). Outside the United States"
+    },
+    {
+     "heading": "Vanity Call Signs",
+     "body": "The FCC offers amateur radio licensees the opportunity to request a specific call sign for a primary station and for a club station. A vanity call sign is selected by the FCC from a list of call signs requested by the station licensee or the club station license trustee. Military recreation stations are not eligible for a vanity call sign. To make the request for a vanity call sign, you can use either the Universal Licensing System.\n\nAlso refer to the many frequently asked questions about vanity call signs."
+    },
+    {
+     "heading": "Obtaining Vanity Call Signs",
+     "body": "There are up to three different request types for requesting vanity call signs, depending on whether the call sign is to apply to a primary or a club station. The requestor may list up to twenty-five call signs in order of preference. The exact prefix, numeral, and suffix must be given for each call sign. Requests stated in general terms such as, \"Any call sign with my initials\" or \"Any call sign having the prefix (or suffix)______\" will be dismissed. The first assignable call sign on the list for which the requestor is eligible will be shown on the license grant for the requestor's station and the original call sign will be vacated.\n\nObjections to the assignment of call signs requested by another licensee or a club station trustee will not be entertained at the FCC. However, this does not hamper any party from asserting such rights as it may have under private law in some other forum. The FCC does not consider an individual to be a former holder where the call sign was originally obtained through bribery, fraud, favoritism or other improper means. A club station trustee of a club that has been assigned a vanity call sign is not eligible to apply for any additional vanity call signs for the club.\n\nNote: You cannot receive a vanity call sign from a call sign group for which your operator class is not eligible. For example, if you are operator class T (technician), you can only receive call signs from groups C & D. If you request a call sign from groups A or B, your application will be dismissed by the Commission."
+    },
+    {
+     "heading": "Call Sign Availability",
+     "body": "A call sign is normally assignable two years following license expiration, surrender, revocation, set aside, cancellation, void ab initio, or death of the grantee. Where a vanity call sign for which the most recent recipient was granted pursuant to an exception to the two-year period, but the grantee was ineligible for the exception, is surrendered, cancelled, revoked or voided, the call sign is not assignable for 30 days following the date such action is taken, or for the period for which the call sign would not have been available to the vanity call sign system pursuant to Section 97.19(c)(2) or (3) but for the intervening grant to the ineligible applicant, whichever is later. Refer to the Sequential Call Sign System for how call signs are sequentially assigned and the grouping and geographic region attributes of each call sign.\n\n The following call signs are not available for assignment:\n\n1. KA2AA-KA9ZZ, KC4AAA-KC4AAF, KC4USA-KC4USZ, KG4AA-KG4ZZ, KC6AA-KC6ZZ, KL9KAA- KL9KHZ, KX6AA-KX6ZZ;\n1. Any call sign having the letters SOS or QRA-QUZ as the suffix;\n1. Any call sign having the letters AM-AZ as the prefix (these prefixes are assigned to other countries by the ITU);\n1. Any 2-by-3 format call sign having the letter X as the first letter of the suffix;\n1. Any 2-by-3 format call sign having the letters AF, KF, NF, or WF as the prefix and the letters EMA as the suffix (U.S Government FEMA stations);\n1. Any 2-by-3 format call sign having the letters AA-AL as the prefix;\n1. Any 2-by-3 format call sign having the letters NA-NZ as the prefix;\n1. Any 2-by-3 format call sign having the letters WC, WK, WM, WR, or WT as the prefix (Group X call signs);\n1. Any 2-by-3 format call sign having the letters KP, NP or WP as the prefix and the numeral 0, 6, 7, 8 or 9;\n1. Any 2-by-2 format call sign having the letters KP, NP or WP as the prefix and the numeral 0, 6, 7, 8 or 9;\n1. Any 2-by-1 format call sign having the letters KP, NP or WP as the prefix and the numeral 0, 6, 7, 8 or 9;\n1. Call signs having the single letter prefix (K, N or W), a single digit numeral 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 and a single letter suffix are reserved for the special event call sign system."
+    },
+    {
+     "heading": "General Rules",
+     "body": "- You must hold an unexpired amateur operator/primary station license grant of the proper operator class, as described below, to request a vanity call sign for your primary station.\n- To request a vanity call sign for a club station, you must also hold an unexpired club station license grant listing you as the license trustee.\n- Your name and mailing address as shown on your current license grant must be correct.\n- If your license grant has expired you must first renew the license. After the renewal of your license is granted, you may file a vanity call sign request. You can change your name or address at the time of your vanity call sign request.\n- The call sign you are requesting may already be assigned. Refer to the Universal Licensing System License Search for verification.\n- The license of the former holder now deceased must show a status of expired or cancelled in the licensee database. See Section 97.31(a). Requests for cancellation of a deceased Amateur licensee must be made in writing. A signed request for license cancellation must be submitted along with either of the following supporting information:\n\n- Copy of a dated obituary that also includes date of death.\n NOTE: The entire obituary must be attached to the request. A web site link to the obituary is not sufficient.\n- Copy of the death certificate\n Request can be submitted online at https://www.fcc.gov/wireless/available-support-services. Click on \"Submit a help request\" and complete the form and attach the required documentation.\n\nIn addition, the Commission may cancel a call sign if it becomes aware of the grantee's death through other means. No action will be taken during the last thirty days of the post-expiration grace period on a request to cancel a call sign due to the grantee's death.\n\nThe information for cancellation of a call sign must be submitted prior to filing the vanity application.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- Amateur Wireless Service\n\n **Updated:**\n Monday, February 27, 2023"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service/amateur-call-sign-systems",
+   "aliases": "how are ham call signs assigned, what does my call sign mean, call sign prefix region, vanity call sign, sequential call sign system, call sign format ham radio, group A B C D call signs"
+  },
+  {
+   "title": "Personal Radio Services Overview: FRS, GMRS, CB, MURS (FCC)",
+   "sections": [
+    {
+     "heading": "Overview",
+     "body": "Personal radio services provide short-range, low power radio for personal communications, radio signaling, and business communications not provided for in other wireless services. The range of applications is wide, spanning from varied one- and two way voice communications systems to non-voice data transmission devices used for monitoring patients or operating equipment by radio control. Licensing and eligibility rules vary. Some personal radio services require a license grant from the FCC, while others require only that you use equipment that is properly authorized under the FCC's rules. See specific service pages for the licensing and eligibility details about each individual service.\n\nThe personal radio services are:\n\n**218-219 MHz Service ** - One or two way communications for transmission of information to subscribers within a specific service area.\n\n**Citizens Band (CB) Radio Service ** - 1-5 mile range two-way voice communication for use in personal and business activities.\n\n**Family Radio Service (FRS) ** - 1 mile range Citizen Band service for family use in their neighborhood or during group outings\n\n**General Mobile Radio Service (GMRS) ** - 5-25 mile range Citizen Band service for family use in their neighborhood or during group outings.\n\n**Low Power Radio Service (LPRS) ** - private, one-way communications providing auditory assistance for persons with disability, language translation, and in educational settings, health care, law, and AMTS coast stations.\n\n**Maritime Survivor Locating Devices (MSLD)** - used by people at risk of falling into the water to alert others of an emergency situation.\n\n**Medical Device Radiocommunication Service (MedRadio) **- for transmitting data in support of diagnostic or therapeutic functions associated with implanted medical devices.\n\n**Multi-Use Radio Service (MURS) ** - private, two-way, short-distance voice or datacommunications service for personal or business activities of the general public.\n\n**Personal Locator Beacons (PLB) ** - used by hikers, and people in remote locations to alert search and rescue personnel of a distress situation.\n\n**Radio Control Radio Service (R/C) ** - one-way non-voice radio service for on/off operation of devices at places distant from the operator.\n\n**Wireless Medical Telemetry Service (WMTS) ** - for remote monitoring of patients' health through radio technology and transporting the data via a radio link to a remote location, such as a nurses' station.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n\n **Updated:**\n Monday, March 20, 2017"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/personal-radio-services",
+   "aliases": "walkie talkie without a license, which radios need no license, FRS vs GMRS vs CB vs MURS, personal radio services explained, family radios legal, license free two way radio, what radio can anyone use"
+  },
+  {
+   "title": "General Mobile Radio Service (GMRS) (FCC)",
+   "sections": [
+    {
+     "heading": "Radio Service Code(s)",
+     "body": "- **ZA** - GMRS\n\nThe General Mobile Radio Service (GMRS) is a licensed radio service that uses channels around 462 MHz and 467 MHz. The most common use of GMRS channels is for short-distance, two-way voice communications using hand-held radios, mobile radios and repeater systems. In 2017, the FCC expanded GMRS to also allow short data messaging applications including text messaging and GPS location information.\n\nServices that provide functionality similar to GMRS include the Citizens Band Radio Service (CBRS), the Family Radio Service (FRS) and the Multi-Use Radio Service (MURS).\n\nThe GMRS is available to an individual for short-distance two-way communications to facilitate the activities of licensees and their immediate family members. Each licensee manages a system consisting of one or more transmitting units (stations.) The rules for GMRS limit eligibility for new GMRS system licenses to individuals in order to make the service available to personal users. (Some previously licensed non-individual systems are allowed to continue using GMRS.)\n\nIn 2017, the FCC updated the GMRS by allotting additional interstitial channels in the 467 MHz band, increased the license term from 5 to 10 years, allowed transmission of limited data applications such as text messaging and GPS location information and made other updates to the GMRS rules to reflect modern application of the service."
+    },
+    {
+     "heading": "Licensing",
+     "body": "An FCC license is required to operate GMRS system. Licenses are issued for a ten-year term and can be renewed between 90 days prior to the expiration date and up to the actual expiration date of the license. After a license expires, an individual must request a new GMRS license.\n\nA GMRS system licensed to a non-individual prior to July 31, 1987 is also eligible for renewal, but the licensee may not make any major modification to the system.\n\nYou may apply for a GMRS license if you are 18 years or older and not a representative of a foreign government. If you receive a license, any family member, regardless of age, can operate GMRS stations and units within the licensed system.\n\nThe FCC service rules for the GMRS are located in 47 C.F.R. Part 95 Subpart E. You can find information about GMRS licensing in the rules."
+    },
+    {
+     "heading": "Operations",
+     "body": "A GMRS licensee may use a combination of portable, mobile, fixed, and repeater stations consistent with the operational and technical rules in Subpart E of Part 95. The use of some channels is restricted to certain types of stations. In addition, certain channels are reserved for voice-only operations, while other channels allow voice and limited data operations.\n\nNone of the GMRS channels are assigned for the exclusive use of any system. Licensees must cooperate in the selection and use of the channels under a “listen-before-talk” etiquette in order to use them most effectively and to reduce the possibility of interference.\n\nA GMRS user can expect a communications range of one to twenty-five miles depending on station class, terrain, and repeater use. GMRS stations cannot be interconnected with the public switched telephone network or any other network for the purpose of carrying GMRS communications, but these networks can be used for remote control of repeater stations. In other words, repeaters may not be linked via the internet—an example of an “other network” in the rules—to extend the range of the communications across a large geographic area. Linking multiple repeaters to enable a repeater outside the communications range of the handheld or mobile device to retransmit messages violates sections 95.1733(a)(8) and 95.1749 of the Commission’s rules, and potentially other rules in 47 C.F.R. Repeaters may be connected to the telephone network or other networks only for purposes of remote control of a GMRS station, not for carrying communication signals.\n\nIn addition to violating Commission rules, linking repeaters is not in the public interest. Because GMRS spectrum is limited and used on a shared “commons” basis, the service only works well on a localized basis when users can hear each other and cooperate in the sharing of channels. Linking repeaters not only increases the potential for interference, but also uses up a limited spectrum resource over much larger areas than intended, limiting localized availability of the repeater channels.\n\nGMRS and the Family Radio Service (FRS), which share many of the GMRS channels, are intended for individuals such as family members and friends, scouting troops, emergency response groups, and hobbyists to communicate with each other over short distances, directly or through a repeater station. Linking repeaters, via the internet or other networks, undermines the purpose and usefulness of the GMRS and FRS.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- General Mobile Radio Service (GMRS)\n\n **Updated:**\n Wednesday, August 14, 2024"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs",
+   "aliases": "GMRS license how to get, GMRS license cost, GMRS range, GMRS repeater use, GMRS family license, GMRS vs FRS radios, GMRS channels and power, do I need a license for GMRS"
+  },
+  {
+   "title": "Family Radio Service (FRS) (FCC)",
+   "sections": [
+    {
+     "heading": "Rule Part",
+     "body": "47 C.F.R, Part 95\n\nThe Family Radio Service (FRS) is a private, two-way, short-distance voice and data communications service for facilitating family and group activities. The most common use for FRS channels is short-distance, two-way voice communications using small hand-held radios that are similar to walkie-talkies. The service is licensed-by-rule so the general public can use the devices without having to obtain a license and channel sharing is achieved through a listen-before-talk etiquette.\n\nOther services that allow similar communications include the CB Radio Service, General Mobile Radio Service (GMRS) and the Multi-Use Radio Service (MURS).\n\nThe FRS is authorized 22 channels in the 462 MHz and 467 MHz range, all of which are shared with General Mobile Radio Service (GMRS) which requires an individual license for use."
+    },
+    {
+     "heading": "Licensing",
+     "body": "FRS is licensed by rule. This means an individual license is not required to operate an FRS radio provided you comply with the rules. You may operate an FRS radio regardless of your age, and for personal or for business use if you are not a representative of a foreign government."
+    },
+    {
+     "heading": "Operating a Family Radio Service (FRS) Unit",
+     "body": "You can operate a FRS transmitter at any place where the FCC regulates radio communications, subject to certain limitations. A FRS transmitter may not be modified and must be certified by the FCC.\n\nNone of the FRS channels are assigned for the exclusive use of any user. You must cooperate in the selection and use of the channels in order to make the most effective use of them and to reduce the possibility of interference.\n\nThe usual range of an FRS device on channels 8-14 is less than one-half mile, but longer range communications can be achieve on channels 1-7 and 15-22 depending on conditions. You may not interconnect FRS transmitters and radios with the telephone system."
+    },
+    {
+     "heading": "GMRS FRS Dual-service radios",
+     "body": "Some manufacturers received approval to market radios that were certified under both FRS and GMRS, which allowed users to use one device to operate on FRS channels, which does not require a license, and GMRS, which requires an FCC license. In 2017, the FCC changed its rules to stop equipment authorization of FRS dual-service radios and it changed the rules for both FRS and GMRS such that existing radios would be reclassified as either FRS or GMRS to remove the confusion of whether a license was needed for legal operation.\n\nSpecifically, if you have a radio that was sold as a dual-service FRS/GMRS radio and it is limited to the channels and power limits provided under the “Data” tab on this page, then that device can be operated as an FRS device without a licensing requirement. However, if the device exceeds the limits under the “Data” tab or includes any of the following channels (467.5500, 467.5750, 467.6000, 467.6250, 467.6500, 467.6750, 467.7000, and 467.7250 MHz), then it is a GMRS device and an individual FCC license is needed to operate the device other than on the channels and with the bandwidth and power limits shown under the “Data” tab.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- Family Radio Service (FRS)\n\n **Updated:**\n Tuesday, September 27, 2022"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs",
+   "aliases": "FRS walkie talkie rules, bubble pack radios license, FRS channels, FRS range how far, family radio service no license, FRS power limit, can kids use FRS radios"
+  },
+  {
+   "title": "Citizens Band Radio Service (CB) (FCC)",
+   "sections": [
+    {
+     "heading": "Rule Part",
+     "body": "47 C.F.R, Part 95\n\nThe Citizens Band Radio Service (CBRS) is a private, two-way, short-distance voice communications service for personal or business activities of the general public. It also may be used for voice paging. It is authorized 40 channels between 26.965 MHz and 27.405 MHz.\n\nSimilar service includes the General Mobile Radio Service (GMRS).\n\nThe CB Service provides a service for short-distance communications by individuals and businesses. Over the years, changes occurred to the service such as adding additional channels; however, the purpose of the service has remained the same."
+    },
+    {
+     "heading": "Licensing",
+     "body": "Anyone, regardless of age, can operate a CB station – except a foreign government, a representative of a foreign government, a federal government agency or someone who has received an FCC a cease-and-desist order that is still in effect. Anyone who is eligible may operate a CB station for personal or business use, in accordance with the rules.\n\nAn individual license is not required to operate a CB station and the FCC does not renew formerly issued CB Radio Service licenses;\n\nThe FCC service rules for the Citizens Band Radio Service (CBRS) are located in 47 C.F.R. Part 95."
+    },
+    {
+     "heading": "Operating a Citizens Band (CB) Device",
+     "body": "You may operate a CB transmitter at any location where the FCC regulates radio communications, subject to certain restrictions. A CB transmitter must be certified by the FCC. Transmitters that have been certified for use in the CB Radio Service may be found on the FCC website using the page at https://apps.fcc.gov/oetcf/eas/reports/GenericSearch.cfm.\n\nNone of the CB channels are assigned for the exclusive use of any station. You must cooperate in the selection and use of the channels in order to make the most efficient use of them and to reduce the possibility of interference. If you use a CB station to transmit a message, you cannot talk with another station for more than 5 minutes continuously and then you must wait at least one minute before starting another communication.\n\nThere are several additional things to consider when using a CB device, including:\n\n- You may not raise the power output of a CB transmitter.\n- You may not attach a \"linear,\" \"linear amplifier\" or any other type of power amplifier to your CB transmitter.\n- There are no height restrictions for antennas mounted on vehicles or for hand-held devices.\n- For structures, the highest point of your antenna must not be more than 20 feet above the highest point of the building or tree on which it is mounted, or 60 feet above the ground. There are lower height limits if your antenna structure is located within two miles of an airport.\n- You may use an on-the-air pseudonym (\"handle\") of your choosing.\n- You must at all times and on all channels, give priority to emergency communications.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n\n **Updated:**\n Thursday, April 13, 2017"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs",
+   "aliases": "do I need a license for CB radio, CB channel 9 emergency, CB radio range, CB radio rules, CB channel 19 truckers, CB power limit, CB radio in a truck"
+  },
+  {
+   "title": "Multi-Use Radio Service (MURS) (FCC)",
+   "sections": [
+    {
+     "heading": "Rule Part",
+     "body": "47 C.F.R, Part 95\n\nThe Multi-Use Radio Service (MURS) uses channels in the 151 – 154 MHz spectrum range. The most common use of MURS channels is for short-distance, two-way communications using small, portable hand-held radios that function similar to walkie-talkies.\n\nSimilar services include General Mobile Radio Service (GMRS) and Family Radio Service (FRS).\n\nMURS is authorized five channels that were previously in the industrial/business radio service and were known as the “color dot” frequencies in Part 90 of the FCC rules."
+    },
+    {
+     "heading": "Channels",
+     "body": "There are five MURS channels and the channels are either 11.25 kHz or 20.00 kHz each. The channel frequencies and (bandwidth) are:\n\n151.820 MHz (11.25 kHz)\n 151.880 MHz (11.25 kHz)\n 151.940 MHz (11.25 kHz)\n 154.570 MHz (20.00 kHz)\n 154.600 MHz (20.00 kHz)"
+    },
+    {
+     "heading": "Licensing",
+     "body": "MURS is licensed by rule. This means an individual license is not required for an entity to operate a MURS transmitter if it is not a representative of a foreign government and if it uses the transmitter in accordance with the MURS rules outlined in 47 C.F.R. Part 95 Subpart J. There is no age restriction regarding who may operate an MURS transmitter."
+    },
+    {
+     "heading": "Operations",
+     "body": "You may operate a MURS transmitter at any location the FCC regulates radio communications, subject to certain restrictions. A MURS transmitter must be certified by the FCC.\n\nNone of the MURS channels are assigned for the exclusive use of any user. You must cooperate in the selection and use of the channels in order to make the most effective use of them and to reduce the possibility of interference.\n\nNo MURS transmitter shall, under any condition of modulation, transmit more than 2 watts transmitter power output.\n\nThe usual range of communications between MURS stations is less than a few miles; connecting a MURS radio to an external antenna can extend the range to ten miles or more. MURS stations are not allowed to be interconnected with the public switched telephone network. A station identification announcement is not required to be transmitted. Other restrictions on the use of MURS stations also apply.\n\n **Bureau/Office:**\n\nWireless Telecommunications\n\n- Wireless Services\n- Family Radio Service (FRS)\n- General Mobile Radio Service (GMRS)\n- Multi-Use Radio Service (MURS)\n- Radio\n\n **Updated:**\n Monday, March 20, 2017"
+    }
+   ],
+   "sourceUrl": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/multi-use-radio-service-murs",
+   "aliases": "what is MURS radio, MURS license needed, MURS channels and power, MURS vs FRS, MURS range, license free VHF radio"
+  }
+ ]
+}

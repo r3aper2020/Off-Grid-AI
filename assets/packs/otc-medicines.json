@@ -1,0 +1,319 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "otc-medicines",
+ "title": "Over-the-Counter Medicines: Drug Facts Labels (FDA/DailyMed)",
+ "category": "medical",
+ "version": "2026.10.30.1",
+ "publisher": "U.S. National Library of Medicine DailyMed (FDA-regulated OTC labeling)",
+ "license": "Public domain — FDA drug labeling published by NLM DailyMed (U.S. Government work, 17 U.S.C. § 105)",
+ "description": "The FDA Drug Facts label (uses, warnings, adult and child dosing tables) for 16 common over-the-counter medicines: acetaminophen and ibuprofen (adult and children's), aspirin, naproxen, diphenhydramine, loratadine, loperamide, bismuth subsalicylate, famotidine, meclizine, hydrocortisone cream, triple-antibiotic ointment, povidone-iodine and pseudoephedrine.",
+ "attribution": "Drug Facts panels of over-the-counter labels retrieved from DailyMed (U.S. National Library of Medicine) in October 2026, one current label per medicine; reformatted into sections without changing substance; inactive ingredients, package art and distributor lines not included. Product names are those printed on each label. Use does not imply endorsement by NLM, FDA, HHS, the U.S. Government, or any manufacturer.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Acetaminophen 500 mg caplets (Drug Facts, Tylenol Extra Strength, Kenvue)",
+   "sections": [
+    {
+     "heading": "Tylenol Extra Strength (acetaminophen 500 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each caplet)**\nAcetaminophen 500 mg\n\n**Purpose**\nPain reliever/fever reducer\n\n**Uses**\n- temporarily relieves minor aches and pains due to:\n  - the common cold\n  - headache\n  - backache\n  - minor pain of arthritis\n  - toothache\n  - muscular aches\n  - premenstrual and menstrual cramps\n- temporarily reduces fever"
+    },
+    {
+     "heading": "Tylenol Extra Strength (acetaminophen 500 mg): warnings",
+     "body": "**Liver warning**\nThis product contains acetaminophen. Severe liver damage may occur if you take\n- more than 4,000 mg of acetaminophen in 24 hours\n- with other drugs containing acetaminophen\n- 3 or more alcoholic drinks every day while using this product\n\nAllergy alert: acetaminophen may cause severe skin reactions. Symptoms may include:\n- skin reddening\n- blisters\n- rash\nIf a skin reaction occurs, stop use and seek medical help right away.\n\n**Do not use**\n- with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.\n- if you are allergic to acetaminophen or any of the inactive ingredients in this product\n\nAsk a doctor before use if you have liver disease\n\nAsk a doctor or pharmacist before use if you are taking the blood thinning drug warfarin\n\n**Stop use and ask a doctor if**\n- pain gets worse or lasts more than 10 days\n- fever gets worse or lasts more than 3 days\n- new symptoms occur\n- redness or swelling is present\nThese could be signs of a serious condition.\n\nIf pregnant or breast-feeding, ask a health professional before use.\n\nKeep out of reach of children.\n\n**Overdose warning**\nIn case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222) Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
+    },
+    {
+     "heading": "Tylenol Extra Strength (acetaminophen 500 mg): directions (dosing)",
+     "body": "**Directions**\n- do not take more than directed (see overdose warning)\n- adults and children 12 years and over — take 2 caplets every 6 hours while symptoms last; do not take more than 6 caplets in 24 hours, unless directed by a doctor; do not use for more than 10 days unless directed by a doctor\n- children under 12 years — ask a doctor\n\n**Tylenol Extra Strength (acetaminophen 500 mg): other information**\n\n**Other information**\n- store between 20-25°C (68-77°F)\n- do not use if pouch is torn or damaged"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=103d109d-f520-409c-8da2-eb6b0fbec891",
+   "aliases": "tylenol dosage adults, how much tylenol can I take, acetaminophen 500 mg dose, extra strength tylenol how many caplets, tylenol every how many hours, max tylenol per day, acetaminophen overdose warning, tylenol liver damage alcohol, tylenol with warfarin, tylenol for fever adult, tylenol for headache backache, can I take tylenol pregnant, tylenol with other cold medicine, 4000 mg acetaminophen limit, tylenol skin rash reaction, tylenol for children under 12, tylenol and liver disease, paracetamol dose adult"
+  },
+  {
+   "title": "Acetaminophen 160 mg/5 mL children's oral suspension (Drug Facts, Children's Tylenol, Kenvue)",
+   "sections": [
+    {
+     "heading": "Children's Tylenol (acetaminophen 160 mg per 5 mL): active ingredient, purpose and uses",
+     "body": "Active ingredient (in each 5 mL)\nAcetaminophen 160 mg\n\n**Purpose**\nPain reliever/fever reducer\n\nUses temporarily:\n- reduces fever\n- relieves minor aches and pains due to:\n  - the common cold\n  - flu\n  - headache\n  - sore throat\n  - toothache"
+    },
+    {
+     "heading": "Children's Tylenol (acetaminophen 160 mg per 5 mL): warnings",
+     "body": "Liver warning: This product contains acetaminophen. Severe liver damage may occur if your child takes\n- more than 5 doses in 24 hours, which is the maximum daily amount\n- with other drugs containing acetaminophen\nAllergy alert: acetaminophen may cause severe skin reactions. Symptoms may include:\n- skin reddening\n- blisters\n- rash\nIf a skin reaction occurs, stop use and seek medical help right away.\nSore throat warning: if sore throat is severe, persists for more than 2 days, is accompanied or followed by fever, headache, rash, nausea, or vomiting, consult a doctor promptly.\n\nDo not use\n- with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.\n- if your child is allergic to acetaminophen or any of the inactive ingredients in this product\n\nAsk a doctor before use if your child has liver disease\n\nAsk a doctor or pharmacist before use if your child is taking the blood thinning drug warfarin\n\nWhen using this product do not exceed recommended dose (see overdose warning)\n\nStop use and ask a doctor if\n- pain gets worse or lasts more than 5 days\n- fever gets worse or lasts more than 3 days\n- new symptoms occur\n- redness or swelling is present These could be signs of a serious condition.\n\nKeep out of reach of children.\n\nOverdose warning: In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222) Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
+    },
+    {
+     "heading": "Children's Tylenol (acetaminophen 160 mg per 5 mL): directions (dosing)",
+     "body": "**Directions**\n- this product does not contain directions or complete warnings for adult use\n- do not give more than directed (see overdose warning)\n- shake well before using\n- mL = milliliter\n- find right dose on chart below. If possible, use weight to dose; otherwise, use age.\n- remove the child protective cap and squeeze your child’s dose into the dosing cup\n- repeat dose every 4 hours while symptoms last\n- do not give more than 5 times in 24 hours\n- Weight (lb) — Age (yr) — Dose (mL)*\n- under 24 — under 2 years — ask a doctor\n- 24-35 lbs — 2-3 years — 5 mL\n- 36-47 lbs — 4-5 years — 7.5 mL\n- 48-59 lbs — 6-8 years — 10 mL\n- 60-71 lbs — 9-10 years — 12.5 mL\n- 72-95 lbs — 11 years — 15 mL\n* or as directed by a doctor\nAttention: use only enclosed dosing cup specifically designed for use with this product. Do not use any other dosing device.\n\n**Children's Tylenol (acetaminophen 160 mg per 5 mL): other information**\n\n**Other information**\n- each 5 mL contains: potassium 5 mg\n- store between 20-25°C (68-77°F)\n- do not use if carton is opened. Do not use if bottle wrap imprinted with “TYLENOL” is broken or missing"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3162733b-9382-39f1-e063-6294a90ac420",
+   "aliases": "how much tylenol can I give my kid, childrens tylenol dosing chart, tylenol dose by weight, acetaminophen 160 mg per 5 ml, tylenol for toddler fever, how often can I give tylenol to a child, childrens tylenol every 4 hours, how many doses of childrens tylenol per day, tylenol for 2 year old, tylenol for baby under 2, child acetaminophen overdose, kids fever reducer dose, childrens tylenol sore throat, measuring childrens tylenol ml, child liver warning acetaminophen, how many ml of tylenol for a 40 pound child"
+  },
+  {
+   "title": "Ibuprofen 200 mg tablets (Drug Facts, Advil, Haleon)",
+   "sections": [
+    {
+     "heading": "Advil (ibuprofen 200 mg): active ingredient, purpose and uses",
+     "body": "**Active Ingredient**\n\n**Advil Tablets (in each tablet)**\nIbuprofen 200 mg (NSAID)*\n*nonsteroidal anti-inflammatory drug\n\n**Purpose**\nPain reliever/Fever reducer\n\n**Uses**\n- temporarily relieves minor aches and pains due to:\n  - headache\n  - toothache\n  - backache\n  - menstrual cramps\n  - the common cold\n  - muscular aches\n  - minor pain of arthritis\n- temporarily reduces fever"
+    },
+    {
+     "heading": "Advil (ibuprofen 200 mg): warnings",
+     "body": "**Allergy alert:**\nIbuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:\n- hives\n- facial swelling\n- asthma (wheezing)\n- shock\n- skin reddening\n- rash\n- blisters\nIf an allergic reaction occurs, stop use and seek medical help right away.\n\n**Stomach bleeding warning:**\nThis product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you\n- are age 60 or older\n- have had stomach ulcers or bleeding problems\n- take a blood thinning (anticoagulant) or steroid drug\n- take other drugs containing prescription or non-prescription NSAIDs [aspirin, ibuprofen, naproxen, or others]\n- have 3 or more alcoholic drinks every day while using this product\n- take more or for a longer time than directed\n\n**Heart attack and stroke warning:**\nNSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.\n\n**Do not use**\n- if you have ever had an allergic reaction to any other pain reliever/fever reducer\n- right before or after heart surgery\n\n**Ask a doctor before use if**\n- stomach bleeding warning applies to you\n- you have problems or serious side effects from taking pain relievers or fever reducers\n- you have a history of stomach problems, such as heartburn\n- you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke\n- you are taking a diuretic\n\n**Ask a doctor or pharmacist before use if you are**\n- under a doctor's care for any serious condition\n- taking aspirin for heart attack or stroke, because ibuprofen may decrease this benefit of aspirin\n- taking any other drug\n\n**When using this product**\n- take with food or milk if stomach upset occurs\n\n**Stop use and ask a doctor if**\n- you experience any of the following signs of stomach bleeding:\n  - feel faint\n  - vomit blood\n  - have bloody or black stools\n  - have stomach pain that does not get better\n- you have symptoms of heart problems or stroke:\n  - chest pain\n  - trouble breathing\n  - weakness in one part or side of body\n  - slurred speech\n  - leg swelling\n- pain gets worse or lasts more than 10 days\n- fever gets worse or lasts more than 3 days\n- redness or swelling is present in the painful area\n- any new symptoms appear\n\n**If pregnant or breast-feeding,** ask a health professional before use. It is especially important not to use ibuprofen at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.\n\n**Keep out of reach of children.**\nIn case of overdose, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Advil (ibuprofen 200 mg): directions (dosing)",
+     "body": "**Advil Tablets**\n- do not take more than directed\n- the smallest effective dose should be used\n- adults and children 12 years and over: take 1 tablet every 4 to 6 hours while symptoms persist\n- if pain or fever does not respond to 1 tablet, 2 tablets may be used\n- do not exceed 6 tablets in 24 hours, unless directed by a doctor\n- children under 12 years: ask a doctor"
+    },
+    {
+     "heading": "Advil (ibuprofen 200 mg): other information",
+     "body": "**Other information**\n- read all warnings and directions before use. Keep carton.\n- store at 20-25°C (68-77°F)\n- avoid excessive heat above 40°C (104°F)\n\n**Additional Information (Tablets)**\nDo Not Use if seal under bottle cap imprinted with “SEALED for YOUR PROTECTION”is broken or missing.\nREAD AND KEEP CARTON FOR COMPLETE WARNINGS AND INFORMATION"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a665e64-9f30-be37-4a83-38789f1f1e89",
+   "aliases": "ibuprofen dosage adults, how much advil can I take, ibuprofen 200 mg how many, advil every how many hours, max ibuprofen per day, ibuprofen stomach bleeding warning, advil heart attack stroke risk, ibuprofen with aspirin, ibuprofen pregnancy 20 weeks, advil on empty stomach, nsaid allergy symptoms, ibuprofen for fever adult, advil for back pain, ibuprofen kidney disease, can I take advil with blood thinner, ibuprofen for children under 12, advil before surgery, motrin dose adult"
+  },
+  {
+   "title": "Ibuprofen 100 mg/5 mL children's oral suspension (Drug Facts, Children's Motrin, Kenvue)",
+   "sections": [
+    {
+     "heading": "Children's Motrin (ibuprofen 100 mg per 5 mL): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each 5 mL)**\nIbuprofen 100 mg (NSAID) nonsteroidal anti-inflammatory drug\n\n**Purpose**\nPain reliever/fever reducer\n\n**Uses**\ntemporarily:\n- relieves minor aches and pains due to the common cold, flu, sore throat, headache and toothache\n- reduces fever"
+    },
+    {
+     "heading": "Children's Motrin (ibuprofen 100 mg per 5 mL): warnings",
+     "body": "**Allergy alert**\nIbuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:\n- hives\n- facial swelling\n- asthma (wheezing)\n- shock\n- skin reddening\n- rash\n- blisters\nIf an allergic reaction occurs, stop use and seek medical help right away.\n\n**Stomach bleeding warning**\nThis product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if your child:\n- has had stomach ulcers or bleeding problems\n- takes a blood thinning (anticoagulant) or steroid drug\n- takes other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others)\n- takes more or for a longer time than directed\n\n**Heart attack and stroke warning**\nNSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.\n\n**Sore throat warning**\nSevere or persistent sore throat or sore throat accompanied by high fever, headache, nausea, and vomiting may be serious. Consult doctor promptly. Do not use more than 2 days or administer to children under 3 years of age unless directed by doctor.\n\n**Do not use**\n- if the child has ever had an allergic reaction to ibuprofen or any other pain reliever/fever reducer\n- right before or after heart surgery\n\n**Ask a doctor before use if**\n- stomach bleeding warning applies to your child\n- child has a history of stomach problems, such as heartburn\n- child has problems or serious side effects from taking pain relievers or fever reducers\n- child has not been drinking fluids\n- child has lost a lot of fluid due to vomiting or diarrhea\n- child has high blood pressure, heart disease, liver cirrhosis, kidney disease, or had a stroke\n- child has asthma\n- child is taking a diuretic\n\n**Ask a doctor or pharmacist before use if the child is**\n- under a doctor's care for any serious condition\n- taking any other drug\n\n**When using this product**\n- take with food or milk if stomach upset occurs\n\n**Stop use and ask a doctor if**\n- child experiences any of the following signs of stomach bleeding:\n  - feels faint\n  - vomits blood\n  - has bloody or black stools\n  - has stomach pain that does not get better\n- child has symptoms of heart problems or stroke:\n  - chest pain\n  - trouble breathing\n  - weakness in one part or side of body\n  - slurred speech\n  - leg swelling\n- the child does not get any relief within first day (24 hours) of treatment\n- fever or pain gets worse or lasts more than 3 days\n- redness or swelling is present in the painful area\n- any new symptoms appear\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)"
+    },
+    {
+     "heading": "Children's Motrin (ibuprofen 100 mg per 5 mL): directions (dosing)",
+     "body": "**Directions**\n- this product does not contain directions or complete warnings for adult use\n- do not give more than directed\n- shake well before using\n- mL = milliliter\n- find right dose on chart. If possible, use weight to dose; otherwise use age.\n- use only enclosed dosing cup. Do not use any other dosing device.\n- if needed, repeat dose every 6-8 hours\n- do not use more than 4 times a day\n- replace original bottle cap to maintain child resistance\n- Weight (lb) — Age (yr) — Dose (mL) or as directed by a doctor\n- under 24 — under 2 years — ask a doctor\n- 24-35 lbs — 2-3 years — 5 mL\n- 36-47 lbs — 4-5 years — 7.5 mL\n- 48-59 lbs — 6-8 years — 10 mL\n- 60-71 lbs — 9-10 years — 12.5 mL\n- 72-95 lbs — 11 years — 15 mL"
+    },
+    {
+     "heading": "Children's Motrin (ibuprofen 100 mg per 5 mL): other information",
+     "body": "**Other information**\n- each 5 mL contains: sodium 2 mg\n- store between 20-25°C (68-77°F)\n- do not use if carton is opened or if carton tape or bottle wrap imprinted \"SAFETY SEAL®\" is broken or missing"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=152189e5-391c-42d3-a03b-c8364e2de6bf",
+   "aliases": "childrens ibuprofen dosing chart, how much motrin can I give my child, ibuprofen dose by weight kids, childrens advil dose, ibuprofen 100 mg per 5 ml, motrin for toddler fever, how often can I give motrin, ibuprofen every 6 to 8 hours child, motrin for 2 year old, child ibuprofen dehydrated vomiting, kids fever reducer ibuprofen, childrens motrin 4 times a day, ibuprofen child stomach bleeding, motrin sore throat child, child nsaid allergy, ibuprofen for baby under 2"
+  },
+  {
+   "title": "Aspirin 325 mg tablets (Drug Facts, Bayer Genuine Aspirin, Bayer)",
+   "sections": [
+    {
+     "heading": "Bayer Genuine Aspirin (aspirin 325 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each tablet)**\nAspirin 325 mg (NSAID) nonsteroidal anti-inflammatory drug\n\n**Purposes**\nPain reliever/fever reducer\n\n**Uses**\ntemporarily relieves\n- headache\n- muscle pain\n- toothache\n- menstrual pain\n- pain and fever of colds\n- minor pain of arthritis"
+    },
+    {
+     "heading": "Bayer Genuine Aspirin (aspirin 325 mg): warnings",
+     "body": "**Reye's syndrome**\nChildren and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.\n\n**Allergy alert**\nAspirin may cause a severe allergic reaction which may include:\n- hives\n- facial swelling\n- asthma (wheezing)\n- shock\n\n**Stomach bleeding warning**\nThis product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you\n- are age 60 or older\n- have had stomach ulcers or bleeding problems\n- take a blood thinning (anticoagulant) or steroid drug\n- take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others)\n- have 3 or more alcoholic drinks every day while using this product\n- take more or for a longer time than directed\n\nDo not use if you are allergic to aspirin or any other pain reliever/fever reducer\n\n**Ask a doctor before use if**\n- stomach bleeding warning applies to you\n- you have a history of stomach problems, such as heartburn\n- you have high blood pressure, heart disease, liver cirrhosis, or kidney disease\n- you are taking a diuretic\n- you have asthma\n\nAsk a doctor or pharmacist before use if you are taking a prescription drug for\n- gout\n- diabetes\n- arthritis\n\n**Stop use and ask a doctor if**\n- an allergic reaction occurs. Seek medical help right away.\n- you experience any of the following signs of stomach bleeding:\n  - feel faint\n  - vomit blood\n  - have bloody or black stools\n  - have stomach pain that does not get better\n- pain gets worse or lasts more than 10 days\n- redness or swelling is present\n- fever lasts more than 3 days\n- new symptoms occur\n- ringing in the ears or a loss of hearing occurs\n\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Bayer Genuine Aspirin (aspirin 325 mg): directions (dosing)",
+     "body": "**Directions**\n- drink a full glass of water with each dose\n- adults and children 12 years and over: take 1 or 2 tablets every 4 hours or 3 tablets every 6 hours, not to exceed 12 tablets in 24 hours\n- children under 12 years: consult a doctor\n\n**Bayer Genuine Aspirin (aspirin 325 mg): other information**\n\n**Other information**\n- save carton for full directions and warnings\n- store at room temperature"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44a08904-68b9-4d06-a28d-21aae3d6140c",
+   "aliases": "aspirin dosage adults, how many aspirin can I take, aspirin 325 mg every 4 hours, max aspirin per day, aspirin for headache dose, aspirin reye syndrome children, can kids take aspirin, aspirin chicken pox flu warning, aspirin stomach bleeding, aspirin allergy symptoms, aspirin pregnancy last 3 months, aspirin ringing in ears, aspirin with blood thinner, aspirin for fever adult, aspirin for toothache, aspirin with gout diabetes medicine, aspirin asthma warning, aspirin for arthritis pain"
+  },
+  {
+   "title": "Naproxen sodium 220 mg caplets (Drug Facts, Good Sense, Perrigo)",
+   "sections": [
+    {
+     "heading": "Naproxen sodium 220 mg caplets (Good Sense): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each caplet)**\nNaproxen sodium 220 mg\n(naproxen 200 mg) (NSAID)*\n*nonsteroidal anti-inflammatory drug\n\n**Purposes**\nPain reliever/fever reducer\n\n**Uses**\n- temporarily relieves minor aches and pains due to:\n- minor pain of arthritis\n- muscular aches\n- backache\n- menstrual cramps\n- headache\n- toothache\n- the common cold\n- temporarily reduces fever"
+    },
+    {
+     "heading": "Naproxen sodium 220 mg caplets (Good Sense): warnings",
+     "body": "**Warnings**\nAllergy alert: Naproxen sodium may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:\n- hives\n- facial swelling\n- asthma (wheezing)\n- shock\n- skin reddening\n- rash\n- blisters\nIf an allergic reaction occurs, stop use and seek medical help right away.\nStomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you:\n- are age 60 or older\n- have had stomach ulcers or bleeding problems\n- take a blood thinning (anticoagulant) or steroid drug\n- take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others)\n- have 3 or more alcoholic drinks every day while using this product\n- take more or for a longer time than directed\nHeart attack and stroke warning: NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.\n\n**Do not use**\n- if you have ever had an allergic reaction to any other pain reliever/fever reducer\n- right before or after heart surgery\n\n**Ask a doctor before use if**\n- the stomach bleeding warning applies to you\n- you have a history of stomach problems, such as heartburn\n- you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke\n- you are taking a diuretic\n- you have problems or serious side effects from taking pain relievers or fever reducers\n\n**Ask a doctor or pharmacist before use if you are**\n- under a doctor’s care for any serious condition\n- taking aspirin for heart attack or stroke, because naproxen may decrease this benefit of aspirin\n- taking any other drug\n\n**When using this product**\n- take with food or milk if stomach upset occurs\n\n**Stop use and ask a doctor if**\n- you experience any of the following signs of stomach bleeding:\n- feel faint\n- vomit blood\n- have bloody or black stools\n- have stomach pain that does not get better\n- you have symptoms of heart problems or stroke:\n- chest pain\n- trouble breathing\n- weakness in one part or side of body\n- slurred speech\n- leg swelling\n- pain gets worse or lasts more than 10 days\n- fever gets worse or lasts more than 3 days\n- you have difficulty swallowing\n- it feels like the pill is stuck in your throat\n- redness or swelling is present in the painful area\n- any new symptoms appear\n\n**If pregnant or breast-feeding,** ask a health professional before use. It is especially important not to use naproxen sodium at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.\n\n**Keep out of reach of children.**\nIn case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222)."
+    },
+    {
+     "heading": "Naproxen sodium 220 mg caplets (Good Sense): directions (dosing)",
+     "body": "**Directions**\n- do not take more than directed\n- the smallest effective dose should be used\n- drink a full glass of water with each dose\n- Adults and children 12 years and older — take 1 caplet every 8 to 12 hours while symptoms last; for the first dose you may take 2 caplets within the first hour; do not exceed 2 caplets in any 8- to 12-hour period; do not exceed 3 caplets in a 24-hour period\n- Children under 12 years — ask a doctor\n\n**Naproxen sodium 220 mg caplets (Good Sense): other information**\n\n**Other information**\n- each caplet contains: sodium 22 mg\n- store at 20-25°C (68-77°F). Avoid high humidity and excessive heat above 40°C (104°F)."
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e150c00-8e5b-40b4-a964-cb70442c2752",
+   "aliases": "aleve dosage, how much naproxen can I take, naproxen sodium 220 mg how many, aleve every 8 to 12 hours, max aleve per day, naproxen stomach bleeding, aleve heart attack stroke warning, naproxen pregnancy 20 weeks, aleve with aspirin, naproxen for back pain, aleve for arthritis, naproxen for menstrual cramps, aleve for children under 12, naproxen pill stuck in throat, aleve with blood thinner, nsaid allergic reaction, aleve for fever, naproxen kidney disease"
+  },
+  {
+   "title": "Diphenhydramine HCl 25 mg tablets (Drug Facts, Benadryl, Kenvue)",
+   "sections": [
+    {
+     "heading": "Benadryl (diphenhydramine 25 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each tablet)**\nDiphenhydramine HCl 25 mg\n\n**Purpose**\nAntihistamine\n\n**Uses**\n- temporarily relieves these symptoms due to hay fever or other upper respiratory allergies:\n  - runny nose\n  - sneezing\n  - itchy, watery eyes\n  - itching of the nose or throat\n- temporarily relieves these symptoms due to the common cold:\n  - runny nose\n  - sneezing"
+    },
+    {
+     "heading": "Benadryl (diphenhydramine 25 mg): warnings",
+     "body": "**Do not use**\n- to make a child sleepy\n- with any other product containing diphenhydramine, even one used on skin\n\n**Ask a doctor before use if you have**\n- a breathing problem such as emphysema or chronic bronchitis\n- glaucoma\n- trouble urinating due to an enlarged prostate gland\n\nAsk a doctor or pharmacist before use if you are taking sedatives or tranquilizers\n\n**When using this product**\n- marked drowsiness may occur\n- avoid alcoholic drinks\n- alcohol, sedatives, and tranquilizers may increase drowsiness\n- be careful when driving a motor vehicle or operating machinery\n- excitability may occur, especially in children\n\nIf pregnant or breast-feeding, ask a health professional before use.\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)"
+    },
+    {
+     "heading": "Benadryl (diphenhydramine 25 mg): directions (dosing)",
+     "body": "**Directions**\n- take every 4 to 6 hours, or as directed by a doctor\n- do not take more than 6 times in 24 hours\n- adults and children 12 years and over — 1 to 2 tablets\n- children 6 to under 12 years — 1 tablet\n- children under 6 years — do not use\n\n**Benadryl (diphenhydramine 25 mg): other information**\n\n**Other information**\n- each tablet contains: calcium 15 mg\n- store between 20-25°C (68-77°F). Protect from light.\n- do not use if blister unit is torn or broken"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=702f9786-7ce9-43e4-921d-e1db09612127",
+   "aliases": "benadryl dosage adults, how much benadryl can I take, diphenhydramine 25 mg how many, benadryl every 4 to 6 hours, benadryl for kids dose, benadryl children under 6, benadryl for hay fever runny nose, benadryl drowsiness driving, benadryl with alcohol, benadryl to make child sleepy, antihistamine for sneezing itchy eyes, benadryl glaucoma prostate warning, benadryl with sedatives, benadryl for cold symptoms, benadryl max per day, diphenhydramine overdose, benadryl excitability in children, benadryl with skin cream diphenhydramine"
+  },
+  {
+   "title": "Loratadine 10 mg tablets (Drug Facts, Claritin, Bayer)",
+   "sections": [
+    {
+     "heading": "Claritin (loratadine 10 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each tablet)**\nLoratadine 10 mg\n\n**Purpose**\nAntihistamine\n\n**Uses**\ntemporarily relieves these symptoms due to hay fever or other upper respiratory allergies:\n- runny nose\n- itchy, watery eyes\n- sneezing\n- itching of the nose or throat"
+    },
+    {
+     "heading": "Claritin (loratadine 10 mg): warnings",
+     "body": "Do not use if you have ever had an allergic reaction to this product or any of its ingredients.\n\nAsk a doctor before use if you have liver or kidney disease. Your doctor should determine if you need a different dose.\n\nWhen using this product do not take more than directed. Taking more than directed may cause drowsiness.\n\nStop use and ask a doctor if an allergic reaction to this product occurs. Seek medical help right away.\n\nIf pregnant or breast-feeding, ask a health professional before use.\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Claritin (loratadine 10 mg): directions (dosing)",
+     "body": "**Directions**\n- adults and children 6 years and over — 1 tablet daily; not more than 1 tablet in 24 hours\n- children under 6 years of age — ask a doctor\n- consumers with liver or kidney disease — ask a doctor"
+    },
+    {
+     "heading": "Claritin (loratadine 10 mg): other information",
+     "body": "**Other information (Blister foil units)**\n- safety sealed: do not use if the individual blister unit imprinted with Claritin ® is open or torn\n- store between 20° to 25°C (68° to 77°F)\n- protect from excessive moisture\n\n**Other information (Bottles)**\n- Tamper-evident: do not use if foil seal under cap, printed with \"SEALED for YOUR PROTECTION\" is missing, open or broken\n- store between 20° to 25°C (68° to 77°F)"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=660ac9df-f1b1-4c89-94dd-9fae0a013f3c",
+   "aliases": "claritin dosage, loratadine 10 mg how often, claritin once a day, claritin for kids 6 and over, non drowsy allergy medicine, claritin for hay fever, loratadine for runny nose sneezing, claritin itchy watery eyes, claritin liver kidney disease, claritin children under 6, claritin pregnancy, loratadine drowsiness if too much, claritin allergic reaction, claritin max per day, antihistamine without drowsiness"
+  },
+  {
+   "title": "Loperamide HCl 2 mg caplets (Drug Facts, Imodium A-D, Kenvue)",
+   "sections": [
+    {
+     "heading": "Imodium A-D (loperamide 2 mg): warnings",
+     "body": "**Imodium A-D (loperamide 2 mg): active ingredient, purpose and uses**\n\n**Active ingredient (in each caplet)**\nLoperamide HCl 2 mg\n\n**Purpose**\nAnti-diarrheal\n\n**Use**\ncontrols symptoms of diarrhea, including Travelers' Diarrhea\n\n**Allergy alert**\nDo not use if you have ever had a rash or other allergic reaction to loperamide HCl\n\n**Heart alert**\nTaking more than directed can cause serious heart problems or death\n\nDo not use if you have bloody or black stool\n\n**Ask a doctor before use if you have**\n- fever\n- mucus in the stool\n- a history of liver disease\n- a history of abnormal heart rhythm\n\nAsk a doctor or pharmacist before use if you are taking a prescription drug. Loperamide may interact with certain prescription drugs.\n\nWhen using this product tiredness, drowsiness or dizziness may occur. Be careful when driving or operating machinery.\n\n**Stop use and ask a doctor if**\n- symptoms get worse\n- diarrhea lasts for more than 2 days\n- you get abdominal swelling or bulging. These may be signs of a serious condition.\n\nIf pregnant or breast-feeding, ask a health professional before use.\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222)."
+    },
+    {
+     "heading": "Imodium A-D (loperamide 2 mg): directions (dosing)",
+     "body": "**Directions**\n- drink plenty of clear fluids to help prevent dehydration caused by diarrhea\n- find right dose on chart. If possible, use weight to dose; otherwise, use age.\n- adults and children 12 years and over — 2 caplets after the first loose stool; 1 caplet after each subsequent loose stool; but no more than 4 caplets in 24 hours\n- children 9-11 years (60-95 lbs) — 1 caplet after the first loose stool; 1/2 caplet after each subsequent loose stool; but no more than 3 caplets in 24 hours\n- children 6-8 years (48-59 lbs) — 1 caplet after the first loose stool; 1/2 caplet after each subsequent loose stool; but no more than 2 caplets in 24 hours\n- children 2-5 years (34 to 47 lbs) — ask a doctor\n- children under 2 years (up to 33 lbs) — do not use\n\n**Imodium A-D (loperamide 2 mg): other information**\n\n**Other information**\n- store at 20°-25°C (68°-77°F)\n- do not use if blister unit is broken or torn"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01da76d0-1979-4c45-9d39-c72ae4e4ffe2",
+   "aliases": "imodium dosage, how much imodium can I take, loperamide 2 mg how many, imodium after each loose stool, imodium for kids dose, imodium children under 2, imodium for travelers diarrhea, loperamide max per day, imodium heart warning overdose, imodium bloody black stool, imodium with fever mucus, how long can I take imodium, diarrhea medicine dose, imodium weight dosing children, loperamide drowsiness dizziness, loperamide with prescription drugs, stop diarrhea fast, imodium dehydration fluids"
+  },
+  {
+   "title": "Bismuth subsalicylate 525 mg/30 mL oral suspension (Drug Facts, Pepto-Bismol, Procter & Gamble)",
+   "sections": [
+    {
+     "heading": "Pepto-Bismol liquid (bismuth subsalicylate 525 mg per 30 mL): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each 30 mL dose)**\nBismuth subsalicylate 525 mg\n\n**Purpose**\nUpset stomach reliever and antidiarrheal\n\n**Uses**\nrelieves\n- traveler's diarrhea\n- diarrhea\n- upset stomach due to overindulgence in food and drink, including:\n- heartburn\n- indigestion\n- nausea\n- gas\n- belching\n- fullness"
+    },
+    {
+     "heading": "Pepto-Bismol liquid (bismuth subsalicylate 525 mg per 30 mL): warnings",
+     "body": "**Reye's syndrome:**\nChildren and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.\n\n**Allergy alert: Contains salicylate. Do not take if you are**\n- allergic to salicylates (including aspirin)\n- taking other salicylate products\n\nDo not use if you have\n- an ulcer\n- a bleeding problem\n- bloody or black stool\n\nAsk a doctor before use if you have\n- fever\n- mucus in the stool\n\nAsk a doctor or pharmacist before use if you are taking any drug for\n- anticoagulation (thinning the blood)\n- diabetes\n- gout\n- arthritis\n\nWhen using this product a temporary, but harmless, darkening of the stool and/or tongue may occur\n\n**Stop use and ask a doctor if**\n- symptoms get worse or last more than 2 days\n- ringing in the ears or loss of hearing occurs\n- diarrhea lasts more than 2 days\n\nIf pregnant or breast-feeding, ask a health professional before use.\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Pepto-Bismol liquid (bismuth subsalicylate 525 mg per 30 mL): directions (dosing)",
+     "body": "**Directions**\n- shake well before use\n- only use dose cup provided\n- adults and children 12 years and over:\n- 30 mL (1 dose) every ½ hour or 60 mL (2 doses) every hour as needed for diarrhea/traveler's diarrhea\n- 30mL (1 dose) every ½ hour as needed for overindulgence (upset stomach, heartburn, indigestion, nausea)\n- do not exceed 8 doses (240 mL) in 24 hours\n- use until diarrhea stops but not more than 2 days\n- children under 12 years: ask a doctor\n- drink plenty of clear fluids to help prevent dehydration caused by diarrhea"
+    },
+    {
+     "heading": "Pepto-Bismol liquid (bismuth subsalicylate 525 mg per 30 mL): other information",
+     "body": "**Other information**\n- each 30 mL dose contains: magnesium 3 mg, sodium 4 mg\n  - salicylate 261 mg\n  - low sodium\n  - protect from freezing\n  - avoid excessive heat (over 104°F or 40°C)\n- TAMPER EVIDENT: Do not use if printed shrinkband is missing or broken."
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67006e82-870d-8d63-e053-2991aa0a02d1",
+   "aliases": "pepto bismol dosage, how much pepto can I take, bismuth subsalicylate 525 mg dose, pepto every half hour, pepto bismol max doses per day, pepto for kids, pepto bismol children under 12, pepto reye syndrome, pepto for upset stomach nausea, pepto for diarrhea, pepto for heartburn indigestion, pepto black stool tongue, pepto aspirin allergy, pepto with blood thinner, pepto bismol ulcer bleeding, pepto bismol how many days, pepto ringing in ears, pepto for travelers diarrhea"
+  },
+  {
+   "title": "Famotidine 20 mg tablets (Drug Facts, Pepcid AC Maximum Strength, Kenvue)",
+   "sections": [
+    {
+     "heading": "Pepcid AC Maximum Strength (famotidine 20 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each tablet)**\nFamotidine 20 mg\n\n**Purpose**\nAcid reducer\n\n**Uses**\n- relieves heartburn associated with acid indigestion and sour stomach\n- prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages"
+    },
+    {
+     "heading": "Pepcid AC Maximum Strength (famotidine 20 mg): warnings",
+     "body": "**Allergy alert**\nDo not use if you are allergic to famotidine or other acid reducers\n\n**Do not use**\n- if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor.\n- with other acid reducers\n\n**Ask a doctor before use if you have**\n- had heartburn over 3 months. This may be a sign of a more serious condition.\n- heartburn with lightheadedness, sweating, or dizziness\n- chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness\n- frequent chest pain\n- frequent wheezing, particularly with heartburn\n- unexplained weight loss\n- nausea or vomiting\n- stomach pain\n- kidney disease\n\nAsk a doctor or pharmacist before use if you are taking a prescription drug. Acid reducers may interact with certain prescription drugs.\n\n**Stop use and ask a doctor if**\n- your heartburn continues or worsens\n- you need to take this product for more than 14 days\n\nIf pregnant or breast-feeding, ask a health professional before use.\n\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)"
+    },
+    {
+     "heading": "Pepcid AC Maximum Strength (famotidine 20 mg): directions (dosing)",
+     "body": "**Directions**\n- adults and children 12 years and over:\n  - to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew.\n  - to prevent symptoms, swallow 1 tablet with a glass of water at any time from 10 to 60 minutes before eating food or drinking beverages that cause heartburn\n  - do not use more than 2 tablets in 24 hours\n- children under 12 years: ask a doctor\n\n**Pepcid AC Maximum Strength (famotidine 20 mg): other information**\n\n**Other information**\n- read the directions and warnings before use\n- keep the carton. It contains important information.\n- store at 20°-25°C (68°-77°F)\n- protect from moisture"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2854047f-c5c4-43c3-8ef2-5c0a84a307f2",
+   "aliases": "pepcid dosage, famotidine 20 mg how often, pepcid ac max per day, pepcid before eating to prevent heartburn, famotidine for heartburn, acid reducer dose, pepcid for kids under 12, pepcid for more than 14 days, heartburn with chest pain warning, famotidine kidney disease, pepcid with other acid reducers, famotidine prescription drug interaction, pepcid pregnancy, sour stomach acid indigestion relief, pepcid allergic reaction, heartburn trouble swallowing warning"
+  },
+  {
+   "title": "Meclizine HCl 25 mg tablets (Drug Facts, Dramamine Less Drowsy, Medtech)",
+   "sections": [
+    {
+     "heading": "Dramamine Less Drowsy (meclizine 25 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient**\n(in each tablet)\nMeclizine HCI 25 mg\n\n**Purpose**\nAntiemetic\n\n**Use**\nfor prevention and treatment of these symptoms associated with motion sickness:\n- nausea\n- vomiting\n- dizziness"
+    },
+    {
+     "heading": "Dramamine Less Drowsy (meclizine 25 mg): warnings",
+     "body": "**Do not give** to children under 12 years of age unless directed by a doctor.\n\n**Ask a doctor before use if you have**\n- a breathing problem such as emphysema or chronic bronchitis\n- glaucoma\n- trouble urinating due to an enlarged prostate gland\n\n**Ask a doctor or pharmacist before use if you are taking** sedatives or tranquilizers.\n\n**When using this product**\n- drowsiness may occur\n- avoid alcoholic drinks\n- alcohol, sedatives, and tranquilizers may increase drowsiness\n- be careful when driving a motor vehicle or operating machinery\n\n**If pregnant or breast-feeding,** ask a doctor before use.\n\n**Keep out of reach of children.**\nIn case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.\n\n**Dramamine Less Drowsy (meclizine 25 mg): directions (dosing)**\n\n**Directions**\n- take first dose 1/2 to 1 hour before starting activity\n- adults and children 12 years and over:1 to 2 tablets once daily, or as directed by a doctor"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa6a0969-7427-4b87-bc04-a2792665c218",
+   "aliases": "meclizine dosage, meclizine 25 mg how many, dramamine less drowsy dose, motion sickness pill dose, meclizine for sea sickness, take motion sickness pill how long before travel, meclizine for dizziness vertigo nausea, meclizine for kids under 12, meclizine drowsiness driving, meclizine with alcohol, meclizine glaucoma prostate warning, bonine dose, meclizine once daily, car sick medicine adult, meclizine pregnancy, meclizine with sedatives"
+  },
+  {
+   "title": "Hydrocortisone 1% cream (Drug Facts, Kroger)",
+   "sections": [
+    {
+     "heading": "Hydrocortisone 1% cream (Kroger): active ingredient, purpose and uses",
+     "body": "**Active ingredient**\nHydrocortisone 1%\n\n**Purpose**\nAnti-itch\n\n**Uses**\n- temporarily relieves itching associated with minor skin irritations, inflammation, and rashes due to:\n- eczema\n- psoriasis\n- poison ivy, oak, sumac\n- insect bites\n- detergents\n- jewelry\n- seborrheic dermatitis\n- cosmetics\n- soaps\n- temporarily relieves external anal and genital itching\n- other uses of this product should only be under the advice and supervision of a doctor"
+    },
+    {
+     "heading": "Hydrocortisone 1% cream (Kroger): warnings",
+     "body": "**Warnings**\nFor external use only\n\n**Do not use**\n- for the treatment of diaper rash. Ask a doctor.\n- in the genital area if you have a vaginal discharge. Ask a doctor.\n\n**When using this product**\n- avoid contact with the eyes\n- do not use more than directed unless told to do so by a doctor\n- do not put directly into the rectum by using fingers or any mechanical device or applicator\n\n**Stop use and ask a doctor if**\n- condition worsens, symptoms persist for more than 7 days or clear up and occur again within a few days, and do not begin use of any other hydrocortisone product unless you have asked a doctor\n- rectal bleeding occurs\n\n**Keep out of reach of children.**\nIf swallowed, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Hydrocortisone 1% cream (Kroger): directions (dosing)",
+     "body": "**Directions**\n- for itching of skin irritation, inflammation, and rashes:\n- adults and children 2 years of age and older: apply to affected area not more than 3 to 4 times daily\n- children under 2 years of age: do not use, ask a doctor\n- for external anal and genital itching, adults:\n- when practical, clean the affected area with mild soap and warm water and rinse thoroughly\n- gently dry by patting or blotting with toilet tissue or a soft cloth before applying\n- apply to affected area not more than 3 to 4 times daily\n- children under 12 years of age: ask a doctor"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f05edff2-2dc5-427c-b52c-518e0aaef4e0",
+   "aliases": "hydrocortisone cream how often, hydrocortisone 1 percent uses, cortisone cream for poison ivy, hydrocortisone for bug bites, hydrocortisone for eczema rash, hydrocortisone for kids under 2, hydrocortisone cream diaper rash, cortisone cream 3 to 4 times daily, hydrocortisone for anal itching, hydrocortisone cream more than 7 days, hydrocortisone near eyes, itch cream for psoriasis, anti itch cream directions, hydrocortisone for genital itching, cortisone cream swallowed, hydrocortisone cream for insect bites"
+  },
+  {
+   "title": "Bacitracin zinc, neomycin sulfate, polymyxin B sulfate ointment (Drug Facts, Neosporin Original, Kenvue)",
+   "sections": [
+    {
+     "heading": "Neosporin Original ointment (triple antibiotic): active ingredient, purpose and uses",
+     "body": "- Active ingredients (in each gram) — Purpose\n- Bacitracin Zinc (400 units) — First aid antibiotic\n- Neomycin Sulfate (3.5 mg) — First aid antibiotic\n- Polymyxin B sulfate (5,000 units) — First aid antibiotic\n\n**Use**\nfirst aid to help prevent infection in minor:\n- cuts\n- scrapes\n- burns"
+    },
+    {
+     "heading": "Neosporin Original ointment (triple antibiotic): warnings",
+     "body": "**Warnings**\nFor external use only.\n\n**Do not use**\n- if you are allergic to any of the ingredients\n- in the eyes\n- over large areas of the body\n\n**Ask a doctor before use if you have**\n- deep or puncture wounds\n- animal bites\n- serious burns\n\n**Stop use and ask a doctor if**\n- you need to use longer than 1 week\n- condition persists or gets worse\n- rash or other allergic reaction develops\n\nKeep out of reach of children. If swallowed, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Neosporin Original ointment (triple antibiotic): directions (dosing)",
+     "body": "**Directions**\n- clean the affected area\n- apply a small amount of this product (an amount equal to the surface area of the tip of a finger) on the area 1 to 3 times daily\n- may be covered with a sterile bandage\n\n**Neosporin Original ointment (triple antibiotic): other information**\n\n**Other information**\n- store at 20° to 25°C (68° to 77° F)"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3e6fe2e-1b74-4f22-9c7c-a00057439690",
+   "aliases": "neosporin directions, how often to apply neosporin, triple antibiotic ointment uses, neosporin for cuts scrapes burns, neosporin on deep puncture wound, neosporin animal bite, neosporin more than 1 week, antibiotic ointment allergic reaction rash, neosporin in eyes, neosporin over large area, bacitracin neomycin polymyxin ointment, first aid antibiotic ointment, neosporin under bandage, neosporin swallowed child, wound infection prevention ointment, how much neosporin to use"
+  },
+  {
+   "title": "Povidone-iodine 10% topical solution (Drug Facts, Major Pharmaceuticals)",
+   "sections": [
+    {
+     "heading": "Povidone-iodine 10% solution (Major): warnings",
+     "body": "**Povidone-iodine 10% solution (Major): active ingredient, purpose and uses**\n\n**Active Ingredient**\nPovidone-Iodine 10%\n(Equivalent to 1% titrable iodine)\n\n**Purpose**\nFirst Aid Antiseptic\n\n**Uses**\nFirst aid antiseptic to prevent infection in minor cuts, scrapes and burns.\n\n**Warnings**\nFor External Use Only\n\n**Ask a doctor before use if you have**\n- deep puncture wounds\n- animal bites\n- serious burns\n\n**Stop use and consult a doctor if**\n- the condition persists or gets worse\n- irritation and redness develop and persists for more than 72 hours\n\n**When using this product do not**\n- use in eyes\n- use on individuals who are allergic or sensitive to iodine or use for longer than 1 week unless directed by a doctor\n- apply over large areas of the body\n\n**Keep out of reach of children.**\nIn case of accidental ingestion, seek professional assistance or contact a Poison Control Center immediately (1-800-222-1222).\n\n**Povidone-iodine 10% solution (Major): directions (dosing)**\n\n**Directions**\nClean the affected area. Apply a small amount on the area 1 to 3 times daily. May be covered with sterile bandage. If bandaged, let it dry first."
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59041ca3-a195-5a20-e063-6394a90a2ac9",
+   "aliases": "betadine directions, povidone iodine 10 percent uses, iodine for cuts scrapes burns, how to use betadine on wound, povidone iodine how often, iodine antiseptic bandage, betadine deep puncture wound, betadine animal bite, iodine allergy antiseptic, povidone iodine in eyes, betadine more than 1 week, iodine on large areas of body, betadine swallowed, first aid antiseptic solution, povidone iodine irritation redness, iodine wound cleaning"
+  },
+  {
+   "title": "Pseudoephedrine HCl 30 mg tablets (Drug Facts, Sudogest, Major Pharmaceuticals)",
+   "sections": [
+    {
+     "heading": "Sudogest (pseudoephedrine 30 mg): active ingredient, purpose and uses",
+     "body": "**Active ingredient (in each tablet)**\nPseudoephedrine HCl 30 mg\n\n**Purpose**\nNasal decongestant\n\n**Uses**\n- temporarily relieves nasal congestion due to the common cold, hay fever or other upper respiratory allergies\n- temporarily relieves sinus congestion and pressure"
+    },
+    {
+     "heading": "Sudogest (pseudoephedrine 30 mg): warnings",
+     "body": "**Do not use**\nif you are now taking a prescription monoamine oxidase inhibitor (MAOI) (certain drugs for depression, psychiatric or emotional conditions, or Parkinson's disease), or for 2 weeks after stopping the MAOI drug. If you do not know if your prescription drug contains an MAOI, ask a doctor or pharmacist before taking this product.\n\n**Ask a doctor before use if you have**\n- heart disease\n- diabetes\n- thyroid disease\n- high blood pressure\n- difficulty in urination due to enlargement of the prostate gland\n\n**When using this product**\ndo not exceed recommended dosage.\n\n**Stop use and ask a doctor if**\n- nervousness, dizziness, or sleeplessness occur\n- symptoms do not improve within 7 days or occur with fever\n\n**If pregnant or breast-feeding,** ask a health professional before use.\n\n**Keep out of reach of children.**\nIn case of overdose, get medical help or contact a Poison Control Center right away."
+    },
+    {
+     "heading": "Sudogest (pseudoephedrine 30 mg): directions (dosing)",
+     "body": "**Directions**\n- adults and children 12 years and over — take 2 tablets every 4 to 6 hours; do not take more than 8 tablets in 24 hours\n- children ages 6 to 11 years — take 1 tablet every 4 to 6 hours; do not take more than 4 tablets in 24 hours\n- children under 6 years — do not use\n\n**Sudogest (pseudoephedrine 30 mg): other information**\n\n**Other information**\n- each tablet contains: calcium 15 mg\n- store at 25°C (77°F); excursions permitted between 15°-30°C (59°-86°F)\n- see end flap for expiration date and lot number"
+    }
+   ],
+   "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d46577aa-7fd7-2130-6ed6-4b3f7562491f",
+   "aliases": "sudafed dosage, pseudoephedrine 30 mg how many, sudafed every 4 to 6 hours, sudafed max per day, pseudoephedrine for kids 6 to 11, sudafed children under 6, decongestant for stuffy nose, sudafed for sinus pressure, pseudoephedrine high blood pressure warning, sudafed with maoi, sudafed heart disease thyroid diabetes, pseudoephedrine nervousness sleeplessness, sudafed more than 7 days, sudafed pregnancy, nasal decongestant dose adult, sudafed prostate urination, sudafed for hay fever congestion"
+  }
+ ]
+}

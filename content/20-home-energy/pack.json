@@ -1,0 +1,11 @@
+{
+ "id": "home-energy",
+ "title": "Home Insulation, Weatherproofing and Off-Grid Power (DOE Energy Saver)",
+ "category": "guide",
+ "review": "verified",
+ "version": "2026.10.30.1",
+ "publisher": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+ "license": "Public domain (U.S. Government work, 17 U.S.C. § 105)",
+ "attribution": "Text from the U.S. Department of Energy Energy Saver website (energy.gov/energysaver), fetched 2026-10-30; reformatted into sections, images not included. Use does not imply endorsement by DOE.",
+ "description": "Insulation and where to put it, air sealing, caulking and weatherstripping, passive solar design, heating systems, wood and pellet stoves, space heaters, planning solar electric systems, grid-tied vs off-grid, batteries and inverters, solar water heating, small wind and microhydro."
+}

@@ -1,0 +1,11 @@
+{
+ "id": "ham-radio-basics",
+ "title": "Ham Radio, GMRS, FRS, CB and MURS: Licensing and Rules in Plain Language (FCC)",
+ "category": "guide",
+ "review": "verified",
+ "version": "2026.10.30.1",
+ "publisher": "U.S. Federal Communications Commission",
+ "license": "Public domain (U.S. Government work, 17 U.S.C. § 105)",
+ "attribution": "Text from FCC Wireless Telecommunications Bureau pages on the Amateur Radio Service and Personal Radio Services (fetched 2026-10-30). Reformatted into sections. Use does not imply endorsement by the FCC.",
+ "description": "How to get an amateur (ham) licence, what you may transmit, exams and licence classes, call signs, and which radios (FRS, GMRS, CB, MURS) need no licence."
+}

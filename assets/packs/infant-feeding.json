@@ -1,0 +1,472 @@
+{
+ "format": "offgrid-pack",
+ "formatVersion": 1,
+ "id": "infant-feeding",
+ "title": "Feeding Infants and Young Children in Emergencies",
+ "category": "medical",
+ "version": "2026.10.30.1",
+ "publisher": "U.S. Centers for Disease Control and Prevention",
+ "license": "Public domain (U.S. Government work, 17 U.S.C. § 105)",
+ "description": "Breastfeeding, formula preparation with unsafe water, cleaning and sanitizing bottles, hand expression, what to pack for a baby, radiation emergencies, and shelter support for families with infants.",
+ "attribution": "Text from CDC's Infant and Young Child Feeding in Emergencies toolkit and related CDC pages (fetched 2026-10-30). Reformatted into sections; images and handouts not included. Use does not imply endorsement by CDC or HHS.",
+ "review": "verified",
+ "documents": [
+  {
+   "title": "Facts About Infant Feeding During Emergencies (CDC)",
+   "sections": [
+    {
+     "heading": "Mothers experiencing stress: Even under stress, mothers can breastfeed",
+     "body": "**At a glance**\n\nDuring a natural disaster, breastfeeding is the safest way to feed an infant. Emergency responders can learn more about infant feeding during emergencies and disasters.\n\nMothers can continue to produce breast milk during times of physical and emotional stress. However, the release (or letdown) of breast milk can be affected by stress. Lactating women who are under stress may need support to encourage the letdown of milk. Keep breastfeeding women in close contact with their babies so they can nurse frequently.\n\n Timely practical and emotional support can reduce stress related to infant feeding concerns. Because of the release of certain hormones, breastfeeding may even reduce stress for the mother and baby during challenging situations."
+    },
+    {
+     "heading": "Feeding infant formula: Extra precautions are needed",
+     "body": "Ready-to-feed infant formula (RTF) is the safest option for formula feeding during an emergency or disaster. This is because it does not need to be mixed with water and is available in sterile individual single-use containers. When powdered infant formula is the only option, extra care must be taken to ensure that it does not get contaminated.\n\nExtra precautions include:\n\n- Preparing infant formula with safe water and a clean measuring scoop.\n- Storing the infant formula in a cool, dry place with the lid tightly closed.\n- Carefully cleaning all infant feeding supplies such as bottles and nipples.\n\nPrepare powdered infant formula using the exact amount of water and formula listed on the container. Use the exact measurement of the scoop provided. Do not dilute infant formula. Too much water may not meet the nutritional needs of the infant. Too little water may cause an infant's kidneys and digestive system to work too hard and cause dehydration.\n\n Use prepared infant formula within 2 hours of preparation and within 1 hour from when feeding begins. Discard any infant formula left in the bottle after feeding.\n\nLearn more about how to safely prepare and store powdered infant formula during emergencies."
+    },
+    {
+     "heading": "Feeding infant formula: Formula feeding may require more effort",
+     "body": "Powdered infant formula feeding requires safe water to prepare the formula and cleaning supplies to clean bottles, nipples, and other parts. These resources may not be readily available in an emergency. Powdered infant formula cannot be made in advance without adequate refrigeration. These requirements can create difficulties for families using infant formula.\n\nBreastfeeding is the safest way to feed a baby during an emergency. It provides the nutrients and infection protection that babies need. Infants unable to breastfeed or be fed expressed breast milk can be fed with RTF infant formula. Unlike powdered formula, RFT does not require water to prepare."
+    },
+    {
+     "heading": "Expressed breast milk",
+     "body": "Some mothers may be unable to feed their baby at the breast or are feeding their baby expressed breast milk. For these mothers, learning how to express milk by hand can help them continue to provide breast milk to their child.\n\nExpressing milk by hand is preferred over using a breast pump when proper cleaning of pump equipment is not possible or when power is not available.\n\n Relief staff can make sure a designated safe, private space is available for lactating women to express milk by hand. Lactation support should be available to teach mothers how to hand express milk, if needed.\n\n Expressed breast milk can be fed to a baby in a disposable cup. This is an option if water is not safe for cleaning bottles or nipples."
+    },
+    {
+     "heading": "Expressed breast milk: Frozen breast milk may not be safe",
+     "body": "Access to a refrigerator with electricity may be limited during a natural disaster. During an emergency, families should continue to follow CDC's guidelines for proper storage and preparation of breast milk.\n\nIn a power outage, take these precautions to ensure frozen breast milk is safe.\n\n- Keep the freezer door closed. This will help prevent the milk from completely thawing.\n- If possible, before an anticipated power outage, move all breast milk to the back of the freezer (the coldest part).\n\n- Ensure that the freezer is full or empty spaces are filled with crumpled newspaper to help reduce air flow.\n- A full freezer stays frozen longer than a partially full freezer.\n- Milk is still considered frozen if ice crystals can be seen in it.\n\nOnce milk has thawed, use it within 24 hours. Thawed milk cannot be refrozen. After 24 hours, throw out unused, thawed milk. When it comes to safe storage of breast milk, remember \"when in doubt, throw it out.\"\n\n**Expressed breast milk: Breast Milk Storage Guidelines**\n\n- Breast Milk Storage and Preparation\n- Breast Milk Storage Questions and Answers"
+    },
+    {
+     "heading": "Illness and diet: Infants can usually be breastfed even when mothers or infants are sick",
+     "body": "Breast milk contains antibodies and other factors that boost immunity that can help protect infants from illness. This is true even if the lactating mother is ill with conditions such as the flu or diarrhea. When an infant is sick, the mother can usually continue to nurse or feed their baby expressed milk to keep them hydrated.\n\nIn rare exceptions, breast milk or breastfeeding is not recommended. Examples are when the lactating woman is ill with specific transmissible conditions or taking certain medications."
+    },
+    {
+     "heading": "Illness and diet: Mothers can breastfeed even when hungry",
+     "body": "Breastfeeding mothers support their health and their baby's health by eating nutritious meals and snacks and drinking plenty of water. However, women who are hungry or have limited access to healthy foods are still able to breastfeed. Breast milk provides the appropriate number of calories and optimal nutrition to support the growth and health of the infant. Feeding infant formula instead of offering the breast will decrease a mother's milk supply and effect their ability to provide a full supply of breast milk to their infant.\n\n**Illness and diet: Did you know?**\n\nInfant fussiness is common! Offering the breast for comfort nursing can help soothe a fussy baby. Also keep the baby close by using a carrier."
+    },
+    {
+     "heading": "Relactation: Mothers may be able to start breastfeeding again",
+     "body": "Relactation is when a mother starts breastfeeding again after having stopped for some time, such as weeks or months. A mother may wish to relactate as a safe way to feed an infant during a natural disaster or disease outbreak.\n\n Breastfeeding is a supply-and-demand process encouraged by nipple stimulation and milk extraction. A mother may be able to re-establish milk production by frequently stimulating her nipples by pumping, hand expression, and/or nursing directly at the breast.\n\nRelactation depends on many factors. Support and careful monitoring by a lactation consultant or other breastfeeding specialist is important for mothers wishing to relactate.\n\nInfants who are receiving breast milk from a mother who is relactating must be carefully monitored to ensure the infant is gaining weight appropriately."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/facts.html",
+   "aliases": "feeding a baby in an emergency, breastfeeding during a disaster, is breast milk safe after a disaster, formula feeding when power is out, ready to feed formula vs powder, baby formula shortage what to do, donated formula safe, infant feeding questions disaster, keep breastfeeding under stress, how long does prepared formula last, baby food during power outage, nursing baby no clean water"
+  },
+  {
+   "title": "Feeding Your Child Safely During a Disaster (CDC)",
+   "sections": [
+    {
+     "heading": "Breastfeeding",
+     "body": "**At a glance**\n\nNatural disasters can make it hard for parents and caregivers to feed their infants and young children safely. These tips provide information for feeding your young child during an emergency.\n\nBreastfeeding remains the best infant feeding option for most infants, even in a natural disaster. Breast milk helps protect babies from diseases such as diarrhea and respiratory infections and provides the calories and nutrients babies need. This protection is especially important during natural disasters when contaminated water and unsanitary environments can increase the risk of disease. A natural disaster may be a hurricane, flood, wildfire, earthquake, or tornado.\n\nBefore a disaster happens, breastfeeding mothers can make a plan and be prepared.\n\n Wash your hands before feeding your infant. If soap and safe water are not available, use an alcohol-based hand sanitizer that contains at least 60% alcohol.\n\n Learn how to express breast milk by hand. If there is a power outage, you may not be able to use your electric breast pump.\n\n Continue breastfeeding in emergencies. During and after a disaster, stay with your child. Staying together makes it much easier to continue breastfeeding.\n\n**Breastfeeding: Food Assistance and Food System Resources**\n\nFor resources and tools to help households in need find food, see Food Assistance and Food System Resources."
+    },
+    {
+     "heading": "Formula feeding",
+     "body": "Wash your hands before preparing formula and before feeding your infant. If soap and safe water are not available for handwashing, use an alcohol-based hand sanitizer that contains at least 60% alcohol.\n\nIf your formula feed your child, provide ready-to-use infant formula if available. Ready-to-use infant formula is a type of infant formula that is packaged as ready-to-feed liquid and does not need to be reconstituted with water. If ready-to-use infant formula is not available, it is best to use bottled water to prepare powdered formula or concentrated formula when tap water is unsafe.\n\nLearn how to prepare and store powdered infant formula during an emergency. If bottled water is not available, boil water for 1 minute and let it cool before mixing with formula. Only use treated water to prepare formula if bottled or boiled water is unavailable. Always check with local authorities on the status of the drinking water and follow boil water advisories.\n\nIf your baby is younger than 2 months old, was born prematurely, or has a weakened immune system, consider taking extra precautions to prevent Cronobacter infections."
+    },
+    {
+     "heading": "Breastfeeding and formula feeding",
+     "body": "If you already combine breastfeeding and formula feeding, during an emergency you may wish to breastfeed more often to increase your breast milk supply and reduce reliance on formula.\n\nAlways clean infant feeding items with bottled, boiled, or treated water and soap before each use. If you cannot clean infant feeding supplies safely, children can lap up milk from a disposable cup, if available. Throw out bottle nipples or pacifiers that have been in contact with floodwater.\n\n**Breastfeeding and formula feeding: CDC's Infant and Young Child Feeding in Emergencies Toolkit**\n\nThis toolkit helps emergency preparedness and response personnel, families, and the public ensure that children are fed safely when disaster strikes. Learn more."
+    },
+    {
+     "heading": "Resources: For parents",
+     "body": "- Preparedness for Expectant and New Parents\n- Natural Disasters and Severe Weather\n- Keeping Children Safe in Disasters\n- Travel Recommendations for Nursing Families\n- Proper Storage and Preparation of Breast Milk\n- Infant and Toddler Nutrition\n- Disaster Preparedness Resources for Families\n- Emergency Preparedness Checklist for Families with Infants and Young Children"
+    },
+    {
+     "heading": "Resources: For emergency relief workers",
+     "body": "- Infant and Young Child Feeding in Emergencies (IYCF-E) Toolkit\n- Infant Feeding During Disasters\n- Facts about Breastfeeding in an Emergency: Especially for Relief Workers\n- Breastfeeding Support Checklist for Relief Workers\n- Infant and Young Child Feeding in Emergencies – Operational Guidance"
+    },
+    {
+     "heading": "Resources: For healthcare providers",
+     "body": "- Infant and Young Child Feeding in Emergencies (IYCF-E) Toolkit\n- Pediatric Preparedness Resource Kit\n- Infant Feeding in Disasters and Emergencies\n- Facts about Breastfeeding in an Emergency: Especially for Health Workers\n- Breastfeeding Support Checklist for Health Workers"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/breastfeeding/php/guidelines-recommendations/feeding-your-child-safely-during-a-disaster.html",
+   "aliases": "feed my baby safely in a disaster, breastfeed during hurricane, baby formula with no clean water, what formula to use in emergency, feeding toddler after flood, keep baby fed when evacuating, safest way to feed infant disaster, bottled water for formula, expressed breast milk storage no power"
+  },
+  {
+   "title": "Emergency List for Families With Infants and Young Children (CDC)",
+   "sections": [
+    {
+     "heading": "Be prepared",
+     "body": "**At a glance**\n\nFamilies can use this checklist to gather materials to safely feed infants and young children in an emergency. Supplies needed for infants depend on how the infant is fed.\n\nAn emergency kit is a collection of items you may need in an emergency. There are things every family needs during an emergency. Use CDC's Family Checklist in addition to the list below to make sure you have all the infant and young child feeding supplies you will need.\n\nThe emergency checklist can be downloaded as a PDF. The suggested items are also on this page.\n\nDownload the two-page checklist in English or Spanish.\n\n**Be prepared: *Important safety information**\n\nItems starred (*) below may not be safe in certain emergencies. If you cannot clean these items appropriately with safe water and soap, do not use them.\n\n**For families feeding their child any breast milk**\n\nYour emergency kit should contain one or two boxes of disposable nursing pads. Do not pack reusable pads because they have to be laundered."
+    },
+    {
+     "heading": "For families relying on a breast pump",
+     "body": "Your family's emergency kit should contain:\n\n- Breast milk storage bags or containers.*\n- Small cooler with ice packs for breast milk storage.\n- Breast pump and pump kit parts,* power cords, extra batteries.\n- Manual pump* in case of a power outage."
+    },
+    {
+     "heading": "For families feeding their child any formula",
+     "body": "Your emergency kit should include:\n\n- Ready-to-feed infant formula in single-serving cans or bottles.\n- Powdered infant formula and preparation materials.*\n\n- Formula cans/containers.\n- Liquid measuring cup.\n- Food-grade container with lid for mixing.\n- Bottled water for mixing.\n- Bottles and nipples.\n\nBabies grow quickly so check your emergency kit monthly to be sure you have enough formula to meet your baby's current needs for several days. Replace formula that is expiring soon with newer supplies."
+    },
+    {
+     "heading": "For families feeding their child any formula: Note",
+     "body": "Ready-to-feed infant formula is the safest option for formula feeding during an emergency. This is because it does not need to be mixed with water, and it is available in sterile single-use containers. When powdered infant formula is the only option, extra care must be taken to ensure that it does not get contaminated."
+    },
+    {
+     "heading": "For all families of infants and young children",
+     "body": "Your kit should include:\n\n- A well-stocked diaper bag with:\n\n- At least one large pack of diapers.\n- At least two packs of baby wipes.\n- Diaper rash cream.\n- Baby wash and lotion.\n- Re-sealable plastic bags (gallon size) for stashing dirty diapers and clothes.\n\n- Disposable cups, dishes, and feeding spoons.\n- Disposable bibs.\n- Cleaning supplies for reusable infant and young child feeding items and breast pump parts:\n\n- Wash basin.\n- Scrub brush.\n- Dish soap.\n- Mesh bag for drying infant feeding supplies.\n- A plastic container with a lid to contain all your cleaning and feeding supplies.\n\n- Burp rags or smaller blanket.\n- At least two pacifiers, if you use them.*\n- Nonperishable baby food and snacks appropriate for your child's age.\n- Baby carrier, such as a sling, wrap, or back or front carrier.\n- Extra clothes.\n- At least two extra blankets.\n- Infant pain reliever with acetaminophen.\n- Bulb syringe.*\n- Infant thermometer.\n- Child's medical records including vaccination record.\n- Portable crib.\n- Tape and marker for labeling.\n- Safe drinking water such as bottled water.\n\n**For all families of infants and young children: Reminder**\n\n* If you cannot clean the starred items above with safe water and soap, do not use them."
+    },
+    {
+     "heading": "Additional items to consider",
+     "body": "Consider a small camp stove, fuel, and a pot for boiling water. You can use these to make water safe and to sanitize infant feeding supplies.\n\n Sources and Page Info Print Share\n\n About This Page\n\n Published: May 15, 2024\n\n Updated: August 3, 2026\n\nThis page was last updated on this date. Updates may include minor edits, image changes, or other modifications to page content.\n\n Reviewed: February 15, 2024\n\nThe information on this page was last reviewed by subject matter experts to ensure accuracy."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/checklist.html",
+   "aliases": "baby emergency kit checklist, what to pack for a baby evacuation, diapers and formula go bag, infant supplies for disaster, toddler emergency kit, how much formula to stockpile, baby go bag list, breast pump no electricity backup, infant medicine kit, baby wipes and bottles emergency"
+  },
+  {
+   "title": "Prepare and Store Powdered Infant Formula in an Emergency (CDC)",
+   "sections": [
+    {
+     "heading": "How to prepare and store powdered infant formula",
+     "body": "**At a glance**\n\nIf a family must use powdered infant formula but tap water is unsafe to drink, follow these steps to prepare and store the infant formula safely and correctly.\n\nFor families who need infant formula during or after an emergency, ready-to-feed (RTF) infant formula is the safest option. RTF infant formula is a sterile, liquid infant formula that is ready to feed without adding water.\n\nDuring an emergency, tap water may not be safe to mix with powdered infant formula. If your tap water has been deemed unsafe, and powdered infant formula is the only option, follow these steps to prepare and store it safely and correctly.\n\n**STEP 1: **Clean your preparation surface. Wash your hands with soap and water. If water is not available or not safe for handwashing, use alcohol-based hand sanitizer with at least 60% alcohol. Use a clean bottle or other food-grade safe container and a lid or cap to prepare the infant formula. Make sure the formula is not expired.\n\n**STEP 2: **Use bottled water to prepare powdered formula until local authorities say the tap water is safe to drink. If bottled water is not available, learn how to make water safe by boiling or disinfecting.\n\n**STEP 3: **Use the exact amount of bottled water and formula listed on the formula container instructions. If you do not have a measuring cup, use a disposable water bottle or other food-grade safe container that lists the total volume so you can estimate. Measure the water first and then add the infant formula powder with the scoop provided.\n\n**STEP 4: **With the lid or cap on, shake infant formula in the bottle or other food-grade safe container to mix. Do not stir. You do not need to warm infant formula before feeding.\n\n**STEP 5: **After feeding, thoroughly clean the bottle and nipple with soap and safe water or discard disposable cup. Learn about cleaning and sanitizing infant feeding items in emergencies."
+    },
+    {
+     "heading": "How to prepare and store powdered infant formula: Important!",
+     "body": "**Powdered infant formula is not sterile. **If your baby is less than 2 months old, was born prematurely, or has a weakened immune system, it is especially important to use ready-to-feed infant formula in any emergency. Liquid infant formula is made to be sterile (without germs) and is the safest option for infants not receiving breast milk."
+    },
+    {
+     "heading": "Use quickly and store safely",
+     "body": "- Use prepared infant formula within 1 hour from start of feeding and within 2 hours of preparation.\n- If you are not going to use the prepared formula within 2 hours, immediately store it in the refrigerator and use within 24 hours.\n- During power outages, you may not have access to a working refrigerator. In this case, prepare fresh formula for every feeding.\n- Throw out any formula that's left over after feeding your baby. Do not refrigerate it to save for later. The combination of infant formula and your baby's saliva can cause bacteria to grow."
+    },
+    {
+     "heading": "Feeding tips",
+     "body": "- If you feed your baby with both breast milk and powdered formula, breastfeed or feed your baby breast milk first, then feed the formula.\n- Do not use a bottle to feed your baby anything besides infant formula or breast milk.\n- When mixing infant formula, make only the amount your baby will eat in the bottle. This avoids wasting your supply.\n- If you are using disposable cups, use a new cup for each feeding."
+    },
+    {
+     "heading": "Feeding tips: Did you know?",
+     "body": "When safe water is not available, bottles and bottle nipples are dangerous to use because they are difficult to clean. If you're using a disposable water bottle or other food-grade safe container to prepare the formula, pour the formula into a disposable cup to feed your baby. After feeding, throw away the cup. Learn more about cup feeding."
+    },
+    {
+     "heading": "Remember",
+     "body": "- Always mix formula in a food-grade safe bottle or container. Never use a container that has ever held any toxic substances or chemicals.\n- Always use the exact amount of water and formula listed on the instructions of the infant formula container. Adding too much or too little formula can make your baby sick.\n- Do not make or feed your baby homemade infant formula. Feeding homemade infant formula can lead to serious health problems.\n- If formula cans were exposed to unsafe water, have dents, rust spots, puffy ends or a broken seal, throw them away immediately.\n- Keep powdered formula lids and scoops clean and dry. Close containers of formula as soon as possible. Store the scoop inside the container.\n- Watch and listen for updates from local authorities regarding the safety of your water source."
+    },
+    {
+     "heading": "Remember: Did you know?",
+     "body": "If you warm the formula and have access to clean water, place the closed bottle into a bowl of warm water for a few minutes. Avoid getting water into the bottle or nipple. This could contaminate the prepared formula. Test the temperature before feeding it to your baby by putting a few drops of formula on your wrist. It should feel warm, not hot.\n\n**\n**\n\n**Never warm formula in a microwave.** Microwaving creates hot spots that can burn your baby's mouth.\n\n Sources and Page Info Print Share\n\n About This Page\n\n Published: May 15, 2024\n\n Updated: August 10, 2026\n\nThis page was last updated on this date. Updates may include minor edits, image changes, or other modifications to page content.\n\n Reviewed: August 10, 2026\n\nThe information on this page was last reviewed by subject matter experts to ensure accuracy."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/powdered-infant-formula.html",
+   "aliases": "mix formula with bottled water, make formula when tap water unsafe, boil water for baby formula, how to prepare powdered formula no power, store prepared formula without fridge, formula left out how long, formula with boiled water cool first, powdered formula steps emergency, measuring formula without a cup"
+  },
+  {
+   "title": "Special Considerations for Infant Feeding in Emergencies (CDC)",
+   "sections": [
+    {
+     "heading": "Prepare for an evacuation",
+     "body": "**At a glance**\n\nFamilies and emergency responders will face unique infant feeding considerations during disasters, evacuations, power outages, and emergencies that impact safe water.\n\nWhat would happen if your family had to evacuate your home due to a hurricane, wildfire, or flood? What if there was a power outage? Different types of emergencies require special considerations for families with young children.\n\nBe prepared for an emergency by using CDC's Emergency Kit Checklist for Kids and Families."
+    },
+    {
+     "heading": "Evacuation considerations",
+     "body": "Plan to continue breastfeeding through emergencies and disasters. Breastfeeding is the safest way to feed a child during an emergency.\n\nYou may have infant formula or expressed breast milk stored at home in a refrigerator or freezer. If you must leave your home, carefully plan how to transport it.\n\nIf your child is starting to eat solid foods, consider how to transport food that needs to be refrigerated. Also, prepare to pack the supplies needed to prepare the food.\n\nTake steps now so you can safely transport the items you need to feed your child in an emergency."
+    },
+    {
+     "heading": "Transporting breast milk and supplies: Get ready",
+     "body": "- If you use a breast pump, learn to hand express your milk. Practice in case you are without a pump during an emergency.\n- Keep these items on hand to transport breast milk in case you evacuate:\n\n- Cooler or insulated cooler bag.\n- Ice packs.\n- Disposable cups for feeding in case you are not be able to clean bottles and nipples."
+    },
+    {
+     "heading": "Transporting breast milk and supplies: During an emergency",
+     "body": "You can carry freshly expressed milk in a cooler or an insulated cooler bag with frozen ice packs for up to 24 hours. Once arriving at your destination, you must use the milk right away, store it in the refrigerator, or freeze it. If it is not used right away, let emergency responders know that you have expressed breast milk that needs to be refrigerated and stored safely.\n\nIf you carry frozen milk in a cooler with frozen gel packs or ice, check your milk when you get to your destination.\n\n- If the milk has ice crystals, you can refreeze it.\n- Previously frozen milk should be kept cold and used within **24 hours from the time it thaws completely**.\n\n- When milk thaws will depend on the time spent traveling and the temperature of the cooler.\n- If possible, check the milk after a few hours in the cooler to see if it has thawed.\n\nTo express breast milk during or after an emergency, hand expression or a manual breast pump will allow you to continue without electricity.\n\n Clean your breast pump kit parts between uses with soap and clean water. Ask emergency responders if there is a clean area where you can pump, a dedicated area to wash your pump parts, and a place to store your expressed breast milk. Be sure to label your milk for storage."
+    },
+    {
+     "heading": "Transporting infant formula and supplies: Get ready",
+     "body": "Keep these items on hand to transport infant formula in case you evacuate:\n\n- Ready-to-feed (RTF) infant formula in single serving cans or bottles.\n- Bottled water.\n- Disposable cups for feeding if you are unable to clean bottles and nipples.\n\nFor formula-fed babies, RFT infant formula is safest because it does not need to be mixed with water. Unopened RTF infant formula does not need to be refrigerated. Check your RTF infant formula supply in your emergency kit regularly to make sure it is not expired or not expiring soon.\n\n As babies grow, the amount of infant formula they drink in one day will change. Make sure your emergency kit has enough RTF infant formula to feed your child for several days. Follow all storage directions and expiration dates on the RTF infant formula packaging."
+    },
+    {
+     "heading": "Transporting infant formula and supplies: During an emergency",
+     "body": "If safe water is unavailable for cleaning bottles and nipples, you can use disposable cups instead of bottles to feed your child.\n\n If RTF infant formula is unavailable and tap water is not safe, use bottled water to prepare powdered or concentrated formula. If evacuating, take bottled water to prepare powdered or concentrated infant formula as needed.\n\n Take a copy of CDC's How to Prepare and Store Powdered Infant Formula During an Emergency with you. Learn more:\n\n- Cup feeding.\n- How to clean infant feeding supplies during an emergency."
+    },
+    {
+     "heading": "Transporting solid foods and supplies: Get ready",
+     "body": "Keep these items on hand to transport solid foods in case you evacuate:\n\n- Enough non-perishable, store-bought baby food for several days.\n- A cooler or insulated cooler bag to hold foods that need to be refrigerated, such as fruits, vegetables, meats, and dairy.\n- Disposable plates, bowls, cups, and utensils for feeding and preparing foods."
+    },
+    {
+     "heading": "Transporting solid foods and supplies: Check your emergency kit",
+     "body": "Check your baby food supply in your emergency kit regularly to make sure it is not expired and not expiring soon. Be sure you have enough to feed your child for several days. As babies grow, they may eat more solid foods.\n\n**Transporting solid foods and supplies: During an emergency**\n\nAfter arriving at your destination, ask where you can store and prepare your child's foods, wash hands and feeding supplies, and feed your child."
+    },
+    {
+     "heading": "Water safety considerations",
+     "body": "During an emergency, water may be contaminated with germs. This makes it unsafe to mix with powdered infant formula and to clean infant feeding items and breast pump kit parts. Bottles, nipples, sippy cups, and pacifiers can easily grow germs when they are not cleaned well. These germs can make your baby sick."
+    },
+    {
+     "heading": "Water safety considerations: Get ready",
+     "body": "Have bottled water ready in case you need to use it. When RTF infant formula is unavailable, use bottled water to mix with powdered infant formula. In emergency situations, bottled water is the safest choice for drinking and all other uses.\n\n Have disposable cups, plates, bowls, and utensils ready to feed your children safely."
+    },
+    {
+     "heading": "Water safety considerations: During an emergency",
+     "body": "Make sure you're using safe water for preparing powdered infant formula. Safe water is either bottled water or tap water that local authorities say is safe. Read how to prepare and store powdered infant formula safely during an emergency.\n\nUse safe water to clean all infant feeding items. Read how to clean infant feeding items safely during an emergency. If safe water is not available for cleaning, use disposable infant feeding items.\n\n If bottled water is not available:\n\n- Boil water for 1 minute (3 minutes at altitudes above 6,500 feet). Let the water cool before mixing with powdered formula.\n- If you do not have access to bottled or boiled water, use disinfected water.\n\nBoiled or disinfected water is safe to mix with powdered infant formula. It is also safe to use for cleaning infant feeding items such as bottles, nipples, and breast pump kit parts. Learn more with CDC's handout on making water safe during an emergency. Similar content is available in Spanish.\n\nStore boiled or disinfected water in clean sanitized containers with tight covers. This water can then be used to mix with powdered infant formula and to clean infant feeding items during an emergency.\n\nWhen you do not have safe water or cleaning supplies to clean bottles and nipples, feed your baby with disposable cups. These cups should be used once and then thrown away. This will protect your baby from germs that can grow in or on bottles and nipples.\n\n Bottle nipples, pacifiers, and other hard-to-clean items that touch flood water should be thrown away. They cannot be sanitized.\n\nThrow away all food that may have come in contact with flood water or storm water. When in doubt, throw it out.\n\nLearn more: Keep food safe after an emergency and flood."
+    },
+    {
+     "heading": "Power outage considerations: Get ready",
+     "body": "**Power outage considerations**\n\nLoss of electricity creates many challenges for families. Prepare to safely store and prepare breast milk, infant formula, and solid foods for infants and young children when there is a power outage.\n\nIf your baby is fed any amount of infant formula, keep RTF infant formula in single-serving cans or bottles in your emergency supplies. This will be useful if the water is unsafe for mixing with powdered infant formula. Store in a cool, dry place.\n\n If you are warned that power may go out, consider making or purchasing extra ice to keep expressed breast milk and food items cold. Freeze containers of water and gel packs to help keep your food cold during a power outage.\n\nHave an inexpensive, freestanding appliance thermometer to check the temperature in your refrigerator and freezer."
+    },
+    {
+     "heading": "Power outage considerations: During an emergency",
+     "body": "While the power is out, keep the freezer and refrigerator doors closed as much as possible. Freezers will keep food safe for about 48 hours if left closed and full during a power outage. If the freezer is half full and it remains closed, food will stay safe for about 24 hours. When freezers are full, the other frozen items help keep the freezer colder longer. Refrigerators will keep food cold for about 4 hours if they are unopened.\n\nYour refrigerator or cooler should be 40°F or below, and your freezer should be 0°F or below. If your refrigerator/freezer thermostats do not show the temperatures, use a freestanding appliance thermometer. Even if your refrigerator/freezer does show the temperatures, appliance thermometers may be important if you lose power or have mechanical problems."
+    },
+    {
+     "heading": "Power outage considerations: For breast milk",
+     "body": "If you have any breast milk in the freezer, help keep the freezer cold by packing any empty spaces with crumpled newspaper, frozen containers of water, or frozen gel packs. Keep the freezer door closed. This will help prevent the milk from completely thawing.\n\n Your breast milk may still be safe once your power comes back on. However, this depends on how long the power is out and how defrosted or warm the breast milk becomes.\n\nOnce the power is back on, check your stored breast milk. Milk is still considered frozen if ice crystals can be seen in it. Frozen breast milk that has started to thaw but still contains ice crystals can be refrozen. If your breast milk has completely thawed but still feels cold, put it in the refrigerator and use it within the next day or throw it away.\n\nThawed milk cannot be refrozen. After 24 hours, throw out unused, thawed milk. When it comes to safe storage of breast milk, remember \"when in doubt, throw it out.\""
+    },
+    {
+     "heading": "Power outage considerations: For infant formula",
+     "body": "Once the power is back on, check the temperature of your refrigerator. Throw away any opened or prepared formula that was in the refrigerator if your power has been off for 4 hours or more or if the refrigerator temperature is above 40°F."
+    },
+    {
+     "heading": "Power outage considerations: For solid foods",
+     "body": "- Throw away all perishable foods in your refrigerator when the power has been off for 4 hours or more.\n- Throw away all perishable foods in your freezer if they have thawed.\n- You can safely refreeze or cook food from the freezer if the food still contains ice crystals and feels as cold as if refrigerated."
+    },
+    {
+     "heading": "Learn more",
+     "body": "Keep Your Food Safe During Emergencies: Power Outages, Floods & Fires.\n\n Sources and Page Info Print Share\n\n About This Page\n\n Published: May 15, 2024\n\n Updated: August 12, 2026\n\nThis page was last updated on this date. Updates may include minor edits, image changes, or other modifications to page content.\n\n Reviewed: August 12, 2026\n\nThe information on this page was last reviewed by subject matter experts to ensure accuracy."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/special-considerations.html",
+   "aliases": "no safe water for formula what to do, baby with special formula needs disaster, relactation after stopping breastfeeding, feeding premature baby in emergency, tube fed child power outage, formula for allergies in shelter, baby refusing to feed after disaster, infant diarrhea emergency feeding, toddler milk in emergency, cow milk for baby when formula runs out"
+  },
+  {
+   "title": "How to Clean Infant Feeding Items During Emergencies (CDC)",
+   "sections": [
+    {
+     "heading": "At a glance",
+     "body": "Germs can grow in and on baby bottles, sippy or trainer cups, and other food containers. It can be hard to clean these items if you do not have access to clean, safe water. Follow these steps to clean infant and toddler feeding items in emergencies."
+    },
+    {
+     "heading": "Clean all items after every use",
+     "body": "Items to clean include:\n\n- Baby bottles, nipples, sippy cups, and all parts.\n\n- Cups, bowls, spoons, and forks.\n\n- Tools and containers for preparing and storing baby food, infant formula, and breast milk."
+    },
+    {
+     "heading": "Always clean with safe water",
+     "body": "- Use water that has not been used for anything else.\n\n- In most emergencies, bottled water is safest for cleaning.\n\n- If bottled water is not available, water contaminated with germs can be made safe by boiling, adding bleach, or filtering.\n\n- Do not use water contaminated with harmful chemicals, toxins, or radioactive material. It cannot be made safe by boiling or adding bleach.\n\n- Always follow instructions from local public health officials for specific advice about water safety.\n\n- When safe water and soap are not available for cleaning feeding items, use disposable supplies for feeding your infant."
+    },
+    {
+     "heading": "Always clean with safe water: Important",
+     "body": "Throw away bottle nipples, pacifiers, and other items that are hard to clean if they have been touched by floodwater. Tiny cuts or breaks in these items can let in germs that can't be removed by cleaning."
+    },
+    {
+     "heading": "Make a cleaning kit",
+     "body": "To safely clean and store everything you need to feed your baby, make a kit with:\n\n- Wash basin* or storage bin with lid.\n\n- Scrub brush.*\n\n- Dish soap.\n\n- Paper towels.\n\n- Mesh bag for drying items.\n\n*Don't use the wash basin or scrub brush to clean anything else. Use them only for your feeding items."
+    },
+    {
+     "heading": "Follow these steps to protect your baby",
+     "body": "1. Wash your hands with soap and water or use hand sanitizer with at least 60% alcohol.\n\n2. Discard leftover liquids or foods from bottles, cups, and containers.\n\n3a. Scrub and wash items. Take apart all items and put them into your wash basin. NEVER put items directly in a sink. Germs in the sink can make your baby sick.\n\n3b. Fill wash basin with safe water and add dish soap. Use a scrub brush to clean all surfaces.\n\n3c. Pour or squeeze soapy water through bottle nipples, straws, valves, and sippy cup spouts.\n\n4. Rinse with safe water.\n\n5a. Air dry on an unused paper towel or clean drying rack, or hang to dry in a clean mesh bag. If air drying is not an option, dry with a clean paper towel. Do NOT dry with a dish towel. Germs on dish towels can make your baby sick.\n\n5b. If you use a drying rack, put all items upside down to drain out the water.\n\n6. Clean the wash basin, scrub brush, and drying rack with soap and safe water. Rinse and air dry.\n\n7. Store completely dry items in a clean place, such as inside your wash basin or storage bin.\n\n**Do not clean infant feeding items near diapering areas!**"
+    },
+    {
+     "heading": "Sanitize items as needed",
+     "body": "If your baby is younger than 2 months or if your baby is sick, you will need to do one more step after washing and rinsing your feeding items. Sanitize all items at least once every day for extra protection.\n\n**Sanitize items as needed: Method 1**\n\n1. Put items in a pot and fill with safe water.\n\n1. Boil for 5 minutes.\n\n1. Remove items carefully.\n\n1. Air dry sanitized items.\n\n1. Do NOT rinse sanitized items."
+    },
+    {
+     "heading": "Sanitize items as needed: Method 2",
+     "body": "1. Put items in a wash basin and fill with safe water.\n\n1. Add 1 teaspoon of bleach per 1/2 gallon or 8 cups of water.\n\n1. Soak for 2 minutes.\n\n1. Remove items carefully.\n\n1. Air dry sanitized items.\n\n1. Do NOT rinse sanitized items.\n\n**Note:** Any bleach that remains on feeding items after sanitizing will break down quickly as it dries and will not hurt your baby."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/how-to-clean-infant-feeding-items-during-emergencies.html",
+   "aliases": "wash baby bottles without clean water, sanitize bottles with bleach, clean sippy cups no running water, boil bottle nipples how long, bottle cleaning kit emergency, bleach amount for sanitizing baby items, dry baby bottles safely, bottles touched by floodwater, disposable feeding supplies baby"
+  },
+  {
+   "title": "How to Clean, Sanitize, and Store Infant Feeding Items (CDC)",
+   "sections": [
+    {
+     "heading": "Key points",
+     "body": "- Clean, sanitize, and properly store infant feeding items to prevent germs from contaminating your baby's milk.\n- Infant feeding items include bottles and all their parts, syringes, medicine cups, spools, and supplemental nursing systems.\n- Clean items daily.\n- Sanitize items for extra germ removal or daily if your baby is under 2 months old, was born premature, or has a weakened immune system."
+    },
+    {
+     "heading": "Overview",
+     "body": "Cleaning, sanitizing, and properly storing infant feeding items helps to prevent germs from contaminating the milk you feed your baby.\n\nInfant feeding items include **bottles **and the **nipples**, **rings**, and **caps **that go with them. Certain bottles also may include valves or membranes.\n\nSome infants may be fed with a syringe, medicine cup, spoon, or supplemental nursing system."
+    },
+    {
+     "heading": "Overview: Mixing formula",
+     "body": "The safest method of mixing formula is by shaking or swirling the formula and water inside the feeding bottle. Blenders can be difficult to clean, and blenders used to prepare infant formula have been linked to illnesses among babies. Whisks and spoons are easier to clean, but they still may increase the risk of getting germs into your baby's milk."
+    },
+    {
+     "heading": "How to clean: Baby bottles",
+     "body": "**Clean baby bottles after every feeding.** If your baby does not finish drinking a bottle within 2 hours, throw away the unfinished formula. Germs can grow quickly if breast milk or formula is added to a partially used bottle, or if a used bottle is only rinsed, rather than cleaned."
+    },
+    {
+     "heading": "How to clean: Infant formula containers",
+     "body": "No studies have shown that babies have become sick from contamination on the outside of an infant formula container. Also, powdered infant formula is less likely to become contaminated if it stays dry. Avoid using liquid cleaners on infant formula containers to help prevent contaminating powdered formula inside the container.\n\nIf you want to clean the formula container, use a disinfectant wipe or paper towel sprayed with disinfectant to clean the outside of the container and lid before it is opened for the first time. Do not submerge the container or place it under running water. Wait until the surfaces are completely dry before opening the container. Do not clean the inside of the infant formula container."
+    },
+    {
+     "heading": "How to clean: Formula scoops",
+     "body": "When powdered formula stays dry, it's less likely to get contaminated. To keep liquids away from the powdered formula, don't clean the formula scoop unless it gets dirty. If the scoop was dropped on the floor or otherwise soiled, clean it as carefully as you would your baby's bottles and allow it to air-dry completely before placing it in the formula container."
+    },
+    {
+     "heading": "How to clean: Using a dishwasher",
+     "body": "If the item is dishwasher-safe, follow the steps below to clean feeding items using the dishwasher.\n\n 1. Take apart\n\n Separate all bottle parts (for example, bottles, nipples, caps, rings, valves).\n\n 2. Rinse with warm or cold water\n\n Rinse bottle parts and any other feeding items by holding them under running water.\n\n 3. Wash\n\n Place bottle parts and other feeding items in the dishwasher. Place small items inside a closed-top basket or mesh laundry bag so they don't end up in the dishwasher filter.\n\n**\n**\n\n**If possible, run the dishwasher using hot water and a heated drying cycle (or sanitizing setting); this can help kill more germs.**\n\n 4. Remove from dishwasher\n\n Wash your hands with soap and water before removing and storing cleaned items.\n\nIf items are not completely dry, place them on a clean, unused dish towel or paper towel to air-dry thoroughly before storing in an area free of dust or dirt. Do not use a dish towel to rub or pat items dry because doing so may transfer germs to the items."
+    },
+    {
+     "heading": "How to clean: Cleaning by hand",
+     "body": "Follow the steps below to clean infant feeding items by hand.\n\n 1. Wash hands\n\n Wash your hands well with soap and water for 20 seconds.\n\n 2. Take apart\n\nSeparate all bottle parts (for example, bottles, nipples, caps, rings, valves).\n\n 3. Rinse with warm or cold water\n\n Rinse bottle parts and any other feeding items by holding them under running water. Do not set them in the sink.\n\n 4. Wash feeding items\n\n Place all items in a clean basin or container used only to clean infant feeding items. Do not wash directly in the sink because it may contain germs that could contaminate these items.\n\n Fill wash basin with hot water and add soap.\n Scrub items using a clean brush that is used only to clean infant feeding items.\n Squeeze water through nipple holes to be sure they get clean.\n\n 5. Rinse again\n\n Rinse by holding items under running water, or by holding completely under fresh water in a separate basin that is used only for cleaning infant feeding items.\n\n 6. Allow to air-dry\n\n Place bottle parts, wash basin, and bottle brush on a clean, unused dish towel or paper towel in an area protected from dirt and dust. Allow to air dry thoroughly.\n\n Do not use a dish towel to rub or pat items dry because doing so may transfer germs to the items.\n\n 7. Clean wash basin and bottle brush\n\n Rinse the wash basin and brush well and allow them to air dry after each use. Wash them every few days, either in a dishwasher with hot water and a heated drying cycle (if they are dishwasher-safe) or by hand with soap and warm water.\n\nIf your baby is less than 2 months old, was born prematurely, or has a weakened immune system due to illness (such as HIV) or medical treatment (such as chemotherapy for cancer), wash basin and bottle brush after every use."
+    },
+    {
+     "heading": "How to sanitize: Keep in mind",
+     "body": "If you use a dishwasher with hot water and a heated drying cycle (or sanitizing setting) to clean infant feeding items, a separate sanitizing step is not necessary.\n\n**Sanitize ****bottles daily** (or more often) for extra germ removal or if your baby:\n\n- Is less than 2 months old,\n- Was born prematurely, or\n- Has a weakened immune system due to illness (such as HIV) or medical treatment (such as chemotherapy for cancer).\n\nDaily sanitizing of feeding items may not be necessary for older, healthy babies, if those items are cleaned carefully after each use."
+    },
+    {
+     "heading": "How to sanitize: How to sanitize",
+     "body": "Before sanitizing, make sure you have cleaned feeding items, bottle brushes, and wash basins using one of the methods above.\n\nSanitize all items (even the bottle brush and wash basin) by using one of the following options. Check with the item’s manufacturer about which method to use.\n\n Boil\n\n1. Place disassembled feeding items into a pot and cover with water.\n\n2. Put the pot over heat and bring to a boil.\n\n3. Boil for 5 minutes.\n\n4. Remove items with clean tongs.\n\n Steam\n\n Place disassembled items in microwave or plug-in steam system and follow the manufacturer's instructions for sanitizing, cooling, and drying the items.\n\n Bleach (use this option if you can't boil, steam, or use a dishwasher)\n\n1. Prepare a bleach solution of 2 teaspoons of unscented bleach per gallon (16 cups) of water in a clean wash basin.\n\n2. Put all items completely underwater. Make sure the solution touches all parts and there are no air bubbles in the bottles.\n\n3. Squeeze solution through nipple holes.\n\n4. Soak items in solution for at least 2 minutes.\n\n5. Remove with clean hands or tongs. Do not rinse because germs could get back onto the sanitized items. Any remaining bleach will break down quickly as it dries and will not hurt your baby. This process is similar to what is done to sanitize dishes in restaurants.\n\n6. After sanitizing, place items on a clean, unused dish towel or paper towel in an area protected from dirt and dust. Allow to air-dry thoroughly before storing. Do not use a dish towel to rub or pat items dry because doing so may transfer germs to the items."
+    },
+    {
+     "heading": "Storage: Air dry",
+     "body": "Allow the clean feeding items, bottle brushes, and wash basins to air-dry thoroughly before storing to help prevent germs and mold from growing.\n\nAir-drying infant feeding items on a clean dish towel or paper towel is probably more hygienic than using a drying rack. Drying racks may trap moisture, allow mold and germs to grow, and be difficult to clean.\n\nIf you prefer to use a drying rack, use it to dry only your infant's feeding items. Every few days (or at least daily if your baby is less than 2 months old, was born prematurely, or has a weakened immune system), be sure to wash it, sanitize it, and allow it to dry thoroughly to reduce contamination.\n\n**Storage: Put items back together**\n\nOnce the items are completely dry, wash your hands well with soap and water. Put the clean, dry bottle parts back together.\n\n**Storage: Store safely**\n\nPlace reassembled bottles and other feeding items, wash basin, and dry bottle brush in a clean, protected area such as inside a closed kitchen cabinet that is used only to store clean dishes."
+    },
+    {
+     "heading": "Resources: Breast milk",
+     "body": "**Resources**\n\nPreventing Cronobacter in Infants\n\nCronobacter infections can be serious for infants\n\nBreast Milk Storage and Preparation\n\nHow to properly prepare and store expressed breast milk to maintain its safety and quality.\n\nHow to Clean and Sanitize Breast Pumps\n\nLearn how to clean your breast pump properly."
+    },
+    {
+     "heading": "Resources: Preparation and storage",
+     "body": "Infant Formula Preparation and Storage\n\nCarefully follow formula instructions. Take extra precautions for some infants and in emergencies.\n\nBreast Milk Storage and Preparation\n\nHow to properly prepare and store expressed breast milk to maintain its safety and quality.\n\nGuidelines for safe preparation, storage and handling of powdered infant formula"
+    },
+    {
+     "heading": "Resources: Emergency resources",
+     "body": "Facts About Infant Feeding During Emergencies\n\nCommon concerns related to infant feeding during emergencies.\n\nQuestions About Infant Feeding In Emergencies\n\nAnswers to common questions about feeding your child during an emergency. Available in Spanish.\n\nHow to Clean Infant Feeding Items During Emergencies\n\nInstructions for cleaning infant and child feeding items during emergencies.\n\nPrepare and Store Powdered Infant Formula in an Emergency\n\nLearn more about how to prepare and store powdered infant formula during an emergency."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/hygiene/about/clean-sanitize-store-infant-feeding-items.html",
+   "aliases": "how to clean baby bottles, sanitize bottles dishwasher or boiling, how often sanitize bottles, clean breast pump parts, store clean bottles, wash basin for bottles, scrub brush baby bottles, bottle nipple cleaning, sanitizing baby items steam or bleach"
+  },
+  {
+   "title": "Hand Expression of Breast Milk (CDC)",
+   "sections": [
+    {
+     "heading": "At a glance",
+     "body": "Expressing breast milk by hand is an important skill for lactating women to learn, especially in case of an emergency. Hand expression can be helpful in situations when you may not have access to a breast pump or electricity for a breast pump or if you are separated from your baby unexpectedly. Learn more about expressing milk by hand."
+    },
+    {
+     "heading": "Expressing milk by hand",
+     "body": "- May be more comfortable for some parents who experience pain when using a breast pump.\n- Does not require equipment, water, or electricity.\n- Can relieve engorgement (by releasing some milk to soften your breasts). This can help your baby latch on more easily.\n- Encourages milk production early in lactation.\n- Is a safe and effective way to express milk during emergency or natural disaster situations.\n\nA lactation support provider can help you to learn how to hand express. Hand expression gets easier with practice, and you can experiment to find what works best for you. Practicing in the shower or other private space can be a good way to learn."
+    },
+    {
+     "heading": "Before you get started",
+     "body": "- Wash your hands well with soap and warm water. If you do not have access to safe water, use hand sanitizer containing at least 60% alcohol.\n- Use a clean, disposable container with a wide mouth to collect the milk.\n- Find a comfortable position and lean forward slightly to let gravity help.\n- Massage your breast to help stimulate the milk to release."
+    },
+    {
+     "heading": "Steps for expressing milk by hand",
+     "body": "|\n1. Position your thumb above the nipple and your fingers below the nipple about 1 to 2 inches behind your nipple. Your thumb and fingers will make the letter “C” shape. |\n |\n2. Press your fingers and thumb back toward your chest. |\n |\n3. Gently compress your fingers and thumb together. |\n |\n4. Release and then repeat in a rhythmic pattern: Press, Compress, Release. Continue until the milk stops and then switch to the other breast. |"
+    },
+    {
+     "heading": "Tips to help your milk flow",
+     "body": "- Use a warm compress or heat on your breast before expressing.\n- Change position of the fingers around the nipple to express milk from different ducts.\n- Think about your baby or smell a piece of your baby's clothing to help the milk to flow.\n- Tension or anxiety can prevent your milk from flowing well. Practice relaxation techniques by taking deep breaths, stretching, or asking a family member or partner for a gentle shoulder or back massage.\n- Do not squeeze hard or pull on the nipple. Hand expression should not hurt.\n\nDo not squeeze or pull on your nipple."
+    },
+    {
+     "heading": "Tips to help your milk flow: Ask for help",
+     "body": "If you are in an emergency and need help expressing your milk, ask a relief worker to connect you with a lactation support provider. You can also call a lactation support hotline, such as the National Women's Health and Breastfeeding Helpline (**1-800-994-9662**, 9 a.m. to 6 p.m. ET, Monday through Friday)."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/hand-expression.html",
+   "aliases": "hand express breast milk, express milk without a pump, breast pump no electricity, relieve engorgement by hand, how to hand express steps, milk not flowing tips, expressing milk in an emergency, separated from baby express milk, hand expression hurts"
+  },
+  {
+   "title": "Infant Feeding in a Radiation Emergency (CDC)",
+   "sections": [
+    {
+     "heading": "What to know",
+     "body": "If you were outside during a radiation emergency, consider different ways to feed your baby other than breastfeeding. You could have internal contamination, which you can pass to your child through breastmilk. You can also spread radiation from your skin and clothes."
+    },
+    {
+     "heading": "How to feed your baby during a radiation emergency: Follow instructions from local officials.",
+     "body": "The following information is general guidance for feeding babies in a radiation emergency. Different radiation emergencies have different guidance. Please follow instructions from local officials and stay tuned for updates.\n\nMothers who are in the affected area might be exposed to radiation and may also be internally contaminated. This is possible if they eat, drink, or breathe in radioactive material.\n\nRadioactive material can be passed to babies:\n\n- Through breast milk of mothers with internal contamination\n\n- Through contaminated water mixed with infant formula\n\n- While being held and fed if their caregiver has radioactive material on their skin or clothing (external contamination)"
+    },
+    {
+     "heading": "Immediate steps to take",
+     "body": "Listen to local officials for the most up-to-date information about staying safe after a radiation emergency. Local officials will define and provide updates on\n\n- The location of the affected area\n\n- The safety of the water for drinking and other uses\n\n- Evacuation instructions\n\nIf you are outside in the affected area, take the following steps to reduce your risk of exposure and internal contamination:\n\n- Get inside, stay inside, stay tuned.\n\n- Wash yourself off (self-decontaminate). Gently use soap and warm water to remove radioactive material from your body as soon as possible and lower your risk of harm. Put on clean clothes.\n\n- Then, decontaminate your baby or child. Make sure to gently wash your child's hands and face (especially around eyes, nose, and mouth) with soap and water or with a clean wet cloth or paper towel.\n\n- Put clothes and towels in a plastic bag or other sealable container. Store the bag as far away from other people and pets as possible (e.g. closet, attic, basement), to prevent exposure to radiation until local health officials tell you how to dispose of it safely.\n\n**Breastfeeding: If you were inside**\n\nIf you are in the affected area and were indoors with the doors and windows closed, it is safe to continue breastfeeding."
+    },
+    {
+     "heading": "Breastfeeding: If you were outside",
+     "body": "If you were outside in the affected area during the incident, you may be internally contaminated.\n\nConsider temporarily stopping breastfeeding and feed your baby with breast milk that was pumped and stored before the emergency or with infant formula. These options will reduce the risk of transmitting radioactive material to your baby through breast milk.\n\nIf you do NOT have previously expressed breast milk or infant formula, continue breastfeeding.\n\nView LargerDownload\n\nActions to consider if you temporarily stop breastfeeding.\n\n**Actions to consider if you temporarily stop breastfeeding.**\n\n- Hand express or pump your breast milk regularly and discard it to maintain your milk supply and prevent a breast infection.\n- Clean your pump kit parts after each use and dry with a clean cloth or paper towel.\n- If needed, connect with a lactation support provider via phone or telehealth appointment to help you manage your milk supply and create a temporary feeding plan for your baby.\n- Breastfeeding can resume when advised by local health officials or after evacuation and self-decontamination. For additional questions or concerns, contact your baby's doctor."
+    },
+    {
+     "heading": "Breastfeeding: Pumped and stored breast milk",
+     "body": "Feeding your baby breast milk that was pumped and stored before the emergency:\n\n- Use previously expressed breast milk to feed your child because it will not be contaminated. Closed containers of milk that were stored inside the refrigerator or freezer are safe to use.\n\n- Wash your hands with soap and water before feeding.\n\n- After each use, carefully clean all infant feeding supplies such as bottles and nipples with soap and water and dry with a clean cloth or paper towel."
+    },
+    {
+     "heading": "Formula feeding",
+     "body": "Use ready-to-feed infant formula, if available at your current location.\n\nReady-to-feed formula is considered the following:\n\n- A sterile liquid formula that does not need to be mixed with water\n\n- The safest option for formula-fed infants during an emergency\n\nIf you do not have ready-to-feed infant formula, use powdered infant formula. **Do NOT** leave your house or other indoor sheltering location to go get infant formula. ****It is safer to stay inside and continue breastfeeding.\n\n- Prepare powdered infant formula with bottled water if possible.\n\n- Tap water may be used if local officials say it is safe. You cannot boil or disinfect the radiation out of water.\n\n- If your baby is younger than 2 months old, was born prematurely, or has a weakened immune system, you may want to take extra precautions to protect against Cronobacter.\n\n- Wash your hands with soap and water before feeding.\n\n- After each use, carefully clean all infant feeding supplies, such as bottles and nipples, with soap and water and dry with a clean cloth or paper towel."
+    },
+    {
+     "heading": "If you do not have breast milk or formula milk",
+     "body": "Continue breastfeeding. It is important to stay inside and make sure your baby is hydrated and fed. Wash your hands, nipples, and breasts thoroughly with soap and warm water before breastfeeding or expressing milk.\n\nIf you are advised to visit a Community Reception Center (CRC) when evacuating, tell CRC staff how you are feeding your baby so that they can help you or advise you on how to feed your baby safely.\n\nBreastfeeding can resume when advised by local health officials or after evacuation and self-decontamination. For additional questions or concerns, contact your baby's doctor.\n\n**Visual flowchart for breastfeeding families**\n\nView LargerDownload\n\nUse this flowchart to know how to safely breastfeed your baby in a radiation emergency.\n\n**More information**\n\nFrequently Asked Questions about Radiation Emergencies\n\nInfographic: Radiation Contamination Versus Exposure\n\nRadiation Emergencies and Children\n\nPrepare Your Health\n\n**Resources for professionals**\n\nClinical Considerations for Women Who Are Pregnant or Breastfeeding"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/caring/infant-feeding.html",
+   "aliases": "breastfeed after nuclear fallout, is breast milk safe radiation, formula in a radiation emergency, water for formula after nuclear accident, stop breastfeeding radiation exposure, potassium iodide breastfeeding baby, feeding baby in fallout shelter, radiation contaminated milk"
+  },
+  {
+   "title": "Supporting Young Child Feeding in Emergency Shelters (CDC)",
+   "sections": [
+    {
+     "heading": "At a glance",
+     "body": "This document provides information for emergency shelter personnel on supporting infant and young child feeding (IYCF) in the preparation and response phases that are specific to emergency shelter settings. Personnel can take steps before a natural disaster emergency to prepare and follow the guidance below during an emergency."
+    },
+    {
+     "heading": "Preparing for a natural disaster emergency: Learn about",
+     "body": "- Health for all, to ensure it is included in efforts to keep families safe and well-fed in the shelter.\n\n- Community lactation support resources, such as La Leche League, WIC, Lactation Consultants, breastfeeding counselors, breastfeeding peer counselors, and support hotlines. WIC is the Special Supplemental Nutrition Program for Women, Infants, and Children.\n\n- Maintain up-to-date community contact and resource lists so breastfeeding support can be accessed easily and quickly from the shelter.\n\n- Differences between cultures for the people you serve. Cultural practices may influence daily routines in the shelter such as preparing foods, eating, and sleeping."
+    },
+    {
+     "heading": "Preparing for a natural disaster emergency: Be ready to provide",
+     "body": "- A safe, clean, and private space for mothers to breastfeed or express milk. See Creating Safe Family-Friendly Spaces in Emergency Shelters.\n\n- Essential infant and toddler supplies.\n\n- A space to store ready-to-feed (RTF) infant formula and powdered infant formula. This space will be temperature-controlled, if possible.\n\n- A space to prepare powdered infant formula safely, if needed.\n\n- Safe and clean diapering stations using CDC's planning checklist for diapering stations in shelters. (Also available in Spanish).\n\n- Accommodations for children with special health care needs who require electricity for their feeds.\n\n- Breast milk storage guidelines for families who arrive with expressed breast milk in a packed cooler. Transfer the stored and labeled breast milk from the cooler to a refrigerator immediately upon arrival.\n\n- Signage to direct families to areas to safely feed their children, clean infant feeding supplies, wash their hands, and change diapers."
+    },
+    {
+     "heading": "During a natural disaster emergency: Address the needs of families",
+     "body": "- Make pregnant and breastfeeding women a priority group for access to food and water, safe shelter, healthcare, breastfeeding support, and psychosocial support.\n\n- Keep families together and in an area where they feel safe.\n\n- Conduct a rapid needs assessment with all families with infants and children. Include information about how they are feeding their children and what feeding support or feeding-related items they need.\n\n- Shelters that cannot provide ready-to-feed (RTF) infant formula, a safe water source, or the capacity to boil water to prepare powdered infant formula, should not house families who are feeding their infants with infant formula."
+    },
+    {
+     "heading": "During a natural disaster emergency: Encourage and support breastfeeding",
+     "body": "- Encourage and support lactating women to continue to breastfeed throughout the emergency or displacement.\n\n- Remind families that breastfeeding is the safest method of feeding and will help protect their baby from illness and infection. Breastfeeding can also provide parents and babies comfort and reduce stress.\n\n- Explain that breastfeeding doesn't require electricity or water, which may be lacking or unsafe during the emergency.\n\n- Encourage families to breastfeed whenever and wherever they want to in the shelter, other than a bathroom. If others in the shelter are not comfortable with breastfeeding in public spaces, relocate the uncomfortable people to another part of the shelter, away from families.\n\n- Identify other breastfeeding families within the shelter that may be willing to serve as peer-support to a family in need (if lactation support is not readily available)."
+    },
+    {
+     "heading": "During a natural disaster emergency: Ensure safe feeding, hygiene, and sanitation",
+     "body": "- Provide education to families about infant formula feeding, infant formula preparation (if RTF infant formula is not available), and proper cleaning of infant feeding items.\n\n- Show families areas of the shelter where they can:\n\n- Breastfeed or express milk in private if desired, but not in the bathroom.\n\n- Wash their hands, prepare foods, and clean infant feeding items separate from a bathroom.\n\n- Safely change and dispose of infant diapers separate from the infant feeding area.\n\n- Access safe drinking water.\n\n- Provide disposable cups for families to use with their infants and children, as well as cup feeding instructions. Bottles, nipples, and sippy cups are difficult to keep clean when safe water is limited or unavailable.\n\n- Follow all state and local guidelines for safety in a public disaster shelter setting.\n\n- Always follow shelter protocols when an individual has symptoms of illness."
+    },
+    {
+     "heading": "During a natural disaster emergency: Handling infant formula",
+     "body": "Do not distribute infant formula to all families with infants. Distributing infant formula to all breastfeeding mothers can send an incorrect message to mothers that their breast milk is not enough or not safe during an emergency.\n\n- Conduct a rapid needs assessment to help identify which families need infant formula.\n\n- Families needing infant formula should use ready-to-feed (RTF) infant formula when possible.\n\n- Keep infant formula and related supplies out of view to avoid promoting these products to families who could be breastfeeding."
+    },
+    {
+     "heading": "During a natural disaster emergency: Managing supplies",
+     "body": "- Families feeding infant formula should receive support for as long as needed. Support includes infant formula and the supplies to safely prepare it and clean infant feeding items.\n\n- Do not call for, accept, or distribute donations of powdered infant formula or toddler milks. Emergency supplies of infant formula should only be acquired by official relief organizations.\n\n- If local- and state-provided infant feeding supplies become depleted, the state can submit a Resource Request Form to request infant and toddler kits. The form is from the Federal Emergency Management Agency (FEMA)."
+    },
+    {
+     "heading": "During a natural disaster emergency: Providing continued support",
+     "body": "- Conduct additional feeding assessments as needed. Remind families that they can ask staff for supplies, information, and support.\n\n- Encourage and help eligible families enroll in a long-term program such as WIC.\n\n- Monitor for mental health concerns among families seeking shelter. Emergencies can cause significant stress on families and may impact the caregiver-infant feeding relationship.\n\n- Provide on-site services if possible or connect the family to follow-up care through referrals. Provide information about caring for children in disasters."
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/shelter-support.html",
+   "aliases": "running a shelter with babies, shelter supplies for infants, formula distribution in shelters, breastfeeding space in shelter, diapering station shelter, families with infants shelter planning, donated formula shelter policy, feeding babies at an evacuation center, rapid needs assessment infant feeding"
+  },
+  {
+   "title": "Infant Formula Preparation and Storage (CDC)",
+   "sections": [
+    {
+     "heading": "Preparation",
+     "body": "**At a glance**\n\n**Overview**\n\nFor Everyone\n\nCarefully read and follow the instructions when preparing powdered infant formula. Extra precautions are needed for some infants and during emergencies.\n\nEnsuring cleanliness and preparing your infant's powdered formula according to the instructions are important. Follow these steps.\n\nWash your hands well before preparing bottles or feeding your baby. Clean and sanitize the workspace where you will prepare the infant formula.\n\nBottles need to be clean and sanitized.\n\nInfant formula does not need to be warmed before feeding.\n\n- If you prefer to warm your baby's bottle, **never use a microwave**. Microwaves heat milk and food unevenly, resulting in hot spots that can burn your baby's mouth and throat.\n\n- If you choose to warm your baby's bottle, **place the bottle under running warm water**. Keep water from getting into the bottle or on the nipple. Before feeding, put a couple drops of infant formula on your wrist to see if it is too hot.\n\nIf you use **powdered infant formula, **use water from a safe source to mix your infant formula. If you are not sure if your tap water is safe, contact your local health department.\n\nUse the amount of water listed on the instructions of the infant formula container. Always measure the water first and then add the powder.\n\n- **Too much water** may mean the formula would not meet the nutritional needs of your baby.\n- **Too little water** may cause your baby's kidneys and digestive system to work too hard. This can make your baby dehydrated.\n\nHandout on how to prepare and store powdered infant formula.\n\nDownload and print a handout on how to prepare and store powdered infant formula in English and Spanish."
+    },
+    {
+     "heading": "Use quickly or store safely",
+     "body": "Prepared infant formula can spoil if it is left out at room temperature. To prevent spoiling, use prepared infant formula within 2 hours of preparation and within one hour from when feeding begins. If you do not start to use the prepared infant formula within 2 hours, immediately store the bottle in the fridge and use it within 24 hours.\n\nThrow out any infant formula that is left in the bottle after feeding your baby. The combination of infant formula and your baby's saliva can cause bacteria to grow. Be sure to clean and sanitize the bottle before its next use.\n\nStore unopened infant formula containers in a cool, dry, indoor place—not in vehicles, garages, or outdoors.\n\nOnce a container of powdered infant formula is opened, store in a cool, dry place with the lid tightly closed. Do not store it in the refrigerator.\n\nMost infant formulas need to be used within 1 month of opening the container. Confirm this by checking the label. When you open a new container, write the date on the lid to help you remember.\n\nNever use formula after the \"Use By\" date on the container."
+    },
+    {
+     "heading": "Different recommendations for preparing powdered formula",
+     "body": "When preparing powdered infant formula, it is important to know that recommendations can differ based on several factors including your baby’s age and the safety of the water. This information can help you choose the safest option.\n\nMost of the time, it's safe to prepare powdered infant formula by mixing it with tap water and following the manufacturer's instructions on the container. The water can be filtered or unfiltered. See how to prepare and store powdered infant formula."
+    },
+    {
+     "heading": "Different recommendations for preparing powdered formula: Extra precautions for some infants",
+     "body": "**Take extra steps** when preparing infant formula for babies who:\n\n- Are younger than 2 months old.\n- Were born prematurely, meaning before 37 weeks of pregnancy.\n- Have a weakened immune system.\n\nThese babies could get very sick if they drink formula contaminated with bacteria, such as Cronobacter. These bacteria can live in the environment or in dry foods such as powdered infant formula. Cronobacter infections are rare but serious in infants.\n\nTo kill germs like Cronobacter in powdered infant formula, the formula must be mixed with very hot water. Boil the water and then **wait about five minutes** before mixing with powdered infant formula. After mixing, the formula will still be too hot to feed your baby, so it's important to **wait for the formula to cool** first so you don't burn your baby's mouth. You can test the temperature with a few drops on your wrist. It should feel warm, not hot.\n\n**Different recommendations for preparing powdered formula: Learn more about how to prepare powdered infant formula to prevent Cronobacter infection**\n\n- Fact Sheet: Protect Your Baby from Cronobacter Infographic\n- Videos: How to Prevent Cronobacter in Infants (Available in English and Spanish)"
+    },
+    {
+     "heading": "Different recommendations for preparing powdered formula: Extra steps in an emergency",
+     "body": "When there is an emergency such as a water main break, hurricane, or flood, tap water may not be available or safe to mix with powdered infant formula.\n\nIf you believe the tap water is unsafe, use bottled water to prepare formula until local authorities say the tap water is safe to drink. If tap water is your only option, make it safe by boiling or disinfecting it. If you choose to boil your water, let the water cool to room temperature before mixing it with powdered infant formula. **Always test the temperature** before feeding your baby by putting a few drops of formula on your wrist so you do not burn your baby's mouth. It should feel warm, not hot."
+    },
+    {
+     "heading": "Different recommendations for preparing powdered formula: See step-by-step instructions on",
+     "body": "- How to Prepare and Store Powdered Infant Formula During Emergencies.\n-  How to Clean Infant Feeding Items During emergencies.\n\nIf there is an emergency AND your baby is younger than 2 months old, born prematurely, or has a weakened immune system, follow the extra precautions above for preventing Cronobacter."
+    },
+    {
+     "heading": "Different recommendations for preparing powdered formula: Chemicals in water",
+     "body": "Water contaminated with harmful chemicals or toxins cannot be made safe by boiling, disinfecting, or filtering. In these situations, mix formula with bottled water or use ready-to-feed (RTF) infant formula and follow local public health advice.\n\nRecommendations for Preparing Powdered Infant Formula\nFeeding Context | Recommended Preparation Method | Why? | Step-by-Step Instructions\nMost babies, most of the time | Follow the manufacturer's instructions. | When tap water is safe to use, it can be mixed with powdered infant formula. | Download\nBabies who are younger than 2 months old, born prematurely, or have a weakened immune system | Boil the water and then wait about 5 minutes before mixing with powdered infant formula. After mixing, the formula will be too hot to feed your baby, so it's important to wait for the formula to cool first so you don't burn your baby's mouth. | Powdered infant formula is not sterile and can sometimes have germs (such as Cronobacter). Very hot water (around 158°F/70°C) is needed to kill these germs. | Download Videos in English and Spanish.\nDuring or after an emergency when the water is not safe to use* *If there is an emergency AND your baby is younger than 2 months old, born prematurely, or has a weakened immune system, follow the instructions above for preventing Cronobacter. | If you don't have bottled water, you can boil or disinfect tap water to make it safe to mix with powdered infant formula. Let the water cool to room temperature before mixing it with powdered infant formula. Always test the temperature before feeding your baby so you do not burn your baby's mouth. | During emergencies, tap water might not be safe for drinking. Bottled water is safe to use to mix powdered infant formula. When bottled water is not available, you can make tap water safe by boiling or disinfecting it to kill bacteria, viruses, and parasites in the water. | Download Download Download"
+    }
+   ],
+   "sourceUrl": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+   "aliases": "how to prepare infant formula, how long can formula sit out, store prepared formula in fridge how long, warm a bottle safely, use formula within how many hours, throw out leftover formula, formula water temperature, concentrated formula mixing, formula expiration"
+  }
+ ]
+}

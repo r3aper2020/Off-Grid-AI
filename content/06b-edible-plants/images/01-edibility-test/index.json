@@ -1,0 +1,62 @@
+[
+ {
+  "file": "fig-9-1.webp",
+  "caption": "Figure 9-1. Leaf margins",
+  "kind": "figure",
+  "page": 128,
+  "bbox": [
+   183.8,
+   444.0,
+   429.0,
+   599.2
+  ]
+ },
+ {
+  "file": "fig-9-2.webp",
+  "caption": "Figure 9-2. Leaf shapes",
+  "kind": "figure",
+  "page": 129,
+  "bbox": [
+   183.8,
+   486.0,
+   429.0,
+   743.2
+  ]
+ },
+ {
+  "file": "fig-9-3.webp",
+  "caption": "Figure 9-3. Leaf arrangements",
+  "kind": "figure",
+  "page": 129,
+  "bbox": [
+   183.8,
+   282.8,
+   429.0,
+   453.0
+  ]
+ },
+ {
+  "file": "fig-9-4.webp",
+  "caption": "Figure 9-4. Root structures",
+  "kind": "figure",
+  "page": 130,
+  "bbox": [
+   183.8,
+   441.0,
+   429.0,
+   626.2
+  ]
+ },
+ {
+  "file": "fig-9-5.webp",
+  "caption": "Figure 9-5. Universal Edibility Test",
+  "kind": "figure",
+  "page": 131,
+  "bbox": [
+   183.8,
+   385.5,
+   429.0,
+   743.2
+  ]
+ }
+]

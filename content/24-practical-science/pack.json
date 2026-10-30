@@ -1,0 +1,11 @@
+{
+ "id": "practical-science",
+ "title": "Practical Science: Electricity, Heat, Fluids, Simple Machines and Chemistry (OpenStax)",
+ "category": "guide",
+ "version": "2026.10.30.1",
+ "review": "verified",
+ "publisher": "OpenStax, Rice University",
+ "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) — text taken from the 2023 content versions of College Physics 2e (a31df062@ccb5581) and Chemistry 2e (7fccc9cf@b40bd2c) published by OpenStax under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); later OpenStax editions carry a different licence",
+ "attribution": "Access for free at openstax.org. Excerpted from \"College Physics 2e\" (authors Paul Peter Urone and Roger Hinrichs; OpenStax, Rice University, 2022; https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units) and \"Chemistry 2e\" (authors Paul Flowers, Klaus Theopold, Richard Langley and William R. Robinson; OpenStax, Rice University, 2019; https://openstax.org/books/chemistry-2e/pages/1-introduction), licensed under CC BY 4.0. The text has been excerpted and re-sectioned: selected sections only, equations rendered as plain text, figures, exercises, interactive links and footnotes omitted. OpenStax and Rice University names and logos are trademarks and are not covered by the licence. Use does not imply endorsement by OpenStax or Rice University.",
+ "description": "How things work when you have to do it yourself: temperature and heat, insulation and heat loss, water pressure, pumps and flow, Ohm's law, electrical power and shock hazards, batteries and circuits, levers and pulleys, mixing percent solutions, pH, combustion and rust, gas pressure."
+}

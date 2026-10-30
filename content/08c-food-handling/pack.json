@@ -1,0 +1,11 @@
+{
+ "id": "food-handling",
+ "title": "Drying, Smoking, Freezing and Food Storage (USDA Food Safety)",
+ "category": "guide",
+ "version": "2026.10.30.1",
+ "review": "verified",
+ "publisher": "U.S. Department of Agriculture, Food Safety and Inspection Service",
+ "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
+ "attribution": "Text from USDA Food Safety and Inspection Service (FSIS) consumer fact sheets at fsis.usda.gov, retrieved October 2026; reformatted into sections without changing substance; tables rendered one line per row; images, in-page links and regulatory/agency sections not included. Use does not imply endorsement by USDA, FSIS, or the U.S. Government.",
+ "description": "USDA food-safety fact sheets: safe cooking temperatures, the Danger Zone and leftovers, cleaning and sanitizing, washing food, freezing and thawing, making jerky, smoking meat, canned and shelf-stable food, moldy food, food on the trail and on the water, keeping food safe in a power outage, flood or fire, and handling eggs and egg products."
+}
