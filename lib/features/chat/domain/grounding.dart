@@ -10,32 +10,30 @@ import 'inference_engine.dart';
 /// what it knows, cites the passages where they back it up, and defers to
 /// them where they disagree.
 abstract final class Grounding {
-  /// Total passage text given to the model (~1,700 tokens). Every prompt
-  /// token must be read on the phone's CPU before the first word appears,
-  /// so this is a balance between a complete answer and a quick one.
-  static const passageBudgetChars = 6500;
+  /// Total passage text given to the model (~1,000 tokens). Every prompt
+  /// token is re-read on the phone's CPU before the first word appears
+  /// (no prompt cache), so this is the main first-word latency knob:
+  /// 6,500 took over two minutes on a Pixel Fold; 4,000 is the ceiling
+  /// until a faster model or prompt caching lands.
+  static const passageBudgetChars = 4000;
 
-  /// Passages given to the model at most; beyond this they repeat.
-  static const maxPassages = 8;
+  /// Passages given to the model at most.
+  static const maxPassages = 5;
 
   static const citeInstruction =
       'Reference passages from the user\'s offline library are attached to '
       'their message, numbered [1], [2] and so on. They are your evidence: '
-      'where a passage backs up a sentence, put its number in brackets '
-      'after that sentence, like [1]. Take specifics (amounts, times, '
-      'order of steps, warnings) from the passages rather than from '
-      'memory, and if a passage contradicts what you believe, follow the '
-      'passage and say so. Ignore any passage that isn\'t about the user\'s '
-      'situation and never mention it. Cover whatever the passages leave '
-      'out from your own knowledge, without numbers in brackets. Medicine '
-      'doses and chemical amounts (bleach, iodine, tablets) must come from '
-      'a passage; if none gives them, say the exact amount isn\'t in their '
-      'library rather than guessing. If you rely on a passage marked '
-      'UNREVIEWED or HISTORICAL, say that part may be outdated. If a '
-      'passage shows a [Table image], don\'t estimate its values: say the '
-      'exact figures are in that table and to tap the source to see it. '
-      'Don\'t say "passage", "excerpt" or "source"; the user sees your '
-      'sources as links under the reply.';
+      'put the number in brackets after each sentence a passage supports, '
+      'take specifics (amounts, times, order of steps, warnings) from them, '
+      'and follow them where they disagree with you. Ignore passages that '
+      'don\'t fit the situation and never mention them. Fill gaps from your '
+      'own knowledge without bracketed numbers, but medicine doses and '
+      'chemical amounts only from a passage; if none gives them, say the '
+      'exact amount isn\'t in their library. Say so if you rely on a passage '
+      'marked UNREVIEWED or HISTORICAL. For a [Table image], don\'t guess '
+      'its values; say the exact figures are in the table and to tap the '
+      'source. Never say "passage", "excerpt" or "source"; the user sees '
+      'your sources as links.';
 
   static const noSourceInstruction =
       'Nothing in the user\'s offline library matched their latest message. '
@@ -48,7 +46,9 @@ abstract final class Grounding {
   /// Asks the model for search queries that would find what the user
   /// needs, in the library's plainer vocabulary and with references to
   /// earlier turns spelled out ("what if I don't have one?" → "improvised
-  /// tourniquet"). A short generation, run before the search.
+  /// tourniquet"). A short generation, run before the search — but only
+  /// when the direct search comes up short (see [rewriteBelowHits]),
+  /// because on a phone every extra prompt pass costs seconds.
   static const rewriteInstruction =
       'You turn a chat message into search queries for an offline library '
       'of survival, first-aid, preparedness and homesteading guides. Write '
@@ -103,6 +103,10 @@ abstract final class Grounding {
   }
 
   static const maxRewrites = 3;
+
+  /// The rewrite runs only when the user's own words find fewer passages
+  /// than this, or the message looks like a follow-up.
+  static const rewriteBelowHits = 3;
 
   static String _normalize(String s) =>
       s.toLowerCase().replaceAll(RegExp(r'[^a-z0-9 ]'), '').trim();

@@ -419,3 +419,17 @@ first); trivial questions still get a numbered list; one citation came
 out as a paragraph number ("[4-31]"); and the per-turn time is ~2.75×
 the old pipeline's on this CPU, which is the price of a real answer and
 must be measured on a phone (roadmap).
+
+## 2026-10-30 — First-word latency on a phone: prompt size is the knob
+On the Pixel Fold the first reply with the 6,500-character passage budget
+and ~2,400-token prompt showed no first word after two minutes. The
+llamadart bridge keeps no prompt cache, so every reply re-reads the whole
+prompt on four CPU cores (~15–25 tokens/s). Changes: passage budget
+4,000 characters / 5 passages, system prompt and citation rules trimmed
+to ~400 tokens together, context back to 4096, earlier replies cut at 600
+characters (prompt now ~1,450 tokens), and the query-rewrite pass runs
+only when the user's own words find fewer than 3 passages or the message
+is a short follow-up, since the aliases and document vectors already
+handle most paraphrases. The eval numbers above were measured with the
+larger budget; re-run `tools/eval` after device testing settles the
+budget. Prompt caching in the bridge (or a 1.7B model) is the real fix.

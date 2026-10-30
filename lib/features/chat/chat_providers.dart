@@ -171,13 +171,14 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
         );
   }
 
-  /// Library passages for [question]. The model first rewrites the
-  /// message into two or three search queries in the library's plainer
-  /// words, with follow-ups resolved against the conversation; the
-  /// user's own words are always searched too. Without a model (or if the
-  /// rewrite fails) the [previous] question stands in for that context. A
-  /// search failure must never stop the assistant from answering, so it
-  /// degrades to "no sources".
+  /// Library passages for [question]. The user's own words are searched
+  /// first (a short follow-up together with the [previous] question). Only
+  /// when that finds fewer than [Grounding.rewriteBelowHits] passages, or
+  /// the message looks like a follow-up, does the model rewrite the
+  /// message into plainer search queries (an extra prompt pass that costs
+  /// seconds on a phone); then the user's words and the rewrites are
+  /// searched together. A search failure must never stop the assistant
+  /// from answering, so it degrades to "no sources".
   Future<List<PassageHit>> _sourcesFor(
     InferenceEngine engine,
     List<ChatTurn> history,
@@ -186,13 +187,19 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
   ) async {
     try {
       final search = ref.read(knowledgeSearchProvider);
+      final direct = await search.forMessage(question, previous: previous);
+      final followUp =
+          previous != null &&
+          KnowledgeSearch.termsOf(question).length <=
+              KnowledgeSearch.followUpMaxTerms;
+      if (direct.length >= Grounding.rewriteBelowHits && !followUp) {
+        return direct;
+      }
       final rewrites = Grounding.parseRewrites(
         await engine.complete(Grounding.rewriteTurns(history)),
         question,
       );
-      if (rewrites.isEmpty) {
-        return await search.forMessage(question, previous: previous);
-      }
+      if (rewrites.isEmpty) return direct;
       return await search.forQueries([question, ...rewrites]);
     } catch (_) {
       return const [];

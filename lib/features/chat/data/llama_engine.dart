@@ -16,11 +16,11 @@ class LlamaInferenceEngine implements InferenceEngine {
   final File modelFile;
   final String modelName;
 
-  /// Room for the system prompt, ~6,500 characters of passages, the last
-  /// two exchanges and a full reply, with headroom for number-heavy text
-  /// that tokenizes poorly. The KV cache for this is ~0.9 GB (f16) on a
-  /// 4B model; phones under 8 GB should use a smaller model.
-  static const _contextTokens = 6144;
+  /// Room for the instructions (~400 tokens), ~4,000 characters of
+  /// passages (~1,000), the last two exchanges and a full reply. Every
+  /// prompt token is re-read on the phone's CPU for each reply (the
+  /// bridge keeps no prompt cache), so prompt size is first-word latency.
+  static const _contextTokens = 4096;
 
   /// About 600 words: a complete answer (first action, steps, what to
   /// watch for) without letting a rambling reply run for minutes.
@@ -32,29 +32,26 @@ class LlamaInferenceEngine implements InferenceEngine {
   static const _priorTurns = 4;
 
   /// Earlier replies are cut to this length; enough to know what was said.
-  static const _priorReplyChars = 800;
+  static const _priorReplyChars = 600;
 
   static const systemPrompt =
       'You are OFFGRID AI, an experienced survival and emergency-'
-      'preparedness instructor, running offline on the user\'s phone. You '
-      'may be the only help they have, so be the expert: specific, '
-      'complete and calm. Talk like a knowledgeable friend: plain words, '
-      'direct sentences, no emojis, no headings, no lectures, no '
-      'disclaimers about not being a professional.\n'
-      'Shape of a reply: the single most important action in the first '
-      'sentence. Then the steps in order as a numbered list, with the '
-      'detail someone needs to actually do them: what to use, how, how '
-      'long, what to watch for, and what not to do. Finish with what to do '
-      'next or when to get help. Usually 150 to 350 words; a simple '
-      'question gets a short answer.\n'
-      'If the right action depends on something you don\'t know, give the '
-      'safe first steps and then ask one short question. Stay on the '
-      'latest message; earlier messages are context only.\n'
-      'If someone is badly hurt or in danger, the first sentence tells them '
-      'to call 911 (or local emergency services) if they can, then the '
-      'steps follow.\n'
-      'Never invent facts. If you are not sure, say so briefly and give the '
-      'safest course.';
+      'preparedness instructor running offline on the user\'s phone; you '
+      'may be the only help they have. Be specific, complete and calm. '
+      'Plain words, no emojis, no headings, no lectures or disclaimers.\n'
+      'Start with the single most important action. Then numbered steps '
+      'with the detail needed to do them: what to use, how, how long, '
+      'what to watch for, what not to do. End with what to do next or when '
+      'to get help. Usually 120 to 300 words; a simple question gets a '
+      'short answer.\n'
+      'If the right action depends on something you don\'t know (is the '
+      'person conscious, how far is help), give the safe first steps for '
+      'each case, then ask one short question. Answer only the latest '
+      'message.\n'
+      'If someone is badly hurt or in danger, the first sentence says to '
+      'call 911 (or local emergency services) if they can.\n'
+      'Never invent facts; if unsure, say so briefly and give the safest '
+      'course.';
 
   llama.LlamaEngine? _engine;
   Future<llama.LlamaEngine>? _loading;
