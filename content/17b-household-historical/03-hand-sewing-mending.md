@@ -1,5 +1,6 @@
 # Hand Sewing, Patching and Darning (K. H. Watson, Textiles and Clothing, 1907)
 Source: https://www.gutenberg.org/ebooks/21534
+Aliases: hand sewing, sewing by hand, basic stitches, running stitch, back stitch, hemming by hand, how to hem, how to sew a button, mending clothes, patching a hole, how to patch jeans, darning socks, darning a hole, repairing torn clothes, sewing a seam by hand, basting, gathering fabric, overcasting edges, embroidery stitches, cross stitch, buttonhole stitch, fixing a rip, sewing without a machine, clothing repair, sewing basics
 
 ## Hand Sewing
 Good sewing, good pressing, well finished ends and corners, lightness of touch which holds the work without apparently touching it, thus giving to the finished garment a fresh look--all these are important considerations.

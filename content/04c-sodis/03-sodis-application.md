@@ -1,5 +1,6 @@
 # SODIS: Rules for Applying Solar Water Disinfection (Eawag SODIS Manual 2.4)
 Source: https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf
+Aliases: purify water with sunlight, solar water disinfection, SODIS method, water in plastic bottle in sun, how long in sun to purify water, cloudy water sodis, pet bottle water, uv water purification, no fuel to boil water, cloudy day sodis, which bottles for sodis, turbid water, sun disinfect water, sunlight kill germs water, storing sodis water
 
 ## 2.4 Implications for the application of the SODIS method
 

@@ -1,5 +1,6 @@
 # Opening and Protecting the Airway (ATP 4-02.11 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: choking first aid, someone is choking, heimlich maneuver, abdominal thrusts, choking pregnant woman, choking baby, cant breathe something stuck, open the airway, head tilt chin lift, jaw thrust, unconscious not breathing, tongue blocking airway, recovery position, airway blocked, chest thrusts, choking on food, clear the airway, breathing problems unconscious person, snoring breathing unconscious, choking and passed out
 
 ## Airway Control: OVERVIEW OF AIRWAY CONTROL
 **Chapter 5**

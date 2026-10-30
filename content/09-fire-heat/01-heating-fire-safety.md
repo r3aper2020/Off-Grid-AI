@@ -1,5 +1,6 @@
 # Heating Fire Safety (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/
+Aliases: heating safety, space heater safety, space heater fire, keep things away from heater, furnace safety, chimney inspection, fireplace safety, heating fires winter, kerosene heater indoors, heater too close to bed, wood stove safety, portable heater tips, heating the house safely, turn off heater when leaving, house fire from heater, heating season fire tips
 
 ## Overview
 Although trending downward since the early 1980s, heating fires remained the second leading cause of home fires in 2021. An estimated 32,200 home heating fires were reported to fire departments within the United States. These fires caused an estimated 190 deaths, 625 injuries and $442 million in property loss.

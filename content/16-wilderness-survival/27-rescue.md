@@ -1,5 +1,6 @@
 # Mountain Rescue and Evacuation (TC 3-97.61 Ch. 15)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: carrying an injured person, how to carry someone, rescue carries, rope carry, rucksack carry, improvised litter, make a stretcher, stretcher from poles, moving injured person mountains, evacuate injured hiker, mountain rescue, lowering a stretcher with rope, raising a litter, high angle rescue, low angle rescue, rescue on a cliff, patient packaging, moving a hurt person downhill, improvised rescue, rescue planning, prolonged care in the field, litter rigging, belay for rescue, getting an injured person out
 
 ## Mountain Rescue and Evacuation
 **Chapter 15**

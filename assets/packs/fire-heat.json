@@ -4,7 +4,7 @@
  "id": "fire-heat",
  "title": "Fire & Heating Safety",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Fire Administration (FEMA)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Preventing home heating fires, and choosing, using (PASS) and maintaining fire extinguishers, including which extinguisher class fits which fire.",
@@ -23,7 +23,8 @@
      "body": "Keep anything that can burn at least 3 feet from all heat sources including fireplaces, wood stoves, radiators, space heaters or candles.\n\nNever use an oven to heat your home.\n\nTurn space heaters off when leaving the room or going to bed.\n\nMaintain heating equipment and chimneys by having them cleaned and inspected each year by a professional."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/",
+   "aliases": "heating safety, space heater safety, space heater fire, keep things away from heater, furnace safety, chimney inspection, fireplace safety, heating fires winter, kerosene heater indoors, heater too close to bed, wood stove safety, portable heater tips, heating the house safely, turn off heater when leaving, house fire from heater, heating season fire tips"
   },
   {
    "title": "Choosing and Using Fire Extinguishers (U.S. Fire Administration)",
@@ -49,7 +50,8 @@
      "body": "Remind community residents to check fire extinguishers for:\n\nEasy access in an emergency\n\nBe sure nothing is blocking or limiting your ability to reach it.\n\nThe recommended pressure level\n\nMany extinguishers have gauges that show when pressure is too high or too low.\n\nWorking parts\n\nMake sure the can, hoses and nozzles are not damaged, dented or rusted.\n\nCleanliness\n\nRemove any dust, oil or grease that might be on the outside of the extinguisher.\n\nGuidelines and instructions\n\nSome extinguishers need to be shaken monthly; others need to be pressure tested every few years. You can recharge some fire extinguishers while others will need to be replaced if the pressure is too low."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers/",
+   "aliases": "how to use a fire extinguisher, PASS method, which fire extinguisher, grease fire, when to fight a fire, extinguisher types, ABC extinguisher, electrical fire extinguisher, fire extinguisher expired, checking fire extinguisher, small kitchen fire, when to get out, fire extinguisher for home, extinguisher maintenance, put out a fire"
   }
  ]
 }

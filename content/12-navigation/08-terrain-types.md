@@ -1,5 +1,6 @@
 # Navigating Desert, Mountain, Jungle and Arctic Terrain (FM 3-25.26 Ch. 13)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: navigating in the desert, desert navigation, navigating in mountains, jungle navigation, arctic navigation, finding your way in snow, navigating in a city, navigating without landmarks, how far can you see in jungle, compass in mountains, navigation in whiteout, desert distance estimation, urban navigation, navigating different terrain, mirage in desert, city street navigation
 
 ## CHAPTER 13 NAVIGATION IN DIFFERENT TYPES OF TERRAIN
 The information, concepts, and skills already presented will help you to navigate anywhere in the world; however, there are some special considerations and helpful hints that may assist you in various special environments. The following information is not doctrine.

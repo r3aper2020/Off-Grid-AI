@@ -1,5 +1,6 @@
 # Fires, Lamps and Candle Making (C. E. Beecher, Housekeeper and Healthkeeper, 1873)
 Source: https://www.gutenberg.org/ebooks/55734
+Aliases: how to make candles, candle making at home, tallow candles, oil lamps, lamp wick, old fashioned lighting, make light without electricity, keep a fire going in stove, lighting without power, dipped candles, candle molds, homemade lamp, grate fire, fireplace fire tips, make candles from fat, lamp oil, historical lighting, kerosene lamp, trim a wick, coal fire stove, build a fire in a grate
 
 ## Fires And Lights
 A shallow fire-place saves wood, and gives out more heat than a deeper one. A false back of brick may be put up in a deep fire-place. Hooks for holding up the shovel and tongs, a hearth-brush and bellows, and brass knobs to hang them on, should be furnished to every fire-place. An iron bar across the andirons aids in keeping the fire safe and in good order. Steel furniture is neater, handsomer, and more easily kept in order than that made of brass.

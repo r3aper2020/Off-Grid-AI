@@ -1,5 +1,6 @@
 # A Treatise on Grain Stacking (J. N. DeLamater, 1884)
 Source: https://www.gutenberg.org/ebooks/37034
+Aliases: how to stack hay, stacking grain sheaves, building a haystack, keeping harvested grain dry, grain stack foundation, stacking wheat bundles, outdoor grain storage without barn, hay stack shape rain, storing harvest outdoors, how to build a hay stack, shock wheat, stack oats, old fashioned hay stacking, stack grain to shed water, haystack base, round stack
 
 ## Placing Foundation.
 If convenient, make a foundation of rails, by placing three rails about four and one-half feet apart and parallel, and then add half or two thirds the length of a rail to each, and cover by laying rails crossways, and finish by laying a large rail or post in the center lengthways.

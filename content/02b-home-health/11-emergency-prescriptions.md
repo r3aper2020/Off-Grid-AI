@@ -1,5 +1,6 @@
 # Free Prescriptions and Medical Supplies After a Disaster: EPAP (ASPR)
 Source: https://www.aspr.gov/readiness-response/response-operations/epap/patients
+Aliases: lost my medications in a disaster, free prescriptions after disaster, EPAP program, get my meds after a hurricane, replace prescription after flood, pharmacy after disaster, insulin lost in evacuation, medical supplies after disaster, no insurance need medicine, refill prescription after evacuation, oxygen equipment after disaster, lost my pills, emergency prescription assistance
 
 ## Overview
 If you don't have health insurance and live in a disaster area declared by the President, you may be able to get free prescription medications and medical supplies through the Emergency Prescription Assistance Program (EPAP).

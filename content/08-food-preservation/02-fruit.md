@@ -1,5 +1,6 @@
 # Canning Fruit and Fruit Products (USDA Complete Guide, Guide 2)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf
+Aliases: canning fruit, how to can peaches, canning apples, applesauce canning, apple butter, canning pears, canning cherries, canning berries, canning pie filling, apple pie filling canning, canning fruit juice, grape juice canning, canning plums, canning without sugar, fruit salsa canning, canning rhubarb, water bath canning fruit, canning apricots, fruit puree canning, canning pineapple, mango chutney, cranberry sauce canning, canning figs
 
 ## General
 Adding syrup to canned fruit helps to retain its flavor, color, and shape. It does not prevent spoil-age of these foods. The following guidelines for preparing and using syrups offer a new “very light” syrup, which approximates the natural sugar content of many fruits. The sugar content in each of the five syrups is increased by about 10 percent. Quantities of water and sugar to make enough syrup for a canner load of pints or quarts are provided for each syrup type.

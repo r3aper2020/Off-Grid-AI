@@ -1,5 +1,6 @@
 # Lightning: What You Need to Know (NWS)
 Source: https://www.weather.gov/safety/lightning-tips
+Aliases: lightning safety, caught outside in a thunderstorm, thunderstorm what to do, lightning indoors safe, safe to shower in a storm, lightning and phones, lightning while hiking, lightning on a mountain, lightning in a tent, lightning position, when thunder roars go indoors, lightning in a car, how far away is lightning, struck by lightning, lightning in open field, last resort lightning, lightning safety tips
 
 ## Lightning: What You Need to Know
 - NO PLACE outside is safe when thunderstorms are in the area!!

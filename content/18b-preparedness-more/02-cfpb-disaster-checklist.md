@@ -1,5 +1,6 @@
 # Your Disaster Checklist: Protect Your Personal Finances (CFPB)
 Source: https://www.ready.gov/sites/default/files/2020-03/cfpb-disaster-checklist-worksheet.pdf
+Aliases: important documents to grab, financial documents for emergency, protect finances in disaster, home inventory, account numbers list, what papers to keep safe, insurance after disaster, copies of important documents, money after disaster, bank records emergency, financial checklist for disaster, personal records to save, photos of belongings for insurance, disaster finances, backup computer files
 
 ## Your disaster checklist
 Consumer Financial Protection Bureau

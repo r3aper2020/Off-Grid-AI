@@ -1,5 +1,6 @@
 # Survival Equipment and Tools (ATP 3-50.21 Ch. 8)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: make a knife from stone, improvised weapons, make a spear, make a bow and arrow, bola weapon, sling weapon, throwing stick, natural cordage, make rope from plants, lashing poles together, make a backpack from sticks, cooking pot from wild materials, make a bowl, make a basket, water container wild, improvising pottery, make utensils, survival tools, keep gear dry, make a club, sharpen knife in the wild, survival equipment care, improvised tools, weapons for hunting in the wild, glue from pine sap
 
 ## Survival Equipment
 **Chapter 8**

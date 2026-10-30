@@ -1,5 +1,6 @@
 # The Cultivation of Vegetables (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: cultivating vegetables, weeding the garden, hoeing, crop rotation, rotating vegetable crops, why rotate crops, garden maintenance, keep weeds down, loosen soil around plants, vegetable garden care, cultivating between rows, garden planning rotation, same crop same spot, mulching garden, growing vegetables tips
 
 ## The Cultivation Of Vegetables
 Before taking up the garden vegetables individually, I shall outline the general practice of cultivation, which applies to all.

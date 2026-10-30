@@ -1,5 +1,6 @@
 # Stroke Signs and the FAST Test (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/stroke/symptoms
+Aliases: stroke symptoms, FAST stroke test, signs of a stroke, face drooping, arm weakness, speech slurred, is this a stroke, time to call 911 stroke, how to tell if someone had stroke, sudden numbness one side, mini stroke warning signs, stroke in women, sudden severe headache, trouble seeing suddenly, stroke warning signs
 
 ## Overview
 The signs and symptoms of a stroke often occur quickly. However, they can develop over hours or even days. This sometimes happens when a transient ischemic attack (TIA) — a blockage that breaks up before it damages your brain — turns into a stroke.

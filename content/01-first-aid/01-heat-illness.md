@@ -1,5 +1,6 @@
 # Heat-related Illnesses
 Source: https://www.cdc.gov/niosh/heat-stress/about/illnesses.html
+Aliases: heat stroke, heat exhaustion, overheated in the sun, too hot and dizzy, heat stroke vs heat exhaustion, confused and hot skin no sweat, heat cramps, heat rash, prickly heat, fainting from heat, heat syncope, rhabdomyolysis, dark urine after hard work in heat, muscle pain after working in heat, how to cool someone down fast, heat illness first aid, working outside in the heat, body temperature too high, heat stroke symptoms
 
 ## Key points
 - Workers exposed to extreme heat or work in hot environments may be at risk for experiencing heat-related illnesses.

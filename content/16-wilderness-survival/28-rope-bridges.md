@@ -1,5 +1,6 @@
 # Rope Bridges (TC 3-97.61 Ch. 16)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: rope bridge, crossing a river with rope, tyrolean traverse, rope across a gorge, tightening a rope line, 3 to 1 pulley, commando crawl, high line, rope crossing, tensioning rope, A frame rope bridge, rope rigging, crossing a ravine, rope across river, anchoring rope line, hauling gear across, guiding line, rope bridge build
 
 ## Rope Bridges
 **Chapter 16**

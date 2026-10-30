@@ -1,5 +1,6 @@
 # Should You Give Kids Medicine for Coughs and Colds? (FDA)
 Source: https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds
+Aliases: cough medicine for kids, cold medicine for toddler, can I give my baby cough syrup, kid has a cold, child cough at night, treating a cold in babies, how to help a congested baby, saline drops and suction bulb, honey for cough, cough medicine age limit, cold medicine under 4, when to call doctor for kids cold, kid fever and cough, homeopathic cold remedies kids, child runny nose remedies
 
 ## Overview
 Avoid using imported medicines, especially for children. Medications from other countries might not have been evaluated for safety and effectiveness. These products may be addictive or contain other dangerous ingredients.

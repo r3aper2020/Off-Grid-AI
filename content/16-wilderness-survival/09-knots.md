@@ -1,5 +1,6 @@
 # Knots, Rope and Lashing (ATP 3-50.21 App. A)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: knots, how to tie knots, bowline, square knot, sheet bend, figure eight knot, clove hitch, two half hitches, timber hitch, prusik knot, joining two ropes, knot for a loop, tie a rope to a tree, lashing, square lashing, diagonal lashing, shear lashing, lashing poles together, rope types, make rope, braid rope, twist cordage, whipping rope ends, knots for camping, useful knots
 
 ## Survival Knots and Rope
 **Appendix A**

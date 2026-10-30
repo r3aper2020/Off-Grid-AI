@@ -1,5 +1,6 @@
 # Food, Water and Living in the Mountains (TC 3-97.61 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: hiking in the mountains food, dressing for cold hiking, layering clothes cold, mountain hydration, ten essentials hiking, what to pack for mountains, mountain fitness training, altitude nutrition, cold weather clothing, boots and socks mountain, gaiters for snow, headlamp for hiking, daypack essentials, mountain gear list, eating at altitude, how much water at altitude, base layer insulating shell, what to wear hiking cold, backpack weight, how to pack a backpack, mountain hiking tired fast, acclimatize to altitude
 
 ## Mountain Subsistence and Sustainment
 **Chapter 4**

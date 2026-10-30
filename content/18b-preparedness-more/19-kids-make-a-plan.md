@@ -1,5 +1,6 @@
 # Make a Plan with Your Kids (Ready.gov Kids)
 Source: https://www.ready.gov/kids/make-a-plan
+Aliases: emergency plan for kids, teach kids emergency plan, kids disaster plan, family plan with children, kids emergency contacts, children what to do emergency, emergency plan activity kids, prepare kids for disaster, kids know phone number, kids meeting place, talk to kids about emergencies, child emergency preparedness, kids home alone emergency, explain emergencies to children, kids practice drill
 
 ## Overview
 Your family may not be together if a disaster strikes, so it is important to know which types of disasters could affect your area. Know how you’ll contact one another and reconnect if separated. Establish a family meeting place that’s familiar and easy to find. And, don’t forget to think about specific needs in your family. Your family’s needs change over time, so update your plan regularly.

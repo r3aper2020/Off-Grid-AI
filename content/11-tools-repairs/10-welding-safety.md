@@ -1,5 +1,6 @@
 # Welding Safety Precautions (TC 9-237 Ch. 2)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc9_237.pdf
+Aliases: welding safety, welding eye protection, welding fumes ventilation, acetylene tank safety, oxygen cylinder handling, arc welding shock, welding fire hazards, welding in confined space, welding gloves and clothing, gas cylinder storage, welding flash burn eyes, electric welding precautions, welding near flammable, cutting torch safety, hose and regulator safety, backfire flashback torch, welding burns, welding protective gear, welding a fuel tank, welding helmet shade
 
 ## CHAPTER 2 SAFETY PRECAUTIONS IN WELDING OPERATIONS: 2-1. GENERAL
 **CHAPTER 2 SAFETY PRECAUTIONS IN WELDING OPERATIONS**

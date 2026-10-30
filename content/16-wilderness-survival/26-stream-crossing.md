@@ -1,5 +1,6 @@
 # Crossing Mountain Streams (TC 3-97.61 Ch. 13)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: how to cross a river safely, crossing a creek, river crossing technique, fast water crossing, crossing stream with group, rope across river, where to cross a river, swim in fast river, river current dangers, cross river with backpack, stream crossing safety, cross a river on foot, fording a river, river crossing with rope, cold water crossing, reading a river, unbuckle pack river crossing, swept away in river, when not to cross a river
 
 ## Mountain Stream Crossing
 **Chapter 13**

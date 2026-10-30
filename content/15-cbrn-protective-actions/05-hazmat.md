@@ -1,5 +1,6 @@
 # Hazardous Materials Incidents (Ready.gov)
 Source: https://www.ready.gov/hazmat
+Aliases: chemical spill, hazmat incident, chemical leak nearby, train derailment chemicals, toxic cloud, shelter in place chemical, seal windows and doors, chemical smell outside, evacuate chemical spill, decontaminate chemicals, chemical on skin, factory explosion, gas cloud, industrial accident, chemical exposure what to do, hazmat kit, turn off AC chemical, chemical emergency
 
 ## Overview
 Hazardous materials can include explosives, flammable and combustible substances, poisons and radioactive materials. Chemical agents are poisonous vapors, aerosols, liquids and solids that have toxic effects on people, animals or plants. Emergencies can happen during the production, storage, transportation, use or disposal of hazardous materials. You are at risk when chemicals are used unsafely or released in harmful amounts where you live, work or play.

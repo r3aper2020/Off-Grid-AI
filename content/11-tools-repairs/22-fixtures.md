@@ -1,5 +1,6 @@
 # Plumbing Fixtures (TM 3-34.70 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: toilet keeps running, how to fix a toilet, toilet flapper, fill valve replacement, ballcock repair, toilet wont flush, install a toilet, toilet tank parts, sink drain pop up stuck, bathroom sink install, faucet repair, how to install a sink, shower pan, shower install, urinal install, kitchen sink plumbing, replacing a toilet, toilet types, plumbing fixtures, flushometer valve
 
 ## Plumbing Fixtures
 **Chapter 4**

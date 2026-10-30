@@ -4,7 +4,7 @@
  "id": "first-aid",
  "title": "Emergency Medicine & First Aid",
  "category": "medical",
- "version": "2026.10.29.4",
+ "version": "2026.10.30.1",
  "publisher": "CDC and U.S. Army (ATP 4-02.11, 2026)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Current first aid: severe bleeding and tourniquets, airway, breathing and chest injuries, shock, burns, fractures and splinting, head and eye injuries, bites and stings, heat and cold injuries, chemical/biological/radiological first aid, stress, moving casualties, and first aid kits.",
@@ -35,12 +35,8 @@
      "body": "Take the following steps to treat a worker with heat stroke:\n\n- Call 911 for emergency medical care.\n- Stay with the worker until emergency medical services arrive.\n- Move the worker to a shaded, cool area and remove outer clothing.\n- Cool the worker quickly, using the following methods:\n- With a cold water or ice bath, if possible\n- Wet the skin\n- Place cold wet cloths on the skin\n- Soak clothing with cool water\n- Circulate the air around the worker to speed cooling.\n- Place cold wet cloths or ice on the head, neck, armpits, and groin; or soak the clothing with cool water."
     },
     {
-     "heading": "Heat exhaustion",
-     "body": "Heat exhaustion is the body's response to an excessive loss of water and salt, usually through excessive sweating."
-    },
-    {
      "heading": "Heat exhaustion: Symptoms",
-     "body": "Symptoms of heat exhaustion include:\n\n- Headache\n- Nausea\n- Dizziness\n- Weakness\n- Irritability\n- Thirst\n- Heavy sweating\n- Elevated body temperature\n- Decreased urine output"
+     "body": "Heat exhaustion is the body's response to an excessive loss of water and salt, usually through excessive sweating.\n\nSymptoms of heat exhaustion include:\n\n- Headache\n- Nausea\n- Dizziness\n- Weakness\n- Irritability\n- Thirst\n- Heavy sweating\n- Elevated body temperature\n- Decreased urine output"
     },
     {
      "heading": "Heat exhaustion: First aid",
@@ -48,11 +44,7 @@
     },
     {
      "heading": "Rhabdomyolysis",
-     "body": "Rhabdomyolysis (rhabdo) is a medical condition associated with heat stress and prolonged physical exertion. Rhabdo causes the rapid breakdown, rupture, and death of muscle. When muscle tissue dies, electrolytes and large proteins are released into the bloodstream. This can cause irregular heart rhythms, seizures, and damage to the kidneys."
-    },
-    {
-     "heading": "Rhabdomyolysis: Symptoms",
-     "body": "Symptoms of rhabdo include:\n\n- Muscle cramps/pain\n- Abnormally dark (tea or cola-colored) urine\n- Weakness\n- Exercise intolerance\n- Asymptomatic"
+     "body": "Rhabdomyolysis (rhabdo) is a medical condition associated with heat stress and prolonged physical exertion. Rhabdo causes the rapid breakdown, rupture, and death of muscle. When muscle tissue dies, electrolytes and large proteins are released into the bloodstream. This can cause irregular heart rhythms, seizures, and damage to the kidneys.\n\n**Rhabdomyolysis: Symptoms**\n\nSymptoms of rhabdo include:\n\n- Muscle cramps/pain\n- Abnormally dark (tea or cola-colored) urine\n- Weakness\n- Exercise intolerance\n- Asymptomatic"
     },
     {
      "heading": "Rhabdomyolysis: First aid",
@@ -60,42 +52,27 @@
     },
     {
      "heading": "Heat syncope",
-     "body": "Heat syncope is a fainting (syncope) episode or dizziness that usually occurs when standing for too long or suddenly standing up after sitting or lying. Factors that may contribute to heat syncope include dehydration and lack of acclimatization."
-    },
-    {
-     "heading": "Heat syncope: Symptoms",
-     "body": "Symptoms of heat syncope include:\n\n- Fainting (short duration)\n- Dizziness\n- Light-headedness from standing too long or suddenly rising from a sitting or lying position"
-    },
-    {
-     "heading": "Heat syncope: First aid",
-     "body": "Workers with heat syncope should:\n\n- Sit or lie down in a cool place.\n- Slowly drink water, clear juice, or a sports drink"
+     "body": "Heat syncope is a fainting (syncope) episode or dizziness that usually occurs when standing for too long or suddenly standing up after sitting or lying. Factors that may contribute to heat syncope include dehydration and lack of acclimatization.\n\n**Heat syncope: Symptoms**\n\nSymptoms of heat syncope include:\n\n- Fainting (short duration)\n- Dizziness\n- Light-headedness from standing too long or suddenly rising from a sitting or lying position\n\n**Heat syncope: First aid**\n\nWorkers with heat syncope should:\n\n- Sit or lie down in a cool place.\n- Slowly drink water, clear juice, or a sports drink"
     },
     {
      "heading": "Heat cramps",
-     "body": "Heat cramps usually affect workers who sweat a lot during strenuous activity. This sweating depletes the body's salt and moisture levels. Low salt levels in muscles cause painful cramps. Heat cramps may also be a symptom of heat exhaustion."
-    },
-    {
-     "heading": "Heat cramps: Symptoms",
-     "body": "- Muscle cramps\n- Pain or spasms in the abdomen, arms, or legs"
+     "body": "Heat cramps usually affect workers who sweat a lot during strenuous activity. This sweating depletes the body's salt and moisture levels. Low salt levels in muscles cause painful cramps. Heat cramps may also be a symptom of heat exhaustion.\n\n**Heat cramps: Symptoms**\n\n- Muscle cramps\n- Pain or spasms in the abdomen, arms, or legs"
     },
     {
      "heading": "Heat cramps: First aid",
      "body": "Workers with heat cramps should do the following:\n\n- Drink water and have a snack or a drink that replaces carbohydrates and electrolytes (such as sports drinks) every 15 to 20 minutes.\n- Avoid salt tablets.\n- Get medical help if the worker:\n- Has heart problems.\n- Is on a low sodium diet.\n- Has cramps that do not subside within 1 hour"
     },
     {
-     "heading": "Heat rash",
-     "body": "Heat rash is a skin irritation caused by excessive sweating during hot, humid weather."
-    },
-    {
      "heading": "Heat rash: Symptoms",
-     "body": "Symptoms of heat rash include:\n\n- Red clusters of pimples or small blisters\n- Usually appears on the neck, upper chest, groin, under the breasts, and in elbow creases"
+     "body": "Heat rash is a skin irritation caused by excessive sweating during hot, humid weather.\n\nSymptoms of heat rash include:\n\n- Red clusters of pimples or small blisters\n- Usually appears on the neck, upper chest, groin, under the breasts, and in elbow creases"
     },
     {
      "heading": "Heat rash: First aid",
      "body": "Workers who have heat rash should:\n\n- Work in a cooler, less humid environment, if possible.\n- Keep the rash area dry.\n- Apply powder to increase comfort.\n- Don't use ointments and cream\n\nWorkplace Recommendations\n\nNational Institute for Occupational Safety and Health"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+   "sourceUrl": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+   "aliases": "heat stroke, heat exhaustion, overheated in the sun, too hot and dizzy, heat stroke vs heat exhaustion, confused and hot skin no sweat, heat cramps, heat rash, prickly heat, fainting from heat, heat syncope, rhabdomyolysis, dark urine after hard work in heat, muscle pain after working in heat, how to cool someone down fast, heat illness first aid, working outside in the heat, body temperature too high, heat stroke symptoms"
   },
   {
    "title": "Preventing Hypothermia",
@@ -117,15 +94,12 @@
      "body": "The following are warnings signs of hypothermia:\n\nAdults\n\n- Shivering\n- Exhaustion or feeling very tired\n- Confusion\n- Fumbling hands\n- Memory loss\n- Slurred speech\n- Drowsiness\n\nBabies\n\n- Bright red, cold skin\n- Very low energy"
     },
     {
-     "heading": "Don't wait— take action",
-     "body": "Hypothermia is a medical emergency. If you notice any of the above signs, take the person's temperature. If it is below 95° F, get medical attention immediately!"
-    },
-    {
      "heading": "Don't wait— take action: If you are not able to get medical help right away, try to warm the person up.",
-     "body": "- Get the person into a warm room or shelter.\n- Remove any wet clothing the person is wearing.\n- Warm the center of the person's body—chest, neck, head, and groin—using an electric blanket, if available. You can also use skin-to-skin contact under loose, dry layers of blankets, clothing, towels, or sheets.\n- Warm drinks can help increase body temperature, but do not give alcoholic drinks. Do not try to give beverages to an unconscious person.\n- After body temperature has increased, keep the person dry and wrap their body, including their head and neck, in a warm blanket.\n- Get the person proper medical attention as soon as possible.\n\n**Severe hypothermia**\n\nA person with severe hypothermia may be unconscious and may not seem to have a pulse or to be breathing.\n\n- In this case, handle the person gently, and get emergency assistance immediately.\n- Perform CPR, even if the person appears dead. CPR should continue until the person responds or medical aid becomes available. Keep warming the person while performing CPR. In some cases, hypothermia victims who appear to be dead can be successfully resuscitated."
+     "body": "Hypothermia is a medical emergency. If you notice any of the above signs, take the person's temperature. If it is below 95° F, get medical attention immediately!\n\n- Get the person into a warm room or shelter.\n- Remove any wet clothing the person is wearing.\n- Warm the center of the person's body—chest, neck, head, and groin—using an electric blanket, if available. You can also use skin-to-skin contact under loose, dry layers of blankets, clothing, towels, or sheets.\n- Warm drinks can help increase body temperature, but do not give alcoholic drinks. Do not try to give beverages to an unconscious person.\n- After body temperature has increased, keep the person dry and wrap their body, including their head and neck, in a warm blanket.\n- Get the person proper medical attention as soon as possible.\n\n**Severe hypothermia**\n\nA person with severe hypothermia may be unconscious and may not seem to have a pulse or to be breathing.\n\n- In this case, handle the person gently, and get emergency assistance immediately.\n- Perform CPR, even if the person appears dead. CPR should continue until the person responds or medical aid becomes available. Keep warming the person while performing CPR. In some cases, hypothermia victims who appear to be dead can be successfully resuscitated."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/winter-weather/prevention/index.html"
+   "sourceUrl": "https://www.cdc.gov/winter-weather/prevention/index.html",
+   "aliases": "hypothermia signs, too cold shivering, body temperature dropping, hypothermia what to do, warming someone up, cold water immersion, stopped shivering, confused and cold, hypothermia in elderly, baby too cold, hypothermia treatment at home, how to prevent hypothermia, wet and cold, mild hypothermia, cold exposure, rewarming a cold person, hypothermia no doctor, frostbite and hypothermia"
   },
   {
    "title": "Preventing Frostbite",
@@ -136,19 +110,11 @@
     },
     {
      "heading": "Overview: What is frostbite?",
-     "body": "Frostbite is a type of injury caused by freezing. It leads to a loss of feeling and color in the areas it affects, usually extremities such as the nose, ears, cheeks, chin, fingers, and toes. Frostbite can permanently damage the body, and severe cases can lead to amputation (removing the affected body part)."
-    },
-    {
-     "heading": "Risk factors",
-     "body": "You may have a greater chance of developing frostbite if you:\n\n- Have poor blood circulation\n- Are not properly dressed for extremely cold temperatures"
-    },
-    {
-     "heading": "What to look out for",
-     "body": "If you notice redness or pain in any skin area, get out of the cold or protect any exposed skin—frostbite may be beginning."
+     "body": "Frostbite is a type of injury caused by freezing. It leads to a loss of feeling and color in the areas it affects, usually extremities such as the nose, ears, cheeks, chin, fingers, and toes. Frostbite can permanently damage the body, and severe cases can lead to amputation (removing the affected body part).\n\n**Risk factors**\n\nYou may have a greater chance of developing frostbite if you:\n\n- Have poor blood circulation\n- Are not properly dressed for extremely cold temperatures"
     },
     {
      "heading": "What to look out for: Any of the following signs may point to frostbite:",
-     "body": "- A white or grayish-yellow skin area\n- Skin that feels unusually firm or waxy\n- Numbness\n\nA person who has frostbite may not know they have it until someone else points it out because the frozen parts of their body are numb."
+     "body": "If you notice redness or pain in any skin area, get out of the cold or protect any exposed skin—frostbite may be beginning.\n\n- A white or grayish-yellow skin area\n- Skin that feels unusually firm or waxy\n- Numbness\n\nA person who has frostbite may not know they have it until someone else points it out because the frozen parts of their body are numb."
     },
     {
      "heading": "Don't wait— take action",
@@ -159,7 +125,8 @@
      "body": "Taking a first aid or emergency resuscitation (CPR) course is a good way to prepare for health problems related to cold weather. Knowing what to do is an important part of protecting your health and the health of others.\n\nBeing prepared is your best defense against having to deal with extremely cold weather. By preparing your home and car ahead of winter storms or other winter emergencies, and by taking safety precautions during extremely cold weather, you can reduce your risk of developing health problems related to cold weather."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html"
+   "sourceUrl": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+   "aliases": "how to prevent frostbite, frostbite signs, skin turning white in cold, numb fingers in cold, who gets frostbite, how cold for frostbite, frostnip signs, dressing for cold weather, frostbite on nose ears, cold weather skin damage, what frostbite looks like, protecting hands and feet from cold, frostbite risk factors, cover exposed skin"
   },
   {
    "title": "Moving an Injured Person (ATP 4-02.11 Ch. 2)",
@@ -217,7 +184,8 @@
      "body": "3-4. Individual medical readiness training is built upon a foundation of knowledge, skills, and abilities tailored to operational medicine. Operational medical readiness training focuses on developing a core set of validated, operationally unique skills and abilities necessary to accomplish mission objectives. These core competencies are expanded as needed to address specific Service missions, informing unit readiness reporting as part of medical specialty team readiness. DODI 1322.24, published by the JTS, outlines basic TCCC skills"
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "how to move an injured person, carrying someone who is hurt, fireman carry, drag an unconscious person, two person carry, making a stretcher, improvised litter, moving someone alone, getting injured person out of car, carry someone to safety, how to lift a hurt person, piggyback carry injured, when not to move injured person, evacuate wounded, stretcher from poles and blankets, carry someone downhill, move someone under fire"
   },
   {
    "title": "Stopping Severe Bleeding (ATP 4-02.11 Ch. 4)",
@@ -383,7 +351,8 @@
      "body": "4-84. A pressure delivery device (PDD) is made using improvised materials, such as a shoe or boot, full water bottle, or canteen which applies additional pressure to the wound after it has been packed. A PDD may be needed to apply additional and targeted pressure to control inguinal or groin hemorrhage.\n\n4-85. For groin injuries packed with hemostatic dressings, use an improvised junctional PDD to secure the dressing. The PDD is placed in the groin while continuously maintaining pressure to the dressing.\n\n4-86. The PDD is then secured with a TQ, which is wrapped over the hips with the windlass or ratchet placed directly over the improvised device and tightened to add additional pressure. Two TQs placed together may be needed when improvising a PDD.\n\nNote. Junctional hemorrhages involve larger blood vessels requiring more pressure (and targeted pressure) than can be applied with a pressure dressing alone.\n\n4-87. Inguinal (Groin) Hemorrhage Control with Improvised Junctional Pressure Device:\n\nConsider body substance isolation.\n\nExpose the injury and assess the bleeding source.\n\n- Apply direct pressure to the wound using a hand, fist, or elbow and open the hemostatic gauze\n\npackage.\n\nTightly pack the wound with hemostatic gauze until the wound cavity is filled (finishing the packing within 90 seconds).\n\n- Hold pressure for a minimum of 3 minutes.\n\nReassess to ensure that the bleeding has been controlled while maintaining pressure.\n\nIf packed with hemostatic dressing, and extra hemostatic dressings are available, remove and repack.\n\nIf packed with gauze or initially packed with hemostatic dressing and no more hemostatic dressing is available, apply additional gauze and pressure (for three minutes) until bleeding stops.\n\nSelect and position a pressure delivery device, such as a canteen, into the inguinal gutter while maintaining pressure.\n\nSelect a TQ that can wrap around the casualty’s waist/hip area or connect the two tourniquets together.\n\nPlace the windlass or ratchet TQ directly over the middle of the pressure delivery device; ensure that the routing buckle is located towards the middle of the body.\n\nRemove all slack from the band or strap using a pushing motion across the casualty’s body before tightening the TQ.\n\nTighten the TQ and ensure that the bleeding is still controlled, and the distal pulse is absent.\n\nNote. If the bleeding is not controlled and the distal pulse (a pulse located below the TQ) is present, remove any remaining slack in the strapping (if possible) and twist or ratchet the TQ device until bleeding is controlled and/or a distal pulse is absent.\n\n- Visually inspect the placement of the equipment, ensuring that the pressure delivery device is in\n\nplace and the windlass or ratchet is properly positioned over the device.\n\n- Document all findings and treatments on DD Form 1380."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "how to use a tourniquet, where to put a tourniquet, tourniquet how tight, improvised tourniquet belt, wound packing, pack a wound with gauze, hemostatic gauze quikclot, pressure dressing, pressure bandage, stop bleeding from leg or arm, bleeding from groin or armpit, junctional bleeding, neck wound bleeding, bleeding wont stop with pressure, how to find a pulse, carotid femoral radial pulse, massive bleeding, gunshot wound bleeding, stab wound bleeding, blood loss how much is too much, how long can a tourniquet stay on"
   },
   {
    "title": "Opening and Protecting the Airway (ATP 4-02.11 Ch. 5)",
@@ -577,7 +546,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "choking first aid, someone is choking, heimlich maneuver, abdominal thrusts, choking pregnant woman, choking baby, cant breathe something stuck, open the airway, head tilt chin lift, jaw thrust, unconscious not breathing, tongue blocking airway, recovery position, airway blocked, chest thrusts, choking on food, clear the airway, breathing problems unconscious person, snoring breathing unconscious, choking and passed out"
   },
   {
    "title": "Breathing and Chest Injuries (ATP 4-02.11 Ch. 6)",
@@ -604,7 +574,7 @@
     },
     {
      "heading": "Respiration and Breathing Control: TIER 1 SKILLS FOR RESPIRATION AND BREATHING CONTROL",
-     "body": "6-11. Often the act of just opening and maintaining the airway will allow the casualty to breathe properly.\n\nThe first responder opens the casualty’s airway maintaining the head position to keep the airway open. Failure to maintain the open airway will prevent the casualty from receiving an adequate supply of oxygen. While maintaining an open airway the first responder checks for breathing, respiration rate (breaths per minute) and respiration quality (shallow and labored) by placing the casualty on their back and assessing their breathing by observing the casualty’s chest by—\n\nLooking for the chest to rise and fall.\n\nListening for air escaping during exhalation by placing your ear near the casualty’s mouth.\n\nFeeling for the flow of air on your cheek (see figure 6-3).\n\n{{img:0}}\n\n6-12. If air is not flowing freely in and out, the first responder opens the airway maneuvers as described in paragraphs 5-16 through 5-21.\n\nNote. If the casualty has a suspected neck or spine injury, and the situation allows, use, and maintain the jaw-thrust maneuver.\n\n6-13. If the casualty is unconscious, and the respiratory rate is less than two in 15 seconds, or the casualty is making snoring or gurgling sounds, the first responder inserts an NPA by—\n\n- Keeping the casualty in a face-up position.\n\nLubricating the tube of the NPA with water.\n\nPushing the tip of the casualty's nose upward gently.\n\nPositioning the tube of the NPA so that the bevel (pointed end) of the NPA faces toward the septum (the partition inside the nose that separates the nostrils).\n\nInserting the NPA into the nostril and advance it until the flange rests against the nostril. Most NPAs are designed to be placed in the right nostril.\n\n**CAUTION:** Never force the NPA into the casualty’s nostril. If resistance is met, pull the tube out and attempt to insert it into the other nostril. If neither nostril will accommodate the NPA, place the casualty in the recovery position.\n\n6-14. The first responder places the casualty in the recovery position by rolling the casualty as a single unit onto their side, placing the casualty's hand of the upper arm under the casualty's chin, and flexing the casualty's upper leg. The first responder then watches the casualty closely for life-threatening conditions and checks for other injuries.\n\n6-15. If the casualty is not breathing, immediately start rescuing breathing and seek medical aid. If the casualty resumes breathing at any time during this procedure, the airway is kept open, and the casualty is continued to be watched. If the casualty continues to breathe, they should be transported to medical aid, or to an MTF IAW the tactical situation.\n\n6-16. Exposure to smoke or toxic inhalants can cause difficulty breathing, but other injuries can also lead to respiratory distress. Life-threatening chest injuries can also result in respiratory distress. There are two types of chest injuries that can potentially be life-threatening, penetrating injuries, like those seen in gunshot or shrapnel wounds, or blunt trauma from blasts or vehicular accidents. It is important to roll the casualty to examine the front and back for signification torso trauma.\n\n6-17. At this point in the MARCH-PAWS protocol, the responder's role is to carefully roll the casualty to examine both the front and back of the torso for any signs of chest trauma. It is crucial for the responder to identify and acknowledge if the casualty has a potentially life-threatening chest injury that is causing respiratory distress. The responder must then effectively communicate these findings to the medical personnel arriving on the scene, ensuring that the casualty receives the appropriate medical attention promptly.",
+     "body": "6-11. Often the act of just opening and maintaining the airway will allow the casualty to breathe properly.\n\nThe first responder opens the casualty’s airway maintaining the head position to keep the airway open. Failure to maintain the open airway will prevent the casualty from receiving an adequate supply of oxygen. While maintaining an open airway the first responder checks for breathing, respiration rate (breaths per minute) and respiration quality (shallow and labored) by placing the casualty on their back and assessing their breathing by observing the casualty’s chest by—\n\nLooking for the chest to rise and fall.\n\nListening for air escaping during exhalation by placing your ear near the casualty’s mouth.\n\nFeeling for the flow of air on your cheek (see figure 6-3).\n\n{{img:0}}\n\n6-12. If air is not flowing freely in and out, the first responder opens the airway maneuvers as described in paragraphs 5-16 through 5-21.\n\nNote. If the casualty has a suspected neck or spine injury, and the situation allows, use, and maintain the jaw-thrust maneuver.\n\n6-13. If the casualty is unconscious, and the respiratory rate is less than two in 15 seconds, or the casualty is making snoring or gurgling sounds, the first responder inserts an NPA by—\n\n- Keeping the casualty in a face-up position.\n\nLubricating the tube of the NPA with water.\n\nPushing the tip of the casualty's nose upward gently.\n\nPositioning the tube of the NPA so that the bevel (pointed end) of the NPA faces toward the septum (the partition inside the nose that separates the nostrils).\n\nInserting the NPA into the nostril and advance it until the flange rests against the nostril. Most NPAs are designed to be placed in the right nostril.\n\n**CAUTION:** Never force the NPA into the casualty’s nostril. If resistance is met, pull the tube out and attempt to insert it into the other nostril. If neither nostril will accommodate the NPA, place the casualty in the recovery position.\n\n6-14. The first responder places the casualty in the recovery position by rolling the casualty as a single unit onto their side, placing the casualty's hand of the upper arm under the casualty's chin, and flexing the casualty's upper leg. The first responder then watches the casualty closely for life-threatening conditions and checks for other injuries.\n\n6-15. If the casualty is not breathing, immediately start rescuing breathing and seek medical aid. If the casualty resumes breathing at any time during this procedure, the airway is kept open, and the casualty is continued to be watched. If the casualty continues to breathe, they should be transported to medical aid, or to an MTF IAW the tactical situation.\n\n6-16. Exposure to smoke or toxic inhalants can cause difficulty breathing, but other injuries can also lead to respiratory distress. Life-threatening chest injuries can also result in respiratory distress. There are two types of chest injuries that can potentially be life-threatening, penetrating injuries, like those seen in gunshot or shrapnel wounds, or blunt trauma from blasts or vehicular accidents. It is important to roll the casualty to examine the front and back for signification torso trauma.\n\n6-17. At this point in the MARCH-PAWS protocol, the responder's role is to carefully roll the casualty to examine both the front and back of the torso for any signs of chest trauma. It is crucial for the responder to identify and acknowledge if the casualty has a potentially life-threatening chest injury that is causing respiratory distress. The responder must then effectively communicate these findings to the medical personnel arriving on the scene, ensuring that the casualty receives the appropriate medical attention promptly.\n\n**Respiration and Breathing Control: DO NOT pack chest wounds with a hemostatic (or other)**\n\n**Respiration and Breathing Control: IMPORTANT!**\n\ndressing.\n\nREPORT a severe chest injury to medical personnel immediately.",
      "images": [
       {
        "asset": "assets/packs/images/first-aid--13-breathing--fig-6-3.webp",
@@ -612,10 +582,6 @@
        "kind": "figure"
       }
      ]
-    },
-    {
-     "heading": "Respiration and Breathing Control: DO NOT pack chest wounds with a hemostatic (or other)",
-     "body": "**Respiration and Breathing Control: IMPORTANT!**\n\ndressing.\n\nREPORT a severe chest injury to medical personnel immediately."
     },
     {
      "heading": "Respiration and Breathing Control: TIER 2 SKILLS FOR RESPIRATION AND BREATHING CONTROL",
@@ -668,7 +634,8 @@
      "body": "6-49. Rescue breathing, also known as artificial ventilation, is a technique used in CPR to provide oxygen to a person who is not breathing or has inadequate breathing. It involves delivering breaths into the person's lungs to support their respiratory function. Rescue breathing is conducted executing the following:\n\nPosition: Ensure the casualty is lying on a flat surface, preferably with their head tilted back slightly to open the airway.\n\nClear the Airway: Check for any visible obstructions in the person's mouth or throat, and if present, gently remove them if possible.\n\nSeal the Mouth: If the casualty's mouth is open, use your hand to gently lift the chin upward to maintain an open airway. With your other hand, pinch the person's nose closed to prevent air from escaping.\n\nBreathing Technique: Place your mouth over the casualty's mouth, forming a seal, and blow into their mouth while watching for the chest to rise. Deliver the breath over one second and make sure it is sufficient to visibly inflate the chest.\n\nBreathing Rate: Provide rescue breaths at a rate of about one breath every five to six seconds (10 to 12 breaths per minute).\n\nChest Recoil: Allow the chest to fully recoil between breaths. This enables the chest to return to its resting position, which helps in the exchange of gases during respiration.\n\nContinue Until Help Arrives: Perform rescue breathing until professional medical help arrives or until the person starts breathing on their own.\n\n6-50. There are several methods for rescue breathing, each suitable for different situations and age groups.\n\nThe main methods include:\n\n- Mouth-to-Mouth: This common method involves the rescuer forming a seal over the casualty's\n\nmouth with their own and delivering breaths into their lungs.\n\n- Mouth-to-Nose: Used when the casualty's mouth is injured, obstructed, or inaccessible, the rescuer\n\ncloses the casualty's mouth and breathes into their nose to create a seal.\n\n- Mouth-to-Mask: In situations like professional CPR or with specialized equipment, a pocket mask or BVM device is used. The mask covers the casualty's mouth and nose, and the rescuer delivers breaths by squeezing the bag or using the valve.\n\n- Mouth-to-Stoma: For individuals with a tracheostomy or a surgical stoma in the neck for breathing, rescue breaths can be delivered directly into the stoma using the rescuer's mouth or a specialized device.\n\n6-51. It is important to note that the technique and ratio of rescue breaths may vary depending on the age of the person receiving CPR (such as an adult, child, or infant) and the specific guidelines in the area or operation. Proper training in CPR techniques, including rescue breathing, is crucial to ensure accurate and effective administration of artificial ventilation during emergency situations.\n\n6-52. It is important to follow the specific guidelines and protocols for rescue breathing based on the person's age, condition, and the resources available. Proper training and certification in CPR techniques are essential to gain proficiency in rescue breathing and to ensure the best possible outcomes during resuscitation efforts."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "cant breathe after chest injury, sucking chest wound, chest seal, hole in chest how to cover, collapsed lung, tension pneumothorax, needle decompression, dont pack a chest wound, rescue breathing, mouth to mouth, chest compressions, stabbed in the chest, shot in the chest, penetrating chest wound, breathing problems after injury, how to help someone breathe, plastic over chest wound"
   },
   {
    "title": "Circulation and Shock (ATP 4-02.11 Ch. 7)",
@@ -751,7 +718,8 @@
      "body": "7-30. Anaphylactic shock is a severe and life-threatening allergic reaction that significantly impacts the circulatory system. This medical emergency is marked by a swift release of histamines and other chemicals into the body, leading to vasodilation and increased permeability in blood vessels. Such changes can disrupt the adequate perfusion of vital organs and tissues, putting the casualty's life at great risk.\n\n7-31. Vasodilation, a key feature of anaphylactic shock, involves the relaxation of smooth muscle cells within blood vessel walls, causing these vessels to widen and blood pressure to drop significantly. This physiological process can rapidly deteriorate the casualty’s condition.\n\n7-32. The treatment of anaphylactic shock is urgent and time sensitive. Immediate actions include calling for medical help and, if available, using the casualty’s epinephrine auto-injector. Anaphylactic reactions can\n\nmanifest within seconds or minutes after exposure to an allergen, affecting the skin, respiratory, and circulatory systems.\n\n7-33. Prompt recognition and response to anaphylactic shock are critical. Assessing both the signs and symptoms early on is essential for effective intervention. Quick and accurate identification of the condition allows for the necessary steps to be taken to mitigate its life-threatening effects.\n\n7-34. To effectively check for anaphylactic shock, Service members should follow a systematic approach:\n\n- Assess Symptoms:\n\n- Observe for sudden and severe symptoms like difficulty breathing, wheezing, or shortness of\n\nbreath.\n\nCheck for a rapid or weak pulse.\n\nLook for swelling of the face, lips, or tongue.\n\n- Note any hives or widespread skin redness.\n\nBe alert to signs of confusion, dizziness, or loss of consciousness.\n\n- Ask Questions:\n\nInquire about any known allergies or recent exposures to potential allergens.\n\n- Ask if they have ingested or come into contact with a known allergen recently.\n\n- Observe Breathing:\n\nCheck for signs of respiratory distress, such as rapid or labored breathing.\n\nListen for wheezing or other abnormal breathing sounds.\n\nCheck Circulation:\n\n- Assess the pulse to determine its rate and strength. Look for Other Symptoms:\n\nLook for signs of poor circulation, such as pale or bluish skin.\n\nBe aware of nausea, vomiting, abdominal pain, or a feeling of impending doom.\n\n7-35. If anaphylactic shock is suspected, immediate medical assistance is crucial. The primary treatment involves administering epinephrine (adrenaline). If an epinephrine auto-injector is available, assist the affected individual in using it, or administer it yourself if you are allowed and trained. Dosage guidelines are typically provided with the injector—0.15 milligrams (mg) for children and 0.3 mg for adults weighing more than 66 pounds.\n\n7-36. Further doses of epinephrine may be necessary, administered every 5 to 10 minutes if prescribed and symptoms persist. Additionally, provide supportive measures for treating shock, respiratory failure, circulatory collapse, or cardiac arrest:\n\nPosition the casualty supine with legs elevated if injuries permit.\n\nPerform rescue breathing and external chest compressions if required.\n\n- Monitor vital signs every three to five minutes until the casualty is stable.\n\n7-37. Record all first aid actions on DD Form 1380 and request MEDEVAC immediately. Use CASEVAC only if MEDEVAC is unavailable and transport the casualty to the nearest MTF as soon as possible.\n\nAnaphylaxis is life-threatening, and immediate action is crucial. Seek professional medical help promptly and provide supportive care while awaiting arrival of medical personnel."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "signs of shock, how to treat shock, stop severe bleeding, pressure bandage, tourniquet how to, legs raised for shock, pale cold clammy skin, bleeding wont stop, anaphylactic shock epipen, allergic reaction swelling throat, broken pelvis, wound packing, direct pressure on wound, should I give water to injured person, hemorrhage control, losing lots of blood, severe allergic reaction, how to stop bleeding fast, gunshot wound bleeding"
   },
   {
    "title": "Preventing Hypothermia in the Injured (ATP 4-02.11 Ch. 8)",
@@ -809,18 +777,15 @@
      "body": "8-26. In situations where standard medical supplies are not available, field expedient techniques for hypothermia control become crucial. Soldiers are taught to use their environment and available resources to prevent and manage hypothermia. For instance, using space blankets or even regular blankets to wrap the victim can significantly reduce heat loss. If these are not available, utilizing materials such as leaves, grass, or even newspapers as insulation can be a life-saving improvisation. Creating a barrier between the victim and the cold ground, such as with a sleeping pad, backpack, or any available material, can also prevent further body heat loss. These improvised methods are essential skills in TCCC, enabling soldiers to provide effective hypothermia care even in resource-limited settings."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "hypothermia, injured person getting cold, keep injured person warm, hypothermia after injury or blood loss, hypothermia signs shivering confusion, stop shivering is bad, how to warm someone up, rewarming hypothermia, hypothermia wrap, space blanket emergency blanket, insulating from the ground, wet clothes and cold, cold casualty, preventing hypothermia, hypothermia first aid, body temperature dropping"
   },
   {
    "title": "Wounds, Pain and Splinting Assessment (ATP 4-02.11 Ch. 9)",
    "sections": [
     {
-     "heading": "Chapter 9",
-     "body": "Secondary Injury Assessment Using Pain, Antibiotics, Wounds, Splinting and Mechanism of Injury, Injury Type,"
-    },
-    {
      "heading": "Signs and Symptoms, and Treatments: OVERVIEW OF PAIN, ANTIBIOTICS, WOUNDS, AND SPLINTING AND MECHANISM OF INJURY, INJURY TYPE, SIGNS AND SYMPTOMS, AND TREATMENTS",
-     "body": "**Signs and Symptoms, and Treatments**\n\n9-1. As discussed in paragraph 3-96 on page 39, PAWS is the second part of the MARCH-PAWS casualty assessment and is conducted after the MARCH portion. The MIST reporting was introduced as a standard component of the MEDEVAC request during Operation Enduring Freedom in Afghanistan.\n\n9-2. While not officially part of the NATO and U.S. standard MEDEVAC request, MIST reporting has become customary in some operations. Often referred to as the 10th line in the 9-line MEDEVAC request, the completed DD Form 1380 serves as the MIST report. However, the high volume of casualties expected during large scale combat operations may make it challenging to complete MIST reporting for each casualty.\n\n9-3. The MIST report facilitates the transfer of medical information to the receiving health care provider by providing a structured approach to the casualty handoff. A MIST report delivers additional evacuation information that might be required by theater commanders and assists the receiving MTF in preparing for specific inbound casualties. However, transmitting a MIST report for each casualty during operations and mass casualty incidents may not always be timely or feasible."
+     "body": "**Chapter 9**\n\nSecondary Injury Assessment Using Pain, Antibiotics, Wounds, Splinting and Mechanism of Injury, Injury Type,\n\n**Signs and Symptoms, and Treatments**\n\n9-1. As discussed in paragraph 3-96 on page 39, PAWS is the second part of the MARCH-PAWS casualty assessment and is conducted after the MARCH portion. The MIST reporting was introduced as a standard component of the MEDEVAC request during Operation Enduring Freedom in Afghanistan.\n\n9-2. While not officially part of the NATO and U.S. standard MEDEVAC request, MIST reporting has become customary in some operations. Often referred to as the 10th line in the 9-line MEDEVAC request, the completed DD Form 1380 serves as the MIST report. However, the high volume of casualties expected during large scale combat operations may make it challenging to complete MIST reporting for each casualty.\n\n9-3. The MIST report facilitates the transfer of medical information to the receiving health care provider by providing a structured approach to the casualty handoff. A MIST report delivers additional evacuation information that might be required by theater commanders and assists the receiving MTF in preparing for specific inbound casualties. However, transmitting a MIST report for each casualty during operations and mass casualty incidents may not always be timely or feasible."
     },
     {
      "heading": "Signs and Symptoms, and Treatments: MANAGEMENT OF PAIN AND ANTIBIOTICS",
@@ -839,7 +804,8 @@
      "body": "from under the gauze to determine if bleeding has been controlled. When the bleeding has stopped, a new pressure bandage should be applied over the hemostatic dressing.\n\n9-19. Any previously untreated wounds should be dressed by applying (or packing) gauze with direct pressure. Non-life-threatening bleeding usually does not need hemostatic dressing. If dressings or gauze are not available, use clean, dry cloth such as torn clothing, or a cravat if available.\n\n9-20. Minor wounds include minor lacerations and abrasions, such as road rashes. Other wounds that may need to be dressed include major wounds that are no longer bleeding, such as:\n\n- Amputation stumps.\n\n- Gunshot wounds that required a TQ.\n\n- Major lacerations.\n\nShrapnel wounds, possibly with shrapnel still in place.\n\nImpaled objects.\n\n9-21. Applied pressure bandages must be continuously reassessed for:\n\nIncreased pain.\n\nSkin color.\n\nLoss of the pulse.\n\n9-22. If any of the above develops, it might indicate an emergency. Ensure that the applied bandage isn't too tight and loosen it as needed while keeping the bleeding controlled.\n\nNote. Pulses are reassessed after dressings are placed to ensure that they are not too tight. Do not ever apply a dressing and forget it!\n\nThis page intentionally left blank."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "wound care, treating a cut, deep cut what to do, pain management no doctor, pain medicine for injury, antibiotics for wound, wound infection signs, cleaning a wound, stitches needed, puncture wound, scrape treatment, laceration care, dressing a wound, wound types, bandaging a wound, when to use antibiotics, infected cut, pain relief, gunshot wound, wound assessment"
   },
   {
    "title": "Eye Injuries (ATP 4-02.11 Ch. 10)",
@@ -896,7 +862,8 @@
      "body": "10-54. There are several expedient skills that can be employed to provide immediate care for eye trauma.\n\nEye trauma should always be evaluated and treated by a qualified medical professional as soon as possible.\n\nThe following are some skills or techniques that may be used in the initial management of eye trauma:\n\nProtecting the eye: If there is a foreign object, such as debris or a penetrating object, near or embedded in the eye, it’s crucial to prevent further injury. Avoid touching or rubbing the eye, as this can exacerbate the damage. Place a protective shield or cup over the eye, if available, to prevent accidental contact.\n\nFlushing the eye: If there are chemicals or irritants in the eye, use immediate and gentle irrigation with clean water, or saline solution can help flush out the substance. Tilt the head to the side and pour a gentle stream of fluid over the eye from the inner corner to the outer corner. Use a clean container or a commercially available eye wash bottle.\n\nCovering injuries: If there is a cut or laceration around the eye, apply a sterile dressing or clean cloth to cover the wound. Avoid applying pressure directly on the eye. Secure the dressing in place with a bandage or adhesive tape.\n\nImmobilizing the eye: If there is a suspected or evident fracture of the eye socket or orbit, it may be necessary to immobilize the eye to prevent further injury. Place a protective shield or a cup over the eye and use a bandage or tape to secure it in position. This can help stabilize the injured area until medical attention is available.\n\n- Applying cold compresses: In cases of eye trauma accompanied by swelling or bruising, a cold compress can be applied gently over the closed eyelid. This can help reduce swelling and alleviate pain. Use a clean cloth or ice pack wrapped in a towel. Avoid placing ice directly on the skin.\n\n10-55. The above expedient skills are meant to provide initial first aid and should not replace professional medical care. The casualty should be evacuated as soon as possible to supporting MTF to ensure a thorough evaluation and appropriate treatment for eye trauma."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "eye injury, something in my eye, chemical in eye, flush eyes with water, cut eyelid, eye popped out, eyeball injury, cover both eyes, object stuck in eye, dont remove object from eye, eye burn, splashed bleach in eye, eye trauma first aid, blurry vision after hit to eye, foreign body in eye, eye patch"
   },
   {
    "title": "Head Injuries (ATP 4-02.11 Ch. 11)",
@@ -950,11 +917,7 @@
     },
     {
      "heading": "Head Injury: FIRST AID FOR HEAD INJURIES",
-     "body": "11-30. Provide direct manual stabilization of the head by placing your hands on each side of the casualty’s head, maintaining the position of the head in line with the body. Assess the casualty’s level of consciousness utilizing the alert, verbal, pain, and unresponsive (AVPU) method. AVPU is determined by asking—\n\nIs the casualty alert? A.\n\n- Does the casualty respond to verbal stimuli or commands? V.\n\n- Does the casualty respond to painful stimulus? P.\n\nIs the casualty unconscious? U.\n\n11-31. The casualty with a head injury (or suspected head injury) should be continually monitored for the development of conditions that may require basic lifesaving measures. After initiating first aid measures, request medical assistance and evacuation. If dedicated MEDEVAC assets are not available, transport the casualty to an MTF as soon as the situation permits. The first aid provider should not attempt to remove a protruding object from the head or give the casualty anything to eat or drink. Furthermore, the first aid provider should be prepared to— Clear the airway.\n\nControl bleeding (external).\n\n- Administer first aid measures for shock.\n\n- Keep the casualty warm. Protect the wound."
-    },
-    {
-     "heading": "Head Injury: Initiate Treatment for a Superficial Head Injury",
-     "body": "11-32. Provide first aid for a superficial head injury by—\n\n- Applying a dressing.\n\n- Observing for abnormal behavior or evidence of complications.\n\n- Documenting on the TCCC card."
+     "body": "11-30. Provide direct manual stabilization of the head by placing your hands on each side of the casualty’s head, maintaining the position of the head in line with the body. Assess the casualty’s level of consciousness utilizing the alert, verbal, pain, and unresponsive (AVPU) method. AVPU is determined by asking—\n\nIs the casualty alert? A.\n\n- Does the casualty respond to verbal stimuli or commands? V.\n\n- Does the casualty respond to painful stimulus? P.\n\nIs the casualty unconscious? U.\n\n11-31. The casualty with a head injury (or suspected head injury) should be continually monitored for the development of conditions that may require basic lifesaving measures. After initiating first aid measures, request medical assistance and evacuation. If dedicated MEDEVAC assets are not available, transport the casualty to an MTF as soon as the situation permits. The first aid provider should not attempt to remove a protruding object from the head or give the casualty anything to eat or drink. Furthermore, the first aid provider should be prepared to— Clear the airway.\n\nControl bleeding (external).\n\n- Administer first aid measures for shock.\n\n- Keep the casualty warm. Protect the wound.\n\n**Head Injury: Initiate Treatment for a Superficial Head Injury**\n\n11-32. Provide first aid for a superficial head injury by—\n\n- Applying a dressing.\n\n- Observing for abnormal behavior or evidence of complications.\n\n- Documenting on the TCCC card."
     },
     {
      "heading": "Head Injury: Head Injury Involving Trauma",
@@ -995,7 +958,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "hit head hard what to do, concussion signs, knocked out unconscious, head wound bleeding, skull fracture, blood from ear after head injury, broken nose, broken jaw, nosebleed wont stop, neck injury, facial injury, eye injury first aid, scalp cut, vomiting after hitting head, head injury when to worry, unconscious after fall, confused after hitting head, bump on head, ear injury, object in eye"
   },
   {
    "title": "Burns (ATP 4-02.11 Ch. 12)",
@@ -1042,14 +1006,11 @@
     },
     {
      "heading": "Burns: EXPEDIENT SKILLS USED FOR THE TREATMENT OF BURNS",
-     "body": "12-20. In emergency scenarios, especially in remote or combat zones, effectively managing burn injuries with limited resources is essential. Basic materials such as gauze bandage, clean clothing, and cravats can be used to cover burns and control bleeding. Cooling and cleaning burns should be done with available clean water, avoiding ice to prevent further skin damage. For thermal burns, it's crucial to remove the casualty from the heat source and cut away clothing gently around the burn area. In cases of electrical burns, disconnecting the power and using non-conductive materials to move the casualty is vital, while chemical burns require immediate decontamination by brushing off dry chemicals and flushing the area thoroughly with water.\n\n12-21. Preventing hypothermia is critical in burn care due to the high risk posed by skin damage. Using emergency blankets, reflective heat shields, or makeshift insulation from natural materials can help maintain body temperature. Pain management, when possible, should include safe administration of over-the-counter pain relievers, and continuous monitoring for shock is essential. These field expedient techniques are pivotal in stabilizing burn victims and preventing further injury until more advanced medical help can be accessed, underscoring the importance of training and preparedness in these emergency interventions."
-    },
-    {
-     "heading": "Burns: Burns",
-     "body": "This page intentionally left blank."
+     "body": "12-20. In emergency scenarios, especially in remote or combat zones, effectively managing burn injuries with limited resources is essential. Basic materials such as gauze bandage, clean clothing, and cravats can be used to cover burns and control bleeding. Cooling and cleaning burns should be done with available clean water, avoiding ice to prevent further skin damage. For thermal burns, it's crucial to remove the casualty from the heat source and cut away clothing gently around the burn area. In cases of electrical burns, disconnecting the power and using non-conductive materials to move the casualty is vital, while chemical burns require immediate decontamination by brushing off dry chemicals and flushing the area thoroughly with water.\n\n12-21. Preventing hypothermia is critical in burn care due to the high risk posed by skin damage. Using emergency blankets, reflective heat shields, or makeshift insulation from natural materials can help maintain body temperature. Pain management, when possible, should include safe administration of over-the-counter pain relievers, and continuous monitoring for shock is essential. These field expedient techniques are pivotal in stabilizing burn victims and preventing further injury until more advanced medical help can be accessed, underscoring the importance of training and preparedness in these emergency interventions.\n\n**Burns: Burns**\n\nThis page intentionally left blank."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "burn treatment, bad burn what to do, large burn on body, burn percentage body surface, rule of nines, burn dressing, cover a burn, burn fluid replacement, burns and dehydration, burn shock, inhalation burn smoke, airway burn, burned in house fire, blast burn, cool a burn, do not put ice on burn, burn blisters, burn infection, improvised burn dressing, second degree burn large area"
   },
   {
    "title": "Fractures and Splinting (ATP 4-02.11 Ch. 13)",
@@ -1064,11 +1025,7 @@
     },
     {
      "heading": "Fractures and Splinting: Bones",
-     "body": "13-4. Bones are the substance that forms the skeleton of the body. It is composed chiefly of calcium phosphate and calcium carbonate. The human body has 206 bones. There are 80 axial (head and trunk) bones and 126 appendicular (upper and lower extremity) bones. Bones provide structural support for the body.\n\nIndividual and groups of bones provide structure for the attachment of soft tissues and protect organs."
-    },
-    {
-     "heading": "Fractures and Splinting: Joints",
-     "body": "13-5. The human body's mobility hinges on its joints, where bones connect and facilitate movement. These pivotal junctures come in various forms, each serving distinct functions in enabling motion."
+     "body": "13-4. Bones are the substance that forms the skeleton of the body. It is composed chiefly of calcium phosphate and calcium carbonate. The human body has 206 bones. There are 80 axial (head and trunk) bones and 126 appendicular (upper and lower extremity) bones. Bones provide structural support for the body.\n\nIndividual and groups of bones provide structure for the attachment of soft tissues and protect organs.\n\n**Fractures and Splinting: Joints**\n\n13-5. The human body's mobility hinges on its joints, where bones connect and facilitate movement. These pivotal junctures come in various forms, each serving distinct functions in enabling motion."
     },
     {
      "heading": "Fractures and Splinting: Muscles",
@@ -1301,7 +1258,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "broken bone, broken arm, broken leg, how to splint, splinting a fracture, making a splint, broken bone no doctor, is it broken or sprained, improvised sling, arm sling, broken collarbone, broken jaw, neck injury dont move, spinal injury, open fracture bone sticking out, broken wrist, broken ankle, broken finger, immobilize a limb, splint materials, bone and joint injury, fracture types"
   },
   {
    "title": "Bites and Stings (ATP 4-02.11 Ch. 16)",
@@ -1444,7 +1402,8 @@
      "body": "16-83. Not all tick bites lead to the transmission of diseases, and most tick bites are harmless. If a Service member experiences any concerning symptoms or if you live in an area where tick-borne diseases are prevalent, seek medical attention for proper evaluation, diagnosis, and appropriate treatment.\n\nThis page intentionally left blank."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "snake bite, bitten by a snake, is this snake venomous, snake bite first aid, spider bite, scorpion sting, bee sting, wasp sting, fire ant bites, tick bite, remove a tick, centipede bite, jellyfish sting, stingray sting, dog bite, human bite, animal bite infection, bug bites and stings, bite swelling and pain, dont cut or suck snake bite, rattlesnake bite, copperhead bite, sea urchin sting"
   },
   {
    "title": "Heat, Cold and Environmental Injuries (ATP 4-02.11 Ch. 17)",
@@ -1458,12 +1417,8 @@
      "body": "interactions can help individuals make informed choices and take the necessary steps to protect their health and well-being in a climatic environment.\n\n**WARNING:** Service members should use extreme caution when starting fad diets or taking over-the-counter herbal supplements. Death and severe injury may occur in individuals using dietary or herbal supplements without medical monitoring."
     },
     {
-     "heading": "Climatic and Environmental Injuries: A trained health care provider should supervise weight loss and",
-     "body": "the use of weight loss supplements."
-    },
-    {
      "heading": "Climatic and Environmental Injuries: HEAT INJURIES",
-     "body": "17-5. Heat injury prevention is of utmost importance in the military, where Service members face intense physical challenges and operate in diverse climatic conditions. When the body gets overheated, it can lead to serious health risks and impair a Service member’s ability to perform their duties effectively. Heat-related injuries, such as heat exhaustion and heat stroke, can be prevented through various measures, including wearing appropriate clothing, taking regular rest breaks, acclimatization and fluid replacement. By prioritizing heat injury prevention, Leaders ensure the well-being and operational readiness of their personnel, allowing them to fulfill their responsibilities and accomplish their missions with strength and resilience.\n\n17-6. Exertional heat illness refers to a spectrum of heat-related conditions that occur when the body's core temperature rises excessively during physical activity or exercise. It is primarily caused by prolonged exertion in hot and humid environments, leading to an imbalance between heat production and heat dissipation.\n\nExertional heat illness encompasses various conditions ranging from mild heat exhaustion to severe heat stroke, which is a medical emergency. Symptoms of heat injuries may include:\n\nFatigue.\n\n- Dizziness.\n\n- Headache.\n\n- Nausea.\n\nExcessive sweating.\n\nRapid heartbeat.\n\nConfusion.\n\nLoss of consciousness in severe cases.\n\n17-7. Prompt recognition and treatment of exertional heat illness are essential to prevent complications and potentially life-threatening consequences. Effective prevention strategies, such as acclimatization, appropriate clothing, fluid replacement, and regular rest breaks, are crucial in minimizing the risk of exertional heat illness. For more information on heat illness refer to TB MED 507 and TC 4-02.3.\n\n17-8. While there is a range of adverse effects that can result from the body overheating, the two major kinds of heat illnesses that are referred to as heat casualties are heat exhaustion (can be mild or more severe) or heat stroke. Heat stroke is the most severe form of heat illness and possibly fatal.\n\nNote. For more information on heat illness prevention, refer to the Defense Centers for Public Health – Aberdeen website."
+     "body": "**Climatic and Environmental Injuries: A trained health care provider should supervise weight loss and**\n\nthe use of weight loss supplements.\n\n17-5. Heat injury prevention is of utmost importance in the military, where Service members face intense physical challenges and operate in diverse climatic conditions. When the body gets overheated, it can lead to serious health risks and impair a Service member’s ability to perform their duties effectively. Heat-related injuries, such as heat exhaustion and heat stroke, can be prevented through various measures, including wearing appropriate clothing, taking regular rest breaks, acclimatization and fluid replacement. By prioritizing heat injury prevention, Leaders ensure the well-being and operational readiness of their personnel, allowing them to fulfill their responsibilities and accomplish their missions with strength and resilience.\n\n17-6. Exertional heat illness refers to a spectrum of heat-related conditions that occur when the body's core temperature rises excessively during physical activity or exercise. It is primarily caused by prolonged exertion in hot and humid environments, leading to an imbalance between heat production and heat dissipation.\n\nExertional heat illness encompasses various conditions ranging from mild heat exhaustion to severe heat stroke, which is a medical emergency. Symptoms of heat injuries may include:\n\nFatigue.\n\n- Dizziness.\n\n- Headache.\n\n- Nausea.\n\nExcessive sweating.\n\nRapid heartbeat.\n\nConfusion.\n\nLoss of consciousness in severe cases.\n\n17-7. Prompt recognition and treatment of exertional heat illness are essential to prevent complications and potentially life-threatening consequences. Effective prevention strategies, such as acclimatization, appropriate clothing, fluid replacement, and regular rest breaks, are crucial in minimizing the risk of exertional heat illness. For more information on heat illness refer to TB MED 507 and TC 4-02.3.\n\n17-8. While there is a range of adverse effects that can result from the body overheating, the two major kinds of heat illnesses that are referred to as heat casualties are heat exhaustion (can be mild or more severe) or heat stroke. Heat stroke is the most severe form of heat illness and possibly fatal.\n\nNote. For more information on heat illness prevention, refer to the Defense Centers for Public Health – Aberdeen website."
     },
     {
      "heading": "Climatic and Environmental Injuries: HEAT EXHAUSTION",
@@ -1522,18 +1477,15 @@
      "body": "17-54. High-Altitude Cerebral Edema is a severe and life-threatening condition that can occur at high elevations, typically above 3,000 meters (9,800 feet). It involves swelling of the brain and can lead to neurological symptoms. Some general first aid measures for Service members experiencing HACE in mountainous terrain include:\n\nImmediate Descent. The most critical first aid measure for HACE is an immediate and rapid descent to lower altitudes. Descending to a lower elevation is essential to reduce the impact of high altitude on the brain.\n\nRest and Oxygen. Ensure the affected person rests and provide supplemental oxygen if available.\n\nOxygen therapy can help improve oxygen levels in the blood and alleviate neurological symptoms.\n\n- Keep Warm. Maintain the person's warmth using blankets and insulating layers. Cold temperatures\n\ncan worsen symptoms, so preventing hypothermia is important.\n\n- Hydration. Encourage the individual to drink fluids to stay hydrated. Dehydration can exacerbate\n\nthe condition, so maintaining adequate fluid intake is crucial.\n\n- Administer Medications (if available). In some cases, medications such as dexamethasone may be used to help manage HACE symptoms. Medical professionals should determine the use of medications, and access to such medications may be limited in remote mountainous areas.\n\n- Monitor Neurological Symptoms. Keep a close watch on the person's neurological symptoms. Signs of severe neurological impairment, such as confusion, loss of coordination, or changes in consciousness, require urgent medical attention. Evacuation. Seek evacuation to an MTF at a lower altitude as quickly as possible. HACE is a medical emergency, and professional medical help should be sought without delay. Reassure and calm. Keep the affected individual calm and reassure them. Stress and anxiety can exacerbate symptoms, so a supportive and calming environment is beneficial.\n\n17-55. HACE is a critical condition, and time is of the essence. While these first aid measures can provide initial assistance, medical assistance should be sought urgently. If HACE is suspected in a Service member, prioritize their safety by facilitating a rapid descent and seeking immediate medical attention.\n\nThis page intentionally left blank."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "frostbite what to do, hypothermia signs, too cold shivering, heat stroke, heat exhaustion, drank too much water hyponatremia, trench foot wet feet, chilblains itchy toes, snow blindness, altitude sickness, hape hace mountain, fingers white and numb, rewarming frozen skin, cold weather injuries, hot weather illness, high altitude headache, shaking from cold, body temperature too low, immersion foot, toes frozen"
   },
   {
    "title": "First Aid in Chemical, Biological and Radiological Incidents (ATP 4-02.11 Ch. 19)",
    "sections": [
     {
-     "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment",
-     "body": "**Chapter 19**\n\nGENERAL INFORMATION FOR FIRST AID IN A CHEMICAL,"
-    },
-    {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: BIOLOGICAL, RADIOLOGICAL, AND NUCLEAR ENVIRONMENT",
-     "body": "19-1. Planning for large-scale combat operations must account for possible operations in a CBRN environment and allied response options. The threat of CBRN hazards can rapidly degrade unit effectiveness by forcing troops to wear protective clothing and by creating confusion and fear. Through training in CBRN protective and preventive procedures and first aid, units can maintain the desired level of combat effectiveness to meet mission requirements.\n\n19-2. Because of the differences in presentation for CBRN casualties, specific triage and treatment recommendations along with evacuation priority considerations are addressed in the CPGs located on the deployed medicine website.\n\n19-3. CBRN exposure is an enemy attack, and security will be the first priority to be coordinated. Triage for a CBRN event follows established triage principles, including doing the best for most people. Because of the complexity of combining CBRN and trauma casualties, it may be beneficial to assign experienced medical personnel to triage. Triage occurs for decontamination, for medical treatment, and for evacuation. Although assigning casualties to ambulatory vs. non-ambulatory decontamination lanes is a method of sorting, the optimal triage for decontamination determines who can tolerate delays in decontamination.\n\n19-4. Decontamination triage may be based on extent of exposure and not on initial symptoms, as symptoms may be delayed. Those with greater exposure may benefit from rapid decontamination to increase their survivability and thus reduce the future burden on medical resources. Once decontaminated, patients are triaged according to medical priority. Decontamination is a medical intervention (it minimizes or eliminates the conversion of an external dose to an internal dose). Any casualty within an area suspected to contain a liquid chemical agent is automatically medically triaged as immediate until immediate decontamination has been accomplished. The casualty is then re-triaged. Except for blister agent casualties, those exposed only to vapor can tolerate delays in decontamination or may not even require thorough decontamination.\n\n19-5. It is important to frequently reassess patients. Because many CBRN hazards have delayed symptoms, a casualty initially assessed to be minimal may become immediate as the hazard presents itself and process of decontamination can significantly change the casualty status. Additionally, actions during decontamination can significantly change the casualty status. It is critically important to monitor hypothermia, disruption of previously controlled bleeding, and other changes in casualty status that would change triage priority."
+     "body": "**Chapter 19**\n\nGENERAL INFORMATION FOR FIRST AID IN A CHEMICAL,\n\n19-1. Planning for large-scale combat operations must account for possible operations in a CBRN environment and allied response options. The threat of CBRN hazards can rapidly degrade unit effectiveness by forcing troops to wear protective clothing and by creating confusion and fear. Through training in CBRN protective and preventive procedures and first aid, units can maintain the desired level of combat effectiveness to meet mission requirements.\n\n19-2. Because of the differences in presentation for CBRN casualties, specific triage and treatment recommendations along with evacuation priority considerations are addressed in the CPGs located on the deployed medicine website.\n\n19-3. CBRN exposure is an enemy attack, and security will be the first priority to be coordinated. Triage for a CBRN event follows established triage principles, including doing the best for most people. Because of the complexity of combining CBRN and trauma casualties, it may be beneficial to assign experienced medical personnel to triage. Triage occurs for decontamination, for medical treatment, and for evacuation. Although assigning casualties to ambulatory vs. non-ambulatory decontamination lanes is a method of sorting, the optimal triage for decontamination determines who can tolerate delays in decontamination.\n\n19-4. Decontamination triage may be based on extent of exposure and not on initial symptoms, as symptoms may be delayed. Those with greater exposure may benefit from rapid decontamination to increase their survivability and thus reduce the future burden on medical resources. Once decontaminated, patients are triaged according to medical priority. Decontamination is a medical intervention (it minimizes or eliminates the conversion of an external dose to an internal dose). Any casualty within an area suspected to contain a liquid chemical agent is automatically medically triaged as immediate until immediate decontamination has been accomplished. The casualty is then re-triaged. Except for blister agent casualties, those exposed only to vapor can tolerate delays in decontamination or may not even require thorough decontamination.\n\n19-5. It is important to frequently reassess patients. Because many CBRN hazards have delayed symptoms, a casualty initially assessed to be minimal may become immediate as the hazard presents itself and process of decontamination can significantly change the casualty status. Additionally, actions during decontamination can significantly change the casualty status. It is critically important to monitor hypothermia, disruption of previously controlled bleeding, and other changes in casualty status that would change triage priority."
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: CLASSIFICATION OF CHEMICAL AND BIOLOGICAL AGENTS (part 1)",
@@ -1692,15 +1644,7 @@
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Self-Aid for Choking Agents",
-     "body": "19-65. The protective mask should be put on immediately when any of the conditions described above exist.\n\nAnother indication of a phosgene attack is an odor like newly mown hay; however, DO NOT rely upon odor as indication of a chemical attack.\n\n19-66. If some phosgene is inhaled, normal combat duties should be continued unless there is difficulty in breathing, nausea, vomiting, or more than the usual shortness of breath during exertion. If any of the above symptoms occur and the mission permits, remain at quiet rest until MEDEVAC is accomplished."
-    },
-    {
-     "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Death from Choking Agents",
-     "body": "19-67. With ordinary field exposure to choking agents, death will probably not occur. However, prolonged exposure to high concentrations of the vapor and neglect, or delay in masking can be fatal."
-    },
-    {
-     "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Cyanogen (Blood) Agents",
-     "body": "19-68. Cyanogen agents interfere with proper oxygen utilization in the body. Hydrogen cyanide (AC) and cyanogen chloride are the primary agents in this group."
+     "body": "19-65. The protective mask should be put on immediately when any of the conditions described above exist.\n\nAnother indication of a phosgene attack is an odor like newly mown hay; however, DO NOT rely upon odor as indication of a chemical attack.\n\n19-66. If some phosgene is inhaled, normal combat duties should be continued unless there is difficulty in breathing, nausea, vomiting, or more than the usual shortness of breath during exertion. If any of the above symptoms occur and the mission permits, remain at quiet rest until MEDEVAC is accomplished.\n\n**First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Death from Choking Agents**\n\n19-67. With ordinary field exposure to choking agents, death will probably not occur. However, prolonged exposure to high concentrations of the vapor and neglect, or delay in masking can be fatal.\n\n**First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Cyanogen (Blood) Agents**\n\n19-68. Cyanogen agents interfere with proper oxygen utilization in the body. Hydrogen cyanide (AC) and cyanogen chloride are the primary agents in this group."
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Protective Measures for Cyanogen Agents",
@@ -1720,11 +1664,7 @@
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: INCAPACITATING AGENTS",
-     "body": "19-74. An incapacitating agent is a chemical agent that produces temporary, disabling conditions, which persist for hours to days after exposure. Unlike riot control agents, which usually are momentary or fleeting in action, incapacitating agents have a persistent effect. It is likely that smoke-producing munitions or aerosols will disseminate such agents, thus making breathing their means of entry into the body. The protective mask is, therefore, essential.\n\n19-75. There are no specific first aid measures to relieve the symptoms of incapacitating agents. Supportive first aid and physical restraint may be indicated. If the casualty is stuporous or comatose, be sure that respiration is unobstructed; then turn them on their side in case vomiting should occur. Complete cleansing of the skin with soap and water, this should be done as soon as possible; or RSDL can be used if washing is impossible. Remove weapons and other potentially harmful items from Service members who are suspected of having these symptoms. Harmful items include cigarettes, matches, medications, and small items that might be swallowed accidentally. Delirious (confused) persons have been known to attempt to eat items bearing only a superficial resemblance to food.\n\n19-76. Incapacitating agents (anticholinergic drugs BZ type) may produce alarming dryness and coating of the lips and tongue; however, there is usually no danger of immediate dehydration. Fluids should be given sparingly, if at all, because of the danger of vomiting and because of the likelihood of temporary urinary retention due to paralysis of bladder muscles.\n\n19-77. Immediate and vigorous cooling of the casualties is indicated if the body temperature is elevated and mucous membranes are dry, (as for heatstroke). The casualty can be cooled by spraying them with cool water and fanning; applying alcohol-soaked cloths and air circulation; and providing maximum exposure to air in a shaded area, along with maximum air circulation. Such cases are usually a result of anticholinergic poisoning.\n\n**CAUTION:** DO NOT use ice for cooling the skin.\n\n19-78. Rapid evacuation should be accomplished since medical treatment with the appropriate medication may be lifesaving. Reassurance and a firm, but friendly, attitude by individuals providing first aid will be beneficial if the casualty appears to comprehend what is being said. Conversation is a waste of time if the Service member is incoherent or cannot understand what is being said. In such cases, the less said, the better it is. These casualties will benefit more from prompt and vigorous restraint and evacuation to an MTF."
-    },
-    {
-     "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: INCENDIARIES",
-     "body": "19-79. Incendiaries can be grouped as white phosphorus (WP), thickened gasoline, metal, and oil and metal.\n\nYou must learn to protect yourself against these incendiaries."
+     "body": "19-74. An incapacitating agent is a chemical agent that produces temporary, disabling conditions, which persist for hours to days after exposure. Unlike riot control agents, which usually are momentary or fleeting in action, incapacitating agents have a persistent effect. It is likely that smoke-producing munitions or aerosols will disseminate such agents, thus making breathing their means of entry into the body. The protective mask is, therefore, essential.\n\n19-75. There are no specific first aid measures to relieve the symptoms of incapacitating agents. Supportive first aid and physical restraint may be indicated. If the casualty is stuporous or comatose, be sure that respiration is unobstructed; then turn them on their side in case vomiting should occur. Complete cleansing of the skin with soap and water, this should be done as soon as possible; or RSDL can be used if washing is impossible. Remove weapons and other potentially harmful items from Service members who are suspected of having these symptoms. Harmful items include cigarettes, matches, medications, and small items that might be swallowed accidentally. Delirious (confused) persons have been known to attempt to eat items bearing only a superficial resemblance to food.\n\n19-76. Incapacitating agents (anticholinergic drugs BZ type) may produce alarming dryness and coating of the lips and tongue; however, there is usually no danger of immediate dehydration. Fluids should be given sparingly, if at all, because of the danger of vomiting and because of the likelihood of temporary urinary retention due to paralysis of bladder muscles.\n\n19-77. Immediate and vigorous cooling of the casualties is indicated if the body temperature is elevated and mucous membranes are dry, (as for heatstroke). The casualty can be cooled by spraying them with cool water and fanning; applying alcohol-soaked cloths and air circulation; and providing maximum exposure to air in a shaded area, along with maximum air circulation. Such cases are usually a result of anticholinergic poisoning.\n\n**CAUTION:** DO NOT use ice for cooling the skin.\n\n19-78. Rapid evacuation should be accomplished since medical treatment with the appropriate medication may be lifesaving. Reassurance and a firm, but friendly, attitude by individuals providing first aid will be beneficial if the casualty appears to comprehend what is being said. Conversation is a waste of time if the Service member is incoherent or cannot understand what is being said. In such cases, the less said, the better it is. These casualties will benefit more from prompt and vigorous restraint and evacuation to an MTF.\n\n**First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: INCENDIARIES**\n\n19-79. Incendiaries can be grouped as white phosphorus (WP), thickened gasoline, metal, and oil and metal.\n\nYou must learn to protect yourself against these incendiaries."
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: White Phosphorus",
@@ -1756,18 +1696,15 @@
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Self-Aid of Toxin Poisoning",
-     "body": "19-92. Upon recognition of an attack employing toxins, you must immediately take the following actions:\n\nStop breathing, put on your protective mask with hood, and then resume breathing. Next, put on your protective ensemble.\n\nShould itching of the face become severe or unbearable, quickly— Loosen the cap in your canteen or valve on your water source.\n\nTake and hold a deep breath and lift your mask.\n\n- While holding your breath, close your eyes and flush your face with generous amounts of water.\n\n**CAUTION:** DO NOT rub or scratch your eyes. Try not to let the water run onto your clothing or protective over garment.\n\nPut your protective mask back on, seat it properly, clear it, and check it for a seal; then resume breathing.\n\n- Decontaminate your skin by bathing with soap and water as soon as the mission permits.\n\nChange clothing and decontaminate your protective mask using soap and water. Replace the filters if directed.\n\n19-93. If vomiting occurs, the mask should be lifted momentarily and drained. While doing this, keep your eyes closed, and hold your breath. The mask is then replaced, cleared, and sealed."
-    },
-    {
-     "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Medical Assistance for Toxin Poisoning",
-     "body": "19-94. If you think you might have been exposed to harmful substances, it's important to get medical help right away. Seeing a doctor quickly can ensure you get the care you need."
+     "body": "19-92. Upon recognition of an attack employing toxins, you must immediately take the following actions:\n\nStop breathing, put on your protective mask with hood, and then resume breathing. Next, put on your protective ensemble.\n\nShould itching of the face become severe or unbearable, quickly— Loosen the cap in your canteen or valve on your water source.\n\nTake and hold a deep breath and lift your mask.\n\n- While holding your breath, close your eyes and flush your face with generous amounts of water.\n\n**CAUTION:** DO NOT rub or scratch your eyes. Try not to let the water run onto your clothing or protective over garment.\n\nPut your protective mask back on, seat it properly, clear it, and check it for a seal; then resume breathing.\n\n- Decontaminate your skin by bathing with soap and water as soon as the mission permits.\n\nChange clothing and decontaminate your protective mask using soap and water. Replace the filters if directed.\n\n19-93. If vomiting occurs, the mask should be lifted momentarily and drained. While doing this, keep your eyes closed, and hold your breath. The mask is then replaced, cleared, and sealed.\n\n**First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: Medical Assistance for Toxin Poisoning**\n\n19-94. If you think you might have been exposed to harmful substances, it's important to get medical help right away. Seeing a doctor quickly can ensure you get the care you need."
     },
     {
      "heading": "First Aid in a Chemical, Biological, Radiological, and Nuclear Environment: FIRST AID IN A RADIOLOGICAL AND NUCLEAR ENVIRONMENT",
      "body": "19-95. Three types of injuries may result from nuclear detonation. These are thermal, blast, and radiation injuries. Many times, the casualty will have a combination of these types of injuries. First aid for thermal and blast injuries is provided based on observable injuries, such as burns, hemorrhage, or fractures.\n\n19-96. The signs and symptoms of radiation illness in the initial phase include the rapid onset of nausea, vomiting, and malaise (tiredness) with first aid measures focused on those observable symptoms and decontamination. If radioactive iodine is released, Service members may be directed to take potassium iodide from the initial issue medical CBRN defense materiel. Potassium iodide is only effective if taken within four hours before or after exposure to radiation from a nuclear or radiological incident. For additional information on first aid in a radiological and nuclear environment see paragraph 1-85 on page 16 or refer to DODM 3150.8, JP 3-11, or ATP 4-02.83."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "nerve agent exposure, chemical attack first aid, chemical weapon symptoms, atropine injector, nerve agent antidote, mustard gas blister agent, blister agent on skin, choking agent chlorine, cyanide poisoning, decontaminate skin from chemical, radiation exposure first aid, radiation sickness, biological attack what to do, anthrax exposure, contaminated clothing remove, first aid in a gas mask, chemical exposure eyes burning, pinpoint pupils drooling twitching, treating casualties after chemical attack, dirty bomb first aid"
   },
   {
    "title": "Stress and Psychological First Aid (ATP 4-02.11 Ch. 20)",
@@ -1874,7 +1811,8 @@
      "body": "20-39. The Acknowledge, Care, and Escort framework underscores the importance of timely intervention and the need to connect distressed Service members with suitable resources. It offers a practical guide for those who may lack extensive mental health training but are committed to assisting their colleagues.\n\n20-40. The Acknowledge, Care, and Escort approach is a preliminary measure and does not substitute for professional mental health evaluation and treatment. Involving mental health professionals is crucial for a comprehensive assessment and care of Service members experiencing COSRs, ensuring they receive the full spectrum of necessary support."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "stress after disaster, panic attack, cant sleep after trauma, someone freaking out, calming someone down, psychological first aid, shock after traumatic event, emotional breakdown, PTSD symptoms, anxiety during emergency, helping someone cope, grief support, mental health crisis, stress reactions, feeling numb after disaster, talk to someone upset, nightmares and flashbacks, exhaustion and stress"
   },
   {
    "title": "First Aid Kit Contents (ATP 4-02.11 App. A)",
@@ -1896,7 +1834,7 @@
     },
     {
      "heading": "First Aid Case and Kits, Authorized Medical Allowance List: ARMY INDIVIDUAL FIRST AID KIT",
-     "body": "A-4. The IFAK Generation I is issued to every Soldier at a Central Issue Facility for administering immediate self-aid and buddy aid. Every Solder must be trained in the use of all contents of the IFAK. The IFAK does not contain a needle or Angio catheter for NDC. See figure A-1 on page 218 and table A-2 on page 218.\n\n{{img:0}}\n\n{{img:1}}\n\nA-5. This IFAK includes two Combat Application TQs, which are stored in pouches that attach to the kit bag. The Generation II IFAK also contains a vented chest seal and eye shield. The Generation II IFAK is like the JFAK. Designers added DD Form 1380, June 2014, a permanent marker, and strap cutter. The kit weighs one pound and contains expendable medical items. See figure A-2 on page 219 and table A-3 on page 219.",
+     "body": "A-4. The IFAK Generation I is issued to every Soldier at a Central Issue Facility for administering immediate self-aid and buddy aid. Every Solder must be trained in the use of all contents of the IFAK. The IFAK does not contain a needle or Angio catheter for NDC. See figure A-1 on page 218 and table A-2 on page 218.\n\n{{img:0}}\n\n{{img:1}}\n\nA-5. This IFAK includes two Combat Application TQs, which are stored in pouches that attach to the kit bag. The Generation II IFAK also contains a vented chest seal and eye shield. The Generation II IFAK is like the JFAK. Designers added DD Form 1380, June 2014, a permanent marker, and strap cutter. The kit weighs one pound and contains expendable medical items. See figure A-2 on page 219 and table A-3 on page 219.\n\n**First Aid Case and Kits, Authorized Medical Allowance List: First Aid Case and Kits, Authorized Medical Allowance List**\n\n{{img:2}}\n\n{{img:3}}\n\nA-6. Due to constant changes, see the United States Army Medical Materiel Agency website for more information and updates on the IFAK, IFAK II, and their contents.",
      "images": [
       {
        "asset": "assets/packs/images/first-aid--25-first-aid-kit--fig-a-1.webp",
@@ -1907,13 +1845,7 @@
        "asset": "assets/packs/images/first-aid--25-first-aid-kit--tab-a-2.webp",
        "caption": "Table A-2. Individual First Aid Kit Generation I Contents",
        "kind": "table"
-      }
-     ]
-    },
-    {
-     "heading": "First Aid Case and Kits, Authorized Medical Allowance List: First Aid Case and Kits, Authorized Medical Allowance List",
-     "body": "{{img:0}}\n\n{{img:1}}\n\nA-6. Due to constant changes, see the United States Army Medical Materiel Agency website for more information and updates on the IFAK, IFAK II, and their contents.",
-     "images": [
+      },
       {
        "asset": "assets/packs/images/first-aid--25-first-aid-kit--fig-a-2.webp",
        "caption": "Figure A-2. Individual First Aid Kit, Generation II",
@@ -1928,7 +1860,7 @@
     },
     {
      "heading": "First Aid Case and Kits, Authorized Medical Allowance List: ARMY COMBAT LIFESAVER BAG",
-     "body": "A-7. The U.S. Army CLS carries a small aid bag, also classified as a medical equipment set (MES). It contains supplies for controlling bleeding, relieving tension pneumothorax, and performing other procedures.\n\nThe CLS bag authorization is contained in CTA 8-100, with unit basis of issue plan of one per: squad, crew, team as determined by the unit commander. For a current listing of the supplies found in the MES refer to the Army Medical Logistics Command website on the Medical Materiel Information Portal tab, which is managed by United States Army Medical Materiel Agency. The prescribed packing list can be located under unit assemblage code (UAC) 245# nomenclature of MES CLS. The # in the UAC code is a place holder as the last character is changed as the assemblage list is updated. At the time of publication, the current version of the MES CLS is UAC 245C. Table A-4 on page 220 is the listing of supplies for the MES CLS with UAC\n\n245C. The most recent and active assemblage list should be used when inventorying and packing the MES CLS.\n\n{{img:0}}",
+     "body": "A-7. The U.S. Army CLS carries a small aid bag, also classified as a medical equipment set (MES). It contains supplies for controlling bleeding, relieving tension pneumothorax, and performing other procedures.\n\nThe CLS bag authorization is contained in CTA 8-100, with unit basis of issue plan of one per: squad, crew, team as determined by the unit commander. For a current listing of the supplies found in the MES refer to the Army Medical Logistics Command website on the Medical Materiel Information Portal tab, which is managed by United States Army Medical Materiel Agency. The prescribed packing list can be located under unit assemblage code (UAC) 245# nomenclature of MES CLS. The # in the UAC code is a place holder as the last character is changed as the assemblage list is updated. At the time of publication, the current version of the MES CLS is UAC 245C. Table A-4 on page 220 is the listing of supplies for the MES CLS with UAC\n\n245C. The most recent and active assemblage list should be used when inventorying and packing the MES CLS.\n\n{{img:0}}\n\n**First Aid Case and Kits, Authorized Medical Allowance List: FIRST AID CASE AND KITS, AUTHORIZED MEDICAL**\n\n**First Aid Case and Kits, Authorized Medical Allowance List: First Aid Case and Kits, Authorized Medical Allowance List**\n\nALLOWANCE LIST FOR FIRST AID CASE AND KITS,",
      "images": [
       {
        "asset": "assets/packs/images/first-aid--25-first-aid-kit--tab-a-4.webp",
@@ -1936,10 +1868,6 @@
        "kind": "table"
       }
      ]
-    },
-    {
-     "heading": "First Aid Case and Kits, Authorized Medical Allowance List: FIRST AID CASE AND KITS, AUTHORIZED MEDICAL",
-     "body": "**First Aid Case and Kits, Authorized Medical Allowance List: First Aid Case and Kits, Authorized Medical Allowance List**\n\nALLOWANCE LIST FOR FIRST AID CASE AND KITS,"
     },
     {
      "heading": "First Aid Case and Kits, Authorized Medical Allowance List: AUTHORIZED MEDICAL ALLOWANCE LIST FOR UNITED STATES MARINE CORPS",
@@ -1961,7 +1889,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf",
+   "aliases": "first aid kit contents, what goes in a first aid kit, medical kit checklist, army first aid kit list, supplies for a trauma kit, tourniquet bandage list, first aid kit packing list, what medical supplies to stock, build a medical kit, IFAK contents, trauma kit list, combat first aid kit"
   }
  ]
 }

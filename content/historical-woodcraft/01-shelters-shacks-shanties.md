@@ -1,5 +1,6 @@
 # Shelters, Shacks and Shanties (D. C. Beard, 1914)
 Source: https://www.gutenberg.org/ebooks/28255
+Aliases: build a lean to, how to build a log cabin, bark shelter, wilderness shelter building, adirondack shelter, wigwam build, teepee how to build, brush shelter, debris hut, fallen tree shelter, birch bark shack, sod house, navajo hogan, build a hut in woods, primitive shelter, pine bough bed, tar paper shack, how to notch logs, log cabin roof, bushcraft shelter, half cave shelter, make a bed from branches, shelter without tent, cabin door and windows, build a chimney
 
 ## FOREWORD
 As this book is written for boys of all ages, it has been divided under two general heads, "The Tomahawk Camps" and "The Axe Camps," that is, camps which may be built with no tool but a hatchet, and camps that will need the aid of an axe.

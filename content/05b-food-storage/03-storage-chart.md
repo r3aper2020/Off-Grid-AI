@@ -1,5 +1,6 @@
 # Refrigerator & Freezer Storage Chart (FDA, 2018)
 Source: https://www.fda.gov/media/74435/download
+Aliases: how long does food last in fridge, how long can meat be frozen, fridge storage times, freezer storage chart, how long are eggs good, leftovers how long, chicken in fridge how long, when does food go bad, lunch meat shelf life, how long to keep cooked food, frozen food shelf life, fridge food expiration, ground beef in fridge, fish freezer time, how long is milk good
 
 ## REFRIGERATOR & FREEZER STORAGE CHART
 These short but safe time limits will help keep refrigerated food 40° F (4° C) from spoiling or becoming dangerous.

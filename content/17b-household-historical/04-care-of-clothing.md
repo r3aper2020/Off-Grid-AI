@@ -1,5 +1,6 @@
 # Care, Cleaning and Repair of Clothing (K. H. Watson, Textiles and Clothing, 1907)
 Source: https://www.gutenberg.org/ebooks/21534
+Aliases: removing stains, blood stains, ink stains, grease stains, rust stains, fruit stains, wine stains, mending clothes, repairing clothes, patching pants, lengthening clothes, storing clothes, folding clothes, cleaning velvet, mending kit, darning socks, sewing repairs, extend hem, clothing care, stain removal, laundry and repairs
 
 ## Care Of Clothing
 Ruskin says, "Clothes carefully cared for and rightly worn, show a balance of mind and self respect."

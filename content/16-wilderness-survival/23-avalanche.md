@@ -1,5 +1,6 @@
 # Avalanche Safety and Rescue (TC 3-97.61 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: avalanche, avalanche safety, avalanche danger signs, snowpack, slab avalanche, wet avalanche, loose snow avalanche, cornice, avalanche terrain, terrain traps, avalanche forecast, danger scale, what triggers an avalanche, avalanche rescue, buried in avalanche, avalanche beacon, transceiver search, avalanche probe, shovel dig out, how to find someone in avalanche, surviving an avalanche, backcountry skiing safety, snow slope danger, avalanche risk, crossing avalanche slope
 
 ## Avalanche
 **Chapter 5**

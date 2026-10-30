@@ -1,5 +1,7 @@
 # General Mobile Radio Service (47 CFR Part 95 Subpart E, eCFR as of 2026-10-27)
 Source: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-E
+Aliases: GMRS, GMRS license, do I need a license for GMRS, FRS vs GMRS, walkie talkie license, GMRS channels, GMRS frequencies, GMRS power limit, GMRS repeater, family radio license, GMRS rules, GMRS for family, kids use GMRS, GMRS prohibited uses, GMRS range, GMRS radios legal, GMRS tone codes, GMRS network linking, buying a GMRS radio, two way radio rules, GMRS license cost family
+Chat: library-only
 
 ## Subpart E—General Mobile Radio Service: § 95.1703 Definitions, GMRS.
 General Mobile Radio Service (GMRS). A mobile two-way voice communication service, with limited data applications, for facilitating activities of individual licensees and their family members, including, but not limited to, voluntary provision of assistance to the public during emergencies and natural disasters.

@@ -1,5 +1,6 @@
 # If You Get Lost (USDA Forest Service)
 Source: https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost
+Aliases: lost in the woods, what to do when lost, I am lost hiking, getting found, stay put when lost, STOP when lost, self rescue, lost on a trail, signal for help lost, how to get rescued, lost hiker tips, lost in forest what to do, dont panic when lost, stay or move when lost, find your way back, leave a trip plan, lost without a map, lost and its getting dark
 
 ## If you get lost: plan, stop, think, observe, plan
 The best tool needed for survival in the event you get lost outdoors is your skill of advanced planning. You must expect the unexpected and plan accordingly. Even if you are going out for just a few hours, pack enough essentials that you can stay hydrated, fueled and prepared for any type of weather.

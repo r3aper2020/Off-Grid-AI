@@ -1,5 +1,6 @@
 # Household Chemical Emergencies (Ready.gov)
 Source: https://www.ready.gov/household-chemical-emergencies
+Aliases: household chemical spill, mixed bleach and ammonia, chemical fumes in house, storing chemicals safely, poison control, chemical burn, swallowed a chemical, chemical in eyes, chemical smell at home, chemical emergency, cleaning products poisoning, propane leak, gas leak in home, kid drank cleaner, pesticide exposure, chemical fire, dispose of chemicals
 
 ## Overview
 Nearly every household uses products containing hazardous materials or chemicals. Knowing how to handle these products can reduce the risk of injury.

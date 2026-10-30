@@ -1,5 +1,6 @@
 # Hoists, Blocks and Tackle (TM 3-34.86 Ch. 3)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x86.pdf
+Aliases: block and tackle, how to rig a pulley, lifting heavy objects with rope, chain hoist, how much can a chain hold, rope sling for lifting, pulley mechanical advantage, snatch block, choker hitch, basket hitch, hooks and chains strength, lifting a car engine, rigging for lifting, moving heavy things alone, rope pulley system, mousing a hook, sling angles load, reeving blocks, tackle systems, inspect chains and hooks, lift a log with pulleys, come along winch, lift heavy without machine
 
 ## Hoists: SECTION I - CHAINS AND HOOKS
 **Chapter 3**

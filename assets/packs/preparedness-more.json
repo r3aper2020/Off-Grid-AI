@@ -4,7 +4,7 @@
  "id": "preparedness-more",
  "title": "Money, Home Fire, Grid & Personal Security Preparedness",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "Ready.gov and U.S. Fire Administration (FEMA), CISA, and the Consumer Financial Protection Bureau",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Financial preparedness and the documents to keep, recovering after a disaster, shutting off gas, water and electricity, home fire escape plans and smoke alarms, fire risks from candles, batteries and severe weather, space weather (geomagnetic storms) and cyberattacks on the grid, Run-Hide-Fight at mass gatherings, home and personal security and situational awareness, planning by location (school, work, high-rise, car), low-cost preparedness, and preparing children.",
@@ -27,22 +27,15 @@
      "body": "The Emergency Financial First Aid Kit (EFFAK), a joint publication from Operation HOPE and FEMA, can help you prepare financially and provides tips to reduce the financial impact of disasters on you and your family.\n\nFor Organizations\n\nEncourage people throughout your organization or workplace to prepare financially. Here are some ideas to promote financial preparedness in your organization:\n\n- Hold a brown bag meeting.\n- Make a presentation at an existing staff meeting using Safeguard Critical Documents and Valuables to support your discussion.\n- Include financial preparedness information in the staff monthly newsletter.\n\nAt Home\n\nStore important documents either in a safety deposit box, an external drive or on the cloud to make it easy to access during a disaster.\n\nTake time now to safeguard these critical documents. Be cautious about sharing personal financial information, such as your bank account number, social security number, or credit card number.\n\nHousehold Identification\n\n- Photo ID (to prove identity of household members)\n- Birth certificate (to maintain or re-establish contact with family members)\n- Social Security card (to apply for FEMA disaster assistance)\n- Military service\n- Pet ID tags\n\nFinancial and Legal Documentation\n\n- Housing payments (to identify financial records and obligations)\n- Some individuals and households may experience financial difficulty because of the pandemic. If you do not think you can pay your loan payments on time, immediately contact your bank and discuss your options before skipping any payments or taking any other actions contrary to the terms of your loans.\n- Insurance policies (to re-establish financial accounts)\n- Sources of income (to maintain payments and credit)\n- Tax statements (to provide contact information for financial and legal providers and to apply for FEMA disaster assistance)\n\nMedical Information\n\n- Physician information (in case medical care is needed)\n- Copies of health insurance information (to make sure existing care continues uninterrupted)\n- Immunization records\n- Medications\n\nInsurance Information\n\nHaving insurance for your home or business property is the best way to make sure you will have the necessary financial resources to help you repair, rebuild or replace whatever is damaged. Document and insure your property now.\n\nHousehold Contact Information\n\n- Banking institutions\n- Insurance agents\n- Health professionals\n- Service providers\n- Place of worship\n\nGet Your Benefits Electronically\n\nA disaster can disrupt mail service for days or weeks. If you depend on Social Security or other regular benefits, switching to electronic payments is a simple, significant way to protect yourself financially before disaster strikes. It also eliminates the risk of stolen checks. The U.S. Department of the Treasury recommends two safer ways to get federal benefits:\n\n- Direct deposit to a checking or savings account. If you get federal benefits you can sign up by calling 800-333-1795 or sign up online.\n- The Direct Express® prepaid debit card is designed as a safe and easy alternative to paper.\n\nApply for government-funded unemployment, healthcare, and food and nutrition benefits to supplement your income or savings.\n\nConsider using online and mobile banking services, if you are able. These services enable you to practice social distancing and conduct banking transactions at the same time."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/financial-preparedness"
+   "sourceUrl": "https://www.ready.gov/financial-preparedness",
+   "aliases": "emergency cash, financial preparedness, important documents, emergency fund, money during disaster, documents to keep safe, insurance papers, financial first aid kit, cash when power out, protect financial records, copies of documents, emergency savings, paying bills after disaster, financial recovery, bank records disaster"
   },
   {
    "title": "Your Disaster Checklist: Protect Your Personal Finances (CFPB)",
    "sections": [
     {
-     "heading": "Your disaster checklist",
-     "body": "Consumer Financial Protection Bureau\n\nBe prepared:"
-    },
-    {
      "heading": "Protect your personal finances: If you had to leave your home in an emergency, you would have only minutes to choose what stays and what goes, and your financial records may be",
-     "body": "**Protect your personal finances**\n\none of the last things on your mind.\n\nCollecting, copying, and storing your financial information now could help you avoid problems and recover faster after a disaster. This checklist can help. Use it to make sure you have the information and documents you need. Then, keep it with your important documents so you can refer to it when needed."
-    },
-    {
-     "heading": "Account numbers",
-     "body": "Use the sample table on the right, or a separate piece of paper, to organize your account and customer service numbers."
+     "body": "**Your disaster checklist**\n\nConsumer Financial Protection Bureau\n\nBe prepared:\n\n**Protect your personal finances**\n\none of the last things on your mind.\n\nCollecting, copying, and storing your financial information now could help you avoid problems and recover faster after a disaster. This checklist can help. Use it to make sure you have the information and documents you need. Then, keep it with your important documents so you can refer to it when needed.\n\n**Account numbers**\n\nUse the sample table on the right, or a separate piece of paper, to organize your account and customer service numbers."
     },
     {
      "heading": "Personal records",
@@ -58,18 +51,15 @@
     },
     {
      "heading": "Keep important documents safe and always make copies",
-     "body": "Be sure to secure and copy your important papers.\n\nKeep the originals in a water-tight container, fire safe, or a bank safe deposit box. If you keep your documents at home, be sure you can grab them in a hurry and go.\n\nStore your copies somewhere else – in a secure place at work or with a trusted relative or friend.\n\nIf you have access to a computer, you can scan your documents and then put them on a flash drive or store the information at a secure online storage website.\n\nYOUR DISASTER CHECKLIST\n\nLearn more at consumerfinance.gov\n\nand ready.gov/financial-preparedness"
-    },
-    {
-     "heading": "Inventory your belongings",
-     "body": "A written inventory of your belongings, backed up by a video of each room in your home, can help prove what you lost and what was damaged."
+     "body": "Be sure to secure and copy your important papers.\n\nKeep the originals in a water-tight container, fire safe, or a bank safe deposit box. If you keep your documents at home, be sure you can grab them in a hurry and go.\n\nStore your copies somewhere else – in a secure place at work or with a trusted relative or friend.\n\nIf you have access to a computer, you can scan your documents and then put them on a flash drive or store the information at a secure online storage website.\n\nYOUR DISASTER CHECKLIST\n\nLearn more at consumerfinance.gov\n\nand ready.gov/financial-preparedness\n\n**Inventory your belongings**\n\nA written inventory of your belongings, backed up by a video of each room in your home, can help prove what you lost and what was damaged."
     },
     {
      "heading": "After a disaster",
      "body": "If a disaster strikes your home, as soon as possible, contact your credit card company, your mortgage lender, and other creditors to let them know about your situation. Most of them have ways to help.\n\nIf you can’t live in your home, check with your utility companies (e.g. electric, gas, cable) to see if you can shut off service to add extra money to your budget.\n\nMany people and groups will offer help. Disaster-chasing criminals may also show up and try to scam you.\n\nWatch out for:\n\n§ Up-front fees to help you claim services, benefits,\n\nor get loans. Government employees never charge to help you get a benefit or service.\n\n§ Contractors selling repairs door-to-door,\n\nespecially if they offer deep discounts or ask you to pay them up front\n\n§ Insurance agents who try to sell you after-the-\n\nfact policies\n\n§ Organizations with names similar to government\n\nagencies or charities"
     }
    ],
-   "sourceUrl": "https://www.ready.gov/sites/default/files/2020-03/cfpb-disaster-checklist-worksheet.pdf"
+   "sourceUrl": "https://www.ready.gov/sites/default/files/2020-03/cfpb-disaster-checklist-worksheet.pdf",
+   "aliases": "important documents to grab, financial documents for emergency, protect finances in disaster, home inventory, account numbers list, what papers to keep safe, insurance after disaster, copies of important documents, money after disaster, bank records emergency, financial checklist for disaster, personal records to save, photos of belongings for insurance, disaster finances, backup computer files"
   },
   {
    "title": "Recovering from Disaster (Ready.gov)",
@@ -99,7 +89,8 @@
      "body": "- Be aware of new safety issues created by the disaster. Watch for washed out roads, contaminated buildings, contaminated water, gas leaks, broken glass, damaged electrical wiring and slippery floors.\n- Walk carefully around the outside and check for loose power lines, gas leaks and structural damage. If you have any doubts about safety, have your residence inspected by a qualified building inspector or structural engineer before entering.\n- Watch out for animals, especially poisonous snakes. Use a stick to poke through debris.\n- Do not enter your damaged home if:\n- You smell gas.\n- Floodwaters remain around the building.\n- Authorities have not declared it safe to enter.\n- Inform local authorities about health and safety issues, including chemical spills, downed power lines, washed out roads, smoldering insulation and dead animals.\n- Keep a battery-powered radio with you for emergency updates from local officials."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/recovering-disaster"
+   "sourceUrl": "https://www.ready.gov/recovering-disaster",
+   "aliases": "after a disaster what to do, insurance claim after disaster, fema assistance, lost documents replace, replace birth certificate, replace social security card, disaster relief money, going home after disaster, document damage for insurance, stress after disaster, disaster recovery steps, uninsured damage help, returning home safely, replace drivers license, disaster assistance apply, house damaged what now, take pictures of damage, lost everything in fire"
   },
   {
    "title": "Safety Skills: Shutting Off Utilities, Fire Extinguishers, First Aid (Ready.gov)",
@@ -125,18 +116,15 @@
      "body": "Electrical sparks can ignite natural gas if it is leaking. Teach all responsible household members how to shut off the electricity.\n\n- Locate your electrical circuit box. For your safety, always shut off all the individual circuits before shutting off the main circuit."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/safety-skills"
+   "sourceUrl": "https://www.ready.gov/safety-skills",
+   "aliases": "how to shut off gas, turn off gas main, smell gas turn off, how to shut off water main, water shutoff valve, how to turn off electricity, main breaker, shut off utilities, how to use a fire extinguisher, PASS fire extinguisher, learn CPR, first aid training, utility shutoff after earthquake, gas meter wrench, shut off power flood, turning utilities back on, basic safety skills"
   },
   {
    "title": "Home Fires (Ready.gov)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "A fire can become life-threatening in just two minutes. A residence can be engulfed in flames in five minutes."
-    },
-    {
      "heading": "Learn About Fires",
-     "body": "- Fire is FAST! In less than 30 seconds a small flame can turn into a major fire. It only takes minutes for thick black smoke to fill a house or for it to be engulfed in flames.\n- Fire is HOT! Heat is more threatening than flames. Room temperatures in a fire can be 100 degrees at floor level and rise to 600 degrees at eye level. Inhaling this super-hot air will scorch your lungs and melt clothes to your skin.\n- Fire is DARK! Fire starts bright, but quickly produces black smoke and complete darkness.\n- Fire is DEADLY! Smoke and toxic gases kill more people than flames do. Fire produces poisonous gases that make you disoriented and drowsy."
+     "body": "**Overview**\n\nA fire can become life-threatening in just two minutes. A residence can be engulfed in flames in five minutes.\n\n- Fire is FAST! In less than 30 seconds a small flame can turn into a major fire. It only takes minutes for thick black smoke to fill a house or for it to be engulfed in flames.\n- Fire is HOT! Heat is more threatening than flames. Room temperatures in a fire can be 100 degrees at floor level and rise to 600 degrees at eye level. Inhaling this super-hot air will scorch your lungs and melt clothes to your skin.\n- Fire is DARK! Fire starts bright, but quickly produces black smoke and complete darkness.\n- Fire is DEADLY! Smoke and toxic gases kill more people than flames do. Fire produces poisonous gases that make you disoriented and drowsy."
     },
     {
      "heading": "Learn About Fires: Smoke Alarms",
@@ -163,12 +151,8 @@
      "body": "- Contact your local disaster relief service, such as The Red Cross, if you need temporary housing, food and medicines.\n- Check with the fire department to make sure your residence is safe to enter.\n- DO NOT attempt to reconnect utilities yourself. The fire department should make sure that utilities are either safe to use or are disconnected before they leave the site.\n- Conduct an inventory of damaged property and items. Do not throw away any damaged goods until after you make the inventory of your items.\n- Begin saving receipts for any money you spend related to fire loss. The receipts may be needed later by the insurance company and for verifying losses claimed on your income tax.\n- Notify your mortgage company of the fire."
     },
     {
-     "heading": "Prevent Home Fires",
-     "body": "Home fires can be preventable. The following are simple steps that each of us can take to prevent a tragedy."
-    },
-    {
      "heading": "Prevent Home Fires: Cooking",
-     "body": "- Stay in the kitchen when you are frying, grilling or broiling food. Turn off the stove if you leave the kitchen for even a short period of time.\n- Wear short, close-fitting or tightly rolled sleeves when cooking.\n- Position barbecue grills at least 10 feet away from siding and deck railings, and out from under eaves and overhanging branches.\n- Keep a fire extinguisher available."
+     "body": "Home fires can be preventable. The following are simple steps that each of us can take to prevent a tragedy.\n\n- Stay in the kitchen when you are frying, grilling or broiling food. Turn off the stove if you leave the kitchen for even a short period of time.\n- Wear short, close-fitting or tightly rolled sleeves when cooking.\n- Position barbecue grills at least 10 feet away from siding and deck railings, and out from under eaves and overhanging branches.\n- Keep a fire extinguisher available."
     },
     {
      "heading": "Prevent Home Fires: Electrical and Appliance Safety",
@@ -195,7 +179,8 @@
      "body": "- Never use a stove range or oven to heat your home. It can increase the risk of fires, burns and could damage the appliance. Gas stoves are especially dangerous to use as heat sources because dangerous levels of carbon monoxide could build up, putting you and your family at risk for carbon monoxide poisoning.\n- Keep combustible and flammable liquids away from heat sources.\n- Portable generators should NEVER be used indoors and should only be refueled outdoors and in well-ventilated areas."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/home-fires"
+   "sourceUrl": "https://www.ready.gov/home-fires",
+   "aliases": "house fire, smoke alarm, fire escape plan, fire in house what to do, get out of burning house, stop drop and roll, smoke detector battery, kitchen fire, cooking fire, space heater fire, fireplace safety, wood stove fire, electrical fire, candle fire, kids and fire, after a house fire, fire prevention, escape ladder, two ways out, crawl under smoke, holiday fire, fire drills at home"
   },
   {
    "title": "Home Fire Escape Plan (Ready.gov)",
@@ -217,7 +202,8 @@
      "body": "Fires can start anywhere in the home and at any time, so run through the plan at different times of the day or night and practice different ways out.\n\nStep 1: Know where to go. Review your safe meeting place. Explain to your kids that when the smoke alarm beeps, they need to get out of the house quickly and meet at that safety spot.\n\nStep 2: Check your smoke alarms. Test your smoke alarms with your kids so they know the sound.\n\nStep 3: Do the drill. Have kids head to their bedrooms and wait for the drill to begin. Assign adults to help young children. Put one adult in charge of sounding the smoke alarm and running the drill. Next, sound the smoke alarm, start the timer and have everyone book it to the safety spot. Once everyone gets to the safe meeting place stop the timer. If you all made it in under two minutes, you each get an imaginary gold medal. If not, give it another try. In a real fire, get to the safe meeting place, then call 9-1-1 and keep everyone close until firefighters arrive."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/home-fire-escape-plan"
+   "sourceUrl": "https://www.ready.gov/home-fire-escape-plan",
+   "aliases": "fire escape plan, house fire what to do, home fire drill, two ways out, meeting place for fire, kids fire safety, get out stay out, escape plan for apartment, fire ladder, smoke alarm plan, fire drill at home, teach kids fire escape, crawl under smoke, feel door for heat, escape from upstairs fire, practice fire escape"
   },
   {
    "title": "Smoke Alarms (U.S. Fire Administration)",
@@ -235,7 +221,8 @@
      "body": "Choose interconnected smoke alarms so that when one sounds, they all sound.\n\nPut smoke alarms inside and outside each bedroom and sleeping area. Put alarms on every level of the home.\n\nMake sure your smoke alarms work. Your family is not safe if they can't hear the smoke alarms.\n\nTest smoke alarms every month and replace 9-volt smoke alarm batteries at least once every year.\n\nSmoke alarms do not last forever. Get new smoke alarms every 10 years.\n\nWhen you hear a smoke alarm, you may have less than 2 minutes to get everyone outside and safe."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/",
+   "aliases": "smoke alarm beeping, smoke detector chirping, where to put smoke alarms, how many smoke alarms, replace smoke alarm, smoke alarm battery, test smoke alarm, smoke detector types, smoke alarm goes off cooking, ionization vs photoelectric, smoke alarm 10 year, smoke alarm for deaf, smoke alarm questions, interconnected alarms, smoke alarm age, smoke alarm in bedroom, how often change smoke alarm battery"
   },
   {
    "title": "Home Fire Escape Plans (U.S. Fire Administration)",
@@ -253,7 +240,8 @@
      "body": "Leave your apartment. Close the door behind you.\n\nPull the fire alarm on your way out to notify the fire department and your neighbors.\n\nUse the stairs to get out. Do not use the elevator unless directed by the fire department.\n\nGo to your outside meeting place and stay there. Call the fire department. Tell the fire department if someone is trapped in the building."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+   "aliases": "fire escape plan, home fire escape, two ways out, fire drill at home, practice fire escape, escape plan kids, meeting place outside, smoke in the house get out, escape ladder, high rise fire escape, apartment fire what to do, fire escape plan family, how to escape a house fire, stay low in smoke, check door for heat, escape route windows, get out stay out, fire in high rise building"
   },
   {
    "title": "Fire Hazards During and After Severe Weather (U.S. Fire Administration)",
@@ -271,7 +259,8 @@
      "body": "Never use candles for emergency lighting. Use flashlights and stock up on extra batteries.\n\nMake sure your smoke alarm has a backup battery.\n\nUse surge protectors.\n\nConsider unplugging appliances.\n\nDisconnect motor vehicle batteries in flood-prone areas.\n\nConnect appliances to portable generators with heavy-duty extension cords.\n\nDon't fuel your generator when it is running. Spilling gas on a hot engine can cause a fire."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/",
+   "aliases": "fire after storm, generator fire, downed power lines fire, candles during outage, storm fire hazards, flooded electrical fire, lightning fire, hurricane fire hazards, gas leak after storm, generator carbon monoxide, portable heater storm, power restored fire, fire risk after hurricane, outage candles safety"
   },
   {
    "title": "Candle Fire Safety (U.S. Fire Administration)",
@@ -285,25 +274,23 @@
      "body": "Consider using battery-operated flameless candles, which can look, smell and feel like real candles.\n\nIf you do use lit candles, make sure they are in stable holders and place them where they cannot be knocked down easily.\n\nKeep candles at least 12 inches away from anything that burns.\n\nBlow out candles when you leave a room or home, or when you go to bed.\n\nDon't use lit candles in bedrooms, bathrooms and sleeping areas.\n\nUse flashlights, not candles, if you have a power outage."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/candle/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/candle/",
+   "aliases": "candle safety, candles during power outage, candle fire, leaving candle burning, candle alternatives, flashlight instead of candle, candle near curtains, blow out candles, candle fire prevention, safe candle use, candles with kids, candles while sleeping, candles and pets, candle holder safety, battery candles"
   },
   {
    "title": "Lithium-Ion Battery Fire Safety (U.S. Fire Administration)",
    "sections": [
     {
      "heading": "Overview",
-     "body": "Lithium-ion batteries and other types of batteries present fire dangers if community residents don't follow product instructions when using, storing or disposing of them.\n\nDid you know:\n\nShare these safety tips to help increase awareness in your community about the fire dangers of lithium-ion and other types of batteries."
-    },
-    {
-     "heading": "Take C.H.A.R.G.E. of battery safety",
-     "body": "- Choose certified products.\n- Handle with care.\n- Always stay alert.\n- Recycle properly.\n- Get out quickly.\n- Educate others."
+     "body": "Lithium-ion batteries and other types of batteries present fire dangers if community residents don't follow product instructions when using, storing or disposing of them.\n\nDid you know:\n\nShare these safety tips to help increase awareness in your community about the fire dangers of lithium-ion and other types of batteries.\n\n**Take C.H.A.R.G.E. of battery safety**\n\n- Choose certified products.\n- Handle with care.\n- Always stay alert.\n- Recycle properly.\n- Get out quickly.\n- Educate others."
     },
     {
      "heading": "Messages to share",
      "body": "Stop using lithium-ion batteries if you notice an odor, change in color, too much heat, change in shape, leaking or odd noises.\n\nDon't put lithium-ion batteries in the trash. Recycle them at your local battery recycling location.\n\nStore spare lithium-ion batteries away from anything that can burn.\n\nDon't put lithium-ion batteries in direct sunlight or keep them in hot cars. This is a fire risk.\n\nRemove lithium-ion batteries from your checked smart luggage and keep them with you on the plane.\n\nRemove spare, loose lithium-ion batteries from checked luggage and keep them with you on the plane."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+   "aliases": "lithium battery fire, phone battery swollen, e bike battery fire, charging battery safely, battery overheating, scooter battery fire, battery caught fire what to do, charge phone overnight safe, battery fire prevention, lithium ion safety, dispose of lithium batteries, damaged battery, vape battery fire, charge take charge, battery smoking, laptop battery hot, cheap charger safe, charging near exit, battery making hissing noise"
   },
   {
    "title": "Space Weather: Geomagnetic Storms and the Power Grid (Ready.gov)",
@@ -329,7 +316,8 @@
      "body": "Throw out unsafe food:\n\n- Throw away any food that has been exposed to a temperature of 40° F (4° C) or higher for two hours or more, or that has an unusual odor, color or texture. When in doubt, throw it out!\n- Never taste food or rely on appearance or odor to determine its safety. Some foods may look and smell fine, but if they have been at room temperature too long, bacteria that cause foodborne illnesses can start growing quickly. Some types of bacteria produce toxins that cannot be destroyed by cooking.\n- You can refreeze food in the freezer if the food is colder than 40° F and has ice crystals on it.\n- Measure the food’s temperature with a food thermometer if you are not sure that it is cold enough."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/space-weather"
+   "sourceUrl": "https://www.ready.gov/space-weather",
+   "aliases": "space weather, solar storm, geomagnetic storm, solar flare power grid, EMP from the sun, carrington event, solar storm blackout, sun knocked out power, GPS not working solar storm, prepare for solar storm, grid down solar flare, space weather alerts, solar storm what to do, power grid failure, coronal mass ejection, after a solar storm, solar storm effects, long power outage from sun"
   },
   {
    "title": "Cybersecurity and Cyberattacks (Ready.gov)",
@@ -351,7 +339,8 @@
      "body": "Let the proper federal, state and local authorities know if you believe you have been a victim of a cyberattack.\n\n- Contact banks, credit card companies and other financial services companies where you hold accounts. You may need to place holds on accounts that have been attacked. Close any unauthorized credit or charge accounts. Report that someone may be using your identity.\n- File a report with the Office of the Inspector General (OIG) if you think someone is using your Social Security number illegally.\n- File a complaint with the FBI Internet Crime Complaint Center (IC3). They will review the complaint and refer it to the appropriate agency.\n- File a report with the local police so there is an official record of the incident.\n- Report identity theft to the Federal Trade Commission.\n- Contact the Federal Trade Commission (FTC) at ftc.gov/complaint if you receive messages from anyone claiming to be a government agent.\n- Contact additional agencies depending on what information was stolen. Examples include contacting:\n- The Social Security Administration (800-269- 0271) if your Social Security number was compromised, or\n- The Department of Motor Vehicles if your driver's license or car registration has been stolen.\n- Report online crime or fraud to the Internet Crime Complaint Center."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/cybersecurity"
+   "sourceUrl": "https://www.ready.gov/cybersecurity",
+   "aliases": "cyberattack what to do, I got hacked, protect from hackers, strong passwords, two factor authentication, phishing email, scam emails, identity theft, computer virus, data breach, ransomware attack, online security, cyber attack what to do, secure my accounts, after being hacked, wifi security, protect my phone, cyber safety"
   },
   {
    "title": "Get Tech Ready (Ready.gov)",
@@ -369,7 +358,8 @@
      "body": "- Use text messages, social media and email to connect with friends and family during emergencies.\n- Mobile networks can become overwhelmed during emergencies, making it hard to make and get phone calls. Text messages require less bandwidth, which means they are able to be transmitted more reliably during situations when many people are trying to use their mobile phones at the same time.\n- Social media channels such as Facebook and Twitter can also be an effective way to update family and friends during emergencies. Facebook’s Safety Check feature allows users to easily post a status update indicating that they are safe during a time of disaster.\n- Have an emergency charging option for your phone and other mobile devices. Smartphones have become a vital tool to get emergency alerts and warnings so it’s important to make sure you can keep them powered up in an emergency.\n- At home: Prior to severe weather make sure that all of your electronic devices are fully charged. If the power goes out save battery power by minimizing device use. Keep a back-up power source on hand.\n- In your car: Keep a portable phone charger in your car at all times and consider purchasing a back-up power supply to keep in your car as well.\n- Change the settings on your phone to low power mode or place it on airplane mode to conserve energy.\n- Store important documents on a secure, password-protected jump drive or in the cloud.\n- There are several apps for mobile devices that let you use your phone’s camera as a scanning device. This lets you capture electronic versions of important documents such as insurance policies, identification documents and medical records. Don’t forget to include your pet’s information.\n- Back-up your computer to protect photos and other important electronic documents.\n- Scan old photos to protect them from loss.\n- Keep your contacts updated and synced across all of your channels, including phone, email and social media. This will make it easy to reach out to the right people quickly to get information and give updates. Consider creating a group listserv of your top contacts.\n- Create a group chat via a texting app or a thread for family/friends/coworkers to communicate quickly during a disaster.\n- Sign up for direct deposit and electronic banking through your financial institution so you can access your paycheck and make electronic payments wherever you are. Federal benefit recipients can sign up by calling 800-333-1795 or at GoDirect.org."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/get-tech-ready"
+   "sourceUrl": "https://www.ready.gov/get-tech-ready",
+   "aliases": "charge phone in emergency, phone during disaster, backup phone battery, emergency alerts on phone, text instead of call, phone battery saving, digital copies of documents, cloud backup important files, social media in emergency, emergency contacts in phone, tech preparedness, car charger for phone, wireless emergency alerts, phone in power outage, keep phone charged, power bank for emergencies"
   },
   {
    "title": "Mass Gathering Incidents and Attacks: Run, Hide, Fight (Ready.gov)",
@@ -395,15 +385,12 @@
      "body": "Attending mass gatherings can increase your risk of getting sick or injured. This may be due to crowds, shared food and water, dirty conditions, poor airflow, or bad planning by the organizers or venue, making it easier for illnesses to spread and accidents to happen.\n\nTo protect your health before, during and after a mass gathering:\n\n- Stay informed. Check travel advisories from trusted sources.\n- Prepare for health risks. Talk to your doctor about your plans. Review travel notices and guidance on vaccinations, food and water safety, and disease prevention for the area of the event.\n- Practice safe and healthy habits. Stay hydrated. Wash your hands often and avoid touching your face. Eat and drink safe food and water. Take your medications. Wear a mask or face covering.\n- Monitor for symptoms and get medical help.\n- If you are sick before the event, consider not attending to avoid getting others sick or making your symptoms worse.\n- After the event, watch for signs of illness like fever, cough, diarrhea, or changes in your mood.\n- Call your doctor or local health officials for medical advice or call 9-1-1 if you are experiencing a medical emergency."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/mass-gatherings-incidents"
+   "sourceUrl": "https://www.ready.gov/mass-gatherings-incidents",
+   "aliases": "active shooter what to do, run hide fight, shooting at event, crowd crush, stampede escape, attack at concert, terrorist attack what to do, large event safety, bomb at event, crowd safety, escape a crowd, after an attack, suspicious activity event, getting sick at crowded event, concert emergency, hiding from attacker, crowd surge, know the exits, see something say something, festival safety"
   },
   {
    "title": "Personal Security Considerations: Home, Situational Awareness and Online Safety (CISA)",
    "sections": [
-    {
-     "heading": "PERSONAL SECURITY",
-     "body": "CONSIDERATIONS ACTION GUIDE:"
-    },
     {
      "heading": "INTRODUCTION",
      "body": "**CRITICAL INFRASTRUCTURE WORKERS**\n\nIn today’s current threat environment, remaining vigilant and taking responsibility for your personal security is crucial for all critical infrastructure workers—both on and off the job. Critical infrastructure workers perform a vast array of services that operate, run and maintain key systems and assets necessary for modern American life. Being mindful of any risks or threats associated with your line of work and following all safety procedures will help protect you, those close to you and the infrastructure you serve. Personal security can be broken into three main parts—Physical Security, Situational Awareness and Online Security. This non-exhaustive action guide can help you assess your security posture and provides options to consider to mitigate threats.1"
@@ -414,11 +401,7 @@
     },
     {
      "heading": "PHYSICAL SECURITY: PROTECTING YOUR HOME",
-     "body": "**PHYSICAL SECURITY**\n\nThere are a variety of simple measures to consider that can help protect you and your home. Start with installing or improving security systems that surround your residence or property. Secure any doors or windows with locks, keys, alarms, lights and assess the requirement for a closed-circuit television (CCTV) system. Consider the use of an advanced locking system for entry ways and windows with a monitored (multi-view capable) video surveillance system.\n\nMaintain outdoor property structures like walls and fences and make sure any tools or ladders that could be used to access your home are securely stored. Consider removing anything that could be used to cause damage, such as loose bricks, large stones and garden decorations. Make sure shrubbery, weeds, etc. are trimmed and maintained so the foliage:\n\n- Cannot be used by intruders to hide in or gain access to the home.\n\n- Does not block the view outside from those inside the home.\n\nSecure external doors and windows with appropriate locking devices, which can include electronic and coded locking mechanisms. It is best to secure an extra set of keys or entry codes for use during an emergency. Consider changing the entire locking system in the event the entry codes become compromised or the keys are lost.\n\nInvest in and maintain external lighting that illuminates external doors, parking areas and walkways around the house. Consider installing cameras with views of doors and windows. Strategically position these lights and cameras to eliminate any blind spots where individuals could evade detection.\n\nIf you have a vehicle and cannot secure it in a garage or a locked area, try leaving it in public view. Park in a well-lit area, in the view of a CCTV camera or in a staffed parking lot. Always close any windows, remove valuables from view and lock your car, even if you are just stepping away for a few minutes. Understand how to utilize the type of theft deterrent alarm system within your vehicle. There are systems that include audible and visual notifications in addition to vehicle locator services to assist in expediting police response."
-    },
-    {
-     "heading": "PHYSICAL SECURITY: PLAN AHEAD",
-     "body": "Consider developing a family emergency action plan and practicing what to do in the case of an emergency. For help developing a plan, visit:\n\nfema.gov/blog/have-emergency-plan-your-family."
+     "body": "**PHYSICAL SECURITY**\n\nThere are a variety of simple measures to consider that can help protect you and your home. Start with installing or improving security systems that surround your residence or property. Secure any doors or windows with locks, keys, alarms, lights and assess the requirement for a closed-circuit television (CCTV) system. Consider the use of an advanced locking system for entry ways and windows with a monitored (multi-view capable) video surveillance system.\n\nMaintain outdoor property structures like walls and fences and make sure any tools or ladders that could be used to access your home are securely stored. Consider removing anything that could be used to cause damage, such as loose bricks, large stones and garden decorations. Make sure shrubbery, weeds, etc. are trimmed and maintained so the foliage:\n\n- Cannot be used by intruders to hide in or gain access to the home.\n\n- Does not block the view outside from those inside the home.\n\nSecure external doors and windows with appropriate locking devices, which can include electronic and coded locking mechanisms. It is best to secure an extra set of keys or entry codes for use during an emergency. Consider changing the entire locking system in the event the entry codes become compromised or the keys are lost.\n\nInvest in and maintain external lighting that illuminates external doors, parking areas and walkways around the house. Consider installing cameras with views of doors and windows. Strategically position these lights and cameras to eliminate any blind spots where individuals could evade detection.\n\nIf you have a vehicle and cannot secure it in a garage or a locked area, try leaving it in public view. Park in a well-lit area, in the view of a CCTV camera or in a staffed parking lot. Always close any windows, remove valuables from view and lock your car, even if you are just stepping away for a few minutes. Understand how to utilize the type of theft deterrent alarm system within your vehicle. There are systems that include audible and visual notifications in addition to vehicle locator services to assist in expediting police response.\n\n**PHYSICAL SECURITY: PLAN AHEAD**\n\nConsider developing a family emergency action plan and practicing what to do in the case of an emergency. For help developing a plan, visit:\n\nfema.gov/blog/have-emergency-plan-your-family."
     },
     {
      "heading": "PHYSICAL SECURITY: FIREARM ATTACKS",
@@ -433,12 +416,8 @@
      "body": "Regardless of mission or intent, stay calm if a public protest or demonstration takes place near your home, place of business or even on your property. Protests may seem intimidating but are unlikely to lead to a physical threat. Even if the situation becomes volatile, remain calm. Stay inside, close and lock your doors and windows, and draw your curtains/ blinds. If you feel unsafe or the situation escalates, call your local law enforcement.\n\nIf necessary, note descriptions of individuals and vehicles present. Provide any video surveillance footage, cell phone videos or photographs to the police, as it may help in the event of an investigation.\n\nCISA’s Protecting Infrastructure During Public Demonstrations Fact Sheet offers security recommendations for businesses that may be the target of unlawful acts during public demonstrations."
     },
     {
-     "heading": "SITUATIONAL AWARENESS",
-     "body": "Situational awareness is being aware of what is happening around you, taking everything into account and adjusting your behavior to reduce the risk of injury to you, your family or your coworkers."
-    },
-    {
      "heading": "SITUATIONAL AWARENESS: VISITORS",
-     "body": "Always identify visitors before letting them inside your home. Consider installing a peephole or door camera to help you identify who is on the other side of the door. Ask unknown visitors to identify themselves before opening your door. Once inside your residence, keep them in close proximity, preferably in front of you or in position where they can be visually monitored. Consider carrying a mobile phone at all times."
+     "body": "Situational awareness is being aware of what is happening around you, taking everything into account and adjusting your behavior to reduce the risk of injury to you, your family or your coworkers.\n\nAlways identify visitors before letting them inside your home. Consider installing a peephole or door camera to help you identify who is on the other side of the door. Ask unknown visitors to identify themselves before opening your door. Once inside your residence, keep them in close proximity, preferably in front of you or in position where they can be visually monitored. Consider carrying a mobile phone at all times."
     },
     {
      "heading": "SITUATIONAL AWARENESS: SENSITIVE MATERIAL",
@@ -501,7 +480,8 @@
      "body": "Criminals often use phishing tactics to get you to open harmful links, emails or attachments that could request your personal information or infect your devices. These messages are often designed to look like they came from a trusted person or organization.\n\nPhishing messages can come in the form of an email, text, direct message on social media or a phone call. Beware of urgent or emotional language, requests to send personal information, untrusted shortened URLs and incorrect email address and links.\n\nIf you suspect that you have been a target of a phishing attempt do not click on any links or attachments. Instead, report, then delete the message.\n\n11 Department of Homeland Security. 2024. Office of Partnership and Engagement. Resources for Individuals on the Threat of Doxing. Accessed Feb. 09, 2024. dhs.gov/\n\npublication/resources-individuals-threat-doxing.\n\n12 European Council for Nuclear Research. 2017. Computer Security: Enter the next level: Doxware. Accessed Dec. 12, 2023. home.cern/news/news/computing/computer-\n\nsecurity-enter-next-level-doxware."
     }
    ],
-   "sourceUrl": "https://www.cisa.gov/sites/default/files/2025-03/personal-security-considerations-action-guide-critical-infrastructure-workers_06-07-2024_508.pdf"
+   "sourceUrl": "https://www.cisa.gov/sites/default/files/2025-03/personal-security-considerations-action-guide-critical-infrastructure-workers_06-07-2024_508.pdf",
+   "aliases": "personal security, home security tips, protect my home, situational awareness, suspicious activity, someone following me, home invasion prevention, threatening phone calls, doxing what to do, online safety, social media privacy, phishing, keep my address private, pepper spray personal protection, confrontation what to do, rideshare safety, pedestrian safety, car safety travel, active shooter home, arson threat, protests near home, visitors at the door, being harassed, stalker safety, cyber security basics"
   },
   {
    "title": "Plan for Locations: Home, School, Work, High-Rises and Vehicles (Ready.gov)",
@@ -531,7 +511,8 @@
      "body": "- If there is an explosion or other factor that makes it difficult to control the vehicle, pull over, stop the car and set the parking brake.\n- If the emergency could impact the physical stability of the roadway, avoid overpasses, bridges, power lines, signs and other hazards.\n- If a power line falls on your car you are at risk of electrical shock, stay inside until a trained person removes the wire.\n- Listen to the radio for information and instructions as they become available.\n- Have a plan for traveling between work and home and other commonly visited locations in case of an emergency. Download the Commuter Emergency Plan (PDF).\n- Unrepaired recalls can lead to crashes, injuries or worse. The National Highway Traffic Safety Administration urges drivers to check for open vehicle safety recalls at least twice a year. These tools are fast, free and could save lives:\n- Use recall lookup tools using your license plate or Vehicle Identification Number (VIN).\n- Download the free SaferCar app for quick checks."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/plan-for-locations"
+   "sourceUrl": "https://www.ready.gov/plan-for-locations",
+   "aliases": "emergency plan for work, emergency plan for school, plan at home, high rise emergency, emergency in car, where to meet family, meeting place, apartment emergency plan, neighborhood plan, emergency plan by location, workplace evacuation, school emergency pickup, plan for commute, elevator emergency, condo emergency, stairwell escape, family plan locations"
   },
   {
    "title": "Low- and No-Cost Ways to Prepare (Ready.gov)",
@@ -546,11 +527,7 @@
     },
     {
      "heading": "Hazard-Specific: Earthquakes",
-     "body": "- Hold regular Drop, Cover, and Hold On drills with your family.\n- Anchor heavy objects like furniture or appliances to walls. Secure fragile or heavy objects.\n- If you live in a tsunami zone, identify a safe place to be if a watch or warning is issued."
-    },
-    {
-     "heading": "Hazard-Specific: Wildfires",
-     "body": "- Create a safety zone of at least 30 to 100-feet around your residence.\n- Keep grass, plants and other vegetation around your living area well hydrated.\n- Keep your roof and gutters clear of debris."
+     "body": "- Hold regular Drop, Cover, and Hold On drills with your family.\n- Anchor heavy objects like furniture or appliances to walls. Secure fragile or heavy objects.\n- If you live in a tsunami zone, identify a safe place to be if a watch or warning is issued.\n\n**Hazard-Specific: Wildfires**\n\n- Create a safety zone of at least 30 to 100-feet around your residence.\n- Keep grass, plants and other vegetation around your living area well hydrated.\n- Keep your roof and gutters clear of debris."
     },
     {
      "heading": "Hazard-Specific: Hurricanes",
@@ -561,7 +538,8 @@
      "body": "- Create and practice a fire escape plan from your place of residence.\n- Teach children not to hide from firefighters.\n- Make sure you can get through doorways and exits if you use a walker or wheelchair."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/low-and-no-cost"
+   "sourceUrl": "https://www.ready.gov/low-and-no-cost",
+   "aliases": "prepare on a budget, cheap ways to prepare, free emergency preparedness, prepping without money, low cost prep, earthquake prep cheap, wildfire prep home, hurricane prep budget, home fire prep, simple steps to prepare, prep on a tight budget, no cost disaster prep, easy preparedness steps, start preparing today, prepping for free"
   },
   {
    "title": "Make a Plan with Your Kids (Ready.gov Kids)",
@@ -571,7 +549,8 @@
      "body": "Your family may not be together if a disaster strikes, so it is important to know which types of disasters could affect your area. Know how you’ll contact one another and reconnect if separated. Establish a family meeting place that’s familiar and easy to find. And, don’t forget to think about specific needs in your family. Your family’s needs change over time, so update your plan regularly.\n\nWho Will We Contact?\n\nPick the same person for each family member to contact. Pick someone out of town—they may be easier to reach in a disaster.\n\nText, don’t talk. In an emergency, phone lines may be tied up. It may be easier to text and this leaves phone lines open for emergency workers.\n\nWhere Will We Meet?\n\nDecide on safe, familiar, accessible places where your family can go for protection or to reunite. If you have pets or service animals, think about animal-friendly locations. Consider places in your house, in your neighborhood, and outside of your city or town so you’re prepared for any situation.\n\nPractice, Practice, Practice!\n\nOn your own list or using the resources below, write down your contacts and plans. Make sure everyone in the family has copies and keeps them in a safe space, like in a backpack, wallet, or taped in a notebook. Put them in your cell phone if you have one. Hold regular household meetings to review and practice your plan."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/kids/make-a-plan"
+   "sourceUrl": "https://www.ready.gov/kids/make-a-plan",
+   "aliases": "emergency plan for kids, teach kids emergency plan, kids disaster plan, family plan with children, kids emergency contacts, children what to do emergency, emergency plan activity kids, prepare kids for disaster, kids know phone number, kids meeting place, talk to kids about emergencies, child emergency preparedness, kids home alone emergency, explain emergencies to children, kids practice drill"
   },
   {
    "title": "Build a Kit with Your Kids (Ready.gov Kids)",
@@ -585,7 +564,8 @@
      "body": "Remember that your kit will depend on your own needs. Once you take a look at the basic items, consider what unique needs your family might have, such as supplies for pets or seniors. Use the list below to get started:\n\n- Water—at least a gallon per person, per day\n- Non-perishable food (such as dried fruit, peanut butter, or energy bars)\n- First aid kit\n- Cash\n- Prescription medicines\n- Extra batteries or an alternative power source\n- Matches in a waterproof container (allow an adult to help)\n- Toothbrush, toothpaste, soap\n- Paper plates, plastic cups and utensils, paper towels\n- Battery-powered or hand-cranked radio\n- Sleeping bag or warm blanket for each person\n- Flashlights\n- Whistle to signal for help\n- Can opener (manual)\n- Local maps\n- Pet and service animal supplies\n- Baby supplies (formula, diapers, etc.)\n- Extra pair of eyeglasses"
     }
    ],
-   "sourceUrl": "https://www.ready.gov/kids/family-emergency-planning/build-a-kit"
+   "sourceUrl": "https://www.ready.gov/kids/family-emergency-planning/build-a-kit",
+   "aliases": "emergency kit with kids, build a kit kids, what to put in emergency kit, family emergency kit, kid friendly emergency kit, kids disaster supplies, 72 hour kit family, emergency kit list, comfort items for kids, kids help pack emergency bag, go bag for kids, teaching kids preparedness, emergency supplies checklist, games in emergency kit, kids emergency backpack"
   },
   {
    "title": "Power Outages: Facts for Kids (Ready.gov Kids)",
@@ -615,7 +595,8 @@
      "body": "- Help grown-ups remember what was unplugged and check to make sure food is still safe to eat.\n- When in doubt, throw it out! Throw away any food that has been kept at temperatures 40 degrees or higher for two hours or more, or that smells or looks different than it usually does.\n- If the power is out for more than a day, you should throw away any medicine that needed to be kept cold, unless its label says it’s okay to keep. Talk to your doctor or someone at the pharmacy right away to get a new supply if you need it."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/kids/disaster-facts/power-outages"
+   "sourceUrl": "https://www.ready.gov/kids/disaster-facts/power-outages",
+   "aliases": "power outage for kids, explain blackout to kids, kids power outage, what to do when lights go out, flashlight for kids, power out activities, kids scared of dark outage, blackout basics, teaching kids about outages, power outage words, am I at risk outage, kids prepare for outage, after power comes back, power outage simple"
   },
   {
    "title": "Home Fires: Facts for Kids (Ready.gov Kids)",
@@ -626,11 +607,7 @@
     },
     {
      "heading": "Words to Know",
-     "body": "Escape Plan - An escape plan is a drawing of the inside of your house that creates a map of all the rooms, doors and windows. Having and practicing an escape plan is important because you may only have minutes to get to safety and the smoke from a fire can make it difficult to see where you’re going.\n\nSmoke Alarm - A smoke alarm is an important safety device that detects smoke and alerts you to danger. They may produce a loud beeping, a bright flashing light, or both.\n\n911 - 911 is a special phone number you can call in an emergency. By calling 911, you can talk to someone who will be able to send help. When you call 911, they will need to know what is happening. They will also ask for your name, phone number and address. It’s important to only call 911 when there’s an emergency."
-    },
-    {
-     "heading": "Am I at Risk",
-     "body": "Everyone is at risk from house fires. They can happen anywhere at any time. That’s why it’s so important to know what to do to stay safe."
+     "body": "Escape Plan - An escape plan is a drawing of the inside of your house that creates a map of all the rooms, doors and windows. Having and practicing an escape plan is important because you may only have minutes to get to safety and the smoke from a fire can make it difficult to see where you’re going.\n\nSmoke Alarm - A smoke alarm is an important safety device that detects smoke and alerts you to danger. They may produce a loud beeping, a bright flashing light, or both.\n\n911 - 911 is a special phone number you can call in an emergency. By calling 911, you can talk to someone who will be able to send help. When you call 911, they will need to know what is happening. They will also ask for your name, phone number and address. It’s important to only call 911 when there’s an emergency.\n\n**Am I at Risk**\n\nEveryone is at risk from house fires. They can happen anywhere at any time. That’s why it’s so important to know what to do to stay safe."
     },
     {
      "heading": "Learn About Home Fires",
@@ -645,7 +622,8 @@
      "body": "Before\n\n- Install smoke alarms. Smoke alarms should be inside and outside each bedroom and sleeping area. Put alarms on every level of the home. If you do not have a smoke alarm, reach out to your local fire department – they may provide smoke alarms for free.\n- Your family should create a fire escape plan. A fire escape plan is a drawing of your home including doorways and windows. The plan should find two ways you can get out of every room. Make sure your plan includes an outside meeting place in front of your home.\n- Practice your home fire drill with everyone in the home.\n- Never touch matches, lighters or candles. If you find matches or lighters, tell an adult.\n- Stay safe in the kitchen by staying 3 feet away from the stove or oven. Don’t put anything that can burn on or near the stove.\n\nDuring a fire\n\n- If you see or smell smoke, or see a fire make sure you tell a grown up right away.\n- In a fire, stay low and get to your exit if you smell or see smoke or if your smoke alarm sounds.\n- Before you open a door, feel it. If it is hot, use your other exit.\n- If you live in an apartment building, leave your apartment. Close the door behind you. Pull the fire alarm on your way out to notify the fire department and your neighbors.\n- If you are somewhere with an escalator, use the stairs to get out. Do not use the elevator unless the fire department tells you it’s safe.\n- Call 911 once you are outside.\n- Stay outside. Don't go back inside for anything.\n- If pets are trapped inside your home, tell firefighters right away.\n\nAfter a Fire\n\n- Do not go back inside your home unless the fire department says it is safe.\n- If you have pets, find and comfort them. Scared animals may bite or scratch you, so it’s important to handle them carefully. Keeping your pets out of the house until the cleanup is complete will keep them healthy and safe."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/kids/disaster-facts/home-fires"
+   "sourceUrl": "https://www.ready.gov/kids/disaster-facts/home-fires",
+   "aliases": "fire safety for kids, teach kids about fire, house fire kids, what is fire, fire words for kids, kids fire escape, smoke alarm for kids, fire drill kids, children fire safety, how fast fire spreads, kids what to do in a fire, fire facts children, home fire kids guide, stop drop and roll, explain fire to a child"
   }
  ]
 }

@@ -1,5 +1,6 @@
 # Forms for Concrete (TM 3-34.47 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: concrete forms, building forms for concrete, how to pour a foundation, footing forms, wall forms for concrete, pouring concrete walls, concrete column forms, form bracing, when to remove concrete forms, concrete stairs forms, how to build concrete formwork, plywood concrete forms, tie wires and spreaders, foundation footing, pouring a concrete floor, formwork design
 
 ## Forms for Concrete
 **Chapter 5**

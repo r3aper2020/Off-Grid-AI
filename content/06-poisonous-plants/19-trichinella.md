@@ -1,5 +1,6 @@
 # Trichinella Species (Trichinosis) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: trichinosis from pork, undercooked pork, eating wild game, bear meat, wild boar meat, pork cooking temperature, worms in pork, parasites in meat, trichinella worms, raw pork, cooking wild meat safely, freezing pork kill parasites, trichinosis symptoms, muscle pain after eating pork, game meat parasites, how to cook pork safely
 
 ## 1. Organism
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

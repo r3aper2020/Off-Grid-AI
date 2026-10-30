@@ -1,5 +1,6 @@
 # Bees (USDA Farmers' Bulletin 447, 1911)
 Source: https://archive.org/download/CAT88909012/farmbul0447.pdf
+Aliases: beekeeping, how to keep bees, start a beehive, beehive setup, where to put beehives, bee equipment, bee behavior, how to handle bees, hive inspection, transferring bees to a new hive, combining two hives, robbing bees, bees in spring, swarming bees, prevent swarming, catch a swarm, splitting a hive, harvesting honey, comb honey, extracting honey, beeswax, bees in winter, bee diseases, bee pests, getting started with bees
 
 ## Overview
 BEES.

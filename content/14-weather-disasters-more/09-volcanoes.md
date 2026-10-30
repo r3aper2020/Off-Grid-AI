@@ -1,5 +1,6 @@
 # Volcanoes (Ready.gov)
 Source: https://www.ready.gov/volcanoes
+Aliases: volcano eruption, volcanic ash, ash fall, volcano what to do, lava flow, near a volcano, breathing ash, ash on car, mask for volcanic ash, volcano evacuation, volcano gases, volcano preparedness, after an eruption, lahar mudflow, pyroclastic flow, volcano kit, ash cleanup
 
 ## Overview
 

@@ -16,7 +16,9 @@ later milestone early.
   taps Download. Any new network use needs an entry in `docs/decisions.md`.
 - **Never fake an answer.** If no model, no source, or no data exists, say so
   plainly. App-generated assistant text is stored as `MessageStatus.notice`
-  and is never fed back to a model.
+  and is never fed back to a model. The model answers as the instructor
+  and cites library passages as evidence (see `Grounding`); doses and
+  chemical amounts only ever come from a passage.
 - **The app must stay usable without a model.** Library, tools, and
   emergency content cannot depend on AI.
 - **UI depends on interfaces, not engines.** Chat talks to
@@ -29,7 +31,15 @@ flutter pub get
 dart run build_runner build        # after changing Drift tables
 flutter analyze
 flutter test
+for d in content/*/; do python3 tools/packs/build_pack.py "$d"; done   # rebuild packs
+flutter test tools/embed/embed_packs_test.dart                          # then rebuild vectors
+flutter test tools/coverage/coverage_report_test.dart                   # retrieval audit
+CHAT_MODEL=~/.cache/offgrid/Qwen3-4B-Instruct-2507-Q4_K_M.gguf EVAL_LABEL=x \
+  flutter test tools/eval/chat_eval_test.dart                           # graded chat eval
 ```
+
+Don't run two `flutter test` processes in this checkout at once: they
+share `build/native_assets` and the llama.cpp library gets clobbered.
 
 ## Conventions
 
@@ -40,6 +50,9 @@ flutter test
   `StatefulShellRoute`. Full-screen routes use `parentNavigatorKey: _rootKey`.
 - Colors only from `AppColors`; no inline hex values in widgets.
 - Drift enums are stored by name — never rename enum values; add new ones.
+- Library text is verbatim; the only authored text is each document's
+  `Aliases:` line (retrieval-only, never shown). Every bundled document
+  needs one.
 - Bump `schemaVersion` and add a migration for any table change.
 - In widget tests, call `tester.pump()` after `enterText` before tapping a
   button whose enabled state depends on the text.

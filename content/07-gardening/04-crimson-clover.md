@@ -1,5 +1,6 @@
 # Crimson Clover (USDA Leaflet 160, rev. 1947)
 Source: https://www.gutenberg.org/ebooks/63170
+Aliases: crimson clover, cover crop, green manure, clover for soil, planting clover, when to plant crimson clover, clover seed rate, inoculating clover seed, clover for nitrogen, clover for hay or grazing, winter cover crop, clover with oats, improving soil with clover, growing clover seed, clover fertilizer, cover crops for garden, clover diseases
 
 ## Overview
 

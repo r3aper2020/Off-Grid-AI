@@ -1,5 +1,6 @@
 # The Mountain Environment (TC 3-97.61 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: mountain terrain, scree slopes, talus slopes, boulder fields, rockfall danger, crossing rivers mountain, mountain weather, mountain snow types, glacier travel, walking on rock, mountain vegetation, altitude weather, mountain climate, mountain hazards, loose rock, thick brush, grassy slopes, mountain storms, mountain wind, mountain temperature, mountain types
 
 ## Mountain Environment
 **Chapter 1**

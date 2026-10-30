@@ -1,5 +1,6 @@
 # Low Blood Glucose (Hypoglycemia) (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia
+Aliases: low blood sugar, hypoglycemia symptoms, blood sugar crash, shaky sweaty confused diabetic, diabetic passed out, what to give for low blood sugar, glucose tablets, glucagon shot, diabetic emergency, too much insulin, blood sugar below 70, low blood sugar at night, diabetic seizure, rule of 15, how to treat low blood sugar, sugar for diabetic, hypo treatment
 
 ## What is low blood glucose?
 Low blood glucose, also called low blood sugar or hypoglycemia, occurs when the level of glucose in your blood drops below what is healthy for you. For many people with diabetes, this means a blood glucose reading lower than 70 milligrams per deciliter (mg/dL). Your number might be different, so check with your doctor or health care team to find out what blood glucose level is low for you.

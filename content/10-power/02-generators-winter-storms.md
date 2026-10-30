@@ -1,5 +1,6 @@
 # Portable Generators and Winter Storms (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/downloads/pdf/publications/portable_generators_winter_storms_flyer.pdf
+Aliases: generator safety, running a generator, generator carbon monoxide, generator in garage, where to put generator, generator outside how far from house, generator in winter storm, generator fumes, power outage generator, refueling a generator, portable generator tips, generator extension cord, generator during snowstorm, backfeeding generator danger, carbon monoxide from generator
 
 ## Portable Generators and Winter Storms
 

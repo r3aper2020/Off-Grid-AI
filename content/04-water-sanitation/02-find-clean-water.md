@@ -1,5 +1,6 @@
 # How to Find Clean Water in an Emergency
 Source: https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html
+Aliases: where to find water, water sources in house, water heater water, toilet tank water, no running water, emergency water sources, drinking from a stream, is this water safe, water outside the house, collecting rainwater, pool water drinking, water after disaster, boil water notice, finding drinking water, water from pipes, ice cubes as water, melting snow for water
 
 ## Key points
 - In an emergency, your tap water may not be available or safe to use.

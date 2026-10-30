@@ -4,7 +4,7 @@
  "id": "cbrn",
  "title": "Chemical, Biological, Radiological & Nuclear Emergencies",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "FEMA (Ready.gov; Planning Guidance for Response to a Nuclear Detonation, 3rd ed.) and FDA",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Radiation and nuclear emergencies (get inside, stay inside, stay tuned; shelter quality; fallout; decontamination), potassium iodide, hazardous materials and household chemicals, biological threats and explosions. The KI dosing table is not included — check the FDA page or follow officials' instructions for doses.",
@@ -31,7 +31,8 @@
      "body": "If you were outside during a radiological release or if you think you have radioactive material on your body, there are simple steps to remove it.\n\n- Remove your outer layer of contaminated clothing to remove radioactive material from your body. Removing your outer layer of clothing can remove up to 90% of radioactive material. Be very careful in removing your clothing to prevent radioactive dust from shaking loose. Avoid touching your eyes, nose, and mouth, if possible.\n- Get clean. If possible, take a shower or wash with soap and water to remove any radioactive particles from skin or hair that was not covered. If you cannot wash, use a wipe or clean wet cloth to wipe any skin or hair that was not covered. Do not use household cleaning wipes on your skin. Hand sanitizer does not protect against radioactive material. Follow CDC guidance on Decontamination for Yourself and Others.\n- Clean any pets that were outside after the radioactive dust arrived. Gently brush your pet’s coat to remove any radioactive particles and wash your pet with soap and water, if available.\n- Stay hydrated and fed: It is safe to eat and drink food that was inside a building. It is safe to eat food in sealed containers that were outside as long as you wipe off the container with a damp towel or cloth before using. Seal these towels or cleaning cloths in a plastic bag and place them away from people and pets. Unsealed foods from outside may be contaminated with radioactive material. Do not consume food from your garden, or food or liquids that were outdoors and uncovered, until authorities tell you it is safe.\n- Take care of yourself and others: If you are sick or injured, listen for instructions on how and where to get medical attention. If you are at a public shelter, immediately notify the staff at that facility so they can call a local hospital or clinic. If you are experiencing a medical emergency, call 9-1-1.\n- The threat of a radiation or nuclear emergency can be stressful and surviving one can be a traumatic experience. Take care of yourself and talk to someone if you are feeling upset. Follow CDC guidance for managing stress during a traumatic event."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/radiation"
+   "sourceUrl": "https://www.ready.gov/radiation",
+   "aliases": "radiation emergency, nuclear plant accident, dirty bomb, radiation exposure, get inside stay inside, radiation what to do, potassium iodide, iodine pills, nuclear fallout, radiation kit, radiation after explosion, decontaminate radiation, shower after radiation, radiation safe room, radiation alert, nuclear explosion nearby, radioactive dust"
   },
   {
    "title": "Shelter and Evacuation After a Nuclear Detonation (FEMA Planning Guidance, Ch. 3)",
@@ -69,7 +70,8 @@
      "body": "Contamination occurs when fallout lands on clothing and exposed parts of the body (head, hands, etc.). It could also occur when moving through contaminated areas. Inhalation or ingestion of fallout is not a primary concern during the emergency phase of the response because of the large size of the fallout particles and their rapid decay. Crude respiratory protection, such as a cloth mask can further mitigate any concern. People may need rudimentary decontamination when they leave fallout areas or enter a shelter. Effective decontamination of people from fallout can be accomplished by brushing, removing, or changing the outer layer of clothing (including footwear) and wiping off exposed skin. For more information regarding contamination screening and decontamination, see Chapter 5."
     }
    ],
-   "sourceUrl": "https://remm.hhs.gov/PlanningGuidanceNuclearDetonation_2023.pdf"
+   "sourceUrl": "https://remm.hhs.gov/PlanningGuidanceNuclearDetonation_2023.pdf",
+   "aliases": "nuclear bomb what to do, nuclear explosion, get inside stay inside, fallout shelter, how long to stay inside after nuclear, when to evacuate after nuke, nuclear attack, fallout radiation, best place to shelter from fallout, basement during nuclear, radiation after explosion, evacuate or shelter nuclear, nuclear detonation, fallout contamination, leaving shelter after nuclear, nuclear blast nearby"
   },
   {
    "title": "Nuclear Detonation Impacts: Blast, Heat, Radiation and Fallout (FEMA Planning Guidance, Ch. 1)",
@@ -135,7 +137,8 @@
      "body": "[Figure 17: Source Region EMP (SREMP) Illumination Range and Power Grid Coupling — diagram not included]\n\nDisruptions\n\nEMP from a low-altitude17 detonation differs from high-altitude18 EMP (HEMP) (these differences are described in Appendix 1.1). EMP from a low-altitude detonation is generally limited to a Source Region EMP (SREMP).\n\nThere are two major disruptive effects of a SREMP (shown in Figure 17 above):\n\n Electromagnetic (EM) Illumination: SREMP impact electronic equipment through induced voltage on internal wires and conductors. These induced voltages may disable or damage equipment.\n\n Line Coupling: Large voltage/current surges in long power lines and other conductors that pass near the detonation. This can propagate for significant distances, resulting in disruption and potential damage a few miles outside the blast damage area.\n\nKey points on SREMP associated with the planning guidance scenarios:\n\nEMP effects are not strongly dependent on yield or HOB below 3 miles (5 km).\n\nTemporary (hours to days) power outages may extend tens of miles beyond the blast damage area, depending on power grid configuration and detonation location.\n\n17 For the purpose of EMP effects, anything less than ~16,400 ft above ground level (AGL) is considered low altitude.\n\n18 Greater than 30 km AGL.\n\nPower system transformer damage from EMP effects, which is difficult to repair quickly, is generally limited to a few miles from ground zero.\n\nEM illumination on power lines within a few miles of detonation can cause power surges outside the MDZ that can damage unprotected equipment plugged into wall sockets up to 9 miles away.\n\nEasily repairable damage to power system substation components (tripped breakers, damaged relays, etc.) can occur several miles from the detonation along long, running non-branching power lines.\n\nFor an in-depth discussion of EMP effects, see Appendix 1.1: Electromagnetic Pulse (EMP), High- Altitude EMP (HEMP), and Geomagnetic Disturbance (GMD).\n\nRefer To\n\nSource Region Electromagnetic Pulse Planning Considerations (2021): doi.org/10.2172/1813668"
     }
    ],
-   "sourceUrl": "https://remm.hhs.gov/PlanningGuidanceNuclearDetonation_2023.pdf"
+   "sourceUrl": "https://remm.hhs.gov/PlanningGuidanceNuclearDetonation_2023.pdf",
+   "aliases": "nuclear bomb effects, what happens in a nuclear explosion, blast wave, flash blindness, fallout radiation zones, how far from nuclear blast is safe, emp effects on electronics, radiation sickness from fallout, nuclear detonation damage, thermal burns nuclear, nuclear flash eyes, fallout how long dangerous, nuke explosion what happens, nuclear attack effects, air burst vs ground burst, radiation injury, mushroom cloud fallout, will my car work after emp, fire after nuclear blast, nuclear blast glass windows"
   },
   {
    "title": "Frequently Asked Questions on Potassium Iodide (KI) (FDA)",
@@ -146,11 +149,7 @@
     },
     {
      "heading": "1. What does potassium iodide (KI) do",
-     "body": "The effectiveness of KI as a specific blocker of thyroid radioiodine uptake is well established. When administered in the recommended dose, KI is effective in reducing the risk of thyroid cancer in individuals or populations at risk for inhalation or ingestion of radioiodines. KI floods the thyroid with non-radioactive iodine and prevents the uptake of the radioactive molecules, which are subsequently excreted in the urine."
-    },
-    {
-     "heading": "2. Can potassium iodide (KI) be used to protect against radiation from bombs other than radioactive iodine, such as radiation from a dirty bomb?",
-     "body": "Potassium iodide (KI) works only to prevent the uptake of radioactive iodine into the thyroid gland. It is not a general radioprotective agent."
+     "body": "The effectiveness of KI as a specific blocker of thyroid radioiodine uptake is well established. When administered in the recommended dose, KI is effective in reducing the risk of thyroid cancer in individuals or populations at risk for inhalation or ingestion of radioiodines. KI floods the thyroid with non-radioactive iodine and prevents the uptake of the radioactive molecules, which are subsequently excreted in the urine.\n\n**2. Can potassium iodide (KI) be used to protect against radiation from bombs other than radioactive iodine, such as radiation from a dirty bomb?**\n\nPotassium iodide (KI) works only to prevent the uptake of radioactive iodine into the thyroid gland. It is not a general radioprotective agent."
     },
     {
      "heading": "3. Who really needs to take potassium iodide (KI) after a nuclear radiation release?",
@@ -174,11 +173,7 @@
     },
     {
      "heading": "9. What are the side effects of potassium iodide (KI)?",
-     "body": "Side effects are unlikely when KI is used at the recommended dose and for a short time. The following are possible side effects:\n\n- Skin rashes\n- Swelling of the salivary glands\n- “Iodism” (metallic taste, burning mouth and throat, sore teeth and gums, symptoms of a head cold, and sometimes upset stomach and diarrhea)\n- An allergic reaction can have more serious symptoms. These include fever and joint pains; swelling of parts of the body (face, lips, tongue, throat, hands, or feet); trouble breathing, speaking, or swallowing; wheezing or shortness of breath. Severe shortness of breath requires immediate medical attention."
-    },
-    {
-     "heading": "10. Should I check with my doctor before I take potassium iodide (KI)?",
-     "body": "KI is available without a prescription. However, if you have any health concerns or questions, you should check with your doctor before you take KI."
+     "body": "Side effects are unlikely when KI is used at the recommended dose and for a short time. The following are possible side effects:\n\n- Skin rashes\n- Swelling of the salivary glands\n- “Iodism” (metallic taste, burning mouth and throat, sore teeth and gums, symptoms of a head cold, and sometimes upset stomach and diarrhea)\n- An allergic reaction can have more serious symptoms. These include fever and joint pains; swelling of parts of the body (face, lips, tongue, throat, hands, or feet); trouble breathing, speaking, or swallowing; wheezing or shortness of breath. Severe shortness of breath requires immediate medical attention.\n\n**10. Should I check with my doctor before I take potassium iodide (KI)?**\n\nKI is available without a prescription. However, if you have any health concerns or questions, you should check with your doctor before you take KI."
     },
     {
      "heading": "11. As a doctor, should I recommend potassium iodide (KI) for my patients who request it?",
@@ -193,7 +188,8 @@
      "body": "FDA will continue to work with interested pharmaceutical manufacturers to assure that high quality, approved, safe, and effective KI products are available for purchase by consumers, by state and local authorities, and by federal government agencies electing to do so."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/drugs/bioterrorism-and-drug-preparedness/frequently-asked-questions-potassium-iodide-ki"
+   "sourceUrl": "https://www.fda.gov/drugs/bioterrorism-and-drug-preparedness/frequently-asked-questions-potassium-iodide-ki",
+   "aliases": "potassium iodide, KI pills, iodine pills radiation, when to take potassium iodide, nuclear accident iodine, iodine tablets nuclear, does iodine protect from radiation, who should take KI, KI dose, KI for kids, KI side effects, should I buy potassium iodide, iodine allergy KI, pregnant take KI, how long take KI, radiation pills, thyroid protection radiation, dirty bomb iodine, nuclear plant accident pills, KI products available"
   },
   {
    "title": "Hazardous Materials Incidents (Ready.gov)",
@@ -231,18 +227,15 @@
      "body": "- Remove all clothing and other items in contact with your body.\n- Cut off clothing normally removed over the head to avoid contact with the eyes, nose and mouth.\n- Put contaminated clothing and items into a plastic bag and seal the bag.\n- Remove eyeglasses or contact lenses. Put glasses in a pan of household bleach to decontaminate them and then rinse and dry.\n- Wash hands with soap and water. If helping someone decontaminate, immediately wash your hands and other exposed skin afterwards.\n- Flush eyes with water.\n- Gently wash face and hair with soap and water before thoroughly rinsing with water.\n\nAs soon as it is safe to do so, proceed to a medical facility for screening and professional treatment."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/hazmat"
+   "sourceUrl": "https://www.ready.gov/hazmat",
+   "aliases": "chemical spill, hazmat incident, chemical leak nearby, train derailment chemicals, toxic cloud, shelter in place chemical, seal windows and doors, chemical smell outside, evacuate chemical spill, decontaminate chemicals, chemical on skin, factory explosion, gas cloud, industrial accident, chemical exposure what to do, hazmat kit, turn off AC chemical, chemical emergency"
   },
   {
    "title": "Household Chemical Emergencies (Ready.gov)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "Nearly every household uses products containing hazardous materials or chemicals. Knowing how to handle these products can reduce the risk of injury."
-    },
-    {
      "heading": "Before a Household Chemical Emergency",
-     "body": "Only store household chemicals in places children can't get to them.\n\nHazardous household chemicals may include:\n\n- Aerosol cans (including hair spray and deodorant)\n- Nail polish and nail polish remover\n- Cleaning products and furniture polishes\n- Pesticides\n- Automotive products (like antifreeze or motor oil)\n- Miscellaneous items (like batteries, mercury thermometers and florescent light bulbs)\n- Flammable products (like kerosene, home heating oil, propane tanks and lighter fluid)\n- Workshop or painting supplies (such as paint thinners and turpentine)\n- Lawn and garden products (like herbicides and insecticides)"
+     "body": "**Overview**\n\nNearly every household uses products containing hazardous materials or chemicals. Knowing how to handle these products can reduce the risk of injury.\n\nOnly store household chemicals in places children can't get to them.\n\nHazardous household chemicals may include:\n\n- Aerosol cans (including hair spray and deodorant)\n- Nail polish and nail polish remover\n- Cleaning products and furniture polishes\n- Pesticides\n- Automotive products (like antifreeze or motor oil)\n- Miscellaneous items (like batteries, mercury thermometers and florescent light bulbs)\n- Flammable products (like kerosene, home heating oil, propane tanks and lighter fluid)\n- Workshop or painting supplies (such as paint thinners and turpentine)\n- Lawn and garden products (like herbicides and insecticides)"
     },
     {
      "heading": "Before a Household Chemical Emergency: Store hazardous household chemicals safely",
@@ -250,14 +243,11 @@
     },
     {
      "heading": "During a Household Chemical Emergency",
-     "body": "- Get out immediately if there is danger of fire or explosion.\n- Stay upwind and away from the residence to avoid breathing toxic fumes.\n- Recognize and respond to symptoms of toxic poisoning:\n- Difficulty breathing\n- Irritation of the eyes, skin, throat or respiratory tract\n- Changes in skin color\n- Headache or blurred vision\n- Dizziness, clumsiness or lack of coordination\n- Cramps or diarrhea\n- If someone is experiencing toxic poisoning symptoms or has been exposed to a household chemical, call the national poison control center at 800-222-1222.\n- Follow the emergency operator or dispatcher’s first aid instructions carefully. The first aid advice found on containers may be out of date or inappropriate. Do not give anything by mouth unless advised to do so by a medical professional."
-    },
-    {
-     "heading": "After a Household Chemical Emergency",
-     "body": "Discard clothing that may have been contaminated. Some chemicals may not wash out completely."
+     "body": "- Get out immediately if there is danger of fire or explosion.\n- Stay upwind and away from the residence to avoid breathing toxic fumes.\n- Recognize and respond to symptoms of toxic poisoning:\n- Difficulty breathing\n- Irritation of the eyes, skin, throat or respiratory tract\n- Changes in skin color\n- Headache or blurred vision\n- Dizziness, clumsiness or lack of coordination\n- Cramps or diarrhea\n- If someone is experiencing toxic poisoning symptoms or has been exposed to a household chemical, call the national poison control center at 800-222-1222.\n- Follow the emergency operator or dispatcher’s first aid instructions carefully. The first aid advice found on containers may be out of date or inappropriate. Do not give anything by mouth unless advised to do so by a medical professional.\n\n**After a Household Chemical Emergency**\n\nDiscard clothing that may have been contaminated. Some chemicals may not wash out completely."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/household-chemical-emergencies"
+   "sourceUrl": "https://www.ready.gov/household-chemical-emergencies",
+   "aliases": "household chemical spill, mixed bleach and ammonia, chemical fumes in house, storing chemicals safely, poison control, chemical burn, swallowed a chemical, chemical in eyes, chemical smell at home, chemical emergency, cleaning products poisoning, propane leak, gas leak in home, kid drank cleaner, pesticide exposure, chemical fire, dispose of chemicals"
   },
   {
    "title": "Bioterrorism (Ready.gov)",
@@ -283,25 +273,23 @@
      "body": "- Watch TV, listen to the radio or check the Internet for official news and information including:\n- Signs and symptoms of the disease\n- Areas in danger\n- If medications or vaccinations are being distributed\n- Where to seek medical attention if you become ill\n- Quickly get away from the area if you notice a suspicious substance.\n- Cover your mouth and nose with layers of fabric that can filter the air but still allow you to breath. Examples include two to three layers of cotton such as a t-shirt, handkerchief or towel.\n- Depending on the situation, wear a face mask to reduce inhaling or spreading germs.\n- If you have been exposed to a biological agent, remove and bag your clothes and personal items. Follow official instructions for disposal of contaminated items.\n- Wash yourself with soap and water and put on clean clothes.\n- Contact authorities and seek medical assistance. You may be advised to stay away from others or even to quarantine.\n- If your symptoms match those described and you are in the group considered at risk, immediately seek emergency medical attention.\n- Follow the instructions of doctors and other public health officials.\n- Avoid crowds.\n- Wash your hands with soap and water frequently.\n- Do not share food or utensils."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/biohazard"
+   "sourceUrl": "https://www.ready.gov/biohazard",
+   "aliases": "bioterrorism what to do, biological attack, anthrax exposure, suspicious powder, biological weapon exposure, germ attack, how to protect from bio attack, exposed to biological agent, bioterrorism preparation, breathing in toxic agent, biological agent symptoms, bio attack plan, cover mouth nose attack, biohazard exposure, white powder in mail, smallpox attack, wash off after exposure, quarantine after attack"
   },
   {
    "title": "Explosions (Ready.gov)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "Explosive devices can be carried in a vehicle or by a person, delivered in a package or concealed on the roadside. There are steps you can take to prepare."
-    },
-    {
      "heading": "Before an Explosion",
-     "body": "- Build an Emergency Supply Kit.\n- Make a Family Emergency Plan.\n- Learn how to identify suspicious activity and what to do in case of bomb threats.\n- Make sure your employers have up-to-date information about any medical needs you may have and how to contact designated beneficiaries or emergency contacts.\n- If you see something, say something. By being alert and reporting suspicious activity to your local law enforcement, you can help protect your family, neighbors and community."
+     "body": "**Overview**\n\nExplosive devices can be carried in a vehicle or by a person, delivered in a package or concealed on the roadside. There are steps you can take to prepare.\n\n- Build an Emergency Supply Kit.\n- Make a Family Emergency Plan.\n- Learn how to identify suspicious activity and what to do in case of bomb threats.\n- Make sure your employers have up-to-date information about any medical needs you may have and how to contact designated beneficiaries or emergency contacts.\n- If you see something, say something. By being alert and reporting suspicious activity to your local law enforcement, you can help protect your family, neighbors and community."
     },
     {
      "heading": "During or Immediately After an Explosion",
      "body": "- Always follow the instructions of local officials. Emergency services may not be on scene right away.\n- Remain calm. If things are falling around you, get under a sturdy table or desk.\n- If it is safe to do so, leave the area as quickly as possible. Do not stop to retrieve personal possessions or make phone calls.\n- Once you evacuate to safety, let your family emergency contact know you are safe by texting or messaging them on social media. Save phone calls for emergencies.\n- Even if you are not directly involved in the explosion, stay informed and listen to local officials. You may be asked to evacuate or to turn off your electricity and water.\n\nIf you are inside, and able to evacuate:\n\n- Check for fire and other hazards. Stay low if there is smoke.\n- Do not use elevators. Avoid floors and stairways that are obviously weakened.\n\nIf you are trapped under debris:\n\n- Use a flashlight, whistle or tap on pipes to signal your location to rescuers. Shout only as a last resort to avoid inhaling dust.\n- Cover your nose and mouth with anything you have on hand.\n\nIf you are outside:\n\n- Continue moving away from the area to safety.\n- You may be the help until help arrives. If it is safe to do so, help people get to safety.\n- If you know where people are trapped, do not attempt to rescue them as moving debris could cause further harm. Once emergency services are on scene, immediately notify them."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/explosions"
+   "sourceUrl": "https://www.ready.gov/explosions",
+   "aliases": "explosion, bomb threat, what to do in an explosion, after an explosion, building collapse explosion, trapped under debris, suspicious package, bomb what to do, blast injury, get out after explosion, dust after explosion, explosion in building, terrorist attack explosion, leave the area explosion, signal for help trapped, explosion safety, gas explosion"
   }
  ]
 }

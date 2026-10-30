@@ -1,5 +1,6 @@
 # Low- and No-Cost Ways to Prepare (Ready.gov)
 Source: https://www.ready.gov/low-and-no-cost
+Aliases: prepare on a budget, cheap ways to prepare, free emergency preparedness, prepping without money, low cost prep, earthquake prep cheap, wildfire prep home, hurricane prep budget, home fire prep, simple steps to prepare, prep on a tight budget, no cost disaster prep, easy preparedness steps, start preparing today, prepping for free
 
 ## Overview
 Disasters are costly but preparing for them doesn’t have to be. In fact, taking time to prepare now can help save you thousands of dollars and give you peace of mind when the next disaster or emergency occurs.

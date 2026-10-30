@@ -1,5 +1,6 @@
 # What to Do During Extreme Cold: Frostbite and Hypothermia (NWS)
 Source: https://www.weather.gov/safety/cold-during
+Aliases: frostbite, frostbite signs, frostbite first aid, numb fingers toes cold, white waxy skin cold, how to warm frostbite, dont rub frostbite, hypothermia, hypothermia signs, shivering confusion cold, warm someone up hypothermia, extreme cold what to do, cold weather power outage, heat without power winter, staying warm no heat, cold snap safety, windchill danger, cold weather tips, frostbite vs hypothermia, winter storm safety
 
 ## Overview
 

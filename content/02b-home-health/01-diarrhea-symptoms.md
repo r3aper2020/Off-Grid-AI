@@ -1,5 +1,6 @@
 # Diarrhea: Symptoms, Dehydration and When to See a Doctor (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes
+Aliases: diarrhea, diarrhea wont stop, how long does diarrhea last, dehydration from diarrhea, signs of dehydration, kid with diarrhea, baby diarrhea when to worry, blood in stool, black tarry stool, diarrhea and fever, diarrhea and vomiting, watery stool for days, when to see a doctor for diarrhea, what causes diarrhea, chronic diarrhea, stomach bug, bad water diarrhea, dark urine not peeing dehydration
 
 ## What are the symptoms of diarrhea?
 Diarrhea causes similar symptoms for adults and children, such as

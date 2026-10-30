@@ -4,7 +4,7 @@
  "id": "communications",
  "title": "Radio & Communications",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "CISA (NIFOG v2.02), FCC rules via eCFR (47 CFR Parts 95 and 97), NOAA National Weather Service, U.S. Army (TC 9-64)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Using radios in an emergency: interoperability rules and conventions, interference, reporting a medical emergency by radio, antennas and RF safety, FCC rules for amateur radio, FRS, GMRS, CB and MURS, and NOAA Weather Radio reception and SAME alerts. Frequency tables are not included; FCC rules are a snapshot from October 2026.",
@@ -28,11 +28,7 @@
     },
     {
      "heading": "How can I use these frequencies if I do not have a license for them?",
-     "body": "There are seven ways you can legally use these radio frequencies:\n\n- 1. You or your employer may already have an FCC license or a NTIA\n\nauthorization for some of the interoperability and common mutual aid channels.\n\n- 2. For FCC licensees, the VHF, UHF, 700 MHz, and 800 MHz non-Federal\n\nNational Interoperability Channels (e.g., VCALL10, VTAC11-14, UCALL40, UTAC41-43, the 700MHz interoperability channels, 8CALL90, and 8TAC91-\n\n- 94) are covered by a “blanket authorization” from the FCC - “Any Part 90 public safety eligible entity holding a Part 90 license may operate hand-held and vehicular mobile units on these channels without needing a separate authorization.” – See §90.20(i). When North of Line A or East of Line C the blanket authorization in paragraph 90 of FCC R&O 00-348 applies only to mobile (including hand-held) stations operating with an effective radiated power (ERP) of 3 watts or less. At higher power levels, frequency coordination is required, see FCC Public Notice DA-09-1064, released May 13,2009. Line A and C are defined in 47CFR §90.7. You can check a location for Line A and Line C restrictions at wireless.fcc.gov/uls/index.htm?job=line_a_c.\n\n- 3. You may operate on frequencies authorized to another licensee when that licensee designates you as a unit of their system, in accordance with FCC rule §90.421; or as an authorized user of a shared radio system pursuant to a written agreement as described in FCC rule §90.179.\n\n- 4. In extraordinary circumstances, the FCC may issue a “Special Temporary\n\nAuthority” (STA) for such use in a particular geographic area.\n\n- 5. In extraordinary circumstances, the NTIA may issue a “Temporary\n\nAssignment” for such use in a particular area."
-    },
-    {
-     "heading": "6. If you are an FCC Part 90 licensee, you may operate a mobile station on the Federal Interoperability Channels only when authorized by the FCC (by license or STA) and only for interoperability with Federal radio",
-     "body": "stations authorized by the NTIA to use those channels. See §90.25.\n\nYou may not use these channels for interoperability with other state,"
+     "body": "There are seven ways you can legally use these radio frequencies:\n\n- 1. You or your employer may already have an FCC license or a NTIA\n\nauthorization for some of the interoperability and common mutual aid channels.\n\n- 2. For FCC licensees, the VHF, UHF, 700 MHz, and 800 MHz non-Federal\n\nNational Interoperability Channels (e.g., VCALL10, VTAC11-14, UCALL40, UTAC41-43, the 700MHz interoperability channels, 8CALL90, and 8TAC91-\n\n- 94) are covered by a “blanket authorization” from the FCC - “Any Part 90 public safety eligible entity holding a Part 90 license may operate hand-held and vehicular mobile units on these channels without needing a separate authorization.” – See §90.20(i). When North of Line A or East of Line C the blanket authorization in paragraph 90 of FCC R&O 00-348 applies only to mobile (including hand-held) stations operating with an effective radiated power (ERP) of 3 watts or less. At higher power levels, frequency coordination is required, see FCC Public Notice DA-09-1064, released May 13,2009. Line A and C are defined in 47CFR §90.7. You can check a location for Line A and Line C restrictions at wireless.fcc.gov/uls/index.htm?job=line_a_c.\n\n- 3. You may operate on frequencies authorized to another licensee when that licensee designates you as a unit of their system, in accordance with FCC rule §90.421; or as an authorized user of a shared radio system pursuant to a written agreement as described in FCC rule §90.179.\n\n- 4. In extraordinary circumstances, the FCC may issue a “Special Temporary\n\nAuthority” (STA) for such use in a particular geographic area.\n\n- 5. In extraordinary circumstances, the NTIA may issue a “Temporary\n\nAssignment” for such use in a particular area.\n\n**6. If you are an FCC Part 90 licensee, you may operate a mobile station on the Federal Interoperability Channels only when authorized by the FCC (by license or STA) and only for interoperability with Federal radio**\n\nstations authorized by the NTIA to use those channels. See §90.25.\n\nYou may not use these channels for interoperability with other state,"
     },
     {
      "heading": "tribal, regional, or local radio stations – these are not a substitute for",
@@ -40,11 +36,7 @@
     },
     {
      "heading": "FCC Rules and Regulations",
-     "body": "Title 47 Code of Federal Regulations, Chapter I, Parts 0-199\n\nElectronic Code of Federal Regulations (eCFR)\n\nPart 80\n\nStations in the Maritime Services\n\n- for information on VHF Marine channels, see navcen.uscg.gov/?pageName=mtVhf\n\nAviation Services\n\nPrivate Land Mobile Radio Services\n\nPersonal Radio Services (includes GMRS, FRS, CB, & MURS)\n\nAmateur Radio Service\n\nPart 87\n\nPart 90\n\nPart 95\n\nPart 97"
-    },
-    {
-     "heading": "NTIA Rules and Regulations",
-     "body": "Title 47\n\nCode of Federal Regulations, Chapter III, Parts 300-399\n\nPart 300\n\nManual of Regulations and Procedures for Federal Radio Frequency Management (Redbook)"
+     "body": "Title 47 Code of Federal Regulations, Chapter I, Parts 0-199\n\nElectronic Code of Federal Regulations (eCFR)\n\nPart 80\n\nStations in the Maritime Services\n\n- for information on VHF Marine channels, see navcen.uscg.gov/?pageName=mtVhf\n\nAviation Services\n\nPrivate Land Mobile Radio Services\n\nPersonal Radio Services (includes GMRS, FRS, CB, & MURS)\n\nAmateur Radio Service\n\nPart 87\n\nPart 90\n\nPart 95\n\nPart 97\n\n**NTIA Rules and Regulations**\n\nTitle 47\n\nCode of Federal Regulations, Chapter III, Parts 300-399\n\nPart 300\n\nManual of Regulations and Procedures for Federal Radio Frequency Management (Redbook)"
     },
     {
      "heading": "FCC Rules for Interoperability",
@@ -60,11 +52,7 @@
     },
     {
      "heading": "7.3.6 Emergency Use of Non-Federal Frequencies",
-     "body": "In emergency situations, a federal radio station may utilize any frequency authorized to a non-federal radio station, under Part 90 of the FCC Rules and Regulations, when such use is necessary for communications with non-Federal stations and is directly related to the emergency at hand.\n\nSuch use is subject to the following conditions:\n\na. The non-federal licensee has given verbal or written concurrence.\n\nb. Operations are conducted in accordance with the FCC Rules and\n\nRegulations.\n\nc. Use is restricted to the service area and station authorization of the\n\nlicensee.\n\nd. All operations are under the direct control of the licensee and shall be\n\nimmediately terminated when directed by the licensee.\n\ne. Operations do not exceed 60 days.\n\nf. A written report of each such use shall be provided, through the\n\nagency’s FAS [Frequency Assignment Subcommittee, of NTIA’s IRAC (Interdepartment Radio Advisory Committee)] representative, to the FCC as soon as practicable."
-    },
-    {
-     "heading": "7.5.2 Frequencies Authorized by the FCC for Ship Stations",
-     "body": "Frequencies authorized by the FCC for ship stations may be used by Federal mobile stations to communicate with non-Federal stations in the maritime mobile service."
+     "body": "In emergency situations, a federal radio station may utilize any frequency authorized to a non-federal radio station, under Part 90 of the FCC Rules and Regulations, when such use is necessary for communications with non-Federal stations and is directly related to the emergency at hand.\n\nSuch use is subject to the following conditions:\n\na. The non-federal licensee has given verbal or written concurrence.\n\nb. Operations are conducted in accordance with the FCC Rules and\n\nRegulations.\n\nc. Use is restricted to the service area and station authorization of the\n\nlicensee.\n\nd. All operations are under the direct control of the licensee and shall be\n\nimmediately terminated when directed by the licensee.\n\ne. Operations do not exceed 60 days.\n\nf. A written report of each such use shall be provided, through the\n\nagency’s FAS [Frequency Assignment Subcommittee, of NTIA’s IRAC (Interdepartment Radio Advisory Committee)] representative, to the FCC as soon as practicable.\n\n**7.5.2 Frequencies Authorized by the FCC for Ship Stations**\n\nFrequencies authorized by the FCC for ship stations may be used by Federal mobile stations to communicate with non-Federal stations in the maritime mobile service."
     },
     {
      "heading": "7.5.3 Frequencies for the Safety of Life and Property",
@@ -72,11 +60,7 @@
     },
     {
      "heading": "7.5.4 Frequencies for Coordinating Search and Rescue Operations",
-     "body": "... (2) The frequency 123.1 MHz, using class A3E emission, may be used by stations of the aeronautical mobile service and by other mobile and land stations engaged in coordinated search and rescue operations.\n\n(3) The frequency 156.3 MHz [VHF Marine channel 6] may be used for communications between ship stations and aircraft stations, using G3E emission, engaged in coordinated search and rescue (SAR) operations.\n\nWhen control of the scene of a SAR incident is under a Coast Guard coast station, 156.3 MHz may be used by ship stations to communicate with that coast station."
-    },
-    {
-     "heading": "Does the NIFOG authorize me to use certain frequencies?",
-     "body": "No, the NIFOG does not grant authority to operate on any radio frequencies.\n\nSuch authority can come only from the FCC or the NTIA."
+     "body": "... (2) The frequency 123.1 MHz, using class A3E emission, may be used by stations of the aeronautical mobile service and by other mobile and land stations engaged in coordinated search and rescue operations.\n\n(3) The frequency 156.3 MHz [VHF Marine channel 6] may be used for communications between ship stations and aircraft stations, using G3E emission, engaged in coordinated search and rescue (SAR) operations.\n\nWhen control of the scene of a SAR incident is under a Coast Guard coast station, 156.3 MHz may be used by ship stations to communicate with that coast station.\n\n**Does the NIFOG authorize me to use certain frequencies?**\n\nNo, the NIFOG does not grant authority to operate on any radio frequencies.\n\nSuch authority can come only from the FCC or the NTIA."
     },
     {
      "heading": "Is the NIFOG the national emergency communications plan?",
@@ -128,11 +112,7 @@
     },
     {
      "heading": "How can I get answers to questions about the “National Interoperability Field Operations Guide”, or how can I offer suggestions to improve it?",
-     "body": "Please send your questions or comments to the Cybersecurity and Infrastructure Security Agency, at NIFOG@cisa.dhs.gov and include your name, agency or organization affiliation, and your email address."
-    },
-    {
-     "heading": "How do I get copies of the NIFOG?",
-     "body": "The latest version of the NIFOG can be downloaded or ordered from cisa.gov/publication/fog-documents"
+     "body": "Please send your questions or comments to the Cybersecurity and Infrastructure Security Agency, at NIFOG@cisa.dhs.gov and include your name, agency or organization affiliation, and your email address.\n\n**How do I get copies of the NIFOG?**\n\nThe latest version of the NIFOG can be downloaded or ordered from cisa.gov/publication/fog-documents"
     },
     {
      "heading": "Regulations and Guidelines for National Interoperability",
@@ -167,7 +147,8 @@
      "body": "Incidents using channels in more than one radio frequency band.\n\nSame channel/frequency being used with a local name outside of the ANSI standard.\n\nInstructions and assignments not clear.\n\no Unable to communicate critical information due to radio congestion. o Unfamiliar with radio system (s) or assigned radio functionality. o Have no or inadequate communication with responders or supervisors. o Dispatch to Dispatch channel patching. o Multiple conversations on the same talkgroup or channel. o Radio systems used for interoperability do not completely support the\n\nInadequate number of tactical channels available or assigned.\n\nincident and lack good radio coverage.\n\no High levels of background noise.\n\nEmergency button activation – Who is receiving the notification, does it work the same for all radios?\n\no Multiple agencies performing radio programming at the incident. o Organizations in the system do not use the same vocabulary. o Mobile gateway devices being used in a strategic (wide-area) rather than\n\ntactical (local) environment.\n\no Multiple mobile gateways available at the incident.\n\nEnsure the activation and deactivation of gateway patches are properly announced.\n\no When a single COML for the incident has not been identified. o Working in the deep interior of a building, tunnel, or area below grade or\n\nabove grade."
     }
    ],
-   "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf"
+   "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf",
+   "aliases": "interoperability channels, emergency radio channels, transmit in emergency without license, radio rules in emergency, public safety radio frequencies, which frequencies can I use, FCC rules emergency communication, programming emergency channels, NIFOG, national interop channels, calling channels, radio interference what to do, search and rescue frequencies, ship distress frequencies, federal interoperability channels, plain language radio, radio etiquette emergencies, mutual aid channels, who can use interop channels, radio license questions"
   },
   {
    "title": "Radio Interference Management (CISA NIFOG v2.02)",
@@ -201,7 +182,8 @@
      "body": "**Authority**\n\nfcc.gov/general/public-safety-support-center Complaint Form: fccprod.servicenowservices.com/psix-esix?id=psix_form (202) 418-1122 FCCOPS@fcc.gov\n\nnavcen.uscg.gov/?pageName=gpsUserInput\n\nfaa.gov/air_traffic/nas/gps_reports/\n\nFCC 24/7 Operations Center\n\nNon-Aviation GPS Outages: USCG Aviation GPS Outages: FAA\n\nMilitary GPS Outages worldwide: GPSOC\n\ngps.afspc.af.mil/ (may not open for non-military users)"
     }
    ],
-   "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf"
+   "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf",
+   "aliases": "radio interference, radio static, cant hear on radio, someone jamming radio, radio noise, interference from electronics, radio squelch, reduce radio interference, radio not receiving, intermod interference, radio garbled, radio jamming, interference fix, radio interference sources, bad radio reception"
   },
   {
    "title": "Reporting a Medical Emergency by Radio (CISA NIFOG v2.02)",
@@ -211,7 +193,8 @@
      "body": "ICS 206 – Block 8 – “Dutch Creek Protocol”\n\nIn the event of a medical emergency, provide the following information to the Incident Communications Center, if established, or appropriate dispatch/coordination center.\n\n- 1. Declare the nature of the emergency.\n\na. Medical injury / illness? b. If injury/illness, is it Life Threatening?\n\n- 2. If Life Threatening, then request that the designated frequency be\n\ncleared for emergency traffic.\n\n- 3. Identify the on-scene Point of Contact (POC) by Resource and\n\nLast name (i.e. POC is TFLD Smith).\n\n- 4. Identify nature of incident, number injured, patient assessment(s)\n\nand location (geographic and GPS coordinates).\n\n- 5. Identify on-scene medical personnel by position and name\n\n(i.e. EMT Jones).\n\n- 6. Identify preferred method of patient transport.\n\n- 7. Request any additional resources and/or equipment needed.\n\n- 8. Document all information received and transmitted on the radio or\n\nphone.\n\n- 9. Identify any changes in the on-scene Point of Contact or medical\n\npersonnel as they occur.\n\nTo download or request copies of the NIFOG, please visit cisa.gov/publication/fog-documents"
     }
    ],
-   "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf"
+   "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf",
+   "aliases": "how to call for help on radio, radio medical emergency, reporting an injury by radio, medevac request, what to say on radio in emergency, mayday on radio, calling for a helicopter, radio report format, medical report over radio, how to request medical help, radio distress call, ham radio emergency call, emergency radio script, describe injuries over radio"
   },
   {
    "title": "Antennas and RF Safety (TC 9-64 Ch. 4)",
@@ -437,7 +420,8 @@
      "body": "The optimum gain of a broadside array is obtained when the elements are spaced 0.65 wavelengths apart.\n\nA parasitic array consists of one or more parasitic elements with a driven element. The amount of power gain and directivity depends on the lengths of the parasitic elements and the spacing between them.\n\n[Figure 4-Sum 13. Parasitic Array — diagram not included]\n\nMulti-element arrays, such as the yagi, have a narrow frequency response as well as a narrow beam width.\n\n[Figure 4-Sum 14. Multi-Element Arrays — diagram not included]\n\nA long-wire antenna is an antenna that is a wavelength or more long at the operating frequency. These antennas have directive patterns that are sharp in both the horizontal and vertical planes.\n\n[Figure 4-Sum 15. Long-Wire Antenna — diagram not included]\n\nBeverage antennas consist of a single wire that is two or more wavelengths long.\n\n[Figure 4-Sum 16. Beverage Antenna Wavelengths — diagram not included]\n\nA V antenna is a bidirectional antenna consisting of two horizontal, long wires arranged to form a V.\n\n[Figure 4-Sum 17. V Antenna Layout — diagram not included]\n\nThe rhombic antenna uses four conductors joined to form a rhombus shape.\n\nThis antenna has a wide frequency range, is easy to construct and maintain, and is noncritical as far as operation and adjustment are concerned.\n\n[Figure 4-Sum 18. Rhombic Antenna Conductors — diagram not included]\n\nThe turnstile antenna consists of two horizontal, half-wire antennas mounted at right angles to each other.\n\n[Figure 4-Sum 19. Turnstile Antenna — diagram not included]"
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc9_64.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc9_64.pdf",
+   "aliases": "how do antennas work, make a radio antenna, dipole antenna, antenna length for frequency, half wave antenna, quarter wave antenna, antenna polarization vertical horizontal, rf burns, antenna safety climbing, improve radio range antenna, directional antenna, yagi antenna, antenna radiation pattern, ground plane antenna, feeding an antenna coax, folded dipole, antenna arrays, rf exposure danger, build antenna from wire, antenna gain, antenna too close danger, longer antenna better range"
   },
   {
    "title": "Amateur Radio Service Rules (47 CFR Part 97, eCFR as of 2026-10-27)",
@@ -464,11 +448,7 @@
     },
     {
      "heading": "Subpart A—General Provisions: § 97.3 Definitions. (part 4)",
-     "body": "(4) MCW. Tone-modulated international Morse code telegraphy emissions having designators with A, C, D, F, G, H or R as the first symbol; 2 as the second symbol; A or B as the third symbol.\n\n(5) Phone. Speech and other sound emissions having designators with A, C, D, F, G, H, J or R as the first symbol; 1, 2, 3 or X as the second symbol; E as the third symbol. Also speech emissions having B or F as the first symbol; 7, 8 or 9 as the second symbol; E as the third symbol. MCW for the purpose of performing the station identification procedure, or for providing telegraphy practice interspersed with speech. Incidental tones for the purpose of selective calling or alerting or to control the level of a demodulated signal may also be considered phone.\n\n(6) Pulse. Emissions having designators with K, L, M, P, Q, V or W as the first symbol; 0, 1, 2, 3, 7, 8, 9 or X as the second symbol; A, B, C, D, E, F, N, W or X as the third symbol.\n\n(7) RTTY. Narrow-band direct-printing telegraphy emissions having designators with A, C, D, F, G, H, J or R as the first symbol; 1 as the second symbol; B as the third symbol; and emission J2B. Only a digital code of a type specifically authorized in this part may be transmitted.\n\n(8) SS. Spread spectrum emissions using bandwidth-expansion modulation emissions having designators with A, C, D, F, G, H, J or R as the first symbol; X as the second symbol; X as the third symbol.\n\n(9) Test. Emissions containing no information having the designators with N as the third symbol. Test does not include pulse emissions with no information or modulation unless pulse emissions are also authorized in the frequency band.\n\n[, June 20, 1989]\n\nEditorial Note"
-    },
-    {
-     "heading": "Subpart A—General Provisions: § 97.3 Definitions.: Editorial Note:",
-     "body": "For Federal Register citations affecting § 97.3, see the List of CFR Sections Affected, which appears in the Finding Aids section of the printed volume and at www.govinfo.gov."
+     "body": "(4) MCW. Tone-modulated international Morse code telegraphy emissions having designators with A, C, D, F, G, H or R as the first symbol; 2 as the second symbol; A or B as the third symbol.\n\n(5) Phone. Speech and other sound emissions having designators with A, C, D, F, G, H, J or R as the first symbol; 1, 2, 3 or X as the second symbol; E as the third symbol. Also speech emissions having B or F as the first symbol; 7, 8 or 9 as the second symbol; E as the third symbol. MCW for the purpose of performing the station identification procedure, or for providing telegraphy practice interspersed with speech. Incidental tones for the purpose of selective calling or alerting or to control the level of a demodulated signal may also be considered phone.\n\n(6) Pulse. Emissions having designators with K, L, M, P, Q, V or W as the first symbol; 0, 1, 2, 3, 7, 8, 9 or X as the second symbol; A, B, C, D, E, F, N, W or X as the third symbol.\n\n(7) RTTY. Narrow-band direct-printing telegraphy emissions having designators with A, C, D, F, G, H, J or R as the first symbol; 1 as the second symbol; B as the third symbol; and emission J2B. Only a digital code of a type specifically authorized in this part may be transmitted.\n\n(8) SS. Spread spectrum emissions using bandwidth-expansion modulation emissions having designators with A, C, D, F, G, H, J or R as the first symbol; X as the second symbol; X as the third symbol.\n\n(9) Test. Emissions containing no information having the designators with N as the third symbol. Test does not include pulse emissions with no information or modulation unless pulse emissions are also authorized in the frequency band.\n\n[, June 20, 1989]\n\nEditorial Note\n\n**Subpart A—General Provisions: § 97.3 Definitions.: Editorial Note:**\n\nFor Federal Register citations affecting § 97.3, see the List of CFR Sections Affected, which appears in the Finding Aids section of the printed volume and at www.govinfo.gov."
     },
     {
      "heading": "Subpart A—General Provisions: § 97.5 Station license required.",
@@ -511,16 +491,8 @@
      "body": "(a) A person holding a valid amateur station license grant:\n\n(1) Must apply to the FCC for a modification of the license grant as necessary to show the correct mailing and email address, licensee name, club name, license trustee name, or license custodian name in accordance with § 1.913 of this chapter. For a club or military recreation station license grant, the application must be presented in document form to a Club Station Call Sign Administrator who must submit the information thereon to the FCC in an electronic batch file. The Club Station Call Sign Administrator must retain the collected information for at least 15 months and make it available to the FCC upon request. A Club Station Call Sign Administrator shall not file with the Commission any application to modify a club station license grant that was submitted by a person other than the trustee as shown on the license grant, except an application to change the club station license trustee. An application to modify a club station license grant to change the license trustee name must be submitted to a Club Station Call Sign Administrator and must be signed by an officer of the club.\n\n(2) May apply to the FCC for a modification of the operator/primary station license grant to show a higher operator class. Applicants must present the administering VEs with all information required by the rules prior to the examination. The VEs may collect all necessary information in any manner of their choosing, including creating their own forms.\n\n(3) May apply to the FCC for renewal of the license grant for another term in accordance with §§ 1.913 and 1.949 of this chapter. Application for renewal of a Technician Plus Class operator/primary station license will be processed as an application for renewal of a Technician Class operator/primary station license.\n\n(i) For a station license grant showing a call sign obtained through the vanity call sign system, the application must be filed in accordance with § 97.19 of this part in order to have the vanity call sign reassigned to the station.\n\n(ii) For a primary station license grant showing a call sign obtained through the sequential call sign system, and for a primary station license grant showing a call sign obtained through the vanity call sign system but whose grantee does not want to have the vanity call sign reassigned to the station, the application must be filed with the FCC in accordance with § 1.913 of this chapter. When the application has been received by the FCC on or before the license expiration date, the license operating authority is continued until the final disposition of the application.\n\n(iii) For a club station or military recreation station license grant showing a call sign obtained through the sequential call sign system, and for a club station license grant showing a call sign obtained through the vanity call sign system but whose grantee does not want to have the vanity call sign reassigned to the station, the application must be presented in document form to a Club Station Call Sign Administrator who must submit the information thereon to the FCC in an electronic batch file. The replacement call sign will be selected by the sequential call sign system. The Club Station Call Sign Administrator must retain the collected information for at least 15 months and make it available to the FCC upon request.\n\n(b) A person whose amateur station license grant has expired may apply to the FCC for renewal of the license grant for another term during a 2 year filing grace period. The application must be received at the address specified above prior to the end of the grace period. Unless and until the license grant is renewed, no privileges in this part are conferred.\n\n(c) Except as provided in paragraph (a)(3) of this section, a call sign obtained under the sequential or vanity call sign system will be reassigned to the station upon renewal or modification of a station license."
     },
     {
-     "heading": "Subpart A—General Provisions: § 97.21 Application for a modified or renewed license grant. (part 2)",
-     "body": "[, Dec. 14, 1998, as amended at , Oct. 1, 1999; , Feb. 10, 2000; , Dec. 15, 2010; , July 21, 2014; , Dec. 29, 2020]"
-    },
-    {
      "heading": "Subpart A—General Provisions: § 97.23 Mailing and email addresses.",
-     "body": "Each license grant must show the grantee's correct name, mailing address, and email address. The email address must be an address where the grantee can receive electronic correspondence. Revocation of the station license or suspension of the operator license may result when correspondence from the FCC is returned as undeliverable because the grantee failed to provide the correct email address.\n\n[, Dec. 29, 2020]"
-    },
-    {
-     "heading": "Subpart A—General Provisions: § 97.25 License term.",
-     "body": "An amateur service license is normally granted for a 10-year term.\n\n[, Dec. 14, 1998]"
+     "body": "Each license grant must show the grantee's correct name, mailing address, and email address. The email address must be an address where the grantee can receive electronic correspondence. Revocation of the station license or suspension of the operator license may result when correspondence from the FCC is returned as undeliverable because the grantee failed to provide the correct email address.\n\n[, Dec. 29, 2020]\n\n**Subpart A—General Provisions: § 97.25 License term.**\n\nAn amateur service license is normally granted for a 10-year term.\n\n[, Dec. 14, 1998]"
     },
     {
      "heading": "Subpart A—General Provisions: § 97.31 Cancellation on account of the licensee's death.",
@@ -560,11 +532,7 @@
     },
     {
      "heading": "Subpart B—Station Operation Standards: § 97.115 Third party communications.",
-     "body": "(a) An amateur station may transmit messages for a third party to:\n\n(1) Any station within the jurisdiction of the United States.\n\n(2) Any station within the jurisdiction of any foreign government when transmitting emergency or disaster relief communications and any station within the jurisdiction of any foreign government whose administration has made arrangements with the United States to allow amateur stations to be used for transmitting international communications on behalf of third parties. No station shall transmit messages for a third party to any station within the jurisdiction of any foreign government whose administration has not made such an arrangement. This prohibition does not apply to a message for any third party who is eligible to be a control operator of the station.\n\n(b) The third party may participate in stating the message where:\n\n(1) The control operator is present at the control point and is continuously monitoring and supervising the third party's participation; and\n\n(2) The third party is not a prior amateur service licensee whose license was revoked or not renewed after hearing and re-licensing has not taken place; suspended for less than the balance of the license term and the suspension is still in effect; suspended for the balance of the license term and re-licensing has not taken place; or surrendered for cancellation following notice of revocation, suspension or monetary forfeiture proceedings. The third party may not be the subject of a cease and desist order which relates to amateur service operation and which is still in effect.\n\n(c) No station may transmit third party communications while being automatically controlled except a station transmitting a RTTY or data emission.\n\n(d) At the end of an exchange of international third party communications, the station must also transmit in the station identification procedure the call sign of the station with which a third party message was exchanged.\n\n[, June 20, 1989; , Sept. 27, 1989, as amended at , May 3, 2006; , Nov. 15, 2006]"
-    },
-    {
-     "heading": "Subpart B—Station Operation Standards: § 97.117 International communications.",
-     "body": "Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character.\n\n[, May 3, 2006]"
+     "body": "(a) An amateur station may transmit messages for a third party to:\n\n(1) Any station within the jurisdiction of the United States.\n\n(2) Any station within the jurisdiction of any foreign government when transmitting emergency or disaster relief communications and any station within the jurisdiction of any foreign government whose administration has made arrangements with the United States to allow amateur stations to be used for transmitting international communications on behalf of third parties. No station shall transmit messages for a third party to any station within the jurisdiction of any foreign government whose administration has not made such an arrangement. This prohibition does not apply to a message for any third party who is eligible to be a control operator of the station.\n\n(b) The third party may participate in stating the message where:\n\n(1) The control operator is present at the control point and is continuously monitoring and supervising the third party's participation; and\n\n(2) The third party is not a prior amateur service licensee whose license was revoked or not renewed after hearing and re-licensing has not taken place; suspended for less than the balance of the license term and the suspension is still in effect; suspended for the balance of the license term and re-licensing has not taken place; or surrendered for cancellation following notice of revocation, suspension or monetary forfeiture proceedings. The third party may not be the subject of a cease and desist order which relates to amateur service operation and which is still in effect.\n\n(c) No station may transmit third party communications while being automatically controlled except a station transmitting a RTTY or data emission.\n\n(d) At the end of an exchange of international third party communications, the station must also transmit in the station identification procedure the call sign of the station with which a third party message was exchanged.\n\n[, June 20, 1989; , Sept. 27, 1989, as amended at , May 3, 2006; , Nov. 15, 2006]\n\n**Subpart B—Station Operation Standards: § 97.117 International communications.**\n\nTransmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character.\n\n[, May 3, 2006]"
     },
     {
      "heading": "Subpart B—Station Operation Standards: § 97.119 Station identification.",
@@ -675,7 +643,9 @@
      "body": "(a) No station may transmit in RACES unless it is an FCC-licensed primary, club, or military recreation station and it is certified by a civil defense organization as registered with that organization. No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization.\n\n(b) The frequency bands and segments and emissions authorized to the control operator are available to stations transmitting communications in RACES on a shared basis with the amateur service. In the event of an emergency which necessitates invoking the President's War Emergency Powers under the provisions of section 706 of the Communications Act of 1934, as amended, 47 U.S.C. 606, amateur stations participating in RACES may only transmit on the frequency segments authorized pursuant to part 214 of this chapter.\n\n(c) An amateur station registered with a civil defense organization may only communicate with the following stations upon authorization of the responsible civil defense official for the organization with which the amateur station is registered:\n\n(1) An amateur station registered with the same or another civil defense organization; and\n\n(2) A station in a service regulated by the FCC whenever such communication is authorized by the FCC.\n\n(d) All communications transmitted in RACES must be specifically authorized by the civil defense organization for the area served. Only civil defense communications of the following types may be transmitted:\n\n(1) Messages concerning impending or actual conditions jeopardizing the public safety, or affecting the national defense or security during periods of local, regional, or national civil emergencies;\n\n(2) Messages directly concerning the immediate safety of life of individuals, the immediate protection of property, maintenance of law and order, alleviation of human suffering and need, and the combating of armed attack or sabotage;\n\n(3) Messages directly concerning the accumulation and dissemination of public information or instructions to the civilian population essential to the activities of the civil defense organization or other authorized governmental or relief agencies; and\n\n(4) Communications for RACES training drills and tests necessary to ensure the establishment and maintenance of orderly and efficient operation of the RACES as ordered by the responsible civil defense organization served. Such drills and tests may not exceed a total time of 1 hour per week. With the approval of the chief officer for emergency planning in the applicable State, Commonwealth, District or territory, however, such tests and drills may be conducted for a period not to exceed 72 hours no more than twice in any calendar year.\n\n[, Dec. 15, 2010]"
     }
    ],
-   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97"
+   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97",
+   "aliases": "ham radio rules, amateur radio license, need a license for ham radio, ham radio without a license emergency, amateur radio regulations, ham license classes, technician general extra, ham radio station rules, station identification call sign, how often say call sign, ham radio prohibited, can I talk business on ham radio, ham radio power limits, repeater rules, ham radio bands, operating frequencies amateur, third party traffic, foreign ham operator, vanity call sign, ham radio emergency use, part 97, ham radio in a disaster, broadcasting on ham radio",
+   "libraryOnly": true
   },
   {
    "title": "Personal Radio Services: General Rules (47 CFR Part 95 Subpart A, eCFR as of 2026-10-27)",
@@ -746,11 +716,7 @@
     },
     {
      "heading": "Subpart A—General Rules for the Personal Radio Services: § 95.337 Operation of impermissibly modified equipment prohibited.",
-     "body": "No person shall modify any Personal Radio Service transmitter in a way that changes or affects the technical functioning of that transmitter such that operation of the modified transmitter results in a violation of the rules in this part. This includes any modification to provide for additional transmit frequencies, increased modulation level, a different form of modulation, or increased transmitter output power (either mean power or peak envelope power or both). Any such modification voids the certified status of the modified transmitter and renders it unauthorized for use in the Personal Radio Services. Also, no person shall operate any Personal Radio Service transmitter that has been so modified."
-    },
-    {
-     "heading": "Subpart A—General Rules for the Personal Radio Services: § 95.339 Operation of transmitter with external device causing rule violation prohibited.",
-     "body": "No person shall operate any Personal Radio Service transmitter to which an external device or accessory has been added such that operation of the combination results in a violation of the rules."
+     "body": "No person shall modify any Personal Radio Service transmitter in a way that changes or affects the technical functioning of that transmitter such that operation of the modified transmitter results in a violation of the rules in this part. This includes any modification to provide for additional transmit frequencies, increased modulation level, a different form of modulation, or increased transmitter output power (either mean power or peak envelope power or both). Any such modification voids the certified status of the modified transmitter and renders it unauthorized for use in the Personal Radio Services. Also, no person shall operate any Personal Radio Service transmitter that has been so modified.\n\n**Subpart A—General Rules for the Personal Radio Services: § 95.339 Operation of transmitter with external device causing rule violation prohibited.**\n\nNo person shall operate any Personal Radio Service transmitter to which an external device or accessory has been added such that operation of the combination results in a violation of the rules."
     },
     {
      "heading": "Subpart A—General Rules for the Personal Radio Services: § 95.343 Station operator responsibility and requirements.",
@@ -805,7 +771,9 @@
      "body": "(a) A user's instruction manual must be supplied with each transmitter that can be used in a Personal Radio Service.\n\n(b) The manual described in paragraph (a) of this section must contain all information necessary for the proper installation and operation of the transmitter including:\n\n(1) Instructions concerning all controls, adjustments and switches that may be operated or adjusted without resulting in a violation of FCC rules;\n\n(2) Warnings concerning any adjustment that could result in a violation of FCC rules or that is recommended to be performed only by or under the immediate supervision and responsibility of a person certified as technically qualified to perform transmitter maintenance and repair duties in the relevant radio service by an organization or committee representative of users of that service;\n\n(3) Warnings concerning the replacement of any transmitter component (crystal, semiconductor, etc.) that could result in a violation of FCC rules; and\n\n(4) For a transmitter that can only be operated with an FCC license, warnings concerning compliance with applicable licensing requirements and information concerning license application procedures."
     }
    ],
-   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-A"
+   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-A",
+   "aliases": "license for walkie talkies, FRS vs GMRS, GMRS license, CB radio rules, personal radio rules, legal radio without license, can I modify my radio, radio power limits, FCC rules walkie talkie, family radio service, what radios can I use, radio laws, am I allowed to transmit, unlicensed radio, using radio in emergency legally, prohibited radio uses, radio station id rules",
+   "libraryOnly": true
   },
   {
    "title": "Family Radio Service (47 CFR Part 95 Subpart B, eCFR as of 2026-10-27)",
@@ -831,32 +799,16 @@
      "body": "(a)-(b) [Reserved]\n\n(c) A grant of equipment certification will not be issued for hand-held portable radio units capable of operating under both this subpart (FRS) and under any other subparts of this chapter (except part 15) if the application for such grant is filed on or after December 27, 2017.\n\n[, Aug. 29, 2017, as amended at , Dec. 12, 2025]"
     },
     {
-     "heading": "Subpart B—Family Radio Service (FRS): § 95.563 FRS channels.",
-     "body": "The FRS is allotted 22 channels, each having a channel bandwidth of 12.5 kHz. All of the FRS channels are also allotted to the General Mobile Radio Service (GMRS) on a shared basis. The FRS channel center frequencies are set forth in the following table:\n\nChannel No.\n\nCenter frequency (MHz)\n\n1\n\n462.5625\n\n2\n\n462.5875\n\n3\n\n462.6125\n\n4\n\n462.6375\n\n5\n\n462.6625\n\n6\n\n462.6875\n\n7\n\n462.7125\n\n8\n\n467.5625\n\n9\n\n467.5875\n\n10\n\n467.6125\n\n11\n\n467.6375\n\n12\n\n467.6625\n\n13\n\n467.6875\n\n14\n\n467.7125\n\n15\n\n462.5500\n\n16\n\n462.5750\n\n17\n\n462.6000\n\n18\n\n462.6250\n\n19\n\n462.6500\n\n20\n\n462.6750\n\n21\n\n462.7000\n\n22\n\n462.7250"
-    },
-    {
      "heading": "Subpart B—Family Radio Service (FRS): § 95.565 FRS frequency accuracy.",
      "body": "Each FRS transmitter type must be designed such that the carrier frequencies remain within ±2.5 parts-per-million of the channel center frequencies specified in § 95.563 during normal operating conditions."
     },
     {
      "heading": "Subpart B—Family Radio Service (FRS): § 95.567 FRS transmit power.",
-     "body": "Each FRS transmitter type must be designed such that the effective radiated power (ERP) on channels 8 through 14 does not exceed 0.5 Watts and the ERP on channels 1 through 7 and 15 through 22 does not exceed 2.0 Watts."
-    },
-    {
-     "heading": "Subpart B—Family Radio Service (FRS): § 95.571 FRS emission types.",
-     "body": "Each FRS transmitter type must be designed such that it can transmit only the following emission types: F3E, G3E, F2D, and G2D."
-    },
-    {
-     "heading": "Subpart B—Family Radio Service (FRS): § 95.573 FRS authorized bandwidth.",
-     "body": "Each FRS transmitter type must be designed such that the occupied bandwidth does not exceed 12.5 kHz."
+     "body": "Each FRS transmitter type must be designed such that the effective radiated power (ERP) on channels 8 through 14 does not exceed 0.5 Watts and the ERP on channels 1 through 7 and 15 through 22 does not exceed 2.0 Watts.\n\n**Subpart B—Family Radio Service (FRS): § 95.573 FRS authorized bandwidth.**\n\nEach FRS transmitter type must be designed such that the occupied bandwidth does not exceed 12.5 kHz."
     },
     {
      "heading": "Subpart B—Family Radio Service (FRS): § 95.575 FRS modulation limits.",
-     "body": "Each FRS transmitter type must be designed such that the peak frequency deviation does not exceed 2.5 kHz, and the highest audio frequency contributing substantially to modulation must not exceed 3.125 kHz."
-    },
-    {
-     "heading": "Subpart B—Family Radio Service (FRS): § 95.577 FRS tone requirements.",
-     "body": "In addition to the tones permitted under § 95.377, FRS transmitter types may be designed to transmit brief tones to indicate the end of a transmission."
+     "body": "Each FRS transmitter type must be designed such that the peak frequency deviation does not exceed 2.5 kHz, and the highest audio frequency contributing substantially to modulation must not exceed 3.125 kHz.\n\n**Subpart B—Family Radio Service (FRS): § 95.577 FRS tone requirements.**\n\nIn addition to the tones permitted under § 95.377, FRS transmitter types may be designed to transmit brief tones to indicate the end of a transmission."
     },
     {
      "heading": "Subpart B—Family Radio Service (FRS): § 95.579 FRS unwanted emissions limits.",
@@ -871,7 +823,9 @@
      "body": "Effective September 30, 2019, no person shall sell or offer for sale hand-held portable radio equipment capable of operating under this subpart (FRS) and under any other licensed or licensed-by-rule radio services in this chapter (devices may be authorized under this subpart with part 15 unlicensed equipment authorizations)."
     }
    ],
-   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-B"
+   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-B",
+   "aliases": "FRS radio, license for walkie talkies, FRS vs GMRS, walkie talkie rules, family radio service, FRS channels, walkie talkie range, how many watts FRS, FRS frequencies, can I use walkie talkies legally, FRS channel list, walkie talkie license, two way radio rules, bubble pack radios, FRS power limit, what can I say on FRS, FRS radio laws, repeater on FRS, FRS antenna rules",
+   "libraryOnly": true
   },
   {
    "title": "CB Radio Service (47 CFR Part 95 Subpart D, eCFR as of 2026-10-27)",
@@ -933,10 +887,6 @@
      "body": "(a) Except as specified in (b) and (c) of this section, the operator of a CBRS station must limit each on-air conversation with the operators of other CBRS stations to no more than five minutes. After an on-air conversation has ended, the operator of a CBRS station must not transmit again on the same channel for at least one minute.\n\n(b) When a CBRS operator is directly participating in emergency communications, it does not have to comply with paragraph (a) of this section regarding length of transmissions and pauses between transmissions. However, the operator must obey all other rules.\n\n(c) When an operator is using its CBRS station to assist a traveler, it does not have to comply with paragraph (a) of this section regarding length of transmissions and pauses between transmissions. However, the operator must obey all other rules."
     },
     {
-     "heading": "Subpart D—CB Radio Service: § 95.963 CBRS channel frequencies.",
-     "body": "The channels listed in this section are allotted for shared use in the CBRS. Each CBRS channel is designated by its center frequency in Megahertz (MHz).\n\nCBRS channel No.\n\nCenter frequency (MHz)\n\n1\n\n26.965\n\n2\n\n26.975\n\n3\n\n26.985\n\n4\n\n27.005\n\n5\n\n27.015\n\n6\n\n27.025\n\n7\n\n27.035\n\n8\n\n27.055\n\n9\n\n27.065\n\n10\n\n27.075\n\n11\n\n27.085\n\n12\n\n27.105\n\n13\n\n27.115\n\n14\n\n27.125\n\n15\n\n27.135\n\n16\n\n27.155\n\n17\n\n27.165\n\n18\n\n27.175\n\n19\n\n27.185\n\n20\n\n27.205\n\n21\n\n27.215\n\n22\n\n27.225\n\n23\n\n27.255\n\n24\n\n27.235\n\n25\n\n27.245\n\n26\n\n27.265\n\n27\n\n27.275\n\n28\n\n27.285\n\n29\n\n27.295\n\n30\n\n27.305\n\n31\n\n27.315\n\n32\n\n27.325\n\n33\n\n27.335\n\n34\n\n27.345\n\n35\n\n27.355\n\n36\n\n27.365\n\n37\n\n27.375\n\n38\n\n27.385\n\n39\n\n27.395\n\n40\n\n27.405"
-    },
-    {
      "heading": "Subpart D—CB Radio Service: § 95.965 CBRS transmit frequency accuracy.",
      "body": "Each CBRS transmitter type must be designed such that the transmit carrier frequency (or in the case of SSB transmissions, the reference frequency) remains within 50 parts-per-million of the channel center frequencies specified in § 95.963 under all normal operating conditions."
     },
@@ -965,7 +915,9 @@
      "body": "Marketing of devices that could be used with CBRS stations resulting in violation of the rules in this part is prohibited.\n\n(a) External radio frequency power amplifiers. No person shall manufacture, import, sell or offer for sale any external radio frequency power amplifier capable of operation below 144 MHz and intended for use in the CBRS. See § 2.815 of this chapter.\n\n(b) External frequency determining devices. No person shall manufacture, import, sell or offer for sale, any add-on device, whether internal or external, the function of which is to extend the transmitting frequency capability of a CBRS transmitter beyond that allowed by §§ 95.963 and 95.965."
     }
    ],
-   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-D"
+   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-D",
+   "aliases": "cb radio rules, do I need a license for cb, cb radio channels, cb channel 9 emergency, cb radio power limit, cb antenna height, can I use cb amplifier, cb radio frequencies, cb linear amplifier legal, what can I say on cb, cb radio range, cb radio for emergencies, 40 channel cb, cb radio laws, cb ssb power, cb radio interference, cb radio regulations, citizens band, cb radio fcc rules, can I connect cb to internet, cb radio in truck, is cb radio free to use",
+   "libraryOnly": true
   },
   {
    "title": "General Mobile Radio Service (47 CFR Part 95 Subpart E, eCFR as of 2026-10-27)",
@@ -996,15 +948,7 @@
     },
     {
      "heading": "Subpart E—General Mobile Radio Service: § 95.1743 Minor GMRS operators.",
-     "body": "Operators under the age of 18 will not be held personally responsible, pursuant to § 95.343, for improper operation of a GMRS repeater or base station. The holder of the individual license under which the minor operates is solely responsible for any improper operation that occurs while an individual under the age of 18 is operating the station."
-    },
-    {
-     "heading": "Subpart E—General Mobile Radio Service: § 95.1745 GMRS remote control.",
-     "body": "Notwithstanding the prohibition in § 95.345, GMRS repeater, base and fixed stations may be operated by remote control."
-    },
-    {
-     "heading": "Subpart E—General Mobile Radio Service: § 95.1747 GMRS automatic control.",
-     "body": "Notwithstanding the prohibition in § 95.347, GMRS repeater stations may be operated by automatic control."
+     "body": "Operators under the age of 18 will not be held personally responsible, pursuant to § 95.343, for improper operation of a GMRS repeater or base station. The holder of the individual license under which the minor operates is solely responsible for any improper operation that occurs while an individual under the age of 18 is operating the station.\n\n**Subpart E—General Mobile Radio Service: § 95.1745 GMRS remote control.**\n\nNotwithstanding the prohibition in § 95.345, GMRS repeater, base and fixed stations may be operated by remote control.\n\n**Subpart E—General Mobile Radio Service: § 95.1747 GMRS automatic control.**\n\nNotwithstanding the prohibition in § 95.347, GMRS repeater stations may be operated by automatic control."
     },
     {
      "heading": "Subpart E—General Mobile Radio Service: § 95.1749 GMRS network connection.",
@@ -1055,22 +999,16 @@
      "body": "(a) Effective September 30, 2019, no person shall be permitted to manufacture or import, sell or offer for sale any radio equipment capable of operating under both this subpart (GMRS) and subpart B (FRS) of this chapter."
     }
    ],
-   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-E"
+   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-E",
+   "aliases": "GMRS, GMRS license, do I need a license for GMRS, FRS vs GMRS, walkie talkie license, GMRS channels, GMRS frequencies, GMRS power limit, GMRS repeater, family radio license, GMRS rules, GMRS for family, kids use GMRS, GMRS prohibited uses, GMRS range, GMRS radios legal, GMRS tone codes, GMRS network linking, buying a GMRS radio, two way radio rules, GMRS license cost family",
+   "libraryOnly": true
   },
   {
    "title": "Multi-Use Radio Service (47 CFR Part 95 Subpart J, eCFR as of 2026-10-27)",
    "sections": [
     {
-     "heading": "Subpart J—Multi-Use Radio Service: § 95.2703 Definitions, MURS.",
-     "body": "MURS. A two-way, short distance voice or data communication service for facilitating personal or business activities of the general public."
-    },
-    {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2705 Grandfathered MURS stations.",
-     "body": "MURS stations that were licensed under part 90 of this chapter to operate on MURS frequencies as of November 13, 2000, are authorized by this rule to continue to operate under terms identical to those of such nullified part 90 authorizations, including any associated rule waivers."
-    },
-    {
-     "heading": "Subpart J—Multi-Use Radio Service: § 95.2707 Airborne use of MURS not authorized.",
-     "body": "Notwithstanding the provisions of § 95.307, MURS operation is not authorized aboard aircraft in flight."
+     "body": "**Subpart J—Multi-Use Radio Service: § 95.2703 Definitions, MURS.**\n\nMURS. A two-way, short distance voice or data communication service for facilitating personal or business activities of the general public.\n\nMURS stations that were licensed under part 90 of this chapter to operate on MURS frequencies as of November 13, 2000, are authorized by this rule to continue to operate under terms identical to those of such nullified part 90 authorizations, including any associated rule waivers.\n\n**Subpart J—Multi-Use Radio Service: § 95.2707 Airborne use of MURS not authorized.**\n\nNotwithstanding the provisions of § 95.307, MURS operation is not authorized aboard aircraft in flight."
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2719 MURS replacement parts.",
@@ -1082,11 +1020,7 @@
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2731 Permissible MURS uses.",
-     "body": "The operator of a MURS station may use it for the purposes listed in this section.\n\n(a) MURS stations may be used to transmit voice, data or image signals.\n\n(b) MURS stations may be used for telecommand and telemetry functions."
-    },
-    {
-     "heading": "Subpart J—Multi-Use Radio Service: § 95.2733 Prohibited MURS uses.",
-     "body": "MURS stations must not be operated as repeater stations or signal boosters. This prohibition includes store-and-forward packet operation."
+     "body": "The operator of a MURS station may use it for the purposes listed in this section.\n\n(a) MURS stations may be used to transmit voice, data or image signals.\n\n(b) MURS stations may be used for telecommand and telemetry functions.\n\n**Subpart J—Multi-Use Radio Service: § 95.2733 Prohibited MURS uses.**\n\nMURS stations must not be operated as repeater stations or signal boosters. This prohibition includes store-and-forward packet operation."
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2741 MURS antenna height limit.",
@@ -1094,11 +1028,7 @@
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2749 MURS network connection.",
-     "body": "MURS stations are prohibited from interconnection with the public switched network. Interconnection Defined. Connection through automatic or manual means of multi-use radio stations with the facilities of the public switched telephone network to permit the transmission of messages or signals between points in the wireline or radio network of a public telephone company and persons served by multi-use radio stations. Wireline or radio circuits or links furnished by common carriers, which are used by licensees or other authorized persons for transmitter control (including dial-up transmitter control circuits) or as an integral part of an authorized, private, internal system of communication or as an integral part of dispatch point circuits in a multi-use radio station are not considered to be interconnection for purposes of this rule part."
-    },
-    {
-     "heading": "Subpart J—Multi-Use Radio Service: § 95.2757 MURS duration of transmissions.",
-     "body": "MURS stations may not be operated in the continuous carrier transmit mode."
+     "body": "MURS stations are prohibited from interconnection with the public switched network. Interconnection Defined. Connection through automatic or manual means of multi-use radio stations with the facilities of the public switched telephone network to permit the transmission of messages or signals between points in the wireline or radio network of a public telephone company and persons served by multi-use radio stations. Wireline or radio circuits or links furnished by common carriers, which are used by licensees or other authorized persons for transmitter control (including dial-up transmitter control circuits) or as an integral part of an authorized, private, internal system of communication or as an integral part of dispatch point circuits in a multi-use radio station are not considered to be interconnection for purposes of this rule part.\n\n**Subpart J—Multi-Use Radio Service: § 95.2757 MURS duration of transmissions.**\n\nMURS stations may not be operated in the continuous carrier transmit mode."
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2761 MURS transmitter certification.",
@@ -1110,11 +1040,7 @@
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2765 MURS frequency accuracy.",
-     "body": "Each MURS transmitter type must be designed to meet the applicable frequency tolerance and stability requirements of this section.\n\n(a) MURS transmitters that operate with an emission bandwidth of 6.25 kHz or less must be designed such that the carrier frequencies remain within ±2.0 parts-per-million (ppm) of the channel center frequencies specified in § 95.2763 during normal operating conditions.\n\n(b) MURS transmitters that operate with an emission bandwidth greater than 6.25 kHz must be designed such that the carrier frequencies remain within ±5.0 ppm of the channel center frequencies specified in § 95.2763 during normal operating conditions."
-    },
-    {
-     "heading": "Subpart J—Multi-Use Radio Service: § 95.2767 MURS transmitting power limit.",
-     "body": "Each MURS transmitter type must be designed such that the transmitter power output does not exceed 2 Watts under normal operating conditions."
+     "body": "Each MURS transmitter type must be designed to meet the applicable frequency tolerance and stability requirements of this section.\n\n(a) MURS transmitters that operate with an emission bandwidth of 6.25 kHz or less must be designed such that the carrier frequencies remain within ±2.0 parts-per-million (ppm) of the channel center frequencies specified in § 95.2763 during normal operating conditions.\n\n(b) MURS transmitters that operate with an emission bandwidth greater than 6.25 kHz must be designed such that the carrier frequencies remain within ±5.0 ppm of the channel center frequencies specified in § 95.2763 during normal operating conditions.\n\n**Subpart J—Multi-Use Radio Service: § 95.2767 MURS transmitting power limit.**\n\nEach MURS transmitter type must be designed such that the transmitter power output does not exceed 2 Watts under normal operating conditions."
     },
     {
      "heading": "Subpart J—Multi-Use Radio Service: § 95.2771 MURS emission types.",
@@ -1129,7 +1055,9 @@
      "body": "The audio filter referenced in § 95.2779 must satisfy the requirements in this section.\n\n(a) The audio filter must be between the modulation limiter and the modulated stage of the transmitter.\n\n(b) At any frequency (f in kHz) between 3 and 15 kHz, the filter must have an attenuation of at least 40 log (f/3) dB more than the attenuation at 1 kHz. Above 15 kHz, it must have an attenuation of at least 28 dB more than the attenuation at 1 kHz."
     }
    ],
-   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-J"
+   "sourceUrl": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-J",
+   "aliases": "MURS radio, MURS channels, MURS license needed, MURS frequencies, MURS vs FRS, MURS vs GMRS, MURS power limit, MURS antenna rules, MURS range, license free radio, MURS allowed uses, MURS on farm, MURS repeater, 151 MHz radio, MURS data use, VHF license free",
+   "libraryOnly": true
   },
   {
    "title": "NOAA Weather Radio All Hazards: Overview and Frequencies",
@@ -1139,7 +1067,8 @@
      "body": "NOAA Weather Radio All Hazards (NWR) is a nationwide network of radio stations broadcasting continuous weather information directly from the nearest National Weather Service office. NWR broadcasts official Weather Service warnings, watches, forecasts and other hazard information 24 hours a day, 7 days a week.\n\nWorking with the Federal Communication Commission's (FCC) Emergency Alert System, NWR is an \"All Hazards\" radio network, making it your single source for comprehensive weather and emergency information. In conjunction with Federal, State, and Local Emergency Managers and other public officials, NWR also broadcasts warning and post-event information for all types of hazards – including natural (such as earthquakes or avalanches), environmental (such as chemical releases or oil spills), and public safety (such as AMBER alerts or 911 Telephone outages).\n\nKnown as the \"Voice of NOAA's National Weather Service,\" NWR is provided as a public service by the National Oceanic and Atmospheric Administration (NOAA), part of the Department of Commerce. NWR includes more than 1000 transmitters, covering all 50 states, adjacent coastal waters, Puerto Rico, the U.S. Virgin Islands, and the U.S. Pacific Territories. NWR requires a special radio receiver or scanner capable of picking up the signal. Broadcasts are found in the VHF public service band at these seven frequencies (MHz):\n\n- 162.400\n- 162.425\n- 162.450\n- 162.475\n- 162.500\n- 162.525\n- 162.550"
     }
    ],
-   "sourceUrl": "https://www.weather.gov/nwr/"
+   "sourceUrl": "https://www.weather.gov/nwr/",
+   "aliases": "weather radio, NOAA weather radio, weather radio frequencies, weather alert radio, emergency alert radio, weather radio channel, 162.400 MHz, how to get weather alerts without internet, radio for storm warnings, weather band radio, hazard alerts by radio, weather radio stations, tornado warning radio, all hazards radio, SAME code weather radio"
   },
   {
    "title": "NOAA Weather Radio: Improving Reception",
@@ -1149,7 +1078,8 @@
      "body": "First check to see if your county is covered by a NWR station.\n\nThe range for NWR reception is about 40 miles from the transmitter. However, many things affect reception. Large bodies of salt water tend to greatly increase range. Forests, deserts, and hills/mountains tend to greatly reduce reception. Reception in cities may be reduced due to steel and concrete, while higher elevations will enhance the signal. Reception can vary from room to room. Mineral deposits in the ground can affect your radio signal. Moving even a few feet can a weak signal to a strong one.\n\nIt may help to be near a window facing the direction of the station, away from other electronic equipment, and on an upper level. You may need to to get a receiver with a good quality internal antenna, or hook it up to an external antenna.\n\nGenerally the least NWR expensive models are the ones that have reception problems. Many models will have a port to hook up an external antenna. You can buy an external antenna from an electronics store or make your own. The antenna will be similar to the type you use for your stereo: a two-conductor piece of wire attached to a wall and stretched up the wall toward the ceiling. When it nears the ceiling, split the wire conductors to form a T where the wire splits into it's horizontal section, each section should be at least 18 inches long. You can also tap into your regular outside or inside TV antenna.\n\nFor specific reception questions, contact your local National Weather Service office. The NWR station listing includes the programming office for each station, with links to the programming office's home page via a regional map."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/nwr/reception"
+   "sourceUrl": "https://www.weather.gov/nwr/reception",
+   "aliases": "weather radio no signal, noaa weather radio static, improve weather radio reception, weather radio antenna, weather radio not picking up, best spot for weather radio, noaa radio frequencies, weather radio in basement, external antenna weather radio, cant hear weather radio, weather radio reception tips, noaa weather radio, weather alert radio setup, weather radio near window, weather radio out of range"
   },
   {
    "title": "NOAA Weather Radio: SAME Alerts and Coverage",
@@ -1159,7 +1089,8 @@
      "body": "- Using NWR SAME\n- How you can program your new NWR SAME receiver with this code\n- SAME codes for states, counties, and territories\n- SAME codes for message types\n- NWS implementation of SAME Location Code Changes\n\nNWR service to a county depends on reliable signal reception, which typically extends in about a 40 mile radius from the transmitter, assuming level terrain. Counties without NWR coverage or partial NWR coverage are indicated. Some counties or parts of counties, especially in mountainous areas, may not have reliable reception due to signal blockages or excessive distance from the transmitter."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/nwr/nwrsame"
+   "sourceUrl": "https://www.weather.gov/nwr/nwrsame",
+   "aliases": "NOAA weather radio, weather radio alerts, SAME code, program weather radio, weather alert radio county code, weather radio coverage, weather radio frequencies, emergency alert radio, weather radio setup, storm warnings on radio, tornado warning radio, weather radio for my area, all hazards radio, radio that wakes you for storms"
   },
   {
    "title": "NOAA Weather Radio: Choosing and Programming a Receiver",
@@ -1189,7 +1120,8 @@
      "body": "NWS does NOT manufacture any brand of weather radio receiver. To get assistance programming your receiver, or to discuss problems, you may be experiencing with its operation, please contact the receiver's manufacturer. Below is a list of many NWR manufacturers. If your radio's manufacturer is not listed, please refer to your User/Owner's Manual for contact information."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/nwr/nwr_receivers"
+   "sourceUrl": "https://www.weather.gov/nwr/nwr_receivers",
+   "aliases": "weather radio, NOAA weather radio, which weather radio to buy, programming weather radio, SAME code, weather alert radio, weather radio for county, weather radio features, public alert radio, weather radio setup, emergency alert radio, radio for storms, hand crank weather radio, weather radio battery backup, all hazards radio"
   }
  ]
 }

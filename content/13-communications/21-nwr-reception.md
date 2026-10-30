@@ -1,5 +1,6 @@
 # NOAA Weather Radio: Improving Reception
 Source: https://www.weather.gov/nwr/reception
+Aliases: weather radio no signal, noaa weather radio static, improve weather radio reception, weather radio antenna, weather radio not picking up, best spot for weather radio, noaa radio frequencies, weather radio in basement, external antenna weather radio, cant hear weather radio, weather radio reception tips, noaa weather radio, weather alert radio setup, weather radio near window, weather radio out of range
 
 ## Overview
 First check to see if your county is covered by a NWR station.

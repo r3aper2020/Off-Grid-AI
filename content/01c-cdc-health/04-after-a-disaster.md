@@ -1,5 +1,6 @@
 # What to Do to Prevent Getting Hurt or Sick After a Disaster
 Source: https://www.cdc.gov/natural-disasters/response/index.html
+Aliases: after a flood what to avoid, is floodwater dangerous, cleaning up after a flood, mold cleanup, generator carbon monoxide, downed power lines, stray animals after storm, mosquitoes after flood, staying safe after a hurricane, cleaning up debris, getting sick after a disaster, electrical hazards after flood, wet electrical wiring, power outage after storm, wading through floodwater
 
 ## KEY POINTS
 - After a disaster, there are a number of hazards that can make you sick or hurt you.

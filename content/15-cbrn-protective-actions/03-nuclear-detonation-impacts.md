@@ -1,5 +1,6 @@
 # Nuclear Detonation Impacts: Blast, Heat, Radiation and Fallout (FEMA Planning Guidance, Ch. 1)
 Source: https://remm.hhs.gov/PlanningGuidanceNuclearDetonation_2023.pdf
+Aliases: nuclear bomb effects, what happens in a nuclear explosion, blast wave, flash blindness, fallout radiation zones, how far from nuclear blast is safe, emp effects on electronics, radiation sickness from fallout, nuclear detonation damage, thermal burns nuclear, nuclear flash eyes, fallout how long dangerous, nuke explosion what happens, nuclear attack effects, air burst vs ground burst, radiation injury, mushroom cloud fallout, will my car work after emp, fire after nuclear blast, nuclear blast glass windows
 
 ## 1. Nuclear Detonation Impacts
 The descriptions and planning factors provided in this document are nominally based on the Department of Homeland Security (DHS) National Planning Scenario (NPS) #1, which describes a 10 kiloton (kT) yield nuclear detonation at ground level in an urban environment. This document captures a wider range of potential planning considerations, describing the impacts of smaller and larger yields, as well as detonations that occur above ground (see Table 3).

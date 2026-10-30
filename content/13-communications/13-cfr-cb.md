@@ -1,5 +1,7 @@
 # CB Radio Service (47 CFR Part 95 Subpart D, eCFR as of 2026-10-27)
 Source: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-D
+Aliases: cb radio rules, do I need a license for cb, cb radio channels, cb channel 9 emergency, cb radio power limit, cb antenna height, can I use cb amplifier, cb radio frequencies, cb linear amplifier legal, what can I say on cb, cb radio range, cb radio for emergencies, 40 channel cb, cb radio laws, cb ssb power, cb radio interference, cb radio regulations, citizens band, cb radio fcc rules, can I connect cb to internet, cb radio in truck, is cb radio free to use
+Chat: library-only
 
 ## Subpart D—CB Radio Service: § 95.903 Definitions, CBRS.
 CB Radio Service (CBRS). A mobile and fixed two-way voice communication service for facilitating personal, business or voluntary public service activities, including communications to provide assistance to highway travelers.

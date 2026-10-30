@@ -1,5 +1,6 @@
 # Winter Weather
 Source: https://www.ready.gov/winter-weather
+Aliases: winter storm what to do, blizzard preparation, winter storm warning vs watch, snowed in, power out in winter, stay warm no power, winter storm supplies, frostbite hypothermia signs, driving in snow stuck, generator safety winter, winter car kit, ice storm, pipes freezing, winter weather advisory, heating safely in outage, cold snap, stuck in car in blizzard, shoveling snow heart attack, wind chill, keep house warm outage, winter storm kit
 
 ## Overview
 Winter storms create a higher risk of car accidents, hypothermia, frostbite, carbon monoxide poisoning, and heart attacks from overexertion. Winter storms including blizzards can bring extreme cold, freezing rain, snow, ice and high winds.

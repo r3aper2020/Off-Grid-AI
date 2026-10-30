@@ -4,7 +4,7 @@
  "id": "food-storage",
  "title": "Food Storage & Power Outages (FDA)",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Food and Drug Administration",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Storing food safely in the refrigerator, freezer and cupboard; refrigerator and freezer storage times; keeping food and water safe before, during and after power outages and floods.",
@@ -39,7 +39,8 @@
      "body": "- Check canned goods for damage. Can damage is shown by swelling, leakage, punctures, holes, fractures, extensive deep rusting, or crushing or denting severe enough to prevent normal stacking or opening with a manual, wheel-type can opener. Stickiness on the outside of cans may indicate a leak. Newly purchased cans that appear to be leaking should be returned to the store for a refund or exchange. Otherwise, throw the cans away.\n- Keep food away from poisons. Don't store non-perishable foods near household cleaning products and chemicals."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+   "aliases": "storing food safely, fridge temperature, freezer temperature, how long is food good in fridge, power out how long is food good, refrigerator without power, freezer without power how long, food safe after power outage, when to throw out food, refreeze thawed food, leftovers how long, storing canned food, pantry food storage, dry goods storage, food storage tips, expiration dates, fridge thermometer, food in cooler with ice, is my food still safe, dry ice in freezer"
   },
   {
    "title": "Food and Water Safety During Power Outages and Floods (FDA)",
@@ -61,12 +62,8 @@
      "body": "Determine the safety of your food:\n\n- If an appliance thermometer was kept in the freezer, check the temperature when the power comes back on. If the freezer thermometer reads 40° F or below, the food is safe and may be refrozen.\n- If a thermometer has not been kept in the freezer, check each package of food to determine its safety. You can’t rely on appearance or odor. If the food still contains ice crystals or is 40° F or below, it is safe to refreeze or cook.\n- If the power was out for no more than 4 hours, refrigerated food should be safe as long as the doors were kept closed. When the power comes back on, check the temperature in the refrigerator or of the food. Discard any refrigerated perishable food (such as meat, poultry, seafood, milk, eggs, or leftovers) that has been at refrigerator temperatures above 40°F for 4 hours or more. Perishable foods with temperatures that are 45°F or below (measured with a food thermometer) should be safe, but should be cooked and consumed as soon as possible.\n\nPerishable food such as meat, poultry, seafood, milk, and eggs that are not kept adequately refrigerated or frozen may cause illness if consumed, even when they are thoroughly cooked."
     },
     {
-     "heading": "If Flooding Occurs",
-     "body": "Be prepared to safely handle food and water in the event that flooding occurs."
-    },
-    {
      "heading": "If Flooding Occurs: Keep Water Safe",
-     "body": "Follow these steps to keep your WATER SAFE during and after flood conditions.\n\n- Only use water from a safe source for drinking and washing or preparing food.\n- Use bottled water that has not been exposed to flood waters, if it is available.\n- If you don’t have bottled water, you should boil or disinfect water to make it safe. (see steps below)\n- If you have a well that has been flooded, the water should be tested and disinfected after flood waters recede. If you suspect that your well may be contaminated, contact your local or state health department or agricultural extension agent for specific advice.\n\n**How to Boil or Disinfect Water To Make It Safe**\n\nIf the water is cloudy, first filter it through clean cloths, or allow it to settle and then draw off the clear water for boiling/ disinfecting. Then, follow one of these two procedures:\n\nBoiling\n\nBoiling water will kill most types of disease-causing organisms that may be present.\n\n- Boil the water for 1 minute.\n- Let it cool, and store it in clean containers with covers.\n\nDisinfecting with Bleach\n\nBleach will kill some, but not all, types of disease-causing organisms that may be in the water.\n\n- Add 1/8 teaspoon (or 8 drops) of unscented household (5.25% concentration) liquid bleach for each gallon of water.\n- Stir it well and let it stand for 30 minutes before you use it.\n- Store disinfected water in clean containers with covers."
+     "body": "Be prepared to safely handle food and water in the event that flooding occurs.\n\nFollow these steps to keep your WATER SAFE during and after flood conditions.\n\n- Only use water from a safe source for drinking and washing or preparing food.\n- Use bottled water that has not been exposed to flood waters, if it is available.\n- If you don’t have bottled water, you should boil or disinfect water to make it safe. (see steps below)\n- If you have a well that has been flooded, the water should be tested and disinfected after flood waters recede. If you suspect that your well may be contaminated, contact your local or state health department or agricultural extension agent for specific advice.\n\n**How to Boil or Disinfect Water To Make It Safe**\n\nIf the water is cloudy, first filter it through clean cloths, or allow it to settle and then draw off the clear water for boiling/ disinfecting. Then, follow one of these two procedures:\n\nBoiling\n\nBoiling water will kill most types of disease-causing organisms that may be present.\n\n- Boil the water for 1 minute.\n- Let it cool, and store it in clean containers with covers.\n\nDisinfecting with Bleach\n\nBleach will kill some, but not all, types of disease-causing organisms that may be in the water.\n\n- Add 1/8 teaspoon (or 8 drops) of unscented household (5.25% concentration) liquid bleach for each gallon of water.\n- Stir it well and let it stand for 30 minutes before you use it.\n- Store disinfected water in clean containers with covers."
     },
     {
      "heading": "If Flooding Occurs: Keep Food Safe",
@@ -85,7 +82,8 @@
      "body": "If you think that you or a family member has a foodborne illness, contact your healthcare provider immediately. To report a complaint or adverse event (illness or serious allergic reaction), visit Industry and Consumer Assistance."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods"
+   "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods",
+   "aliases": "power out how long is food good, fridge without power, freezer without power, food after power outage, is my food still safe, refrigerator temperature power outage, flooded food, canned food in flood water, throw out food after outage, 4 hours fridge, 48 hours freezer, dry ice fridge, food poisoning symptoms, water after flood, food in flood, power outage food list, refreezing thawed food, flooded kitchen"
   },
   {
    "title": "Refrigerator & Freezer Storage Chart (FDA, 2018)",
@@ -107,7 +105,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://www.fda.gov/media/74435/download"
+   "sourceUrl": "https://www.fda.gov/media/74435/download",
+   "aliases": "how long does food last in fridge, how long can meat be frozen, fridge storage times, freezer storage chart, how long are eggs good, leftovers how long, chicken in fridge how long, when does food go bad, lunch meat shelf life, how long to keep cooked food, frozen food shelf life, fridge food expiration, ground beef in fridge, fish freezer time, how long is milk good"
   }
  ]
 }

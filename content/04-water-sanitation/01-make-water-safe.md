@@ -1,5 +1,6 @@
 # How to Make Water Safe in an Emergency
 Source: https://www.cdc.gov/water-emergency/about/index.html
+Aliases: is my water safe to drink, how to purify water, boil water how long, boiling water to make it safe, bleach to purify water, how much bleach per gallon, water purification tablets, iodine tablets water, water filter emergency, filter then boil, make tap water safe, boil water notice, UV water purifier, solar water disinfection, water tastes flat after boiling, water with chemicals in it, contaminated water after flood, disinfect water, drinking water emergency, cloudy water purify, well water after flood
 
 ## Key points
 - After an emergency, your tap water may not be available or safe to use.

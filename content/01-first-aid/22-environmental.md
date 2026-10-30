@@ -1,5 +1,6 @@
 # Heat, Cold and Environmental Injuries (ATP 4-02.11 Ch. 17)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: frostbite what to do, hypothermia signs, too cold shivering, heat stroke, heat exhaustion, drank too much water hyponatremia, trench foot wet feet, chilblains itchy toes, snow blindness, altitude sickness, hape hace mountain, fingers white and numb, rewarming frozen skin, cold weather injuries, hot weather illness, high altitude headache, shaking from cold, body temperature too low, immersion foot, toes frozen
 
 ## Climatic and Environmental Injuries: OVERVIEW OF CLIMATIC INJURIES
 **Chapter 17**

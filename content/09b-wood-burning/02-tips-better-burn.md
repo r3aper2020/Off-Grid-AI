@@ -1,5 +1,6 @@
 # Tips for a Better Burn (EPA Burn Wise)
 Source: https://www.epa.gov/burnwise/tips-better-burn
+Aliases: build a fire in wood stove, wood stove tips, seasoned firewood, wet wood wont burn, stove smoking, how to keep a fire going, splitting and drying firewood, wood stove smoke outside, too much creosote, burning wood efficiently, what not to burn in stove, ashes disposal, starting a fire in stove, firewood moisture, dampers wood stove, banking a fire, clean burn wood stove, top down fire, how long to dry firewood, fire keeps going out
 
 ## Overview
 The Burn Wise Program ran from 2009 to 2025. The website serves as a historic record; EPA is no longer updating program content as of October 30, 2025.

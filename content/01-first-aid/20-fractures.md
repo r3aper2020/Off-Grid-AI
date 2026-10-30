@@ -1,5 +1,6 @@
 # Fractures and Splinting (ATP 4-02.11 Ch. 13)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: broken bone, broken arm, broken leg, how to splint, splinting a fracture, making a splint, broken bone no doctor, is it broken or sprained, improvised sling, arm sling, broken collarbone, broken jaw, neck injury dont move, spinal injury, open fracture bone sticking out, broken wrist, broken ankle, broken finger, immobilize a limb, splint materials, bone and joint injury, fracture types
 
 ## Fractures and Splinting: OVERVIEW OF FRACTURES
 **Chapter 13**

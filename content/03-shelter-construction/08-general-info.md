@@ -1,5 +1,6 @@
 # Tile, Insulation and General Information (TM 3-34.47 App. D)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: laying floor tile, installing ceramic tile, vinyl floor tile, drop ceiling installation, suspended ceiling grid, ceiling tiles, painting walls and ceilings, how to paint a room, tile grout, acoustic tile, painting cleanup, how to tile a floor, wall tile installation, interior finish work, tile adhesive, paint a ceiling, install a ceiling grid
 
 ## General Information: FLOOR AND WALL TILE
 **Appendix D**

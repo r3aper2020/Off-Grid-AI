@@ -1,5 +1,6 @@
 # Keeping Layers for the Family Egg Supply (USDA Agriculture Fact Sheet 3-6-2, 1977)
 Source: https://archive.org/download/CAT31376150/CAT31376150.pdf
+Aliases: backyard chickens, raising chickens for eggs, chicken coop, how to feed laying hens, laying hens, chickens stopped laying, how many chickens for a family, chicken health problems, storing fresh eggs, how to freeze eggs, keeping eggs without fridge, building a chicken cage, chicken housing, getting started with chickens, hens for eggs, chicken feed
 
 ## Overview
 

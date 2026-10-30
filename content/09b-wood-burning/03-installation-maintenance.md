@@ -1,5 +1,6 @@
 # Wood-Burning Installation and Maintenance (EPA Burn Wise)
 Source: https://www.epa.gov/burnwise/wood-burning-installation-and-maintenance
+Aliases: installing a wood stove, wood stove installation, chimney cleaning, creosote buildup, how often clean chimney, wood stove maintenance, stove pipe installation, wood stove clearance from wall, chimney liner, wood stove inspection, chimney fire prevention, wood stove gaskets, fireplace insert install, wood stove safety, stove chimney cap, maintaining a wood burning stove
 
 ## Overview
 The Burn Wise Program ran from 2009 to 2025. The website serves as a historic record; EPA is no longer updating program content as of October 30, 2025.

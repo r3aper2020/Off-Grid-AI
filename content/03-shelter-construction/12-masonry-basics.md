@@ -1,5 +1,6 @@
 # Mason's Tools, Mortar and Scaffolding (TM 3-34.44 Ch. 7)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN33491-TM_3-34.44-001-WEB-3.pdf
+Aliases: mixing mortar, mortar mix ratio, how to mix mortar by hand, mason tools, brick laying tools, types of mortar, mortar in cold weather, repointing brick, tuck pointing, fixing crumbling mortar, scaffolding for bricklaying, building a scaffold, lime putty mortar, mortar too dry, water for mortar, masonry basics, how to lay brick, storing cement and sand
 
 ## Masonry
 **PART TWO**

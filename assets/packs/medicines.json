@@ -4,7 +4,7 @@
  "id": "medicines",
  "title": "Medicines in Emergencies",
  "category": "medical",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Food and Drug Administration",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Using medicines after floods, fire or power loss, storing and switching insulin in an emergency, expiration dates, acetaminophen safety, cough and cold medicine for children, and disposing of unused medicines.",
@@ -28,18 +28,15 @@
     },
     {
      "heading": "Exception for Lifesaving Drugs",
-     "body": "If a medicine exposed to fire or unsafe water is needed to treat a life-threatening condition and a replacement is not readily available, it may be used if it appears unchanged. The medicine should be replaced as soon as possible.\n\nMedicine that is wet or otherwise altered should not be used. It is contaminated and should be discarded."
-    },
-    {
-     "heading": "Drugs that Need to Be Reconstituted (Made into a Liquid)",
-     "body": "Medicines that have to be reconstituted (made into a liquid using water) should be mixed only with purified or bottled water. Do not use any other liquid to reconstitute these products."
+     "body": "If a medicine exposed to fire or unsafe water is needed to treat a life-threatening condition and a replacement is not readily available, it may be used if it appears unchanged. The medicine should be replaced as soon as possible.\n\nMedicine that is wet or otherwise altered should not be used. It is contaminated and should be discarded.\n\n**Drugs that Need to Be Reconstituted (Made into a Liquid)**\n\nMedicines that have to be reconstituted (made into a liquid using water) should be mixed only with purified or bottled water. Do not use any other liquid to reconstitute these products."
     },
     {
      "heading": "Drugs that Need Refrigeration",
      "body": "Some medicines require refrigeration (for example, insulin and certain liquid antibiotics). If a medicine has not been kept at the recommended temperature during a power outage, check the medicine's storage instructions, if available, or contact a pharmacist, health care provider, or the manufacturer to find out if it can still be used.\n\nIf the medicine is needed to sustain life (for example, insulin) and a replacement is not readily available, it may be used until you can get a new supply.\n\nTemperature-sensitive medicines may lose potency when they are not stored at the recommended temperature. Replace medicines that can no longer be used with a new supply as soon as possible. For more information about insulin, see Information Regarding Insulin Storage and Switching Between Products in an Emergency."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster"
+   "sourceUrl": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
+   "aliases": "are my pills still good after flood, medicine got wet, insulin without fridge, medicine left in heat, refrigerated medication power out, flood water touched medication, pills after disaster, medication storage emergency, drugs exposed to heat, can I take damp pills, mixing medicine with water after flood, prescription after hurricane, lifesaving medicine contaminated, keep medicines safe, insulin power outage, medicine in hot car"
   },
   {
    "title": "Insulin Storage and Switching Between Products in an Emergency (FDA)",
@@ -69,7 +66,8 @@
      "body": "If your pump supplies are not available or your pump is not working properly, you may need to switch to injected insulin. This should be done with a doctor's guidance and close blood sugar monitoring whenever possible.\n\n**Using a Different Insulin in Your Insulin Pump**\n\nIn an emergency, you may be able to swap one rapid-acting insulin (such as Apidra, Fiasp, Humalog, Novolog) for another on a unit-per-unit basis. Check your pump’s instructions to make sure the available insulins are compatible with your devices.\n\nNote: Not all rapid-acting insulins are approved for pump use. Merilog (insulin aspart-szjj) is not currently labeled for insulin pump use. Humalog U-200 and Lyumjev U-200 must NOT be used in insulin pumps. Always check the specific insulin product labeling before use in a pump.\n\n**Switching from an Insulin Pump to Injected Insulin**\n\nIf you must switch from your pump to injected insulin, use the following guidance:\n\n- Replace your pump’s total 24-hour basal (background) dose with insulin on a unit-per-unit basis.\n- For intermediate-acting insulin, split the 24-hour basal (background) dose into two equal injections per day. For example, if your 24-hour basal (background) dose is 24 units, inject 12 units twice daily.\n- For long-acting insulin, give the full 24-hour basal (background) dose as one injection per day.\n- If regular or rapid-acting insulin is also available, use it with each meal. Match your pump’s bolus (mealtime) dose on a unit-per-unit basis.\n- For example, if your pump gives a bolus (mealtime) of 5 units to cover breakfast, inject 5 units of regular or rapid-acting insulin to cover that meal"
     }
    ],
-   "sourceUrl": "https://www.fda.gov/drugs/emergency-preparedness-drugs/information-regarding-insulin-storage-and-switching-between-products-emergency"
+   "sourceUrl": "https://www.fda.gov/drugs/emergency-preparedness-drugs/information-regarding-insulin-storage-and-switching-between-products-emergency",
+   "aliases": "insulin without refrigeration, insulin storage power outage, how long does insulin last unrefrigerated, insulin got warm, insulin left out, insulin in the heat, keeping insulin cool no fridge, switching insulin brands, ran out of my insulin type, different insulin than usual, insulin pump in emergency, insulin pump failure, diabetic in a disaster, insulin frozen, insulin expired emergency, diabetes supplies emergency"
   },
   {
    "title": "Expiration Dates: Questions and Answers (FDA)",
@@ -95,7 +93,8 @@
      "body": "FDA supports a public health program involving other partners to extend the expiration dates for a limited number of carefully selected drug products. Under the Shelf-Life Extension Program (SLEP), FDA conducts testing for certain products stored in federal stockpiles in environmentally controlled locations. (Federal stockpiles are stores of certain drugs that might be needed to prevent or treat diseases or conditions which may occur during a public health emergency.) SLEP is a fee-for-service program through which the labeled shelf life of certain federally stockpiled products can be extended after select products undergo periodic stability testing conducted by FDA.\n\nDrugs held by consumers may have been stored under varied conditions after entering the market. As a result, it would be difficult to conduct testing to determine expiration dates that would be meaningful and generally applicable after prolonged periods of storage under different conditions. The appropriate conditions will depend on the drug, but may include considerations regarding temperature, humidity, and exposure to light."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/drugs/pharmaceutical-quality-resources/expiration-dates-questions-and-answers"
+   "sourceUrl": "https://www.fda.gov/drugs/pharmaceutical-quality-resources/expiration-dates-questions-and-answers",
+   "aliases": "expired medicine, can I take expired pills, do medications expire, how long after expiration, expired drugs safe, expired antibiotics, expired epipen, expired insulin, medicine shelf life, stockpiling medications, drug expiration dates, old medicine still work, expired tylenol, expired aspirin, medication storage long term"
   },
   {
    "title": "Expiration Dating Extension (FDA)",
@@ -121,7 +120,8 @@
      "body": "If appropriate, FDA can also choose to not take enforcement action with respect to products that are held or used beyond their labeled expiration date. However, when enforcement discretion is used for medical product dating extensions, MCMs are not covered under applicable Public Readiness and Emergency Preparedness (PREP) Act liability protections.\n\nback to list"
     }
    ],
-   "sourceUrl": "https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/expiration-dating-extension"
+   "sourceUrl": "https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/expiration-dating-extension",
+   "aliases": "expired medicine, can I use expired medication, do drugs expire, how long past expiration date, shelf life extension program, FDA expiration extension, expired pills still work, stockpiled medicine expiry, is expired medicine safe, epipen expired, medicine expiration dates, emergency use of expired drugs, extending drug shelf life"
   },
   {
    "title": "Acetaminophen (FDA)",
@@ -155,7 +155,8 @@
      "body": "The use of any medicine during pregnancy should be carefully considered. In 2015, FDA communicated safety findings to the public about the use of pain medicine during pregnancy. FDA continues to monitor and evaluate the use of pain medicine, including acetaminophen, during pregnancy. To date, FDA has not found clear evidence that appropriate use of acetaminophen during pregnancy causes adverse pregnancy, birth, neurobehavioral, or developmental outcomes. However, FDA continues to recommend consultation with a health care professional before use of any medicine, including acetaminophen, during pregnancy.\n\nIf you are pregnant:\n\n- Consult your health care professional about the use of all prescription and over-the-counter drugs, vitamins, and supplements.\n- Do not stop taking any prescribed drugs without first talking to your health care professional.\n- Talk to your health care professional if you have any questions or concerns about drugs you are taking."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen"
+   "sourceUrl": "https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen",
+   "aliases": "tylenol dosage, how much tylenol is safe, acetaminophen overdose, tylenol liver damage, tylenol for kids, acetaminophen pregnancy, too much tylenol, infant tylenol dose, tylenol with alcohol, acetaminophen in cold medicine, paracetamol dose, tylenol rash reaction, max acetaminophen per day, fever reducer safe amount, pain reliever safe use, took too much tylenol, tylenol every 4 hours"
   },
   {
    "title": "Should You Give Kids Medicine for Coughs and Colds? (FDA)",
@@ -181,25 +182,23 @@
      "body": "Not every sniffle or cough merits a trip to the doctor’s office. When in doubt, call your health care provider.\n\nSome symptoms can signal that your child may have something more serious than a cold. For all children, call a doctor if you see any of these symptoms:\n\n- A fever of 100.4 degrees Fahrenheit or higher in an infant 2 months or younger.\n- A fever of 102 degrees Fahrenheit or higher in children at any age.\n- Blue lips.\n- Labored breathing, including nostrils widening with each breath; wheezing; fast breathing; the ribs showing with each breath; or shortness of breath.\n- Severe headache.\n- Not eating or drinking, with signs of dehydration (such as decreased urination).\n- Excessive crankiness or sleepiness.\n- Persistent ear pain.\n- If the child is getting worse."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds"
+   "sourceUrl": "https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds",
+   "aliases": "cough medicine for kids, cold medicine for toddler, can I give my baby cough syrup, kid has a cold, child cough at night, treating a cold in babies, how to help a congested baby, saline drops and suction bulb, honey for cough, cough medicine age limit, cold medicine under 4, when to call doctor for kids cold, kid fever and cough, homeopathic cold remedies kids, child runny nose remedies"
   },
   {
    "title": "Disposal of Unused Medicines (FDA)",
    "sections": [
     {
-     "heading": "Video: How to Safely Dispose of Unused or Expired Medicine",
-     "body": "Drug disposal options to consider and instructions for getting rid of unused or expired medicines"
-    },
-    {
      "heading": "Transcript",
-     "body": "MUSIC: IN\n\nNarrator: Unused medicines can spell many things. RISK, if they’re taken by someone they weren’t prescribed for. HARM, if accidentally taken by a child or pet. DANGER, or even death, if not used as directed. Unused or expired medicines may be hiding right in your home. In bathrooms, kitchens, bedrooms, purses, and anywhere you store medicines. So why put your family at risk? Safely dispose of unused or expired medicines before they can do harm. There are many ways to get rid of them. The best option is to find a drug take-back location or use a prepaid drug mail-back envelope. Drug take-back locations can be located at a local pharmacy or a police station. These take-back locations may offer on-site medicine drop-off boxes, mail-back programs, or in-home disposal products. DEA’s web page can help you find a take-back location near you. Just enter your zip code. To use a prepaid drug mail-back envelope, simply fill the envelope with your unused or expired medicine, seal it, and take it to any United States Postal Service office or U.S. Postal Service drop-box. If you don’t have a drug take-back location near you or if prepaid drug mail-back envelopes are not available to you, check the FDA’s Flush List to see if your medicine is on it. Medicines on the Flush List may be especially dangerous with just one dose if they’re taken by children, pets, or others in your home. Flushing certain types of medicines, such as opioids, helps keep everyone safe by making sure these powerful drugs are not accidentally or intentionally swallowed, touched, or misused. Remember, don’t flush any medicine unless it is on the Flush List. If you don’t have a drug take-back location nearby or a prepaid drug mail-back envelope and your medicine is not on the Flush List, you can dispose of it in the trash. For medicines you dispose of in the trash, FDA recommends that you mix them with an unappealing substance such as dirt, cat litter, or used coffee grounds. Don’t crush pills. Then place the mixture in a sealed plastic bag before throwing it away. Scratch out personal information from the prescription label on the empty packaging. For complete details and instructions on safe medicine disposal, visit www.FDA.Gov/DrugDisposal."
+     "body": "**Video: How to Safely Dispose of Unused or Expired Medicine**\n\nDrug disposal options to consider and instructions for getting rid of unused or expired medicines\n\nMUSIC: IN\n\nNarrator: Unused medicines can spell many things. RISK, if they’re taken by someone they weren’t prescribed for. HARM, if accidentally taken by a child or pet. DANGER, or even death, if not used as directed. Unused or expired medicines may be hiding right in your home. In bathrooms, kitchens, bedrooms, purses, and anywhere you store medicines. So why put your family at risk? Safely dispose of unused or expired medicines before they can do harm. There are many ways to get rid of them. The best option is to find a drug take-back location or use a prepaid drug mail-back envelope. Drug take-back locations can be located at a local pharmacy or a police station. These take-back locations may offer on-site medicine drop-off boxes, mail-back programs, or in-home disposal products. DEA’s web page can help you find a take-back location near you. Just enter your zip code. To use a prepaid drug mail-back envelope, simply fill the envelope with your unused or expired medicine, seal it, and take it to any United States Postal Service office or U.S. Postal Service drop-box. If you don’t have a drug take-back location near you or if prepaid drug mail-back envelopes are not available to you, check the FDA’s Flush List to see if your medicine is on it. Medicines on the Flush List may be especially dangerous with just one dose if they’re taken by children, pets, or others in your home. Flushing certain types of medicines, such as opioids, helps keep everyone safe by making sure these powerful drugs are not accidentally or intentionally swallowed, touched, or misused. Remember, don’t flush any medicine unless it is on the Flush List. If you don’t have a drug take-back location nearby or a prepaid drug mail-back envelope and your medicine is not on the Flush List, you can dispose of it in the trash. For medicines you dispose of in the trash, FDA recommends that you mix them with an unappealing substance such as dirt, cat litter, or used coffee grounds. Don’t crush pills. Then place the mixture in a sealed plastic bag before throwing it away. Scratch out personal information from the prescription label on the empty packaging. For complete details and instructions on safe medicine disposal, visit www.FDA.Gov/DrugDisposal."
     },
     {
      "heading": "How to Safely Dispose of Unused or Expired Medicine",
      "body": "The best way to dispose of most types* of unused or expired medicines (both prescription and over-the-counter) is to immediately use a take-back option.\n\n- drop off the medicine at a drug take-back location, or\n- mail your expired or unused medicines using a pre-paid drug mail-back envelope.\n\nIf these options are not readily available, follow these guidelines:\n\n- If your medicine is on the FDA flush list, your next best option is to immediately flush these potentially dangerous medicines down the toilet.\n- If your medicine is not on the flush list, you should follow these instructions to discard the medicine in your trash at home.\n\n*Check out the Medication Disposal Q&A for more information including how to dispose of needles and syringes. Some products with uncommon dosage forms (e.g., sprays, lozenges) have product-specific disposal instructions. Review the instructions that came with your prescription or contact your health care professional (e.g., pharmacist, doctor) to find out how to properly dispose of these medicines.\n\nDrug Disposal Options Infographic (PDF - 2.3MB)\n\nUse our Safe Opioid Disposal - Remove the Risk Outreach Toolkit, which contains public service announcements (PSAs), social media posts and images, fact sheets, and more, for talking with others about safe opioid disposal"
     }
    ],
-   "sourceUrl": "https://www.fda.gov/drugs/safe-disposal-medicines/disposal-unused-medicines-what-you-should-know"
+   "sourceUrl": "https://www.fda.gov/drugs/safe-disposal-medicines/disposal-unused-medicines-what-you-should-know",
+   "aliases": "throwing away old medicine, how to dispose of pills, flush medicine, drug take back, getting rid of expired drugs, dispose of opioids, old prescriptions, medicine in trash, dispose of needles, unused medication, disposing medicines safely, kids and old pills"
   }
  ]
 }

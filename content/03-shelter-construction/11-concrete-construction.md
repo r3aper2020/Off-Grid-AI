@@ -1,5 +1,6 @@
 # Concrete Construction: Site, Mixing, Placing, Finishing, Curing and Repair (TM 3-34.44 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN33491-TM_3-34.44-001-WEB-3.pdf
+Aliases: mixing concrete by hand, concrete mix ratio, pouring concrete, how to mix cement, concrete curing, finishing concrete, repairing concrete, concrete forms, concrete mixer, concrete slab, how much water in concrete, concrete cracking, site drainage, excavating for foundation, digging footings, shoring a trench, placing concrete, concrete in cold weather, concrete in hot weather, troweling concrete, cement sand gravel
 
 ## Construction Procedures
 **Chapter 5**

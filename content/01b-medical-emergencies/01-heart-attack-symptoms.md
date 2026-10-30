@@ -1,5 +1,6 @@
 # Heart Attack Symptoms and When to Call 9-1-1 (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/heart-attack/symptoms
+Aliases: heart attack symptoms, chest pain what to do, is this a heart attack, left arm pain, chest pressure, when to call 911 chest pain, heart attack in women, silent heart attack, jaw pain heart attack, shortness of breath chest tight, heart attack signs, indigestion or heart attack, cold sweat nausea chest, someone having heart attack, aspirin heart attack, chest hurts
 
 ## Overview
 Not all heart attacks begin with the sudden and crushing chest pain that comes when the blood flow to heart gets blocked. Heart attack symptoms can start slowly and can be mild or more serious and sudden. Symptoms also may come and go over several hours. The symptoms of a heart attack can be different from person to person and different between men and women. If you’ve already had a heart attack, your symptoms may not be the same for another one.

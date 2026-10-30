@@ -1,5 +1,6 @@
 # Pets and Animals (Ready.gov)
 Source: https://www.ready.gov/pets
+Aliases: pets in emergency, evacuating with pets, pet emergency kit, pet go bag, dog disaster plan, cat disaster plan, pets and evacuation, pet carrier, pet shelter during disaster, horses in emergency, livestock evacuation, pet food supply, pet medications, lost pet after disaster, pets travel emergency, large animals disaster, pet ID tags, microchip pet
 
 ## Overview
 Your pets are an important member of your family, so they need to be included in your family’s emergency plan. To prepare for the unexpected follow these tips with your pets in mind:

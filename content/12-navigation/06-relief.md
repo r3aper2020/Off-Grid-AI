@@ -1,5 +1,6 @@
 # Elevation and Relief (FM 3-25.26 Ch. 10)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: contour lines, reading contour lines, elevation on a map, contour interval, how steep is a slope, percent slope, slope calculation, terrain features, hill saddle valley ridge, spur draw cliff, map terrain features, depression on map, finding high ground, elevation profile, how to read elevation on topo map, concave convex slope, land shape from map, topographic relief
 
 ## CHAPTER 10 ELEVATION AND RELIEF
 The elevation of points on the ground and the relief of an area affect the movement, positioning, and, in some cases, effectiveness of military units.

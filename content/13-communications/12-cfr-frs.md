@@ -1,5 +1,7 @@
 # Family Radio Service (47 CFR Part 95 Subpart B, eCFR as of 2026-10-27)
 Source: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-B
+Aliases: FRS radio, license for walkie talkies, FRS vs GMRS, walkie talkie rules, family radio service, FRS channels, walkie talkie range, how many watts FRS, FRS frequencies, can I use walkie talkies legally, FRS channel list, walkie talkie license, two way radio rules, bubble pack radios, FRS power limit, what can I say on FRS, FRS radio laws, repeater on FRS, FRS antenna rules
+Chat: library-only
 
 ## Subpart B—Family Radio Service (FRS): § 95.503 Definitions, FRS.
 Family Radio Service (FRS). A short-distance two-way voice communication service, with limited data applications, between low power hand-held radios, for facilitating individual, family, group, recreational and business activities.

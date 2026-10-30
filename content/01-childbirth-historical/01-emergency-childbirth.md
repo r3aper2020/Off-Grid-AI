@@ -1,5 +1,6 @@
 # Emergency Childbirth (Office of Civil Defense and Public Health Service, 1970 reprint)
 Source: https://www.gutenberg.org/ebooks/26923
+Aliases: delivering a baby at home, baby coming no doctor, how to deliver a baby, wife in labor no hospital, emergency birth, stages of labor, water broke what now, contractions how far apart, when to push, cutting the umbilical cord, tying the cord, delivering the placenta, the afterbirth, bleeding after birth, miscarriage what to do, home birth kit, childbirth supplies list, newborn not breathing, breech baby, cord around neck, baby born in car
 
 ## Emergency Childbirth
 What To Do

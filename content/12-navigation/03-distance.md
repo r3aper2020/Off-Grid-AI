@@ -1,5 +1,6 @@
 # Scale and Distance (FM 3-25.26 Ch. 5)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: map scale, reading map scale, how far is it on the map, measuring distance on a map, miles to kilometers, bar scale, pace count, estimating distance, how far away is that, range estimation, map distance to real distance, 1:50000 map, time to walk distance, judging distance by eye, measuring curved road on map
 
 ## CHAPTER 5 SCALE AND DISTANCE
 A map is a scaled graphic representation of a portion of the earth's surface. The scale of the map permits the user to convert distance on the map to distance on the ground or vice versa. The ability to determine distance on a map, as well as on the earth's surface, is an important factor in planning and executing military missions.

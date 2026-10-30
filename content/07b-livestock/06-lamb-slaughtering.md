@@ -1,5 +1,6 @@
 # Lamb Slaughtering, Cutting, and Cooking on the Farm (USDA Farmers' Bulletin 2264, 1977)
 Source: https://www.gutenberg.org/ebooks/62838
+Aliases: how to butcher a lamb, slaughtering a sheep, lamb cuts of meat, skinning a lamb, gutting a sheep, sheep slaughter at home, home butchering lamb, hanging a carcass, cutting up lamb, freezing lamb meat, cooking lamb, lamb pelt tanning, saving sheep skin, humane killing of sheep, lamb meat yield, butchering equipment, chilling a carcass
 
 ## SELECTION AND CARE OF ANIMAL BEFORE SLAUGHTER
 

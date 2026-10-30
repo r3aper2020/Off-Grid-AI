@@ -4,7 +4,7 @@
  "id": "signaling",
  "title": "Signaling for Rescue",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "Federal Aviation Administration, U.S. Coast Guard Boating Safety Division, NOAA (SARSAT and National Weather Service)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Getting found: ground-to-air visual code and body signals, 406 MHz beacons (PLB, EPIRB, ELT) and avoiding false alerts, flares, smoke, distress flag and SOS lights, VHF MAYDAY and DSC distress calls, and the SKYWARN spotter network.",
@@ -122,7 +122,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://www.faa.gov/air_traffic/publications/media/AIM_Basic_w_Chg_1_and_2_and_3_dtd_7-9-26_FINAL.pdf"
+   "sourceUrl": "https://www.faa.gov/air_traffic/publications/media/AIM_Basic_w_Chg_1_and_2_and_3_dtd_7-9-26_FINAL.pdf",
+   "aliases": "ground to air signals, how to signal a plane, signals for rescue helicopter, body signals to aircraft, search and rescue, ELT beacon, emergency locator transmitter, how to get found by plane, overdue aircraft, plane crash survival, signal for rescue, big letters on ground, rescue signal from ground, SOS signal, aircraft rescue signals, wave down a plane"
   },
   {
    "title": "Visual Distress Signals: Flares, Smoke, Distress Flag and Lights (USCG Boater's Guide)",
@@ -140,7 +141,8 @@
      "body": "Non-pyrotechnic visual distress signals must be in serviceable condition, readily accessible, and certified by the manufacturer as complying with U.S. Coast Guard requirements. These signals include:\n\nOrange Distress Flag\n\n- Used as a day signal only.\n\n- Must be at least 3 x 3 feet with a black square and ball on an orange background.\n\n- Must be marked with an indication that it meets U.S. Coast Guard requirements in 46\n\nCFR 160.072.\n\n- Most visible when attached and waved on a paddle or boat hook or flown from a mast.\n\n- May be incorporated into devices designed to attract attention in an emergency, such as\n\nballoons, kites, or floating streamer.\n\nElectronic Visual Distress Signal Device (eVDSD)\n\n- Acceptable for night use only.\n\n- Automatically flashes the international SOS distress signal (• • • – – – • • •).\n\n- Must be marked with an indication that it meets U.S. Coast Guard requirements in 46\n\nCFR 161.013 or\n\n- Must be marked with an indication it meets RTCM Std. 13200.0 for an eVDSD, Night\n\nVisual Distress Signal for Boats. For Emergency Use Only. USCG accepted for nighttime distress signal per 33 CFR 175.130 by CG-ENG Policy Letter 03-18.\n\nElectric Distress Signals (night only)\n\nUnder the Inland Navigation Rules, a high-intensity white light flashing at regular intervals from 50-70 times per minute is considered a distress signal. Such devices, however, do not meet the Visual Distress Signal carriage requirement.\n\nRegulations prohibit display of visual distress signals on the water except where assistance is needed because of immediate or potential danger to persons on board a vessel.\n\nNotice: All distress signals have distinct advantages and disadvantages. No single device is ideal under all conditions or suitable for all purposes.\n\nWarning: Pyrotechnics are universally recognized as excellent distress signals, but there is potential for injury and property damage if not handled properly. These devices produce a very hot flame with the potential to cause burns and ignite flammable materials. Disposal of these devices can also be a problem depending on jurisdiction.\n\nPistol-launched and hand-held parachute flares and meteors have many characteristics of a firearm and must be handled with extreme caution. In some states and Canada, they may be considered a firearm and prohibited from use. Be sure to check with your state boating agency.\n\nThe following are a few of the many combinations of devices that will meet the requirements:\n\n3 hand-held red flares that are approved for day/night use. 1 hand-held red flare and 2 parachute flares for day/night use. 1 hand-held orange smoke signal and 2 floating orange smoke signals for day, and 1 electric distress light for night."
     }
    ],
-   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf"
+   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf",
+   "aliases": "flares how to use, distress signals boat, signal for help on water, orange distress flag, emergency flares expired, smoke signal boat, sos light signal, boat distress signal required, hand held flare, parachute flare, electric distress light, how to signal a passing boat, visual distress signals, flare gun, signal rescue at sea, boat emergency signals, waving arms distress, how many flares do I need, flares at night vs day"
   },
   {
    "title": "EPIRBs, VHF Radio and MAYDAY Calls (USCG Boater's Guide)",
@@ -170,18 +172,15 @@
      "body": "To report Maritime Search and Rescue Emergencies, call the following numbers:\n\nFor the Great Lakes, Gulf and East Coasts: Atlantic Area Command Center: (757) 398-6700 For the Hawaiian, Alaskan and Pacific Coasts: Pacific Area Command Center: (510) 437-3701.\n\nFalse Distress Alerts: It is unlawful to intentionally transmit a false distress alert or to unintentionally transmit a false distress alert without taking steps to cancel that alert. Boaters who transmit a false distress alert are required to immediately cancel the alert.\n\nIf you inadvertently transmit a false DSC alert:\n\n- 1. Reset the equipment immediately.\n\n- 2. Tune for radiotelephony on the associated distress and safety frequency in each band in\n\nwhich a false distress alert was transmitted.\n\n- 3. Transmit a broadcast message to “All Stations” giving the ship’s name, call sign, time the alert was transmitted and MMSI, and cancel the false alert on the distress and safety frequency in each band in which the false distress alert was transmitted."
     }
    ],
-   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf"
+   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf",
+   "aliases": "how to call mayday, mayday call on boat, VHF radio distress call, channel 16, channel 9 boater calling, EPIRB, emergency beacon boat, PLB personal locator beacon, satellite rescue beacon, how SARSAT works, DSC distress button, VHF radio rules boat, need a license for marine radio, boat radio emergency, calling the coast guard, boat sinking who to call, marine search and rescue, pan pan call, distress call script, lost at sea rescue"
   },
   {
    "title": "406 MHz Emergency Beacons: PLBs, EPIRBs and ELTs (NOAA SARSAT)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "Carrying and activating a 406 beacon is sometimes the only hope for survival."
-    },
-    {
      "heading": "Lifeline to Survival",
-     "body": "No one expects to have an accident, get lost or experience some other distress situation when they set sail, fly or head into the wilderness for adventure. But it does happen. Mobile phones do not always work in the remote areas. Multi-tasking navigation assistance devices require charging. A 406 MHz distress beacon is your best bet. It only has one function – to alert Search and rescue (SAR) authorities directly within minutes of activation that you are in trouble and need help.\n\nThe three main types of 406 distress beacons and the kinds of situations each are designed for…Wilderness use, Marine and Aviation.\n\nThere are three types of 406 emergency beacons used to transmit distress signals, EPIRBs (for maritime use), ELTs (for aviation use), and PLBs (handheld personal, portable units for remote-environment use). 406 MHz Emergency beacons are digitally coded and transmit distress signals immediately upon activation. 406 refers to the proprietary radio wavelength these beacons transmit on. This means that even a brief inadvertent signal can generate a false alert. To avoid getting a call from the Coast Guard or Air Force, make sure that, when you test your 406 beacon, you follow the manufacturer’s recommendations carefully. Or follow these guidelines for general instructions on proper inspection and testing procedures.\n\nWith the information provided upon beacon registration it is easy for SAR authorities to contact you to determine if the distress is a real emergency before they initiate a search."
+     "body": "**Overview**\n\nCarrying and activating a 406 beacon is sometimes the only hope for survival.\n\nNo one expects to have an accident, get lost or experience some other distress situation when they set sail, fly or head into the wilderness for adventure. But it does happen. Mobile phones do not always work in the remote areas. Multi-tasking navigation assistance devices require charging. A 406 MHz distress beacon is your best bet. It only has one function – to alert Search and rescue (SAR) authorities directly within minutes of activation that you are in trouble and need help.\n\nThe three main types of 406 distress beacons and the kinds of situations each are designed for…Wilderness use, Marine and Aviation.\n\nThere are three types of 406 emergency beacons used to transmit distress signals, EPIRBs (for maritime use), ELTs (for aviation use), and PLBs (handheld personal, portable units for remote-environment use). 406 MHz Emergency beacons are digitally coded and transmit distress signals immediately upon activation. 406 refers to the proprietary radio wavelength these beacons transmit on. This means that even a brief inadvertent signal can generate a false alert. To avoid getting a call from the Coast Guard or Air Force, make sure that, when you test your 406 beacon, you follow the manufacturer’s recommendations carefully. Or follow these guidelines for general instructions on proper inspection and testing procedures.\n\nWith the information provided upon beacon registration it is easy for SAR authorities to contact you to determine if the distress is a real emergency before they initiate a search."
     },
     {
      "heading": "Registration is Key",
@@ -224,7 +223,8 @@
      "body": "Without registration, the RCCs are unable to react as quickly…and ultimately this may delay a SAR response should you be in an emergency. If you have a 406 MHz beacon and have not registered it, please do so by clicking here to access the National 406 MHz Registration Database. It’s the law and it may save your life!"
     }
    ],
-   "sourceUrl": "https://www.sarsat.noaa.gov/emergency-406-beacons/"
+   "sourceUrl": "https://www.sarsat.noaa.gov/emergency-406-beacons/",
+   "aliases": "PLB beacon, personal locator beacon, EPIRB for boats, satellite rescue beacon, SOS beacon, beacon for hiking, emergency beacon boat, how PLB works, register my beacon, 406 beacon, rescue beacon no cell service, garmin inreach vs plb, plane emergency transmitter, ELT aircraft beacon, beacon registration, beacon return link, satellite SOS, old 121.5 beacon"
   },
   {
    "title": "Preventing False Beacon Alerts (NOAA SARSAT)",
@@ -258,7 +258,8 @@
      "body": "The following poster is designed to inform and educate 406 beacon owners and equipment maintenance crews about false alerts and how to avoid them. You may print this poster and place it in a visible location in your hanger, marina, wilderness tours location or retail outfitter location to alert 406 beacon owners to this ongoing problem, how to avoid accidental activations, and what to do if a false activation occurs."
     }
    ],
-   "sourceUrl": "https://www.sarsat.noaa.gov/preventing-false-alerts/"
+   "sourceUrl": "https://www.sarsat.noaa.gov/preventing-false-alerts/",
+   "aliases": "accidentally set off my beacon, PLB false alarm, EPIRB accidental activation, who to call beacon went off, register my beacon, 406 beacon, PLB registration, beacon test mode, getting rid of old beacon, dispose of EPIRB, beacon false alert, beacon going off by mistake, personal locator beacon rules, cancel false distress, beacon manual"
   },
   {
    "title": "Emergency Beacon FAQs (NOAA SARSAT)",
@@ -284,7 +285,8 @@
      "body": "What is Return Link Service? An RLS-enabled beacon is a beacon that has the Return Link Service feature. This feature is an indication (e.g., a light or text display) on the beacon that confirms to the user that the distress signal from the beacon has been received and localized by the Cospas-Sarsat system and forwarded to government authorities for action. It does NOT mean that a rescue has yet been organized/launched, only that the distress alert has been received and routed to the appropriate government agencies. For further information about how the Return Link Service feature works, and performance expectations, you can watch the Cospas-Sarsat video on RLS and read the related sections of the SAR/Galileo Service Definition Document.\n\nIs Return Link Service available in the United States? As of 1 June 2022, RLS equipped EBIRBs and PLBs, coded with USA County Codes, are legal for sale and use in the United States.\n\nDo beacons equipped with Return Link Service still need to be registered? As with any 406 MHz Distress Beacon registration is required, is free of charge, and can be accomplished at https://beaconregistration.noaa.gov."
     }
    ],
-   "sourceUrl": "https://www.sarsat.noaa.gov/faqs/"
+   "sourceUrl": "https://www.sarsat.noaa.gov/faqs/",
+   "aliases": "plb vs epirb, personal locator beacon, how to register a beacon, emergency beacon how it works, satellite rescue beacon, 406 mhz beacon, do I need to register my plb, beacon registration, return link service, beacon confirmation message, epirb for boat, beacon battery, plb for hiking, emergency beacon questions, sarsat system, satellite sos device, beacon false alarm, how long for rescue after beacon, beacon with gps"
   },
   {
    "title": "SKYWARN Storm Spotter Program (NWS)",
@@ -294,7 +296,8 @@
      "body": "In most years, thunderstorms, tornadoes and lightning cause hundreds of injuries and deaths and billions in property and crop damages. To obtain critical weather information, the National Weather Service (NWS) established SKYWARN® with partner organizations. SKYWARN® is a volunteer program with between 350,000 and 400,000 trained severe weather spotters. These volunteers help keep their local communities safe by providing timely and accurate reports of severe weather to the National Weather Service.\n\nAlthough SKYWARN® spotters provide essential information for all types of weather hazards, the focus is reporting on severe local thunderstorms. In an average year, the United States experiences more than 10,000 severe thunderstorms, 5,000 floods and more than 1,000 tornadoes.\n\nSince the program started in the 1970s, the information provided by SKYWARN® spotters, coupled with Doppler radar technology, improved satellite and other data, has enabled NWS to issue more timely and accurate warnings for tornadoes, severe thunderstorms and flash floods. SKYWARN® storm spotters form the nation's first line of defense against severe weather. There can be no finer reward than to know that your efforts have given your family and neighbors the precious gift of time--minutes that can help save lives.\n\nWho is eligible and how do I get started?\n\nNWS encourages anyone with an interest in public service to join the SKYWARN® program. Volunteers include police and fire personnel, dispatchers, EMS workers, public utility workers and other concerned private citizens. Individuals affiliated with hospitals, schools, churches and nursing homes or who have a responsibility for protecting others are encouraged to become a spotter. Ready to learn more? Find a class in your area. Training is free and typically lasts about 2 hours. You'll learn:\n\n- Basics of thunderstorm development\n- Fundamentals of storm structure\n- Identifying potential severe weather features\n- Information to report\n- How to report information\n- Basic severe weather safety\n\nNeed help with other local information such as a missing class schedule? If you need help with a class schedule, contact your local NWS office. He or she can let you know about upcoming classes. Classes typically are held in an office's relatively slow season. Classes are NOT typically offered all year. Schedules vary from office to office.\n\nLooking for our free online program? Just click on General Users (register here). After registering, you can attend the SKYWARN® Spotter Registration, Role of the Skywarn Spotter, and Skywarn Spotter Convective Basics courses. Some offices also ask that you take a local class to learn about weather unique to your area.\n\nSKYWARN name and logo are trademarked: SKYWARN® is a registered trademark of NOAA's National Weather Service. Please read the rules for the usage of the SKYWARN® name and logo.\n\nSupplemental Resources\n\n- NWSI 10-1807\n- Cloud Chart\n- Cloud Chart (Español)\n- Navajo Weather Poster\n- NWS Weather Field Spotter's Guide\n- NWS Weather Field Spotter's Guide (Español)\n- Mobile version of the Spotter's Guide\n- SKYWARN Spotters\n- ACES Safety Guidance\n- NWS-ARRL Memorandum of Understanding\n- NWS-Spotter Network Memorandum of Understanding\n- Example of State Partnered SKYWARN Weather Spotter\n\nThe collection of Skywarn information is authorized under the OMB Control Number included in the Paperwork Reduction Act and Privacy Act statements you can access here."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/skywarn/"
+   "sourceUrl": "https://www.weather.gov/skywarn/",
+   "aliases": "SKYWARN, storm spotter, become a storm spotter, report severe weather, how to report a tornado, weather spotter training, volunteer storm spotter, reporting hail and damage, spotter network, tell the weather service what I see, severe weather reporting, spotter vs chaser, who to report storms to"
   }
  ]
 }

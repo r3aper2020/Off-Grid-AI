@@ -1,5 +1,6 @@
 # Shelter Furnishings, Clothing and Preparations (NWSS Ch. 14–16)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: fallout shelter supplies, shelter furniture, bedsheet hammock, make a hammock from a sheet, shelter bunks and benches, sleeping in a shelter, improvised clothing cold, keep warm without heat, insulating clothing newspaper, improvised winter clothes, fallout mask, make a dust mask, protective clothing fallout, head and neck cover, fallout meter, radiation meter, prepare before nuclear attack, minimum nuclear preparations, nuclear war essentials, what to stock for fallout, homemade mask fallout, keeping warm in shelter
 
 ## Expedient Shelter Furnishings: IMPORTANCE OF ADEQUATE
 **Chapter 14**

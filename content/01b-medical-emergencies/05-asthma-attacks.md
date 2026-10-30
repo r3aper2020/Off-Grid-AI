@@ -1,5 +1,6 @@
 # Asthma Attacks: What to Do and When to Call 9-1-1 (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/asthma/attacks
+Aliases: asthma attack what to do, cant breathe inhaler, when to go to er asthma, asthma action plan, wheezing wont stop, inhaler not helping, asthma attack feels like, rescue inhaler, child asthma attack, lips turning blue breathing, asthma emergency, when to call 911 asthma, coughing cant catch breath, asthma attack no inhaler, asthma triggers
 
 ## Overview
 

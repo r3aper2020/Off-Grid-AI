@@ -1,5 +1,6 @@
 # Extreme Cold (NWS)
 Source: https://www.weather.gov/safety/cold
+Aliases: extreme cold warning, dangerously cold weather, wind chill, how cold is too cold, cold weather safety, staying warm in extreme cold, frostbite how fast, cold weather advisory, protect from cold, extreme cold what to do, dress for extreme cold, cold warning, wind chill frostbite minutes, subzero temperatures, cold weather pets, cold weather car, exposed skin freezing time
 
 ## Overview
 

@@ -1,5 +1,6 @@
 # Solar Energy and Storage Basics (DOE)
 Source: https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics
+Aliases: solar with batteries, solar battery storage, home solar backup, storing solar power, solar panels at night, battery bank, solar energy storage types, off grid solar, solar power when grid down, how solar storage works, solar plus battery, pumped hydro, thermal storage, flywheel storage, solar fuels, solar backup power, home energy storage
 
 ## Overview
 

@@ -4,7 +4,7 @@
  "id": "weather-disasters",
  "title": "Weather & Natural Disasters",
  "category": "guide",
- "version": "2026.10.29.2",
+ "version": "2026.10.30.1",
  "publisher": "Ready.gov (Federal Emergency Management Agency)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Before, during and after power outages, winter storms, heat, floods, hurricanes, wildfires and earthquakes.",
@@ -23,12 +23,8 @@
      "body": "- Keep freezers and refrigerators closed.\n- Use a generator, but ONLY outdoors and away from windows.\n- Do not use a gas stove or oven to heat your home. It increases your risk of carbon monoxide poisoning. Using an oven or stovetop can also increase the risk of fires, burns and could damage the appliance.\n- Disconnect appliances and electronics to avoid damage from electrical surges.\n- Have alternate plans for refrigerating medicines or using power-dependent medical devices.\n- Check with local officials about heating and cooling locations open near you."
     },
     {
-     "heading": "How to Protect Yourself During A Power Outage",
-     "body": "Go to a community location with power if heat or cold is extreme."
-    },
-    {
      "heading": "How to Protect Yourself During A Power Outage: Preparing for a Power Outage",
-     "body": "Take an inventory of the items you need that rely on electricity. Plan for batteries and other alternative power sources to meet your needs when the power goes out, such as a portable charger or power bank. Have flashlights for every household member. Determine whether your home phone will work in a power outage and how long battery backup will last."
+     "body": "Go to a community location with power if heat or cold is extreme.\n\nTake an inventory of the items you need that rely on electricity. Plan for batteries and other alternative power sources to meet your needs when the power goes out, such as a portable charger or power bank. Have flashlights for every household member. Determine whether your home phone will work in a power outage and how long battery backup will last."
     },
     {
      "heading": "How to Protect Yourself During A Power Outage: Know Your Medical Needs",
@@ -51,7 +47,8 @@
      "body": "- When in doubt, throw it out! Throw away any food that has been exposed to temperatures 40 degrees or higher for two hours or more, or that has an unusual odor, color or texture.\n- If the power is out for more than a day, discard any medication that should be refrigerated, unless the drug’s label says otherwise. Consult your doctor or pharmacist immediately for a new supply."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/power-outages"
+   "sourceUrl": "https://www.ready.gov/power-outages",
+   "aliases": "power outage, power is out what do I do, blackout at home, lights out, generator safety, generator indoors, carbon monoxide generator, food during power outage, medical equipment needs power, keeping warm without power, keep cool without power, power outage supplies, oxygen machine power outage, flashlight instead of candles, after power comes back, unplug during outage, no electricity, extended blackout"
   },
   {
    "title": "Winter Weather",
@@ -61,20 +58,8 @@
      "body": "Winter storms create a higher risk of car accidents, hypothermia, frostbite, carbon monoxide poisoning, and heart attacks from overexertion. Winter storms including blizzards can bring extreme cold, freezing rain, snow, ice and high winds.\n\nA winter storm can:\n\nLast a few hours or several days.\n\nCut off heat, power and communication services.\n\nPut older adults, children, sick individuals and pets at greater risk."
     },
     {
-     "heading": "How to Protect Yourself from Winter Weather",
-     "body": "IF YOU ARE UNDER A WINTER STORM WARNING, FIND SHELTER RIGHT AWAY\n\nKnow your winter weather terms:"
-    },
-    {
      "heading": "How to Protect Yourself from Winter Weather: Winter Storm Warning",
-     "body": "Issued when hazardous winter weather in the form of heavy snow, heavy freezing rain, or heavy sleet is imminent or occurring. Winter Storm Warnings are usually issued 12 to 24 hours before the event is expected to begin."
-    },
-    {
-     "heading": "How to Protect Yourself from Winter Weather: Winter Storm Watch",
-     "body": "Alerts the public to the possibility of a blizzard, heavy snow, heavy freezing rain, or heavy sleet. Winter Storm Watches are usually issued 12 to 48 hours before the beginning of a Winter Storm."
-    },
-    {
-     "heading": "How to Protect Yourself from Winter Weather: Winter Weather Advisory",
-     "body": "Issued for accumulations of snow, freezing rain, freezing drizzle, and sleet which will cause significant inconveniences and, if caution is not exercised, could lead to life-threatening situations."
+     "body": "IF YOU ARE UNDER A WINTER STORM WARNING, FIND SHELTER RIGHT AWAY\n\nKnow your winter weather terms:\n\nIssued when hazardous winter weather in the form of heavy snow, heavy freezing rain, or heavy sleet is imminent or occurring. Winter Storm Warnings are usually issued 12 to 24 hours before the event is expected to begin.\n\n**How to Protect Yourself from Winter Weather: Winter Storm Watch**\n\nAlerts the public to the possibility of a blizzard, heavy snow, heavy freezing rain, or heavy sleet. Winter Storm Watches are usually issued 12 to 48 hours before the beginning of a Winter Storm.\n\n**How to Protect Yourself from Winter Weather: Winter Weather Advisory**\n\nIssued for accumulations of snow, freezing rain, freezing drizzle, and sleet which will cause significant inconveniences and, if caution is not exercised, could lead to life-threatening situations."
     },
     {
      "heading": "How to Protect Yourself from Winter Weather: Know Your Risk for Winter Storms",
@@ -101,7 +86,8 @@
      "body": "Generators can be helpful when the power goes out. It is important to know how use them safely to prevent carbon monoxide (CO) poisoning and other hazards.\n\n- Generators and fuel should always be used outdoors and at least 20 feet away from windows, doors and attached garages.\n- Install working carbon monoxide detectors on every level of your home. Carbon monoxide is a colorless, odorless gas that can kill you, your family and pets.\n- Keep the generator dry and protected from rain or flooding. Touching a wet generator or devices connected to one can cause electrical shock.\n- Always connect the generator to appliances with heavy-duty extension cords.\n- Let the generator cool before refueling. Fuel spilled on hot engine parts can ignite.\n- Follow manufacturer’s instructions carefully."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/winter-weather"
+   "sourceUrl": "https://www.ready.gov/winter-weather",
+   "aliases": "winter storm what to do, blizzard preparation, winter storm warning vs watch, snowed in, power out in winter, stay warm no power, winter storm supplies, frostbite hypothermia signs, driving in snow stuck, generator safety winter, winter car kit, ice storm, pipes freezing, winter weather advisory, heating safely in outage, cold snap, stuck in car in blizzard, shoveling snow heart attack, wind chill, keep house warm outage, winter storm kit"
   },
   {
    "title": "Extreme Heat",
@@ -127,7 +113,8 @@
      "body": "While the kids are home for the summer, get the whole family prepared.\n\n- Make a family communication plan and include the whole family.\n- Practice evacuation plans and other emergency procedures with children on a regular basis.\n- Teach kids when and how to call important phone numbers like 9-1-1.\n- Make sure the kids have an emergency contact person and know how to reach them.\n- Create a family password or phrase to prevent your child from going with a stranger.\n- Keep the kids occupied with online emergency preparedness games.\n- Download the free Prepare with Pedro activity book to help kids learn to prepare.\n- Decide on a family meeting place you can go if separated."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/heat"
+   "sourceUrl": "https://www.ready.gov/heat",
+   "aliases": "extreme heat, heat wave, how to stay cool without AC, heat wave no power, staying cool in a heat wave, heat safety tips, hot weather what to do, heat index, cooling center, check on elderly in heat, kids and pets in hot cars, heat illness signs, heat stroke, heat exhaustion, drink water in heat, heat advisory, summer heat prep, preparing for extreme heat, keeping house cool"
   },
   {
    "title": "Floods",
@@ -153,7 +140,8 @@
      "body": "- Pay attention to authorities for information and instructions. Return home only when authorities say it is safe.\n- Avoid driving except in emergencies.\n- Wear heavy work gloves, protective clothing and boots during cleanup and use appropriate face coverings or masks if cleaning mold or other debris.\n- People with asthma and other lung conditions and/or immune suppression should not enter buildings with indoor water leaks or mold growth that can be seen or smelled. Children should not take part in disaster cleanup work.\n- Be aware that snakes and other animals may be in your house.\n- Be aware of the risk of electrocution. Do not touch electrical equipment if it is wet or if you are standing in water. Turn off the electricity to prevent electric shock if it is safe to do so.\n- Avoid wading in floodwater, which can be contaminated and contain dangerous debris. Underground or downed power lines can electrically charge the water.\n- Use a generator or other gasoline-powered machinery ONLY outdoors and away from windows."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/floods"
+   "sourceUrl": "https://www.ready.gov/floods",
+   "aliases": "flood coming, flooding what to do, flood warning, flash flood, turn around dont drown, driving through water, flooded road, house flooding, flood evacuation, flood preparedness, after a flood, flood water dangers, flood cleanup, flooded basement, flood insurance, moving water depth, flood kit, flooded car, stuck in floodwater, rising water"
   },
   {
    "title": "Hurricanes",
@@ -175,7 +163,8 @@
      "body": "- Pay attention to local officials for information and special instructions.\n- Be careful during cleanup. Wear protective clothing and use appropriate face coverings or masks if cleaning mold or other debris. People with asthma and other lung conditions and/or immune suppression should not enter buildings with indoor water leaks or mold growth that can be seen or smelled, even if these individuals are not allergic to mold. Children should not help with disaster cleanup work.\n- Wear protective clothing and work with someone else.\n- Do not touch electrical equipment if it is wet or if you are standing in water. If it is safe to do so, turn off electricity at the main breaker or fuse box to prevent electric shock.\n- Do not wade in flood water, which can contain dangerous pathogens that cause illnesses. This water also can contain debris, chemicals, waste and wildlife. Underground or downed power lines can electrically charge the water.\n- Save phone calls for emergencies. Phone systems often are down or busy after a disaster. Use text messages or social media to communicate with family and friends.\n- Document any property damage with photographs. Contact your insurance company for assistance."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/hurricanes"
+   "sourceUrl": "https://www.ready.gov/hurricanes",
+   "aliases": "hurricane coming what to do, hurricane preparation, hurricane evacuation, boarding up windows, hurricane watch vs warning, storm surge, after a hurricane, hurricane supplies, typhoon preparation, should I evacuate hurricane, riding out a hurricane, during a hurricane, flooding from hurricane, returning home after hurricane, hurricane season prep, hurricane safety"
   },
   {
    "title": "Wildfires",
@@ -197,7 +186,8 @@
      "body": "- Do not return home until authorities say it is safe to do so.\n- Avoid hot ash, charred trees, smoldering debris and live embers. The ground may contain heat pockets that can burn you or spark another fire.\n- When cleaning, wear protective clothing – including a long-sleeved shirt, long pants, work gloves and sturdy thick-soled shoes – during clean-up efforts.\n- Use a respirator to limit your exposure, and wet debris to minimize breathing dust particles. People with asthma, COPD and/or other lung conditions should take precautions in areas with poor air quality, as it can worsen symptoms.\n- Document property damage with photographs. Conduct an inventory and contact your insurance company for assistance.\n- Send text messages or use social media to reach out to family and friends. Phone systems are often busy following a disaster. Make calls only in emergencies."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/wildfires"
+   "sourceUrl": "https://www.ready.gov/wildfires",
+   "aliases": "wildfire what to do, wildfire evacuation, smoke from wildfire, fire coming toward house, wildfire preparation, defensible space, wildfire air quality, returning home after wildfire, wildfire evacuation order, ash cleanup, fire season, trapped by wildfire, wildfire go bag, wildfire smoke mask, protect home from wildfire, embers on roof, n95 for smoke, forest fire near me, evacuation levels wildfire, pets wildfire evacuation"
   },
   {
    "title": "Earthquakes",
@@ -212,11 +202,7 @@
     },
     {
      "heading": "During an Earthquake",
-     "body": "- If an earthquake happens, protect yourself right away.\n- If you are inside, stay and do not run outside; avoid doorways.\n- If you are in bed, turn face down and cover your head and neck with a pillow.\n- If you are in a car, pull over and stop. Set your parking brake.\n- If you're outside, stay there. Move to an open area away from buildings, trees, streetlights and power lines. Drop and coveruntil shaking stops to protect yourself from flying debris. Learn more at Earthquake Country Alliance."
-    },
-    {
-     "heading": "During an Earthquake: 1. Drop (or Lock)",
-     "body": "Drop where you are onto hands and knees."
+     "body": "- If an earthquake happens, protect yourself right away.\n- If you are inside, stay and do not run outside; avoid doorways.\n- If you are in bed, turn face down and cover your head and neck with a pillow.\n- If you are in a car, pull over and stop. Set your parking brake.\n- If you're outside, stay there. Move to an open area away from buildings, trees, streetlights and power lines. Drop and coveruntil shaking stops to protect yourself from flying debris. Learn more at Earthquake Country Alliance.\n\n**During an Earthquake: 1. Drop (or Lock)**\n\nDrop where you are onto hands and knees."
     },
     {
      "heading": "During an Earthquake: 2. Cover",
@@ -224,11 +210,7 @@
     },
     {
      "heading": "During an Earthquake: 3. Hold On",
-     "body": "Hold until the shaking stops. If under shelter, hold on with one hand and be ready to move with it when the shelter moves. If not under shelter, hold on to your head and neck with both arms and hands."
-    },
-    {
-     "heading": "During an Earthquake: Using a Cane?",
-     "body": "If you use a cane: DROP, COVER, and HOLD ON or sit on a chair, bed, etc. and cover your head and neck with both hands. Keep your cane near you so it can be used when the shaking stops."
+     "body": "Hold until the shaking stops. If under shelter, hold on with one hand and be ready to move with it when the shelter moves. If not under shelter, hold on to your head and neck with both arms and hands.\n\n**During an Earthquake: Using a Cane?**\n\nIf you use a cane: DROP, COVER, and HOLD ON or sit on a chair, bed, etc. and cover your head and neck with both hands. Keep your cane near you so it can be used when the shaking stops."
     },
     {
      "heading": "During an Earthquake: Using a Walker or Wheelchair?",
@@ -239,7 +221,8 @@
      "body": "- There can be serious hazards after an earthquake, such as damage to the building, leaking gas and water lines or downed power lines.\n- Expect aftershocks to follow the main shock of an earthquake. Be ready to Drop, Cover and Hold On if you feel an aftershock.\n- If you are in a damaged building, go outside and quickly move away from the building. Do not enter damaged buildings.\n- If you are trapped, send a text or bang on a pipe or wall. Cover your mouth with your shirt for protection and instead of shouting, use a whistle.\n- If you are in an area that may experience tsunamis, go inland or to higher ground immediately after the shaking stops. Avoid contact with floodwaters as they can contain chemicals, sewage and debris.\n- Check yourself to see if you are hurt and help others if you have training. Be the help until help arrives.\n- If you are sick or injured and need medical attention, contact your healthcare provider for instructions. If you are experiencing a medical emergency, call 9-1-1.\n- Once you are safe, pay attention to local news reports for emergency information and instructions via battery-operated radio, TV, social media or from cell phone text alerts.\n- Use social media to let people know you’re okay.\n- Use text messages to communicate. This may be more reliable than phone calls and can save batter power.\n- Be careful when cleaning up. Wear protective clothing, including a long-sleeved shirt, long pants, work gloves and sturdy thick-soled shoes. Do not try to remove heavy debris by yourself. Use an appropriate mask if cleaning mold or other debris. People with asthma and other lung conditions and/or immune suppression should not enter buildings with indoor water leaks or mold growth that can be seen or smelled. Children should not take part in disaster cleanup work."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/earthquakes"
+   "sourceUrl": "https://www.ready.gov/earthquakes",
+   "aliases": "earthquake, what to do in an earthquake, drop cover hold on, earthquake safety, earthquake in bed, earthquake in a car, earthquake in wheelchair, earthquake with a walker or cane, earthquake prepare home, secure furniture earthquake, after an earthquake, aftershocks, earthquake gas leak, earthquake kit, earthquake near coast tsunami, earthquake drill, strap water heater, earthquake inside building, earthquake outside"
   }
  ]
 }

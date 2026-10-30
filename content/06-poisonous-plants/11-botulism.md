@@ -1,5 +1,6 @@
 # Clostridium botulinum (Botulism) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: botulism poisoning signs, bulging can, dented can safe, home canned food safe, botulism symptoms, honey for babies, infant botulism, canning botulism, botulism in food, swollen can, double vision after eating, improperly canned food, garlic in oil botulism, botulism treatment, canned food smell, botulism poisoning, food toxin paralysis
 
 ## 1. Organism
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

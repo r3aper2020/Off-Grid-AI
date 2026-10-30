@@ -1,22 +1,27 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:offgrid_ai/core/database/app_database.dart';
 import 'package:offgrid_ai/features/chat/domain/grounding.dart';
 import 'package:offgrid_ai/features/library/data/knowledge_search.dart';
+import 'package:offgrid_ai/features/library/data/llama_embedder.dart';
 import 'package:offgrid_ai/features/library/data/pack_installer.dart';
 import 'package:offgrid_ai/features/library/domain/pack_format.dart';
 import 'package:offgrid_ai/features/library/domain/passage_vectors.dart';
 
 import '../../support/test_db.dart';
 
-/// Retrieval checks against the real bundled library: realistic questions
-/// must surface the right passage, and what reaches the model must still
-/// contain the safety-critical details.
+/// Retrieval checks against the real bundled library with the real
+/// embedding model, as the app runs it: realistic questions must surface
+/// the right passage, and what reaches the model must still contain the
+/// safety-critical details.
 void main() {
   late AppDatabase db;
   late KnowledgeSearch search;
+  final embedder = LlamaTextEmbedder.fromFile(File(LlamaTextEmbedder.asset));
+  tearDownAll(embedder.dispose);
 
   final packs = Directory('assets/packs')
       .listSync()
@@ -30,10 +35,20 @@ void main() {
 
   setUp(() async {
     db = testDatabase();
-    search = KnowledgeSearch(db);
+    search = KnowledgeSearch(db, embedder: embedder);
     final installer = PackInstaller(db);
     for (final f in packs) {
-      await installer.install(f.readAsStringSync(), source: 'test');
+      final stem = f.path
+          .replaceFirst('assets/packs/', 'assets/packs/vectors/')
+          .replaceFirst(RegExp(r'\.json$'), '');
+      Uint8List? read(String name) =>
+          File(name).existsSync() ? File(name).readAsBytesSync() : null;
+      await installer.install(
+        f.readAsStringSync(),
+        source: 'test',
+        vectors: read('$stem.vec'),
+        docVectors: read('$stem.docs.vec'),
+      );
     }
   });
   tearDown(() => db.close());
@@ -147,11 +162,15 @@ void main() {
     expect(packs['first-aid-wikibooks'], ReviewStatus.needsReview);
   });
 
-  test('choking question reaches the obstructed airway chapter', () async {
+  test('choking question reaches airway obstruction first aid', () async {
     final hits = await given(
       'Someone is choking and cannot breathe, what do I do?',
     );
-    expect(hits.map((h) => h.documentTitle), contains('Obstructed Airway'));
+    expect(hits.first.documentTitle, contains('Airway'));
+    expect(
+      hits.map((h) => h.body.toLowerCase()).join(' '),
+      contains('thrust'),
+    );
   });
 
   test(
@@ -271,24 +290,102 @@ void main() {
     // Regenerate with: flutter test tools/embed/embed_packs_test.dart
     for (final f in packs) {
       final pack = PackData.fromJson(jsonDecode(f.readAsStringSync()));
-      final vec = File(
-        f.path
-            .replaceFirst('assets/packs/', 'assets/packs/vectors/')
-            .replaceFirst(RegExp(r'\.json$'), '.vec'),
-      );
-      expect(vec.existsSync(), isTrue, reason: '${pack.id}: no vectors');
-      final entries = PassageVectors.decode(vec.readAsBytesSync());
-      expect(entries, isNotNull, reason: '${pack.id}: unreadable vectors');
-      final hashes = [
+      final stem = f.path
+          .replaceFirst('assets/packs/', 'assets/packs/vectors/')
+          .replaceFirst(RegExp(r'\.json$'), '');
+      void check(String name, List<int> hashes) {
+        final vec = File(name);
+        expect(vec.existsSync(), isTrue, reason: '${pack.id}: no $name');
+        final entries = PassageVectors.decode(vec.readAsBytesSync());
+        expect(entries, isNotNull, reason: '$name: unreadable vectors');
+        expect(
+          [for (final (h, _) in entries!) h],
+          hashes,
+          reason: '$name: vectors are stale',
+        );
+      }
+
+      check('$stem.vec', [
         for (final d in pack.documents)
           for (final s in d.sections)
             PassageVectors.sectionHash(s.heading, s.body),
-      ];
+      ]);
+      check('$stem.docs.vec', [
+        for (final d in pack.documents)
+          PassageVectors.docHash(d.title, d.aliases),
+      ]);
+    }
+  });
+
+  test('every bundled document carries plain-language aliases', () {
+    for (final f in packs) {
+      final pack = PackData.fromJson(jsonDecode(f.readAsStringSync()));
+      for (final d in pack.documents) {
+        expect(d.aliases, isNotEmpty, reason: '${pack.id}: ${d.title}');
+      }
+    }
+  });
+
+  test('no fragment or garbage sections remain', () async {
+    for (final p in await db.select(db.passages).get()) {
+      final text = p.body.replaceAll(SectionImage.placeholder, '').trim();
+      final words = RegExp(r'[A-Za-z]+').allMatches(text).length;
       expect(
-        [for (final (h, _) in entries!) h],
-        hashes,
-        reason: '${pack.id}: vectors are stale',
+        words >= 8 || p.body.contains('{{img:'),
+        isTrue,
+        reason:
+            '${p.heading}: "${text.substring(0, text.length.clamp(0, 60))}"',
       );
     }
+  });
+
+  test('regulation text is library-only', () async {
+    final docs = await db.select(db.packDocuments).get();
+    final cfr = docs.where((d) => d.title.contains('47 CFR'));
+    expect(cfr, isNotEmpty);
+    expect(cfr.every((d) => d.libraryOnly), isTrue);
+    expect(await search.search('amateur station'), isNotEmpty);
+    final hits = await given('rules for an amateur station');
+    expect(hits.map((h) => h.documentTitle), isNot(contains('47 CFR')));
+  });
+
+  group('plain-language questions reach the right document', () {
+    Future<String> topDocs(String q) async =>
+        (await given(q)).take(4).map((h) => h.documentTitle).join(' | ');
+
+    test('bug out bag → the disaster supplies kit', () async {
+      expect(
+        await topDocs('what should I pack in a bug out bag'),
+        contains('Kit'),
+      );
+    });
+
+    test('lost and cold → lost-hiker guidance, not cucumbers', () async {
+      final docs = await topDocs(
+        "I'm lost in the woods, it's getting dark and cold, what do I do first",
+      );
+      expect(docs, anyOf(contains('Lost'), contains('Get Lost')));
+      expect(docs, isNot(contains('Gardening')));
+    });
+
+    test('choking → airway, not chemical agents', () async {
+      final docs = await topDocs("someone is choking and can't breathe");
+      expect(docs, contains('Airway'));
+      expect(docs, isNot(contains('Chemical')));
+    });
+
+    test('edible plants → the survival food chapter, plants first', () async {
+      final hits = await given('which plants can I eat in the woods');
+      expect(hits.first.documentTitle, contains('Food'));
+      expect(hits.first.heading.toLowerCase(), contains('plant'));
+    });
+
+    test('the edibility test is found by name', () async {
+      final hits = await given('universal edibility test');
+      expect(
+        hits.map((h) => h.heading.toUpperCase()).join(' '),
+        contains('EDIBILITY'),
+      );
+    });
   });
 }

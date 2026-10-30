@@ -44,9 +44,10 @@ void main() {
     final bytes = PassageVectors.encode([(42, unit)]);
     final decoded = PassageVectors.decode(bytes)!;
     expect(decoded.single.$1, 42);
+    // int8 storage: a unit vector's self-similarity stays close to 1.
     expect(
       PassageVectors.similarity(decoded.single.$2, decoded.single.$2),
-      closeTo(1, 0.02),
+      closeTo(1, 0.05),
     );
     expect(PassageVectors.decode(bytes.sublist(0, 20)), isNull);
   });

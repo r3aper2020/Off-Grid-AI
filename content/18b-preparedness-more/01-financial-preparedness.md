@@ -1,5 +1,6 @@
 # Financial Preparedness (Ready.gov)
 Source: https://www.ready.gov/financial-preparedness
+Aliases: emergency cash, financial preparedness, important documents, emergency fund, money during disaster, documents to keep safe, insurance papers, financial first aid kit, cash when power out, protect financial records, copies of documents, emergency savings, paying bills after disaster, financial recovery, bank records disaster
 
 ## Financial Preparedness Tips
 Americans at all income levels have experienced the challenges of rebuilding their lives after a disaster or other emergency. In these stressful times, having access to personal financial, insurance, medical and other records is crucial for starting the recovery process quickly and efficiently.

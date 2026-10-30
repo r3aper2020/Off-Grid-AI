@@ -1,5 +1,6 @@
 # What to Do: Get Inside
 Source: https://www.cdc.gov/radiation-emergencies/response/get-inside.html
+Aliases: get inside radiation, radiation emergency indoors, radiation outside in car, pets radiation, decontaminate pet, family in other places radiation, sheltering others radiation, radiation stay inside how long, radiation emergency basement, pet food emergency, radiation and pets, sheltering with neighbors, radiation inside building, keep pets inside radiation
 
 ## Overview
 What to do in a radiation emergency

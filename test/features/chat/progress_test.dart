@@ -25,6 +25,10 @@ class ManualEngine implements InferenceEngine {
   Stream<GenerationEvent> generate(List<ChatTurn> history) => events.stream;
 
   @override
+  Future<String?> complete(List<ChatTurn> turns, {int maxTokens = 64}) async =>
+      null;
+
+  @override
   Future<void> release() async {}
 
   @override

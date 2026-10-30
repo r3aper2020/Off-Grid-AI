@@ -1,5 +1,6 @@
 # Harvesting and Storing (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: when to harvest vegetables, storing vegetables for winter, root cellar storage, how to store potatoes, storing onions, storing cabbage, storing carrots in sand, keeping squash and pumpkins, ripening green tomatoes, storing beets, drying beans, storing turnips, winter vegetable storage, keeping vegetables without fridge, harvesting celery, long term vegetable storage, storing parsnips
 
 ## Harvesting And Storing
 It is a very common thing to allow the garden vegetables not used to rot on the ground, or in it. There is a great deal of unnecessary waste in this respect, for a great many of the things so neglected may just as well be carried into winter, and will pay a very handsome dividend for the slight trouble of gathering and storing them.

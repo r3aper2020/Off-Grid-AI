@@ -1,5 +1,6 @@
 # Lithium-Ion Battery Safety for Electronic Devices (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-safety-handout.pdf
+Aliases: lithium battery fire, phone battery swelling, charging phone safely, battery overheating, laptop battery fire, charging overnight, power bank safety, swollen battery, dispose of lithium batteries, e-bike battery fire, battery caught fire, cheap charger danger, battery puffed up, charging safety, damaged battery
 
 ## Lithium-Ion Battery Safety for Electronic Devices: Before purchasing
 

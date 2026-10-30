@@ -1,5 +1,6 @@
 # Asthma Medicines and Action Plans (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan
+Aliases: asthma attack, asthma inhaler, rescue inhaler, albuterol inhaler, asthma action plan, cant breathe wheezing, asthma without inhaler, asthma medications, long term asthma control, exercise asthma, asthma from allergies, asthma at night, asthma triggers, kids asthma, steroid inhaler, nebulizer treatment, asthma flare up, asthma medicine ran out
 
 ## Overview
 

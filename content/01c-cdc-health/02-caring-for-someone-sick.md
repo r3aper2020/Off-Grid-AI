@@ -1,5 +1,6 @@
 # Caring for Someone Sick
 Source: https://www.cdc.gov/flu/takingcare/caring-for-someone.html
+Aliases: caring for someone with the flu, family member has flu, flu at home what to do, not catching flu from family, flu emergency warning signs, when to take flu to the hospital, fever and trouble breathing, sick kid flu, keeping sick person separate, flu fluids and rest, flu complications, caring for a sick person at home, flu in elderly, bluish lips flu, I have the flu what now
 
 ## KEY POINTS
 - Minimize contact and avoid being face-to-face with the sick person.

@@ -9,6 +9,23 @@ import 'package:offgrid_ai/features/library/data/pack_installer.dart';
 /// Upgrades a real schema-v2 database (created by the Milestone 2 code and
 /// saved in test/fixtures) to the current schema, as happens on phones that
 /// already ran the app.
+/// Makes a fresh database look like schema v6: no document aliases,
+/// library-only flag or vectors, and the index trigger that only knew
+/// document titles.
+Future<void> dropV7Columns(AppDatabase db) async {
+  await db.customStatement('DROP TRIGGER passages_ai');
+  for (final c in ['aliases', 'library_only', 'embedding']) {
+    await db.customStatement('ALTER TABLE pack_documents DROP COLUMN $c');
+  }
+  await db.customStatement('''
+    CREATE TRIGGER passages_ai AFTER INSERT ON passages BEGIN
+      INSERT INTO passages_fts(rowid, title, heading, body)
+      VALUES (new.id,
+        (SELECT title FROM pack_documents WHERE id = new.document_id),
+        new.heading, new.body);
+    END''');
+}
+
 void main() {
   late File file;
   late AppDatabase db;
@@ -61,6 +78,7 @@ void main() {
     );
     await fresh.customStatement('ALTER TABLE passages DROP COLUMN images');
     await fresh.customStatement('ALTER TABLE passages DROP COLUMN embedding');
+    await dropV7Columns(fresh);
     await fresh.customStatement(
       "INSERT INTO knowledge_packs (id, title, description, category, version, "
       "publisher, license, attribution, size_bytes, source, installed_at) "
@@ -82,6 +100,7 @@ void main() {
     final f = File('${dir.path}/v5.sqlite');
     final fresh = AppDatabase(NativeDatabase(f));
     await fresh.customStatement('ALTER TABLE passages DROP COLUMN embedding');
+    await dropV7Columns(fresh);
     for (final (id, source) in [
       ('bundled', 'asset:a.json'),
       ('mine', 'file:b'),
@@ -116,6 +135,40 @@ void main() {
         )
         .get();
     expect(fts, isEmpty);
+    await upgraded.close();
+    await dir.delete(recursive: true);
+  });
+
+  test('v6 database loses stale vectors and reindexes with aliases', () async {
+    final dir = await Directory.systemTemp.createTemp('v6');
+    final f = File('${dir.path}/v6.sqlite');
+    final fresh = AppDatabase(NativeDatabase(f));
+    await dropV7Columns(fresh);
+    await fresh.customStatement(
+      "INSERT INTO knowledge_packs (id, title, description, category, "
+      "version, publisher, license, attribution, review_status, size_bytes, "
+      "source, installed_at) VALUES ('mine', 'mine', '', 'guide', '1', 'P', "
+      "'L', '', 'verified', 1, 'file:b', 0)",
+    );
+    await fresh.customStatement(
+      "INSERT INTO pack_documents (pack_id, title, position) "
+      "VALUES ('mine', 'Doc', 0)",
+    );
+    await fresh.customStatement(
+      "INSERT INTO passages (document_id, heading, body, position, embedding) "
+      "VALUES (last_insert_rowid(), 'H', 'Old text', 0, X'0102')",
+    );
+    await fresh.customStatement('PRAGMA user_version = 6');
+    await fresh.close();
+
+    final upgraded = AppDatabase(NativeDatabase(f));
+    final passage = await upgraded.select(upgraded.passages).getSingle();
+    expect(passage.embedding, isNull);
+    final doc = await upgraded.select(upgraded.packDocuments).getSingle();
+    expect(doc.aliases, '');
+    expect(doc.libraryOnly, isFalse);
+    // The rebuilt index still finds the old text.
+    expect(await KnowledgeSearch(upgraded).search('old text'), hasLength(1));
     await upgraded.close();
     await dir.delete(recursive: true);
   });

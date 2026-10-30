@@ -1,5 +1,6 @@
 # Safely Using Hand Sanitizer (FDA)
 Source: https://www.fda.gov/consumers/consumer-updates/safely-using-hand-sanitizer
+Aliases: hand sanitizer, is hand sanitizer safe, methanol in hand sanitizer, recalled hand sanitizer, hand sanitizer vs soap, how to use hand sanitizer, kid swallowed hand sanitizer, hand sanitizer alcohol percentage, hand sanitizer poisoning, which hand sanitizers to avoid, hand sanitizer do not use list
 
 ## Overview
 Español 简体中文 Tagalog 한국어 Việt

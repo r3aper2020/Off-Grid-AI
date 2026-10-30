@@ -1,5 +1,6 @@
 # How People Are Struck by Lightning (NWS)
 Source: https://www.weather.gov/safety/lightning-struck
+Aliases: how lightning hits people, lightning strike, ground current, side flash, lightning through phone, lightning in the shower, lightning under a tree, lightning on the ground, struck by lightning, lightning and fences, lightning conduction, lightning safety outdoors, how does lightning kill, lightning streamer, lightning and wiring
 
 ## Overview
 It is not always possible to know exactly how a victim has been struck, but here is a list of ways that lightning strikes its victims. Any of these types of strikes can be deadly. Immediate medical attention, including calling 911, starting CPR, and using an AED, may be critically important to keep the person alive until more advanced medical care arrives.

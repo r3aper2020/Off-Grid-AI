@@ -1,5 +1,6 @@
 # Emergency Beacon FAQs (NOAA SARSAT)
 Source: https://www.sarsat.noaa.gov/faqs/
+Aliases: plb vs epirb, personal locator beacon, how to register a beacon, emergency beacon how it works, satellite rescue beacon, 406 mhz beacon, do I need to register my plb, beacon registration, return link service, beacon confirmation message, epirb for boat, beacon battery, plb for hiking, emergency beacon questions, sarsat system, satellite sos device, beacon false alarm, how long for rescue after beacon, beacon with gps
 
 ## 406 MHz EMERGENCY BEACONS
 Why do you refer to beacons as “406 MHz emergency beacons”? The beacons associated with the Cospas-Sarsat program only operate in the 406.0 MHz to 406.1 MHz frequency band to transmit their digital messages to satellites. This frequency is restricted in the International Telecommunication Union (ITU) Radio Regulations to low power satellite emergency position-indicating beacons in the mobile satellite service. The “406” differentiates these beacons from older 121.5 MHz beacons that could not be uniquely identified.

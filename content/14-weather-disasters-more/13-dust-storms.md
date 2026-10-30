@@ -1,5 +1,6 @@
 # Dust Storms (NWS)
 Source: https://www.weather.gov/safety/wind-dust-storm
+Aliases: dust storm, haboob dust wall, driving in dust storm, pull over dust storm, sandstorm safety, dust storm visibility, lights off dust storm, caught in a dust storm, dust storm safety, blowing dust driving, dust storm breathing, desert dust storm, wall of dust, dust storm on highway
 
 ## Overview
 

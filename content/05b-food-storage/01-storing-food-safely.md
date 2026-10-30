@@ -1,5 +1,6 @@
 # Are You Storing Food Safely? (FDA)
 Source: https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely
+Aliases: storing food safely, fridge temperature, freezer temperature, how long is food good in fridge, power out how long is food good, refrigerator without power, freezer without power how long, food safe after power outage, when to throw out food, refreeze thawed food, leftovers how long, storing canned food, pantry food storage, dry goods storage, food storage tips, expiration dates, fridge thermometer, food in cooler with ice, is my food still safe, dry ice in freezer
 
 ## Overview
 Whether putting food in the refrigerator, the freezer, or the cupboard, you have plenty of opportunities to prevent foodborne illnesses.

@@ -1,5 +1,6 @@
 # Acetaminophen (FDA)
 Source: https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen
+Aliases: tylenol dosage, how much tylenol is safe, acetaminophen overdose, tylenol liver damage, tylenol for kids, acetaminophen pregnancy, too much tylenol, infant tylenol dose, tylenol with alcohol, acetaminophen in cold medicine, paracetamol dose, tylenol rash reaction, max acetaminophen per day, fever reducer safe amount, pain reliever safe use, took too much tylenol, tylenol every 4 hours
 
 ## What is Acetaminophen?
 Acetaminophen is a drug that is used to:

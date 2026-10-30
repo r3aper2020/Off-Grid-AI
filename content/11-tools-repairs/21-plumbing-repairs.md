@@ -1,5 +1,6 @@
 # Basic Plumbing Repairs and Maintenance (TM 3-34.70 Ch. 3)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: frozen pipes, thaw a frozen pipe, leaky faucet, pipe corrosion, rusty pipes, clogged drain, clogged sink, clogged bathtub, clogged shower drain, temporary pipe repair, pipe leak fix, valve repair, scale in pipes, hard water buildup, grease trap, main drain clog, sewer backup, plumbing repairs, pipe patch, drain cleaning, burst pipe
 
 ## Basic Plumbing Repairs and Maintenance
 **Chapter 3**

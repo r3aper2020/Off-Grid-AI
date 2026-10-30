@@ -1,5 +1,6 @@
 # Staying Safe Around Bears (National Park Service)
 Source: https://www.nps.gov/subjects/bears/safety.htm
+Aliases: bear safety, I see a bear what to do, bear attack, bear spray, grizzly vs black bear attack, play dead bear, bear encounter, hiking in bear country, bear charging me, bear in camp, how to avoid bears, bear spray how to use, bear at campsite, fight back bear, make noise bears, bear in my yard
 
 ## What Should I Do if I See a Bear?
 Seeing a bear in the wild is a special treat for any visitor to a national park. While it is an exciting moment, it is important to remember that bears in national parks are wild and can be dangerous. Their behavior is sometimes unpredictable. Although rare, attacks on humans have occurred, inflicting serious injuries and death. Each bear and each experience is unique; there is no single strategy that will work in all situations and that guarantees safety. Most bear encounters end without injury. Following some basic guidelines may help to lessen the threat of danger. Your safety can depend on your ability to calm the bear.

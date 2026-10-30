@@ -4,7 +4,7 @@
  "id": "livestock",
  "title": "Small-Farm Livestock and Home Slaughter (USDA, older editions)",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Department of Agriculture",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105); USDA: \"Department publications contain public information. They are not copyrighted and may be reproduced in whole or in part with or without credit.\"",
  "description": "Keeping chickens for eggs, turkeys, ducks and geese, a family milk cow and butter making, dairy goats, sheep, rabbits and hogs on a small place; humane stunning, bleeding, skinning or scalding, evisceration, chilling, cutting, wrapping and freezing beef, lamb and pork; lard rendering and fresh sausage. Older USDA editions (1964-1981): prices, drugs and some practices are dated.",
@@ -167,7 +167,8 @@
      "body": "Any simple shelter that pro-vides protection from drafts, snow, and rain, gives shade in hot weather, and has a dry floor can be used for hogs. Locate the pen at least 500 feet from any dwell-ing house to prevent annoyance from odors.\n\n[Figure 15. — An inexpensive A-frame hog-house made with 2- by 4-inch boards and exterior plywood. This portable shelter is big enough for three or four market-sized hogs. A wooden floor can be set in for warmth. — figure not included]"
     }
    ],
-   "sourceUrl": "https://archive.org/download/CAT31108251/CAT31108251.pdf"
+   "sourceUrl": "https://archive.org/download/CAT31108251/CAT31108251.pdf",
+   "aliases": "raising chickens, backyard chickens, feeding chicks, chicken coop, laying hens, raising turkeys, ducks and geese, raising pigeons, squab pigeons, keeping a milk cow, buying a cow, feeding a cow, milking a cow, making butter at home, dairy goats, milking goats, goat feeding, raising sheep, raising rabbits for meat, rabbit hutch, raising pigs, feeding hogs, pig pen, chicken health, egg production"
   },
   {
    "title": "Keeping Layers for the Family Egg Supply (USDA Agriculture Fact Sheet 3-6-2, 1977)",
@@ -205,7 +206,8 @@
      "body": "Read completely before starting.\n\n1. Construct frame as shown in figure 2 using 2-by 4-inch lumber. Slope floor supports A and B to allow eggs to “roll away” after being laid.\n\n2. The wire for the floor is cut as shown in figure 3.\n\n3. Stretch 1-by 2-inch welded wire tightly across A and B. The wire floor will have to hold 75 to 100 pounds or more, so it must be secured tightly to prevent sagging.\n\nThis can be done by fastening the wire securely with a staple at each strand on one side. Use hammer claws or an iron rake on the opposite end to create tension; then fasten with staples, starting in the center and work-ing toward the back and front of the cage. Tabs (T in fig. 3) are folded up and stapled to corner posts to help support floor.\n\n[Figure 3 - Cutting the floor Take a piece of 1” x 2” welded wire 4’ x 6’ long. Cut as shown on dotted lines. Then fold wire upward at 90° angles lengthwise along the line of the inner cuts as indicated. Slide wire into position on A and B (see fig. 2) leaving an overlap of about 1 foot on each end. You are now ready to secure the floor in place. Fasten tabs (T) to comer posts and fashion egg collection tray. — figure not included]\n\n4. The wire on sides and top is 2-by 4-inch welded wire. Cut pieces for side and top and fasten them to the frame securely with staples. Place wire on the sides of the frame with the 2-inch spacing running horizontally.\n\n5. Cut a 10-by 12-inch opening in one side and use the cutout for a door. Fashion hinge and hook out of wire.\n\n[Passage not included here: a quantity in it is illegible in the scanned original; see the original publication]\n\n7. Waterers and feeders can be made of rain guttering (see figure 4) and attached to the front of the cage or any convenient spot. Be sure the birds have easy access to the feed and water. It may be necessary to cut the wire above the troughs to provide vertical slots 2 inches wide and 6 to 8 inches long.\n\nThe feeder and waterer should run the length of the cage to provide adequate space. Additional feed and water space can be provided on an opposite side of the cage."
     }
    ],
-   "sourceUrl": "https://archive.org/download/CAT31376150/CAT31376150.pdf"
+   "sourceUrl": "https://archive.org/download/CAT31376150/CAT31376150.pdf",
+   "aliases": "backyard chickens, raising chickens for eggs, chicken coop, how to feed laying hens, laying hens, chickens stopped laying, how many chickens for a family, chicken health problems, storing fresh eggs, how to freeze eggs, keeping eggs without fridge, building a chicken cage, chicken housing, getting started with chickens, hens for eggs, chicken feed"
   },
   {
    "title": "Raising Rabbits (USDA Farmers' Bulletin 2131, rev. 1964)",
@@ -351,7 +353,8 @@
      "body": "Skins should be shaped while still warm. Place the skins, flesh side out, on wire or board shapers (stretchers). Place the forepart of the skin over the narrow end of the shaper and make sure the legs are all on the same side (fig. 17). Remove all wrinkles from the skin.\n\nThe day after skinning, ex-amine the pelts. Make sure that the edges are dry and flat, the skin of the front feet is straightened out, and all patches of fat have been removed.\n\nSkins must be thoroughly dried before being packed, but do not dry the skins in the sun or by artificial heat. Hang them up so air can circulate freely. During warm weather, sprinkle the skins with naphtha flakes. Do not use salt to cure rabbitskins.\n\nFigure /7.-How to place a rab-bit pelt on a shaper, or stretcher, with all the legs on the same side."
     }
    ],
-   "sourceUrl": "https://archive.org/download/CAT87205715/farmbul2131rev1964.pdf"
+   "sourceUrl": "https://archive.org/download/CAT87205715/farmbul2131rev1964.pdf",
+   "aliases": "raising rabbits for meat, how to breed rabbits, rabbit hutch plans, what to feed rabbits, rabbit nest box, when to wean rabbits, rabbit pregnant how to tell, rabbit breeding schedule, rabbit hot weather care, rabbit diseases, butchering rabbits, rabbit pelts skins, backyard rabbits, meat rabbit breeds, rabbit kindling, rabbit feed hay grain pellets, raising rabbits for food, rabbit cages, rabbit sore hocks, rabbit water in winter, how many rabbits to start"
   },
   {
    "title": "Raising a Small Flock of Sheep (USDA Farmers' Bulletin 2222, rev. 1977)",
@@ -417,7 +420,8 @@
      "body": "Generally a lamb can be slaugh-tered for home use any time after it reaches 100 pounds liveweight. Most ewe lambs are kept for the flock.\n\nA 100-pound lamb usually yields a 50-pound carcass and about 35 pounds of meat (worth $30.00 or more) for your table.\n\nLambs reach 100 pounds in 110 to 140 days. A lamb more than 1 year old does not put on enough weight to pay for its feed.\n\nExtra feed can be made available to any healthy male lamb you want to slaughter for home use. You can either see that he gets more concen-trate on pasture, or you can confine him and give him extra concentrate.\n\nThe day before slaughter, pen the lamb so he can be caught easily. Give him plenty of water, but withhold all feed for 24 hours before slaughtering. This makes dressing simpler.\n\nFor more information on how to slaughter, cut, and process lamb on the farm, ask your county agent for a copy of Farmers' Bulletin 2264 \"Lamb Slaughtering, Cutting, Pre-serving, and Cooking on the Farm.\" Or get a free copy by sending a post card with the name and number of the publication to the U.S. Department of Agriculture, Office of Communication, Washington, D.C. 20250. Be sure to include your ZIP Code with your return address."
     }
    ],
-   "sourceUrl": "https://archive.org/download/CAT87206120/farmbul2222rev1977.pdf"
+   "sourceUrl": "https://archive.org/download/CAT87206120/farmbul2222rev1977.pdf",
+   "aliases": "raising sheep, how to start with sheep, buying sheep, buying ewes, choosing a ram, sheep shelter, sheep fencing, sheep equipment, feeding sheep, sheep pasture, winter feed for sheep, sheep breeding, lambing, helping a ewe give birth, newborn lamb care, shearing sheep, selling wool, sheep health, sheep diseases, sheep parasites, butchering a lamb, lamb meat, small flock, backyard sheep, keeping sheep on a homestead"
   },
   {
    "title": "Beef Slaughtering, Cutting, and Cooking on the Farm (USDA Farmers' Bulletin 2263, 1977)",
@@ -548,11 +552,7 @@
     },
     {
      "heading": "FREEZING AND FROZEN STORAGE",
-     "body": "For large quantities of meat, it is best to use a commercial establishment for quick freezing. A home freezer may be used if it will maintain a temperature of 0°F or below. When using the home freezer, be sure to:\n\n• Clean and defrost freezer.\n\n• Freeze meat at -10°F or below.\n\n• Freeze only the amount of meat that will freeze in 24 hours.\n\n• Allow ample air circulation by not over-packing the freezer. Approximately 2 to 3 pounds of meat may be packed per cubic foot of freezer space."
-    },
-    {
-     "heading": "Ground Beef",
-     "body": "All lean trim can be ground as ground beef. Palatable ground beef should have from 15 to 30 percent fat. Most retail ground beef ranges from 20 to 25 percent fat."
+     "body": "For large quantities of meat, it is best to use a commercial establishment for quick freezing. A home freezer may be used if it will maintain a temperature of 0°F or below. When using the home freezer, be sure to:\n\n• Clean and defrost freezer.\n\n• Freeze meat at -10°F or below.\n\n• Freeze only the amount of meat that will freeze in 24 hours.\n\n• Allow ample air circulation by not over-packing the freezer. Approximately 2 to 3 pounds of meat may be packed per cubic foot of freezer space.\n\n**Ground Beef**\n\nAll lean trim can be ground as ground beef. Palatable ground beef should have from 15 to 30 percent fat. Most retail ground beef ranges from 20 to 25 percent fat."
     },
     {
      "heading": "MEAT COOKERY",
@@ -567,7 +567,8 @@
      "body": "Variety meats include liver, brains, heart, kidneys, sweetbreads, and tongue. Variety meats are very perishable and should be frozen or cooked as soon as possible.\n\nLiver\n\nBeef liver is usually braised or fried. Calf liver is frequently broiled, pan broiled, or pan fried. The outer membrane (skin) may be removed from liver before cooking.\n\nBrains\n\nBrains are soft and very tender and have a delicate flavor. They may be broiled, fried, braised, or cooked in liquid.\n\nHeart\n\nHeart is flavorful but not very tender. Braising or cooking in liquid is recommended.\n\nKidneys\n\nBeef kidneys should be cooked in liquid or braised. Before cooking, remove membrane and hard parts. Slice or cut kidney in pieces, if desired.\n\nSweetbreads\n\nSweetbreads are the two lobes of the thymus gland located in the neck and are a tender meat. Veal, calf, and young beef furnish nearly all of the sweetbreads. As the animal matures, the thymus gland disappears. Sweetbreads may be broiled, fried, braised, or cooked in liquid."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/62848"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/62848",
+   "aliases": "butchering a cow, slaughtering cattle, how to kill a cow, skinning a cow, gutting a cow, hanging beef, aging beef, cutting up a beef carcass, beef cuts, sharpening knives, freezing beef, wrapping meat for freezer, ground beef at home, cooking beef cuts, cooking organ meat, chilling a carcass, home butchering beef, splitting a carcass, meat yield from steer"
   },
   {
    "title": "Lamb Slaughtering, Cutting, and Cooking on the Farm (USDA Farmers' Bulletin 2264, 1977)",
@@ -665,7 +666,8 @@
      "body": "Select pelts for preserving which are free of numerous holes and which have relatively clean fleece. The day the pelt is removed, wash the fleece thoroughly with cold water. High pressure water can be used if the fleece is extremely dirty. Remove any large pieces of connective tissue or flesh adhering to the pelt. In a cool, dry shelter or building, spread the pelt, wool down, on the floor and cover with an even layer of salt. A small amount of alum can be added to the salt.\n\nTake care to put salt on all the edges. Salted pelts may be piled on top of one another, all pelts fleece down. Curing time should be 15 to 30 days. Check the salt covering weekly. After curing, the pelt can be scraped to remove connective tissue or flesh. Neatsfoot oil can be rubbed into the pelt to make it soft and flexible. The fleece can be combed and brushed."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/62838"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/62838",
+   "aliases": "how to butcher a lamb, slaughtering a sheep, lamb cuts of meat, skinning a lamb, gutting a sheep, sheep slaughter at home, home butchering lamb, hanging a carcass, cutting up lamb, freezing lamb meat, cooking lamb, lamb pelt tanning, saving sheep skin, humane killing of sheep, lamb meat yield, butchering equipment, chilling a carcass"
   },
   {
    "title": "Pork Slaughtering, Cutting, and Cooking on the Farm (USDA Farmers' Bulletin 2265, rev. 1981)",
@@ -791,7 +793,8 @@
      "body": "The Federal Meat Inspection Act requires that all meat which is to be sold or traded for human consumption must be slaughtered under inspection in an approved facility under the supervision of a State or USDA meat inspector. A person can slaughter his animals outside such a facility only for use by himself, members of his household, his non-paying guests, or his employees, but he is not allowed to sell any portion of the carcass. For more details about these regulations, consult your county extension agent or write to the Food Safety and Quality Service, United States Department of Agriculture, Washington, D.C. 20250."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/62859"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/62859",
+   "aliases": "butchering a pig, how to slaughter a hog, home pig butchering, scalding and scraping a pig, cutting up a pig, pork cuts, rendering lard, making sausage at home, scrapple recipe, headcheese recipe, freezing pork, bleeding a pig, gutting a hog, pig carcass chilling, butchering equipment, how to kill a pig humanely, curing pork, wrapping meat for freezer, home slaughter laws, processing a hog, skinning a pig, pig butchering day, pork cooking temperature"
   }
  ]
 }

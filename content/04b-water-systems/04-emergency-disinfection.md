@@ -1,5 +1,6 @@
 # Emergency Disinfection of Drinking Water (EPA)
 Source: https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water
+Aliases: is my water safe to drink, how to purify water, bleach to purify water, how much bleach per gallon, boil water how long, boil water notice, water purification tablets, disinfect water after flood, make tap water safe, iodine for water, cloudy water filter first, water treatment emergency, chlorine drops water, drinking water after hurricane, unscented bleach water ratio, make water drinkable, purify water at home, water safe for baby formula
 
 ## Overview
 Información relacionada disponible en español

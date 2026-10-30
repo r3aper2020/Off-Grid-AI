@@ -1,5 +1,6 @@
 # Head Injuries (ATP 4-02.11 Ch. 11)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: hit head hard what to do, concussion signs, knocked out unconscious, head wound bleeding, skull fracture, blood from ear after head injury, broken nose, broken jaw, nosebleed wont stop, neck injury, facial injury, eye injury first aid, scalp cut, vomiting after hitting head, head injury when to worry, unconscious after fall, confused after hitting head, bump on head, ear injury, object in eye
 
 ## Head Injury: OVERVIEW OF HEAD INJURIES
 **Chapter 11**

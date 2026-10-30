@@ -1,5 +1,6 @@
 # Survival Medicine (ATP 3-50.21 Ch. 2)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: wilderness first aid, stop bleeding, bleeding wound pressure, wound infection no doctor, maggots in wound, cleaning wound wilderness, stitching a wound yourself, medicinal plants, natural remedies, poison ivy rash, ate poisonous plant, blisters hiking, boils skin, athlete foot, sprained ankle, pulled muscle, dislocated joint, broken bone outdoors, snake bite, tick removal, removing leeches, heat stroke, frostbite fingers, trench foot, keeping clean outdoors
 
 ## Survival Medicine
 **Chapter 2**

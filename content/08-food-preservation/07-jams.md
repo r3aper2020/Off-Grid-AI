@@ -1,5 +1,6 @@
 # Jams and Jellies (USDA Complete Guide, Guide 7)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf
+Aliases: how to make jam, jelly without pectin, jam recipe, making jelly from fruit juice, pectin jam, low sugar jam, strawberry jam, grape jelly, pepper jelly, jam didnt set, fix runny jelly, remake soft jelly, canning jam, fruit spread no sugar, how to make preserves, jelly bag juice, pear apple jam, blueberry jam, jam with gelatin fridge, homemade jelly, jam too hard, sealing jam jars
 
 ## Making jelly without added pectin
 Use only firm fruits naturally high in pectin. Select a mixture of about 3/4 ripe and 1/4 underripe fruit. Do not use commercially canned or frozen fruit juices. Their pectin content is too low. Wash all fruits thoroughly before cooking. Crush soft fruits or berries; cut firmer fruits into small pieces.

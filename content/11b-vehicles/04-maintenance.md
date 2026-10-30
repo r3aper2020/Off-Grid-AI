@@ -1,5 +1,6 @@
 # Operator Maintenance and Checks (TC 21-305-20 Ch. 10)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc21_305_20.pdf
+Aliases: check car before trip, vehicle inspection checklist, pre trip inspection, checking oil and fluids, tire pressure check, truck preventive maintenance, what to check on vehicle daily, after driving checks, car maintenance basics, vehicle walk around, coolant level check, fix small vehicle problems, vehicle defects report, keep car running, before during after operation checks, car ready for emergency, check belts and hoses, leaks under car
 
 ## Maintenance Responsibilities
 **Chapter 10**

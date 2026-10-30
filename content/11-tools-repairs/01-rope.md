@@ -1,5 +1,6 @@
 # Rope: Fiber and Wire Rope Care and Use (TM 3-34.86 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x86.pdf
+Aliases: rope types, rope strength, how much weight can rope hold, manila rope, nylon rope, rope care, inspecting rope, storing rope, wire rope, steel cable, cable strength, coiling rope, rope sizes, rope safe load, natural vs synthetic rope, rope breaking strength, cable lubrication, kinked cable, cutting wire rope, rope wear, paracord strength, which rope to buy
 
 ## Rope: SECTION I - FIBER ROPE
 **Chapter 1**

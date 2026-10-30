@@ -1,5 +1,6 @@
 # Cold Water Can Be Dangerous: Cold Shock and Hypothermia (NWS)
 Source: https://www.weather.gov/safety/coldwater
+Aliases: cold water shock, fell in cold water, cold water drowning, gasp reflex cold water, how long survive in cold water, cold water hypothermia, boat capsized cold water, cold water swimming danger, 1 10 1 rule, life jacket cold water, fell through ice, cold water immersion, cold water safety, water temperature danger, paddling in cold water, cold water survival, swim failure cold
 
 ## Cold Water Can Be Dangerous
 Warm air doesn’t always mean warm water in lakes, streams or oceans, and even water temperature that may not sound very cold can be deadly. Plunging into cold water of any temperature becomes dangerous if you aren’t prepared for what the sudden exposure can do to your body and brain. Warm air temperatures can create a false sense of security for boaters and beach goers, so if you are planning to be on or near the water, arrive knowing the conditions and how to protect yourself.

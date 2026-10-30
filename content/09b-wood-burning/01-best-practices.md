@@ -1,5 +1,6 @@
 # Best Wood-Burning Practices (EPA Burn Wise)
 Source: https://www.epa.gov/burnwise/best-wood-burning-practices
+Aliases: build a fire in a wood stove, wood stove tips, seasoned firewood, burning wet wood, what not to burn in a fireplace, smoke from wood stove, burn trash in fireplace, dry firewood, top down fire, wood stove smoke in house, efficient wood burning, chimney fire prevention, best wood to burn, how to start a fire in fireplace, treated wood burning, wood stove safety
 
 ## Overview
 The Burn Wise Program ran from 2009 to 2025. The website serves as a historic record; EPA is no longer updating program content as of October 30, 2025.

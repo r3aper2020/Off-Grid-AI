@@ -1,5 +1,6 @@
 # About Rabies
 Source: https://www.cdc.gov/rabies/about/index.html
+Aliases: rabies risk, bitten by animal, bat in house, raccoon bite, dog bite rabies, rabies symptoms, rabies shot, rabies vaccine, bitten by bat, which animals carry rabies, rabies in humans, wild animal bite, fox bite, skunk bite, stray dog bite, rabies prevention, animal acting strange, rabies exposure
 
 ## Key points
 - Rabies is a viral disease that is deadly if people don't receive medical care before symptoms start.

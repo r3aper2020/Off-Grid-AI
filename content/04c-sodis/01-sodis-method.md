@@ -1,5 +1,6 @@
 # SODIS: The Solar Water Disinfection Method at a Glance (Eawag SODIS Manual 1.1)
 Source: https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf
+Aliases: purify water with sunlight, sodis method, plastic bottle water sun, clear water in sun to disinfect, uv water treatment bottle, water purification no fire, solar water disinfection, how long leave bottle in sun, pet bottle water purification, make water safe without boiling, sunlight kill germs water, cheap water purification, water purification without chemicals, sodis pros and cons
 
 ## 1.1 The SODIS method
 

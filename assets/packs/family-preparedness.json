@@ -4,7 +4,7 @@
  "id": "family-preparedness",
  "title": "Family & Community Preparedness",
  "category": "guide",
- "version": "2026.10.29.3",
+ "version": "2026.10.30.1",
  "publisher": "Ready.gov (Federal Emergency Management Agency)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Building a kit, making a family plan, evacuating and sheltering, plus FEMA's in-depth Are You Ready? guide covering 20+ hazards.",
@@ -35,7 +35,8 @@
      "body": "Since you do not know where you will be when an emergency occurs, prepare supplies for home, work and cars.\n\n- Home: Keep this kit in a designated place and have it ready in case you have to leave your home quickly. Make sure all family members know where the kit is kept.\n- Work: Be prepared to shelter at work for at least 24 hours. Your work kit should include food, water and other necessities like medicines, as well as comfortable walking shoes, stored in a “grab and go” case.\n- Car: In case you are stranded, keep a kit of emergency supplies in your car."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/kit"
+   "sourceUrl": "https://www.ready.gov/kit",
+   "aliases": "bug out bag, go bag, 72 hour kit, emergency kit list, what to put in an emergency kit, disaster supplies kit, emergency supplies checklist, car emergency kit, emergency kit for work, how much water in emergency kit, emergency kit storage, maintaining emergency kit, kit for family, basic emergency supplies, prepper kit, emergency bag, what do I need in a disaster"
   },
   {
    "title": "Make A Plan",
@@ -54,25 +55,18 @@
     },
     {
      "heading": "Step 3: Document Your Plan",
-     "body": "Create your family emergency plan quickly and easily using our fillable form.\n\nMake a Family Emergency Plan. Use this form to fill out information that can help your family be prepared. Include important info such as household information, names and contacts of family members, meeting places and medical information."
-    },
-    {
-     "heading": "Step 4: Practice Your Plan",
-     "body": "Practice your plan with your household."
+     "body": "Create your family emergency plan quickly and easily using our fillable form.\n\nMake a Family Emergency Plan. Use this form to fill out information that can help your family be prepared. Include important info such as household information, names and contacts of family members, meeting places and medical information.\n\n**Step 4: Practice Your Plan**\n\nPractice your plan with your household."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/plan"
+   "sourceUrl": "https://www.ready.gov/plan",
+   "aliases": "family emergency plan, make a plan, emergency contact list, where to meet family, out of town contact, emergency plan template, family communication plan, practice emergency plan, household emergency plan, plan for kids pets elderly, what to include in emergency plan, how to make a disaster plan, evacuation plan family, meeting place, how will my family find each other, write down emergency plan, family drill"
   },
   {
    "title": "Evacuation",
    "sections": [
     {
-     "heading": "Be in the Know",
-     "body": "We have all heard that knowledge is power. In an emergency, it can be lifesaving. This is why we are encouraging everyone to “Be in the Know” to evacuate safely."
-    },
-    {
      "heading": "Be in the Know: Know Your Risks",
-     "body": "- It’s important to understand your location’s risks because no two communities face the same extreme weather conditions. You can find your local risks with FEMA’s National Risk Index."
+     "body": "We have all heard that knowledge is power. In an emergency, it can be lifesaving. This is why we are encouraging everyone to “Be in the Know” to evacuate safely.\n\n- It’s important to understand your location’s risks because no two communities face the same extreme weather conditions. You can find your local risks with FEMA’s National Risk Index."
     },
     {
      "heading": "Be in the Know: Know When and Where to Go",
@@ -99,7 +93,8 @@
      "body": "If you evacuated for the storm, check with local officials both where you’re staying and back home before you travel.\n\n- If you are returning to disaster-affected areas, after significant events prepare for disruptions to daily activities and remember that returning home before storm debris is cleared is dangerous.\n- Let friends and family know before you leave and when you arrive.\n- Charge devices and consider getting back-up batteries in case power-outages continue.\n- Fill up your gas tank and consider downloading a fuel app to check for outages along your route.\n- Bring supplies such as water and non-perishable food for the car ride.\n- Avoid downed power or utility lines, they may be live with deadly voltage. Stay away and report them immediately to your power or utility company.\n- Only use generators outside and away from your home and NEVER run a generator inside a home or garage or connect it to your home's electrical system.\n\nReturn to top"
     }
    ],
-   "sourceUrl": "https://www.ready.gov/evacuation"
+   "sourceUrl": "https://www.ready.gov/evacuation",
+   "aliases": "evacuation, evacuate or stay, when to evacuate, evacuation order, mandatory evacuation, what to bring when evacuating, evacuation checklist, evacuation routes, where to go in evacuation, evacuation plan family, evacuation with pets, go bag, bug out bag, leave the house in a hurry, after evacuation return home, evacuation zones, know your risks, evacuation information sources, prepare car to evacuate, shelter in place vs evacuate, fuel for evacuation"
   },
   {
    "title": "Shelter",
@@ -121,30 +116,19 @@
      "body": "- Remain indoors as much as possible and try to only leave your home when necessary. You can still use outdoor spaces such as patios, porches and yards.\n- Outdoor activities such as walking, jogging and exercise are fine.\n- Essential services such as grocery shopping, the gas station, pharmacies and going to the Post Office are still fine to do.\n- Limit visitors if possible. Try to use video chatting. Call the people you would normally text.\n\nReturn to top"
     }
    ],
-   "sourceUrl": "https://www.ready.gov/shelter"
+   "sourceUrl": "https://www.ready.gov/shelter",
+   "aliases": "shelter in place, where to shelter, emergency shelter, stay home or evacuate, red cross shelter, going to a shelter, what to bring to shelter, sheltering at home, mass shelter, pets at shelter, staying put during disaster, shelter in place how long, seal the room, public shelter, shelter supplies"
   },
   {
    "title": "Are You Ready? An In-Depth Guide to Citizen Preparedness (FEMA)",
    "sections": [
-    {
-     "heading": "Overview (part 1)",
-     "body": "Take Action: Protect Yourself, Your Property, and Manage Risk ...................................................................... 19\n\nKeep Informed: Alerts and Warnings ....................................................................................................................... 19\n\nKnow Your Insurance Options and Document Your Property ....................................................................... 20\n\nWhat’s Covered? Understand Your Policy. ............................................................................................................. 20\n\nDo You Need Flood Insurance? Understand Your Flood Risk. ....................................................................... 21\n\nDocument Your Property .............................................................................................................................................. 21\n\nProtect Your Property ..................................................................................................................................................... 21\n\nPractice Your Disaster Plans ........................................................................................................................................ 23\n\nTake Part in Your Community ..................................................................................................................................... 24\n\nRecovering from a Disaster ............................................................................................................................................... 26\n\nHealth and Safety Guidelines ....................................................................................................................................... 26\n\nBefore You Enter Your Home ....................................................................................................................................... 27\n\nInside Your Home ............................................................................................................................................................. 27\n\nNatural Gas ..................................................................................................................................................................... 27\n\nSparks, Broken, Or Frayed Wires .......................................................................................................................... 27\n\nRoof, Foundation, And Chimney Cracks ............................................................................................................. 27\n\nAppliances ....................................................................................................................................................................... 27\n\nWater and Sewage Systems ..................................................................................................................................... 27\n\nFood and Other Supplies ........................................................................................................................................... 27\n\nBasements ....................................................................................................................................................................... 27\n\nCabinets ........................................................................................................................................................................... 27\n\nPests or Vermin ............................................................................................................................................................ 28\n\nFile an Insurance Claim .................................................................................................................................................. 28\n\nGet in Contact with Your Insurance Company to Start the Claims Process ......................................... 28"
-    },
-    {
-     "heading": "Overview (part 2)",
-     "body": "Document the Damage and Protect Your Property ....................................................................................... 28\n\nWork with Your Adjuster and Complete A Proof of Loss to Support Your Claim ............................. 28\n\nCoping with Disaster ....................................................................................................................................................... 29\n\nDisaster Assistance .......................................................................................................................................................... 29\n\nProtect Yourself from Disaster-Related Fraud and Scams .............................................................................. 30\n\nGive Support ....................................................................................................................................................................... 30\n\nAre You Ready? An In-Depth Guide to Citizen Preparedness\n\n1-800-480-2520\n\nPublication Warehouse at\n\nis available for free. Call the FEMA and ask for publication P-2064. It is also available as a\n\nReady.gov\n\nfree download online at\n\niii Ready.gov"
-    },
     {
      "heading": "Not if, but when: Every U.S. state and territory is at risk of",
      "body": "**Prepare for Disasters**\n\ndisasters.\n\nDisasters disrupt thousands of lives every year, leaving behind lasting effects on people and property. After a disaster, many others in your community need help as well. For this reason, local first responders and other assistance may not be able to reach you right away. You and your family can take simple steps now to prepare for emergencies. By doing so, you —even in the uncertainty of disaster.\n\ncomprehensive guide\n\ntake back control\n\nwill provide you with detailed information on how best to prepare for\n\nThis disasters within your family and in your community. In this document you will learn general disaster preparedness tips for before, during, and after disasters, as well as best practices to inform your preparedness decisions about , such as hurricanes, earthquakes, and active shooters.\n\nspecific disasters"
     },
     {
      "heading": "Benefits of Planning Ahead",
-     "body": "There are many benefits to planning ahead for disasters. The most important benefits are staying safe and helping yourself and your community recover.\n\nPeople and families that plan for emergencies will:\n\nHelp keep people safe; Limit property damage; Know what to do during and after a disaster; Better manage their savings; Support community preparedness; and Help their community get back up and running after a disaster.\n\nTaking simple actions to protect against disaster helps you, your family, your community, and your country in important ways.\n\nPlan To prepare yourself and your family for a disaster, you should:"
-    },
-    {
-     "heading": "How to Prepare for Disasters",
-     "body": "Take Action\n\n; and"
+     "body": "There are many benefits to planning ahead for disasters. The most important benefits are staying safe and helping yourself and your community recover.\n\nPeople and families that plan for emergencies will:\n\nHelp keep people safe; Limit property damage; Know what to do during and after a disaster; Better manage their savings; Support community preparedness; and Help their community get back up and running after a disaster.\n\nTaking simple actions to protect against disaster helps you, your family, your community, and your country in important ways.\n\nPlan To prepare yourself and your family for a disaster, you should:\n\n**How to Prepare for Disasters**\n\nTake Action\n\n; and"
     },
     {
      "heading": ". 1. Know Your Risks",
@@ -172,11 +156,7 @@
     },
     {
      "heading": "Basic Protective Actions for all Disasters: Location",
-     "body": "**Basic Protective Actions for all Disasters: 1. Assess the Situation**\n\n**Basic Protective Actions for all Disasters: 2. Decide to Stay or Change**\n\nWhen something happens without warning, it is important to take a few seconds to figure out your most effective next steps.\n\nThis includes identifying the type of event that occurred and whether there is immediate danger, such as damaged buildings or downed power lines. The goal is to be safe and stay out of harm’s way.\n\nThe next step is to decide whether it is safe to stay in your current location. In some situations, you should stay where you are, while in others the safest option is to change locations. For example, if you are inside when a tornado occurs, you must stay indoors. In contrast, in an active shooter situation, you can try to run to another location."
-    },
-    {
-     "heading": "Key Protective Actions for Specific Hazards",
-     "body": "The protective actions that you should take differ depending on the hazard. Below are some key actions to take to protect yourself and your family from specific hazards.\n\n− Fight."
+     "body": "**Basic Protective Actions for all Disasters: 1. Assess the Situation**\n\n**Basic Protective Actions for all Disasters: 2. Decide to Stay or Change**\n\nWhen something happens without warning, it is important to take a few seconds to figure out your most effective next steps.\n\nThis includes identifying the type of event that occurred and whether there is immediate danger, such as damaged buildings or downed power lines. The goal is to be safe and stay out of harm’s way.\n\nThe next step is to decide whether it is safe to stay in your current location. In some situations, you should stay where you are, while in others the safest option is to change locations. For example, if you are inside when a tornado occurs, you must stay indoors. In contrast, in an active shooter situation, you can try to run to another location.\n\n**Key Protective Actions for Specific Hazards**\n\nThe protective actions that you should take differ depending on the hazard. Below are some key actions to take to protect yourself and your family from specific hazards.\n\n− Fight."
     },
     {
      "heading": "Active Shooter",
@@ -276,11 +256,7 @@
     },
     {
      "heading": "Prepare Your Critical Documents",
-     "body": "It is important to find and gather your valuables and information that will help you recover quickly and effectively after a disaster. Collect these documents and make a list of your household belongings and valuables. This is a critical step because you may need this inventory list for insurance records.\n\nAn overview of the items you should keep track of is below:\n\nHousehold identification documents such as property deeds or leasing agreements.\n\nFinancial and legal documents like bank statements and paystubs.\n\nMedical information and proof of insurance, including medical records and your doctor’s contact information.\n\nEmergency or hotline contact information.\n\nFor a more detailed checklist and tips to help you prepare financially, read the Emergency Financial First Aid Kit."
-    },
-    {
-     "heading": "Take Action: Protect",
-     "body": "Yourself, Your Property,"
+     "body": "It is important to find and gather your valuables and information that will help you recover quickly and effectively after a disaster. Collect these documents and make a list of your household belongings and valuables. This is a critical step because you may need this inventory list for insurance records.\n\nAn overview of the items you should keep track of is below:\n\nHousehold identification documents such as property deeds or leasing agreements.\n\nFinancial and legal documents like bank statements and paystubs.\n\nMedical information and proof of insurance, including medical records and your doctor’s contact information.\n\nEmergency or hotline contact information.\n\nFor a more detailed checklist and tips to help you prepare financially, read the Emergency Financial First Aid Kit.\n\n**Take Action: Protect**\n\nYourself, Your Property,"
     },
     {
      "heading": "and Manage Risk",
@@ -320,15 +296,7 @@
     },
     {
      "heading": "Take Part in Your Community",
-     "body": "You can help support your community before, during, and after a disaster. Contact your local emergency manager to learn about opportunities near you. Nonprofits, faith-based organizations, schools, and civic groups are all great places to begin your search."
-    },
-    {
-     "heading": "Take Part in Your Community: Volunteer",
-     "body": "There are many ways to volunteer your time to help your community, including delivering food to older adults or organizing your own community project.\n\nConsider any special skills you can offer."
-    },
-    {
-     "heading": "Take Part in Your Community: Train",
-     "body": "Take training in CPR and basic first aid, as well as other hazard-specific training, such as active shooter safety."
+     "body": "You can help support your community before, during, and after a disaster. Contact your local emergency manager to learn about opportunities near you. Nonprofits, faith-based organizations, schools, and civic groups are all great places to begin your search.\n\n**Take Part in Your Community: Volunteer**\n\nThere are many ways to volunteer your time to help your community, including delivering food to older adults or organizing your own community project.\n\nConsider any special skills you can offer.\n\n**Take Part in Your Community: Train**\n\nTake training in CPR and basic first aid, as well as other hazard-specific training, such as active shooter safety."
     },
     {
      "heading": "Take Part in Your Community: Donate",
@@ -364,11 +332,7 @@
     },
     {
      "heading": "Disaster Assistance",
-     "body": "After a disaster, it’s important to check local radio or television reports and other media sources for information about where to get emergency housing, food, first aid, clothing, and financial help. Post-disaster economic assistance programs may be available for some people. Direct help with food, shelter, supplies, and cleanup efforts can come from many organizations, including the American Red Cross, the Salvation Army, and local volunteer organizations. Following major disasters, the Federal Government can also provide support to people through temporary housing, counseling (for post-disaster trauma), low-interest loans and grants, and in other ways. The Federal Government also has programs that help small businesses and farmers.\n\nMost Federal aid becomes available when the President of the United States declares a “Major Disaster” for the affected area. FEMA will give information through the media and community outreach about Federal aid and how to apply."
-    },
-    {
-     "heading": "Federal Disaster Assistance",
-     "body": "- Beware of people going door-to-door.\n\nFor more information about Federal grants and assistance programs, visit Disasterassistance.gov where you will be"
+     "body": "After a disaster, it’s important to check local radio or television reports and other media sources for information about where to get emergency housing, food, first aid, clothing, and financial help. Post-disaster economic assistance programs may be available for some people. Direct help with food, shelter, supplies, and cleanup efforts can come from many organizations, including the American Red Cross, the Salvation Army, and local volunteer organizations. Following major disasters, the Federal Government can also provide support to people through temporary housing, counseling (for post-disaster trauma), low-interest loans and grants, and in other ways. The Federal Government also has programs that help small businesses and farmers.\n\nMost Federal aid becomes available when the President of the United States declares a “Major Disaster” for the affected area. FEMA will give information through the media and community outreach about Federal aid and how to apply.\n\n**Federal Disaster Assistance**\n\n- Beware of people going door-to-door.\n\nFor more information about Federal grants and assistance programs, visit Disasterassistance.gov where you will be"
     },
     {
      "heading": "Protect Yourself from Disaster-Related Fraud and Scams",
@@ -379,7 +343,8 @@
      "body": "There are many ways you and your family can offer support to those in need after a disaster.\n\nIf you can, help your neighbors to restore your community. If possible, donate cash to disaster relief organizations, and be sure to check with local officials before volunteering or donating goods. Children, elderly people, non-native English speakers, people with disabilities, and others with access and functional needs are significantly affected after a disaster may need special care.\n\n- Ask for\n\nofficial laminated photo ID\n\nFEMA shirt or U.S. Small Business Administration (SBA) jacket is not\n\n- Protect your personal information. absolute proof of identity.\n\nnot give out your personal information, such as Social Security or bank account numbers, unless you are sure it is safe.\n\nFEMA inspectors never need this information to begin services. During follow-up calls, a FEMA representative may ask for the last four digits of an applicant’s Social Security number to confirm identity or claim number.\n\nFEMA P-2064 Catalog No.17219-1"
     }
    ],
-   "sourceUrl": "https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf"
+   "sourceUrl": "https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf",
+   "aliases": "how to prepare for disasters, emergency plan, family communication plan, what disasters are in my area, know your risks, evacuation plan, emergency supplies, important documents for emergency, alerts and warnings, insurance for disasters, financial preparedness, active shooter, earthquake preparation, flood prep, wildfire prep, winter storm prep, pandemic prep, volcano eruption, landslide risk, extreme heat, cyberattack prep, preparing for anything, citizen preparedness, am I ready for a disaster"
   }
  ]
 }

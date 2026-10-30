@@ -4,7 +4,7 @@
  "id": "power",
  "title": "Power & Electricity",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Fire Administration (FEMA), Ready.gov (FEMA), U.S. Food and Drug Administration, Federal Aviation Administration, U.S. Energy Information Administration, and U.S. Department of Energy",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Generator, carbon monoxide and electrical fire safety; lithium-ion battery safety (charging, storage, flooding, travel); keeping medical devices and phones powered in outages; space weather and the grid; watts and watthours; how batteries, solar PV, storage, inverters, wind turbines and hydropower work.",
@@ -23,7 +23,8 @@
      "body": "Install and maintain CO alarms inside your home to provide early warning of CO.\n\nInstall CO alarms in a central location outside each separate sleeping area and on every level of your home.\n\nUse portable generators outdoors in well-ventilated areas away from all doors, windows and vents.\n\nMake sure vents for the dryer, furnace, stove and fireplace are clear of snow and other debris."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/",
+   "aliases": "carbon monoxide poisoning signs, generator inside house, co alarm going off, headache from generator, carbon monoxide detector, running car in garage, grill inside carbon monoxide, co poisoning symptoms, silent killer gas, propane heater indoors, where to put generator, carbon monoxide power outage, feeling dizzy nauseous furnace, charcoal indoors danger, co detector beeping, generator how far from house, gas stove to heat house"
   },
   {
    "title": "Portable Generators and Winter Storms (U.S. Fire Administration)",
@@ -33,7 +34,8 @@
      "body": "Portable generators are useful during winter storms, but if not used safely, they can cause injuries and death.\n\n- Use portable generators outdoors in well-ventilated areas away from all doors, windows and vents.\n\n- Make sure you have carbon monoxide alarms in your home.\n\n- Do not use a generator in a wet area. This can cause shock or electrocution.\n\n- Connect appliances to the generator with heavy-duty extension cords.\n\n- Do not fuel your generator when it is running. Spilling gas on a hot engine can cause a fire."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/portable_generators_winter_storms_flyer.pdf"
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/portable_generators_winter_storms_flyer.pdf",
+   "aliases": "generator safety, running a generator, generator carbon monoxide, generator in garage, where to put generator, generator outside how far from house, generator in winter storm, generator fumes, power outage generator, refueling a generator, portable generator tips, generator extension cord, generator during snowstorm, backfeeding generator danger, carbon monoxide from generator"
   },
   {
    "title": "Fire Hazards During Severe Weather: Generators, Downed Lines and Outages (U.S. Fire Administration)",
@@ -51,7 +53,8 @@
      "body": "Never use candles for emergency lighting. Use flashlights and stock up on extra batteries.\n\nMake sure your smoke alarm has a backup battery.\n\nUse surge protectors.\n\nConsider unplugging appliances.\n\nDisconnect motor vehicle batteries in flood-prone areas.\n\nConnect appliances to portable generators with heavy-duty extension cords.\n\nDon't fuel your generator when it is running. Spilling gas on a hot engine can cause a fire."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/",
+   "aliases": "generator safety, generator in garage, downed power lines, candles during power outage, fire during storm, generator carbon monoxide, generator placement, extension cord generator, flooded electrical, power lines in water, storm fire hazards, lightning fire, gas leak after storm, portable heater fire, outage fire safety"
   },
   {
    "title": "Appliance and Electrical Fire Safety: Outlets, Extension Cords and Power Strips (U.S. Fire Administration)",
@@ -73,7 +76,8 @@
      "body": "Do not overload power strips.\n\nUse power strips that have internal overload protection.\n\nReplace worn, old or damaged extension cords right away.\n\nAvoid putting cords where they can be damaged or pinched, like under a carpet or rug."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/",
+   "aliases": "extension cord safety, power strip safety, overloaded outlet, outlet sparking, electrical fire prevention, space heater on extension cord, daisy chain power strips, appliance fire, outlet feels hot, frayed cord, electrical fire at home, plugging too much into outlet, cord under rug, surge protector, electrical safety at home, unplug appliances, outlet covers"
   },
   {
    "title": "Prevent Home Electrical Fires (U.S. Fire Administration)",
@@ -83,25 +87,23 @@
      "body": "Electrical malfunction is a leading cause of home fires year after year.\n\nShare these electrical fire safety tips in your community:\n\n- Electrical work should only be done by a qualified electrician.\n\n- Check your electrical cords. If they are cracked or damaged, replace them. Don’t try to repair them.\n\n- Don’t overload extension cords or wall outlets.\n\n- Never use extension cords with appliances. Plug them directly into wall outlets."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/prevent_home_electrical_fires_flyer.pdf"
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/prevent_home_electrical_fires_flyer.pdf",
+   "aliases": "electrical fire prevention, outlet sparking, extension cord safety, overloaded outlet, frayed cord fire, space heater fire, breaker keeps tripping, burning smell from outlet, power strip overload, electrical fire causes, warm outlet cover, old wiring fire hazard, light bulb wattage fire, electrical fire what to do, appliance cord safety, flickering lights fire risk, cord under rug"
   },
   {
    "title": "Lithium-Ion and Other Battery Fire Safety (U.S. Fire Administration)",
    "sections": [
     {
      "heading": "Overview",
-     "body": "Lithium-ion batteries and other types of batteries present fire dangers if community residents don't follow product instructions when using, storing or disposing of them.\n\nDid you know:\n\nYou should store lithium-ion batteries at room temperature when possible. Do not charge them at temperatures below 32 degrees F (0 degrees C) or above 105 degrees F (40 degrees C).\n\nSource: NFPA PDF\n\nShare these safety tips to help increase awareness in your community about the fire dangers of lithium-ion and other types of batteries."
-    },
-    {
-     "heading": "Take C.H.A.R.G.E. of battery safety",
-     "body": "- Choose certified products.\n- Handle with care.\n- Always stay alert.\n- Recycle properly.\n- Get out quickly.\n- Educate others."
+     "body": "Lithium-ion batteries and other types of batteries present fire dangers if community residents don't follow product instructions when using, storing or disposing of them.\n\nDid you know:\n\nYou should store lithium-ion batteries at room temperature when possible. Do not charge them at temperatures below 32 degrees F (0 degrees C) or above 105 degrees F (40 degrees C).\n\nSource: NFPA PDF\n\nShare these safety tips to help increase awareness in your community about the fire dangers of lithium-ion and other types of batteries.\n\n**Take C.H.A.R.G.E. of battery safety**\n\n- Choose certified products.\n- Handle with care.\n- Always stay alert.\n- Recycle properly.\n- Get out quickly.\n- Educate others."
     },
     {
      "heading": "Messages to share",
      "body": "Stop using lithium-ion batteries if you notice an odor, change in color, too much heat, change in shape, leaking or odd noises.\n\nDon't put lithium-ion batteries in the trash. Recycle them at your local battery recycling location.\n\nStore spare lithium-ion batteries away from anything that can burn.\n\nDon't put lithium-ion batteries in direct sunlight or keep them in hot cars. This is a fire risk.\n\nRemove lithium-ion batteries from your checked smart luggage and keep them with you on the plane.\n\nRemove spare, loose lithium-ion batteries from checked luggage and keep them with you on the plane."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/"
+   "sourceUrl": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+   "aliases": "lithium battery fire, battery caught fire, charging battery safely, phone battery swelling, swollen battery what to do, e bike battery fire, scooter battery fire, battery overheating, charging overnight safe, battery safety tips, damaged battery dispose, battery fire how to put out, power bank fire, lithium ion safety, battery storage, charging in the sun, laptop battery hot"
   },
   {
    "title": "Lithium-Ion Battery Safety for Electronic Devices (U.S. Fire Administration)",
@@ -119,7 +121,8 @@
      "body": "- 1. Place tape over battery ends and terminals to help prevent accidental discharges and potential fires.\n\n- 2. Repairs to any lithium-ion battery packs should only be performed by a certified repair facility.\n\n- 3. Do not place lithium-ion batteries in trash or recycle bins as they have the potential to ignite. Locate collection sites in your community and check with your local authorities to determine proper recycling methods for used batteries."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-safety-handout.pdf"
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-safety-handout.pdf",
+   "aliases": "lithium battery fire, phone battery swelling, charging phone safely, battery overheating, laptop battery fire, charging overnight, power bank safety, swollen battery, dispose of lithium batteries, e-bike battery fire, battery caught fire, cheap charger danger, battery puffed up, charging safety, damaged battery"
   },
   {
    "title": "Lithium-Ion Battery Safety After Flooding (U.S. Fire Administration)",
@@ -133,7 +136,8 @@
      "body": "It is important to properly dispose of flood damaged lithium-ion powered products.\n\n- Place flood damaged lithium-ion powered products in metal or non-combustible tubs and keep at least 6 feet away from debris and structures.\n\n- Do not put lithium-ion battery-powered products in with storm debris for pick up.\n\n- Never put lithium-ion batteries inside garbage or recycle carts or bins."
     }
    ],
-   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-after-flooding-handout.pdf"
+   "sourceUrl": "https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-after-flooding-handout.pdf",
+   "aliases": "flooded electric car, lithium battery got wet, e-bike battery flood, battery fire after flood, battery caught fire, flooded scooter battery, wet lithium ion battery, dispose of flooded battery, saltwater battery fire, laptop in flood, phone battery wet fire, EV after hurricane, battery smoking after water, power tool battery wet"
   },
   {
    "title": "Lithium Batteries: Thermal Runaway, Spares and Terminal Protection (FAA PackSafe)",
@@ -147,7 +151,8 @@
      "body": "Tip: Newer lithium ion batteries have the Wh rating marked on them. To calculate Wh, multiply the battery voltage by the Amp hours (Ah)."
     }
    ],
-   "sourceUrl": "https://www.faa.gov/hazmat/packsafe/lithium-batteries"
+   "sourceUrl": "https://www.faa.gov/hazmat/packsafe/lithium-batteries",
+   "aliases": "lithium battery on airplane, spare batteries carry on, battery caught fire, power bank on plane, thermal runaway, battery terminals tape, lithium battery swelling, packing batteries for travel, can I fly with lithium batteries, battery fire danger, protect battery terminals, loose batteries in bag, lithium battery rules flying, overheating battery, batteries in checked bag, battery short circuit"
   },
   {
    "title": "Medical Devices in Power Outages and Natural Disasters (FDA)",
@@ -185,7 +190,8 @@
      "body": "Heat and humidity can damage blood glucose meters and test strips.\n\nIf you use a blood glucose meter, check the meter and test strip package insert for information on use during unusual heat and humidity. Store and handle the meter and test strips according to the instructions. Perform quality-control checks to make sure that your home glucose testing is accurate and reliable.\n\nTo protect your device from heat and humidity, follow the steps below:\n\n- Use a dry cloth to wipe off your device regularly (e.g., mechanical infusion pumps).\n- Keep your device out of direct sunlight.\n- Enclose your medical products in plastic containers to keep them dry (e.g., wound care supplies).\n- Do not use ice if there is a danger of water contamination; use dry ice or instant cold packs to keep your device cool (e.g., prefilled syringes).\n- Do not use disposable devices that are wet (e.g., wound dressings, disposable thermometers, tubing)."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters"
+   "sourceUrl": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters",
+   "aliases": "medical device power outage, oxygen concentrator no power, CPAP during power outage, ventilator power outage, power dependent medical equipment, backup power medical device, generator for medical equipment, medical devices after flood, medical device got wet, sterile supplies after flood, reuse medical devices, glucose meter heat humidity, blood glucose meter accuracy hot, medical devices in heat, nebulizer no power, medical equipment disaster, carbon monoxide medical generator"
   },
   {
    "title": "Medical Devices Requiring Refrigeration During a Power Outage (FDA)",
@@ -195,7 +201,8 @@
      "body": "Many medical devices require specific storage conditions. The manufacturer’s instructions, in the product labeling will explain specific needs for refrigeration, freezing, or controlled room temperature.\n\nMedical devices that have specific storage requirements are not safe if those requirements have been violated. But do not necessarily discard working devices without specific storage requirements, because this may cause product shortages.\n\n**If the power goes out:**\n\n- Do not open refrigerators or freezers until the power is restored. Most refrigerators and freezers will maintain their temperatures for at least one day if they have not been opened.\n- If you must remove products from a refrigerator or freezer, keep the products on ice or dry ice at the required temperature until use.\n\n**When the power is restored:**\n\n- Measure the temperature of the refrigerator or freezer. Discard products if the temperature has risen above the safe storage temperature.\n- If you are not sure whether or not a product is safe to use, run quality control checks (when appropriate) and contact the manufacturer.\n\n**Laboratory Reagents**\n\nThe majority of reagents used for laboratory testing are temperature sensitive, with most requiring routine refrigeration.\n\nA small subset of materials require freezer, or below freezer-level conditions (ranging from freezing to 70 degrees below freezing).\n\nWithout refrigeration, most reagents will deteriorate within hours. No reagents that require refrigeration will last more than 2-3 days without it.\n\nRun control solutions to determine whether or not your reagent is still potent.\n\nSee product labeling/manufacturers instructions for specific storage temperature information.\n\nWhen using glucose meters, always run controls to make sure the meter is functioning properly. Make sure control strips and solutions are appropriate for your meter. Both moisture and heat may compromise the performance of test strips. Users should check manufacturer’s instructions to determine if their testing materials will be safe for use."
     }
    ],
-   "sourceUrl": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/medical-devices-requiring-refrigeration"
+   "sourceUrl": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/medical-devices-requiring-refrigeration",
+   "aliases": "insulin no fridge, refrigerated medicine power outage, keep insulin cold, medical device power outage, medicine got warm, cpap no power, oxygen concentrator outage, refrigerated meds how long, insulin temperature, device exposed to heat, medical equipment outage, keeping meds cold no power, test strips heat, vaccines power outage"
   },
   {
    "title": "Space Weather and Power Grid Outages (Ready.gov)",
@@ -221,7 +228,8 @@
      "body": "Throw out unsafe food:\n\n- Throw away any food that has been exposed to a temperature of 40° F (4° C) or higher for two hours or more, or that has an unusual odor, color or texture. When in doubt, throw it out!\n- Never taste food or rely on appearance or odor to determine its safety. Some foods may look and smell fine, but if they have been at room temperature too long, bacteria that cause foodborne illnesses can start growing quickly. Some types of bacteria produce toxins that cannot be destroyed by cooking.\n- You can refreeze food in the freezer if the food is colder than 40° F and has ice crystals on it.\n- Measure the food’s temperature with a food thermometer if you are not sure that it is cold enough."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/space-weather"
+   "sourceUrl": "https://www.ready.gov/space-weather",
+   "aliases": "solar flare power outage, solar storm, space weather, geomagnetic storm, sun knock out power grid, CME power outage, GPS not working solar, protect electronics from solar flare, long power outage prep, grid down from sun, solar storm warning, what to do during solar storm, northern lights power outage, carrington event"
   },
   {
    "title": "Get Tech Ready: Keeping Phones and Devices Powered (Ready.gov)",
@@ -239,7 +247,8 @@
      "body": "- Use text messages, social media and email to connect with friends and family during emergencies.\n- Mobile networks can become overwhelmed during emergencies, making it hard to make and get phone calls. Text messages require less bandwidth, which means they are able to be transmitted more reliably during situations when many people are trying to use their mobile phones at the same time.\n- Social media channels such as Facebook and Twitter can also be an effective way to update family and friends during emergencies. Facebook’s Safety Check feature allows users to easily post a status update indicating that they are safe during a time of disaster.\n- Have an emergency charging option for your phone and other mobile devices. Smartphones have become a vital tool to get emergency alerts and warnings so it’s important to make sure you can keep them powered up in an emergency.\n- At home: Prior to severe weather make sure that all of your electronic devices are fully charged. If the power goes out save battery power by minimizing device use. Keep a back-up power source on hand.\n- In your car: Keep a portable phone charger in your car at all times and consider purchasing a back-up power supply to keep in your car as well.\n- Change the settings on your phone to low power mode or place it on airplane mode to conserve energy.\n- Store important documents on a secure, password-protected jump drive or in the cloud.\n- There are several apps for mobile devices that let you use your phone’s camera as a scanning device. This lets you capture electronic versions of important documents such as insurance policies, identification documents and medical records. Don’t forget to include your pet’s information.\n- Back-up your computer to protect photos and other important electronic documents.\n- Scan old photos to protect them from loss.\n- Keep your contacts updated and synced across all of your channels, including phone, email and social media. This will make it easy to reach out to the right people quickly to get information and give updates. Consider creating a group listserv of your top contacts.\n- Create a group chat via a texting app or a thread for family/friends/coworkers to communicate quickly during a disaster.\n- Sign up for direct deposit and electronic banking through your financial institution so you can access your paycheck and make electronic payments wherever you are. Federal benefit recipients can sign up by calling 800-333-1795 or at GoDirect.org."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/get-tech-ready"
+   "sourceUrl": "https://www.ready.gov/get-tech-ready",
+   "aliases": "keep phone charged in outage, charge phone without power, power bank for emergency, phone battery during blackout, backup charger, emergency alerts on phone, text instead of call emergency, solar phone charger, car charger for phone, save phone battery outage, devices powered during storm, sign up for emergency alerts, phone ready for disaster, store important documents on phone, cell service down what to do, charge phone in car, battery saver mode"
   },
   {
    "title": "Measuring Electricity: Watts, Kilowatts and Watthours (EIA)",
@@ -257,7 +266,8 @@
      "body": "Electric utility companies use meters to measure how much electricity their customers use. These meters are usually located on the outside of the building or home where the power line connects. In the past, electricity meters were mechanical devices that a utility employee had to read manually. Eventually, automated meters could periodically report electricity use to the utility. Today, many utilities use electronic smart meters. These meters wirelessly send power usage data in real time. Some advanced smart meters can even track the electricity use of individual devices and allow the utility or customer to control electricity use remotely."
     }
    ],
-   "sourceUrl": "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php"
+   "sourceUrl": "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+   "aliases": "what is a watt, watts vs kilowatts, kilowatt hour explained, watt hours, how much electricity does an appliance use, electricity usage calculation, how to read electric meter, kwh meaning, power consumption basics, watts to kwh, electricity measured how, how many watts, sizing a generator watts, battery watt hours"
   },
   {
    "title": "Batteries, Circuits, and Transformers (EIA)",
@@ -275,7 +285,8 @@
      "body": "To overcome the challenge of sending electricity over long distances, William Stanley invented the transformer. A transformer adjusts the voltage (electrical pressure) of electricity in power lines.\n\nHigh-voltage transmission lines (the ones you see hanging between tall metal towers) carry electricity over long distances. Higher voltage electricity is more efficient and less expensive for long distance travel. Lower voltage electricity is safer to use in homes and businesses. Transformers play a crucial role by either increasing (stepping up) or reducing (stepping down) voltages as electricity travels from power plants to homes and businesses."
     }
    ],
-   "sourceUrl": "https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php"
+   "sourceUrl": "https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php",
+   "aliases": "how batteries work, what is a circuit, how electricity flows, electrical transformer, volts amps watts, battery basics, series vs parallel, electricity for beginners, how a battery makes power, circuit explained, electrical basics, what does a transformer do, why batteries die, DC vs AC"
   },
   {
    "title": "Photovoltaics and Electricity (EIA)",
@@ -305,7 +316,8 @@
      "body": "The first practical PV cell was developed in 1954 by Bell Telephone researchers. Beginning in the late 1950s, PV cells were used to power U.S. space satellites. By the late 1970s, PV panels were providing electricity in remote, or off-grid, locations that did not have electric power lines. Since 2004, most PV systems in the United States are grid-connected—they are connected to an electric power grid. These PV systems are installed on or near homes and buildings and at utility-scale power plants that have at least 1 megawatt of electric-generation capacity. Technological advances, lower costs for PV systems, and various financial incentives and government policies, especially tax credits and net metering, have helped to greatly expand PV use since the mid-1990s. Millions of grid-connected PV systems are now installed in the United States.\n\nElectricity generation at utility-scale PV power plants increased from 6 million kilowatthours (kWh) (or 6,000 megawatthours [MWh]) in 2004 to about 292 billion kWh (or 292,817,000 MWh) in 2025. About 93 billion kWh (or 93,148,000 MWh) were generated by small-scale, grid-connected PV systems in 2025, up from 18 billion kWh (or 18,812,000 MWh) in 2016. Small-scale PV systems have less than 1,000 kilowatts of electricity-generation capacity. Most small-scale PV systems are located on buildings and are sometimes called rooftop PV systems."
     }
    ],
-   "sourceUrl": "https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php"
+   "sourceUrl": "https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php",
+   "aliases": "how do solar panels work, solar power basics, solar cells, photovoltaic cells, solar panel efficiency, solar panels for home, off grid solar, how solar makes electricity, solar array, solar energy explained, solar panel output, how much power solar panel, history of solar panels, solar for emergency power, PV system"
   },
   {
    "title": "Solar Photovoltaic Technology Basics (DOE)",
@@ -319,7 +331,8 @@
      "body": "PV modules and arrays are just one part of a PV system. Systems also include mounting structures that point panels toward the sun, along with the components that take the direct-current (DC) electricity produced by modules and convert it to the alternating-current (AC) electricity used to power the appliances in your home."
     }
    ],
-   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-photovoltaic-technology-basics"
+   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-photovoltaic-technology-basics",
+   "aliases": "how do solar panels work, solar panel basics, what is photovoltaic, parts of a solar system, solar cells explained, solar inverter what does it do, solar power for home basics, how solar makes electricity, solar panel system components, off grid solar basics, pv system, solar energy explained, do solar panels work on cloudy days, solar array, solar batteries and inverters, solar panel materials"
   },
   {
    "title": "Solar Photovoltaic System Design Basics: Mounting, Inverters and Storage (DOE)",
@@ -345,7 +358,8 @@
      "body": "Batteries allow for the storage of solar photovoltaic energy, so we can use it to power our homes at night or when weather elements keep sunlight from reaching PV panels. Not only can they be used in homes, but batteries are playing an increasingly important role for utilities. As customers feed solar energy back into the grid, batteries can store it so it can be returned to customers at a later time. The increased use of batteries will help modernize and stabilize our country's electric grid."
     }
    ],
-   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics"
+   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics",
+   "aliases": "solar panel system design, home solar basics, solar panels on roof or ground, solar mounting, solar inverter, string inverter vs microinverter, solar battery storage, off grid solar, solar with batteries, grid tied solar, solar panel setup, how solar works at home, solar energy storage, battery backup solar, solar system parts, planning a solar system, DIY solar power, solar during outage"
   },
   {
    "title": "Solar Energy and Storage Basics (DOE)",
@@ -395,7 +409,8 @@
      "body": "Energy can also be stored by changing how we use the devices we already have. For example, by heating or cooling a building before an anticipated peak of electrical demand, the building can “store” that thermal energy so it doesn’t need to consume electricity later in the day. The building itself is acting as a thermos by storing cool or warm air. A similar process can be applied to water heaters to spread demand out over the day.\n\nUltimately, residential and commercial solar customers, and utilities and large-scale solar operators alike, can benefit from solar-plus-storage systems. As research continues and the costs of solar energy and storage come down, solar and storage solutions will become more accessible to all Americans."
     }
    ],
-   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics"
+   "sourceUrl": "https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics",
+   "aliases": "solar with batteries, solar battery storage, home solar backup, storing solar power, solar panels at night, battery bank, solar energy storage types, off grid solar, solar power when grid down, how solar storage works, solar plus battery, pumped hydro, thermal storage, flywheel storage, solar fuels, solar backup power, home energy storage"
   },
   {
    "title": "How Do Wind Turbines Work? (DOE)",
@@ -406,11 +421,7 @@
     },
     {
      "heading": "How Wind Turbines Make Electricity",
-     "body": "Wind is a form of solar energy caused by a combination of three concurrent events:\n\n- The sun unevenly heating the atmosphere\n- Irregularities of the earth's surface\n- The rotation of the earth.\n\nWind flow patterns and speeds vary greatly across the United States and are modified by bodies of water, vegetation, and differences in terrain. Humans use this wind flow, or motion energy, for many purposes: sailing, flying a kite, and even generating electricity.\n\nThe terms \"wind energy\" and \"wind power\" both describe the process by which the wind is used to generate mechanical power or electricity. This mechanical power can be used for specific tasks (such as grinding grain or pumping water) or a generator can convert this mechanical power into electricity.\n\nA wind turbine turns wind energy into electricity using the aerodynamic force from the rotor blades, which work like an airplane wing or helicopter rotor blade. When wind flows across the blade, the air pressure on one side of the blade decreases. The difference in air pressure across the two sides of the blade creates both lift and drag. The force of the lift is stronger than the drag and this causes the rotor to spin. The rotor connects to the generator, either directly (if it’s a direct drive turbine) or through a shaft and a series of gears (a gearbox) that speed up the rotation and allow for a physically smaller generator. This translation of aerodynamic force to rotation of a generator creates electricity."
-    },
-    {
-     "heading": "Types of Wind Turbines",
-     "body": "Most wind turbines fall into two basic types."
+     "body": "Wind is a form of solar energy caused by a combination of three concurrent events:\n\n- The sun unevenly heating the atmosphere\n- Irregularities of the earth's surface\n- The rotation of the earth.\n\nWind flow patterns and speeds vary greatly across the United States and are modified by bodies of water, vegetation, and differences in terrain. Humans use this wind flow, or motion energy, for many purposes: sailing, flying a kite, and even generating electricity.\n\nThe terms \"wind energy\" and \"wind power\" both describe the process by which the wind is used to generate mechanical power or electricity. This mechanical power can be used for specific tasks (such as grinding grain or pumping water) or a generator can convert this mechanical power into electricity.\n\nA wind turbine turns wind energy into electricity using the aerodynamic force from the rotor blades, which work like an airplane wing or helicopter rotor blade. When wind flows across the blade, the air pressure on one side of the blade decreases. The difference in air pressure across the two sides of the blade creates both lift and drag. The force of the lift is stronger than the drag and this causes the rotor to spin. The rotor connects to the generator, either directly (if it’s a direct drive turbine) or through a shaft and a series of gears (a gearbox) that speed up the rotation and allow for a physically smaller generator. This translation of aerodynamic force to rotation of a generator creates electricity.\n\n**Types of Wind Turbines**\n\nMost wind turbines fall into two basic types."
     },
     {
      "heading": "Horizontal-Axis Turbines",
@@ -437,7 +448,8 @@
      "body": "When wind turbines of any size are installed on the \"customer\" side of the electric meter or are installed at or near the place where the energy they produce will be used, they're called distributed wind.\n\nMany turbines used in distributed applications are small wind turbines. Single small wind turbines—below 100 kilowatts—are typically used for residential, agricultural, and small commercial and industrial applications.\n\nSmall turbines can be used in hybrid energy systems with other distributed energy resources, such as microgrids powered by diesel generators, batteries, and photovoltaics."
     }
    ],
-   "sourceUrl": "https://www.energy.gov/cmei/systems/how-do-wind-turbines-work"
+   "sourceUrl": "https://www.energy.gov/cmei/systems/how-do-wind-turbines-work",
+   "aliases": "how do wind turbines work, wind power basics, home wind turbine, small wind turbine, wind generator, types of wind turbines, vertical wind turbine, off grid wind power, wind energy explained, windmill electricity, how wind makes electricity, distributed wind, wind turbine for homestead, offshore wind"
   },
   {
    "title": "How Hydropower Works (DOE)",
@@ -451,7 +463,8 @@
      "body": "Because hydropower uses water to generate electricity, plants are usually located on or near a water source. The energy available from the moving water depends on both the volume of the water flow and the change in elevation—also known as the head—from one point to another. The greater the flow and the higher the head, the more the electricity that can be generated.\n\nAt the plant level, water flows through a pipe—also known as a penstock—and then spins the blades in a turbine, which, in turn, spins a generator that ultimately produces electricity. Most conventional hydroelectric facilities operate this way, including run-of-the-river systems and pumped storage systems."
     }
    ],
-   "sourceUrl": "https://www.energy.gov/cmei/water/how-hydropower-works"
+   "sourceUrl": "https://www.energy.gov/cmei/water/how-hydropower-works",
+   "aliases": "how does hydropower work, make electricity from water, water wheel electricity, micro hydro, stream power generator, hydroelectric basics, turbine from creek, dam electricity how, water turbine generator, generate power from river, hydropower explained, small scale hydro, pelton wheel, water flow to electricity, power from a waterfall, hydro generator for cabin"
   },
   {
    "title": "Types and Sizes of Hydropower Plants, Including Micro Hydropower (DOE)",
@@ -477,7 +490,8 @@
      "body": "Hydropower facilities range in size from large power plants, which supply many consumers with electricity, to small and even ‘micro’ plants, which are operated by individuals for their own energy needs or to sell power to utilities.\n\nLarge Hydropower\n\nAlthough definitions vary, DOE defines large hydropower plants as facilities that have a capacity of more than 30 megawatts (MW).\n\nSmall Hydropower\n\nAlthough definitions vary, DOE defines small hydropower plants as projects that generate between 100 kilowatts and 10 MW.\n\nMicro Hydropower\n\nA micro hydropower plant has a capacity of up to 100 kilowatts. A small or micro hydroelectric power system can produce enough electricity for a single home, farm, ranch, or village."
     }
    ],
-   "sourceUrl": "https://www.energy.gov/cmei/water/types-hydropower-plants"
+   "sourceUrl": "https://www.energy.gov/cmei/water/types-hydropower-plants",
+   "aliases": "hydropower, micro hydro, small hydro power, make electricity from a stream, water wheel electricity, creek power generation, hydro power at home, run of river hydro, types of hydropower, dam power, pumped storage, hydroelectric sizes, pico hydro, off grid hydro, generating power from water"
   }
  ]
 }

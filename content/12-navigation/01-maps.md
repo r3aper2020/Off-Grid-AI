@@ -1,5 +1,6 @@
 # Maps: Care, Types and Use (FM 3-25.26 Ch. 2)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: how to read a map, topographic map basics, map scale explained, types of maps, taking care of a map, folding a map, waterproof map, military map, aerial photo as map, map accuracy, where to get maps, what is a topo map, map grid, reading a topo map, map legend, map substitutes, protect map from rain, what map to use hiking, map categories, old map still accurate
 
 ## CHAPTER 2 MAPS
 Cartography is the art and science of expressing the known physical features of the earth graphically by maps and charts. No one knows who drew, molded, laced together, or scratched out in the dirt the first map. But a study of history reveals that the most pressing demands for accuracy and detail in mapping have come as the result of military needs. Today, the complexities of tactical operations and deployment of troops are such that it is essential for all soldiers to be able to read and interpret their maps in order to move quickly and effectively on the battlefield. This chapter includes the definition and purpose of a map and describes map security, types, categories, and scales.

@@ -1,5 +1,6 @@
 # Canning Poultry, Red Meats and Seafoods (USDA Complete Guide, Guide 5)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf
+Aliases: canning meat, canning chicken, canning rabbit, canning ground beef, canning venison, canning broth, canning stock, canning chili, canning fish, canning tuna, canning clams, canning crab, canning oysters, canning smoked fish, pressure canning meat, how long to can meat, canning deer meat, meat in jars, raw pack meat, hot pack meat
 
 ## CHICKEN OR RABBIT
 Procedure: Choose freshly killed and dressed, healthy animals. Large chickens are more flavorful than fryers. Dressed chicken should be chilled for 6 to 12 hours before canning. Dressed rabbits should be soaked 1 hour in water containing 1 tablespoon of salt per quart, and then rinsed. Remove excess fat. Cut the chicken or rabbit into suitable sizes for canning. Can with or without bones. The hot pack is preferred for best liquid cover and quality during storage. Natural poultry fat and juices are usually not enough to cover the meat in raw packs.

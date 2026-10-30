@@ -1,5 +1,6 @@
 # Disaster Medical Operations Part 1: Life-Threatening Conditions (CERT Basic Training, Unit 3)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: disaster first aid, controlling bleeding, stop bleeding, tourniquet, opening the airway, recovery position, head tilt chin lift, shock treatment, treating burns, wound care, cleaning a wound, amputation first aid, impaled object dont remove, splinting, how to splint, broken bone, sprain or fracture, dislocation, hypothermia first aid, heat stroke, heat exhaustion, insect bites, approaching a patient, CERT medical, treating injuries after disaster
 
 ## SECTION 1: UNIT 3 OVERVIEW
 Understanding the medical operations environment in a disaster is crucial to CERT’s success in assisting emergency responders. Units 3 and 4, Disaster Medical Operations Part I and II, teach life-saving steps CERT volunteers can take immediately following trauma. It also provides an overview of how emergency responders apply and organize disaster medical care in the event of a large-scale disaster. CERT volunteer’s assistance with disaster medical operations can play a vital role in limiting deaths from trauma.

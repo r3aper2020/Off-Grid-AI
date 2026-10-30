@@ -1,5 +1,6 @@
 # Carbon Monoxide Safety (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/
+Aliases: carbon monoxide poisoning signs, generator inside house, co alarm going off, headache from generator, carbon monoxide detector, running car in garage, grill inside carbon monoxide, co poisoning symptoms, silent killer gas, propane heater indoors, where to put generator, carbon monoxide power outage, feeling dizzy nauseous furnace, charcoal indoors danger, co detector beeping, generator how far from house, gas stove to heat house
 
 ## Overview
 Carbon monoxide, also known as CO, is called the “invisible killer” because it's a colorless, odorless, poisonous gas. It is undetectable to the human senses, so people may not know that they are being exposed.

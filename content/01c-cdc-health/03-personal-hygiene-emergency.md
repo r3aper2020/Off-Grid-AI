@@ -1,5 +1,6 @@
 # Guidelines for Personal Hygiene During an Emergency
 Source: https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html
+Aliases: washing hands no running water, staying clean during disaster, hand sanitizer vs soap, bathing in flood water, brushing teeth with unsafe water, keeping wounds clean, changing diapers safely, hygiene when water is out, no shower for days, staying clean without water, dirty water bathing, wound and flood water, hand washing steps, personal hygiene disaster
 
 ## AT A GLANCE
 - Good personal hygiene and handwashing are critical to help prevent the spread of disease.

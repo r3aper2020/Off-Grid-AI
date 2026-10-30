@@ -1,5 +1,6 @@
 # Forge Work: Blacksmithing Tools, Forging, Welding and Tempering (W. L. Ilgen, 1912)
 Source: https://www.gutenberg.org/ebooks/53854
+Aliases: blacksmithing basics, how to forge metal, build a forge, blacksmith tools, anvil basics, blacksmith hammer, tongs for forging, forge welding, tempering steel, hardening steel, heat treating, making knives, forging a knife, blacksmith fuel coal, forging iron, how to use an anvil, make tools from scrap metal, old blacksmith techniques, metalworking without electricity, making a chisel, drawing out metal, annealing metal, blacksmith vise
 
 ## Chapter I: Tools And Appliances: 1. The Forge
 The forge is an open hearth or fireplace used by the blacksmith for heating his metals. The kind most commonly used by the general smiths is such as can be seen in small villages or where the ordinary class of blacksmithing is done. (See Fig. 1.)

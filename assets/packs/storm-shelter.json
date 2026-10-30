@@ -4,7 +4,7 @@
  "id": "storm-shelter",
  "title": "Tornado Shelter",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "NOAA (Storm Prediction Center and National Weather Service)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Where to take shelter from a tornado in a house with or without a basement, apartment, mobile home, office, school, store, church, car or the open outdoors; planning a safe room; tornado watches, warnings and emergencies; after the tornado.",
@@ -52,11 +52,7 @@
     },
     {
      "heading": "In the open outdoors",
-     "body": "In the open outdoors: If possible, seek shelter in a sturdy building. If not, lie flat and face-down on low ground, protecting the back of your head with your arms. Get as far away from trees and cars as you can; they may be blown onto you in a tornado."
-    },
-    {
-     "heading": "In a shopping mall or large store",
-     "body": "In a shopping mall or large store: Do not panic. Watch for others. Move as quickly as possible to an interior bathroom, storage room or other small enclosed area, away from windows."
+     "body": "In the open outdoors: If possible, seek shelter in a sturdy building. If not, lie flat and face-down on low ground, protecting the back of your head with your arms. Get as far away from trees and cars as you can; they may be blown onto you in a tornado.\n\n**In a shopping mall or large store**\n\nIn a shopping mall or large store: Do not panic. Watch for others. Move as quickly as possible to an interior bathroom, storage room or other small enclosed area, away from windows."
     },
     {
      "heading": "In a church or theater",
@@ -67,7 +63,8 @@
      "body": "Keep your family together and wait for emergency personnel to arrive. Carefully render aid to those who are injured. Stay away from power lines and puddles with wires in them; they may still be carrying electricity! Watch your step to avoid broken glass, nails, and other sharp objects. Stay out of any heavily damaged houses or buildings; they could collapse at any time. Do not use matches or lighters, in case of leaking natural gas pipes or fuel tanks nearby. Remain calm and alert, and listen for information and instructions from emergency crews or local officials."
     }
    ],
-   "sourceUrl": "https://www.spc.noaa.gov/faq/tornado/safety.html"
+   "sourceUrl": "https://www.spc.noaa.gov/faq/tornado/safety.html",
+   "aliases": "where to hide in tornado, tornado no basement, tornado in apartment, tornado in mobile home, tornado in car, tornado outside, tornado at school, tornado in a store, tornado in office building, safe room, tornado signs, tornado warning what to do, under overpass tornado, after tornado, tornado shelter, interior room tornado, tornado drill, bathtub tornado, downed lines after tornado"
   },
   {
    "title": "Prepare for a Tornado: Plans and Safe Rooms (NWS)",
@@ -77,7 +74,8 @@
      "body": "The links below will help you find out what you can do now to prepare for a tornado. Preparation is key to staying safe and minimizing impacts.\n\n- Be Weather-Ready: Check the forecast regularly to see if you're at risk for tornadoes. Listen to local news or a NOAA Weather Radio to stay informed about tornado watches and warnings. Check the Weather-Ready Nation for tips.\n- Sign Up for Notifications: Know how your community sends warnings. Some communities have outdoor sirens. Others depend on media and smart phones to alert residents of severe storms capable of producing tornadoes.\n- Create a Communications Plan: Have a family plan that includes an emergency meeting place and related information. If you live in a mobile home or home without a basement, identify a nearby safe building you can get too quickly, such as a church or family member.\n- Pick a safe room in your home, such as a basement, storm cellar, or an interior room on the lowest floor with no windows. Check more ideas for your family plan at: https://www.ready.gov/make-a-plan\n- Practice Your Plan: Conduct a family severe thunderstorm drill regularly so everyone knows what to do if a tornado is approaching. Make sure all members of your family know to go there when tornado warnings are issued. Don't forget pets if time allows.\n- Prepare Your Home: Consider having your safe room reinforced. You can find plans for reinforcing an interior room to provide better protection on the Federal Emergency Management Agency website.\n- Help Your Neighbor: Encourage your loved ones to prepare for the possibility of tornadoes. Take CPR training so you can help if someone is hurt."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/tornado-prepare"
+   "sourceUrl": "https://www.weather.gov/safety/tornado-prepare",
+   "aliases": "tornado plan, safe room, where to go in a tornado, tornado shelter at home, tornado watch vs warning, prepare for tornado, tornado drill, storm shelter, safest room in house tornado, tornado plan for family, mobile home tornado, tornado season prep, build a safe room, tornado emergency kit"
   },
   {
    "title": "Tornado Watch, Warning and Emergency: What to Do (NWS)",
@@ -87,7 +85,8 @@
      "body": "What is the difference between a Tornado Watch, a Tornado Warning and a Tornado Emergency? The National Weather Service has three key alerts to watch out for.\n\n- Tornado Watch: Be Prepared! Tornadoes are possible in and near the watch area. Review and discuss your emergency plans, take inventory of your supplies and check your safe room. Be ready to act quickly if a warning is issued or you suspect a tornado is approaching. Acting early helps to save lives! Watches are issued by the Storm Prediction Center for counties where tornadoes may occur. The watch area is typically large, covering numerous counties or even states.\n- Tornado Warning: Take Action! A tornado has been sighted or indicated by weather radar. There is imminent danger to life and property. Move to an interior room on the lowest floor of a sturdy building. Avoid windows. If in a mobile home, a vehicle, or outdoors, move to the closest substantial shelter and protect yourself from flying debris. Warnings are issued by your local forecast office. Warnings typically encompass a much smaller area (around the size of a city or small county) that may be impacted by a tornado identified by a forecaster on radar or by a trained spotter/law enforcement who is watching the storm.\n- Tornado Emergency: Seek Shelter Immediately! A tornado emergency is the National Weather Service’s highest alert level. It is issued when a violent tornado has touched down in the watch area. There is a severe threat to human life and property, with catastrophic damage confirmed. Immediately seek refuge in the safest location possible. Call friends and family who are within the watch area to ensure they are aware of the situation. If you see a tornado approaching, do not attempt to outrun it in a vehicle; shelter in place. Once safe, be sure to monitor your local forecast for the latest updates."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/tornado-ww"
+   "sourceUrl": "https://www.weather.gov/safety/tornado-ww",
+   "aliases": "tornado watch vs warning, tornado warning what to do, tornado emergency, tornado coming where to go, tornado siren, where to hide tornado, tornado safe room, tornado in mobile home, tornado in car, difference between watch and warning, tornado alert on phone, basement tornado, tornado shelter, tornado no basement, tornado warning meaning"
   }
  ]
 }

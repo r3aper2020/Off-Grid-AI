@@ -1,5 +1,6 @@
 # EPIRBs, VHF Radio and MAYDAY Calls (USCG Boater's Guide)
 Source: https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf
+Aliases: how to call mayday, mayday call on boat, VHF radio distress call, channel 16, channel 9 boater calling, EPIRB, emergency beacon boat, PLB personal locator beacon, satellite rescue beacon, how SARSAT works, DSC distress button, VHF radio rules boat, need a license for marine radio, boat radio emergency, calling the coast guard, boat sinking who to call, marine search and rescue, pan pan call, distress call script, lost at sea rescue
 
 ## SARSAT - How the System Works
 **Emergency Alert/Communications**

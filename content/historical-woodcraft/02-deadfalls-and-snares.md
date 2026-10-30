@@ -1,5 +1,6 @@
 # Deadfalls and Snares (A. R. Harding, 1907)
 Source: https://www.gutenberg.org/ebooks/34110
+Aliases: deadfall trap, how to build a deadfall, figure 4 trigger, snare, how to make a snare, spring pole snare, trail set snare, bait set snare, trapping small game, trapping for food, box trap, coop trap, pit trap, trap triggers, where to set traps, when to trap, bait for traps, bear trap, marten trap, steel traps, skinning and stretching pelts, fur handling, catching animals without a gun, primitive traps, trapping basics
 
 ## INTRODUCTION.
 Scattered from the Arctic Ocean to the Gulf of Mexico and from the Atlantic to the Pacific Ocean are thousands of trappers who use deadfalls, snares and other home-made traps, but within this vast territory there are many thousand who know little or nothing of them.

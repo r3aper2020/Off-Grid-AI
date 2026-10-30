@@ -1,5 +1,6 @@
 # Hurricanes
 Source: https://www.ready.gov/hurricanes
+Aliases: hurricane coming what to do, hurricane preparation, hurricane evacuation, boarding up windows, hurricane watch vs warning, storm surge, after a hurricane, hurricane supplies, typhoon preparation, should I evacuate hurricane, riding out a hurricane, during a hurricane, flooding from hurricane, returning home after hurricane, hurricane season prep, hurricane safety
 
 ## Overview
 If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov, or call the FEMA Helpline at 1-800-621-3362.

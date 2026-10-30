@@ -1,5 +1,6 @@
 # How Hydropower Works (DOE)
 Source: https://www.energy.gov/cmei/water/how-hydropower-works
+Aliases: how does hydropower work, make electricity from water, water wheel electricity, micro hydro, stream power generator, hydroelectric basics, turbine from creek, dam electricity how, water turbine generator, generate power from river, hydropower explained, small scale hydro, pelton wheel, water flow to electricity, power from a waterfall, hydro generator for cabin
 
 ## How Do We Get Energy From Water?
 Hydropower, or hydroelectric power, is a renewable source of energy that generates power by using a dam or diversion structure to alter the natural flow of a river or other body of water. Hydropower relies on the endless, constantly recharging system of the water cycle to produce electricity, using a fuel—water—that is not reduced or eliminated in the process. There are many types of hydropower facilities, though they are all powered by the kinetic energy of flowing water as it moves downstream. Hydropower utilizes turbines and generators to convert that kinetic energy into electricity, which is then fed into the electrical grid to power homes, businesses, and industries.

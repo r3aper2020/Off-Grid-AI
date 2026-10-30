@@ -1,5 +1,6 @@
 # Direction and Azimuths (FM 3-25.26 Ch. 6)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: azimuth meaning, how to read a compass, compass bearing, magnetic declination, true north vs magnetic north, protractor on a map, find my location on a map, resection method, intersection method, back azimuth, finding where I am with compass, compass and map basics, grid north, taking a bearing, map direction, polar coordinates, compass directions, declination diagram
 
 ## CHAPTER 6 DIRECTION
 Being in the right place at the prescribed time is necessary to successfully accomplish military missions. Direction plays an important role in a soldier's everyday life. It can be expressed as right, left, straight ahead, and so forth; but then the question arises, "To the right of what?" This chapter defines the word azimuth and the three different norths. It explains in detail how to determine the grid and the magnetic azimuths with the use of the protractor and the compass. It explains the use of some field-expedient methods to find directions, the declination diagram, and the conversion of azimuths from grid to magnetic and vice versa. It also includes some advanced aspects of map reading, such as intersection, resection, modified resection, and polar plots.

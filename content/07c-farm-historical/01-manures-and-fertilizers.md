@@ -1,5 +1,6 @@
 # Manures and Fertilizers (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: fertilizer for vegetable garden, manure for garden, how to use manure, composted manure, green manure, chemical fertilizers, mixing your own fertilizer, organic fertilizer, how much fertilizer to use, when to apply manure, nitrogen phosphorus potash, feeding garden soil, improving garden soil, bone meal, wood ashes in garden, fertilizing vegetables, garden fertilizer basics, manure types
 
 ## Manures And Fertilizers
 To a very small extent garden vegetables get their food from the air. The amount obtained in this way however, is so infinitesimal that from the practical standpoint it need not be considered at all. Practically speaking, your vegetables must get all their food from the garden soil.

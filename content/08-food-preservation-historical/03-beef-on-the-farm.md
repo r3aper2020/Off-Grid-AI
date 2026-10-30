@@ -1,5 +1,6 @@
 # Beef on the Farm: Slaughtering and Cutting (USDA Farmers' Bulletin 1415, 1924)
 Source: https://archive.org/download/CAT87203466/farmbul1415.pdf
+Aliases: how to butcher a cow, slaughtering cattle at home, skinning a cow, gutting a beef, beef cuts, cutting up a beef carcass, home butchering beef, hanging beef, cooling a carcass without fridge, choosing a cow to butcher, steer slaughter, beef quarters, curing beef, farm butchering, killing a cow humanely, butchering equipment
 
 ## Overview
 O LAUGHTERING BEEF on the farm or ranch is ^ the only means of obtaining fresh beef in many localities.

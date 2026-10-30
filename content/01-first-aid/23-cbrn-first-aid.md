@@ -1,5 +1,6 @@
 # First Aid in Chemical, Biological and Radiological Incidents (ATP 4-02.11 Ch. 19)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: nerve agent exposure, chemical attack first aid, chemical weapon symptoms, atropine injector, nerve agent antidote, mustard gas blister agent, blister agent on skin, choking agent chlorine, cyanide poisoning, decontaminate skin from chemical, radiation exposure first aid, radiation sickness, biological attack what to do, anthrax exposure, contaminated clothing remove, first aid in a gas mask, chemical exposure eyes burning, pinpoint pupils drooling twitching, treating casualties after chemical attack, dirty bomb first aid
 
 ## First Aid in a Chemical, Biological, Radiological, and Nuclear Environment
 **Chapter 19**

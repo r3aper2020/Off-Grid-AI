@@ -1,5 +1,6 @@
 # Shellfish Toxins (PSP, DSP, NSP, ASP, AZP) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: shellfish poisoning, red tide, is it safe to eat clams, mussels made me sick, paralytic shellfish poisoning, oyster toxins, numb lips after seafood, shellfish diarrhea, amnesic shellfish poisoning, foraged shellfish safe, algae bloom shellfish, harvesting shellfish safely, toxic mussels, shellfish toxin symptoms, cooking does not remove toxin, clam digging safety
 
 ## 1. Toxins
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

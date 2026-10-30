@@ -1,5 +1,6 @@
 # Explosions (Ready.gov)
 Source: https://www.ready.gov/explosions
+Aliases: explosion, bomb threat, what to do in an explosion, after an explosion, building collapse explosion, trapped under debris, suspicious package, bomb what to do, blast injury, get out after explosion, dust after explosion, explosion in building, terrorist attack explosion, leave the area explosion, signal for help trapped, explosion safety, gas explosion
 
 ## Overview
 Explosive devices can be carried in a vehicle or by a person, delivered in a package or concealed on the roadside. There are steps you can take to prepare.

@@ -1,5 +1,6 @@
 # Shark Awareness (National Park Service)
 Source: https://www.nps.gov/articles/sharkawareness.htm
+Aliases: shark safety, shark attack, avoid sharks, swimming where there are sharks, shark in the water what to do, when do sharks attack, sharks at the beach, shark awareness, surfing shark risk, sharks at dawn and dusk, shark bite, swimming in the ocean safely, shark encounter, murky water sharks
 
 ## Reducing the chance of a shark encounter
 While shark encounters are extremely rare, it is always a good idea to refresh yourself on the steps you can take to reduce that chance even further.

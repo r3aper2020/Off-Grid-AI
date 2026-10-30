@@ -1,5 +1,6 @@
 # Washing, Ironing, Soap and Lye Making (C. E. Beecher, Housekeeper and Healthkeeper, 1873)
 Source: https://www.gutenberg.org/ebooks/55734
+Aliases: how to make soap at home, lye soap, making lye from ashes, washing clothes by hand, laundry without machine, homemade starch, ironing without electricity, removing stains, getting grease out of clothes, ink stain removal, tar stain, whitening clothes, old fashioned laundry, homemade soap recipe, wood ash lye, washing clothes in emergency, making cleaning supplies, stain remover recipe
 
 ## Chapter XXII: Washing, Ironing, And Cleansing
 Many a woman without servants, or with those untrained, must do her own washing and ironing, or train others to do it, and this is the most trying department of housekeeping. The following may aid in lessening labor and care.

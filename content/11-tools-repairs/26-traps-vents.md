@@ -1,5 +1,6 @@
 # Traps and Vents (TM 3-34.70 Ch. 9)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: sewer smell in house, p trap, drain smells bad, why does my drain gurgle, plumbing vent, dry p trap, drain trap dried out, s trap vs p trap, vent pipe for plumbing, drain siphoning, trap seal, plumbing vent sizes, wet vent, toilet gurgles when sink drains, sewer gas, drum trap, how plumbing vents work, unused drain stinks
 
 ## Traps and Vents
 **Chapter 9**

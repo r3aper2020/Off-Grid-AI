@@ -1,5 +1,6 @@
 # The House Fly and How to Suppress It (USDA Farmers' Bulletin 1408, 1926)
 Source: https://www.gutenberg.org/ebooks/18050
+Aliases: house flies, get rid of flies, fly control, where do flies breed, fly traps, make a fly trap, fly screens, fly spray, flies in the house, flies and disease, manure and flies, flies in barn, stable fly control, maggots in manure, flies in winter, garbage flies, fly problem farm, keeping flies out, flies spreading germs, fly prevention, maggot trap
 
 ## Kinds Of Flies Found In Houses
 Several species of flies are found commonly in houses. Some of them so closely resemble the true house fly that it requires very careful observation to distinguish them from it.

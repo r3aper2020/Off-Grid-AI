@@ -1,5 +1,6 @@
 # Rat Proofing Buildings and Premises (USDA Farmers' Bulletin 1638, 1930)
 Source: https://www.gutenberg.org/ebooks/62608
+Aliases: keep rats out, rat proof house, rats in barn, rats in chicken coop, rat proof grain storage, rodent proofing, block rat entry, rats in walls, rats eating feed, mice and rats in garage, rat proof foundation, rat proof corncrib, rodent control barn, seal holes rats, rats in warehouse, rat control city, prevent rats, rats under floor, rat proof building materials, how small hole can rat fit
 
 ## Introduction
 THE PRINCIPLES of modern construction of buildings are opposed to everything conducive to the best interests of the rat. They call for the liberal use of indestructible and noncombustible materials, as well-made concrete and steel, and these are too much for even the sharpest of rodent incisors. They include, also, fire stopping in double walls and floors and the elimination of all dead spaces and dark corners, and the rat is left no place in which to hide. They embody sanitary features that provide for hygienic storage of food, and the rat can not live without something to eat.

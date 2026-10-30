@@ -1,5 +1,6 @@
 # Drought (Ready.gov)
 Source: https://www.ready.gov/drought
+Aliases: drought what to do, save water during drought, water conservation tips, drought preparation, low water supply, water restrictions, save water at home, drought garden watering, water shortage, conserve water outdoors, reduce water use, drought conditions, dry spell well running low, water saving tips, drought lawn, fix leaks save water, shorter showers, rain barrel drought, drought and wildfire risk
 
 ## Overview
 

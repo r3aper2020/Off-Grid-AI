@@ -1,5 +1,6 @@
 # Nuclear Weapon Dangers: Myths and Facts (NWSS Ch. 1)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: nuclear war survival, nuclear attack myths, can you survive a nuclear bomb, fallout how long, radiation after nuclear bomb, nuclear winter, blast damage, fallout dangers, nuclear facts, how deadly is fallout, surviving nuclear war, nuclear bomb what to expect, radiation decay time, nuclear fear, fallout exposure, nuclear weapon effects
 
 ## The Dangers from Nuclear Weapons: Myths and Facts
 **Chapter 1**

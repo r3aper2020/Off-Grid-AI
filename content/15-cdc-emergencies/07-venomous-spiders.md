@@ -1,5 +1,6 @@
 # Venomous Spiders at Work
 Source: https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html
+Aliases: black widow bite, brown recluse bite, spider bite what to do, poisonous spider, spider bite symptoms, bite with red ring, spider bite first aid, how to identify black widow, brown recluse look like, spider bite treatment, avoid spider bites, spider bite swelling, spider bite emergency, venomous spiders, spider in woodpile, spider bite getting worse, hourglass spider, fiddleback spider
 
 ## Key points
 - Outdoor workers may encounter venomous spiders.

@@ -1,5 +1,6 @@
 # Vehicle Recovery (TC 21-305-20 Ch. 17)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc21_305_20.pdf
+Aliases: car stuck in mud, stuck in snow, stuck in sand, winching a vehicle, towing a car, tow strap, how to use a winch, pulling a car out, truck stuck, snatch block, anchor for winch, get unstuck, no jack what to do, lift a wheel without jack, improvised tire chains, pushing a car out, A frame recovery, recovery safety, towing rules, winch cable broke, stuck off road
 
 ## Vehicle Recovery
 **Chapter 17**

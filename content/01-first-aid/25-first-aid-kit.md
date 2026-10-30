@@ -1,5 +1,6 @@
 # First Aid Kit Contents (ATP 4-02.11 App. A)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: first aid kit contents, what goes in a first aid kit, medical kit checklist, army first aid kit list, supplies for a trauma kit, tourniquet bandage list, first aid kit packing list, what medical supplies to stock, build a medical kit, IFAK contents, trauma kit list, combat first aid kit
 
 ## First Aid Case and Kits, Authorized Medical Allowance List: JOINT FIRST AID KIT
 **First Aid Case and Kits, Authorized Medical Allowance List**

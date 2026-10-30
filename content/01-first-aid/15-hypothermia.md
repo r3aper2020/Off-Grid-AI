@@ -1,5 +1,6 @@
 # Preventing Hypothermia in the Injured (ATP 4-02.11 Ch. 8)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: hypothermia, injured person getting cold, keep injured person warm, hypothermia after injury or blood loss, hypothermia signs shivering confusion, stop shivering is bad, how to warm someone up, rewarming hypothermia, hypothermia wrap, space blanket emergency blanket, insulating from the ground, wet clothes and cold, cold casualty, preventing hypothermia, hypothermia first aid, body temperature dropping
 
 ## Hypothermia Control: OVERVIEW OF HYPOTHERMIA CONTROL
 **Chapter 8**

@@ -1,5 +1,6 @@
 # Using Interoperability Channels: Rules, Licensing and Conventions (CISA NIFOG v2.02)
 Source: https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf
+Aliases: interoperability channels, emergency radio channels, transmit in emergency without license, radio rules in emergency, public safety radio frequencies, which frequencies can I use, FCC rules emergency communication, programming emergency channels, NIFOG, national interop channels, calling channels, radio interference what to do, search and rescue frequencies, ship distress frequencies, federal interoperability channels, plain language radio, radio etiquette emergencies, mutual aid channels, who can use interop channels, radio license questions
 
 ## What is the National Interoperability Field Operations Guide?
 **HOW TO USE THE NATIONAL INTEROPERABILITY FIELD OPERATIONS GUIDE**

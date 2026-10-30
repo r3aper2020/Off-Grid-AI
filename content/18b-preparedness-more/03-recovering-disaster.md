@@ -1,5 +1,6 @@
 # Recovering from Disaster (Ready.gov)
 Source: https://www.ready.gov/recovering-disaster
+Aliases: after a disaster what to do, insurance claim after disaster, fema assistance, lost documents replace, replace birth certificate, replace social security card, disaster relief money, going home after disaster, document damage for insurance, stress after disaster, disaster recovery steps, uninsured damage help, returning home safely, replace drivers license, disaster assistance apply, house damaged what now, take pictures of damage, lost everything in fire
 
 ## Overview
 

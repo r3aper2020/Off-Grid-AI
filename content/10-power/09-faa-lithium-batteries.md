@@ -1,5 +1,6 @@
 # Lithium Batteries: Thermal Runaway, Spares and Terminal Protection (FAA PackSafe)
 Source: https://www.faa.gov/hazmat/packsafe/lithium-batteries
+Aliases: lithium battery on airplane, spare batteries carry on, battery caught fire, power bank on plane, thermal runaway, battery terminals tape, lithium battery swelling, packing batteries for travel, can I fly with lithium batteries, battery fire danger, protect battery terminals, loose batteries in bag, lithium battery rules flying, overheating battery, batteries in checked bag, battery short circuit
 
 ## Overview
 Power Banks, cell phone battery charging cases, rechargeable and non-rechargeable lithium batteries, cell phone batteries, laptop batteries, external batteries, portable rechargers

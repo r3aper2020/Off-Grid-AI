@@ -17,6 +17,10 @@ class NoModelEngine implements InferenceEngine {
       Stream.value(const GenerationFailed(reason));
 
   @override
+  Future<String?> complete(List<ChatTurn> turns, {int maxTokens = 64}) async =>
+      null;
+
+  @override
   Future<void> release() async {}
 
   @override

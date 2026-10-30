@@ -1,5 +1,6 @@
 # Aflatoxins (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: moldy peanuts, moldy grain safe to eat, moldy corn, aflatoxin poisoning, mold on nuts, moldy food poisoning, liver damage from mold, moldy rice, stored grain mold, mold toxins, is moldy bread safe, moldy stored food, peanut mold, moldy animal feed, mycotoxin in food
 
 ## 1. Toxin
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

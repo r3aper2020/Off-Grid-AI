@@ -1562,6 +1562,44 @@ class $PackDocumentsTable extends PackDocuments
     type: DriftSqlType.int,
     requiredDuringInsert: true,
   );
+  static const VerificationMeta _aliasesMeta = const VerificationMeta(
+    'aliases',
+  );
+  @override
+  late final GeneratedColumn<String> aliases = GeneratedColumn<String>(
+    'aliases',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _libraryOnlyMeta = const VerificationMeta(
+    'libraryOnly',
+  );
+  @override
+  late final GeneratedColumn<bool> libraryOnly = GeneratedColumn<bool>(
+    'library_only',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("library_only" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _embeddingMeta = const VerificationMeta(
+    'embedding',
+  );
+  @override
+  late final GeneratedColumn<Uint8List> embedding = GeneratedColumn<Uint8List>(
+    'embedding',
+    aliasedName,
+    true,
+    type: DriftSqlType.blob,
+    requiredDuringInsert: false,
+  );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -1569,6 +1607,9 @@ class $PackDocumentsTable extends PackDocuments
     title,
     sourceUrl,
     position,
+    aliases,
+    libraryOnly,
+    embedding,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -1615,6 +1656,27 @@ class $PackDocumentsTable extends PackDocuments
     } else if (isInserting) {
       context.missing(_positionMeta);
     }
+    if (data.containsKey('aliases')) {
+      context.handle(
+        _aliasesMeta,
+        aliases.isAcceptableOrUnknown(data['aliases']!, _aliasesMeta),
+      );
+    }
+    if (data.containsKey('library_only')) {
+      context.handle(
+        _libraryOnlyMeta,
+        libraryOnly.isAcceptableOrUnknown(
+          data['library_only']!,
+          _libraryOnlyMeta,
+        ),
+      );
+    }
+    if (data.containsKey('embedding')) {
+      context.handle(
+        _embeddingMeta,
+        embedding.isAcceptableOrUnknown(data['embedding']!, _embeddingMeta),
+      );
+    }
     return context;
   }
 
@@ -1644,6 +1706,18 @@ class $PackDocumentsTable extends PackDocuments
         DriftSqlType.int,
         data['${effectivePrefix}position'],
       )!,
+      aliases: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}aliases'],
+      )!,
+      libraryOnly: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}library_only'],
+      )!,
+      embedding: attachedDatabase.typeMapping.read(
+        DriftSqlType.blob,
+        data['${effectivePrefix}embedding'],
+      ),
     );
   }
 
@@ -1659,12 +1733,27 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
   final String title;
   final String? sourceUrl;
   final int position;
+
+  /// Retrieval-only plain-language phrasings (see `DocumentData.aliases`);
+  /// indexed with the title in `passages_fts`.
+  final String aliases;
+
+  /// Excluded from AI answers (regulation text, reference tables); still
+  /// readable and searchable in the Library.
+  final bool libraryOnly;
+
+  /// Meaning vector of the title and aliases (int8, see `PassageVectors`),
+  /// so a question can match a document as a whole.
+  final Uint8List? embedding;
   const PackDocument({
     required this.id,
     required this.packId,
     required this.title,
     this.sourceUrl,
     required this.position,
+    required this.aliases,
+    required this.libraryOnly,
+    this.embedding,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -1676,6 +1765,11 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
       map['source_url'] = Variable<String>(sourceUrl);
     }
     map['position'] = Variable<int>(position);
+    map['aliases'] = Variable<String>(aliases);
+    map['library_only'] = Variable<bool>(libraryOnly);
+    if (!nullToAbsent || embedding != null) {
+      map['embedding'] = Variable<Uint8List>(embedding);
+    }
     return map;
   }
 
@@ -1688,6 +1782,11 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
           ? const Value.absent()
           : Value(sourceUrl),
       position: Value(position),
+      aliases: Value(aliases),
+      libraryOnly: Value(libraryOnly),
+      embedding: embedding == null && nullToAbsent
+          ? const Value.absent()
+          : Value(embedding),
     );
   }
 
@@ -1702,6 +1801,9 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
       title: serializer.fromJson<String>(json['title']),
       sourceUrl: serializer.fromJson<String?>(json['sourceUrl']),
       position: serializer.fromJson<int>(json['position']),
+      aliases: serializer.fromJson<String>(json['aliases']),
+      libraryOnly: serializer.fromJson<bool>(json['libraryOnly']),
+      embedding: serializer.fromJson<Uint8List?>(json['embedding']),
     );
   }
   @override
@@ -1713,6 +1815,9 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
       'title': serializer.toJson<String>(title),
       'sourceUrl': serializer.toJson<String?>(sourceUrl),
       'position': serializer.toJson<int>(position),
+      'aliases': serializer.toJson<String>(aliases),
+      'libraryOnly': serializer.toJson<bool>(libraryOnly),
+      'embedding': serializer.toJson<Uint8List?>(embedding),
     };
   }
 
@@ -1722,12 +1827,18 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
     String? title,
     Value<String?> sourceUrl = const Value.absent(),
     int? position,
+    String? aliases,
+    bool? libraryOnly,
+    Value<Uint8List?> embedding = const Value.absent(),
   }) => PackDocument(
     id: id ?? this.id,
     packId: packId ?? this.packId,
     title: title ?? this.title,
     sourceUrl: sourceUrl.present ? sourceUrl.value : this.sourceUrl,
     position: position ?? this.position,
+    aliases: aliases ?? this.aliases,
+    libraryOnly: libraryOnly ?? this.libraryOnly,
+    embedding: embedding.present ? embedding.value : this.embedding,
   );
   PackDocument copyWithCompanion(PackDocumentsCompanion data) {
     return PackDocument(
@@ -1736,6 +1847,11 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
       title: data.title.present ? data.title.value : this.title,
       sourceUrl: data.sourceUrl.present ? data.sourceUrl.value : this.sourceUrl,
       position: data.position.present ? data.position.value : this.position,
+      aliases: data.aliases.present ? data.aliases.value : this.aliases,
+      libraryOnly: data.libraryOnly.present
+          ? data.libraryOnly.value
+          : this.libraryOnly,
+      embedding: data.embedding.present ? data.embedding.value : this.embedding,
     );
   }
 
@@ -1746,13 +1862,25 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
           ..write('packId: $packId, ')
           ..write('title: $title, ')
           ..write('sourceUrl: $sourceUrl, ')
-          ..write('position: $position')
+          ..write('position: $position, ')
+          ..write('aliases: $aliases, ')
+          ..write('libraryOnly: $libraryOnly, ')
+          ..write('embedding: $embedding')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode => Object.hash(id, packId, title, sourceUrl, position);
+  int get hashCode => Object.hash(
+    id,
+    packId,
+    title,
+    sourceUrl,
+    position,
+    aliases,
+    libraryOnly,
+    $driftBlobEquality.hash(embedding),
+  );
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -1761,7 +1889,10 @@ class PackDocument extends DataClass implements Insertable<PackDocument> {
           other.packId == this.packId &&
           other.title == this.title &&
           other.sourceUrl == this.sourceUrl &&
-          other.position == this.position);
+          other.position == this.position &&
+          other.aliases == this.aliases &&
+          other.libraryOnly == this.libraryOnly &&
+          $driftBlobEquality.equals(other.embedding, this.embedding));
 }
 
 class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
@@ -1770,12 +1901,18 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
   final Value<String> title;
   final Value<String?> sourceUrl;
   final Value<int> position;
+  final Value<String> aliases;
+  final Value<bool> libraryOnly;
+  final Value<Uint8List?> embedding;
   const PackDocumentsCompanion({
     this.id = const Value.absent(),
     this.packId = const Value.absent(),
     this.title = const Value.absent(),
     this.sourceUrl = const Value.absent(),
     this.position = const Value.absent(),
+    this.aliases = const Value.absent(),
+    this.libraryOnly = const Value.absent(),
+    this.embedding = const Value.absent(),
   });
   PackDocumentsCompanion.insert({
     this.id = const Value.absent(),
@@ -1783,6 +1920,9 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
     required String title,
     this.sourceUrl = const Value.absent(),
     required int position,
+    this.aliases = const Value.absent(),
+    this.libraryOnly = const Value.absent(),
+    this.embedding = const Value.absent(),
   }) : packId = Value(packId),
        title = Value(title),
        position = Value(position);
@@ -1792,6 +1932,9 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
     Expression<String>? title,
     Expression<String>? sourceUrl,
     Expression<int>? position,
+    Expression<String>? aliases,
+    Expression<bool>? libraryOnly,
+    Expression<Uint8List>? embedding,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -1799,6 +1942,9 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
       if (title != null) 'title': title,
       if (sourceUrl != null) 'source_url': sourceUrl,
       if (position != null) 'position': position,
+      if (aliases != null) 'aliases': aliases,
+      if (libraryOnly != null) 'library_only': libraryOnly,
+      if (embedding != null) 'embedding': embedding,
     });
   }
 
@@ -1808,6 +1954,9 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
     Value<String>? title,
     Value<String?>? sourceUrl,
     Value<int>? position,
+    Value<String>? aliases,
+    Value<bool>? libraryOnly,
+    Value<Uint8List?>? embedding,
   }) {
     return PackDocumentsCompanion(
       id: id ?? this.id,
@@ -1815,6 +1964,9 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
       title: title ?? this.title,
       sourceUrl: sourceUrl ?? this.sourceUrl,
       position: position ?? this.position,
+      aliases: aliases ?? this.aliases,
+      libraryOnly: libraryOnly ?? this.libraryOnly,
+      embedding: embedding ?? this.embedding,
     );
   }
 
@@ -1836,6 +1988,15 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
     if (position.present) {
       map['position'] = Variable<int>(position.value);
     }
+    if (aliases.present) {
+      map['aliases'] = Variable<String>(aliases.value);
+    }
+    if (libraryOnly.present) {
+      map['library_only'] = Variable<bool>(libraryOnly.value);
+    }
+    if (embedding.present) {
+      map['embedding'] = Variable<Uint8List>(embedding.value);
+    }
     return map;
   }
 
@@ -1846,7 +2007,10 @@ class PackDocumentsCompanion extends UpdateCompanion<PackDocument> {
           ..write('packId: $packId, ')
           ..write('title: $title, ')
           ..write('sourceUrl: $sourceUrl, ')
-          ..write('position: $position')
+          ..write('position: $position, ')
+          ..write('aliases: $aliases, ')
+          ..write('libraryOnly: $libraryOnly, ')
+          ..write('embedding: $embedding')
           ..write(')'))
         .toString();
   }
@@ -3871,6 +4035,9 @@ typedef $$PackDocumentsTableCreateCompanionBuilder =
       required String title,
       Value<String?> sourceUrl,
       required int position,
+      Value<String> aliases,
+      Value<bool> libraryOnly,
+      Value<Uint8List?> embedding,
     });
 typedef $$PackDocumentsTableUpdateCompanionBuilder =
     PackDocumentsCompanion Function({
@@ -3879,6 +4046,9 @@ typedef $$PackDocumentsTableUpdateCompanionBuilder =
       Value<String> title,
       Value<String?> sourceUrl,
       Value<int> position,
+      Value<String> aliases,
+      Value<bool> libraryOnly,
+      Value<Uint8List?> embedding,
     });
 
 final class $$PackDocumentsTableReferences
@@ -3953,6 +4123,21 @@ class $$PackDocumentsTableFilterComposer
 
   ColumnFilters<int> get position => $composableBuilder(
     column: $table.position,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get aliases => $composableBuilder(
+    column: $table.aliases,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get libraryOnly => $composableBuilder(
+    column: $table.libraryOnly,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<Uint8List> get embedding => $composableBuilder(
+    column: $table.embedding,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -4034,6 +4219,21 @@ class $$PackDocumentsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<String> get aliases => $composableBuilder(
+    column: $table.aliases,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get libraryOnly => $composableBuilder(
+    column: $table.libraryOnly,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<Uint8List> get embedding => $composableBuilder(
+    column: $table.embedding,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   $$KnowledgePacksTableOrderingComposer get packId {
     final $$KnowledgePacksTableOrderingComposer composer = $composerBuilder(
       composer: this,
@@ -4078,6 +4278,17 @@ class $$PackDocumentsTableAnnotationComposer
 
   GeneratedColumn<int> get position =>
       $composableBuilder(column: $table.position, builder: (column) => column);
+
+  GeneratedColumn<String> get aliases =>
+      $composableBuilder(column: $table.aliases, builder: (column) => column);
+
+  GeneratedColumn<bool> get libraryOnly => $composableBuilder(
+    column: $table.libraryOnly,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<Uint8List> get embedding =>
+      $composableBuilder(column: $table.embedding, builder: (column) => column);
 
   $$KnowledgePacksTableAnnotationComposer get packId {
     final $$KnowledgePacksTableAnnotationComposer composer = $composerBuilder(
@@ -4161,12 +4372,18 @@ class $$PackDocumentsTableTableManager
                 Value<String> title = const Value.absent(),
                 Value<String?> sourceUrl = const Value.absent(),
                 Value<int> position = const Value.absent(),
+                Value<String> aliases = const Value.absent(),
+                Value<bool> libraryOnly = const Value.absent(),
+                Value<Uint8List?> embedding = const Value.absent(),
               }) => PackDocumentsCompanion(
                 id: id,
                 packId: packId,
                 title: title,
                 sourceUrl: sourceUrl,
                 position: position,
+                aliases: aliases,
+                libraryOnly: libraryOnly,
+                embedding: embedding,
               ),
           createCompanionCallback:
               ({
@@ -4175,12 +4392,18 @@ class $$PackDocumentsTableTableManager
                 required String title,
                 Value<String?> sourceUrl = const Value.absent(),
                 required int position,
+                Value<String> aliases = const Value.absent(),
+                Value<bool> libraryOnly = const Value.absent(),
+                Value<Uint8List?> embedding = const Value.absent(),
               }) => PackDocumentsCompanion.insert(
                 id: id,
                 packId: packId,
                 title: title,
                 sourceUrl: sourceUrl,
                 position: position,
+                aliases: aliases,
+                libraryOnly: libraryOnly,
+                embedding: embedding,
               ),
           withReferenceMapper: (p0) => p0
               .map(

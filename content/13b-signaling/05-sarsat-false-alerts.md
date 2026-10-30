@@ -1,5 +1,6 @@
 # Preventing False Beacon Alerts (NOAA SARSAT)
 Source: https://www.sarsat.noaa.gov/preventing-false-alerts/
+Aliases: accidentally set off my beacon, PLB false alarm, EPIRB accidental activation, who to call beacon went off, register my beacon, 406 beacon, PLB registration, beacon test mode, getting rid of old beacon, dispose of EPIRB, beacon false alert, beacon going off by mistake, personal locator beacon rules, cancel false distress, beacon manual
 
 ## Who to Call:
 In the event of accidental 406 beacon activations, please call the U.S. Coast Guard if the beacon is an EPIRB, and U.S. Air Force if the beacon is an ELT or PLB.

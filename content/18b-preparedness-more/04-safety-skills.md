@@ -1,5 +1,6 @@
 # Safety Skills: Shutting Off Utilities, Fire Extinguishers, First Aid (Ready.gov)
 Source: https://www.ready.gov/safety-skills
+Aliases: how to shut off gas, turn off gas main, smell gas turn off, how to shut off water main, water shutoff valve, how to turn off electricity, main breaker, shut off utilities, how to use a fire extinguisher, PASS fire extinguisher, learn CPR, first aid training, utility shutoff after earthquake, gas meter wrench, shut off power flood, turning utilities back on, basic safety skills
 
 ## Learn First Aid and CPR
 Take a first aid and CPR class. You can get more information about training from your local American Red Cross chapter. Getting certified protects you under Good Samaritan laws if you have to give first aid.

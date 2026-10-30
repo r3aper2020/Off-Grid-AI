@@ -1,5 +1,6 @@
 # Prepare for a Tornado: Plans and Safe Rooms (NWS)
 Source: https://www.weather.gov/safety/tornado-prepare
+Aliases: tornado plan, safe room, where to go in a tornado, tornado shelter at home, tornado watch vs warning, prepare for tornado, tornado drill, storm shelter, safest room in house tornado, tornado plan for family, mobile home tornado, tornado season prep, build a safe room, tornado emergency kit
 
 ## Prepare for a tornado
 

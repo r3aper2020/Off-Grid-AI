@@ -1,5 +1,7 @@
 # Amateur Radio Service Rules (47 CFR Part 97, eCFR as of 2026-10-27)
 Source: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97
+Aliases: ham radio rules, amateur radio license, need a license for ham radio, ham radio without a license emergency, amateur radio regulations, ham license classes, technician general extra, ham radio station rules, station identification call sign, how often say call sign, ham radio prohibited, can I talk business on ham radio, ham radio power limits, repeater rules, ham radio bands, operating frequencies amateur, third party traffic, foreign ham operator, vanity call sign, ham radio emergency use, part 97, ham radio in a disaster, broadcasting on ham radio
+Chat: library-only
 
 ## Overview
 **Authority:**

@@ -1,5 +1,6 @@
 # Sanitation and Surviving Without Doctors (NWSS Ch. 12–13)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: no doctor available, medical care after nuclear war, radiation sickness treatment, potassium iodide, thyroid protection iodine, veterinary antibiotics for humans, radiation sickness symptoms, how to survive radiation sickness, fallout sickness, ki tablets dose, iodine fallout, treating illness without doctor, sanitation after nuclear, medical self help, radiation exposure risks, long term radiation risk, how much radiation is deadly, medicine without a pharmacy, fish antibiotics
 
 ## Chapter 13 Surviving Without Doctors: A TEMPORARY RETURN TO SELF-HELP
 **Chapter 13 Surviving Without Doctors**

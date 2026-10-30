@@ -1,5 +1,6 @@
 # Home Fire Escape Plan (Ready.gov)
 Source: https://www.ready.gov/home-fire-escape-plan
+Aliases: fire escape plan, house fire what to do, home fire drill, two ways out, meeting place for fire, kids fire safety, get out stay out, escape plan for apartment, fire ladder, smoke alarm plan, fire drill at home, teach kids fire escape, crawl under smoke, feel door for heat, escape from upstairs fire, practice fire escape
 
 ## Overview
 Creating and practicing a home fire escape plan is simple. Follow the steps below to make sure everyone in your home is prepared and knows what to do in case of a home fire.

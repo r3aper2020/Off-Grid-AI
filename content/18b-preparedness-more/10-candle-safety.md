@@ -1,5 +1,6 @@
 # Candle Fire Safety (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/candle/
+Aliases: candle safety, candles during power outage, candle fire, leaving candle burning, candle alternatives, flashlight instead of candle, candle near curtains, blow out candles, candle fire prevention, safe candle use, candles with kids, candles while sleeping, candles and pets, candle holder safety, battery candles
 
 ## Overview
 Candles are a part of many celebrations, but open flames make them dangerous if they tip over or when they are placed too close to anything that can burn.

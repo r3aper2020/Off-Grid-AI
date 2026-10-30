@@ -4,7 +4,7 @@
  "id": "sea-survival",
  "title": "Water & Sea Survival",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Coast Guard Boating Safety Division, NOAA (National Weather Service, National Ocean Service), National Park Service",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Life jackets, staying afloat after capsizing, cold shock and the H.E.L.P. and huddle positions, life rafts and immersion suits, boating in severe weather, escaping rip currents, and avoiding sharks.",
@@ -32,14 +32,11 @@
     },
     {
      "heading": "Child Life Jacket Requirements",
-     "body": "On a vessel that is underway, children under 13 years of age must wear an appropriate U.S.\n\nCoast Guard-approved life jacket unless they are:\n\n- Below deck, or\n\n- Within an enclosed cabin.\n\nNotice: If a State has established a child life jacket wear requirement for children that differs from the Coast Guard requirement, the State’s requirement will be applicable on waters subject to that State’s jurisdiction.\n\nChild-size PFDs are often approved for specific weight ranges. Check the “User Weight” on the label and for an approval statement that will read something like: “approved for use on recreational boats and uninspected commercial vessels not carrying passengers for hire by persons weighing “less than 30, lbs.,” “30 to 50 lbs.,” “less than 50 lbs.,” or “50 to 90 lbs.”\n\nCaution: When trying to decide on the right size PFD, the fit, snug but not tight, is the most important characteristic.\n\nFor more information on PFD selection pleases visit https://www.uscgboating.org/recreational-boaters/life-jacket-wear-wearing-your-life-jacket.php ."
-    },
-    {
-     "heading": "Inflatable Life Jackets",
-     "body": "Inflatable Life Jackets require regular maintenance and attention to the condition of the inflation mechanism.\n\nThey must have a full cylinder.\n\n- All status indicators must be green."
+     "body": "On a vessel that is underway, children under 13 years of age must wear an appropriate U.S.\n\nCoast Guard-approved life jacket unless they are:\n\n- Below deck, or\n\n- Within an enclosed cabin.\n\nNotice: If a State has established a child life jacket wear requirement for children that differs from the Coast Guard requirement, the State’s requirement will be applicable on waters subject to that State’s jurisdiction.\n\nChild-size PFDs are often approved for specific weight ranges. Check the “User Weight” on the label and for an approval statement that will read something like: “approved for use on recreational boats and uninspected commercial vessels not carrying passengers for hire by persons weighing “less than 30, lbs.,” “30 to 50 lbs.,” “less than 50 lbs.,” or “50 to 90 lbs.”\n\nCaution: When trying to decide on the right size PFD, the fit, snug but not tight, is the most important characteristic.\n\nFor more information on PFD selection pleases visit https://www.uscgboating.org/recreational-boaters/life-jacket-wear-wearing-your-life-jacket.php .\n\n**Inflatable Life Jackets**\n\nInflatable Life Jackets require regular maintenance and attention to the condition of the inflation mechanism.\n\nThey must have a full cylinder.\n\n- All status indicators must be green."
     }
    ],
-   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf"
+   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf",
+   "aliases": "life jacket, life jacket rules, do kids need life jackets, PFD types, life vest requirements, boat safety equipment, inflatable life jacket, engine kill switch, boat cut off switch, how many life jackets on boat, life jacket for child, life jacket law, boating requirements, wearing a life jacket, storing life jackets on boat, coast guard rules"
   },
   {
    "title": "Boating Safety and Survival Tips: Capsizing, Cold Water, Life Rafts, Severe Weather (USCG Boater's Guide)",
@@ -74,11 +71,7 @@
     },
     {
      "heading": "EPIRBs and PLBs",
-     "body": "406 MHz Satellite Emergency Position Indicating Radio Beacons (EPIRBs) and Personal Locator Beacons (PLBs) are designed to quickly and reliably alert rescue personnel, indicate an accurate distress position, and guide rescue units to the distress scene, even when all other communications fail. They must be properly registered with NOAA."
-    },
-    {
-     "heading": "Immersion Suits",
-     "body": "Immersion suits will delay the effects of hypothermia in cold water. They should be properly stowed and maintained in accordance with the manufacturer’s instructions."
+     "body": "406 MHz Satellite Emergency Position Indicating Radio Beacons (EPIRBs) and Personal Locator Beacons (PLBs) are designed to quickly and reliably alert rescue personnel, indicate an accurate distress position, and guide rescue units to the distress scene, even when all other communications fail. They must be properly registered with NOAA.\n\n**Immersion Suits**\n\nImmersion suits will delay the effects of hypothermia in cold water. They should be properly stowed and maintained in accordance with the manufacturer’s instructions."
     },
     {
      "heading": "Determining Your Location",
@@ -102,11 +95,7 @@
     },
     {
      "heading": "Fueling Precautions",
-     "body": "Most fires and explosions happen during or shortly after fueling. To avoid an accident, follow these safety guidelines.\n\n- Refuel any portable tanks ashore.\n\n- Close all hatches and other openings before refueling. Extinguish all smoking materials. Turn off engines, all electrical equipment, radios, stoves, and other appliances. Remove all passengers.\n\n- Keep the fill nozzle in contact with the tank and wipe up any spilled fuel.\n\n- After fueling, open all ports, hatches, and doors to ventilate. Run the blower for at least four minutes. Check the bilges for fuel vapors before starting the engine. Do the “sniff test” to make sure there is no odor of gasoline anywhere in the boat.\n\nWarning: Do not start the engine until all traces of fuel vapors are eliminated!"
-    },
-    {
-     "heading": "Fuel Management",
-     "body": "Practice the “One-Third Rule” by using:\n\n- One-third of the fuel to go out.\n\n- One-third to get back.\n\n- One-third held in reserve."
+     "body": "Most fires and explosions happen during or shortly after fueling. To avoid an accident, follow these safety guidelines.\n\n- Refuel any portable tanks ashore.\n\n- Close all hatches and other openings before refueling. Extinguish all smoking materials. Turn off engines, all electrical equipment, radios, stoves, and other appliances. Remove all passengers.\n\n- Keep the fill nozzle in contact with the tank and wipe up any spilled fuel.\n\n- After fueling, open all ports, hatches, and doors to ventilate. Run the blower for at least four minutes. Check the bilges for fuel vapors before starting the engine. Do the “sniff test” to make sure there is no odor of gasoline anywhere in the boat.\n\nWarning: Do not start the engine until all traces of fuel vapors are eliminated!\n\n**Fuel Management**\n\nPractice the “One-Third Rule” by using:\n\n- One-third of the fuel to go out.\n\n- One-third to get back.\n\n- One-third held in reserve."
     },
     {
      "heading": "Weather",
@@ -125,7 +114,8 @@
      "body": "Have you ever forgotten something? Before departure, always be sure your vessel is in good working order and properly equipped for emergencies. Avoid inconvenience and potential danger by taking a few minutes every time to verify you haven’t forgotten something critical, like putting in the drain plugs."
     }
    ],
-   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf"
+   "sourceUrl": "https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf",
+   "aliases": "boat capsized what to do, cold water survival, fell overboard, life raft how to use, life jacket, boating in bad weather, boat carbon monoxide, overloading a boat, anchoring in storm, float plan, epirb plb boat, immersion suit, staying afloat, help position cold water, boat fueling safety, running out of fuel boat, before boating checklist, cold water shock, vhf radio boat, boat sinking, severe weather on boat, huddle position water, stay with the boat, kayak flipped cold water, man overboard"
   },
   {
    "title": "Cold Water Can Be Dangerous: Cold Shock and Hypothermia (NWS)",
@@ -155,7 +145,8 @@
      "body": "Cold water can kill. The following guidelines and images from the U.S. Coast Guard will increase your chance for survival:\n\n- Stay calm.\n- Minimize time in the water. Get out as soon as possible safely.\n- If possible, utilize any floating objects to get out of the water.\n- Keep as much of your body out of the water as possible.\n- Evaluate your options.\n- If you can swim to safety, stay calm and do so.\n- If you cannot swim to safety, conserve energy and heat and await rescue.\n- If you cannot get to safety, assume the Heat Escape Lessening Position (H.E.L.P.) position. This protects the critical body areas and slows down the loss of heat. H.E.L.P position means:\n- Draw your knees to your chin and keep your legs together.\n- Press both arms against your side and keep your head out of the water.\n- If possible, form a huddle in the water with others to conserve body heat.\n\n[Rewarming steps credited by NWS to the Red Cross are not included (third-party content).]"
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/coldwater"
+   "sourceUrl": "https://www.weather.gov/safety/coldwater",
+   "aliases": "cold water shock, fell in cold water, cold water drowning, gasp reflex cold water, how long survive in cold water, cold water hypothermia, boat capsized cold water, cold water swimming danger, 1 10 1 rule, life jacket cold water, fell through ice, cold water immersion, cold water safety, water temperature danger, paddling in cold water, cold water survival, swim failure cold"
   },
   {
    "title": "What Is a Rip Current? (NOAA National Ocean Service)",
@@ -165,7 +156,8 @@
      "body": "Rip currents are powerful, narrow channels of fast-moving water that are prevalent along the East, Gulf, and West coasts of the U.S., as well as along the shores of the Great Lakes.\n\nMoving at speeds of up to eight feet per second, rip currents can move faster than an Olympic swimmer.\n\nPanicked swimmers often try to counter a rip current by swimming straight back to shore—putting themselves at risk of drowning because of fatigue.\n\nLifeguards rescue tens of thousands of people from rip currents in the U.S. every year, but it is estimated that 100 people are killed by rip currents annually. If caught in a rip current, don't fight it! Swim parallel to the shore and swim back to land at an angle.\n\nWhile the terms are often confused, rip currents are different than rip tides. A rip tide is a specific type of current associated with the swift movement of tidal water through inlets and the mouths of estuaries, embayments, and harbors."
     }
    ],
-   "sourceUrl": "https://oceanservice.noaa.gov/facts/ripcurrent.html"
+   "sourceUrl": "https://oceanservice.noaa.gov/facts/ripcurrent.html",
+   "aliases": "rip current, rip tide, caught in a rip current, swim parallel to shore, pulled out to sea, ocean current pulling me, how to escape rip current, rip current signs, beach safety, drowning in rip current, dangerous ocean currents, spotting rip currents, undertow at beach, rip current what to do"
   },
   {
    "title": "Shark Awareness (National Park Service)",
@@ -175,7 +167,8 @@
      "body": "While shark encounters are extremely rare, it is always a good idea to refresh yourself on the steps you can take to reduce that chance even further.\n\nThere are many inherent dangers while swimming in ocean or sound waters. Swimmers are advised to be aware of conditions and their surroundings.\n\nSharks are a normal and important part of the natural surroundings we enjoy at ocean beaches. The presence of sharks requires that we take precautions while enjoying the resource.\n\n- Don’t swim too far from shore\n- Stay in groups Solitary individuals are more likely to encounter a shark\n- Avoid being in the water during darkness or twilight Sharks are most active at these times\n- Don’t go into the water if bleeding from a wound Sharks have a very acute sense of smell\n- Leave shiny objects at home The reflected light resembles fish scales\n- Avoid brightly colored swimwear Sharks see contrast particularly well\n- Be aware sharks hunt for seals in shallow water.\n- Stay close to shore where rescuers can reach you.\n- Don't isolate yourself. Swim, paddle, kayak, and surf in groups.\n- Avoid areas where seals are present.\n- Avoid areas where schools of fish are visible.\n- Avoid murky or low-visibility water.\n- Limit splashing.\n- Follow all signage and flag warnings at beaches and instructions of the lifeguards.\n\nShark encounters are still extremely unlikely, but use of the above recommendations will further reduce the chances of injury, and allow you to more safely share the ocean with these spectacular animals. Find more information about sharks at Cape Cod National Seashore."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/articles/sharkawareness.htm"
+   "sourceUrl": "https://www.nps.gov/articles/sharkawareness.htm",
+   "aliases": "shark safety, shark attack, avoid sharks, swimming where there are sharks, shark in the water what to do, when do sharks attack, sharks at the beach, shark awareness, surfing shark risk, sharks at dawn and dusk, shark bite, swimming in the ocean safely, shark encounter, murky water sharks"
   }
  ]
 }

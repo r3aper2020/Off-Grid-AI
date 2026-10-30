@@ -1,5 +1,6 @@
 # Appliance and Electrical Fire Safety: Outlets, Extension Cords and Power Strips (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/
+Aliases: extension cord safety, power strip safety, overloaded outlet, outlet sparking, electrical fire prevention, space heater on extension cord, daisy chain power strips, appliance fire, outlet feels hot, frayed cord, electrical fire at home, plugging too much into outlet, cord under rug, surge protector, electrical safety at home, unplug appliances, outlet covers
 
 ## Overview
 It is hard to imagine a home without electricity. We take this utility for granted, but there are fire risks to consider. In 2021, an estimated 24,200 residential building electrical fires were reported to United States fire departments. These fires caused an estimated 295 deaths, 900 injuries and over $1.2 billion in property loss.

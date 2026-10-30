@@ -1,5 +1,6 @@
 # Keep Food Safe After a Disaster or Emergency
 Source: https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html
+Aliases: power out how long is food good, is my food safe after power outage, fridge without power, freezer without power, when to throw out food, food after flood, flooded food what to keep, canned food got wet, food safety after hurricane, keep fridge closed, dry ice for freezer, food in fridge 4 hours, sanitize cans after flood, throw out thawed meat, when in doubt throw it out, refreezing thawed food
 
 ## What to know
 - Foods may be unsafe to eat after a disaster or emergency.

@@ -1,5 +1,6 @@
 # Treating Food Poisoning (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/digestive-diseases/food-poisoning/treatment
+Aliases: food poisoning, ate something bad, vomiting and diarrhea, food poisoning treatment, how long does food poisoning last, throwing up after eating, stomach cramps after food, rehydrate after vomiting, food poisoning medicine, when to see doctor food poisoning, travelers diarrhea, food recall, preventing food poisoning, food poisoning kids, nausea after eating
 
 ## How can I treat food poisoning?
 In most cases, people with food poisoning get better on their own without medical treatment. You can treat food poisoning by replacing lost fluids and electrolytes to prevent dehydration. In some cases, over-the-counter medicines may help relieve your symptoms.

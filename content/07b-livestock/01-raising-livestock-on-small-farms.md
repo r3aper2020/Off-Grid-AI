@@ -1,5 +1,6 @@
 # Raising Livestock on Small Farms (USDA ARS, 1977)
 Source: https://archive.org/download/CAT31108251/CAT31108251.pdf
+Aliases: raising chickens, backyard chickens, feeding chicks, chicken coop, laying hens, raising turkeys, ducks and geese, raising pigeons, squab pigeons, keeping a milk cow, buying a cow, feeding a cow, milking a cow, making butter at home, dairy goats, milking goats, goat feeding, raising sheep, raising rabbits for meat, rabbit hutch, raising pigs, feeding hogs, pig pen, chicken health, egg production
 
 ## RAISING LIVESTOCK ON SMALL FARMS
 

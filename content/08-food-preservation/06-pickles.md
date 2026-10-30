@@ -1,5 +1,6 @@
 # Fermented Foods and Pickled Vegetables (USDA Complete Guide, Guide 6)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf
+Aliases: making pickles, how to make sauerkraut, dill pickles, fermenting vegetables, bread and butter pickles, pickled beets, pickled peppers, pickled jalapenos, pickle relish, pickling salt, fermenting crock, pickled green beans, pickled carrots, pickled okra, pickled asparagus, pickled mushrooms, pickled onions, canning pickles, pickling cucumbers, quick pickles, sweet pickles, pickled green tomatoes, relish recipes, piccalilli recipe, pickled horseradish
 
 ## Selection of fresh cucumbers
 Quantity: An average of 14 pounds is needed per canner load of 7 quarts; an average of 9 pounds is needed per canner load of 9 pints. A bushel weighs 48 pounds and yields 16 to 24 quarts—an average of 2 pounds per quart.

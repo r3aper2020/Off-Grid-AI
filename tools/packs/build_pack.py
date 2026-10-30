@@ -42,6 +42,14 @@ REQUIRED = ["id", "title", "category", "version", "publisher", "license"]
 ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9._-]{1,63}$")
 # Sections much longer than this make poor citations; split them.
 MAX_SECTION_CHARS = 4000
+# Sections shorter than this (text only, images aside) are fragments —
+# a stray caption line, a one-sentence intro — that pollute search and
+# answer nothing on their own; they are merged into a neighbour.
+MIN_SECTION_CHARS = 200
+# Short words that are normal English, not OCR noise ("UJ cc", "z CJ").
+COMMON_SHORT = set("a an as at be by do go he i if in is it me my no of on or "
+                   "so to up us we am ok".split())
+IMAGE_MARKER = re.compile(r"!\[([^\]]+)\]\(img:([^)\s]+)\)")
 
 
 class PackError(Exception):
@@ -88,10 +96,85 @@ def split_long(heading: str, text: str) -> list:
     return out
 
 
-def parse_document(path: Path) -> dict:
+def text_only(body: str) -> str:
+    """Section text without image markers (what search and the model see)."""
+    return IMAGE_MARKER.sub(" ", body).strip()
+
+
+def is_garbage(heading: str, body: str) -> bool:
+    """OCR noise, diagram labels and table fragments: text that is not
+    readable prose. Sections carrying an image are never garbage (the
+    image is the content)."""
+    if IMAGE_MARKER.search(body):
+        return False
+    text = text_only(body)
+    words = re.findall(r"[A-Za-z]+", text)
+    if not words:
+        return True
+    if len(words) < 12 and not re.search(r"[a-z]", text):
+        return True  # an all-caps diagram label ("TAPED ON", "UJ cc")
+    alpha = sum(len(w) for w in words) / max(1, len(text))
+    if alpha < 0.4:
+        return True  # mostly numbers/punctuation: an unpreserved table
+    if text.count(".") > 0.15 * len(text):
+        return True  # dot leaders: a table of contents
+    noise = [w for w in words if len(w) <= 2 and w.lower() not in COMMON_SHORT]
+    return len(words) < 60 and len(noise) > 0.3 * len(words)
+
+
+def clean_sections(sections: list, report: list) -> list:
+    """Drop garbage sections and merge fragments into a neighbour.
+
+    A short intro ("Boil") merges forward into its first sub-section
+    ("Boil: Steps…"); any other fragment merges backward into the previous
+    section when the result stays under MAX_SECTION_CHARS, else forward.
+    The fragment's heading survives as a bold line so it is still found.
+    """
+    kept = []
+    for heading, body in sections:
+        if is_garbage(heading, body):
+            report.append(f"dropped '{heading[:50]}' ({len(body)} chars)")
+        else:
+            kept.append([heading, body])
+    if not kept:
+        return []
+
+    def tiny(sec):
+        return len(text_only(sec[1])) < MIN_SECTION_CHARS
+
+    def joined(a, b, label):
+        return f"{a}\n\n**{label}**\n\n{b}"
+
+    changed = True
+    while changed and len(kept) > 1:
+        changed = False
+        for i, sec in enumerate(kept):
+            if not tiny(sec):
+                continue
+            nxt = kept[i + 1] if i + 1 < len(kept) else None
+            prev = kept[i - 1] if i > 0 else None
+            if nxt and nxt[0].startswith(sec[0] + ": "):
+                # Intro paragraph of a group: it belongs with the first child.
+                nxt[1] = f"{sec[1]}\n\n{nxt[1]}"
+                report.append(f"merged '{sec[0][:50]}' into '{nxt[0][:50]}'")
+            elif prev and len(joined(prev[1], sec[1], sec[0])) <= MAX_SECTION_CHARS:
+                prev[1] = joined(prev[1], sec[1], sec[0])
+                report.append(f"merged '{sec[0][:50]}' into '{prev[0][:50]}'")
+            elif nxt and len(f"**{sec[0]}**\n\n{sec[1]}\n\n{nxt[1]}") <= MAX_SECTION_CHARS:
+                nxt[1] = f"**{sec[0]}**\n\n{sec[1]}\n\n{nxt[1]}"
+                report.append(f"merged '{sec[0][:50]}' into '{nxt[0][:50]}'")
+            else:
+                continue  # Neighbours are full: keep the fragment.
+            del kept[i]
+            changed = True
+            break
+    return [(h, b) for h, b in kept]
+
+
+def parse_document(path: Path, report: list) -> dict:
     lines = path.read_text(encoding="utf-8").splitlines()
-    title, source, sections = None, None, []
-    heading, body = None, []
+    title, source, aliases, library_only = None, None, None, False
+    raw, heading, body = [], None, []
 
     def flush():
         if heading is None:
@@ -107,13 +190,20 @@ def parse_document(path: Path) -> dict:
                 f"{path.name}: section '{heading}' contains undecodable "
                 "characters (\ufffd); fix the extraction before building"
             )
-        sections.extend(split_long(heading, text))
+        raw.append((heading, text))
 
     for line in lines:
         if line.startswith("# ") and title is None:
             title = line[2:].strip()
         elif line.lower().startswith("source:") and heading is None:
             source = line.split(":", 1)[1].strip() or None
+        elif line.lower().startswith("aliases:") and heading is None:
+            # Retrieval-only plain-language phrasings (never shown).
+            aliases = line.split(":", 1)[1].strip() or None
+        elif line.lower().startswith("chat:") and heading is None:
+            # "Chat: library-only" keeps a document (e.g. regulation text)
+            # readable and searchable in the Library but out of AI answers.
+            library_only = line.split(":", 1)[1].strip() == "library-only"
         elif line.startswith("## "):
             flush()
             heading, body = line[3:].strip(), []
@@ -123,11 +213,32 @@ def parse_document(path: Path) -> dict:
 
     if not title:
         raise PackError(f"{path.name}: missing '# Title' line")
-    if not sections:
+    if not raw:
         raise PackError(f"{path.name}: no '## ' sections")
+    doc_report = []
+    split = []
+    for h, text in clean_sections(raw, doc_report):
+        split.extend(split_long(h, text))
+    # Splitting at bold sub-headings can itself leave fragments (a figure
+    # label between two headings), so clean once more.
+    sections = [
+        {"heading": h, "body": b}
+        for h, b in clean_sections(
+            [(s["heading"], s["body"]) for s in split], doc_report
+        )
+    ]
+    if doc_report:
+        report.append(f"{path.name}: {len(doc_report)} changes")
+        report.extend("  " + r for r in doc_report)
+    if not sections:
+        raise PackError(f"{path.name}: nothing left after cleaning")
     doc = {"title": title, "sections": sections}
     if source:
         doc["sourceUrl"] = source
+    if aliases:
+        doc["aliases"] = aliases
+    if library_only:
+        doc["libraryOnly"] = True
     return doc
 
 
@@ -188,7 +299,10 @@ def build(src: Path) -> dict:
     if meta["category"] not in CATEGORIES:
         raise PackError(f"category must be one of {sorted(CATEGORIES)}")
 
-    docs = [parse_document(p) for p in sorted(src.glob("*.md"))]
+    report = []
+    docs = [parse_document(p, report) for p in sorted(src.glob("*.md"))]
+    if report:
+        print("\n".join(report), file=sys.stderr)
     if not docs:
         raise PackError(f"{src}: no .md documents")
 
@@ -217,7 +331,9 @@ def main() -> int:
                    encoding="utf-8")
     n = sum(len(d["sections"]) for d in pack["documents"])
     imgs = sum(len(s.get("images", [])) for d in pack["documents"] for s in d["sections"])
+    aliased = sum(1 for d in pack["documents"] if d.get("aliases"))
     extra = f", {imgs} images" if imgs else ""
+    extra += f", {aliased}/{len(pack['documents'])} with aliases"
     print(f"wrote {out}: {len(pack['documents'])} documents, {n} sections{extra}")
     return 0
 

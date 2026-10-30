@@ -1,0 +1,35 @@
+# id	conversation (turns separated by " || ")	must (groups separated by ";", alternatives by "|")	avoid
+lost-dark-cold	I'm lost in the woods, it's getting dark and cold. What do I do first?	stay put|stay where|stop|don't wander|do not wander|don't keep moving|stay calm;shelter;dry|wet|layer|insulat;signal|whistle|fire	
+bleeding	my friend cut his leg badly and it won't stop bleeding	911|emergency services;pressure;tourniquet|pack|packing	
+tourniquet-followup	my friend cut his leg badly and it won't stop bleeding || what if I don't have a tourniquet?	belt|strap|cloth|bandana|improvis|pack|packing|pressure;above|high|inches|between the wound	
+bleach-gallon	how much bleach do I add to a gallon of water	8 drops|1/8 teaspoon|6 drops|eighth of a teaspoon;30 minutes|half an hour;unscented|regular|plain|no added	
+kid-fever	my kid has a fever of 103 and we have no doctor	fluid|hydrat|drink|water;acetaminophen|ibuprofen|tylenol|fever reducer|medicine|medication;stiff neck|rash|breathing|seizure|lethargic|unresponsive|confus|won't wake|not waking|warning sign	
+choking	someone is choking and can't breathe	911|emergency;back blow|abdominal thrust|heimlich|chest thrust;cough	
+freezer-3-days	the power's been out 3 days, is the food in my freezer still good	48 hours|24 hours|two days|one day;40|thermometer|ice crystals;throw|discard|toss|when in doubt	
+snow-shelter	how do I build a shelter in the snow	cave|trench|quinzee|quinzhee;vent|air hole|airflow|ventilat;insulat|bough|pad|off the snow|sleeping pad	
+edible-plants	which plants can I eat in the woods	identif|certain|sure|positive|know;test|edibility;poison|lookalike|mushroom|avoid	
+purify-water	how do I purify water	boil;1 minute|one minute|rolling|3 minutes;bleach|chemical|iodine|tablet|filter	
+bug-out-bag	what should I pack in a bug out bag	water;food;first aid;flashlight|light|headlamp;radio|whistle|document|medication|map	
+generator	where should I put my generator	outside|outdoors;20 feet|away from window|away from door|away from the house|far from;carbon monoxide|CO	
+jump-start	how do I jump start a car	red|positive;negative|black|unpainted|ground|metal;start the|run|let it run|turn	
+river-hypothermia	my buddy fell in the river and now he's shivering hard and confused	911|emergency|help;wet cloth|dry cloth|remove wet|out of wet;warm|insulat|blanket|sleeping bag;gentle|carefully|don't rub|handle	
+rattlesnake	I got bit by a rattlesnake	911|hospital|antivenom|emergency;still|calm|immobil|don't move|limit movement;don't cut|do not cut|don't suck|do not suck|no tourniquet|don't apply a tourniquet|no ice|don't ice|do not apply ice	
+burn-blister	I burned my hand on the stove and it's blistering	cool|running water|cold water;minute;don't pop|do not pop|don't break|do not break|intact|leave the blister;cover|loosely|dressing|bandage	
+earthquake-now	there's an earthquake happening right now what do I do	drop;cover;hold	
+tornado-mobile-home	tornado warning and I live in a mobile home	leave|get out|not safe|sturdy|shelter;lowest|interior|basement|underground|storm shelter|ditch	
+cpr-adult	how do I do CPR on an adult	911|emergency;center of the chest|chest compression;100|120;2 inches|5 cm|hard and fast	
+fire-no-matches	how do I start a fire without matches	tinder;ferro|flint|steel|bow drill|lens|magnif|battery|friction|spark;dry	
+battery-bank	how do I size a battery bank for my cabin	watt|wh|amp-hour|amp hour|ah|kwh;days|autonomy|depth of discharge|50%|80%;inverter|load|usage|consumption	
+potassium-iodide	when should I take potassium iodide	thyroid;told|instruct|official|authorit|public health|advised	
+water-storage	how much water should I store for my family	gallon;per person per day|per person, per day|each person;3 days|three days|2 weeks|two weeks|14 days|72 hours	
+ham-radio	how do I get started with ham radio	licens|technician;FCC|exam|test;handheld|HT|radio|repeater	
+insulin-no-power	how do I keep insulin cold without power	28 days|refrigerat|room temperature|cool;freez|direct heat|sun|hot	
+ankle-sprain	I twisted my ankle bad and it's swelling	rest;ice|cold;elevat|raise;compress|wrap	
+seizure	someone is having a seizure	time|minute;nothing in the mouth|in their mouth|in the mouth;side|cushion|soft|head;911|5 minutes|five minutes	
+flooded-road	my road is flooded, can I drive through it	turn around|don't|do not|never;inches|foot|feet;sweep|stall|float|carried|current	
+deep-cut-clean	how do I clean a deep cut without a doctor	pressure|bleeding;clean water|irrigat|rinse|wash|flush;infect|red|pus|fever|warm;bandage|dressing|cover|closed|stitch	
+heat-stroke-dad	my dad is confused and stopped sweating in the heat	911|emergency;cool|shade|water|ice;fan|wet|sponge|spray	
+ridge-lightning	I'm caught in a thunderstorm on a ridge	descend|get down|lower|off the ridge|leave the ridge;crouch|spread out|tall tree|away from tree|avoid tree|metal;30|half an hour	
+find-north	how do I find north without a compass	shadow|stick;north star|polaris|big dipper;sun|watch	
+fire-then-water	I'm in the middle of nowhere how do I start a fire || how do I make sure my water is clean to drink	boil;minute|rolling;filter|cloth|settle|clear	
+capital-france	what is the capital of France	Paris	

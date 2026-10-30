@@ -1,5 +1,6 @@
 # Finding and Purifying Water (ATP 3-50.21 Ch. 3)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: finding water in the wild, is this water safe to drink, how to purify water, boiling water to purify, water purification tablets, solar still, how to make a solar still, water from plants, collecting rain water, melting snow for water, dew collection, water filter, dig a well on beach, seep well, drinking sea water, water from vines, bamboo water, how much water to drink, filtering muddy water, iodine water purification, bleach to purify water, coconut water, transpiration bag
 
 ## Water
 **Chapter 3**

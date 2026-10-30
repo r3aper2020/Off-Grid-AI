@@ -1,5 +1,6 @@
 # Home Fires (Ready.gov)
 Source: https://www.ready.gov/home-fires
+Aliases: house fire, smoke alarm, fire escape plan, fire in house what to do, get out of burning house, stop drop and roll, smoke detector battery, kitchen fire, cooking fire, space heater fire, fireplace safety, wood stove fire, electrical fire, candle fire, kids and fire, after a house fire, fire prevention, escape ladder, two ways out, crawl under smoke, holiday fire, fire drills at home
 
 ## Overview
 A fire can become life-threatening in just two minutes. A residence can be engulfed in flames in five minutes.

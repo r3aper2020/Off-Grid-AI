@@ -1,5 +1,6 @@
 # Build a Kit with Your Kids (Ready.gov Kids)
 Source: https://www.ready.gov/kids/family-emergency-planning/build-a-kit
+Aliases: emergency kit with kids, build a kit kids, what to put in emergency kit, family emergency kit, kid friendly emergency kit, kids disaster supplies, 72 hour kit family, emergency kit list, comfort items for kids, kids help pack emergency bag, go bag for kids, teaching kids preparedness, emergency supplies checklist, games in emergency kit, kids emergency backpack
 
 ## Overview
 Being prepared for an emergency isn't just about staying safe during a storm or a disaster. It's also about how to stay comfortable, clean, fed, and healthy afterwards—when a storm or disaster may have knocked out electricity.

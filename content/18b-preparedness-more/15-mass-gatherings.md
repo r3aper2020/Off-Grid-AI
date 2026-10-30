@@ -1,5 +1,6 @@
 # Mass Gathering Incidents and Attacks: Run, Hide, Fight (Ready.gov)
 Source: https://www.ready.gov/mass-gatherings-incidents
+Aliases: active shooter what to do, run hide fight, shooting at event, crowd crush, stampede escape, attack at concert, terrorist attack what to do, large event safety, bomb at event, crowd safety, escape a crowd, after an attack, suspicious activity event, getting sick at crowded event, concert emergency, hiding from attacker, crowd surge, know the exits, see something say something, festival safety
 
 ## Overview
 Mass gatherings are events where a lot of people come together, either planned or not. These events can make it harder for the place hosting them to manage safety and resources. Examples include music festivals, concerts, parades, or big sports games. Mass gatherings can be enjoyable, but they also bring risks such as:

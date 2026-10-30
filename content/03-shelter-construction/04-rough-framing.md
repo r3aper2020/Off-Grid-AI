@@ -1,5 +1,6 @@
 # Rough Framing: Floors, Walls and Stairs (TM 3-34.47 Ch. 6)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: how to frame a wall, framing a floor, building stairs, floor joists, wall studs spacing, house framing basics, platform framing, balloon framing, wood joints, splicing lumber, girders and beams, sill plate, building a shed frame, headers over doors and windows, stud wall construction, how to build a floor, bracing walls, rafters and roof framing, nailing framing, lap joint butt joint, stair stringers, how big a beam do I need, floor load
 
 ## Rough Framing
 **Chapter 6**

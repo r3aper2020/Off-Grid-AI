@@ -1,5 +1,7 @@
 # Multi-Use Radio Service (47 CFR Part 95 Subpart J, eCFR as of 2026-10-27)
 Source: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-J
+Aliases: MURS radio, MURS channels, MURS license needed, MURS frequencies, MURS vs FRS, MURS vs GMRS, MURS power limit, MURS antenna rules, MURS range, license free radio, MURS allowed uses, MURS on farm, MURS repeater, 151 MHz radio, MURS data use, VHF license free
+Chat: library-only
 
 ## Subpart J—Multi-Use Radio Service: § 95.2703 Definitions, MURS.
 MURS. A two-way, short distance voice or data communication service for facilitating personal or business activities of the general public.

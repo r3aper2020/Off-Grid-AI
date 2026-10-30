@@ -4,7 +4,7 @@
  "id": "medical-emergencies",
  "title": "Medical Emergencies: Heart, Stroke, Asthma, Low Blood Sugar",
  "category": "medical",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. National Institutes of Health (NHLBI and NIDDK)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Recognizing a heart attack, cardiac arrest (CPR and AEDs), stroke (FAST test), asthma attacks and low blood glucose, and when to call 9-1-1.",
@@ -31,7 +31,8 @@
      "body": "Any time you think you might be having a heart attack, don’t ignore it. Call 9-1-1 for emergency medical care, even if you are not sure that you’re having a heart attack.\n\n- Acting fast can limit damage to your heart and save your life. The 9-1-1 operator or emergency medical services (EMS) personnel can give you advice that can help prevent damage to your heart.\n- An ambulance is the best and safest way to get to the hospital. Do not drive to the hospital or let someone else drive you. EMS personnel can check how you are doing and start tests and lifesaving medicines right away. People who arrive by ambulance often get faster treatment at the hospital.\n\nEvery minute matters. Never delay calling 9-1-1, taking aspirin or doing anything else you think might help.\n\nKnowing the difference between stable angina (chest pain in people who have coronary artery disease) and a heart attack is important.\n\n- The pain from angina usually happens after physical activity and goes away in a few minutes when you rest or take medicine to treat it.\n- The pain from a heart attack is more serious than the pain from angina. Heart attack pain doesn’t go away when you rest or take medicine.\n\nIf you don’t know whether your chest pain is angina or a heart attack, call 9-1-1."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+   "aliases": "heart attack symptoms, chest pain what to do, is this a heart attack, left arm pain, chest pressure, when to call 911 chest pain, heart attack in women, silent heart attack, jaw pain heart attack, shortness of breath chest tight, heart attack signs, indigestion or heart attack, cold sweat nausea chest, someone having heart attack, aspirin heart attack, chest hurts"
   },
   {
    "title": "Cardiac Arrest: Symptoms and Warning Signs (NHLBI)",
@@ -50,14 +51,11 @@
     },
     {
      "heading": "When to call your healthcare provider",
-     "body": "Call your healthcare provider if you have warning signs, such as fainting or chest pain, that might signal a higher risk of cardiac arrest. Your provider will do an exam, check your health history, and do tests to help assess your heart health. If you have coronary heart disease or other conditions that may increase your risk of a future cardiac arrest, work with your healthcare team to set up a treatment plan that works for you."
-    },
-    {
-     "heading": "When to call your healthcare provider: Do not ignore symptoms",
-     "body": "People who get medical care for warning signs are 5 times more likely to survive cardiac arrest. If you have a warning sign, see your healthcare provider."
+     "body": "Call your healthcare provider if you have warning signs, such as fainting or chest pain, that might signal a higher risk of cardiac arrest. Your provider will do an exam, check your health history, and do tests to help assess your heart health. If you have coronary heart disease or other conditions that may increase your risk of a future cardiac arrest, work with your healthcare team to set up a treatment plan that works for you.\n\n**When to call your healthcare provider: Do not ignore symptoms**\n\nPeople who get medical care for warning signs are 5 times more likely to survive cardiac arrest. If you have a warning sign, see your healthcare provider."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/cardiac-arrest/symptoms"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/cardiac-arrest/symptoms",
+   "aliases": "cardiac arrest, heart stopped, heart attack vs cardiac arrest, difference heart attack and cardiac arrest, sudden collapse no pulse, warning signs before cardiac arrest, chest pain and fainting, racing heartbeat and dizziness, someone collapsed not breathing, when to call 911 for heart, fainting with no warning, heart stopped beating signs, shortness of breath and chest pressure, family history sudden death"
   },
   {
    "title": "Cardiac Arrest: Emergency Treatment, CPR and AEDs (NHLBI)",
@@ -75,7 +73,8 @@
      "body": "Download AED apps on your smartphone. You can find an app that identifies locations of nearby AEDs. You can also find an app that links with 9-1-1 services in participating communities to alert trained citizens that someone near them needs CPR or defibrillation with an AED."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/cardiac-arrest/treatment"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/cardiac-arrest/treatment",
+   "aliases": "cardiac arrest, heart stopped, no pulse, CPR steps, hands only CPR, how to do CPR, chest compressions, AED use, collapsed not breathing, sudden collapse, CPR on adult, how fast to push chest, restart heart, CPR until help arrives, defibrillator at home, CPR training, person unresponsive"
   },
   {
    "title": "Stroke Signs and the FAST Test (NHLBI)",
@@ -85,7 +84,8 @@
      "body": "The signs and symptoms of a stroke often occur quickly. However, they can develop over hours or even days. This sometimes happens when a transient ischemic attack (TIA) — a blockage that breaks up before it damages your brain — turns into a stroke.\n\nThe type of symptoms depends on the type of stroke and the area of the brain that is affected.\n\nSigns of a TIA or stroke may include:\n\n- Sudden confusion, trouble speaking, or trouble understanding speech\n- Sudden numbness or weakness, especially on one side of the body\n- Sudden severe headache with no known cause\n- Sudden trouble seeing from one or both eyes\n- Sudden trouble walking, dizziness, or loss of balance or coordination\n\nThe FAST test can help you remember what to do if you think someone is having a stroke.\n\nF — Face: Ask the person to smile. Does one side of the face droop?\n\nA — Arms: Ask the person to raise both arms. Does one arm drift downward?\n\nS — Speech: Ask the person to repeat a simple phrase. Is their speech slurred or strange?\n\nT — Time: If you observe any of these signs, call 9-1-1 right away. Early treatment is essential.\n\nIf you think you or someone else may be having a TIA or stroke, do not drive to the hospital or let someone else drive you. Call an ambulance so that medical personnel can begin lifesaving treatment on the way to the emergency room. During a stroke, every minute counts."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/stroke/symptoms"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/stroke/symptoms",
+   "aliases": "stroke symptoms, FAST stroke test, signs of a stroke, face drooping, arm weakness, speech slurred, is this a stroke, time to call 911 stroke, how to tell if someone had stroke, sudden numbness one side, mini stroke warning signs, stroke in women, sudden severe headache, trouble seeing suddenly, stroke warning signs"
   },
   {
    "title": "Asthma Attacks: What to Do and When to Call 9-1-1 (NHLBI)",
@@ -111,7 +111,8 @@
      "body": "You should go to the emergency room if your symptoms do not go away soon after taking your at-home medicines or if you have a serious asthma attack. If you need emergency care, you may receive medicines through a nebulizer (a small machine that turns liquid medicine into a mist that you can breathe in) or through an intravenous (IV) line in your arm. In severe circumstances, you may also need oxygen therapy or a ventilator to help you breathe."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/attacks"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/attacks",
+   "aliases": "asthma attack what to do, cant breathe inhaler, when to go to er asthma, asthma action plan, wheezing wont stop, inhaler not helping, asthma attack feels like, rescue inhaler, child asthma attack, lips turning blue breathing, asthma emergency, when to call 911 asthma, coughing cant catch breath, asthma attack no inhaler, asthma triggers"
   },
   {
    "title": "Asthma Symptoms and Signs It Is Getting Worse (NHLBI)",
@@ -121,7 +122,8 @@
      "body": "Symptoms of asthma may include:\n\n- Wheezing, which is a whistling sound when you breathe out\n- Coughing, especially at night or early morning\n- Shortness of breath\n- Chest tightness\n\nOther conditions can cause these symptoms. But in asthma, the symptoms often follow a pattern:\n\n- They come and go over time or within the same day.\n- They start or get worse with viral infections, such as a cold.\n- They are triggered by exercise, allergies, cold air, or breathing too fast from laughing or crying.\n- They are worse at night or in the morning.\n\nAsthma symptoms in young children may look different than symptoms in others. It is also possible for symptoms to change as you get older. Watch out for these signs that your asthma might be getting worse:\n\n- You have symptoms more often than usual, or they feel worse.\n- You need your reliever medicine more often than usual.\n- You wake up at night because of coughing or other asthma symptoms.\n- You have trouble with usual activities, including exercise, because of your asthma."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/symptoms"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/symptoms",
+   "aliases": "asthma attack, asthma symptoms, wheezing and cant breathe, asthma getting worse signs, inhaler not working, chest tight coughing at night, trouble breathing wheezing, when is asthma an emergency, asthma flare up, kid wheezing, peak flow dropping, lips turning blue asthma, severe asthma attack signs"
   },
   {
    "title": "Asthma Medicines and Action Plans (NHLBI)",
@@ -144,11 +146,7 @@
     },
     {
      "heading": "Create an asthma action plan",
-     "body": "Your healthcare provider will work with you to create a treatment plan for your asthma. An asthma action plan is a written treatment plan that describes the following:\n\n- How to identify allergens or triggers to avoid\n- How to know if you are having an asthma attack and what to do\n- Which medicines to take and when to take them\n- When to call your provider or go to the emergency room\n- Whom to contact in an emergency\n\nYou can download a sample Asthma Action Plan and use it to write down the plan you create with your provider to help you monitor and treat your symptoms."
-    },
-    {
-     "heading": "Treating specific asthma types",
-     "body": "Some people only have asthma symptoms in certain situations or around specific triggers. Your healthcare provider may give you special instructions to help with your asthma in those cases."
+     "body": "Your healthcare provider will work with you to create a treatment plan for your asthma. An asthma action plan is a written treatment plan that describes the following:\n\n- How to identify allergens or triggers to avoid\n- How to know if you are having an asthma attack and what to do\n- Which medicines to take and when to take them\n- When to call your provider or go to the emergency room\n- Whom to contact in an emergency\n\nYou can download a sample Asthma Action Plan and use it to write down the plan you create with your provider to help you monitor and treat your symptoms.\n\n**Treating specific asthma types**\n\nSome people only have asthma symptoms in certain situations or around specific triggers. Your healthcare provider may give you special instructions to help with your asthma in those cases."
     },
     {
      "heading": "Exercise-induced asthma",
@@ -167,7 +165,8 @@
      "body": "Nocturnal asthma refers to asthma symptoms that occur at night. It is not a separate type of asthma, but a sign of poor symptom control. It is common for asthma symptoms to get worse at night or in the early morning. Sometimes, your symptoms may wake you up at night. If this happens often, it may be a sign that your asthma is not well controlled.\n\nBeing around allergens while you sleep may also worsen your symptoms at night. Knowing your asthma triggers and avoiding them at night can help you manage your asthma and sleep better."
     }
    ],
-   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan"
+   "sourceUrl": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan",
+   "aliases": "asthma attack, asthma inhaler, rescue inhaler, albuterol inhaler, asthma action plan, cant breathe wheezing, asthma without inhaler, asthma medications, long term asthma control, exercise asthma, asthma from allergies, asthma at night, asthma triggers, kids asthma, steroid inhaler, nebulizer treatment, asthma flare up, asthma medicine ran out"
   },
   {
    "title": "Low Blood Glucose (Hypoglycemia) (NIDDK)",
@@ -217,7 +216,8 @@
      "body": "Glucagon—a hormone that raises blood glucose levels—is the best way to treat severely low blood glucose. Available as an injection or a nasal spray, glucagon will quickly raise your blood glucose level. Your doctor can prescribe you a glucagon kit for use in case of an emergency.\n\nIf your blood glucose level drops very low, you won’t be able to treat it by yourself. Be prepared to address severely low blood glucose by\n\n- talking with your doctor or health care team about when and how to use a glucagon emergency kit. If you have an emergency kit, regularly check the date on the package to make sure it hasn’t expired.\n- teaching your family, friends, and coworkers when and how to give you glucagon. Tell them to call 911 right away after giving you glucagon or if you don’t have a glucagon emergency kit with you.\n- wearing a medical alert identification bracelet or pendant. A medical alert ID tells other people that you have diabetes and need care right away. Getting prompt care can help prevent the serious problems that low blood glucose levels can cause."
     }
    ],
-   "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia"
+   "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+   "aliases": "low blood sugar, hypoglycemia symptoms, blood sugar crash, shaky sweaty confused diabetic, diabetic passed out, what to give for low blood sugar, glucose tablets, glucagon shot, diabetic emergency, too much insulin, blood sugar below 70, low blood sugar at night, diabetic seizure, rule of 15, how to treat low blood sugar, sugar for diabetic, hypo treatment"
   }
  ]
 }

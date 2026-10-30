@@ -1,5 +1,6 @@
 # Wounds, Pain and Splinting Assessment (ATP 4-02.11 Ch. 9)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: wound care, treating a cut, deep cut what to do, pain management no doctor, pain medicine for injury, antibiotics for wound, wound infection signs, cleaning a wound, stitches needed, puncture wound, scrape treatment, laceration care, dressing a wound, wound types, bandaging a wound, when to use antibiotics, infected cut, pain relief, gunshot wound, wound assessment
 
 ## Chapter 9
 Secondary Injury Assessment Using Pain, Antibiotics, Wounds, Splinting and Mechanism of Injury, Injury Type,

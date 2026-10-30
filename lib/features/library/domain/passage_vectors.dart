@@ -3,21 +3,23 @@ import 'dart:typed_data';
 
 import 'pack_format.dart';
 
-/// Meaning vectors for a pack's sections, so questions can find passages
-/// that use different words ("emergency kit" ↔ "disaster supplies").
+/// Meaning vectors for a pack's sections and documents, so questions can
+/// find passages that use different words ("emergency kit" ↔ "disaster
+/// supplies").
 ///
-/// One `.vec` file per pack (`assets/packs/vectors/<pack file>.vec`),
-/// written by `tools/embed/embed_packs_test.dart` with the bundled
-/// embedding model. Layout (little-endian): magic `OGV1`, dim (u16),
-/// reserved (u16), count (u32), then per section in pack order: a hash of
-/// its text (u32) and the L2-normalized vector as int8 (value × 127).
-/// The hash lets the installer skip stale vectors instead of attaching
-/// them to the wrong section.
+/// Two `.vec` files per pack (`assets/packs/vectors/<pack>.vec` for
+/// sections, `<pack>.docs.vec` for documents), written by
+/// `tools/embed/embed_packs_test.dart` with the bundled embedding model.
+/// Layout (little-endian): magic `OGV1`, dim (u16), reserved (u16), count
+/// (u32), then per entry in pack order: a hash of its text (u32) and the
+/// L2-normalized vector as int8 (value × 127). The hash lets the installer
+/// skip stale vectors instead of attaching them to the wrong section.
 abstract final class PassageVectors {
-  static const dim = 384;
+  /// bge-base-en-v1.5 output size.
+  static const dim = 768;
   static const _magic = 0x3156474F; // "OGV1" as a little-endian u32
 
-  /// Instruction prefix the embedding model (bge-small-en-v1.5) expects on
+  /// Instruction prefix the embedding model (bge-base-en-v1.5) expects on
   /// search queries, not on passages.
   static const queryPrefix =
       'Represent this sentence for searching relevant passages: ';
@@ -38,10 +40,21 @@ abstract final class PassageVectors {
   /// ~300 tokens: safely inside the model's 512-token window.
   static const maxChars = 1200;
 
+  /// What is embedded for a document as a whole: its title and the
+  /// plain-language aliases that say what it answers.
+  static String docText(String title, String aliases) =>
+      aliases.isEmpty ? title : '$title. $aliases';
+
   /// FNV-1a over the section text.
-  static int sectionHash(String heading, String body) {
+  static int sectionHash(String heading, String body) =>
+      hashOf('$heading\n$body');
+
+  static int docHash(String title, String aliases) =>
+      hashOf(docText(title, aliases));
+
+  static int hashOf(String text) {
     var h = 0x811c9dc5;
-    for (final b in utf8.encode('$heading\n$body')) {
+    for (final b in utf8.encode(text)) {
       h ^= b;
       h = (h * 0x01000193) & 0xffffffff;
     }

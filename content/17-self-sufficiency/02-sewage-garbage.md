@@ -1,5 +1,6 @@
 # Sewage and Garbage Disposal: Septic Tanks, Privies and Trash (USDA Farmers' Bulletin 1950, 1946)
 Source: https://www.gutenberg.org/ebooks/62605
+Aliases: septic tank, how a septic tank works, build a septic tank, concrete septic tank, septic drain field, septic tank maintenance, septic tank problems, septic tank freezing, grease trap, cesspool, outhouse, privy, how to build an outhouse, pit toilet, chemical toilet, composting toilet alternative, garbage disposal no service, burning trash, burying garbage, sewage disposal rural, protect well from sewage, drain cleaner septic, wastewater without sewer, no sewer system, septic site selection
 
 ## Characteristics Of Sewage
 Household sewage ordinarily consists principally of human excrement, toilet paper, garbage, dish water, and other wash water from the various plumbing fixtures and floor drains.

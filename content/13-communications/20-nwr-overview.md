@@ -1,5 +1,6 @@
 # NOAA Weather Radio All Hazards: Overview and Frequencies
 Source: https://www.weather.gov/nwr/
+Aliases: weather radio, NOAA weather radio, weather radio frequencies, weather alert radio, emergency alert radio, weather radio channel, 162.400 MHz, how to get weather alerts without internet, radio for storm warnings, weather band radio, hazard alerts by radio, weather radio stations, tornado warning radio, all hazards radio, SAME code weather radio
 
 ## NOAA Weather Radio All Hazards
 NOAA Weather Radio All Hazards (NWR) is a nationwide network of radio stations broadcasting continuous weather information directly from the nearest National Weather Service office. NWR broadcasts official Weather Service warnings, watches, forecasts and other hazard information 24 hours a day, 7 days a week.

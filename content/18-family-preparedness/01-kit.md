@@ -1,5 +1,6 @@
 # Build A Kit
 Source: https://www.ready.gov/kit
+Aliases: bug out bag, go bag, 72 hour kit, emergency kit list, what to put in an emergency kit, disaster supplies kit, emergency supplies checklist, car emergency kit, emergency kit for work, how much water in emergency kit, emergency kit storage, maintaining emergency kit, kit for family, basic emergency supplies, prepper kit, emergency bag, what do I need in a disaster
 
 ## Overview
 After an emergency, you may need to survive on your own for several days. Being prepared means having your own food, water and other supplies to last for several days. A disaster supplies kit is a collection of basic items your household may need in the event of an emergency.

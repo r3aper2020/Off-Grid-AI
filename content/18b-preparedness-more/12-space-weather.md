@@ -1,5 +1,6 @@
 # Space Weather: Geomagnetic Storms and the Power Grid (Ready.gov)
 Source: https://www.ready.gov/space-weather
+Aliases: space weather, solar storm, geomagnetic storm, solar flare power grid, EMP from the sun, carrington event, solar storm blackout, sun knocked out power, GPS not working solar storm, prepare for solar storm, grid down solar flare, space weather alerts, solar storm what to do, power grid failure, coronal mass ejection, after a solar storm, solar storm effects, long power outage from sun
 
 ## Overview
 The term “space weather” refers to the variable conditions on the sun and in space that can influence the performance of technology we use on Earth.

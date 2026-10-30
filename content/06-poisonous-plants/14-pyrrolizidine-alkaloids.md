@@ -1,5 +1,6 @@
 # Pyrrolizidine Alkaloids (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: pyrrolizidine alkaloids, comfrey toxic, comfrey tea liver, poisonous herbs liver damage, herbal tea poisoning, ragwort poisoning, groundsel toxic, honey from toxic plants, contaminated grain weed seeds, liver damage from plants, veno occlusive disease, herbal remedy liver, borage toxic, coltsfoot safe, plant toxins in food, bush tea poisoning
 
 ## 1. Toxin
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

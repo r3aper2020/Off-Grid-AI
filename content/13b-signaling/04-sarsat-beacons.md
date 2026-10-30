@@ -1,5 +1,6 @@
 # 406 MHz Emergency Beacons: PLBs, EPIRBs and ELTs (NOAA SARSAT)
 Source: https://www.sarsat.noaa.gov/emergency-406-beacons/
+Aliases: PLB beacon, personal locator beacon, EPIRB for boats, satellite rescue beacon, SOS beacon, beacon for hiking, emergency beacon boat, how PLB works, register my beacon, 406 beacon, rescue beacon no cell service, garmin inreach vs plb, plane emergency transmitter, ELT aircraft beacon, beacon registration, beacon return link, satellite SOS, old 121.5 beacon
 
 ## Overview
 

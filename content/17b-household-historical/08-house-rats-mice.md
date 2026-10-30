@@ -1,5 +1,6 @@
 # House Rats and Mice: Rat-Proofing, Food Protection and Trapping (USDA Farmers' Bulletin 896, 1917)
 Source: https://www.gutenberg.org/ebooks/35542
+Aliases: rats in house, mice in house, rat proofing, keeping mice out, rat trap, mouse trap, trapping rats, protect food from rats, rats in barn, mouse proof storage, rat damage, cat for mice, dog for rats, ferrets rats, rat infestation, rats in garbage, rats in walls, getting rid of mice, homemade rat trap, barrel trap, pit trap, rodent control
 
 ## Destructive Habits Of House Rats And Mice
 Losses from depredations of house rats amount to many millions of dollars yearly--to more, in fact, than those from all other injurious mammals combined. The common house mouse[1] and the brown rat[2] (fig. 1), too familiar to need description, are pests in nearly all parts of the country; while two other kinds of house rats, known as the black rat[3] and the roof rat,[4] are found within our borders.

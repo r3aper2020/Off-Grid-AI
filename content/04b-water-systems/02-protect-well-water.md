@@ -1,5 +1,6 @@
 # Protect Your Home's Water: Well Testing, Treatment and Flood Response (EPA)
 Source: https://www.epa.gov/privatewells/protect-your-homes-water
+Aliases: well water testing, is my well water safe, well after flood, well water contaminated, well water smells, testing well water, well water treatment, flood and well, shock chlorinate well, well disinfection, well water bacteria, nitrates in well, well pump after flood, protect my well, well water filter, private well, well went bad
 
 ## Overview
 For more information:

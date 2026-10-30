@@ -1,5 +1,6 @@
 # Ciguatoxin (Ciguatera Fish Poisoning) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: fish poisoning from reef fish, ciguatera poisoning, sick after eating barracuda, tropical fish poisoning, hot feels cold after fish, numb lips after fish, grouper snapper poisoning, reef fish safe to eat, which fish cause ciguatera, fish toxin not killed by cooking, food poisoning from fish, tingling after eating fish, amberjack poisoning, caribbean fish illness, big reef fish dangerous, ciguatera symptoms
 
 ## 1. Organism and Toxin
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

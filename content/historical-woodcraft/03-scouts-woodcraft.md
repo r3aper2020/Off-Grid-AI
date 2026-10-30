@@ -1,5 +1,6 @@
 # Woodcraft (Boy Scouts Handbook, 1911)
 Source: https://www.gutenberg.org/ebooks/29558
+Aliases: identifying birds, identifying trees, which mushrooms are safe, edible mushrooms, poisonous toadstools, identifying snakes, identifying reptiles, insects and butterflies, identifying fish, rocks and minerals, north american trees, wild animals, animal tracks, nature identification, woodcraft skills, scouting nature, bird watching, tree identification, mushroom hunting, wildlife identification
 
 ## Woodcraft
 Woodlore

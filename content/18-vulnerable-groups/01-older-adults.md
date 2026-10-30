@@ -1,5 +1,6 @@
 # Older Adults (Ready.gov)
 Source: https://www.ready.gov/older-adults
+Aliases: emergency plan for elderly, seniors disaster preparedness, elderly parent emergency, medication list elderly, older adults emergency kit, mobility emergency plan, support network elderly, social security direct deposit, prepare grandparents disaster, elderly evacuation, seniors emergency, caregiver emergency plan, elderly living alone emergency, hearing aids glasses emergency kit, benefits during disaster, elderly medical equipment power
 
 ## Overview
 As an older adult, you may have specific needs after a disaster. Use the information on this page to assess your needs and take simple, low-cost steps that help you get better prepared.

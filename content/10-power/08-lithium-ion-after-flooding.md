@@ -1,5 +1,6 @@
 # Lithium-Ion Battery Safety After Flooding (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/downloads/pdf/publications/lithium-ion-battery-after-flooding-handout.pdf
+Aliases: flooded electric car, lithium battery got wet, e-bike battery flood, battery fire after flood, battery caught fire, flooded scooter battery, wet lithium ion battery, dispose of flooded battery, saltwater battery fire, laptop in flood, phone battery wet fire, EV after hurricane, battery smoking after water, power tool battery wet
 
 ## Lithium-Ion Battery Safety After Flooding
 Follow these precautions for lithium-ion batteries exposed to flooding.

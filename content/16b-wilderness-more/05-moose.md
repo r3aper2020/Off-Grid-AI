@@ -1,5 +1,6 @@
 # Moose Safety (National Park Service, Wrangell-St. Elias)
 Source: https://www.nps.gov/wrst/planyourvisit/moose-safety.htm
+Aliases: moose attack, moose charging, moose safety, moose on trail, moose with calf, how to avoid moose, moose aggressive signs, moose encounter, run from moose, moose in yard, moose ears back, dog and moose, moose dangerous, moose blocking road, hide behind tree moose, moose in rut
 
 ## Moose Safety
 Visitors to Alaska are often concerned about encountering bears; yet more people each year are injured by moose than by bears.

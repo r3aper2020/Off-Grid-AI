@@ -4,7 +4,7 @@
  "id": "water-sanitation",
  "title": "Water & Sanitation",
  "category": "guide",
- "version": "2026.10.29.3",
+ "version": "2026.10.30.1",
  "publisher": "CDC and U.S. Army (TC 4-02.3)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Making water safe to drink, finding water, storing an emergency supply, and field hygiene and sanitation.",
@@ -15,28 +15,16 @@
    "title": "How to Make Water Safe in an Emergency",
    "sections": [
     {
-     "heading": "Key points",
-     "body": "- After an emergency, your tap water may not be available or safe to use.\n- Use bottled, boiled, or treated water to avoid getting sick.\n- Boiling is the best way to kill germs in water."
-    },
-    {
      "heading": "Overview",
-     "body": "After an emergency or disaster—such as a water main break, hurricane, or flood—you can take steps to make sure you have safe water.\n\nIf you know or suspect your water is unsafe, do not use that water to:\n\n- Drink\n- Wash dishes\n- Brush your teeth\n- Wash or prepare food\n- Wash your hands\n- Make ice\n- Make baby formula\n\nInstead, use bottled, boiled, or treated water for drinking, cooking, and personal hygiene. Follow recommendations from your health department for boiling or treating your water.\n\nAlso consider if there are other sources of safe water in or near your home you could use. Never use water from radiators or boilers that are part of your home heating system for drinking, cooking, or hygiene. This water could make you sick."
+     "body": "**Key points**\n\n- After an emergency, your tap water may not be available or safe to use.\n- Use bottled, boiled, or treated water to avoid getting sick.\n- Boiling is the best way to kill germs in water.\n\nAfter an emergency or disaster—such as a water main break, hurricane, or flood—you can take steps to make sure you have safe water.\n\nIf you know or suspect your water is unsafe, do not use that water to:\n\n- Drink\n- Wash dishes\n- Brush your teeth\n- Wash or prepare food\n- Wash your hands\n- Make ice\n- Make baby formula\n\nInstead, use bottled, boiled, or treated water for drinking, cooking, and personal hygiene. Follow recommendations from your health department for boiling or treating your water.\n\nAlso consider if there are other sources of safe water in or near your home you could use. Never use water from radiators or boilers that are part of your home heating system for drinking, cooking, or hygiene. This water could make you sick."
     },
     {
      "heading": "Overview: Water with fuel or toxic chemicals in it",
      "body": "You cannot make water containing fuel, toxic chemicals, or radioactive materials safe by boiling or disinfecting it. If you know or suspect your water contains fuel or toxic chemicals: 1) Use bottled water or a different source of water 2) Contact your health department for specific advice."
     },
     {
-     "heading": "Boil",
-     "body": "If you don’t have safe bottled water, boil your water to make it safe to drink."
-    },
-    {
      "heading": "Boil: Steps for boiling water",
-     "body": "If the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water and follow the steps below.\n\n- Bring clear water to a rolling boil for 1 minute (at elevations above 6,500 feet, boil for 3 minutes).\n- Let the boiled water cool.\n- Store the boiled water in clean, sanitized containers with tight covers."
-    },
-    {
-     "heading": "Boil: Making boiled water taste better",
-     "body": "Improve the flat taste of boiled water by:\n\n- Pouring it from one container to another and then letting it stand for a few hours\n- Adding a pinch of salt for each quart or liter of boiled water"
+     "body": "If you don’t have safe bottled water, boil your water to make it safe to drink.\n\nIf the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water and follow the steps below.\n\n- Bring clear water to a rolling boil for 1 minute (at elevations above 6,500 feet, boil for 3 minutes).\n- Let the boiled water cool.\n- Store the boiled water in clean, sanitized containers with tight covers.\n\n**Boil: Making boiled water taste better**\n\nImprove the flat taste of boiled water by:\n\n- Pouring it from one container to another and then letting it stand for a few hours\n- Adding a pinch of salt for each quart or liter of boiled water"
     },
     {
      "heading": "Disinfect",
@@ -71,7 +59,8 @@
      "body": "In emergencies, the sun’s rays can improve the quality of your water by reducing the number of germs in it. Solar disinfection does not work well in cloudy water because small particles can block germs from the light.\n\n**Using solar disinfection**\n\nIf the water is cloudy, first filter it through a clean cloth, paper towel, or coffee filter. Another option is to let it settle. Then, draw off the clear water and follow the steps below.\n\n- Fill clean, clear plastic bottles with clear water.\n- Lay the bottles down on their side and in the sun for 6 hours (if sunny) or 2 days (if cloudy). Laying the bottles down allows the sun’s rays to kill more germs in the water. You can also lay the bottles on a dark surface to help the sun's rays kill more germs."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/water-emergency/about/index.html"
+   "sourceUrl": "https://www.cdc.gov/water-emergency/about/index.html",
+   "aliases": "is my water safe to drink, how to purify water, boil water how long, boiling water to make it safe, bleach to purify water, how much bleach per gallon, water purification tablets, iodine tablets water, water filter emergency, filter then boil, make tap water safe, boil water notice, UV water purifier, solar water disinfection, water tastes flat after boiling, water with chemicals in it, contaminated water after flood, disinfect water, drinking water emergency, cloudy water purify, well water after flood"
   },
   {
    "title": "How to Find Clean Water in an Emergency",
@@ -90,14 +79,11 @@
     },
     {
      "heading": "Outside the home",
-     "body": "Rivers, streams, and lakes might be contaminated with livestock waste, human sewage, chemicals, and other contaminants. Using contaminated water for drinking, bathing, and other hygiene activities can make you sick. During flood events, well water might also be contaminated.\n\nWater from sources outside the home must be treated to kill harmful germs as described in Make Water Safe in an Emergency. If you suspect or know the water is contaminated with toxic chemicals or fuels, it cannot be made safe and you should not drink or bathe in this water.\n\nPossible sources of water that could be made safe by treatment include:\n\n- Rainwater\n- Streams, rivers, and other moving bodies of water\n- Ponds and lakes\n- Natural springs"
-    },
-    {
-     "heading": "Outside the home: Safety alert",
-     "body": "Do not use water that has been contaminated by fuel or toxic chemicals.\n\nDrinking Water Advisories\n\nNational Center for Environmental Health"
+     "body": "Rivers, streams, and lakes might be contaminated with livestock waste, human sewage, chemicals, and other contaminants. Using contaminated water for drinking, bathing, and other hygiene activities can make you sick. During flood events, well water might also be contaminated.\n\nWater from sources outside the home must be treated to kill harmful germs as described in Make Water Safe in an Emergency. If you suspect or know the water is contaminated with toxic chemicals or fuels, it cannot be made safe and you should not drink or bathe in this water.\n\nPossible sources of water that could be made safe by treatment include:\n\n- Rainwater\n- Streams, rivers, and other moving bodies of water\n- Ponds and lakes\n- Natural springs\n\n**Outside the home: Safety alert**\n\nDo not use water that has been contaminated by fuel or toxic chemicals.\n\nDrinking Water Advisories\n\nNational Center for Environmental Health"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html"
+   "sourceUrl": "https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html",
+   "aliases": "where to find water, water sources in house, water heater water, toilet tank water, no running water, emergency water sources, drinking from a stream, is this water safe, water outside the house, collecting rainwater, pool water drinking, water after disaster, boil water notice, finding drinking water, water from pipes, ice cubes as water, melting snow for water"
   },
   {
    "title": "How to Create an Emergency Water Supply",
@@ -120,19 +106,11 @@
     },
     {
      "heading": "Choosing a container",
-     "body": "If you are filling containers with water to store, it is best to use FDA-approved food-grade water storage containers. They can be found at surplus or camping supply stores. Contact the storage container manufacturer if you are not sure whether the container is food-grade.\n\nIf you are not able to use a food-grade water storage container, be sure the container you choose:\n\n- Has a top that can be closed tightly.\n- Is made of durable, unbreakable materials (not glass).\n- Has a narrow neck or opening, if possible, so you can pour water out of it."
-    },
-    {
-     "heading": "Choosing a container: Don't use unsafe containers",
-     "body": "Do not use containers that were previously used to hold liquid or solid toxic chemicals, such as bleach or pesticides."
-    },
-    {
-     "heading": "Cleaning the container before use",
-     "body": "Before filling with water, follow these steps to clean and sanitize water storage containers:"
+     "body": "If you are filling containers with water to store, it is best to use FDA-approved food-grade water storage containers. They can be found at surplus or camping supply stores. Contact the storage container manufacturer if you are not sure whether the container is food-grade.\n\nIf you are not able to use a food-grade water storage container, be sure the container you choose:\n\n- Has a top that can be closed tightly.\n- Is made of durable, unbreakable materials (not glass).\n- Has a narrow neck or opening, if possible, so you can pour water out of it.\n\n**Choosing a container: Don't use unsafe containers**\n\nDo not use containers that were previously used to hold liquid or solid toxic chemicals, such as bleach or pesticides."
     },
     {
      "heading": "Cleaning the container before use: Steps to take",
-     "body": "- Wash\n- Wash the storage container with soap and rinse completely with water.\n- Sanitize\n- Sanitize the container with a solution made by mixing 1 teaspoon of unscented liquid household chlorine bleach in 1 quart (4 cups) of water. Use bleach that contains 5%–9% sodium hypochlorite.\n- Cover and shake\n- Cover the container tightly and shake it well. Make sure the sanitizing bleach solution touches all inside surfaces of the container.\n- Wait\n- Wait at least 30 seconds and then pour the sanitizing solution out of the container.\n- Dry\n- Let the empty container air-dry before use.\n- Fill\n- Pour clean water into the sanitized container and cover it with a tight lid."
+     "body": "Before filling with water, follow these steps to clean and sanitize water storage containers:\n\n- Wash\n- Wash the storage container with soap and rinse completely with water.\n- Sanitize\n- Sanitize the container with a solution made by mixing 1 teaspoon of unscented liquid household chlorine bleach in 1 quart (4 cups) of water. Use bleach that contains 5%–9% sodium hypochlorite.\n- Cover and shake\n- Cover the container tightly and shake it well. Make sure the sanitizing bleach solution touches all inside surfaces of the container.\n- Wait\n- Wait at least 30 seconds and then pour the sanitizing solution out of the container.\n- Dry\n- Let the empty container air-dry before use.\n- Fill\n- Pour clean water into the sanitized container and cover it with a tight lid."
     },
     {
      "heading": "Storing the water",
@@ -143,7 +121,8 @@
      "body": "Tips for taking water out of the container:\n\n- If using a scoop or other device, use a clean one each time you remove water from the container to avoid contaminating the water.\n- Do not to touch the water or insides of the container with your hands.\n- Do not scoop out water with your hands."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+   "sourceUrl": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+   "aliases": "how to store water, how much water to store, emergency water supply, water storage containers, storing water long term, how long does stored water last, water per person per day, cleaning water containers, bottled water shelf life, store water in milk jugs, where to store water, water for emergencies, rotate stored water, tap water storage, safe water containers, treat water before storing"
   },
   {
    "title": "Field Hygiene: Disease Prevention, Waste and Heat/Cold Injury (TC 4-02.3)",
@@ -213,11 +192,7 @@
     },
     {
      "heading": "Individual Preventive Medicine Measures: ORAL HYGIENE",
-     "body": "2-16. The issue of oral hygiene is a readiness issue. Soldiers who fail to maintain a vigorous oral hygiene regimen can quickly become nondeployable. When neglected bacteria in the mouth use starches and sugar to produce acids that can quickly result in gingivitis and tooth decay. Not brushing for just a few days can cause inflammation of the gums and result in irritated and bleeding gums. If gum disease already exists, it can quickly become worse. To prevent tooth decay and gum disease Soldiers must maintain good oral hygiene practices at all times by—  Flossing their teeth.  Brushing their teeth."
-    },
-    {
-     "heading": "Individual Preventive Medicine Measures: FLOSSING",
-     "body": "2-17. Flossing is important because it removes food particles from between the teeth and under the gums where brushing cannot reach. Soldiers should floss at least once per day."
+     "body": "2-16. The issue of oral hygiene is a readiness issue. Soldiers who fail to maintain a vigorous oral hygiene regimen can quickly become nondeployable. When neglected bacteria in the mouth use starches and sugar to produce acids that can quickly result in gingivitis and tooth decay. Not brushing for just a few days can cause inflammation of the gums and result in irritated and bleeding gums. If gum disease already exists, it can quickly become worse. To prevent tooth decay and gum disease Soldiers must maintain good oral hygiene practices at all times by—  Flossing their teeth.  Brushing their teeth.\n\n**Individual Preventive Medicine Measures: FLOSSING**\n\n2-17. Flossing is important because it removes food particles from between the teeth and under the gums where brushing cannot reach. Soldiers should floss at least once per day."
     },
     {
      "heading": "Individual Preventive Medicine Measures: BRUSHING",
@@ -300,7 +275,8 @@
      "body": "2-61. Sleep deprivation degrades performance and leads to errors in judgment. Quality sleep is essential to sustain performance, and performance is critical to the successful outcome of operations.\n\n2-62. Seven to eight hours of sleep in each 24-hour period will sustain performance indefinitely. Sleep periods do not need to be taken all at one time, they can be divided into two or more sleep periods (including naps) per 24-hour time period as long as seven or more hours of sleep is obtained.\n\n2-63. Naps also add to recuperative sleep time. A nap boosts both immediate and long-term performance.\n\nThe benefits of a short nap are evident for up to two days after the nap.\n\n2-64. Performance will be degraded with less than eight hours of sleep every 24-hours. Less than seven hours of sleep within every 24-hour period will result in stabilizing performance at a lower level, and less than four hours of sleep in every 24 hours will degrade performance continuously and rapidly with no stabilization.\n\n2-65. To the extent possible, sleep in a quiet, undisturbed environment away from other activity and protected from wake up and wait intrusions. Sleeping in noisy active environments with frequent awakenings is far less restorative.\n\n2-66. When working on limited or no sleep, caffeine in doses of 200 to 300 milligrams (the equivalent of two to three cups of coffee) every three to four hours will improve performance. Sleep, like fuel, ammunition, food, and water is necessary to sustain performance. It is a command responsibility to ensure all personnel get adequate restorative sleep. Refer to FM 6-22.5.\n\nThis page intentionally left blank."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc4_02x3.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc4_02x3.pdf",
+   "aliases": "staying clean camping, washing without a shower, how to dig a latrine, camp toilet, hand washing no running water, laundry by hand, brushing teeth in the field, foot care, mosquito bed net, garbage disposal off grid, preventing disease in camp, heat injury prevention, cold injury prevention, bugs and rodents disease, sleep deprivation, hygiene without water, outhouse digging, lice prevention, athletes foot prevention, hearing protection noise, cat hole, where to go to the bathroom camping, staying healthy in the field"
   }
  ]
 }

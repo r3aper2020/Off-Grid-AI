@@ -1,5 +1,6 @@
 # Medical Devices in Power Outages and Natural Disasters (FDA)
 Source: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters
+Aliases: medical device power outage, oxygen concentrator no power, CPAP during power outage, ventilator power outage, power dependent medical equipment, backup power medical device, generator for medical equipment, medical devices after flood, medical device got wet, sterile supplies after flood, reuse medical devices, glucose meter heat humidity, blood glucose meter accuracy hot, medical devices in heat, nebulizer no power, medical equipment disaster, carbon monoxide medical generator
 
 ## General Safety
 - Keep your device and supplies clean and dry.

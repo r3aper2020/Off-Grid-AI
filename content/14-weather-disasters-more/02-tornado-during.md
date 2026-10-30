@@ -1,5 +1,6 @@
 # What to Do During a Tornado (NWS)
 Source: https://www.weather.gov/safety/tornado-during
+Aliases: tornado what to do, tornado warning now, where to hide in a tornado, tornado in a car, tornado in mobile home, tornado no basement, tornado at school or work, tornado outside no shelter, tornado safety, bathroom or closet tornado, overpass tornado, tornado in apartment, protect head tornado, tornado coming, tornado in a store
 
 ## Overview
 

@@ -1,5 +1,6 @@
 # Preventing Hypothermia
 Source: https://www.cdc.gov/winter-weather/prevention/index.html
+Aliases: hypothermia signs, too cold shivering, body temperature dropping, hypothermia what to do, warming someone up, cold water immersion, stopped shivering, confused and cold, hypothermia in elderly, baby too cold, hypothermia treatment at home, how to prevent hypothermia, wet and cold, mild hypothermia, cold exposure, rewarming a cold person, hypothermia no doctor, frostbite and hypothermia
 
 ## Key points
 - Hypothermia (abnormally low body temperature) is a dangerous condition that can happen when a person is exposed to extremely cold temperatures.

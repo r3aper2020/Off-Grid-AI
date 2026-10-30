@@ -1,5 +1,6 @@
 # Sowing and Planting (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: when to plant seeds outside, how deep to plant seeds, sowing seeds in garden, transplanting seedlings, starting seeds, planting dates spring, how to thin seedlings, setting out plants, hardening off plants, seed sowing methods, planting a vegetable garden, rows vs hills, after planting care, watering new transplants, when to sow vegetables, seed germination garden, frost date planting, seeds not coming up
 
 ## Sowing And Planting
 The importance of having good seeds has already been declared. They must not only grow, but grow into what we have bought them for--be true to name. Without the latter quality we cannot be sure of good gardens, and without the former they will not be full ones. A meagre "stand" from seeds properly sown is a rather exasperating and discouraging experience to encounter. The cost for fertilizing and preparing the land is just as much, and the cost of cultivating very nearly as much, when the rows are full of thrifty plants or strung out with poor ones. Whether you use ten cents' worth or ten dollars' worth, the best seed to be had will be the most economical to buy--to say nothing of the satisfaction that full rows give.

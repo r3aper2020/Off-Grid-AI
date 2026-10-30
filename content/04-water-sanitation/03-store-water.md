@@ -1,5 +1,6 @@
 # How to Create an Emergency Water Supply
 Source: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
+Aliases: how to store water, how much water to store, emergency water supply, water storage containers, storing water long term, how long does stored water last, water per person per day, cleaning water containers, bottled water shelf life, store water in milk jugs, where to store water, water for emergencies, rotate stored water, tap water storage, safe water containers, treat water before storing
 
 ## Key points
 - During a water-related emergency or outbreak, safe drinking water may not be available.

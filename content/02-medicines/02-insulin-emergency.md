@@ -1,5 +1,6 @@
 # Insulin Storage and Switching Between Products in an Emergency (FDA)
 Source: https://www.fda.gov/drugs/emergency-preparedness-drugs/information-regarding-insulin-storage-and-switching-between-products-emergency
+Aliases: insulin without refrigeration, insulin storage power outage, how long does insulin last unrefrigerated, insulin got warm, insulin left out, insulin in the heat, keeping insulin cool no fridge, switching insulin brands, ran out of my insulin type, different insulin than usual, insulin pump in emergency, insulin pump failure, diabetic in a disaster, insulin frozen, insulin expired emergency, diabetes supplies emergency
 
 ## Overview
 Insulin for Injection | Insulin Switching | Insulin Mixes | Insulin Pumps

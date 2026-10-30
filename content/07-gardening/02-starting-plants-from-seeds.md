@@ -1,5 +1,6 @@
 # Starting Plants From Seeds (USDA Agriculture Fact Sheet 8-9-1, 1977)
 Source: https://archive.org/download/CAT31376174/CAT31376174.pdf
+Aliases: starting seeds indoors, how to start seeds, seed starting mix, seedlings dying off, damping off, transplanting seedlings, hardening off plants, when to plant seedlings outside, seed trays and containers, sterilize potting soil, growing seedlings in window, leggy seedlings, how deep to plant seeds, seed starting for garden, germinating seeds, choosing seeds
 
 ## Overview
 

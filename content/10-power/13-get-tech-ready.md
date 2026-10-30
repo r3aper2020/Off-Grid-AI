@@ -1,5 +1,6 @@
 # Get Tech Ready: Keeping Phones and Devices Powered (Ready.gov)
 Source: https://www.ready.gov/get-tech-ready
+Aliases: keep phone charged in outage, charge phone without power, power bank for emergency, phone battery during blackout, backup charger, emergency alerts on phone, text instead of call emergency, solar phone charger, car charger for phone, save phone battery outage, devices powered during storm, sign up for emergency alerts, phone ready for disaster, store important documents on phone, cell service down what to do, charge phone in car, battery saver mode
 
 ## Overview
 Technology has made it easier than ever to prepare for emergencies, but it can be unreliable in an emergency if you haven’t kept your gadgets protected and powered up. Here are some tips to make sure you are tech ready:

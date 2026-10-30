@@ -32,9 +32,11 @@ PassageHit hit(
 );
 
 class RecordingEngine implements InferenceEngine {
-  RecordingEngine(this.reply);
+  RecordingEngine(this.reply, {this.rewrite});
   final String reply;
+  final String? rewrite;
   List<ChatTurn>? history;
+  List<ChatTurn>? rewriteRequest;
 
   @override
   Future<EngineStatus> status() async => const EngineReady('fake');
@@ -46,6 +48,12 @@ class RecordingEngine implements InferenceEngine {
       GenerationToken(reply),
       const GenerationDone(),
     ]);
+  }
+
+  @override
+  Future<String?> complete(List<ChatTurn> turns, {int maxTokens = 64}) async {
+    rewriteRequest = turns;
+    return rewrite;
   }
 
   @override
@@ -142,6 +150,40 @@ void main() {
       expect(Grounding.select([huge, hit(2, 'Next', 'n')]).first, huge);
     });
 
+    test('parseRewrites keeps clean, distinct queries', () {
+      final q = Grounding.parseRewrites(
+        '1. "lost in the woods what to do first"\n'
+            '- staying warm overnight without a tent\n'
+            'Queries:\n'
+            "I'm lost in the woods\n"
+            'a\n'
+            'emergency shelter overnight\n'
+            'a fourth query here',
+        "I'm lost in the woods",
+      );
+      expect(q, [
+        'lost in the woods what to do first',
+        'staying warm overnight without a tent',
+        'emergency shelter overnight',
+      ]);
+      expect(Grounding.parseRewrites(null, 'x'), isEmpty);
+    });
+
+    test('rewriteTurns sends the rewrite rules and the latest exchange', () {
+      final turns = Grounding.rewriteTurns(const [
+        ChatTurn(ChatSpeaker.system, 'cite rules'),
+        ChatTurn(ChatSpeaker.user, 'old'),
+        ChatTurn(ChatSpeaker.assistant, 'old answer'),
+        ChatTurn(ChatSpeaker.user, 'bleeding leg'),
+        ChatTurn(ChatSpeaker.assistant, 'use a tourniquet'),
+        ChatTurn(ChatSpeaker.user, "what if I don't have one?"),
+      ]);
+      expect(turns.first.text, Grounding.rewriteInstruction);
+      expect(turns.map((t) => t.text), isNot(contains('old')));
+      expect(turns[1].text, 'bleeding leg');
+      expect(turns.last.text, contains("what if I don't have one?"));
+    });
+
     test('citedNumbers finds bracketed numbers in order of first use', () {
       expect(Grounding.citedNumbers('Do A [2]. Then B [1][2]. Not [x].'), [
         2,
@@ -162,8 +204,11 @@ void main() {
     });
     tearDown(() => db.close());
 
-    Future<(ProviderContainer, RecordingEngine)> run(String question) async {
-      final engine = RecordingEngine('Boil it first [1].');
+    Future<(ProviderContainer, RecordingEngine)> run(
+      String question, {
+      String? rewrite,
+    }) async {
+      final engine = RecordingEngine('Boil it first [1].', rewrite: rewrite);
       final c = ProviderContainer(
         overrides: [
           databaseProvider.overrideWithValue(db),
@@ -197,6 +242,19 @@ void main() {
       final reply = (await db.select(db.messages).get()).last;
       expect(reply.citations, '[]');
       expect(engine.history!.first.text, Grounding.noSourceInstruction);
+    });
+
+    test('the model\'s rewrites widen the search', () async {
+      // The user's words match nothing; the rewrite names the topic.
+      final (_, engine) = await run(
+        'is it ok to drink it straight?',
+        rewrite: 'boiling water before drinking\nstoring water',
+      );
+      final reply = (await db.select(db.messages).get()).last;
+      final ids = (jsonDecode(reply.citations!) as List).cast<int>();
+      final cited = await KnowledgeSearch(db).byIds(ids);
+      expect(cited.map((h) => h!.heading), contains('Boiling water'));
+      expect(engine.rewriteRequest!.first.text, Grounding.rewriteInstruction);
     });
 
     test('greetings and thanks get a plain reply, no library lookup', () async {

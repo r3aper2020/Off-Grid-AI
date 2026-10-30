@@ -1,5 +1,6 @@
 # Stopping Severe Bleeding (ATP 4-02.11 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: how to use a tourniquet, where to put a tourniquet, tourniquet how tight, improvised tourniquet belt, wound packing, pack a wound with gauze, hemostatic gauze quikclot, pressure dressing, pressure bandage, stop bleeding from leg or arm, bleeding from groin or armpit, junctional bleeding, neck wound bleeding, bleeding wont stop with pressure, how to find a pulse, carotid femoral radial pulse, massive bleeding, gunshot wound bleeding, stab wound bleeding, blood loss how much is too much, how long can a tourniquet stay on
 
 ## Massive Bleeding Control: OVERVIEW OF MASSIVE BLEEDING CONTROL
 **Chapter 4**

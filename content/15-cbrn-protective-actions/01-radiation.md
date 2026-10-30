@@ -1,5 +1,6 @@
 # Radiation Emergencies (Ready.gov)
 Source: https://www.ready.gov/radiation
+Aliases: radiation emergency, nuclear plant accident, dirty bomb, radiation exposure, get inside stay inside, radiation what to do, potassium iodide, iodine pills, nuclear fallout, radiation kit, radiation after explosion, decontaminate radiation, shower after radiation, radiation safe room, radiation alert, nuclear explosion nearby, radioactive dust
 
 ## Overview
 There are different types of radiation emergencies that vary in how much damage they cause and harm they pose to the public. Some examples of radiation emergencies include: a nuclear detonation (explosion), an accident at a nuclear power plant, a transportation accident involving a shipment of radioactive materials, or an occupational exposure like in a healthcare or research setting. While the extent of the damage will vary, the steps to protect yourself from radiation are the same. You can keep your family safe by knowing what to do and being prepared if an incident occurs. Follow these simple steps:

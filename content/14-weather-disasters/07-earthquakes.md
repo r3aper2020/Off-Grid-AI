@@ -1,5 +1,6 @@
 # Earthquakes
 Source: https://www.ready.gov/earthquakes
+Aliases: earthquake, what to do in an earthquake, drop cover hold on, earthquake safety, earthquake in bed, earthquake in a car, earthquake in wheelchair, earthquake with a walker or cane, earthquake prepare home, secure furniture earthquake, after an earthquake, aftershocks, earthquake gas leak, earthquake kit, earthquake near coast tsunami, earthquake drill, strap water heater, earthquake inside building, earthquake outside
 
 ## Overview
 If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov or call the FEMA Helpline at 1-800-621-3362.

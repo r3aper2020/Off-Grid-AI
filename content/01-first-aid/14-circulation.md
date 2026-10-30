@@ -1,5 +1,6 @@
 # Circulation and Shock (ATP 4-02.11 Ch. 7)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: signs of shock, how to treat shock, stop severe bleeding, pressure bandage, tourniquet how to, legs raised for shock, pale cold clammy skin, bleeding wont stop, anaphylactic shock epipen, allergic reaction swelling throat, broken pelvis, wound packing, direct pressure on wound, should I give water to injured person, hemorrhage control, losing lots of blood, severe allergic reaction, how to stop bleeding fast, gunshot wound bleeding
 
 ## Circulation Control: OVERVIEW OF CIRCULATION CONTROL
 **Chapter 7**

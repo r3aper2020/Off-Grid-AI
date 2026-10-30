@@ -1,5 +1,6 @@
 # Cardiac Arrest: Emergency Treatment, CPR and AEDs (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/cardiac-arrest/treatment
+Aliases: cardiac arrest, heart stopped, no pulse, CPR steps, hands only CPR, how to do CPR, chest compressions, AED use, collapsed not breathing, sudden collapse, CPR on adult, how fast to push chest, restart heart, CPR until help arrives, defibrillator at home, CPR training, person unresponsive
 
 ## Overview
 A cardiac arrest is fatal unless treatment begins immediately. Most cardiac arrests occur outside of hospitals. This means that emergency care of the affected person depends on family, friends, or people in the community.

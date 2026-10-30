@@ -1,5 +1,6 @@
 # Expiration Dating Extension (FDA)
 Source: https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/expiration-dating-extension
+Aliases: expired medicine, can I use expired medication, do drugs expire, how long past expiration date, shelf life extension program, FDA expiration extension, expired pills still work, stockpiled medicine expiry, is expired medicine safe, epipen expired, medicine expiration dates, emergency use of expired drugs, extending drug shelf life
 
 ## Overview
 To help prepare for public health emergencies, medical countermeasures (MCMs) may be stockpiled by governments and even by some private sector partners.

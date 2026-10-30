@@ -1,5 +1,6 @@
 # Power Outages
 Source: https://www.ready.gov/power-outages
+Aliases: power outage, power is out what do I do, blackout at home, lights out, generator safety, generator indoors, carbon monoxide generator, food during power outage, medical equipment needs power, keeping warm without power, keep cool without power, power outage supplies, oxygen machine power outage, flashlight instead of candles, after power comes back, unplug during outage, no electricity, extended blackout
 
 ## Overview
 Extended power outages may impact the whole community and the economy. A power outage is when the electrical power goes out unexpectedly.

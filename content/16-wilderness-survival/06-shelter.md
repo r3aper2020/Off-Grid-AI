@@ -1,5 +1,6 @@
 # Shelter and Clothing (ATP 3-50.21 Ch. 6)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: building a shelter, survival shelter, lean to, poncho shelter, tarp shelter, a frame shelter, debris hut, snow cave, tree pit shelter, swamp bed, desert shelter, where to build shelter, shelter site, staying warm at night, insulation bedding, natural shelter cave, raised bed shelter, keeping dry outdoors, shelter from wind, shelter in woods, quick shelter, emergency shelter outside, staking a tarp, tie off tarp
 
 ## Shelter and Clothing
 **Chapter 6**

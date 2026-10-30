@@ -1,5 +1,6 @@
 # Survival Overview and Psychology (ATP 3-50.21 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: survival basics, survival mindset, survival psychology, panic when lost, keep calm in survival, will to survive, survival priorities, what matters first survival, fear and stress in the wild, survival stressors, positive attitude survival, prepare mentally for survival, survival pattern, survival planning, how to survive in the wild, what to do first when stranded, survival rule of threes, survival medicine basics, survival overview, stay alive wilderness
 
 ## Overview
 **Chapter 1**

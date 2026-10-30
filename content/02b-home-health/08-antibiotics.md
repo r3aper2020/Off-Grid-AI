@@ -1,5 +1,6 @@
 # When and How to Use Antibiotics (FDA)
 Source: https://www.fda.gov/consumers/consumer-updates/know-when-and-how-use-antibiotics-and-when-skip-them
+Aliases: do I need antibiotics, antibiotics for cold or flu, stop antibiotics early, leftover antibiotics, antibiotic resistance, when antibiotics work, viral vs bacterial infection, take all antibiotics, sharing antibiotics, antibiotics for sinus infection, old antibiotics safe, how to take antibiotics, antibiotics for virus, when to use antibiotics, finished feeling better stop pills, antibiotics side effects
 
 ## Overview
 Antibiotics are powerful medications that save countless lives every day. But they’re not the answer for every illness.

@@ -1,5 +1,6 @@
 # Lithium-Ion and Other Battery Fire Safety (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/
+Aliases: lithium battery fire, battery caught fire, charging battery safely, phone battery swelling, swollen battery what to do, e bike battery fire, scooter battery fire, battery overheating, charging overnight safe, battery safety tips, damaged battery dispose, battery fire how to put out, power bank fire, lithium ion safety, battery storage, charging in the sun, laptop battery hot
 
 ## Overview
 Lithium-ion batteries and other types of batteries present fire dangers if community residents don't follow product instructions when using, storing or disposing of them.

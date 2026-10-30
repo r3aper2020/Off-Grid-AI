@@ -1,5 +1,6 @@
 # Roof Systems and Roof Coverings (TM 3-34.47 Ch. 7)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: how to frame a roof, rafters, roof pitch, cut rafters, roof trusses, build a truss, roof framing basics, hip roof valley roof, roof sheathing decking, how to shingle a roof, asphalt shingles install, roll roofing, roof flashing, flashing around chimney, reroofing over old shingles, roof leak repair, roof underlayment, ridge cap shingles, valley flashing, shed roof, metal roofing, roof repair after storm, building a roof, patching a roof
 
 ## Roof Systems and Coverings
 **Chapter 7**

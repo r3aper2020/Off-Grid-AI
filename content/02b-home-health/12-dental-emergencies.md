@@ -1,5 +1,6 @@
 # Dental Emergencies in Your Home (Indian Health Service)
 Source: https://www.ihs.gov/doh/documents/centers/abq/DentalEmergMagnets_PORTAL.pdf
+Aliases: toothache what to do, knocked out tooth, broke a tooth, tooth pain no dentist, bit my tongue bleeding, cut lip, something stuck between teeth, broken jaw, save a knocked out tooth in milk, chipped tooth, dental emergency at home, tooth abscess pain, lost a filling, cracked tooth, jaw pain after hit, mouth injury, popcorn stuck in gums, tooth pain relief
 
 ## Dental emergencies in your home
 DENTAL EMERGENCIES - In Your Home

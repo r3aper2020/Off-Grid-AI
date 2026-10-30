@@ -1,5 +1,6 @@
 # Home Fires: Facts for Kids (Ready.gov Kids)
 Source: https://www.ready.gov/kids/disaster-facts/home-fires
+Aliases: fire safety for kids, teach kids about fire, house fire kids, what is fire, fire words for kids, kids fire escape, smoke alarm for kids, fire drill kids, children fire safety, how fast fire spreads, kids what to do in a fire, fire facts children, home fire kids guide, stop drop and roll, explain fire to a child
 
 ## Overview
 Home fires can be dangerous, but knowing what to do can help keep you and your family safe. Fires can start quickly and spread fast, so it’s important to have a plan. Learn how to prevent fires, what to do if one happens, and how to stay safe with these important fire safety tips.

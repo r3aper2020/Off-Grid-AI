@@ -1,5 +1,6 @@
 # Solar Photovoltaic System Design Basics: Mounting, Inverters and Storage (DOE)
 Source: https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics
+Aliases: solar panel system design, home solar basics, solar panels on roof or ground, solar mounting, solar inverter, string inverter vs microinverter, solar battery storage, off grid solar, solar with batteries, grid tied solar, solar panel setup, how solar works at home, solar energy storage, battery backup solar, solar system parts, planning a solar system, DIY solar power, solar during outage
 
 ## Overview
 Solar photovoltaic modules are where the electricity gets generated, but are only one of the many parts in a complete photovoltaic (PV) system. In order for the generated electricity to be useful in a home or business, a number of other technologies must be in place.

@@ -1,5 +1,6 @@
 # 5 Action Steps to Help Someone Having Thoughts of Suicide (NIMH)
 Source: https://www.nimh.nih.gov/health/publications/5-action-steps-for-helping-someone-in-emotional-pain
+Aliases: someone is suicidal, friend wants to kill themselves, how to help someone suicidal, what to say to someone suicidal, suicide warning signs, talking about suicide, keep them safe, suicide hotline, 988 lifeline, thoughts of suicide, help someone in crisis, mental health crisis, feeling hopeless, be there for someone, ask about suicide directly, follow up after crisis
 
 ## Overview
 

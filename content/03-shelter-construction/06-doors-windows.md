@@ -1,5 +1,6 @@
 # Doors and Windows (TM 3-34.47 Ch. 8)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: hanging a door, installing a door, door frame, door jamb, which way door swings, door hinges, installing a lock, door knob installation, window installation, window frame, window sash, making a screen door, window screens, replacing screen mesh, door stop, door trim, building a door from scratch, homemade door, awning over door, exterior door, interior door
 
 ## Doors and Windows
 **Chapter 8**

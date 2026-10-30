@@ -1,5 +1,6 @@
 # The Ten Essentials (National Park Service)
 Source: https://www.nps.gov/articles/10essentials.htm
+Aliases: ten essentials, what to pack for a hike, day hike gear, hiking checklist, hiking essentials, what to bring hiking, day pack list, hiking kit, must have hiking gear, hiking safety gear, backpacking basics, trail essentials, outdoor packing list, hiking preparation, emergency hiking items
 
 ## Overview
 Heading out to a national park? Make sure you pack the 10 Essentials! The 10 Essentials are a collection of important items that can help you or others in the event of minor injuries, sudden weather changes, or unexpected emergencies. The 10 Essentials include basic items you should have with you. You may need additional items depending on the activity in which you participate (i.e., life jacket, bug spray, 2-way satellite messaging device). Visit the specific park's website to learn more about the park and make a plan for your activity before you head out. Be sure to tell someone where you’re going and when to expect you back.

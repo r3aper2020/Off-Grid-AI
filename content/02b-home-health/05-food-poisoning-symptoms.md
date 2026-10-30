@@ -1,5 +1,6 @@
 # Food Poisoning: Symptoms and When to Seek Care (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/digestive-diseases/food-poisoning/symptoms-causes
+Aliases: food poisoning, got sick from food, vomiting after eating, food poisoning symptoms, how long does food poisoning last, salmonella e coli symptoms, norovirus, travelers diarrhea, food poisoning when to go to hospital, food poisoning in kids, food poisoning dehydration, bad food stomach cramps, ate spoiled food, food poisoning fever, botulism signs, parasites from food, chemical food poisoning, bloody diarrhea after eating, mushroom or shellfish poisoning
 
 ## What are the symptoms of food poisoning?
 Common symptoms of food poisoning include

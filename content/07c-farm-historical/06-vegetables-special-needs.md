@@ -1,5 +1,6 @@
 # The Vegetables and Their Special Needs (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: how to grow beets, growing carrots, growing onions, growing potatoes, growing turnips, growing radishes, growing leeks, growing cabbage, growing lettuce, growing spinach, growing asparagus, growing celery, growing kale, growing rhubarb, growing beans, growing corn, growing cucumbers, growing eggplant, growing melons, growing tomatoes, growing squash, growing peppers, vegetable planting guide, when to plant vegetables, vegetable spacing
 
 ## The Vegetables And Their Special Needs
 The garden vegetables may be considered in three groups, in each of which the various varieties are given somewhat similar treatment: the root crops, such as beets and carrots; the leaf crops, such as cabbage and lettuce; the fruit crops, such as melons and tomatoes.

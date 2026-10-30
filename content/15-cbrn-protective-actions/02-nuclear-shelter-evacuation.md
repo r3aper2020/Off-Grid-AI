@@ -1,5 +1,6 @@
 # Shelter and Evacuation After a Nuclear Detonation (FEMA Planning Guidance, Ch. 3)
 Source: https://remm.hhs.gov/PlanningGuidanceNuclearDetonation_2023.pdf
+Aliases: nuclear bomb what to do, nuclear explosion, get inside stay inside, fallout shelter, how long to stay inside after nuclear, when to evacuate after nuke, nuclear attack, fallout radiation, best place to shelter from fallout, basement during nuclear, radiation after explosion, evacuate or shelter nuclear, nuclear detonation, fallout contamination, leaving shelter after nuclear, nuclear blast nearby
 
 ## 3. Shelter & Evacuation
 Sheltering is one of the most, if not the most, important protective action that affected populations can take prior to or in the first few hours after a nuclear explosion. Sheltering can save lives by protecting people from blast hazards, thermal injuries, prompt radiation, radioactive fallout, and the inhalation of dust and smoke. To assist people in rapidly sheltering, planners must publicize shelter criteria, identify mass care shelters, and develop key messages.

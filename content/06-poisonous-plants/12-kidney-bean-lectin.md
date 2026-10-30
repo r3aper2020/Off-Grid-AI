@@ -1,5 +1,6 @@
 # Phytohaemagglutinin (Kidney Bean Lectin) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: raw kidney beans poisonous, undercooked beans made me sick, kidney bean poisoning, cooking dried beans safely, slow cooker beans safe, beans must be boiled, red kidney bean toxin, bean lectin, how long to boil kidney beans, stomach pain after beans, soaking beans before cooking, raw bean toxicity, vomiting after eating beans
 
 ## 1. Protein / Toxin
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

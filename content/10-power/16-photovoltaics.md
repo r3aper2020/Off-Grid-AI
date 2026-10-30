@@ -1,5 +1,6 @@
 # Photovoltaics and Electricity (EIA)
 Source: https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php
+Aliases: how do solar panels work, solar power basics, solar cells, photovoltaic cells, solar panel efficiency, solar panels for home, off grid solar, how solar makes electricity, solar array, solar energy explained, solar panel output, how much power solar panel, history of solar panels, solar for emergency power, PV system
 
 ## Photovoltaic cells
 A photovoltaic (PV) cell, commonly called a solar cell, is a nonmechanical device that converts sunlight directly into electricity. Some PV cells can convert artificial light into electricity.

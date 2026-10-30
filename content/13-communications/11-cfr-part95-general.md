@@ -1,5 +1,7 @@
 # Personal Radio Services: General Rules (47 CFR Part 95 Subpart A, eCFR as of 2026-10-27)
 Source: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95/subpart-A
+Aliases: license for walkie talkies, FRS vs GMRS, GMRS license, CB radio rules, personal radio rules, legal radio without license, can I modify my radio, radio power limits, FCC rules walkie talkie, family radio service, what radios can I use, radio laws, am I allowed to transmit, unlicensed radio, using radio in emergency legally, prohibited radio uses, radio station id rules
+Chat: library-only
 
 ## Subpart A—General Rules for the Personal Radio Services: § 95.100 Basis and purpose.
 This section contains a concise general statement of the basis and purpose of the rules in this part, pursuant to 5 U.S.C. 553(c).

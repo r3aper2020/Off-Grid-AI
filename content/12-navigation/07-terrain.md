@@ -1,5 +1,6 @@
 # Terrain Association (FM 3-25.26 Ch. 11)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: orient a map, match map to terrain, where am I on the map, finding your location, navigating by landmarks, terrain association, hills and valleys on map, choosing a route, navigating at night, map and compass basics, navigating without GPS, reading the land, resection with compass, picking a path through terrain, lost figure out position, use terrain to navigate, night navigation tips
 
 ## CHAPTER 11 TERRAIN ASSOCIATION
 Failure to make use of the vast amounts of information presented by the map and available to the eye on the ground reduces the chances for success in land navigation. The soldier who has repeatedly practiced the skills of identifying and discriminating among the many types of terrain and other features knows how these features are mapped. He can begin to visualize the shape of the land by studying the map, estimate distances, and perform quick resection from the many landmarks he sees is the one who will be at the right place to help defeat the enemy on the battlefield. This chapter tells how to orient a map with and without a compass, how to find locations on a map as well as on the ground, how to study the terrain, and how to move on the ground using terrain association and dead reckoning.

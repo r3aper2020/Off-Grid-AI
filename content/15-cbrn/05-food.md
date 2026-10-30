@@ -1,5 +1,6 @@
 # Food (NWSS Ch. 9)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: food in fallout shelter, grinding grain by hand, cooking with little fuel, eating wheat and beans, survival ration, cheap food to store, food for shelter, baby food emergency, making baby formula from grain, cooking grain without stove, storing grain long term, feeding family nuclear war, is meat safe after fallout, livestock after fallout, vitamin deficiency survival, food reserves, minimum calories survival, sprouting grain, expedient grain mill, cook beans fast
 
 ## Chapter 9 Food: MINIMUM NEEDS
 **Chapter 9 Food**

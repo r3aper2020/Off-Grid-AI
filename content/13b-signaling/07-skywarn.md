@@ -1,5 +1,6 @@
 # SKYWARN Storm Spotter Program (NWS)
 Source: https://www.weather.gov/skywarn/
+Aliases: SKYWARN, storm spotter, become a storm spotter, report severe weather, how to report a tornado, weather spotter training, volunteer storm spotter, reporting hail and damage, spotter network, tell the weather service what I see, severe weather reporting, spotter vs chaser, who to report storms to
 
 ## SKYWARN: volunteer severe weather spotters
 

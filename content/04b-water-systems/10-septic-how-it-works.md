@@ -1,5 +1,6 @@
 # How Septic Systems Work (EPA)
 Source: https://www.epa.gov/septic/how-your-septic-system-works
+Aliases: how does a septic system work, septic tank basics, drainfield, leach field, septic tank explained, where does toilet water go, septic system parts, septic system no sewer, septic tank how it works, drain field how it works, wastewater at home, septic basics, septic problems
 
 ## Overview
 A typical septic system consists of a septic tank and a drainfield (or soil absorption field).

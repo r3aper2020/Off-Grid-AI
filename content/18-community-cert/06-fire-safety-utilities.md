@@ -1,5 +1,6 @@
 # Fire Safety and Utility Controls (CERT Basic Training, Unit 6)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: how to use a fire extinguisher, pass fire extinguisher, types of fire extinguishers, turn off gas, gas meter shut off, smell gas what to do, turn off electricity breaker, grease fire, electrical fire, fire classes abc, put out small fire, when to fight a fire, hazardous materials placards, flammable liquids storage, fire triangle, downed power line, gas leak after earthquake, shut off utilities, kitchen fire, extinguisher ratings, which extinguisher for what fire, fire too big to fight
 
 ## SECTION 1: UNIT 6 OVERVIEW
 During, and immediately following a fire emergency, the first priorities of fire services are life safety, incident stabilization, and property conservation.

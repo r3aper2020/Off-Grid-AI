@@ -1,5 +1,6 @@
 # What to Do to Shelter in Place for a Chemical Emergency
 Source: https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html
+Aliases: chemical spill shelter in place, seal a room plastic sheeting, chemical emergency what to do, toxic gas release, seal doors and windows, safe room chemical, duct tape plastic windows, chemical attack, stay inside chemical, shelter in place kit, chemical leak nearby, turn off hvac chemical, train derailment chemical, pets chemical emergency, how to seal your house, chemical plant explosion, shelter in place meaning, how long to shelter in place, chemical cloud outside
 
 ## What to know
 - In some chemical emergencies, you may need stay put and seal off the space (shelter in place) instead of evacuating.

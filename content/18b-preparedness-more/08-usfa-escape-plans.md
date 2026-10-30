@@ -1,5 +1,6 @@
 # Home Fire Escape Plans (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/
+Aliases: fire escape plan, home fire escape, two ways out, fire drill at home, practice fire escape, escape plan kids, meeting place outside, smoke in the house get out, escape ladder, high rise fire escape, apartment fire what to do, fire escape plan family, how to escape a house fire, stay low in smoke, check door for heat, escape route windows, get out stay out, fire in high rise building
 
 ## Overview
 The increasing severity of home fires due to modern building contents and open space configurations makes it crucial that people are prepared to leave their homes immediately in the event of fire.

@@ -1,5 +1,6 @@
 # CERT Organization and Size-up (CERT Basic Training, Unit 2)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: cert training, incident command system, how to organize volunteers in disaster, size up a scene, team leader disaster, neighborhood emergency team, cert documentation, rescuer safety, organizing emergency response, who is in charge disaster, ics basics, dealing with media disaster, volunteer rescue team, community response team, scene assessment, nims basics, cert mobilization, span of control, disaster volunteer paperwork
 
 ## Setting the Stage
 **SECTION 1: UNIT 2: OVERVIEW**

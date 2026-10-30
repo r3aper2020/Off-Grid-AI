@@ -1,5 +1,6 @@
 # Swamp and Subtropical Backcountry Safety: Alligators, Panthers, Snakes (National Park Service, Big Cypress)
 Source: https://www.nps.gov/bicy/planyourvisit/safety.htm
+Aliases: swamp hiking, alligator safety, alligator encounter, florida panther encounter, venomous snakes florida, water moccasin, snake bite swamp, hiking in the everglades, swamp water drinking, poisonous plants florida, poisonwood, mosquitoes and heat swamp, lightning florida, hiking in heat and humidity, backcountry florida, swamp navigation, keep wildlife wild, feeding wildlife danger, subtropical hiking gear, big cypress, gator in the water, swamp camping
 
 ## Overview
 Big Cypress National Preserve is a prime example of natural Florida unfamiliar to most visitors, filled with natural wonders that are also potential hazards at times. There is no guarantee of your safety, yet it need not be dangerous. Whether exploring the backcountry, canoeing in Turner River, observing wildlife, or simply driving on Tamiami Trail, let safety be your constant companion. Regulations are strictly enforced to protect you and the preserve's wonders. Spend a moment reviewing these common safety concerns, so that you will have an enjoyable visit.

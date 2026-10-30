@@ -1,5 +1,6 @@
 # Boating Safety and Survival Tips: Capsizing, Cold Water, Life Rafts, Severe Weather (USCG Boater's Guide)
 Source: https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf
+Aliases: boat capsized what to do, cold water survival, fell overboard, life raft how to use, life jacket, boating in bad weather, boat carbon monoxide, overloading a boat, anchoring in storm, float plan, epirb plb boat, immersion suit, staying afloat, help position cold water, boat fueling safety, running out of fuel boat, before boating checklist, cold water shock, vhf radio boat, boat sinking, severe weather on boat, huddle position water, stay with the boat, kayak flipped cold water, man overboard
 
 ## Boat Operator Training
 **Safety and Survival Tips**

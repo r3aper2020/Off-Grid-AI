@@ -1,5 +1,6 @@
 # Learn About Private Water Wells (EPA)
 Source: https://www.epa.gov/privatewells/learn-about-private-water-wells
+Aliases: private well, well water, types of wells, dug well drilled well driven well, where to put a well, well construction, how deep should a well be, well casing, well cap, well location from septic, well basics, my own water well, how does a well work, well water safety
 
 ## Overview
 Información relacionada disponible en español

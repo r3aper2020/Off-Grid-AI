@@ -1,5 +1,6 @@
 # Off-Road and Winter Driving (TC 21-305-20 Ch. 16)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc21_305_20.pdf
+Aliases: off road driving, driving through mud, stuck in mud, driving in sand, stuck in sand, driving through a stream, crossing water in a truck, driving over rocks, driving in the woods, ditches and ravines, tire pressure off road, airing down tires, getting unstuck, winter driving, driving in snow, tire chains, how to put on chains, snow chains, cold weather vehicle care, car in extreme cold, 4x4 driving, swamp driving, winter truck prep
 
 ## Off-Road and Winter Driving
 **Chapter 16**

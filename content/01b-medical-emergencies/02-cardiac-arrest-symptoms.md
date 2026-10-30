@@ -1,5 +1,6 @@
 # Cardiac Arrest: Symptoms and Warning Signs (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/cardiac-arrest/symptoms
+Aliases: cardiac arrest, heart stopped, heart attack vs cardiac arrest, difference heart attack and cardiac arrest, sudden collapse no pulse, warning signs before cardiac arrest, chest pain and fainting, racing heartbeat and dizziness, someone collapsed not breathing, when to call 911 for heart, fainting with no warning, heart stopped beating signs, shortness of breath and chest pressure, family history sudden death
 
 ## Overview
 It is likely that a person is having a cardiac arrest if they:

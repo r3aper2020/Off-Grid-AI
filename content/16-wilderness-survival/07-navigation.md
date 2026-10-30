@@ -1,5 +1,6 @@
 # Movement and Navigation (ATP 3-50.21 Ch. 7)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: lost in the woods, should I stay or move when lost, finding north without compass, shadow stick method, using a watch as compass, navigate by the stars, north star, finding direction with sun, make a compass, crossing a river safely, build a raft, log raft, poncho raft, dead reckoning, using a map and compass, terrain association, handrails in navigation, navigating in mountains, desert travel, jungle travel, floating needle compass, southern cross, using the moon to navigate, crossing rapids
 
 ## Movement and Navigation
 **Chapter 7**

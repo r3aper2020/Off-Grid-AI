@@ -1,5 +1,6 @@
 # Preventing Frostbite
 Source: https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html
+Aliases: how to prevent frostbite, frostbite signs, skin turning white in cold, numb fingers in cold, who gets frostbite, how cold for frostbite, frostnip signs, dressing for cold weather, frostbite on nose ears, cold weather skin damage, what frostbite looks like, protecting hands and feet from cold, frostbite risk factors, cover exposed skin
 
 ## Key points
 - Frostbite is a dangerous condition that can happen when a person is exposed to extremely cold temperatures.

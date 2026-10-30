@@ -1,5 +1,6 @@
 # Thunderstorms & Lightning (Ready.gov)
 Source: https://www.ready.gov/thunderstorms-lightning
+Aliases: lightning safety, thunderstorm what to do, caught outside in lightning, lightning in a tent, when thunder roars go indoors, is it safe to shower in thunderstorm, lightning in a car, struck by lightning first aid, thunderstorm warning, lightning position crouch, severe thunderstorm, lightning while hiking, after thunderstorm downed lines, thunderstorm prepare, how far away is lightning, wait 30 minutes after thunder, lightning on the water, hail storm
 
 ## Overview
 

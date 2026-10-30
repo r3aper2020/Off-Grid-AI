@@ -1,5 +1,6 @@
 # Homemade Shelter-Ventilating Pump (NWSS App. B)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: shelter ventilation, air in a fallout shelter, homemade air pump, kearny air pump, KAP pump, ventilating a basement shelter, fresh air in shelter, shelter too hot, air flow in bunker, build a ventilation pump, shelter air pump plans, bunker ventilation, how to move air in shelter, overheating in shelter, shelter fan without power
 
 ## Appendix B How to Make and Use a Homemade Shelter-Ventilating Pump, the KAP: I. THE NEED FOR SHELTER AIR PUMPS
 **Appendix B How to Make and Use a Homemade Shelter-Ventilating Pump, the KAP**

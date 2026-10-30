@@ -1,5 +1,6 @@
 # Moving an Injured Person (ATP 4-02.11 Ch. 2)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: how to move an injured person, carrying someone who is hurt, fireman carry, drag an unconscious person, two person carry, making a stretcher, improvised litter, moving someone alone, getting injured person out of car, carry someone to safety, how to lift a hurt person, piggyback carry injured, when not to move injured person, evacuate wounded, stretcher from poles and blankets, carry someone downhill, move someone under fire
 
 ## Casualty Extraction and Movement: CASUALTY EXTRACTION
 **Chapter 2**

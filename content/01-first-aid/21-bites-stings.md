@@ -1,5 +1,6 @@
 # Bites and Stings (ATP 4-02.11 Ch. 16)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: snake bite, bitten by a snake, is this snake venomous, snake bite first aid, spider bite, scorpion sting, bee sting, wasp sting, fire ant bites, tick bite, remove a tick, centipede bite, jellyfish sting, stingray sting, dog bite, human bite, animal bite infection, bug bites and stings, bite swelling and pain, dont cut or suck snake bite, rattlesnake bite, copperhead bite, sea urchin sting
 
 ## FIRST AID PROCEDURES FOR NON-TACTICAL COMBAT CASUALTY CARE INJURIES
 **PART THREE**

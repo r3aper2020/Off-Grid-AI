@@ -1,5 +1,6 @@
 # Campcraft (Boy Scouts Handbook, 1911)
 Source: https://www.gutenberg.org/ebooks/29558
+Aliases: how to set up camp, campcraft skills, pitching a tent, old scout camping skills, making a camp bed, camp cooking fire, choosing a campsite, building a lean to, camp kitchen, scout camping, lashing poles, camp layout, camping without gear, tent from canvas, campfire building, old fashioned camping tips, make a camp shelter, boy scout camp skills, sewing a tent
 
 ## Campcraft
 CAMPCRAFT (In treating of camping there has been an intentional omission of the long-term camp. This is treated extensively in the books of reference given at the close of this chapter.)

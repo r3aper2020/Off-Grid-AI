@@ -1,5 +1,6 @@
 # Water Supply, Sewerage, Latrines and Waste Disposal (TM 3-34.70 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: home plumbing basics, water supply lines, pipe sizing, water pressure low, water hammer, fix water hammer, testing for leaks, disinfecting water pipes, chlorinating pipes, frozen pipes, thawing frozen pipes, prevent frozen pipes, water heater, water heater installation, shut off valve, sprinkler system, sewer system, drain system, latrine, pit latrine, outhouse how to build, waste disposal no sewer, septic tank, field sanitation, plumbing repair
 
 ## Plumbing Systems
 **Chapter 1**

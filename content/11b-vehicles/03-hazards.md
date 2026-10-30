@@ -1,5 +1,6 @@
 # Driving Hazards and Safety Measures (TC 21-305-20 Ch. 6)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc21_305_20.pdf
+Aliases: driving at night, driving in fog, driving in snow and ice, driving in rain, hydroplaning in rain, deer on the road, car broke down what to do, broken down on highway, drowsy driving, driving tired, pedestrians and cyclists, pulling over for ambulance, school bus rules, black ice, driving hazards, dirt road driving, overloaded vehicle, rollover risk, safe driving in bad weather, motorcycles on the road
 
 ## Hazards and Safety Measures
 **Chapter 6**

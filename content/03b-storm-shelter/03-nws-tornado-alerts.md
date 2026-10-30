@@ -1,5 +1,6 @@
 # Tornado Watch, Warning and Emergency: What to Do (NWS)
 Source: https://www.weather.gov/safety/tornado-ww
+Aliases: tornado watch vs warning, tornado warning what to do, tornado emergency, tornado coming where to go, tornado siren, where to hide tornado, tornado safe room, tornado in mobile home, tornado in car, difference between watch and warning, tornado alert on phone, basement tornado, tornado shelter, tornado no basement, tornado warning meaning
 
 ## Tornado watch, warning and emergency
 

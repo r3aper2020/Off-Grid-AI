@@ -1,5 +1,6 @@
 # Concrete Block and Rubble Stone Masonry (TM 3-34.44 Ch. 8)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN33491-TM_3-34.44-001-WEB-3.pdf
+Aliases: laying concrete block, cinder block wall how to, making concrete blocks by hand, mortar mix for block, block wall corners, stone wall building, rubble stone masonry, dry stone wall, basement block wall, mortar joints, anchor bolts in block, lintels over openings, block foundation, patching block wall, building with cinder blocks, stone and mortar wall, footings for block wall, cmu wall, how many blocks do I need, curing concrete blocks, block wall drainage
 
 ## Concrete Masonry
 **Chapter 8**

@@ -1,5 +1,6 @@
 # Tetrodotoxin (Pufferfish Poisoning) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: pufferfish poisoning, fugu poisoning, tetrodotoxin, puffer fish safe to eat, numb lips after eating fish, paralysis after eating fish, blowfish poisoning, toxic fish, poisonous fish, fish poisoning symptoms, caught a puffer fish, newt poison, blue ringed octopus, tingling after eating seafood, fish that can kill you, which fish are poisonous
 
 ## 1. Toxin
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

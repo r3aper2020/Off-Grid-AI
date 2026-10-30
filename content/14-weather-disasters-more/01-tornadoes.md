@@ -1,5 +1,6 @@
 # Tornadoes (Ready.gov)
 Source: https://www.ready.gov/tornadoes
+Aliases: tornado coming, tornado warning, tornado watch vs warning, where to go tornado, tornado safe place, tornado preparedness, during a tornado, after a tornado, tornado kit, tornado signs, tornado in mobile home, tornado at night, tornado in car, tornado shelter plan, funnel cloud, tornado sirens
 
 ## Overview
 

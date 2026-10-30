@@ -1,5 +1,6 @@
 # Space Weather and Power Grid Outages (Ready.gov)
 Source: https://www.ready.gov/space-weather
+Aliases: solar flare power outage, solar storm, space weather, geomagnetic storm, sun knock out power grid, CME power outage, GPS not working solar, protect electronics from solar flare, long power outage prep, grid down from sun, solar storm warning, what to do during solar storm, northern lights power outage, carrington event
 
 ## Overview
 The term “space weather” refers to the variable conditions on the sun and in space that can influence the performance of technology we use on Earth.

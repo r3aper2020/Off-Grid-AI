@@ -1,5 +1,6 @@
 # Mountain Lion Safety (National Park Service)
 Source: https://www.nps.gov/articles/mountain-lion-safety.htm
+Aliases: mountain lion, cougar safety, puma encounter, I see a mountain lion what now, mountain lion attack, big cat encounter, hiking with kids cougar, mountain lion stalking me, fight back mountain lion, dont run from cougar, make yourself big, mountain lion in yard, cougar on trail
 
 ## Overview
 Mountain lions (Puma concolor) are also called cougars, pumas, panthers, and catamounts. They roam throughout this area in both desert and mountain country, and are usually quiet and elusive. Although your chances of seeing one of these secretive animals is slight, people sometimes encounter them. Typically, mountain lion sightings occur from a distance and usually around dawn or dusk. However, lions are unpredictable and can be dangerous.

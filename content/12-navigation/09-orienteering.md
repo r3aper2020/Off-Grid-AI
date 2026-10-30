@@ -1,5 +1,6 @@
 # Orienteering (FM 3-25.26 App. F)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: orienteering basics, orienteering course, map and compass sport, orienteering map symbols, control points, orienteering techniques, finding checkpoints with map, how to set up an orienteering course, practice land navigation, orienteering for beginners, attack point handrail, pace counting navigation, thumbing the map, land nav practice, orienteering club, teach kids map and compass
 
 ## APPENDIX F ORIENTEERING
 What is orienteering? Orienteering is a competitive form of land navigation. It is for all ages and degrees of fitness and skill. It provides the suspense and excitement of a treasure hunt. The object of orienteering is to locate control points by using a map and compass to navigate through the woods. The courses may be as long as 10 km.

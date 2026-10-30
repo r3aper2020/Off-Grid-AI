@@ -1,5 +1,6 @@
 # Helping Children and Adolescents Cope With Disasters and Other Traumatic Events (NIMH)
 Source: https://www.nimh.nih.gov/health/publications/helping-children-and-adolescents-cope-with-disasters-and-other-traumatic-events
+Aliases: kids scared after disaster, child nightmares after storm, helping kids cope, my child wont stop crying, teenager withdrawn after disaster, how to talk to kids about disaster, child trauma signs, kids acting out after emergency, bedwetting after trauma, reassuring children, children stress reactions, when does child need counseling, helping teens cope, kids anxiety after scary event, child clingy after disaster, kids and scary news
 
 ## Overview
 

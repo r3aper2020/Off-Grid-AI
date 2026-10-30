@@ -1,5 +1,6 @@
 # Mountain Environmental Injuries and Altitude Sickness (TC 3-97.61 Ch. 3)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: altitude sickness, mountain sickness, dehydration symptoms, heat exhaustion, heat stroke, heat cramps, sunburn treatment, snow blindness, blisters on feet, carbon monoxide poisoning, hypothermia signs, frostbite signs, trench foot, cold injuries, high altitude headache, HAPE HACE, mountain health problems, cold weather injuries prevention, immersion foot, chilblains on toes, heat illness, injuries in the mountains, hiking injuries
 
 ## Environmental Injuries
 **Chapter 3**

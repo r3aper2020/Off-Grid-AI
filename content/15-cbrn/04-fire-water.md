@@ -1,5 +1,6 @@
 # Fires, Carbon Monoxide and Water (NWSS Ch. 7–8)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: fires after nuclear blast, nuclear war fires, carbon monoxide in shelter, fallout shelter ventilation CO, water after nuclear war, water in fallout shelter, how much water per person, storing water in bags, trash bag water storage, water from wells after fallout, is water radioactive after fallout, filtering fallout from water, removing radiation from water, expedient water filter dirt, salt needs survival, carrying water improvised, siphon water, water sources after nuclear attack, fallout and water, water storage nuclear
 
 ## Protection Against Fires and Carbon Monoxide: RELATIVE DANGERS
 **Chapter 7**

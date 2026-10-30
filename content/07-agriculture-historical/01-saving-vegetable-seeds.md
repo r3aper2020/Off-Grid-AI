@@ -1,5 +1,6 @@
 # Saving Vegetable Seeds for the Home and Market Garden (USDA Farmers' Bulletin 884, 1917)
 Source: https://archive.org/download/CAT87202632/farmbul0884.pdf
+Aliases: how to save seeds, saving tomato seeds, saving bean seeds, seed saving vegetables, collecting seeds from garden, saving squash seeds, cucumber seed saving, saving onion seeds, carrot seeds second year, biennial vegetables seed, drying and storing seeds, seed saving corn, keep seeds for next year, seeds from lettuce, saving pepper seeds, heirloom seed saving, grow vegetables from saved seed, saving beet turnip seeds, let plants go to seed, seed shortage grow your own
 
 ## Overview
 WITH the present urgent necessity for producing increased quantities of food, the seed supply

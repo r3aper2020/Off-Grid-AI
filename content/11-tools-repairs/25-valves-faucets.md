@@ -1,5 +1,6 @@
 # Valves and Faucets (TM 3-34.70 Ch. 7)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: fix a dripping faucet, faucet repair, leaky faucet, types of valves, gate valve, globe valve, check valve, shutoff valve, replacing a faucet, faucet washer, ball faucet, cartridge faucet, bathtub faucet repair, shower faucet leak, installing a valve, faucet wont stop dripping, compression faucet, valve stuck, water shutoff
 
 ## Valves and Faucets
 **Chapter 7**

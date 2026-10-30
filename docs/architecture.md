@@ -43,7 +43,7 @@ lib/
     settings/                status overview, data controls
 ```
 
-## Data model (schema v3)
+## Data model (schema v7)
 
 | Table | Purpose |
 |---|---|
@@ -51,9 +51,9 @@ lib/
 | `messages` | `role` (user/assistant/system), `status` (complete/streaming/cancelled/failed/notice); cascades on conversation delete |
 | `installed_models` (v2) | Imported GGUF files: file name in `models/`, size, `isActive` (at most one) |
 | `knowledge_packs` (v3) | Installed packs: metadata, publisher, license, attribution, source |
-| `pack_documents` (v3) | Documents in a pack, with source URL |
-| `passages` (v3) | Sections: the unit searched, given to the model and cited |
-| `passages_fts` (v3) | FTS5 index over passages (porter stemming), synced by triggers |
+| `pack_documents` (v3) | Documents in a pack, with source URL; v7 adds retrieval-only `aliases`, `libraryOnly` (never given to the model) and a document `embedding` |
+| `passages` (v3) | Sections: the unit searched, given to the model and cited; v5 `images`, v6 `embedding` (int8 vector) |
+| `passages_fts` (v3) | FTS5 index over passages (porter stemming) and their document's title + aliases, synced by triggers |
 | `messages.citations` (v3) | JSON passage ids given to the model for a reply; `[]` = searched, nothing matched |
 
 ## Chat generation flow
@@ -61,12 +61,19 @@ lib/
 1. Screen calls `GenerationController.reply(conversationId)`.
 2. Controller asks `InferenceEngine.status()`. If unavailable, it stores the
    reason as a `notice` message and stops.
-3. Otherwise it builds history from `complete` messages only, searches the
-   library for the latest question (`KnowledgeSearch.forQuestion`), and
-   `Grounding.apply` attaches up to 4 numbered passages plus citation rules
-   (or a "say the library has no reference" rule when nothing matched).
-   It inserts an empty `streaming` assistant message recording those
-   passage ids, and subscribes to `generate()`.
+3. Otherwise it builds history from `complete` messages only. The model
+   first rewrites the latest message into 2–3 search queries
+   (`InferenceEngine.complete` with `Grounding.rewriteTurns`; follow-ups
+   are resolved against the previous exchange). The user's words plus the
+   rewrites go through `KnowledgeSearch.forQueries` (keyword BM25 gated by
+   IDF coverage, fused with section- and document-level meaning vectors;
+   library-only documents excluded; split parts and sub-sections pulled
+   in; near-duplicates dropped). `Grounding.select` keeps whole passages
+   within ~6,500 characters (at most 8) and `Grounding.apply` attaches
+   them, numbered, with the citation rules (or the "answer from your own
+   knowledge" rule when nothing matched). It inserts an empty `streaming`
+   assistant message recording those passage ids, and subscribes to
+   `generate()`.
 4. Tokens accumulate in memory and flush to SQLite every ~120 ms; the UI
    watches the messages stream.
 5. Done → `complete`; failure → `failed`; Stop → subscription cancelled,

@@ -1,5 +1,6 @@
 # SODIS: Bottle Placement, Bottles, Turbidity, Temperature and Re-growth (Eawag SODIS Manual 2.2.3-2.2.8)
 Source: https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf
+Aliases: SODIS, purify water with sunlight, water bottle in the sun, how long leave water in sun, solar water disinfection how to, clear plastic bottles for water, PET bottles safe, glass bottles sun water, cloudy water sodis, water too murky for sun, water temperature sun purification, does sun kill bacteria in water, store sodis water how long, regrowth of germs in water, bottle on roof to purify water, shaking the bottle oxygen, sun purified water
 
 ## 2.2.3 Place and position of bottle exposure
 The penetration depth of UV-light depends on the position of the bottle in terms of exposure to sunlight. Penetration depth is minimal -and treatment efficacy maximal - if the bottles are placed lying down, and at a slight incline so that the sunlight hits them at a favourable angle (ideally 90 degrees). As the position of the sun shifts during the day, the bottles should be placed so that the penetration depth is low on average throughout the course of the day, which is usually the case if the bottles are placed horizontally. Readjusting the inclination of the bottles during the day is neither practical, nor necessary.

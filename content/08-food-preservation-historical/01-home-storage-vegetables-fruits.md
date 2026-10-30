@@ -1,5 +1,6 @@
 # Home Storage of Vegetables and Fruits (USDA Farmers' Bulletin 1939, rev. 1960)
 Source: https://archive.org/download/CAT87205380/farmbul1939rev1960.pdf
+Aliases: root cellar, how to build a root cellar, storing vegetables for winter, storing potatoes, storing apples, storing onions, storing carrots in sand, storing cabbage, storing squash and pumpkins, storing sweet potatoes, storing tomatoes green, basement food storage, storage cellar temperature, humidity for storing vegetables, keeping produce without a fridge, outdoor storage pit, storing root crops, storing pears and grapes, storing dry beans, long term vegetable storage, winter food storage, storing fruit
 
 ## Market Quality Research Division, Agricultural Markting Service
 **VEGETABLES**

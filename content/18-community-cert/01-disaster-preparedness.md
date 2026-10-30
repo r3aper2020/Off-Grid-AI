@@ -1,5 +1,6 @@
 # Disaster Preparedness (CERT Basic Training, Unit 1)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: family disaster plan, how to prepare for a disaster, disaster supplies, escape plan, what disasters can happen here, CERT training, community emergency response team, fortifying your home, home preparedness, workplace preparedness, types of disasters, sheltering in place, disaster mitigation, protective actions, evacuation plan, emergency plan for family, what does government do in disaster, disaster volunteers, personal protective equipment
 
 ## Setting the Stage
 **SECTION 1: UNIT 1 OVERVIEW**

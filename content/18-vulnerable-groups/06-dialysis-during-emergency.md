@@ -1,5 +1,6 @@
 # When You Can't Get Dialysis, Sheltering and Evacuating: A Guide for People on Dialysis (CMS)
 Source: https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf
+Aliases: dialysis in an emergency, cant get to dialysis, dialysis center closed, missed dialysis what to do, dialysis diet emergency, kidney patient disaster, how to stop dialysis machine emergency, disconnect from dialysis, home dialysis power outage, dialysis access care, protect fistula emergency, evacuating on dialysis, dialysis patient shelter, renal diet when stuck at home, kidney failure no dialysis, dialysis emergency plan, finding dialysis after evacuation, medicare dialysis emergency
 
 ## When Your Dialysis Facility Is Closed
 If an emergency or disaster happens near you, be ready with a back-up plan to get the care you need. Your dialysis facility may close because:

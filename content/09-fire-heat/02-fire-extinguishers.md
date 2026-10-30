@@ -1,5 +1,6 @@
 # Choosing and Using Fire Extinguishers (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers/
+Aliases: how to use a fire extinguisher, PASS method, which fire extinguisher, grease fire, when to fight a fire, extinguisher types, ABC extinguisher, electrical fire extinguisher, fire extinguisher expired, checking fire extinguisher, small kitchen fire, when to get out, fire extinguisher for home, extinguisher maintenance, put out a fire
 
 ## Overview
 It's important to understand that with proper training and education, fire extinguishers can save lives and property. Many adults might not know how or when to use fire extinguishers. Fire departments can help with fire extinguisher training and answer questions that community members may have.

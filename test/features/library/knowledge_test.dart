@@ -197,6 +197,135 @@ void main() {
     });
   });
 
+  group('aliases, library-only documents and expansion', () {
+    Map<String, Object> pack(List<Map<String, Object>> documents) => {
+      'format': 'offgrid-pack',
+      'formatVersion': 1,
+      'id': 'extra',
+      'title': 'Extra',
+      'description': 'TEST FIXTURE',
+      'category': 'guide',
+      'version': '1',
+      'publisher': 'tests',
+      'license': 'Test data',
+      'documents': documents,
+    };
+
+    test('a document is found through its plain-language aliases', () async {
+      await installer.install(
+        jsonEncode(
+          pack([
+            {
+              'title': 'Build A Kit',
+              'aliases': 'bug out bag, go bag, 72 hour kit',
+              'sections': [
+                {
+                  'heading': 'Basic Disaster Supplies Kit',
+                  'body': 'Water, one gallon per person per day. Food.',
+                },
+              ],
+            },
+          ]),
+        ),
+        source: 'test',
+      );
+      final hits = await search.forQuestion('what goes in a bug out bag');
+      expect(hits.first.heading, 'Basic Disaster Supplies Kit');
+      // Aliases are retrieval-only: never part of what is shown or cited.
+      expect(hits.first.body, isNot(contains('bug out')));
+      expect(hits.first.aliases, contains('go bag'));
+    });
+
+    test('library-only documents stay out of AI answers', () async {
+      await installer.install(
+        jsonEncode(
+          pack([
+            {
+              'title': 'Radio Rules (47 CFR)',
+              'libraryOnly': true,
+              'sections': [
+                {
+                  'heading': 'Definitions',
+                  'body': 'Repeater means an amateur station that retransmits.',
+                },
+              ],
+            },
+          ]),
+        ),
+        source: 'test',
+      );
+      expect(await search.search('repeater'), hasLength(1));
+      expect(await search.forQuestion('what is a repeater'), isEmpty);
+    });
+
+    test('a split section brings the parts around it', () async {
+      await installer.install(
+        jsonEncode(
+          pack([
+            {
+              'title': 'Manual',
+              'sections': [
+                {'heading': 'Splinting (part 1)', 'body': 'Pad the splint.'},
+                {
+                  'heading': 'Splinting (part 2)',
+                  'body': 'Tie the splint above and below the fracture site.',
+                },
+                {'heading': 'Splinting (part 3)', 'body': 'Check circulation.'},
+                {'heading': 'Unrelated', 'body': 'Sharpen the axe.'},
+              ],
+            },
+          ]),
+        ),
+        source: 'test',
+      );
+      final hits = await search.forQuestion('tie a splint for a fracture');
+      expect(hits.first.heading, 'Splinting (part 2)');
+      expect(
+        hits.map((h) => h.heading),
+        containsAll(['Splinting (part 1)', 'Splinting (part 3)']),
+      );
+      expect(hits.map((h) => h.heading), isNot(contains('Unrelated')));
+    });
+
+    test('the same text in two sources is given once', () async {
+      const text =
+          'Apply firm direct pressure to the wound with a clean cloth and '
+          'keep pressing until the bleeding stops; add more cloth on top, '
+          'never remove the first layer, and raise the limb if you can.';
+      await installer.install(
+        jsonEncode(
+          pack([
+            {
+              'title': 'Army manual',
+              'sections': [
+                {'heading': 'Direct pressure', 'body': text},
+              ],
+            },
+            {
+              'title': 'CERT unit',
+              'sections': [
+                {'heading': 'Controlling bleeding', 'body': '$text Done.'},
+              ],
+            },
+          ]),
+        ),
+        source: 'test',
+      );
+      final hits = await search.forQuestion('how do I stop bleeding');
+      expect(hits, hasLength(1));
+    });
+
+    test('several phrasings are fused, user words first', () async {
+      final hits = await search.forQueries([
+        'how do I make a fire?',
+        'storing water safely',
+      ]);
+      expect(hits.map((h) => h.heading), contains('Building a campfire'));
+      expect(hits.map((h) => h.heading), contains('Storing water'));
+      expect(hits.first.heading, contains('fire'));
+    });
+  });
+
   group('figuresFor', () {
     Map<String, Object> image(String n, String caption) => {
       'asset': 'assets/packs/images/$n.webp',

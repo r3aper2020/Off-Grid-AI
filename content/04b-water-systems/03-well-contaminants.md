@@ -1,5 +1,6 @@
 # Potential Well Water Contaminants and Their Impacts (EPA)
 Source: https://www.epa.gov/privatewells/potential-well-water-contaminants-and-their-impacts
+Aliases: well water contamination, is my well water safe, what can get into well water, well water testing, nitrates in well water, arsenic in well water, bacteria in well water, well water after flood, well water smells bad, lead in well water, well water makes me sick, sources of well pollution, radon in well water, fertilizer in well water, septic leaking into well
 
 ## Overview
 Drinking water can expose people to a variety of harmful pollutants and pathogens. Public water systems use water treatment and monitoring to protect consumers from such contaminants. Generally, private wells do not receive the same services that wells supplying the public do. Well owner's are responsible for protecting their drinking water. To do so, a well owner must be aware of their well's potential for contamination and the possible health effects those potential contaminants can have.

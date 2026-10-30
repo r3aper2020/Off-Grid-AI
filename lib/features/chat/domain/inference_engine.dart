@@ -11,6 +11,11 @@ abstract interface class InferenceEngine {
   /// must stop generation and release compute promptly.
   Stream<GenerationEvent> generate(List<ChatTurn> history);
 
+  /// One short, non-streamed completion for internal use (rewriting a
+  /// message into search queries). Returns null when no model can run.
+  /// Must never be shown to the user as an answer.
+  Future<String?> complete(List<ChatTurn> turns, {int maxTokens = 64});
+
   /// Frees model memory if idle. The next [generate] reloads the model.
   Future<void> release();
 

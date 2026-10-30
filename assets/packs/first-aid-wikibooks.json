@@ -4,7 +4,7 @@
  "id": "first-aid-wikibooks",
  "title": "First Aid (Wikibooks)",
  "category": "medical",
- "version": "2026.10.29.1",
+ "version": "2026.10.30.1",
  "publisher": "Wikibooks contributors",
  "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
  "description": "Broad first aid coverage: assessment, CPR, choking, bleeding, shock, burns, injuries, medical emergencies, poisoning and wilderness first aid. Volunteer-written; some guidance (e.g. CPR rate and depth) follows older guidelines.",
@@ -43,7 +43,8 @@
      "body": "The last step is to actually provide care to the limits of the first aider's training -- but never beyond. In some jurisdictions, you open yourself to liability if you attempt treatment beyond your level of training.\n\nTreatment should always be guided by the 4Ps:\n\nPreserve life\n\nPrevent further injury\n\nPromote recovery\n\nProtect the unconscious\n\nTreatment will obviously depend on the specific situation, but some situations will always require treatment (such as shock). The level of injury determines the level of treatment required.\n\nThe principles first, do no harm and life over limb are essential parts of the practice of first aid. Do nothing that causes unnecessary pain or further injury unless to do otherwise would result in death.\n\nPrimary Assessment & Basic Life Support\n\nEmergency First Aid & Initial Action Steps — A for Airway — B for Breathing — C for Compressions — D for Deadly Bleeding"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Emergency_First_Aid_%26_Initial_Action_Steps&oldid=4584910"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Emergency_First_Aid_%26_Initial_Action_Steps&oldid=4584910",
+   "aliases": "what to do first in an emergency, someone collapsed what do I do, is it safe to help, check for danger before helping, checking if someone is breathing, someone is unconscious, how to assess an injured person, first steps when someone is hurt, who to help first, call for help or treat first, someone hurt what should I do, protect yourself while helping, what happened to the victim"
   },
   {
    "title": "Primary Assessment & Basic Life Support",
@@ -69,7 +70,8 @@
      "body": "After calling the EMS, provide appropriate Care until EMS arrives and takes over. Continue monitoring the vital signs of the victim until EMS arrives.\n\nIt is important to do your best to stay calm and stay focused so that you will be able to provide the best care possible for the injured individual."
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Primary_Assessment_%26_Basic_Life_Support&oldid=4644460"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Primary_Assessment_%26_Basic_Life_Support&oldid=4644460",
+   "aliases": "someone collapsed what do I do, check if someone is breathing, is it safe to help, unresponsive person, check for a pulse, first thing to do someone hurt, check call care, how to check an injured person, scene safety before helping, someone passed out, not breathing what to do, when to call 911, basic life support steps, airway breathing circulation, someone wont wake up"
   },
   {
    "title": "A for Airway",
@@ -83,7 +85,8 @@
      "body": "The complex structures of the human body leading from the lips to the lungs are often referred to simply as the patient's \"airway\". The airway of the human body is one of the more important parts to be checked when providing first aid, and is typically the first item given attention in the seriously sick or injured patient. The airway is the entrance point of oxygen and the exit point of carbon dioxide for the body. Should this become blocked, the victim will have no way to obtain fresh air, and death will eventually result.\n\nWe are normally able to keep our airway a clear path for fresh air subconsciously. Depending on the severity of the victim's condition, an unconscious person's airway could be blocked when their tongue relaxes and falls across their throat, blocking airflow. A common example of this is the sounds made by a snoring person. The technique used to open the airway and keep the tongue out is referred to as the \"head-tilt chin-lift\" technique.\n\nFor this to work properly, the patient will be placed on a flat surface, lying on their back. Kneeling at the level of the victim (easiest when the rescuer is on one side of the injured individual) the rescuer places one palm, open handed, on the victim's forehead. The rescuer then places the index and middle finger of their other hand under the bony part of the victim's jaw (mandible). The fingers and palm are used to gently tilt the victim's head backwards, and lift their chin upwards, extending the victim's neck. Ideally, once you have done this, the victim's jawline will be perpendicular to the ground allowing the airway to be open the maximum amount.\n\nThis technique is typically not necessary for conscious victims, as they can typically maintain an open airway. Simply, if the victim is talking or has no respiratory distress, their airway is adequate.\n\nEven if you suspect that your victim may have sustained a spinal neck injury, open the airway as normal, but with caution. Life over limb - the potential for keeping the victim alive outweighs the risk of aggravating the spinal injury. If you absolutely must roll a person suspected of head, neck, or spinal injury because he or she is vomiting, choking on blood or in danger of further injury, use at least two people. Work together to keep the person's head, neck and back aligned while rolling the person onto one side.\n\nYou may also check the victim's mouth for visible, removable obstructions in the mouth which can obstruct airflow. The common items found obstructing the victim's airway include partially chewed food, hard candy, and balloons. You may attempt to expel any items in the mouth which can be easily withdrawn with a finger swipe but do not waste time trying to remove fixed or lodged items such as dentures. Also, be alert to the status of your victim, as you could be injured if your fingers are in the mouth of a person regaining consciousness.\n\nIf a conscious victim's airway is obstructed by a foreign object (such as someone who is choking), the object must be removed via other means. Abdominal thrusts are the standard method for conscious adult and child victims. Refer to Obstructed Airway for unconscious procedures.\n\nPrimary Assessment & Basic Life Support\n\nEmergency First Aid & Initial Action Steps — A for Airway — B for Breathing — C for Compressions — D for Deadly Bleeding"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/A_for_Airway&oldid=3570401"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/A_for_Airway&oldid=3570401",
+   "aliases": "open the airway, head tilt chin lift, jaw thrust, someone not breathing, blocked airway, tongue blocking throat, unconscious person breathing, check if breathing, clear the airway, choking unconscious, snoring gurgling breathing, airway first aid, ABC first aid"
   },
   {
    "title": "B for Breathing",
@@ -109,7 +112,8 @@
      "body": "Regional Note\n\nIn Europe, give 5 rescue breaths for victims of:\n\n- Drowning\n- Trauma\n- Drug overdose\n\nFor other victims, begin with compressions instead of rescue breaths.\n\nRescue breaths must be provided to victims in a state of respiratory arrest; do not provide them to a weakly breathing victim. If you cannot detect the breath of the victim, or they are breathing slower than once every ten seconds, begin rescue breathing.\n\nIf you have a CPR mask or other barrier device, you can use it to protect yourself and the victim from exchange of body fluids. Cheap, keyring-sized CPR masks are available in most pharmacies. Be sure to read the instructions and practice with any equipment you buy. In the event you do not have a barrier device, the rescuer should perform as best they can, given the situation and abilities. If you are uncomfortable performing direct mouth-to-mouth on a stranger, or you find blood or other bodily fluids present, you are not obligated to. You should, however, perform the chest compression portion of CPR, as it is better than doing nothing.\n\nThe 2010 CPR guidelines changed CPR so compressions are started first, after checking for breathing.\n\nTo give two rescue breaths:\n\n- Kneel at the level of the victim, perpendicular to and facing them.\n- Maintain an open airway using the head-tilt chin-lift.\n- Squeeze the nose of the victim with your free hand to seal it shut.\n- Put your mouth on the mouth of the victim in an airtight manner, and blow into the mouth of the victim so that their chest begins to rise. Never blow forcefully, as this may cause the air to enter the stomach and not their lungs. Instead, exhale smoothly over 1–2 seconds.\n- Remove your mouth, and let the victim exhale completely (watch for their chest to fall).\n- Repeat the above steps for your second breath.\n\nIf your breaths do not go in easily, or the victim's chest did not rise, the airway could have again become closed. Open the airway once again with the head-tilt chin-lift technique and try again, making sure the victim's neck is extended and their head is rocked back fully.\n\nContinue with CPR compressions.\n\nPrimary Assessment & Basic Life Support\n\nEmergency First Aid & Initial Action Steps — A for Airway — B for Breathing — C for Compressions — D for Deadly Bleeding"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/B_for_Breathing&oldid=4672804"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/B_for_Breathing&oldid=4672804",
+   "aliases": "not breathing, check if someone is breathing, rescue breaths, mouth to mouth, how to give breaths, person stopped breathing, look listen feel, unconscious not breathing, when to call 911, breathing check first aid, no pulse no breathing, how many breaths per minute, breathing for someone"
   },
   {
    "title": "C for Compressions",
@@ -135,7 +139,8 @@
      "body": "You should continue giving the patient CPR until:\n\n- The casualty starts breathing spontaneously - This occurs very infrequently, and does not include gasping, called agonal breathing. Patients are also likely to make sighing noises or groans as you perform chest compressions - this is just the sound of air trapped in the lungs being forced out, and you should not stop CPR if these noises are heard.\n- The patient vomits - This is an ACTIVE mechanism, meaning the patient moves and actively vomits. Not to be confused with regurgitation, where stomach contents make their way passively in to the mouth. If the casualty vomits, roll them to their side, clear the airway once they're done vomiting and reassess ABCs. Vomit is obviously undesirable for the person performing CPR. Attempt to clear the mouth with your fingers (preferably while wearing a barrier device) and continue CPR. If you are without barrier device and feel uncomfortable giving rescue breaths, give chest compressions only.\n- Qualified help arrives and takes over. This could be a responder with a defibrillator, the ambulance service or a doctor. DO NOT STOP until instructed to. They are likely to require time to set up their equipment and evaluate the patient (as you did at first) and you should continue with CPR until instructed to stop. The emergency medical personnel are used to working around people, and may do things like place defibrillator patches while you continue. By continuing CPR, you are keeping the medical personnel free to perform other tasks.\n- You are unable to continue - CPR is physically very demanding, and continued periods can be exhausting. Try to change places frequently with another trained rescuer to lessen the chance of exhaustion.\n- You put yourself in danger by continuing - Hazards may change, and if your life is endangered by a new hazard, you should stop CPR. If possible, remove the patient from the hazardous situation as well, but never at the risk of your own life or health.\n\nPrimary Assessment & Basic Life Support\n\nEmergency First Aid & Initial Action Steps — A for Airway — B for Breathing — C for Compressions — D for Deadly Bleeding"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/C_for_Compressions&oldid=4348086"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/C_for_Compressions&oldid=4348086",
+   "aliases": "how to do CPR, chest compressions, how to do chest compressions, CPR hand position, how fast to push CPR, how deep to push on chest, CPR on a child, CPR on a baby, when to stop CPR, no pulse not breathing, heart stopped what do I do, CPR compression rate, giving CPR alone, pushing on the chest, hands only CPR"
   },
   {
    "title": "CPR summary",
@@ -162,18 +167,15 @@
     },
     {
      "heading": "Compressions - begin compressions",
-     "body": "- Hand/finger placement on the center of the chest, on the lower half of the breastbone. Be sure to not compress the soft area of the abdomen before the breastbone.\n- After 5 cycles (approx. 2 minutes) call EMS if you haven't done so already (in the case of children or infants). If a bystander is available, get them to call immediately upon arrival. If they have to leave the area to contact EMS, tell the bystander to return to you and inform you of the ETA of the EMS.\n- Compress at the rate of at least 100 per minute.\n- Push at least 2\" (5 cm) on adults; at least 1/3rd of the chest depth for pediatric victims.\n- Use two hands for adult compressions, one or two hands for children, and two fingers for infant compressions."
-    },
-    {
-     "heading": "Airway - open the airway",
-     "body": "Place one hand on the forehead and two fingers on the chin. Tilt the head back and lift the chin so the victim's jawline is perpendicular to the ground"
+     "body": "- Hand/finger placement on the center of the chest, on the lower half of the breastbone. Be sure to not compress the soft area of the abdomen before the breastbone.\n- After 5 cycles (approx. 2 minutes) call EMS if you haven't done so already (in the case of children or infants). If a bystander is available, get them to call immediately upon arrival. If they have to leave the area to contact EMS, tell the bystander to return to you and inform you of the ETA of the EMS.\n- Compress at the rate of at least 100 per minute.\n- Push at least 2\" (5 cm) on adults; at least 1/3rd of the chest depth for pediatric victims.\n- Use two hands for adult compressions, one or two hands for children, and two fingers for infant compressions.\n\n**Airway - open the airway**\n\nPlace one hand on the forehead and two fingers on the chin. Tilt the head back and lift the chin so the victim's jawline is perpendicular to the ground"
     },
     {
      "heading": "Breathing - give breaths",
      "body": "Place a CPR shield over the victim's mouth, if available. With the head tilted back as described in \"Airway\", pinch the victim's nose shut with the hand that in on their forehead. Place your mouth over their mouth, making a complete seal. Give a normal breath until you see chest rise. Give a second breath, then immediately go back to compressions.\n\nDo not stop CPR to recheck for signs of life. Signs of life tend to be very dramatic and movement will be observed if the victim no longer requires CPR. Continue CPR until emergency help takes over, the victim moves, you are too exhausted to continue or the area becomes unsafe. If an AED and AED-trained responder arrives on the scene, it will have priority on the over CPR. Continue CPR until the AED operator asks you to stop.\n\nPrimary Assessment & Basic Life Support\n\nEmergency First Aid & Initial Action Steps — A for Airway — B for Breathing — C for Compressions — D for Deadly Bleeding"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/CPR_summary&oldid=4660122"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/CPR_summary&oldid=4660122",
+   "aliases": "how to do cpr, cpr steps, chest compressions how fast, someone not breathing, no pulse what to do, rescue breaths, how to open the airway, cpr on adult, cpr compressions ratio, someone collapsed not breathing, hands only cpr, cardiac arrest what to do, how hard to push on chest, when to start cpr, cpr summary, giving breaths mouth to mouth"
   },
   {
    "title": "D for Deadly Bleeding",
@@ -195,7 +197,8 @@
      "body": "The key element in treating severe bleeding is the application of firm, direct pressure to the wound, using sterile gauze or other dressing. If the wound is in a limb, raising it above the heart can help, though this should not be done if there is a risk of disturbing fractures, or if it causes much pain to the victim.\n\nYou may also consider using pressure points to control major bleeding: press down on an artery that is between the heart and the wound to slow blood from flowing to the wound. Two easily found ones are on the underside of the bicep area, and the underside of the thigh area of the leg.\n\nTourniquets may also be useful in controlling massive bleeding such as an amputation. This is not a standard procedure and should only be used as an ABSOLUTE last resort when the victim will die without it. Also, once a tourniquet is applied, it is only removed by a physician.\n\nPrimary Assessment & Basic Life Support\n\nEmergency First Aid & Initial Action Steps — A for Airway — B for Breathing — C for Compressions — D for Deadly Bleeding"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/D_for_Deadly_Bleeding&oldid=3535023"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/D_for_Deadly_Bleeding&oldid=3535023",
+   "aliases": "heavy bleeding wont stop, life threatening bleeding, bleeding out, blood spurting from wound, deep cut bleeding a lot, how to stop bleeding fast, direct pressure on wound, elevate the wound, pressure points bleeding, tourniquet for bleeding, how much blood loss is dangerous, signs of shock from blood loss, arterial bleeding, bleeding first aid"
   },
   {
    "title": "Automated External Defibrillation",
@@ -209,7 +212,8 @@
      "body": "If the AED advises a shock, the operator will say \"I'm Clear, you're clear, we're all clear\" while ensuring that the operator is not touching the victim or standing in a wet environment next to the victim that could conduct electricity through the rescuer. The AED operator is also making sure that all other people surrounding the victim are clear. The final \"we are all clear\" ensures a double check to ensure that everyone is away from the victim. If the victim is being given oxygen supplementation, the equipment must be removed at this point. The AED will shock the victim; the operator may be required to press a shock button. Touching the victim is potentially fatal when the shock is administrated. After the shock has been delivered, it is safe to touch the victim; no electricity will remain in them. The defibrillator will advise you what to do next - usually you'll be told to begin chest compressions and rescue breaths again.\n\nDefibrillators can also be used for monitoring and recording purposes; a different set of electrodes is available on some defibrillators for cardiac monitoring, though most defibrillators have the cardiac monitoring located within the pads. Because cardiac monitoring (ECG) is an advanced skill, it will not be covered in this section. Should fibrillation occur when the monitoring patches are on, the defibrillator will ask the operator to change patches, though most automatically analyze the patient through the two main patches every 2 minutes or whenever the analyze button is pressed.\n\nNote: Defibrillators are often quite graphically pictured in films and television shows. Actually, defibrillation might induce some contractions in the muscles of the patient, but in no case will the patient jump. In most television shows, the paddles are used which may make a rescuer feel apprehensive about defibrillating a patient if they believe that they have to gel the paddles then rub them together before shocking the patient. All AEDs used in the public access setting have two pre-gelled patches that are easily placed onto the patient's skin. This keeps the rescuer at a further distance from the patient during the shocking and enables the patches to stay on continuously during the resuscitation efforts.\n\nAdvanced Topics\n\nWilderness First Aid — Marine First Aid — Extended Assessment\n\nAirway Management — Oxygen Administration — Automated External Defibrillation — Triage"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Automated_External_Defibrillation&oldid=3539811"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Automated_External_Defibrillation&oldid=3539811",
+   "aliases": "AED how to use, defibrillator machine, shock the heart, heart stopped, automated defibrillator steps, where to put AED pads, AED on child, AED on wet person, can I use an AED, restart someones heart, cardiac arrest device, when to use defibrillator, AED pads placement"
   },
   {
    "title": "Obstructed Airway",
@@ -235,7 +239,8 @@
      "body": "Send a bystander to activate the Emergency Medical System if possible.\n\n- Rescuers alone with an adult victim should call an ambulance immediately.\n- Rescuers alone with a child or infant victim should first perform about 2 minutes of CPR and then call an ambulance.\n\nCommence a primary assessment, starting with Airway.\n\nIt is highly likely that the patient will not be breathing if they are unconscious as a result of airway obstruction, so you should be prepared to commence CPR if this is the case. You should continue to attempt to put breaths in to the patient, even if they appear to not be reaching the lungs.\n\nRespiratory Emergencies\n\nAnaphylactic Shock — Asthma & Hyperventilation — Obstructed Airway"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Obstructed_Airway&oldid=4389189"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Obstructed_Airway&oldid=4389189",
+   "aliases": "someone is choking, choking what to do, heimlich maneuver, abdominal thrusts, back blows for choking, baby is choking, child choking, choking infant, something stuck in throat, unconscious choking person, how to help a choking adult, food stuck in throat, choking and cant cough, cant breathe cant talk, blocked airway"
   },
   {
    "title": "Secondary Assessment",
@@ -245,7 +250,8 @@
      "body": "First Aid\n\nIntroduction — Issues in Providing Care — Primary Assessment & Basic Life Support — Secondary Assessment — Circulatory Emergencies\n\nRespiratory Emergencies — Soft Tissue Injuries — Bone & Joint Injuries — Environmental Illness & Injury\n\nMedical Conditions & Poisoning — Advanced Topics — Appendices — Meta content\n\nSecondary Assessment\n\nHead-to-toe — History — Vitals\n\nThe secondary assessment/survey is done once the primary survey is completed and non-life threatening injuries can be assessed. This survey can be performed after removing the athlete from the field. When performing this type of assessment it is vital for the clinician to gain as much information as possible in order to properly diagnose the injured person. This assessment involves many different things and can be done in steps. Clinicians should be sure to get a thorough history on the individual, a thorough description of what the person felt, feels, how they were injured, what hurts the most, where hurts the most, etc. Clinicians should also be able to determine if the individual has appropriate function of the injured area or if they are in need of EMS.\n\nThe secondary assessment is used after a primary assessment has been done. This is where the clinician goes through step by step head-to-toe to figure out what happened. This can include but is not limited to inspection, bony and soft tissue palpation, special tests, circulation, and neurological. Secondary assessments are used in order to determine the injury, how the injury occurred, how severe the injury is, and to eliminate further injury."
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Secondary_Assessment&oldid=3284212"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Secondary_Assessment&oldid=3284212",
+   "aliases": "head to toe check for injuries, how to check someone for injuries, what to ask an injured person, sample history questions, checking for hidden injuries, look for other injuries, patient history, medical bracelet check, examining an injured person, what happened to you questions, vital signs check, allergies medications history, secondary survey, after the first check"
   },
   {
    "title": "Vitals",
@@ -283,7 +289,8 @@
      "body": "Valuable information can be gained from looking at a victim's pupils. For this purpose, first aid kits should have a penlight or small torch in them.\n\nIdeally, the pupils of the eye should be equal and reactive to light (mydriasis), usually written down as PEARL:\n\nPupils\n\nEqual\n\nAnd\n\nReactive to\n\nLight\n\nTo check this, ask the victim to look straight at you with both eyes. Look to see if both pupils are the same size and shape (be sensitive to those who may be blind in one eye, or may even have a glass eye, although they will usually tell you).\n\nTo check if they are reactive, take the penlight, and ask the victim to look at your nose. Briefly (5 seconds or so) shield their eye with your hand from the light source where they are (sunlight, room lighting etc.), and then turn on the penlight, positioning it off to the side of their head. Move the penlight in over their eye quickly, and watch to see the size change. A normal reaction would be the pupil getting smaller quickly as the light is shone in to it. Repeat on the other eye.\n\nIf both pupils are the same, and both react, note this on your form as PEARL, or else note down what you did, or did not see.\n\nSecondary Assessment\n\nHead-to-toe — History — Vitals"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Vitals&oldid=3745298"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Vitals&oldid=3745298",
+   "aliases": "checking vital signs, how to take a pulse, normal pulse rate, normal breathing rate, how to check breathing, skin color cold clammy, is the person conscious, level of consciousness check, AVPU scale, pupils unequal or dilated, checking pupils with light, capillary refill test, monitoring a sick person, vital signs for adults and kids"
   },
   {
    "title": "Shock",
@@ -309,7 +316,8 @@
      "body": "Should a patient become unconscious, confirm that an ambulance has been called, and take the following steps:\n\n- Reassess the ABCs. Should any change occur, compensate with required treatment. (exception: Patient goes into cardiac arrest, begin CPR.)\n- As airway takes priority over other treatment, you should place them in the recovery position in order to ensure a patent airway.\n\nCirculatory Emergencies\n\nExternal Bleeding — Internal Bleeding — Heart Attack & Angina — Stroke & TIA — Shock"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Shock&oldid=4283997"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Shock&oldid=4283997",
+   "aliases": "signs of shock, going into shock, treating shock, pale cold clammy skin, blood loss shock, anaphylactic shock, allergic reaction shock, fainting vs shock, raise the legs, shock after injury, weak fast pulse, unconscious shock position, keep them warm shock, septic shock, what is shock first aid"
   },
   {
    "title": "External Bleeding",
@@ -363,7 +371,8 @@
      "body": "If a body part has been amputated, immediately summon ambulance assistance, and treat the wound for bleeding first as above. Cover the amputated part with a moist dressing and place it in a clean plastic bag, and place this bag into a bag of ice and water, sending it with the victim to the hospital (it should be labeled with their name, and where it belongs). You should avoid putting the part in direct contact with ice, as this can cause irreparable damage, meaning that surgeons are unable to reattach it.\n\nIf the body part is partially amputated, do not detach, but treat as a wound.\n\nCirculatory Emergencies\n\nExternal Bleeding — Internal Bleeding — Heart Attack & Angina — Stroke & TIA — Shock"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/External_Bleeding&oldid=4003168"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/External_Bleeding&oldid=4003168",
+   "aliases": "how to stop bleeding, bleeding wont stop, deep cut bleeding a lot, apply pressure to wound, bandage a wound, nosebleed wont stop, how to stop a nosebleed, something stuck in a wound, dont pull out the object, stab wound first aid, gunshot wound first aid, cut off finger what to do, amputated finger, severed limb, elevate the wound, blood soaking through bandage, bad cut first aid, puncture wound"
   },
   {
    "title": "Internal Bleeding",
@@ -389,7 +398,8 @@
      "body": "Best Practice\n\nAny time there is the possibility of internal bleeding, it is crucial to treat as if there is internal bleeding. Not treating may result in death, but treating when there is no injury will not result in harm.\n\nAs with any victim, before treating, put on disposable gloves and take other necessary body substance isolation precautions.\n\n- Check the victim's ABCs.\n- If the victim has ABC complications, treat those first - ABCs always take priority.\n- Call an ambulance.\n- Treat for shock.\n- Assist the victim into the most comfortable position.\n- Monitor ABCs and vitals until the ambulance arrives.\n\nCirculatory Emergencies\n\nExternal Bleeding — Internal Bleeding — Heart Attack & Angina — Stroke & TIA — Shock"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Internal_Bleeding&oldid=4283995"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Internal_Bleeding&oldid=4283995",
+   "aliases": "bleeding inside the body, signs of internal bleeding, bruising after a fall, coughing up blood, blood in stool or urine, stomach hard and swollen after injury, car crash internal injuries, internal bleeding symptoms, shock from bleeding, hit in the stomach hurts, blood in vomit, what to do internal bleeding, hidden bleeding after accident, bleeding you cant see"
   },
   {
    "title": "Burns",
@@ -423,7 +433,8 @@
      "body": "The following burns require medical attention as soon as possible. They may be life-threatening, disabling, and disfiguring. Call the local emergency number if:\n\n- The burns are to a child younger than five years old or to an elderly person.\n- The patient is having difficulty breathing.\n- The burns are on more than one body part.\n- There are burns to the head, neck, hands, feet, or genitals.\n- There are burns to the mouth or nose (these may be signs of burns to the airway).\n- The burns result from chemicals or electricity.\n\nSoft Tissue Injuries\n\nBurns — Electrocution — Chest & Abdominal Injuries"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Burns&oldid=3778520"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Burns&oldid=3778520",
+   "aliases": "burn first aid, how to treat a burn, scalded by hot water, grease burn, cool a burn with water, chemical burn on skin, chemical in eye, electrical burn, electric shock burn, sunburn severe, radiation burn, first second third degree burn, burn blisters pop or not, bad burn when to get help, burn on face hands or groin, rule of nines burn size, covering a burn"
   },
   {
    "title": "Head & Facial Injuries",
@@ -461,7 +472,8 @@
      "body": "Musculoskeletal Injuries — Immobilization — Head & Facial Injuries — Suspected Spinal Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Head_%26_Facial_Injuries&oldid=4284364"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Head_%26_Facial_Injuries&oldid=4284364",
+   "aliases": "hit head hard, concussion signs, head injury what to do, knocked out, bump on the head, bleeding from the ear, pupils different sizes, vomiting after head injury, when to worry about a head bump, skull fracture, something in my eye, eye injury first aid, chemical in eye, black eye, cut on the face, nose bleed, brain injury symptoms, sleep after concussion"
   },
   {
    "title": "Chest & Abdominal Injuries",
@@ -487,12 +499,8 @@
      "body": "- Assess ABCs and intervene as necessary\n- Call for an ambulance\n- Assist the victim into a position of comfort (typically seated upright, to avoid fighting gravity)\n- Conduct a secondary survey\n- Monitor patient's condition carefully\n- Be vigilant, keep alert for any changes\n- If a flail segment is suspected, tightly secure a bulky dressing (such as a tightly folded hand towel) to help stabilize the injury"
     },
     {
-     "heading": "Open Chest Wounds",
-     "body": "An open pneumothorax or sucking chest wound – the chest wall has been penetrated (by knife, bullet, falling onto a sharp object...)"
-    },
-    {
      "heading": "Open Chest Wounds: Recognition",
-     "body": "- An open chest wound – escaping air\n- Entrance and possible exit wound (exit wounds are more severe)\n- Trouble breathing\n- Sucking sound as air passes through opening in chest wall\n- Blood or blood-stained bubbles may be expelled with each exhalation\n- Coughing up blood"
+     "body": "An open pneumothorax or sucking chest wound – the chest wall has been penetrated (by knife, bullet, falling onto a sharp object...)\n\n- An open chest wound – escaping air\n- Entrance and possible exit wound (exit wounds are more severe)\n- Trouble breathing\n- Sucking sound as air passes through opening in chest wall\n- Blood or blood-stained bubbles may be expelled with each exhalation\n- Coughing up blood"
     },
     {
      "heading": "Open Chest Wounds: Treatment",
@@ -507,7 +515,8 @@
      "body": "If the abdominal injury does not cause an open wound, have the person lie flat with their knees bent and treat for shock until EMS arrives.\n\nSoft Tissue Injuries\n\nBurns — Electrocution — Chest & Abdominal Injuries"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Chest_%26_Abdominal_Injuries&oldid=3995096"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Chest_%26_Abdominal_Injuries&oldid=3995096",
+   "aliases": "broken ribs, cracked rib what to do, hit in the chest cant breathe, hole in chest, sucking chest wound, stab wound to chest, belly wound guts showing, organs coming out of wound, internal bleeding signs, hit in the stomach hard, chest injury first aid, abdominal injury, blunt chest trauma, punctured lung, bruised ribs"
   },
   {
    "title": "Suspected Spinal Injury",
@@ -529,7 +538,8 @@
      "body": "Many spinal injuries are the result of a dive into shallow water. Lifeguards and lifesavers receive specialized training to manage spinal injuries in the water. Such hands-on training is the only way to learn the various techniques which are appropriate for use in such situations. If you see a victim in the water and did not witness what happened to the victim or are unsure if the victim has a spinal injury, immediately get the attention of a lifeguard or other trained responder.\n\nBone & Joint Injuries\n\nMusculoskeletal Injuries — Immobilization — Head & Facial Injuries — Suspected Spinal Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Suspected_Spinal_Injury&oldid=4017332"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Suspected_Spinal_Injury&oldid=4017332",
+   "aliases": "neck or back injury what to do, dont move them neck injury, fell and cant feel legs, dove into shallow water hurt neck, spinal injury signs, how to stabilize the neck, broken back, hold the head still, numbness after fall, spine injury in water, pulled someone out of pool neck hurt, log roll injured person, when to suspect spinal injury, head neck back injury"
   },
   {
    "title": "Immobilization",
@@ -555,7 +565,8 @@
      "body": "The femur is the largest bone in the body, and has a large artery, the femoral artery, directly beside it. Because a mechanism of injury which can fracture the femur is likely to also displace the fracture, it is possible that the femoral artery will be damaged internally. Damage to the femoral artery is likely to cause massive internal bleeding, so it is a major emergency; Call EMS immediately. Be sure to maintain as much immobilization as possible and monitor ABCs until EMS arrives.\n\nBone & Joint Injuries\n\nMusculoskeletal Injuries — Immobilization — Head & Facial Injuries — Suspected Spinal Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Immobilization&oldid=3998379"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Immobilization&oldid=3998379",
+   "aliases": "how to make a sling, arm sling for broken arm, sling for shoulder injury, broken collarbone sling, collar and cuff sling, broken ribs support, immobilize a broken leg, broken thigh bone femur, splinting a broken bone, keeping a fracture still, improvised sling from shirt, triangular bandage sling, broken arm first aid"
   },
   {
    "title": "Heart Attack & Angina",
@@ -577,7 +588,8 @@
      "body": "Call for assistance. A possible cardiac problem is serious, and should never be ignored or passed of as insignificant. Assist the victim with medication, only if it is prescribed to them. People with angina will often have medication to control it; either as pills or a spray. This medicine (nitroglycerin) is commonly referred to as “nitro”. The pills should never be touched with bare skin by the rescuer, as they will be absorbed directly through skin. These pills are placed directly under the tongue for absorption, never chewed or swallowed, and while the victim is seated. The spray should be taken on the bottom of the tongue, and should also be kept away from bare skin. Only the victim should administer his medication. This includes over the counter medications such as aspirin. Giving medication to someone in an emergency is much more complicated than handing the victim a pill, and should only be done by medical professionals. If he is unable to do so, then the rescuer should not do it for him. Helping to take the lid off or handing the bottle to the victim is acceptable. The names of the medications and times taken should be documented if the patient is transferred to other rescuers.\n\n- Loosen tight clothing, especially around the neck to help the victim relax, and help medical personnel access the chest.\n- Help the victim sit reclined, with the body leaned back at about 45 degrees, with feet on the floor, but knees raised – this puts the patient in a “W” position. Getting the victim comfortable without straining is more important than the position.\n- Avoid giving food or drink which can complicate some treatments. If the victim complains of thirst, small sips of plain water or ice are acceptable.\n- Be vigilant for any changes in condition which can occur rapidly and without warning.\n- Be prepared to do CPR should the victim go into cardiac arrest.\n\nCirculatory Emergencies\n\nExternal Bleeding — Internal Bleeding — Heart Attack & Angina — Stroke & TIA — Shock"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Heart_Attack_%26_Angina&oldid=4352925"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Heart_Attack_%26_Angina&oldid=4352925",
+   "aliases": "heart attack signs, chest pain what to do, is this a heart attack, angina attack, chest tightness, pain down left arm, aspirin for heart attack, heart attack in women, jaw pain heart attack, nitroglycerin pills, crushing chest pain, heart attack first aid, shortness of breath chest pain, cardiac chest pain"
   },
   {
    "title": "Stroke & TIA",
@@ -611,7 +623,8 @@
      "body": "When reassuring the victim, have a realistic picture of the condition in mind. Unfortunately, most patients will have significant impairments afterwards. A FAST response is key to mitigate effects, yet some causes of stroke are particularly fatal.\n\nThe human brain is quite flexible. The function of brain cells that have died may be taken over by nearby living brain cells, but this requires a long process of learning, rehabilitation, and will never have same quality as the original cells, since these were highly-specialized and optimized for their task. This ability of the brain, called neuroplasticity, however, decreases with advanced age.\n\nA stroke may also be the turning point of a patient’s habits. They will be put on a treatment plan, for example in order to manage excessive blood pressure, thus reducing their general risks. However, refrain from making accusations: “You have been smoking too much (tobacco).” or similar will not be appreciated.\n\nCirculatory Emergencies\n\nExternal Bleeding — Internal Bleeding — Heart Attack & Angina — Stroke & TIA — Shock"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Stroke_%26_TIA&oldid=4283996"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Stroke_%26_TIA&oldid=4283996",
+   "aliases": "stroke symptoms, is this a stroke, face drooping slurred speech, one side of body weak, mini stroke, TIA symptoms, someone having a stroke what to do, stroke first aid, sudden confusion and numbness, stroke recovery chances, unconscious after stroke, FAST stroke test, sudden bad headache, cant lift one arm"
   },
   {
    "title": "Asthma & Hyperventilation",
@@ -633,7 +646,8 @@
      "body": "For Asthma\n\n- If the victim has a fast-acting inhaler for asthma attacks, encourage them to use it as directed by their doctor or Asthma Action Plan. You may assist with finding the inhaler. Be aware that the bronchodilators in the inhalers can increase a feeling of anxiety & cause shaking as a side effect.\n- Try to keep the victim as calm as possible and slow their breathing rate.\n- Assist the casualty to sit in a position which relieves pressure on the chest. The tripod position is ideal - sitting up, leaning slightly forward, supporting their weight with their hands either on their knees or on a table or the like in front of them.\n- Call EMS if the victim's condition does not improve or if the victim's level of consciousness is lowered.\n- If the person does start to lose consciousness, lie them on the floor (preferably their left side) with their head tilted back a bit to ensure their airway is open. Watch their breathing carefully & if they vomit, ensure their mouth & nose are kept clear. Keep reassuring them help is on the way - they may be able to hear you even if they can’t respond.\n\nFor Hyperventilation The aim is to calm the casualty down & to reduce their rate of breathing. Ensure the environment around them is as calm as possible - multiple worried friends/family/strangers all talking at once can make their anxiety/fear worse.\n\nHave one, calm person talk to them in a low, soothing voice & help them feel safe.\n\nGradually try & get them to slow their breathing down, by matching your breathing & making their breaths out longer than their breaths in.\n\nEnsure they’re sitting upright if they’re able to hold themselves up, preferably with their hands on their knees or arms resting on a table or chair.\n\nTry asking them simple questions & distracting them from the cause of their anxiety. Something as simple as having them count out loud or name items around them or talk about their favourite things can help. Recognise their fear & reassure them. Even if they’re just having a psychogenic anxiety attack, the fear & symptoms feel extremely real to them. If they develop tingling & muscle cramps, assure them that this is normal & will go away once they have their breathing under control.\n\nDon’t give them a paper bag to breathe into as, if the cause of their hyperventilation is an illness or injury that isn’t immediately obvious, this can worsen their oxygen demands & build-up of carbon dioxide in the body. Just focus on reassurance, calming them as much as possible & using distraction techniques. Music can help too. If there is an underlying cause to their hyperventilation, such as an asthma attack, recognising this early, getting help & frequently reassuring them that help is on the way is vital.\n\nIf the person is unable to hold themselves upright in a sitting position, place them on their side on the floor, a couch or bed & tilt their head back a little to help keep their airway open. Monitor their breathing & airway closely. A normal respiratory rate for an adult is between 12 and 20 breaths per minute.\n\nIt is possible for people hyperventilating solely due to an anxiety attack to lose consciousness. This will usually be brief & once their breathing returns to normal, they should fully recover. If they do not fully recover, they have recurrent hyperventilation/ anxiety attacks or their symptoms persist, ensure they get assessed medically to rule out any underlying problem or get appropriate treatment for the cause of their anxiety.\n\nRespiratory Emergencies\n\nAnaphylactic Shock — Asthma & Hyperventilation — Obstructed Airway"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Asthma_%26_Hyperventilation&oldid=4343724"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Asthma_%26_Hyperventilation&oldid=4343724",
+   "aliases": "asthma attack what to do, cant breathe wheezing, how to use an inhaler, hyperventilating what to do, breathing too fast, panic attack breathing, inhaler not working, someone having asthma attack no inhaler, tight chest cant catch breath, breathing into paper bag, help someone breathe, asthma attack first aid, tingling fingers breathing fast, calm down breathing"
   },
   {
    "title": "Anaphylactic Shock",
@@ -655,26 +669,19 @@
      "body": "Regional Note\n\nAdministering an epinephrine autoinjector is not legal in all jurisdictions without proper training and certification.\n\nEpinephrine autoinjectors are designed for ease of use. There are instructions in the tube with the auto-injector, but you should know how to use one ahead of time. They're designed to inject through clothes, so you don't have to remove the victim's pants - even if they're wearing a heavy material like denim. Whenever possible, the victim should inject themselves, but if they're unable to do so, you may be legally permitted to inject the victim.\n\nRemove the auto-injector from the protective tube. One end has a black tip - this is where the needle will come out. Do not touch this tip! The other end has a grey cap. Remove the grey cap, hold the autoinjector in your fist, and press it firmly against the outside of the victim's outer thigh. There should be an audible click. If there is not, try again but pressing harder. Hold the auto-injector in place for 10 seconds. When you remove it, massage the area for 10 seconds, then reinsert the applicator into its protective tube needle end first to avoid any danger. When EMS arrives, they can dispose of it for you.\n\nRespiratory Emergencies\n\nAnaphylactic Shock — Asthma & Hyperventilation — Obstructed Airway"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Anaphylactic_Shock&oldid=3773791"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Anaphylactic_Shock&oldid=3773791",
+   "aliases": "severe allergic reaction, anaphylaxis, throat closing after bee sting, allergic to peanuts reaction, swelling face and lips allergy, hives and trouble breathing, how to use an epipen, epinephrine auto injector steps, epipen in thigh, second epipen dose, allergic reaction first aid, anaphylactic shock signs, allergic reaction to medication, shellfish allergy reaction"
   },
   {
    "title": "Diabetes",
    "sections": [
     {
      "heading": "Overview",
-     "body": "First Aid\n\nIntroduction — Issues in Providing Care — Primary Assessment & Basic Life Support — Secondary Assessment — Circulatory Emergencies\n\nRespiratory Emergencies — Soft Tissue Injuries — Bone & Joint Injuries — Environmental Illness & Injury\n\nMedical Conditions & Poisoning — Advanced Topics — Appendices — Meta content"
-    },
-    {
-     "heading": "Introduction",
-     "body": "Diabetes\n\na disease causing an inability to regulate the level of sugar (glucose) in the blood\n\nInsulin\n\na hormone that allows glucose to travel from the bloodstream into the cells"
-    },
-    {
-     "heading": "Hypoglycemia (Insulin Shock)",
-     "body": "Hypoglycemia is a diabetic condition where the body has an insufficient amount of blood sugar. It presents suddenly and should always be considered an emergency."
+     "body": "First Aid\n\nIntroduction — Issues in Providing Care — Primary Assessment & Basic Life Support — Secondary Assessment — Circulatory Emergencies\n\nRespiratory Emergencies — Soft Tissue Injuries — Bone & Joint Injuries — Environmental Illness & Injury\n\nMedical Conditions & Poisoning — Advanced Topics — Appendices — Meta content\n\n**Introduction**\n\nDiabetes\n\na disease causing an inability to regulate the level of sugar (glucose) in the blood\n\nInsulin\n\na hormone that allows glucose to travel from the bloodstream into the cells"
     },
     {
      "heading": "Hypoglycemia (Insulin Shock): Causes",
-     "body": "- Lack of food (low glucose)\n- Excessive exercise\n- Too much insulin\n- Vomited meal"
+     "body": "Hypoglycemia is a diabetic condition where the body has an insufficient amount of blood sugar. It presents suddenly and should always be considered an emergency.\n\n- Lack of food (low glucose)\n- Excessive exercise\n- Too much insulin\n- Vomited meal"
     },
     {
      "heading": "Hypoglycemia (Insulin Shock): Recognition",
@@ -689,7 +696,8 @@
      "body": "Hyperglycemia is a condition in which the body's blood sugar level is too high to maintain. This condition presents less commonly than hypoglycemia and usually occurs very slowly, over the course of several days. Although it is most commonly observed in diabetics, a mild form can also occur in anyone who consumes too much sugar. While the mild form can be harmless, aside from a general feeling of malaise, hyperglycemia in a diabetic is a serious, potentially life threatening situation that requires prompt identification and treatment. Left untreated, ketoacidosis can develop which might lead to a coma or death.\n\nThere are several main causes of hyperglycemia. Generally it has to do with an imbalance between insulin and glucose. Without enough insulin, the body cannot break down glucose. A diabetic can be taking their normal insulin dosage and still have hyperglycemia. Should they fail to follow their standard dietary arrangements, the excess of food (and glucose) can rapidly overwhelm the body's stores of insulin. In addition to medication and dietary errors, the immune system can also be the culprit. When infection occurs, metabolism can be drastically increased. This surprise increase can, like excessive food, consume too much insulin.\n\nRegardless of the cause of a suspected case of hyperglycemia, the immediate priority for the first responder is recognizing hyperglycemia. The symptoms of a case are;\n\n- Flush/redness of skin\n- Fruity breath (sign of diabetic ketoacidosis)\n- Deep or rapid respirations\n- Dehydration/extreme thirst/excessive urination\n- Loss of appetite\n- Low blood pressure\n- Weakness/dizziness\n- Weak, rapid pulse\n\nPrompt treatment can prevent further complications and serious emergencies. EMS should be called immediately. Next, the first responder should focus on stabilizing the victim. Follow any instructions from the dispatcher as much as possible. Whenever contradicted by this section, follow the dispatcher. Every victim should be treated for shock and have their vital signs monitored constantly. Insulin is not an emergency medication and should not be given by the first aid provider. Improper administration of insulin can cause insulin shock and cause unconsciousness.\n\nMedical Conditions & Poisoning\n\nDiabetes — Seizures — Mental Health Emergency — Poisoning"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Diabetes&oldid=3284183"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Diabetes&oldid=3284183",
+   "aliases": "diabetic emergency, low blood sugar, hypoglycemia symptoms, insulin shock, diabetic passed out, sugar for diabetic, high blood sugar, hyperglycemia symptoms, diabetic confused shaky sweaty, diabetic coma, fruity breath, what to give a diabetic, diabetic unconscious, insulin too much, no insulin available, glucose tablets"
   },
   {
    "title": "Seizures",
@@ -711,7 +719,8 @@
      "body": "Don't do this!\n\nNever try to restrain the seizure. Never put anything in the mouth.\n\nSeeing a seizure may be a frightening experience which may cause you hesitation to act to aid the victim. However, it is very easy to care for the victim. Never attempt to hold them in any way to stop their seizure - the victim is unaware that it is occurring and is unable to control it. Attempting to restrain an individual having a seizure may result in injuries to both you and the victim. Also, do not attempt to stick anything into the victim's mouth - the victim will not swallow their tongue and sticking something in their mouth can cause further injury or death. The tongue may obstruct the airway during the seizure, but this is normal.\n\nIn the event of a Status seizure being noticed, as described above, it is important to get Emergency help as quickly as possible - you should explain to any call handler or dispatcher that the patient is having a continuous seizure. These types of seizure can only be terminated by the administration (by trained EMS personnel or an MD) of Diazepam, usually anally or via intramuscular injection.\n\nCare for Seizures:\n\n- Call EMS or have someone call for you.\n- Move anything the victim can injure themselves with away from the victim such as chairs or other objects.\n- Gently support the victim's head to prevent it from hitting the ground.\n- Request that all bystanders move away (persons having a seizure are often embarrassed after their seizure).\n- After the seizure has ended, roll the victim into the recovery position but only if you do not suspect a spinal injury.\n\nAfter the seizure, the victim will slowly \"awaken.\" Ensure that bystanders are away and offer reassurance for the victim. Victims who have a seizure in public are often self-conscious about their condition. The victim will be very tired after his seizure. Continue to reassure the victim until he or she is fully aware of the surroundings or until EMS arrives.\n\nMedical Conditions & Poisoning\n\nDiabetes — Seizures — Mental Health Emergency — Poisoning"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Seizures&oldid=4284368"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Seizures&oldid=4284368",
+   "aliases": "someone is having a seizure, seizure what to do, epileptic fit, having convulsions, shaking and unresponsive, dont put anything in mouth, how long does a seizure last, seizure first aid, after a seizure what to do, fit seizure help, child having a seizure, when to call for seizure, protect head during seizure, recovery position after seizure"
   },
   {
    "title": "Epilepsy",
@@ -725,7 +734,8 @@
      "body": "Epileptic seizures can have many different trigger factors - some of the most common include:\n\n- Photosensitivity - The patient suffers a seizure as the result of viewing rapidly flashing lights, such as strobes on an emergency vehicle, or flickering on the TV or a computer monitor. This is usually generated as the result of issues within the Temporal lobe.\n- Stress - Simple stress such as too much work, or having a lot of pressure in your job can also trigger Epileptic seizures. These are not as detectable as other kinds, and may be passed over as a one-off.\n- Fixation off - Rare. Seizures are triggered by not focusing."
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Epilepsy&oldid=3424006"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Epilepsy&oldid=3424006",
+   "aliases": "what is epilepsy, types of seizures, seizure disorder, absence seizure staring, grand mal seizure, petit mal, someone zoning out seizure, epilepsy explained, kinds of epilepsy, convulsions meaning, seizure types explained, epileptic fits, focal seizure, tonic clonic seizure, why do people have seizures"
   },
   {
    "title": "Poisoning",
@@ -771,7 +781,8 @@
      "body": "Poison Control Centers will provide the best information for first aiders. Basic treatment involves monitoring the patient's ABCs, treating for shock, observing the patient for an allergic reaction, and calming the patient.\n\nTo help EMS, gain as much information about the poison as you can. What it was, when it was injected, how it was injected, and if the person has any allergies to the injection. (For example a bee sting causing anaphylaxis.)\n\nAlways take steps to keep yourself safe. If needles were used to inject the poison, be careful to avoid touching or stepping on them, as there could still be poison in/on those needles. Be aware of bees, wasps, and animals in the area, as they could also harm you in the same way they harmed the victim.\n\nMedical Conditions & Poisoning\n\nDiabetes — Seizures — Mental Health Emergency — Poisoning"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Poisoning&oldid=4350433"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Poisoning&oldid=4350433",
+   "aliases": "poisoning first aid, swallowed poison what to do, kid drank cleaner, swallowed pills overdose, do not make them vomit, breathed in fumes, carbon monoxide poisoning, gas leak inhaled, chemical on skin poison, poison absorbed through skin, injected poison snake bite, bee sting venom, drug injection overdose, poison control, signs of poisoning, swallowed bleach, pesticide exposure"
   },
   {
    "title": "Electrocution",
@@ -793,7 +804,8 @@
      "body": "Those victims who are not rendered unconscious are likely to feel unwell after the experience, and may well complain of numbness or pins & needles in the area where through the electricity has passed. These victims must still be transported to a hospital for evaluation, as heart rhythm disturbances can lead to cardiac arrest.\n\nSoft Tissue Injuries\n\nBurns — Electrocution — Chest & Abdominal Injuries"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Electrocution&oldid=3844929"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Electrocution&oldid=3844929",
+   "aliases": "electric shock first aid, got electrocuted, someone touched a live wire, shocked by outlet, downed power line person, turn off power before touching, electrical burn, electric shock not breathing, lightning strike first aid, high voltage shock, shocked by appliance, electrocution CPR, electric fence shock"
   },
   {
    "title": "Cold-Related Illness & Injury",
@@ -811,18 +823,15 @@
      "body": "Hypothermia is when the body's core temperature drops so low the body can no longer warm itself back up. Severe hypothermia is classified as when the body drops below 95 degrees Fahrenheit.\n\nTreatment for victims of hypothermia is as follows:\n\nDon't do this!\n\nNever jostle a victim of extreme hypothermia as this may cause cardiac arrest!\n\n- Remove the victim from the cold environment.\n- For cases of extreme hypothermia, where the patient is showing signs of confusion, slurred speech, fumbling hands, or go unconscious, notify EMS.\n- Remove wet clothing from the victim and replace with dry clothing. (A dry hat is recommended to be worn.)\n- Wrap victim in blankets.\n- Use heat packs to warm the patient. Do not allow the packs to touch naked skin.\n- Victims who are alert may drink warm liquids, however, do not give any drinks containing alcohol, caffeine, or give a drink that is too hot.\n\nWarning: Victims of hypothermia may become worse as they warm, this is due to cold blood moving towards the core of the body. If a patient goes unconscious, check their ABCs and notify EMS.\n\n\"Nobody's dead until they're warm and dead\" First aid procedures must therefore continue until professional help is available.\n\nEnvironmental Illness & Injury\n\nHeat-Related Illness & Injury — Cold-Related Illness & Injury — Pressure-Related Illness & Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Cold-Related_Illness_%26_Injury&oldid=3358944"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Cold-Related_Illness_%26_Injury&oldid=3358944",
+   "aliases": "frostbite first aid, hypothermia first aid, how to treat frostbite, how to warm someone up, too cold shivering confused, fingers numb and white, toes frozen, rewarming frozen skin, body temperature too low, cold exposure first aid, someone fell in cold water, signs of hypothermia, dont rub frostbite, cold injury treatment"
   },
   {
    "title": "Heat-Related Illness & Injury",
    "sections": [
     {
      "heading": "Overview",
-     "body": "First Aid\n\nIntroduction — Issues in Providing Care — Primary Assessment & Basic Life Support — Secondary Assessment — Circulatory Emergencies\n\nRespiratory Emergencies — Soft Tissue Injuries — Bone & Joint Injuries — Environmental Illness & Injury\n\nMedical Conditions & Poisoning — Advanced Topics — Appendices — Meta content"
-    },
-    {
-     "heading": "Burns",
-     "body": "For burns, see Thermal Burns"
+     "body": "First Aid\n\nIntroduction — Issues in Providing Care — Primary Assessment & Basic Life Support — Secondary Assessment — Circulatory Emergencies\n\nRespiratory Emergencies — Soft Tissue Injuries — Bone & Joint Injuries — Environmental Illness & Injury\n\nMedical Conditions & Poisoning — Advanced Topics — Appendices — Meta content\n\n**Burns**\n\nFor burns, see Thermal Burns"
     },
     {
      "heading": "Heat Cramps",
@@ -830,11 +839,7 @@
     },
     {
      "heading": "Heat Exhaustion",
-     "body": "Heat exhaustion is a milder form of heat-related illness that can develop after several days of exposure to high temperatures and inadequate or unbalanced replacement of fluids. Those most prone to heat exhaustion are elderly people, people with high blood pressure, and people working or exercising in a hot environment."
-    },
-    {
-     "heading": "Heat Exhaustion: Symptoms of Heat Exhaustion",
-     "body": "- Confused\n- Heavy sweating\n- Paleness\n- Muscle cramps\n- Tiredness\n- Weakness\n- Dizziness\n- Headache\n- Nausea or vomiting\n- Fainting\n- Sickness"
+     "body": "Heat exhaustion is a milder form of heat-related illness that can develop after several days of exposure to high temperatures and inadequate or unbalanced replacement of fluids. Those most prone to heat exhaustion are elderly people, people with high blood pressure, and people working or exercising in a hot environment.\n\n**Heat Exhaustion: Symptoms of Heat Exhaustion**\n\n- Confused\n- Heavy sweating\n- Paleness\n- Muscle cramps\n- Tiredness\n- Weakness\n- Dizziness\n- Headache\n- Nausea or vomiting\n- Fainting\n- Sickness"
     },
     {
      "heading": "Heat Exhaustion: Treatment of Heat Exhaustion",
@@ -853,7 +858,8 @@
      "body": "- Notify EMS.\n- Cool the victim's body immediately by dousing the body with cold water.\n- Apply wet, cold towels to the whole body.\n- Pack ice into the victim's heat-loss areas (underarms, groin, neck). Do not let ice contact the victim's bare skin as this may cause frostbite!\n- Wetting and Evaporating measures work best. (Think, artificial sweating.)\n- Move the victim to the coolest possible place and remove as much clothing as possible (ensure privacy).\n- Maintain an open airway.\n- Expose the victim to a fan or air-conditioner since drafts will promote cooling.\n- Immersing the victim in a cold water bath is also effective.\n- Give the victim (if conscious) cool water to drink.\n- Do not give any hot drinks or stimulants.\n- Never give an unconscious victim something to drink as it may obstruct the airway or cause vomiting.\n- Get the victim to a medical facility as soon as possible. Cooling measures must be continued while the victim is being transported.\n\nMonitor the victim's vital signs frequently. Be prepared to begin CPR should the victim become unconscious and not be breathing.\n\nEnvironmental Illness & Injury\n\nHeat-Related Illness & Injury — Cold-Related Illness & Injury — Pressure-Related Illness & Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Heat-Related_Illness_%26_Injury&oldid=4005754"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Heat-Related_Illness_%26_Injury&oldid=4005754",
+   "aliases": "heat stroke vs heat exhaustion, too hot dizzy nauseous, overheated what to do, heat cramps muscle cramps hot day, how to cool someone down, heat exhaustion symptoms, heat stroke signs, stopped sweating hot skin, burns first aid, how to treat a burn, sunburn blisters, working in the heat sick, heat illness treatment, confused after being in sun, hot weather illness, burned hand what to do"
   },
   {
    "title": "Pressure-Related Illness & Injury",
@@ -876,15 +882,7 @@
     },
     {
      "heading": "Decompression Sickness (the Bends): Recognition",
-     "body": "Bubbles can form anywhere in the body, but symptomatic sensation is most frequently observed in the shoulders, elbows, knees, and ankles.\n\nThis table gives symptoms for the different DCS types.\n\n- The \"bends\" (joint pain) accounts for about 60 to 70 percent of all altitude DCS cases, with the shoulder being the most common site. These types are classified medically as DCS I.\n- Neurological symptoms are present in 10 to 15 percent of all DCS cases with headache and visual disturbances the most common. DCS cases with neurological symptoms are generally classified as DCS II.\n- The \"chokes\" are rare and occur in less than two-percent of all DCS cases.\n- Skin manifestations are present in about 10 to 15 percent of all DCS cases.\n\nSigns and symptoms of decompression sickness.\n\nDCS Type\n\nBubble Location\n\nSigns & Symptoms\n\nBENDS\n\nMostly large joints of the body (elbows, shoulders, hip, wrists, knees, ankles)\n\n- Localized deep pain, ranging from mild (a \"niggle\") to excruciating. Sometimes a dull ache, but rarely a sharp pain.\n- Active and passive motion of the joint aggravates the pain.\n- The pain may be reduced by bending the joint to find a more comfortable position.\n- If caused by altitude, pain can occur immediately or up to many hours later.\n\nNEUROLOGIC\n\nBrain\n\n- Confusion or memory loss\n- Headache\n- Spots in visual field, tunnel vision, double vision, or blurry vision\n- Unexplained extreme fatigue or behaviour changes\n- Seizures, dizziness, vertigo, nausea, vomiting and unconsciousness may occur\n\nSpinal Cord\n\n- Abnormal sensations such as burning, stinging, and tingling around the lower chest and back\n- Symptoms may spread from the feet up and may be accompanied by ascending weakness or paralysis\n- Girdling abdominal or chest pain\n\nPeripheral Nerves\n\n- Urinary and rectal incontinence\n- Abnormal sensations, such as numbness, burning, stinging and tingling\n- Muscle weakness or twitching\n\nCHOKES\n\nLungs\n\n- Burning deep chest pain (under the sternum)\n- Pain is aggravated by breathing\n- Shortness of breath\n- Dry constant cough\n\nSKIN BENDS\n\nSkin\n\n- Itching usually around the ears, face, neck arms, and upper torso\n- Sensation of tiny insects crawling over the skin\n- Mottled or marbled skin usually around the shoulders, upper chest and abdomen, with itching\n- Swelling of the skin, accompanied by tiny scar-like skin depressions"
-    },
-    {
-     "heading": "Oxygen Toxicity",
-     "body": "Oxygen toxicity occurs when oxygen in the body exceeds a safe level."
-    },
-    {
-     "heading": "Oxygen Toxicity: Recognition",
-     "body": "- Dizziness\n- Nausea and twitching, especially on the face\n- Seizures\n- Unconscioussness"
+     "body": "Bubbles can form anywhere in the body, but symptomatic sensation is most frequently observed in the shoulders, elbows, knees, and ankles.\n\nThis table gives symptoms for the different DCS types.\n\n- The \"bends\" (joint pain) accounts for about 60 to 70 percent of all altitude DCS cases, with the shoulder being the most common site. These types are classified medically as DCS I.\n- Neurological symptoms are present in 10 to 15 percent of all DCS cases with headache and visual disturbances the most common. DCS cases with neurological symptoms are generally classified as DCS II.\n- The \"chokes\" are rare and occur in less than two-percent of all DCS cases.\n- Skin manifestations are present in about 10 to 15 percent of all DCS cases.\n\nSigns and symptoms of decompression sickness.\n\nDCS Type\n\nBubble Location\n\nSigns & Symptoms\n\nBENDS\n\nMostly large joints of the body (elbows, shoulders, hip, wrists, knees, ankles)\n\n- Localized deep pain, ranging from mild (a \"niggle\") to excruciating. Sometimes a dull ache, but rarely a sharp pain.\n- Active and passive motion of the joint aggravates the pain.\n- The pain may be reduced by bending the joint to find a more comfortable position.\n- If caused by altitude, pain can occur immediately or up to many hours later.\n\nNEUROLOGIC\n\nBrain\n\n- Confusion or memory loss\n- Headache\n- Spots in visual field, tunnel vision, double vision, or blurry vision\n- Unexplained extreme fatigue or behaviour changes\n- Seizures, dizziness, vertigo, nausea, vomiting and unconsciousness may occur\n\nSpinal Cord\n\n- Abnormal sensations such as burning, stinging, and tingling around the lower chest and back\n- Symptoms may spread from the feet up and may be accompanied by ascending weakness or paralysis\n- Girdling abdominal or chest pain\n\nPeripheral Nerves\n\n- Urinary and rectal incontinence\n- Abnormal sensations, such as numbness, burning, stinging and tingling\n- Muscle weakness or twitching\n\nCHOKES\n\nLungs\n\n- Burning deep chest pain (under the sternum)\n- Pain is aggravated by breathing\n- Shortness of breath\n- Dry constant cough\n\nSKIN BENDS\n\nSkin\n\n- Itching usually around the ears, face, neck arms, and upper torso\n- Sensation of tiny insects crawling over the skin\n- Mottled or marbled skin usually around the shoulders, upper chest and abdomen, with itching\n- Swelling of the skin, accompanied by tiny scar-like skin depressions\n\n**Oxygen Toxicity: Recognition**\n\nOxygen toxicity occurs when oxygen in the body exceeds a safe level.\n\n- Dizziness\n- Nausea and twitching, especially on the face\n- Seizures\n- Unconscioussness"
     },
     {
      "heading": "Air Embolism",
@@ -895,7 +893,8 @@
      "body": "Shallow water blackout is loss of consciousness caused by lack of oxygen in the blood towards the end of a breath-hold dive in shallow water, when the swimmer does not necessarily experience an urgent need to breathe and has no other obvious medical condition that might have caused it.\n\nThe urge to breathe (more precisely: to exhale) is triggered by rising carbon dioxide (CO2) levels in the bloodstream. Hyperventilation artificially depletes these, causing a low blood carbon dioxide condition called hypocapnia. Hypocapnia reduces the reflexive respiratory drive, allows the delay of breathing and leaves the diver susceptible to loss of consciousness from hypoxia.\n\nEnvironmental Illness & Injury\n\nHeat-Related Illness & Injury — Cold-Related Illness & Injury — Pressure-Related Illness & Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Pressure-Related_Illness_%26_Injury&oldid=4284365"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Pressure-Related_Illness_%26_Injury&oldid=4284365",
+   "aliases": "the bends, decompression sickness, scuba diving injury, came up too fast diving, joint pain after diving, air embolism diving, oxygen toxicity, shallow water blackout, passed out holding breath underwater, free diving blackout, diving accident first aid, pressure injury ears lungs, flying after diving, diver needs oxygen"
   },
   {
    "title": "Marine First Aid",
@@ -921,7 +920,8 @@
      "body": "The risk of tetanus may necessitate a booster immunization. Due to the fatality rate of tetanus, it is strongly advisable that victims receive the immunization if needed. The wound site should be monitored for signs of infection. If signs appear or the wound does not appear to be healing normally, seek medical attention as soon as possible.\n\nAdvanced Topics\n\nWilderness First Aid — Marine First Aid — Extended Assessment\n\nAirway Management — Oxygen Administration — Automated External Defibrillation — Triage"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Marine_First_Aid&oldid=4527194"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Marine_First_Aid&oldid=4527194",
+   "aliases": "fish hook in finger, fish hook stuck in skin, removing a fish hook, hook in hand, the bends, decompression sickness, scuba diving injury, diver came up too fast, nitrogen bubbles, fishing injury, hook through skin, barbed hook removal, boat first aid, diving accident"
   },
   {
    "title": "Wilderness First Aid",
@@ -951,7 +951,8 @@
      "body": "Ticks are small parasitic arachnids. They are generally black, gray, brown, red or a combination of these colors. They require the blood of mammals to survive. When hungry, they are extremely small and difficult to see. As they feed on a host, their body expands and they become more noticeable. Normally ticks wouldn't be a problem, but they have been identified as a vector for disease. Tick Encephalitis, Lyme Disease and Rocky Mountain Spotted Fever can be spread by an infected tick. Also, the opening they create in the skin provides easy access to the body for airborne pathogens.\n\nThe best way to prevent these diseases is to make it difficult for ticks to attach to your skin. Minimizing the amount of skin visible will minimize the amount of skin for ticks to feed on. Check before you travel to see if ticks are a known danger in your area. When you stop in a tick infested area, have a partner do a visual inspection for them. This can further aided by wearing light colored clothing, which makes ticks stand out more. Avoid brushing against hanging foliage as ticks love to wait there for a host to come along.\n\nGenerally, medical attention is not necessary to handle tick bites. However when you discover a tick, effort should be made to remove it as soon as possible. If you are unable to remove it and it does require medical attention, seek such attention promptly. Every moment that the tick remains in your body increases the chances of getting a disease.\n\n- Gently grasp the tick's mouthparts with forceps - be very careful not to grab the body.\n- Pull the mouthparts straight back in the direction they entered the skin with even pressure.\n- The mouthparts are quite difficult to remove, and are often very long; be patient and use steady, even pressure.\n- Pull gently but firmly; if you pull with too much force, you will detach the mouthparts from the rest of the tick. If the mouthparts stay embedded in the skin, they can very easily kindle an infection.\n- Do not use substances such as nail polish remover or bug spray.\n- Flame can be used (if accepted in your area).\n- If you must, use fingernails to grasp the tick's mouthparts.\n- Wash the area and your hands thoroughly with soap and water once you've finished.\n- Wipe area with antiseptic/antibiotics.\n- Bandage and keep the bite clean.\n\nUsing antiseptic or antibiotic on a bite decreases the chances of infection, but antibiotic prophalaxis is recommended.\n\nAdvanced Topics\n\nWilderness First Aid — Marine First Aid — Extended Assessment\n\nAirway Management — Oxygen Administration — Automated External Defibrillation — Triage"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Wilderness_First_Aid&oldid=4284626"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Wilderness_First_Aid&oldid=4284626",
+   "aliases": "allergic reaction, anaphylactic shock, epipen how to use, swelling after bee sting, throat closing allergic, snake bite what to do, spider bite, tick bite, how to remove a tick, animal bite first aid, dog bite, bitten by a snake, black widow bite, first aid far from help, wilderness first aid, severe allergy"
   },
   {
    "title": "Mental Health Emergency",
@@ -962,18 +963,11 @@
     },
     {
      "heading": "Causes",
-     "body": "The causes and triggers of a 'Crisis' can be complex, and highly subjective to the individual patient.\n\nWhilst a 'crisis' can be triggered by physical injury, for example shock or brain injury, 'Crisis' can present itself independently.\n\nCertain forms of Mental Health crisis can also be triggered as a reaction to certain forms of drug reaction or poisoning."
-    },
-    {
-     "heading": "Treatment",
-     "body": "In treating a crisis, the assistance of trained mental health professionals is always advised."
-    },
-    {
-     "heading": "See also",
-     "body": "- PTSD\n- Clinical Depression\n- Dementia"
+     "body": "The causes and triggers of a 'Crisis' can be complex, and highly subjective to the individual patient.\n\nWhilst a 'crisis' can be triggered by physical injury, for example shock or brain injury, 'Crisis' can present itself independently.\n\nCertain forms of Mental Health crisis can also be triggered as a reaction to certain forms of drug reaction or poisoning.\n\n**Treatment**\n\nIn treating a crisis, the assistance of trained mental health professionals is always advised.\n\n**See also**\n\n- PTSD\n- Clinical Depression\n- Dementia"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Mental_Health_Emergency&oldid=4350456"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Mental_Health_Emergency&oldid=4350456",
+   "aliases": "someone is suicidal, friend wants to hurt themselves, panic attack help, mental breakdown what to do, person acting crazy, psychotic episode, calming someone down, suicide threat what to do, severe anxiety attack, talking someone down, someone is hallucinating, mental health crisis, how to help someone in crisis, self harm, someone is not making sense"
   },
   {
    "title": "Triage",
@@ -987,7 +981,8 @@
      "body": "START is a simple triage system that first aiders can learn to use with little training. Simple triage identifies which persons need advanced medical care. In START, persons should be treated and evacuated as follows:\n\n- DECEASED are left where they fell, covered if necessary; note that in START a person is not triaged \"DECEASED\" unless they are not breathing and pulseless and an effort to reposition their airway has been unsuccessful.\n- IMMEDIATE or Priority 1 (red) evacuation by MEDEVAC if available or ambulance as they need advanced medical care at once or within 1 hour. These people are in critical condition and would die without immediate assistance.\n- DELAYED or Priority 2 (yellow) can have their medical evacuation delayed until all IMMEDIATE persons have been transported. These people are in stable condition but require medical assistance.\n- MINOR or Priority 3 (green) are not evacuated until all IMMEDIATE and DELAYED persons have been evacuated. These will not need advanced medical care for at least several hours. Continue to re-triage in case their condition worsens. These people are able to walk, and may only require bandages and antiseptic.\n\nAdvanced Topics\n\nWilderness First Aid — Marine First Aid — Extended Assessment\n\nAirway Management — Oxygen Administration — Automated External Defibrillation — Triage"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Triage&oldid=3284217"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Triage&oldid=3284217",
+   "aliases": "triage, many injured people who to help first, START triage, sorting casualties, mass casualty, prioritizing injured, who to treat first, car crash multiple victims, walking wounded, red yellow green black tags, triage tags, disaster with lots of injured"
   },
   {
    "title": "Protective Precautions",
@@ -1021,7 +1016,8 @@
      "body": "Many first aid situations take place without a first aid kit readily at hand and it may be the case that a first aider has to improvise materials and equipment. The flexibility required in such situations is referenced in a common saying among rescue workers - \"Adapt, improvise, and overcome!\" As a general rule, some help is better than no help, especially in critical situations, so a key first aid skill is the ability to adapt to the situation, and use available materials until more help arrives.\n\nSome common improvisations include:\n\n- Gloves → plastic bags, dish gloves, leather work gloves (wash your hands with soap and water especially well after using these)\n- Gauze → clean clothing, bedding or towel (but not paper products, such as paper towels or toilet paper)\n- Splints → straight sections of wood, plastic, cardboard or metal\n- Slings → the victim's shirt's bottom hem pinned to the center of their chest will immobilize a forearm or shoulder injury nicely\n- Stretcher → a heavy blanket can be used to move a victim\n\nIssues in Providing Care\n\nConsent — Protective Precautions — Legal Liability — Critical Incident Stress & Victim Death — Abuse & Neglect"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Protective_Precautions&oldid=4022401"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Protective_Precautions&oldid=4022401",
+   "aliases": "gloves for first aid, protect yourself giving first aid, CPR mask, face shield for CPR, blood exposure, avoid catching disease first aid, barrier device, no gloves what to use, plastic bag as gloves, bloodborne disease, scene safety, is it safe to help, safe to approach, improvised gloves"
   },
   {
    "title": "Appendix E: First Aid Kits",
@@ -1039,7 +1035,8 @@
      "body": "Item\n\nHome\n\nCar\n\nWilderness\n\nWorkplace (<5 workers)\n\nWorkplace (5-15 workers)\n\nWorkplace (15-200 workers)\n\nWorkplace (>200 workers)\n\nNitrile Gloves (pairs)\n\n2\n\n2\n\n10\n\n25\n\n50\n\n100\n\n200\n\nCPR mask\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nTape (roll)\n\n1\n\n1\n\n2\n\n1\n\n2\n\n4\n\n8\n\n3\"x3\" sterile gauze pads\n\n4\n\n8\n\n20\n\n4\n\n12\n\n48\n\n96\n\n4\"x4\" sterile gauze pads\n\n4\n\n8\n\n20\n\n2\n\n2\n\n10\n\n20\n\nTrauma dressing (ABD pad)\n\n0\n\n1\n\n2\n\n2\n\n2\n\n6\n\n10\n\nNon-stick gauze\n\n4\n\n8\n\n20\n\n2\n\n2\n\n10\n\n20\n\nRoll 2\" gauze\n\n1\n\n2\n\n5\n\n2\n\n4\n\n8\n\nRoll 4\" gauze\n\n8\n\n16\n\nAdhesive bandages\n\n20\n\n40\n\n50\n\n12\n\n24\n\n48\n\n100\n\nAntiseptic solution\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nAntibiotic ointment\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nTriangular bandages\n\n2\n\n4\n\n4\n\n1\n\n6\n\n12\n\n24\n\nSafety pins\n\n10\n\n20\n\n20\n\n10\n\n10\n\n20\n\n20\n\nParamedic Scissors\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nItem\n\nHome\n\nCar\n\nWilderness\n\nWorkplace (<5 workers)\n\nWorkplace (5-15 workers)\n\nWorkplace (15-200 workers)\n\nWorkplace (>200 workers)\n\nTweezers\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nInstant hot & cold packs\n\n1 of each\n\n1 of each\n\n2 of each\n\n1 of each\n\n1 of each\n\n2 of each\n\nFirst Aid guide\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nPen/pencil\n\n2\n\n2\n\n2\n\n2\n\n2\n\n2\n\n2\n\nPaper (or report forms)\n\n2\n\n2\n\n10\n\n5\n\n10\n\n20\n\n50\n\nSplint\n\n1\n\n2\n\n2\n\n1\n\nassorted sizes\n\nassorted sizes\n\nSplint padding\n\n2\n\n4\n\n4\n\n2\n\n2\n\n10\n\nWaste bag\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\na biohazard receptacle and/or a sharps container\n\nPhone numbers\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\nThermometer\n\n1\n\n1\n\nSterile saline solution or bottle of water\n\n1\n\n1\n\neyewash station\n\nWaterproof matches (box)\n\n1\n\n1\n\n1\n\nWhistle\n\n1\n\n1\n\nFlashlight (and spare batteries)\n\n1\n\n1\n\n1\n\nPenknife\n\n1\n\n1\n\nCertifications\n\nProof of currency for trained staff\n\nProof of currency for trained staff\n\nProof of currency for trained staff\n\nProof of currency for trained staff\n\nLog book\n\n1\n\n1\n\n1\n\n1\n\nItem\n\nHome\n\nCar\n\nWilderness\n\nWorkplace (<5 workers)\n\nWorkplace (5-15 workers)\n\nWorkplace (15-200 workers)\n\nWorkplace (>200 workers)\n\nAppendices\n\nAppendix A: Glossary — Appendix B: Behind the Scenes\n\nAppendix C: Sources — Appendix D: Notes for First Aid Instructors — Appendix E: First Aid Kits — Appendix F:Emergency Telephone Numbers"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Appendix_E%3A_First_Aid_Kits&oldid=3927201"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Appendix_E%3A_First_Aid_Kits&oldid=3927201",
+   "aliases": "what goes in a first aid kit, first aid kit list, first aid kit contents, build your own first aid kit, medical kit checklist, bandages and supplies to keep, home first aid supplies, travel first aid kit, what should a first aid kit have, basic medical supplies, first aid kit for car, restock first aid kit"
   },
   {
    "title": "Musculoskeletal Injuries",
@@ -1057,7 +1054,8 @@
      "body": "The acute treatment for muscle, bone or joint injury can follow the simple acronym \"RICE\".\n\nRest - Rest is very important for soft tissue injuries, both in the short term and for longer term care.\n\nImmobilize - Sprains, strains and dislocations can be slinged; fractures should be splinted and slinged.\n\nCold - Ice should be applied periodically, for around 10-20 minutes at a time. After the 10-20 minutes, you need at least a 20 minute off period before you ice again. Any person sensitive to cold should have a layer of clothing between the skin and the ice.\n\nElevation - Where appropriate, the injury should be elevated above the heart, as this may help reduce the localized swelling which occurs. Do not elevate if this causes more pain to the victim.\n\nIf the injury is bad enough, the victim should be referred to a physician.\n\nBone & Joint Injuries\n\nMusculoskeletal Injuries — Immobilization — Head & Facial Injuries — Suspected Spinal Injury"
     }
    ],
-   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Musculoskeletal_Injuries&oldid=3997485"
+   "sourceUrl": "https://en.wikibooks.org/w/index.php?title=First_Aid/Musculoskeletal_Injuries&oldid=3997485",
+   "aliases": "sprain or broken bone, is it broken or sprained, twisted ankle, rice rest ice compression, broken arm what to do, splinting a fracture, dislocated shoulder, swollen ankle after fall, cant put weight on foot, how to splint, pulled muscle, broken bone first aid, strain vs sprain, wrist hurts after fall, immobilize injury, broken leg"
   }
  ]
 }

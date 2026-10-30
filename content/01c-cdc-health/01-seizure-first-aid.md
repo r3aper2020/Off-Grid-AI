@@ -1,5 +1,6 @@
 # First Aid for Seizures
 Source: https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html
+Aliases: someone having a seizure, seizure what to do, convulsions help, dont put anything in mouth, turn on side seizure, how long seizure call 911, epileptic fit first aid, shaking on the ground, seizure safety, what not to do during seizure, after seizure confused, child seizure, seizure first aid steps, when is a seizure an emergency, time the seizure, seizure in water
 
 ## KEY POINTS
 - Seizures are common, affecting 1 in 10 people.

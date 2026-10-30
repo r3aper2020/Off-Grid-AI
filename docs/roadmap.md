@@ -60,6 +60,13 @@ Remaining:
 - In-app source/attribution notice (About screen).
 - ✅ Semantic search (bundled bge-small embedder + per-section vectors),
   fused with keyword search; conversational chat voice; Markdown replies.
+- ✅ Chat and retrieval overhaul (2026-10-30): the model answers as the
+  instructor and cites the library as evidence; 800-token replies with
+  ~6,500 characters of passages; the model rewrites each message into
+  search queries; document aliases (plain-language phrasings, retrieval
+  only) and document-level vectors; bge-base embedder; corpus cleaned
+  (fragments merged, OCR noise dropped, regulation text library-only);
+  graded eval in `tools/eval/`.
 - ✅ Batch 4 coverage audit (`tools/coverage/`) and new packs: power,
   medical emergencies, home health, CDC health, signaling, sea survival,
   wilderness/wildlife, storm shelter, SODIS, preparedness, household
@@ -73,7 +80,18 @@ Remaining:
   (hits Drupal/NHLBI/DOE pages) and all `<button>` text (accordion
   titles) — fix to whole-token match; move the agents' recipe-local
   converters (gtext, pg2md, djvu2md, capfig) into `tools/packs/`.
-- Offer a smaller, faster model option in the catalog for slower phones.
+- Offer a smaller, faster model option in the catalog for slower phones
+  (more pressing now that prompts are ~2,500 tokens: see decisions).
+- Measure first-token latency on the Pixel Fold with the larger prompt
+  and the rewrite step; tune `Grounding.passageBudgetChars` if needed.
+- Prompt follow-ups from the eval: ask the model to cover both branches
+  when the right action depends on the person's state (conscious or not),
+  keep trivial answers short, and cite only passage numbers (never
+  paragraph numbers like "[4-31]").
+- Section-level aliases for the longest documents (Army chapters with
+  100+ sections) so sub-topics match as well as whole documents.
+- Re-extract ATP 3-90.99 desert health (the shipped appendix was the
+  wrong one and was removed).
 
 ## Beyond the original plan (see docs/vision.md)
 Folded into later milestones as the library grows: the 18-pack taxonomy,

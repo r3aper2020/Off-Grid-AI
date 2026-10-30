@@ -1,5 +1,6 @@
 # Stress and Psychological First Aid (ATP 4-02.11 Ch. 20)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: stress after disaster, panic attack, cant sleep after trauma, someone freaking out, calming someone down, psychological first aid, shock after traumatic event, emotional breakdown, PTSD symptoms, anxiety during emergency, helping someone cope, grief support, mental health crisis, stress reactions, feeling numb after disaster, talk to someone upset, nightmares and flashbacks, exhaustion and stress
 
 ## Combat and Operational Stress Control: OVERVIEW OF COMBAT AND OPERATIONAL STRESS CONTROL
 **Chapter 20**

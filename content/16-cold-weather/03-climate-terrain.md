@@ -1,5 +1,6 @@
 # Arctic Climates, Snow, Ice and Terrain (ATP 3-90.96 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf
+Aliases: arctic conditions, deep snow travel, ice thickness safe, walking on ice, frozen lake safe, permafrost ground, avalanche terrain, tundra travel, overflow ice, glacier crevasse, muskeg bog, slush snow, snow types, sea ice, arctic weather, cold region terrain, snow drifts, frost heaves, thaw weakened ground, crossing frozen river, how thick ice to walk, subarctic conditions, boreal forest
 
 ## Overview
 Note. Terrain and climate regions are based on AR 70-38 classifications and U.S. Army Corps of Engineers Cold Regions Research and Engineering Laboratory data. The area of extreme cold weather operations depicts the region where temperatures at -25 °F or below can be expected annually. Mountainous regions may also experience extreme cold weather due to high altitude, even in dry, hot climates. Occasionally, polar vortexes blow extreme cold air into more temperate regions as far south as 30°N.

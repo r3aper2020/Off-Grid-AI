@@ -1,5 +1,6 @@
 # Driving Emergencies (TC 21-305-20 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc21_305_20.pdf
+Aliases: tire blowout, car skidding, car going off the road, brakes failed, brake failure what to do, driving downhill brakes, car fire, engine on fire, how to put out car fire, car hydroplaning, losing control of car, minor accident what to do, skid on ice, car accident steps, smoke from hood, prevent car fire, runaway car
 
 ## Emergencies
 **Chapter 4**

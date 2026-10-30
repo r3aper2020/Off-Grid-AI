@@ -57,4 +57,5 @@ DS_URL="$AP/ARN44090-ATP_3-90.99-001-WEB-2.pdf"   # ATP 3-90.99 (2021, C1 2025)
 $X "$SRC/atp3-90-99.pdf" --pages 15-42 --source-url "$DS_URL" --bold-headings \
   --title "The Desert Environment (ATP 3-90.99 Ch. 1)" -o $D/32-desert-environment.md
 $X "$SRC/atp3-90-99.pdf" --pages 143-150 --source-url "$DS_URL" --bold-headings \
-  --title "Living and Staying Healthy in the Desert (ATP 3-90.99 App. C)" -o $D/33-desert-health.md
+# REMOVED 2026-10-30: the page range below extracted App. C "Fratricide Reduction" (friendly-fire doctrine), not desert health; the file was deleted.
+#  --title "Living and Staying Healthy in the Desert (ATP 3-90.99 App. C)" -o $D/33-desert-health.md

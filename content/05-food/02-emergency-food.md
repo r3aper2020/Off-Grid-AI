@@ -1,5 +1,6 @@
 # Food
 Source: https://www.ready.gov/food
+Aliases: emergency food supply, what food to stock up, power out how long is food good, fridge without power, freezer without power how long, food storage list, cooking without power, non perishable food list, is food safe after outage, canned food emergency, food safety after flood, throw out food after power outage, dry ice for freezer, cooking during blackout, food for 3 days emergency, stockpile food, long shelf life foods, when in doubt throw it out, keep fridge closed outage, emergency cooking indoors
 
 ## Overview
 Following a disaster there may be power outages that could last for several days. Stock canned foods, dry mixes and other staples that do not require refrigeration, cooking, water or special preparation. Be sure to include a manual can opener and eating utensils.

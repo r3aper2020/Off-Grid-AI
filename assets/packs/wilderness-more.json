@@ -4,7 +4,7 @@
  "id": "wilderness-more",
  "title": "Lost in the Woods & Wildlife",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "National Park Service and USDA Forest Service",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "What to do if you get lost or injured outdoors (stay put, signal with whistle, mirror and SOS light), the Ten Essentials, and staying safe around mountain lions, moose, alligators, crocodiles, panthers and snakes.",
@@ -16,71 +16,7 @@
    "sections": [
     {
      "heading": "Overview",
-     "body": "Accidents happen. You may become lost or injured while recreating outdoors. Search and rescue can take hours or days depending on factor such as weather conditions, capacity, and resources whether you are lost or injured. Being prepared for an emergency improves your ability to quickly respond to the situation. It is very important that you practice your plan before you leave so you and anyone joining your adventure knows what to do in case of an emergency. Remember, each trip and activity may have special requirements so you may have to modify your outdoor emergency plan to fit your trip.\n\nContinue reading to learn how you can get the most out of your visit to a park. On this page, you'll also be able to:\n\n- Learn what to do before your trip\n- Learn about what to do if you get lost\n- Learn about what to do if you get injured"
-    },
-    {
-     "heading": "Prevent Getting Lost or Injured: Before the Trip:",
-     "body": "Use the NPS Trip Planning Guide to plan a great adventure and avoid some of the most common mistakes that lead to getting lost or injured."
-    },
-    {
-     "heading": "Get a park map",
-     "body": "Print one out from the park's website or plan to pick one up at the Visitor Center. Consider a trail or topographic map if your activity requires a more detailed layout of the area."
-    },
-    {
-     "heading": "Review your route",
-     "body": "Review the map and your planned route and take note of the landmarks you can use as a reference point"
-    },
-    {
-     "heading": "Pack the 10 Essentials",
-     "body": "Practice using your 10 Essentials like your compass or handheld GPS. Pack extra batteries for your flashlight."
-    },
-    {
-     "heading": "Pack a whistle",
-     "body": "Blowing a whistle helps people find you and saves your energy from yelling."
-    },
-    {
-     "heading": "Pack a mirror",
-     "body": "Flashing your mirror helps signal people if you become lost and mirrors don't run out of battery."
-    },
-    {
-     "heading": "Fill out a Trip Plan",
-     "body": "Leave your Trip Plan with a Trusted Contact who is not going on the trip with you."
-    },
-    {
-     "heading": "Wear bright clothing",
-     "body": "Make yourself easier to see when people are searching for you."
-    },
-    {
-     "heading": "Pick the right activity",
-     "body": "Pick an activity that matches everyone's skills, experience, and physical fitness. This way no one is left behind for being slower or unable to finish."
-    },
-    {
-     "heading": "Pick a \"Meet Up\" location",
-     "body": "A place where you will all gather when you are done with your activity."
-    },
-    {
-     "heading": "Take a picture of the group",
-     "body": "This will document what everyone is wearing."
-    },
-    {
-     "heading": "Confirm your \"Meet Up\" location",
-     "body": "Make sure everyone knows the location and can find it on the map."
-    },
-    {
-     "heading": "Stay together",
-     "body": "Set a pace that works for everyone so no one is left behind. Check in with your group often to make sure everyone is moving at a comfortable pace."
-    },
-    {
-     "heading": "Take a Buddy",
-     "body": "If one person from the group wants to explore a different location or turn around always send one or more people with them."
-    },
-    {
-     "heading": "Stay on trail and designated areas",
-     "body": "Reduce the risk of becoming lost while protecting the natural resources around you."
-    },
-    {
-     "heading": "Stay aware",
-     "body": "Pay attention to trail junctions, information signs, and landmarks. Check that you are still on your planned route."
+     "body": "Accidents happen. You may become lost or injured while recreating outdoors. Search and rescue can take hours or days depending on factor such as weather conditions, capacity, and resources whether you are lost or injured. Being prepared for an emergency improves your ability to quickly respond to the situation. It is very important that you practice your plan before you leave so you and anyone joining your adventure knows what to do in case of an emergency. Remember, each trip and activity may have special requirements so you may have to modify your outdoor emergency plan to fit your trip.\n\nContinue reading to learn how you can get the most out of your visit to a park. On this page, you'll also be able to:\n\n- Learn what to do before your trip\n- Learn about what to do if you get lost\n- Learn about what to do if you get injured\n\n**Prevent Getting Lost or Injured: Before the Trip:**\n\nUse the NPS Trip Planning Guide to plan a great adventure and avoid some of the most common mistakes that lead to getting lost or injured.\n\n**Get a park map**\n\nPrint one out from the park's website or plan to pick one up at the Visitor Center. Consider a trail or topographic map if your activity requires a more detailed layout of the area.\n\n**Review your route**\n\nReview the map and your planned route and take note of the landmarks you can use as a reference point\n\n**Pack the 10 Essentials**\n\nPractice using your 10 Essentials like your compass or handheld GPS. Pack extra batteries for your flashlight.\n\n**Pack a whistle**\n\nBlowing a whistle helps people find you and saves your energy from yelling.\n\n**Pack a mirror**\n\nFlashing your mirror helps signal people if you become lost and mirrors don't run out of battery.\n\n**Fill out a Trip Plan**\n\nLeave your Trip Plan with a Trusted Contact who is not going on the trip with you.\n\n**Wear bright clothing**\n\nMake yourself easier to see when people are searching for you.\n\n**Pick the right activity**\n\nPick an activity that matches everyone's skills, experience, and physical fitness. This way no one is left behind for being slower or unable to finish.\n\n**Pick a \"Meet Up\" location**\n\nA place where you will all gather when you are done with your activity.\n\n**Take a picture of the group**\n\nThis will document what everyone is wearing.\n\n**Confirm your \"Meet Up\" location**\n\nMake sure everyone knows the location and can find it on the map.\n\n**Stay together**\n\nSet a pace that works for everyone so no one is left behind. Check in with your group often to make sure everyone is moving at a comfortable pace.\n\n**Take a Buddy**\n\nIf one person from the group wants to explore a different location or turn around always send one or more people with them.\n\n**Stay on trail and designated areas**\n\nReduce the risk of becoming lost while protecting the natural resources around you.\n\n**Stay aware**\n\nPay attention to trail junctions, information signs, and landmarks. Check that you are still on your planned route."
     },
     {
      "heading": "1. Attempt self rescue – Use your knowledge, skills, and tools to find your way",
@@ -92,15 +28,7 @@
     },
     {
      "heading": "3. Await rescue – If you do not have a phone or cell reception to call 911:",
-     "body": "- Find shelter – A place that can protect you from the elements (sun, rain, snow, etc.)\n- Inventory and conserve your resources – Check your 10 essentials and other items you packed to help you stay safe until help arrives\n- Keep warm – The temperature outside can change throughout the day. If you begin to feel cold put on any extra layers of clothing you have with you\n- Note: Do not build a fire if there is a high fire risk at the park or if it is wildland fire season. It could cause a wildfire and put you and others at great risk.\n- Signal for help – Use the following signals to help search and rescue authorities find you:\n- Blow your whistle often - This will help save your energy from not yelling\n- Flash your flashlight – Flash the SOS pattern: Three times quickly, three times slowly, three times quickly. Use your flashlight wisely as this will drain the batteries.\n- Flash your mirror – This can alert planes and helicopters flying in the area\n- Make yourself visible – Lay out the shelter from your 10 essentials or use rocks to create a shape that can be seen by planes or helicopters flying above\n- Conserve energy – Wait patiently for help to arrive"
-    },
-    {
-     "heading": "1. Stop the activity",
-     "body": "Gather the group together"
-    },
-    {
-     "heading": "2. Go to the last known place",
-     "body": "Retrace your steps as a group to the last known location of the lost individual. Wait there for the person for as long as it is safe to do so. DO NOT go looking for the person off trail."
+     "body": "- Find shelter – A place that can protect you from the elements (sun, rain, snow, etc.)\n- Inventory and conserve your resources – Check your 10 essentials and other items you packed to help you stay safe until help arrives\n- Keep warm – The temperature outside can change throughout the day. If you begin to feel cold put on any extra layers of clothing you have with you\n- Note: Do not build a fire if there is a high fire risk at the park or if it is wildland fire season. It could cause a wildfire and put you and others at great risk.\n- Signal for help – Use the following signals to help search and rescue authorities find you:\n- Blow your whistle often - This will help save your energy from not yelling\n- Flash your flashlight – Flash the SOS pattern: Three times quickly, three times slowly, three times quickly. Use your flashlight wisely as this will drain the batteries.\n- Flash your mirror – This can alert planes and helicopters flying in the area\n- Make yourself visible – Lay out the shelter from your 10 essentials or use rocks to create a shape that can be seen by planes or helicopters flying above\n- Conserve energy – Wait patiently for help to arrive\n\n**1. Stop the activity**\n\nGather the group together\n\n**2. Go to the last known place**\n\nRetrace your steps as a group to the last known location of the lost individual. Wait there for the person for as long as it is safe to do so. DO NOT go looking for the person off trail."
     },
     {
      "heading": "3. Call 911 if you have cell phone service",
@@ -108,15 +36,7 @@
     },
     {
      "heading": "4. Go to a Ranger Station",
-     "body": "If you cannot call 911, turn the group around and go to the nearest Ranger Station or Visitor Center to find help. DO NOT attempt to find the lost person yourself as other members of the group could become lost."
-    },
-    {
-     "heading": "If You Get Lost: For children:",
-     "body": "What happens if you become lost? It’s ok. Your family and friends are not mad at you. They are worried and looking for you. This what you can do to help them find you:"
-    },
-    {
-     "heading": "1. Hug-A-Tree",
-     "body": "Find a tree, hug it, and stay put. If you do not see a tree around you, your “tree” can be a park bench or a big rock. The important thing is to stay in one place."
+     "body": "If you cannot call 911, turn the group around and go to the nearest Ranger Station or Visitor Center to find help. DO NOT attempt to find the lost person yourself as other members of the group could become lost.\n\n**If You Get Lost: For children:**\n\nWhat happens if you become lost? It’s ok. Your family and friends are not mad at you. They are worried and looking for you. This what you can do to help them find you:\n\n**1. Hug-A-Tree**\n\nFind a tree, hug it, and stay put. If you do not see a tree around you, your “tree” can be a park bench or a big rock. The important thing is to stay in one place."
     },
     {
      "heading": "2. Keep warm and dry",
@@ -139,7 +59,8 @@
      "body": "- Send two or more people to alert authorities while the rest stay with the injured person\n- If there is only you and the injured person, follow the steps above to help stabilize them and then go look for help. You will have to go on your own."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/articles/gtgemergencyplan.htm"
+   "sourceUrl": "https://www.nps.gov/articles/gtgemergencyplan.htm",
+   "aliases": "lost in the woods, what to do when lost, getting found, lost child in woods, hug a tree, lost hiking what to do, how to signal for help, whistle signal, mirror signal, trip plan, ten essentials, hurt on trail, stay put when lost, injured hiking no cell service, wait for rescue, lost on trail, before hike plan, meet up location, prevent getting lost, someone in group injured, tell someone where you are going, kids lost hiking, three whistle blasts, retrace your steps"
   },
   {
    "title": "If You Get Lost (USDA Forest Service)",
@@ -153,7 +74,8 @@
      "body": "If after careful planning and consideration you decide that you should try to rescue yourself, here are some tips to remember:\n\n- Stop and rest when you start to feel tired. Don’t wait until you are exhausted.\n- Your body can’t hike hard and digest food at the same time. Rest in the shade for at least 30 minutes when you stop to eat. If you are still tired after 30 minutes, continue to rest.\n- Make sure to drink enough water to avoid dehydration. Symptoms of dehydration could include thirst; dry/sticky mouth; not urinating very much or dark yellow urine; dry, cool skin; headache; muscle cramps.\n- Stop and fix small problems while they are still small. If you ignore your body and keep pushing, the pain or illness will only get worse and make recovery more difficult.\n- Avoid hiking between 10 a.m. and 4 p.m. on hot days. If you are on a trail between those hours, find a shady spot and stay there until the temperature cools down. Adjust your hiking pace to one you can comfortably maintain and rest when you feel the need.\n\nRemember: You are responsible for your own safety and for the safety of those around you."
     }
    ],
-   "sourceUrl": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+   "sourceUrl": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost",
+   "aliases": "lost in the woods, what to do when lost, I am lost hiking, getting found, stay put when lost, STOP when lost, self rescue, lost on a trail, signal for help lost, how to get rescued, lost hiker tips, lost in forest what to do, dont panic when lost, stay or move when lost, find your way back, leave a trip plan, lost without a map, lost and its getting dark"
   },
   {
    "title": "The Ten Essentials (National Park Service)",
@@ -167,7 +89,8 @@
      "body": "HYDRATION – Water and water treatment supplies Staying hydrated on your trip is of utmost importance! Physical activity increases your risk of dehydration (loss of water and salts from the body), which can lead to negative health consequences. If you’re active outdoors (hiking, biking, running, swimming, etc.), especially in hot weather, you should drink water often and before you feel thirsty. Prepare your water before you need it and do not allow yourself to become dehydrated. Before heading out on your trip, be sure to identify if there are any bodies of water at your destination that you could collect water from and treat using your water treatment supplies. Learn more about purifying water.\n\nEMERGENCY SHELTER – Tent, space blanket, tarp, or bivy Shelter is one of the most important elements during an emergency survival situation. It can protect you from severe weather conditions and exposure to the elements. A tent, tarp, bivy sack, or emergency space blanket are all lightweight options for emergency shelter.\n\nPlan and prepare for your trip with help from the NPS Trip Planning Guide and learn more about Health & Safety in national parks. Remember to Hike Smart and leave no trace.\n\n1. This system was developed by The Mountaineers, and additional details can be found in the book Mountaineering: The Freedom of the HiIls, 8th Edition, 2010."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/articles/10essentials.htm"
+   "sourceUrl": "https://www.nps.gov/articles/10essentials.htm",
+   "aliases": "ten essentials, what to pack for a hike, day hike gear, hiking checklist, hiking essentials, what to bring hiking, day pack list, hiking kit, must have hiking gear, hiking safety gear, backpacking basics, trail essentials, outdoor packing list, hiking preparation, emergency hiking items"
   },
   {
    "title": "Mountain Lion Safety (National Park Service)",
@@ -181,7 +104,8 @@
      "body": "- Do not jog or hike alone. Go in groups with adults supervising children.\n- Keep children close to you. Do not allow children to play along river banks, in heavy vegetation, or alone at dawn or dusk. When hiking with children, watch them closely and never let them run ahead of you. Observations of captured wild mountain lions reveal that the animals seem especially drawn to children.\n\nIf you encounter a lion, remember the goals are to convince it that you are not prey and that you may be dangerous. Follow these safety tips:\n\n- Do not approach a lion. Most mountain lions will try to avoid a confrontation. Give them a way to escape.\n- Do not run from a lion. Running may stimulate a mountain lion's instinct to chase. Instead, stand and face the animal. Make eye contact. If you have small children with you, pick them up if possible so that they don't panic and run. Although it may be awkward, pick them up without bending over or turning away from the mountain lion.\n- Do not crouch down or bend over. A human standing up is just not the right shape for a lion's prey. Conversely, a person squatting or bending over resembles a four-legged prey animal. In mountain lion country, avoid squatting, crouching or bending over, even when picking up children.\n- Do all you can to appear larger. Raise your arms. Open your jacket if you are wearing one. Again, pick up small children. Throw stones, branches, or whatever you can reach without crouching or turning your back. Wave your arms slowly and speak firmly in a loud voice. The idea is to convince the mountain lion that you are not prey and that you may be a danger to it.\n- Fight back if attacked. A hiker in southern California used a rock to fend off a mountain lion that was attacking his son. Others have fought back successfully with sticks, caps, jackets, garden tools and their bare hands. Since a mountain lion usually tries to bite the head or neck, try to remain standing and face the attacking animal.\n\nPlease report all mountain lion sightings to a park ranger."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/articles/mountain-lion-safety.htm"
+   "sourceUrl": "https://www.nps.gov/articles/mountain-lion-safety.htm",
+   "aliases": "mountain lion, cougar safety, puma encounter, I see a mountain lion what now, mountain lion attack, big cat encounter, hiking with kids cougar, mountain lion stalking me, fight back mountain lion, dont run from cougar, make yourself big, mountain lion in yard, cougar on trail"
   },
   {
    "title": "Moose Safety (National Park Service, Wrangell-St. Elias)",
@@ -191,18 +115,15 @@
      "body": "Visitors to Alaska are often concerned about encountering bears; yet more people each year are injured by moose than by bears.\n\nMoose aren't inherently aggressive, but will defend themselves if they perceive a threat. When people don't see moose as potentially dangerous, they may approach too closely and put themselves at risk.\n\nGive Moose plenty of room! Enjoy viewing them from a distance. Cow moose are extremely defensive of their young so use extra caution around cows with calves.\n\nIn the summer months, moose blend in well to their environment and can be surprisingly hard to see for such large animals. They are likely to stand their ground even when they hear people approaching, so pay close attention to your surroundings, especially in prime moose habitat such as willow thickets or around streams or ponds.\n\nIf you do find yourself close to a moose\n\n- If it hasn't detected you yet, keep it that way.\n- If it knows you're there, talk to it softly and move away slowly.\n- Don't be aggressive - you want to convince the moose that you aren't a threat.\n- If you think the moose is going to charge you, take cover or run away.\n\nWatch for signs that the moose is upset If its ears are laid back and hackles are up it is likely to charge. Most of the time, when a moose charges it is a 'bluff', or warning for you to get back - a warning you should take very seriously! Once a moose bluff charges it is already agitated. If possible, get behind something solid (like a tree or a car).\n\nUnlike with bears, it is okay to run from a moose. They usually won't chase you and if they do, it's unlikely that they'll chase you very far. If a moose knocks you down, curl up in a ball and protect your head with your arms and keep still. Fighting back will only convince the moose that you may still be a threat. Only move once the moose has backed off to a safe distance or it may renew its attack."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/wrst/planyourvisit/moose-safety.htm"
+   "sourceUrl": "https://www.nps.gov/wrst/planyourvisit/moose-safety.htm",
+   "aliases": "moose attack, moose charging, moose safety, moose on trail, moose with calf, how to avoid moose, moose aggressive signs, moose encounter, run from moose, moose in yard, moose ears back, dog and moose, moose dangerous, moose blocking road, hide behind tree moose, moose in rut"
   },
   {
    "title": "Swamp and Subtropical Backcountry Safety: Alligators, Panthers, Snakes (National Park Service, Big Cypress)",
    "sections": [
     {
      "heading": "Overview",
-     "body": "Big Cypress National Preserve is a prime example of natural Florida unfamiliar to most visitors, filled with natural wonders that are also potential hazards at times. There is no guarantee of your safety, yet it need not be dangerous. Whether exploring the backcountry, canoeing in Turner River, observing wildlife, or simply driving on Tamiami Trail, let safety be your constant companion. Regulations are strictly enforced to protect you and the preserve's wonders. Spend a moment reviewing these common safety concerns, so that you will have an enjoyable visit.\n\nTravel Notification and Emergency Contacts It is always a good idea to file an itinerary with family and friends. Let them know where you are planning on traveling and when you will return. It is also a good idea to carry a Personal Locator Beacon, if possible. These can be activated in the event of an emergency.\n\nIn case of an emergency, call Preserve Dispatch at 1-305-248-6935."
-    },
-    {
-     "heading": "Keep Safety in Mind!",
-     "body": "Open each section below to discover important safety considerations while visiting the Preserve!"
+     "body": "Big Cypress National Preserve is a prime example of natural Florida unfamiliar to most visitors, filled with natural wonders that are also potential hazards at times. There is no guarantee of your safety, yet it need not be dangerous. Whether exploring the backcountry, canoeing in Turner River, observing wildlife, or simply driving on Tamiami Trail, let safety be your constant companion. Regulations are strictly enforced to protect you and the preserve's wonders. Spend a moment reviewing these common safety concerns, so that you will have an enjoyable visit.\n\nTravel Notification and Emergency Contacts It is always a good idea to file an itinerary with family and friends. Let them know where you are planning on traveling and when you will return. It is also a good idea to carry a Personal Locator Beacon, if possible. These can be activated in the event of an emergency.\n\nIn case of an emergency, call Preserve Dispatch at 1-305-248-6935.\n\n**Keep Safety in Mind!**\n\nOpen each section below to discover important safety considerations while visiting the Preserve!"
     },
     {
      "heading": "Drinking Water",
@@ -257,7 +178,8 @@
      "body": "Keep YOUR national preserve clean! Pack it in; pack it out.\n\nWhile hiking or camping in the backcountry, where facilities are not available pack out all trash and food scraps. Deposit solid human waste in a hole at least 6-8 inches deep and 200 feet from water, camp, and trails. An even better option is to take it with you.\n\nBy doing so, you help prevent others from coming into contact with waste, which is hazardous to health, not to mention unsightly."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/bicy/planyourvisit/safety.htm"
+   "sourceUrl": "https://www.nps.gov/bicy/planyourvisit/safety.htm",
+   "aliases": "swamp hiking, alligator safety, alligator encounter, florida panther encounter, venomous snakes florida, water moccasin, snake bite swamp, hiking in the everglades, swamp water drinking, poisonous plants florida, poisonwood, mosquitoes and heat swamp, lightning florida, hiking in heat and humidity, backcountry florida, swamp navigation, keep wildlife wild, feeding wildlife danger, subtropical hiking gear, big cypress, gator in the water, swamp camping"
   },
   {
    "title": "Everglades Safety: Alligators, Crocodiles, Mosquitoes (National Park Service)",
@@ -272,11 +194,7 @@
     },
     {
      "heading": "Local Knowledge of Terrain",
-     "body": "Please familiarize yourself with the trails before hiking, biking, or paddling.\n\nYou should know how long the trail is and the approximate time it takes to do a certain trail. In addition, you should let someone know your plans so that if you are gone too long and become lost the park can better assist any needs. Ask a park ranger or park volunteer, if unsure where to find this information."
-    },
-    {
-     "heading": "For Outdoor Activities Preparations",
-     "body": "Bring water (especially in the summer), insect repellent (summer and if you will be in or around heavy vegetation), sunscreen, and proper clothing for the activity you will be doing."
+     "body": "Please familiarize yourself with the trails before hiking, biking, or paddling.\n\nYou should know how long the trail is and the approximate time it takes to do a certain trail. In addition, you should let someone know your plans so that if you are gone too long and become lost the park can better assist any needs. Ask a park ranger or park volunteer, if unsure where to find this information.\n\n**For Outdoor Activities Preparations**\n\nBring water (especially in the summer), insect repellent (summer and if you will be in or around heavy vegetation), sunscreen, and proper clothing for the activity you will be doing."
     },
     {
      "heading": "Supervise Small Children",
@@ -303,7 +221,8 @@
      "body": "The park's ecosystems support a variety of plant life including some that cause reactions to human skin.\n\nPoison ivy which can grow as a plant, vine, or shrub is common especially in sunny patches of forested areas. Poisonwood is a tree or shrub found mainly in the pine rocklands and hardwood hammocks. Physical contact with these plants may cause a skin rash. Burning these plants can cause significant damage to the airway."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/ever/planyourvisit/safety.htm"
+   "sourceUrl": "https://www.nps.gov/ever/planyourvisit/safety.htm",
+   "aliases": "alligator danger, alligator safety, crocodile safety, mosquito bites, swamp safety, everglades hiking, gator attack, keep kids safe alligators, pets and alligators, dont feed wildlife, poisonous plants florida, swamp hiking, mosquito protection, alligator near me, florida wildlife dangers, wetland safety"
   }
  ]
 }

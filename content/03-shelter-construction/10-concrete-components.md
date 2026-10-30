@@ -1,5 +1,6 @@
 # Concrete: Properties, Cement, Water, Aggregates and Admixtures (TM 3-34.44 Ch. 1–2)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN33491-TM_3-34.44-001-WEB-3.pdf
+Aliases: how to mix concrete, concrete mix ratio, cement vs concrete, types of portland cement, concrete ingredients, what sand and gravel for concrete, aggregate for concrete, water cement ratio, concrete admixtures, air entrained concrete, concrete for cold weather, concrete strength, how concrete cures, concrete cracking shrinkage, waterproof concrete, concrete basics, making concrete by hand, concrete for footings, why concrete cracks, pouring concrete
 
 ## Concrete
 **PART ONE**

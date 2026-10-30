@@ -1,5 +1,6 @@
 # About Getting Chemicals Off Your Body
 Source: https://www.cdc.gov/chemical-emergencies/response/get-chemical-off-body.html
+Aliases: chemical on my skin, chemical spill on clothes, how to wash off chemicals, decontaminate yourself, remove contaminated clothes, chemical exposure what to do, chemical in eyes rinse, chemical release nearby, washing off chemicals, throw away contaminated clothes, chemical attack decontamination, got chemicals on me, chemical leak exposure, shower after chemical exposure, chemical emergency steps
 
 ## What to know
 - Focus on getting the chemicals off of your body.

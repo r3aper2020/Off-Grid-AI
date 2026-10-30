@@ -1,5 +1,6 @@
 # Canning Vegetables and Vegetable Products (USDA Complete Guide, Guide 4)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE04_HomeCan_rev0715.pdf
+Aliases: canning vegetables, how to can green beans, canning corn, canning carrots, canning beets, canning peas, canning potatoes, canning pumpkin, canning squash, canning peppers, canning mushrooms, canning spinach greens, canning okra, canning soup, canning baked beans, canning dried beans, canning asparagus, canning mixed vegetables, canning sweet potatoes, pressure canning vegetables, processing time vegetables, canning lima beans, succotash canning, vegetables canning times
 
 ## ASPARAGUS—SPEARS OR PIECES
 Quantity: An average of 24-1/2 pounds is needed per canner load of 7 quarts; an average of 16 pounds is needed per canner load of 9 pints. A crate weighs 31 pounds and yields 7 to 12 quarts—an average of 3-1/2 pounds per quart.

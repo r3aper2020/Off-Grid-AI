@@ -1,5 +1,6 @@
 # Emergency Locator Transmitters, Search and Rescue, and Ground-Air Signals (FAA AIM 6-2)
 Source: https://www.faa.gov/air_traffic/publications/media/AIM_Basic_w_Chg_1_and_2_and_3_dtd_7-9-26_FINAL.pdf
+Aliases: ground to air signals, how to signal a plane, signals for rescue helicopter, body signals to aircraft, search and rescue, ELT beacon, emergency locator transmitter, how to get found by plane, overdue aircraft, plane crash survival, signal for rescue, big letters on ground, rescue signal from ground, SOS signal, aircraft rescue signals, wave down a plane
 
 ## 6-2-4. Emergency Locator Transmitter (ELT)
 a. General.

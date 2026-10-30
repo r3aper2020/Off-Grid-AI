@@ -1,5 +1,6 @@
 # Scaffolds (TM 3-34.86 Ch. 6)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x86.pdf
+Aliases: scaffolding basics, how to build a scaffold, swinging scaffold, hanging scaffold, bosun chair, rope chair, working at height, scaffold safety, homemade scaffold, suspended platform, scaffold from rope, working on a roof safely, temporary work platform, pole scaffold, needle beam scaffold
 
 ## Scaffolds
 **Chapter 6**

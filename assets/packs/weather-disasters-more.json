@@ -4,7 +4,7 @@
  "id": "weather-disasters-more",
  "title": "More Weather & Geologic Hazards",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "Ready.gov (FEMA) and National Weather Service (NOAA)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Tornadoes, thunderstorms and lightning (including how people are struck), tsunamis, landslides and debris flows, volcanoes, avalanches, drought and dust storms.",
@@ -35,7 +35,8 @@
      "body": "- Pay attention to EAS, NOAA Weather Radio, and local authorities for updated information.\n- Save your phone calls for emergencies and use text messaging or social media to communicate with family and friends.\n- Stay clear of fallen power lines or broken utility lines.\n- Contact your healthcare provider if you are sick and need medical attention. Wait for further care instructions and continue to shelter in place.\n- Wear appropriate gear during clean-up such as thick-soled shoes, long pants, and work gloves. Use appropriate face coverings or masks if cleaning mold or other debris."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/tornadoes"
+   "sourceUrl": "https://www.ready.gov/tornadoes",
+   "aliases": "tornado coming, tornado warning, tornado watch vs warning, where to go tornado, tornado safe place, tornado preparedness, during a tornado, after a tornado, tornado kit, tornado signs, tornado in mobile home, tornado at night, tornado in car, tornado shelter plan, funnel cloud, tornado sirens"
   },
   {
    "title": "What to Do During a Tornado (NWS)",
@@ -45,18 +46,15 @@
      "body": "Find out what you can do when a tornado strikes. Acting quickly is key to staying safe and minimizing impacts.\n\n- Stay Weather-Ready: Continue to listen to local news or a NOAA Weather Radio to stay updated about tornado watches and warnings.\n- At Your House: If you are in a tornado warning, go to your basement, safe room, or an interior room away from windows. Don't forget pets if time allows.\n- At Your Workplace or School: Follow your tornado drill and proceed to your tornado shelter location quickly and calmly. Stay away from windows and do not go to large open rooms such as cafeterias, gymnasiums, or auditoriums.\n- Outside: Seek shelter inside a sturdy building immediately if a tornado is approaching. Sheds and storage facilities are not safe. Neither is a mobile home or tent. If you have time, get to a safe building.\n- In a vehicle: Being in a vehicle during a tornado is not safe. The best course of action is to drive to the closest shelter. If you are unable to make it to a safe shelter, either get down in your car and cover your head, or abandon your car and seek shelter in a low lying area such as a ditch or ravine."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/tornado-during"
+   "sourceUrl": "https://www.weather.gov/safety/tornado-during",
+   "aliases": "tornado what to do, tornado warning now, where to hide in a tornado, tornado in a car, tornado in mobile home, tornado no basement, tornado at school or work, tornado outside no shelter, tornado safety, bathroom or closet tornado, overpass tornado, tornado in apartment, protect head tornado, tornado coming, tornado in a store"
   },
   {
    "title": "Thunderstorms & Lightning (Ready.gov)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "Thunderstorms are common and can be dangerous. They can bring intense wind, flash flooding, hail and dangerous lightning."
-    },
-    {
      "heading": "Prepare for Thunderstorms & Lightning",
-     "body": "Know Your Risk Know your area’s risk for thunderstorms. In most places they can occur year-round and at any hour. Sign up for your community’s warning system. The Emergency Alert System (EAS) and National Oceanic and Atmospheric Administration (NOAA) Weather Radio also provide emergency alerts.\n\nStrengthen Your Home Cut down or trim trees that may be in danger of falling on your home. Consider buying surge protectors, lightning rods or a lightning protection system to protect your home, appliances and electronic devices.\n\nMake an Emergency Plan Create an emergency plan so that you and your family know what to do, where to go and what you will need to protect yourselves from the effects of a thunderstorm. Identify sturdy buildings close to where you live, work, study and play."
+     "body": "**Overview**\n\nThunderstorms are common and can be dangerous. They can bring intense wind, flash flooding, hail and dangerous lightning.\n\nKnow Your Risk Know your area’s risk for thunderstorms. In most places they can occur year-round and at any hour. Sign up for your community’s warning system. The Emergency Alert System (EAS) and National Oceanic and Atmospheric Administration (NOAA) Weather Radio also provide emergency alerts.\n\nStrengthen Your Home Cut down or trim trees that may be in danger of falling on your home. Consider buying surge protectors, lightning rods or a lightning protection system to protect your home, appliances and electronic devices.\n\nMake an Emergency Plan Create an emergency plan so that you and your family know what to do, where to go and what you will need to protect yourselves from the effects of a thunderstorm. Identify sturdy buildings close to where you live, work, study and play."
     },
     {
      "heading": "Stay Safe During Thunderstorms & Lightning",
@@ -67,7 +65,8 @@
      "body": "- Pay attention to authorities and weather forecasts for information on whether it is safe to go outside and instructions regarding potential flash flooding.\n- Watch for fallen power lines and trees. Report them immediately."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/thunderstorms-lightning"
+   "sourceUrl": "https://www.ready.gov/thunderstorms-lightning",
+   "aliases": "lightning safety, thunderstorm what to do, caught outside in lightning, lightning in a tent, when thunder roars go indoors, is it safe to shower in thunderstorm, lightning in a car, struck by lightning first aid, thunderstorm warning, lightning position crouch, severe thunderstorm, lightning while hiking, after thunderstorm downed lines, thunderstorm prepare, how far away is lightning, wait 30 minutes after thunder, lightning on the water, hail storm"
   },
   {
    "title": "Lightning: What You Need to Know (NWS)",
@@ -85,7 +84,8 @@
      "body": "If you are caught outside with no safe shelter anywhere nearby the following actions may reduce your risk:\n\n- Immediately get off elevated areas such as hills, mountain ridges or peaks\n- Never lie flat on the ground\n- Never shelter under an isolated tree\n- Never use a cliff or rocky overhang for shelter\n- Immediately get out and away from ponds, lakes and other bodies of water\n- Stay away from objects that conduct electricity (barbed wire fences, power lines, windmills, etc.)"
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/lightning-tips"
+   "sourceUrl": "https://www.weather.gov/safety/lightning-tips",
+   "aliases": "lightning safety, caught outside in a thunderstorm, thunderstorm what to do, lightning indoors safe, safe to shower in a storm, lightning and phones, lightning while hiking, lightning on a mountain, lightning in a tent, lightning position, when thunder roars go indoors, lightning in a car, how far away is lightning, struck by lightning, lightning in open field, last resort lightning, lightning safety tips"
   },
   {
    "title": "How People Are Struck by Lightning (NWS)",
@@ -115,7 +115,8 @@
      "body": "While not as common as the other types of lightning injuries, people caught in “streamers” are at risk of being killed or injured by lightning. Streamers develop as the downward-moving leader approaches the ground. Typically, only one of the streamers makes contact with the leader as it approaches the ground and provides the path for the bright return stroke; however, when the main channel discharges, so do all the other streamers in the area. If a person is part of one of these streamers, they could be killed or injured during the streamer discharge even though the lightning channel was not completed between the cloud and the upward streamer. See Robert’s story as an example of a streamer injury.\n\nFor more on the science of lightning:\n\n- National Severe Storms Laboratory\n- NWS Colorado Lightning Program\n- Florida Lightning Information Center\n- NWS Jetstream Lightning Tutor\n- Geostationary Lightning Mapper"
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/lightning-struck"
+   "sourceUrl": "https://www.weather.gov/safety/lightning-struck",
+   "aliases": "how lightning hits people, lightning strike, ground current, side flash, lightning through phone, lightning in the shower, lightning under a tree, lightning on the ground, struck by lightning, lightning and fences, lightning conduction, lightning safety outdoors, how does lightning kill, lightning streamer, lightning and wiring"
   },
   {
    "title": "Tsunamis (Ready.gov)",
@@ -137,18 +138,15 @@
      "body": "- Listen to local alerts and authorities for information on areas to avoid and shelter locations.\n- Save phone calls for emergencies. Phone systems often are down or busy after a disaster. Use text messages or social media to communicate with family and friends.\n- Avoid wading in floodwater, which can contain dangerous debris. Water may be deeper than it appears.\n- Be aware of the risk of electrocution. Underground or downed power lines can electrically charge water. Do not touch electrical equipment if it is wet or if you are standing in water.\n- Stay away from damaged buildings, roads and bridges.\n- If you become injured or sick and need medical attention, contact your healthcare provider and shelter in place, if possible. Call 9-1-1 if you are experiencing a medical emergency.\n- Document property damage with photographs. Conduct an inventory and contact your insurance company for assistance."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/tsunamis"
+   "sourceUrl": "https://www.ready.gov/tsunamis",
+   "aliases": "tsunami warning, earthquake near the ocean, water pulling back from beach, tsunami what to do, run to high ground, tsunami evacuation, after a tsunami, tsunami signs, tsunami on a boat, how high to go tsunami, big wave coming, tsunami preparation, coast earthquake, tsunami safety, ocean roaring sound"
   },
   {
    "title": "What to Do During a Tsunami (NWS)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "During a tsunami, dangerous coastal flooding and powerful currents are possible and may continue for several hours or days after initial arrival. The first wave may not be the last or the largest."
-    },
-    {
      "heading": "Respond to a Tsunami Warning",
-     "body": "How you respond to a tsunami warning depends on where you are and how you receive the warning. As described in Understand the Warnings, there are two types of tsunami warnings, official and natural. Both are equally important and suggest the potential for a tsunami that may cause widespread flooding. You may not get both types of warnings. Be prepared to respond to whatever you hear or see first. For your safety and others, always follow instructions from local officials.\n\nIf you are outside of the tsunami hazard or evacuation zone and you receive an official or natural tsunami warning, a tsunami is possible or likely, but you are in a safe place. Stay where you are unless local officials tell you otherwise.\n\nOfficial Tsunami Warning\n\nIf you are anywhere in a tsunami hazard or evacuation zone or a low-lying coastal area and you receive an official tsunami warning, a tsunami is likely. The warning will estimate the tsunami's arrival time, describe potential impacts and recommend actions to take.\n\n- Stay out of the water and away from beaches and waterways.\n- Get more information about the threat and what to do from NOAA Weather Radio, local radio or television or your mobile device (text or data). Limit non-emergency phone calls to keep the lines open for emergency communications.\n- If local officials ask you to evacuate, implement your emergency plan and move quickly to your safe place outside the hazard or evacuation zone unless officials tell you to go somewhere else. If you do not have a safe place or cannot reach it, follow evacuation signs to safety or go as high or as far inland (away from the water) as possible.\n\nNatural Tsunami Warning\n\nIf you are in a tsunami hazard or evacuation zone or a low-lying coastal area and you feel a strong or long earthquake, the ocean acts strange (e.g., it looks like a fast-rising flood or a wall of water or it drains away suddenly, showing the ocean floor like a very low tide) OR there is a loud roar coming from the ocean, a tsunami is possible and could arrive within minutes.\n\n- In case of an earthquake, protect yourself. Drop, cover and hold on. Be prepared for aftershocks, which happen frequently after earthquakes. Each time the earth shakes, drop, cover and hold on.\n- Do not wait for an official tsunami warning or for instructions from local officials.\n- As soon as you can move safely, implement your emergency plan and move quickly to your safe place outside the hazard or evacuation zone. If you do not have a safe place or cannot reach it, follow evacuation signs to safety or go as high or as far inland (away from the water) as possible.\n- When you are in a safe place, get more information about the threat and what to do from NOAA Weather Radio, local radio or television or your mobile device (text or data). Limit non-emergency phone calls to keep the lines open for emergency communications.\n- If there is earthquake damage, avoid fallen power lines and stay away from buildings, bridges and piers because heavy objects may fall from them during an aftershock.\n- Follow instructions from local officials. It is their job to keep you safe.\n- Stay out of the tsunami hazard or evacuation zone until local officials tell you it is safe. The first wave may not be the last or the largest and the danger may last for hours or days.\n\nNote: If you are on the beach or near the water and feel an earthquake—no matter how big or how long it lasts—move quickly off the beach to high ground or inland (away from the water) as soon as you can do so safely. Get more information from the sources noted above."
+     "body": "**Overview**\n\nDuring a tsunami, dangerous coastal flooding and powerful currents are possible and may continue for several hours or days after initial arrival. The first wave may not be the last or the largest.\n\nHow you respond to a tsunami warning depends on where you are and how you receive the warning. As described in Understand the Warnings, there are two types of tsunami warnings, official and natural. Both are equally important and suggest the potential for a tsunami that may cause widespread flooding. You may not get both types of warnings. Be prepared to respond to whatever you hear or see first. For your safety and others, always follow instructions from local officials.\n\nIf you are outside of the tsunami hazard or evacuation zone and you receive an official or natural tsunami warning, a tsunami is possible or likely, but you are in a safe place. Stay where you are unless local officials tell you otherwise.\n\nOfficial Tsunami Warning\n\nIf you are anywhere in a tsunami hazard or evacuation zone or a low-lying coastal area and you receive an official tsunami warning, a tsunami is likely. The warning will estimate the tsunami's arrival time, describe potential impacts and recommend actions to take.\n\n- Stay out of the water and away from beaches and waterways.\n- Get more information about the threat and what to do from NOAA Weather Radio, local radio or television or your mobile device (text or data). Limit non-emergency phone calls to keep the lines open for emergency communications.\n- If local officials ask you to evacuate, implement your emergency plan and move quickly to your safe place outside the hazard or evacuation zone unless officials tell you to go somewhere else. If you do not have a safe place or cannot reach it, follow evacuation signs to safety or go as high or as far inland (away from the water) as possible.\n\nNatural Tsunami Warning\n\nIf you are in a tsunami hazard or evacuation zone or a low-lying coastal area and you feel a strong or long earthquake, the ocean acts strange (e.g., it looks like a fast-rising flood or a wall of water or it drains away suddenly, showing the ocean floor like a very low tide) OR there is a loud roar coming from the ocean, a tsunami is possible and could arrive within minutes.\n\n- In case of an earthquake, protect yourself. Drop, cover and hold on. Be prepared for aftershocks, which happen frequently after earthquakes. Each time the earth shakes, drop, cover and hold on.\n- Do not wait for an official tsunami warning or for instructions from local officials.\n- As soon as you can move safely, implement your emergency plan and move quickly to your safe place outside the hazard or evacuation zone. If you do not have a safe place or cannot reach it, follow evacuation signs to safety or go as high or as far inland (away from the water) as possible.\n- When you are in a safe place, get more information about the threat and what to do from NOAA Weather Radio, local radio or television or your mobile device (text or data). Limit non-emergency phone calls to keep the lines open for emergency communications.\n- If there is earthquake damage, avoid fallen power lines and stay away from buildings, bridges and piers because heavy objects may fall from them during an aftershock.\n- Follow instructions from local officials. It is their job to keep you safe.\n- Stay out of the tsunami hazard or evacuation zone until local officials tell you it is safe. The first wave may not be the last or the largest and the danger may last for hours or days.\n\nNote: If you are on the beach or near the water and feel an earthquake—no matter how big or how long it lasts—move quickly off the beach to high ground or inland (away from the water) as soon as you can do so safely. Get more information from the sources noted above."
     },
     {
      "heading": "Stay Safe",
@@ -163,7 +161,8 @@
      "body": "During a tsunami advisory:\n\n- Stay out of the water and away from beaches and waterways. A tsunami with potential for strong currents or waves dangerous to people in or very near the water is expected or occurring.\n- Get updates about the tsunami from NOAA Weather Radio, local radio or television or your mobile device.\n- Follow instructions from local officials.\n\nDuring a tsunami watch:\n\n- Get updates about the potential threat from NOAA Weather Radio, local radio or television or your mobile device.\n- Follow instructions from local officials.\n- Prepare to take action if necessary."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/tsunami-during"
+   "sourceUrl": "https://www.weather.gov/safety/tsunami-during",
+   "aliases": "tsunami warning what to do, tsunami coming where to go, tsunami on a boat, earthquake near coast tsunami, run to high ground, tsunami how high to go, tsunami siren, water receding from beach, tsunami alert levels, tsunami advisory vs warning, tsunami after earthquake, tsunami waves how many, when is tsunami over, tsunami evacuation, tsunami watch, tsunami at the beach, tsunami in harbor"
   },
   {
    "title": "Landslides & Debris Flow (Ready.gov)",
@@ -189,7 +188,8 @@
      "body": "- Stay away from the slide area. There may be danger coming from additional slides.\n- Listen to local radio or television stations for the latest emergency information.\n- Watch for flooding. Floods sometimes follow landslides and debris flows because they may both be started by the same conditions.\n- Check for injured and trapped persons near the slide, without entering the direct slide area. Direct rescuers to their locations.\n- Report broken utility lines and damaged roadways and railways to appropriate authorities. Reporting potential hazards will get the utilities turned off as quickly as possible, preventing further hazard and injury.\n- Allow trained professionals to check the building foundation, chimney, and surrounding land for damage.\n- Replant damaged ground as soon as possible since erosion caused by loss of ground cover can lead to flash flooding and additional landslides in the near future.\n- Seek advice from a geotechnical expert for evaluating landslide hazards or designing corrective techniques to reduce landslide risk. A professional can advise you of the best ways to prevent or reduce landslide risk, without creating further hazard."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/landslides-debris-flow"
+   "sourceUrl": "https://www.ready.gov/landslides-debris-flow",
+   "aliases": "landslide, mudslide, debris flow, landslide warning signs, cracks in ground hillside, doors sticking landslide, is my house in a landslide area, heavy rain hillside danger, what to do during a landslide, after a landslide, mudslide after wildfire, slope failure, hillside moving, trees tilting ground shifting, evacuate landslide, landslide safety, rumbling sound hillside"
   },
   {
    "title": "Volcanoes (Ready.gov)",
@@ -211,7 +211,8 @@
      "body": "- Listen to authorities to find out when it is safe to return after an eruption. Stay indoors until authorities say it is safe to go outside.\n- Send text messages or use social media to reach out to family and friends. Phone systems often are busy after a disaster. Only make emergency calls.\n- Avoid driving in heavy ash. Driving will stir up volcanic ash that can clog engines and stall vehicles.\n- Avoid contact with ash if you have any breathing problems. People with asthma and/or other lung conditions should take precaution in areas with poor air quality, as it can worsen symptoms.\n- Do not get on your roof to remove ash unless you have guidance or training. If you have to remove ash, then be very careful as ash makes surfaces slippery. Be careful not to contribute additional weight to an overloaded roof.\n- Wear protective clothing and a mask when cleaning up. Children should not help with cleanup efforts."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/volcanoes"
+   "sourceUrl": "https://www.ready.gov/volcanoes",
+   "aliases": "volcano eruption, volcanic ash, ash fall, volcano what to do, lava flow, near a volcano, breathing ash, ash on car, mask for volcanic ash, volcano evacuation, volcano gases, volcano preparedness, after an eruption, lahar mudflow, pyroclastic flow, volcano kit, ash cleanup"
   },
   {
    "title": "Avalanche (Ready.gov)",
@@ -233,18 +234,15 @@
      "body": "Know the signs and ways to treat hypothermia.\n\n- Hypothermia is an unusually low body temperature. A body temperature below 95 degrees is an emergency.\n- Signs: Shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech and drowsiness.\n- Actions: Go to a warm room or shelter. Warm the center of the body first—chest, neck, head and groin. Keep the person dry and wrapped up in warm blankets, including the head and neck.\n- Engage virtually with your community through video and phone calls. Know that it’s normal to feel anxious or stressed. Take care of your body and talk to someone if you are feeling upset."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/avalanche"
+   "sourceUrl": "https://www.ready.gov/avalanche",
+   "aliases": "caught in an avalanche, avalanche safety, avalanche beacon, how to survive an avalanche, backcountry skiing safety, avalanche signs, buried in snow, avalanche rescue, snow slide, avalanche danger, swim in avalanche, air pocket in snow, avalanche probe shovel, after an avalanche, avalanche terrain"
   },
   {
    "title": "Drought (Ready.gov)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "Nearly every part of the U.S. experiences periods of reduced rainfall. Planning in advance for a drought can protect us in dry years."
-    },
-    {
      "heading": "Before a Drought",
-     "body": "The best way to prepare for a drought is to conserve water. Make conserving water a part of your daily life."
+     "body": "**Overview**\n\nNearly every part of the U.S. experiences periods of reduced rainfall. Planning in advance for a drought can protect us in dry years.\n\nThe best way to prepare for a drought is to conserve water. Make conserving water a part of your daily life."
     },
     {
      "heading": "Before a Drought: Indoor Water Conservation Tips Before a Drought",
@@ -255,19 +253,16 @@
      "body": "GENERAL\n\n- If you have a well pump, check it periodically. If the automatic pump turns on and off while water is not being used, you have a leak.\n- Plant native and/or drought-tolerant grasses, ground covers, shrubs and trees. Once established, your plants won't need as much watering. Group plants together based on similar water needs.\n- Don't install ornamental water features (such as fountains) unless they use re-circulated water.\n- Consider rainwater harvesting where practical.\n- Contact your local water provider for information and assistance.\n\nLAWN CARE\n\n- Position sprinklers so water lands on the lawn and shrubs and not on paved areas.\n- Repair sprinklers that spray a fine mist.\n- Check sprinkler systems and timing devices regularly to be sure they operate properly.\n- Raise the lawn mower blade to at least three inches or to its highest level. A higher cut encourages grass roots to grow deeper and holds soil moisture.\n- Plant drought-resistant lawn seed. Reduce or eliminate lawn areas that are not used frequently.\n- Don't over-fertilize your lawn. Applying fertilizer increases the need for water. Apply fertilizers that contain slow-release, water-insoluble forms of nitrogen.\n- Choose a water-efficient irrigation system such as drip irrigation for your trees, shrubs and flowers.\n- Water manually in fall and winter only if needed.\n- Use mulch around trees and plants to retain moisture in the soil. Mulch also helps control weeds that compete with plants for water.\n- Invest in a weather-based irrigation controller—or a smart controller. These devices will automatically adjust the watering time and frequency based on soil moisture, rain, wind, and evaporation and transpiration rates. Check with your local water agency to see if there is a rebate available for the purchase of a smart controller.\n\nPOOL\n\n- Install a water-saving pool filter. A single back flushing with a traditional filter uses 180 to 250 gallons of water.\n- Cover pools and spas to reduce water evaporation."
     },
     {
-     "heading": "During a Drought",
-     "body": "Always observe state and local restrictions on water use during a drought. Contact your state or local government for current information and suggestions."
-    },
-    {
      "heading": "During a Drought: Indoor Water Conservation Tips During a Drought",
-     "body": "BATHROOM\n\n- Avoid flushing the toilet unnecessarily. Dispose of tissues, insects and other similar waste in the trash rather than the toilet.\n- Take short showers instead of baths. Turn on the water only to get wet and lather and then again to rinse off.\n- Avoid letting the water run while brushing your teeth, washing your face or shaving.\n\nLAUNDRY\n\n- Operate clothes washers only when they are fully loaded or set the water level for the size of your load.\n\nKITCHEN\n\n- Operate automatic dishwashers only when they are fully loaded. Use the \"light wash\" feature to use less water.\n- Hand wash dishes by filling two containers—one with soapy water and the other with rinse water containing a small amount of chlorine bleach.\n- Clean vegetables in a pan filled with water rather than running water from the tap.\n- Avoid wasting water waiting for it to get hot. Capture it for other uses such as plant watering or heat it on the stove or in a microwave.\n- Don't rinse dishes before placing them in the dishwasher, just remove large particles of food.\n- Avoid using running water to thaw meat or other frozen foods. Defrost food overnight in the refrigerator or use the defrost setting on your microwave."
+     "body": "Always observe state and local restrictions on water use during a drought. Contact your state or local government for current information and suggestions.\n\nBATHROOM\n\n- Avoid flushing the toilet unnecessarily. Dispose of tissues, insects and other similar waste in the trash rather than the toilet.\n- Take short showers instead of baths. Turn on the water only to get wet and lather and then again to rinse off.\n- Avoid letting the water run while brushing your teeth, washing your face or shaving.\n\nLAUNDRY\n\n- Operate clothes washers only when they are fully loaded or set the water level for the size of your load.\n\nKITCHEN\n\n- Operate automatic dishwashers only when they are fully loaded. Use the \"light wash\" feature to use less water.\n- Hand wash dishes by filling two containers—one with soapy water and the other with rinse water containing a small amount of chlorine bleach.\n- Clean vegetables in a pan filled with water rather than running water from the tap.\n- Avoid wasting water waiting for it to get hot. Capture it for other uses such as plant watering or heat it on the stove or in a microwave.\n- Don't rinse dishes before placing them in the dishwasher, just remove large particles of food.\n- Avoid using running water to thaw meat or other frozen foods. Defrost food overnight in the refrigerator or use the defrost setting on your microwave."
     },
     {
      "heading": "During a Drought: Outdoor Water Conservation Tips During a Drought",
      "body": "LAWN CARE\n\n- A heavy rain eliminates the need for watering for up to two weeks. Most of the year, lawns only need one inch of water per week.\n- Check the soil moisture levels with a soil probe, spade or large screwdriver. You don't need to water if the soil is still moist. If your grass springs back when you step on it, it doesn't need water yet.\n- If your lawn does require watering, do so early in the morning or later in the evening, when temperatures are cooler.\n- Water in several short sessions rather than one long one, in order for your lawn to better absorb moisture and avoid runoff.\n- Use a broom or blower instead of a hose to clean leaves and other debris from your driveway or sidewalk.\n- Avoid leaving sprinklers or hoses unattended. A garden hose can pour out 600 gallons or more in only a few hours.\n- In extreme drought, allow lawns to die in favor of preserving trees and large shrubs.\n\nCAR WASHING\n\n- Use a commercial car wash that recycles water.\n- If you wash your own car, use a shut-off nozzle that can be adjusted down to a fine spray on your hose."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/drought"
+   "sourceUrl": "https://www.ready.gov/drought",
+   "aliases": "drought what to do, save water during drought, water conservation tips, drought preparation, low water supply, water restrictions, save water at home, drought garden watering, water shortage, conserve water outdoors, reduce water use, drought conditions, dry spell well running low, water saving tips, drought lawn, fix leaks save water, shorter showers, rain barrel drought, drought and wildfire risk"
   },
   {
    "title": "What Is Drought? (NWS)",
@@ -281,7 +276,8 @@
      "body": "Meteorological drought is based on the degree of dryness (rainfall deficit) and the length of the dry period.\n\nHydrologic drought is based on the impact of rainfall deficits on the water supply such as stream flow, reservoir and lake levels, and ground water table decline.\n\nAgricultural drought is based on the impacts to agriculture by factors such as rainfall deficits, soil water deficits, reduced groundwater, or reservoir levels needed for irrigation.\n\nSocioeconomic drought is based on the impact of drought conditions (meteorological, agricultural, or hydrological drought) on supply and demand of some economic goods. Socioeconomic drought occurs when the demand for an economic good exceeds supply as a result of a weather-related deficit in water supply."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/drought"
+   "sourceUrl": "https://www.weather.gov/safety/drought",
+   "aliases": "what is drought, drought explained, types of drought, meteorological drought, agricultural drought, hydrological drought, no rain for months, dry season water shortage, drought definition, drought conditions, how drought is measured, drought and crops, drought and water supply, long dry spell, socioeconomic drought"
   },
   {
    "title": "Dust Storms (NWS)",
@@ -303,7 +299,8 @@
      "body": "In the past, motorists driving in dust storms have pulled off the roadway, leaving lights on. Vehicles approaching from the rear and using the advance car's lights as a guide have inadvertently left the roadway and in some instances collided with the parked vehicle. Make sure all of your lights are off when you park off the roadway."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/wind-dust-storm"
+   "sourceUrl": "https://www.weather.gov/safety/wind-dust-storm",
+   "aliases": "dust storm, haboob dust wall, driving in dust storm, pull over dust storm, sandstorm safety, dust storm visibility, lights off dust storm, caught in a dust storm, dust storm safety, blowing dust driving, dust storm breathing, desert dust storm, wall of dust, dust storm on highway"
   }
  ]
 }

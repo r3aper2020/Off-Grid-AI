@@ -1,5 +1,6 @@
 # Are You Ready? An In-Depth Guide to Citizen Preparedness (FEMA)
 Source: https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf
+Aliases: how to prepare for disasters, emergency plan, family communication plan, what disasters are in my area, know your risks, evacuation plan, emergency supplies, important documents for emergency, alerts and warnings, insurance for disasters, financial preparedness, active shooter, earthquake preparation, flood prep, wildfire prep, winter storm prep, pandemic prep, volcano eruption, landslide risk, extreme heat, cyberattack prep, preparing for anything, citizen preparedness, am I ready for a disaster
 
 ## Overview
 Take Action: Protect Yourself, Your Property, and Manage Risk ...................................................................... 19

@@ -1,5 +1,6 @@
 # Navigating Mountainous Terrain (TC 3-97.61 Ch. 7)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: navigating in mountains, mountain navigation, altimeter navigation, compass in mountains, GPS in mountains, dead reckoning, route planning mountains, roped travel, route finding, winter mountain navigation, finding a route up, mountain maps, whiteout navigation, mountain reconnaissance, navigating ridges, terrain association mountains, which way in mountains
 
 ## Navigation in Mountainous Terrain
 **Chapter 7**

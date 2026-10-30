@@ -1,5 +1,6 @@
 # Tornado Safety: Where to Shelter in Homes, Mobile Homes, Vehicles and Buildings (NOAA Storm Prediction Center)
 Source: https://www.spc.noaa.gov/faq/tornado/safety.html
+Aliases: where to hide in tornado, tornado no basement, tornado in apartment, tornado in mobile home, tornado in car, tornado outside, tornado at school, tornado in a store, tornado in office building, safe room, tornado signs, tornado warning what to do, under overpass tornado, after tornado, tornado shelter, interior room tornado, tornado drill, bathtub tornado, downed lines after tornado
 
 ## Tornado safety
 

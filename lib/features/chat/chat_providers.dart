@@ -120,7 +120,9 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
 
     final hits = conversational
         ? const <PassageHit>[]
-        : Grounding.select(await _sourcesFor(question, previous));
+        : Grounding.select(
+            await _sourcesFor(engine, history, question, previous),
+          );
     if (active.cancelled) return;
     if (!conversational) {
       await _repo.setCitations(messageId, [for (final h in hits) h.passageId]);
@@ -169,17 +171,29 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
         );
   }
 
-  /// Library passages for [question], read in the context of the
-  /// [previous] question. A search failure must never stop the assistant
-  /// from answering, so it degrades to "no sources".
+  /// Library passages for [question]. The model first rewrites the
+  /// message into two or three search queries in the library's plainer
+  /// words, with follow-ups resolved against the conversation; the
+  /// user's own words are always searched too. Without a model (or if the
+  /// rewrite fails) the [previous] question stands in for that context. A
+  /// search failure must never stop the assistant from answering, so it
+  /// degrades to "no sources".
   Future<List<PassageHit>> _sourcesFor(
+    InferenceEngine engine,
+    List<ChatTurn> history,
     String question,
     String? previous,
   ) async {
     try {
-      return await ref
-          .read(knowledgeSearchProvider)
-          .forMessage(question, previous: previous);
+      final search = ref.read(knowledgeSearchProvider);
+      final rewrites = Grounding.parseRewrites(
+        await engine.complete(Grounding.rewriteTurns(history)),
+        question,
+      );
+      if (rewrites.isEmpty) {
+        return await search.forMessage(question, previous: previous);
+      }
+      return await search.forQueries([question, ...rewrites]);
     } catch (_) {
       return const [];
     }

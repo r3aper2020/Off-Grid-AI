@@ -1,5 +1,6 @@
 # Simple Plumbing Repairs for the Home and Farmstead (USDA Farmers' Bulletin 2202, 1972)
 Source: https://www.gutenberg.org/ebooks/59381
+Aliases: fix a leaky faucet, dripping faucet, leaking pipe, frozen pipes, thaw pipes, toilet keeps running, toilet repair, clogged drain, unclog a drain, water hammer, banging pipes, frostproof hydrant, pipe leak patch, toilet wont flush, plumbing tools, plumbing emergency, shut off water, leaking tank, plumbing spare parts, burst pipe what to do
 
 ## Repairing Water Faucets And Valves
 Faucets and globe valves, the type of shutoff valves commonly used in home water systems, are very similar in construction (fig. 1) and repair instructions given below apply to both. Your faucets or valves may differ somewhat in general design from the one shown in figure 1, because both faucets and valves come in a wide variety of styles.

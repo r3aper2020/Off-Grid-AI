@@ -1,5 +1,6 @@
 # Batteries, Circuits, and Transformers (EIA)
 Source: https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php
+Aliases: how batteries work, what is a circuit, how electricity flows, electrical transformer, volts amps watts, battery basics, series vs parallel, electricity for beginners, how a battery makes power, circuit explained, electrical basics, what does a transformer do, why batteries die, DC vs AC
 
 ## Batteries produce electricity
 Batteries generate electricity using two different metals submerged in a chemical solution called an electrolyte. One end of the battery is attached to one of the metals, and the other end is attached to the other metal. A chemical reaction occurs between the metals and the electrolyte. This reaction causes one metal to release more electrons than the other.

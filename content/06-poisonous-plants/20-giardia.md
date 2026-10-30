@@ -1,5 +1,6 @@
 # Giardia lamblia (Giardiasis) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: giardia infection, beaver fever, drank stream water now sick, diarrhea from lake water, giardiasis symptoms, parasite in water, cramps and gas after camping, giardia treatment, how long does giardia last, untreated water illness, giardia in well water, greasy diarrhea, water parasite, day care diarrhea outbreak, sick after drinking creek water
 
 ## 1. Organism
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

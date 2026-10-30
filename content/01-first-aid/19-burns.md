@@ -1,5 +1,6 @@
 # Burns (ATP 4-02.11 Ch. 12)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: burn treatment, bad burn what to do, large burn on body, burn percentage body surface, rule of nines, burn dressing, cover a burn, burn fluid replacement, burns and dehydration, burn shock, inhalation burn smoke, airway burn, burned in house fire, blast burn, cool a burn, do not put ice on burn, burn blisters, burn infection, improvised burn dressing, second degree burn large area
 
 ## Burns: OVERVIEW OF BURNS
 **Chapter 12**

@@ -1,5 +1,6 @@
 # Reading the Over-the-Counter Drug Facts Label (FDA)
 Source: https://www.fda.gov/drugs/understanding-over-counter-medicines/over-counter-drug-facts-label
+Aliases: how to read a medicine label, drug facts label, over the counter medicine directions, active ingredient meaning, how much medicine to take, medicine dosage by age, medicine warnings, dont take with alcohol, medicine interactions, expired medicine, tamper evident packaging, medicine seal broken, inactive ingredients allergy, how often can I take tylenol, reading the dosage chart, pain reliever label, double dosing acetaminophen
 
 ## Always Read the Label
 Reading the product label is the most important part of taking care of yourself or your family when using nonprescription medicines, also known as OTC medicines. These medicines are available without a prescription. It is especially important to read the label of OTC medicines because they can be taken without seeing a doctor. FDA regulation makes sure the labels on all OTC medicines (from a bottle of sunscreen to a bottle of cough syrup) have information listed in the same order; are arranged in a consistent style and contain easier to understand words.

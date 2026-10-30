@@ -4,7 +4,7 @@
  "id": "cdc-emergencies",
  "title": "Chemical, Radiation & Health Emergencies (CDC)",
  "category": "medical",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Sheltering in place and self-decontamination for radiation and chemical emergencies, preventing carbon monoxide poisoning, venomous snake and spider bites, tick removal, rabies exposure, and managing diabetes during emergencies.",
@@ -15,12 +15,8 @@
    "title": "What to Do: Get Inside",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "What to do in a radiation emergency"
-    },
-    {
      "heading": "At a glance",
-     "body": "- During a radiation emergency, get inside as soon as possible.\n- Take off any clothes that were exposed to radiation, if you can.\n- Wash any body part exposed to radiation, if you can."
+     "body": "**Overview**\n\nWhat to do in a radiation emergency\n\n- During a radiation emergency, get inside as soon as possible.\n- Take off any clothes that were exposed to radiation, if you can.\n- Wash any body part exposed to radiation, if you can."
     },
     {
      "heading": "Overview",
@@ -35,12 +31,8 @@
      "body": "- Get inside a building right away. Brick or concrete multi-story building or basement are best, but being inside any building is safer than being outside.\n- Carefully remove your outer layer of clothing before entering the building, if you can. Radioactive material can settle on your clothing and your body, like dust or mud.\n- Once inside, go to the basement or the middle of the building. Radioactive material settles on the outside of buildings. The best thing to do is stay as far away from the walls and roof of the building as you can.\n- Wash the parts of your body that were uncovered when you were outside. Then put on clean clothing, if you can.\n- If you must be outside and cannot get inside immediately, cover your mouth and nose with a mask, cloth, or towel. This can help reduce the amount of radioactive material that could get inside your body."
     },
     {
-     "heading": "If you have pets",
-     "body": "Bring pets inside with you, if you can. Bring indoors and wipe any supplies from outside that your pets might need for at least 24 hours."
-    },
-    {
      "heading": "If you have pets: Decontamination",
-     "body": "Wash your pet carefully with shampoo or soap and water and rinse completely. Wash your hands and face after washing your pet."
+     "body": "Bring pets inside with you, if you can. Bring indoors and wipe any supplies from outside that your pets might need for at least 24 hours.\n\nWash your pet carefully with shampoo or soap and water and rinse completely. Wash your hands and face after washing your pet."
     },
     {
      "heading": "If you have pets: Pet food and supplies",
@@ -67,7 +59,8 @@
      "body": "Providing shelter to someone who was outside during a radiation emergency can save their life without endangering your own.\n\nAsk them to remove their outer layer of clothing before entering the building or shelter. Once inside, ask them to wash the parts of their body that were uncovered when they were outside.\n\nThen ask them to put on clean clothing, if they can. This will help limit their radiation exposure and keep radioactive material from spreading. Learn more about decontamination."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/response/get-inside.html"
+   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/response/get-inside.html",
+   "aliases": "get inside radiation, radiation emergency indoors, radiation outside in car, pets radiation, decontaminate pet, family in other places radiation, sheltering others radiation, radiation stay inside how long, radiation emergency basement, pet food emergency, radiation and pets, sheltering with neighbors, radiation inside building, keep pets inside radiation"
   },
   {
    "title": "How to Self-Decontaminate after a Radiation Emergency",
@@ -89,7 +82,8 @@
      "body": "**If you can't take a shower**\n\n- At a sink or faucet, wash your hands, face, and parts of your body that were not covered. Use soap and plenty of water.\n- If you do not have access to a sink or faucet, use:\n- A moist wipe\n- A clean wet cloth\n- A damp paper towel\n- Pay special attention to your hands and face.\n- Gently blow your nose and wipe your eyelids, eyelashes, and ears with a moist wipe, a clean wet cloth, or a damp paper towel.\n- Put the used wipes, cloth, or towel in a plastic bag or other sealable container. Place the bag in a place far away from other people and pets.\n\n**If you can take a shower**\n\n- Take a warm shower and gently wash yourself with lots of soap. Do not scald, scrub, or scratch your skin.\n- Wash your hair with shampoo or soap.\n- Keep cuts and abrasions covered when washing to stop radioactive material from getting in open wounds."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/prevention/self-decontaminate.html"
+   "sourceUrl": "https://www.cdc.gov/radiation-emergencies/prevention/self-decontaminate.html",
+   "aliases": "radiation exposure what to do, wash off radiation, decontaminate after radiation, remove contaminated clothes, shower after nuclear, radioactive dust on me, fallout on clothes, can I use tap water after radiation, radiation decontamination, dirty bomb what to do, how to clean off fallout, radiation emergency steps, wash hair radiation, bag contaminated clothing"
   },
   {
    "title": "What to Do to Shelter in Place for a Chemical Emergency",
@@ -107,12 +101,8 @@
      "body": "In the event of a chemical emergency, listen to the radio, television, mobile alerts, or your mobile news app to get up-to-date information.\n\nFollow any instructions from the police, fire, or other local officials."
     },
     {
-     "heading": "Make a plan",
-     "body": "Make a plan to keep you and your loved ones safe. Be sure to practice so everyone knows what to do.\n\nFollow these 5 steps to safely shelter in place during a chemical emergency:"
-    },
-    {
      "heading": "Make a plan: Step 1: Choose a safe room",
-     "body": "Choose a safe room that you can seal off from outside air. Choose the best room that:\n\n- Is large and has a source of water\n- Is on the highest floor possible"
+     "body": "Make a plan to keep you and your loved ones safe. Be sure to practice so everyone knows what to do.\n\nFollow these 5 steps to safely shelter in place during a chemical emergency:\n\nChoose a safe room that you can seal off from outside air. Choose the best room that:\n\n- Is large and has a source of water\n- Is on the highest floor possible"
     },
     {
      "heading": "Make a plan: Step 2: Make an emergency plan",
@@ -124,15 +114,7 @@
     },
     {
      "heading": "Make a plan: Step 4: Make a pack to seal your space",
-     "body": "Make a kit of items to seal windows and doors:\n\n- Duct tape and scissors\n- Towels and plastic sheets\n- Pre-cut plastic sheets (2-4 mil thick) to fit your windows. (You can cut these ahead of time. Sheet supplies are available at home improvement stores. Label each sheet.)"
-    },
-    {
-     "heading": "Make a plan: Step 5: Practice sealing your space",
-     "body": "Practice sealing all:\n\n- Window air conditioners\n- Bathroom and kitchen exhaust fans\n- Stove and dryer vents"
-    },
-    {
-     "heading": "Make a plan: Protect your pets",
-     "body": "Take additional steps to prepare your pets to safely shelter in place during a chemical emergency."
+     "body": "Make a kit of items to seal windows and doors:\n\n- Duct tape and scissors\n- Towels and plastic sheets\n- Pre-cut plastic sheets (2-4 mil thick) to fit your windows. (You can cut these ahead of time. Sheet supplies are available at home improvement stores. Label each sheet.)\n\n**Make a plan: Step 5: Practice sealing your space**\n\nPractice sealing all:\n\n- Window air conditioners\n- Bathroom and kitchen exhaust fans\n- Stove and dryer vents\n\n**Make a plan: Protect your pets**\n\nTake additional steps to prepare your pets to safely shelter in place during a chemical emergency."
     },
     {
      "heading": "Shelter in place: If you are home, get inside",
@@ -151,30 +133,23 @@
      "body": "- When it is safe to leave, you will get the \"all clear\" from police, fire or other local officials.\n- Follow instructions from your police, fire, or other local officials for what to do when you go outside to make sure you stay safe.\n\nPets\n\nNational Center for Environmental Health"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html"
+   "sourceUrl": "https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html",
+   "aliases": "chemical spill shelter in place, seal a room plastic sheeting, chemical emergency what to do, toxic gas release, seal doors and windows, safe room chemical, duct tape plastic windows, chemical attack, stay inside chemical, shelter in place kit, chemical leak nearby, turn off hvac chemical, train derailment chemical, pets chemical emergency, how to seal your house, chemical plant explosion, shelter in place meaning, how long to shelter in place, chemical cloud outside"
   },
   {
    "title": "About Getting Chemicals Off Your Body",
    "sections": [
     {
-     "heading": "What to know",
-     "body": "- Focus on getting the chemicals off of your body.\n- Pay attention to any news alerts.\n- Get help by calling the Poison Control Center at 800-222-1222, calling 911, or going to the nearest hospital."
-    },
-    {
      "heading": "Overview",
-     "body": "In a chemical emergency, you can come in contact with (be exposed to) chemicals through breathing. If you have breathed in the chemical, you should get away from the area and breathe fresh air."
+     "body": "**What to know**\n\n- Focus on getting the chemicals off of your body.\n- Pay attention to any news alerts.\n- Get help by calling the Poison Control Center at 800-222-1222, calling 911, or going to the nearest hospital.\n\nIn a chemical emergency, you can come in contact with (be exposed to) chemicals through breathing. If you have breathed in the chemical, you should get away from the area and breathe fresh air."
     },
     {
      "heading": "Overview: Stay informed",
      "body": "Check the radio, television, mobile news app, or text message alerts for more information. This includes whether you need to stay put and seal off your space or evacuate.\n\nYou can also be exposed to chemicals if they splash on your skin or into your eyes. You can also be exposed by accidentally eating or drinking chemicals (ingestion).\n\nOnce you get away from the area of the chemical release, get any chemical off your body as soon as possible. Do not worry about what type of chemical it is. Focus on getting the chemical off your body. This is called decontamination."
     },
     {
-     "heading": "What to do",
-     "body": "To prevent health effects, it is important to get the chemical off your body as soon as possible. Ideally within 10 minutes, take off all your clothes and shower."
-    },
-    {
      "heading": "What to do: Warning",
-     "body": "If you swallowed the chemical, do not make yourself throw up and do not drink anything else."
+     "body": "To prevent health effects, it is important to get the chemical off your body as soon as possible. Ideally within 10 minutes, take off all your clothes and shower.\n\nIf you swallowed the chemical, do not make yourself throw up and do not drink anything else."
     },
     {
      "heading": "What to do: Follow these steps to get the chemical off your body",
@@ -189,18 +164,15 @@
      "body": "If you have finished getting the chemical off your body, have any symptoms, or cannot get the chemical off, get help. Call the Poison Control Center at 800-222-1222 or call 911. You can also get help by going to the nearest hospital.\n\n- You may need to be checked by a healthcare provider after breathing in the chemical or after getting the chemical off your body. Your pet may need to be checked by a veterinarian.\n- The healthcare provider or veterinarian will look for any harmful effects from having come in contact with the chemical.\n- Check news updates for instructions for when it is safe to go outside.\n\nWhat to Do to Evacuate in a Chemical Emergency\n\nNational Center for Environmental Health\n\nSources\n\n- National Center for Environmental Health"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/chemical-emergencies/response/get-chemical-off-body.html"
+   "sourceUrl": "https://www.cdc.gov/chemical-emergencies/response/get-chemical-off-body.html",
+   "aliases": "chemical on my skin, chemical spill on clothes, how to wash off chemicals, decontaminate yourself, remove contaminated clothes, chemical exposure what to do, chemical in eyes rinse, chemical release nearby, washing off chemicals, throw away contaminated clothes, chemical attack decontamination, got chemicals on me, chemical leak exposure, shower after chemical exposure, chemical emergency steps"
   },
   {
    "title": "Carbon Monoxide (CO) Poisoning Basics",
    "sections": [
     {
-     "heading": "At a glance",
-     "body": "- Carbon monoxide (CO) is an odorless, colorless gas that can cause sudden illness and death if inhaled.\n- Find quick facts about CO poisoning and what can be done to prevent it."
-    },
-    {
      "heading": "What it is",
-     "body": "Carbon monoxide (CO) is an odorless, colorless gas that kills without warning. It claims the lives of hundreds of people every year and makes thousands more ill.\n\nMany household items including gas- and oil-burning furnaces, portable generators, and charcoal grills produce this poison gas."
+     "body": "**At a glance**\n\n- Carbon monoxide (CO) is an odorless, colorless gas that can cause sudden illness and death if inhaled.\n- Find quick facts about CO poisoning and what can be done to prevent it.\n\nCarbon monoxide (CO) is an odorless, colorless gas that kills without warning. It claims the lives of hundreds of people every year and makes thousands more ill.\n\nMany household items including gas- and oil-burning furnaces, portable generators, and charcoal grills produce this poison gas."
     },
     {
      "heading": "Symptoms",
@@ -228,18 +200,15 @@
     },
     {
      "heading": "Reducing risk: Portable generators",
-     "body": "Never use a generator inside your home or garage, even if doors and windows are open.\n\nOnly use generators outside, more than 20 feet away from any windows, doors, and vents.\n\nWhen using a generator, use a battery-powered or battery backup CO detector in your home."
-    },
-    {
-     "heading": "Reducing risk: If you have a had a poisoning incident related to any generator...",
-     "body": "Let the Consumer Product Safety Commission know!"
+     "body": "Never use a generator inside your home or garage, even if doors and windows are open.\n\nOnly use generators outside, more than 20 feet away from any windows, doors, and vents.\n\nWhen using a generator, use a battery-powered or battery backup CO detector in your home.\n\n**Reducing risk: If you have a had a poisoning incident related to any generator...**\n\nLet the Consumer Product Safety Commission know!"
     },
     {
      "heading": "Reducing risk: Automobile",
      "body": "Have a mechanic check the exhaust system of your car or truck every year. A small leak in the exhaust system can lead to a buildup of CO inside the car.\n\nNever run your car or truck inside a garage that is attached to a house, even with the garage door open. Always open the door to a detached garage to let in fresh air when you run a car or truck inside.\n\nIf you drive a car or SUV with a tailgate, when you open the tailgate open the vents or windows to make sure air is moving through. If only the tailgate is open, CO from the exhaust will be pulled into the car or SUV.\n\nCO Poisoning on Your Boat\n\nNational Center for Environmental Health"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/carbon-monoxide/about/index.html"
+   "sourceUrl": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+   "aliases": "carbon monoxide poisoning, CO poisoning, CO detector, carbon monoxide symptoms, headache dizzy nausea gas, generator inside, grill indoors, charcoal indoors, running car in garage, furnace carbon monoxide, chimney blocked, CO alarm going off, gas heater indoors, carbon monoxide signs, silent killer gas, propane heater indoors, CO poisoning what to do, carbon monoxide at night, camp stove in tent"
   },
   {
    "title": "Venomous Snakes at Work",
@@ -289,7 +258,8 @@
      "body": "- Do not pick up the snake or try to trap it.\n- NEVER handle a venomous snake, not even a dead one or its decapitated head.\n- Do not wait for symptoms to appear; get medical help right away.\n- Do not apply a tourniquet, electric shock, or folk therapies.\n- Do not slash the wound with a knife or cut it in any way.\n- Do not try to suck out the venom.\n- Do not apply ice or immerse the wound in water.\n- Do not drink alcohol as a painkiller or take pain relievers (such as, aspirin, ibuprofen, naproxen).\n\nVenomous Spiders\n\nNational Institute for Occupational Safety and Health\n\nSources\n\n- Alberts MB, Shalit M, LoGalbo F [2004]. Suction for venomous snakebite: A study of \"mock venom\" extraction in a human model. Ann Emerg Med, Vol. 43, No. 2, Feb, pp. 181-186.\n- Anderson VE, Gerardo CJ, Rapp-Olsson M, Bush SP, Mullins ME, Greene S, Toschlog EA, Quackenbush E, Rose SR, Schwartz RB, Charlton NP, Lewis B, Kleinschmidt KC, Sharma K, Lavonas EJ [2018]. Early administration of fab antivenom resulted in faster limb recovery in copperhead snake envenomation patients. Clin Toxicol (Phila), Vol., Sep 3, pp. 1-6.\n- Bush SP [2004]. Snakebite suction devices don't remove venom: They just suck. Ann Emerg Med, Vol. 43, No. 2, Feb, pp. 187-188.\n- Dart RC, McNally JT, Spaite DW, Gustafson R: The Sequelae of Pitviper Poisoning in the United States. In Campbell JA, Brodie ED, editors: Biology of the Pitvipers, Tyler TX, 1992, Selva, pages 369-382.\n- Gold BS, Dart RC, Barish RA [2002]. Bites of venomous snakes. N Engl J Med, Vol. 347, No. 5, Aug 1, pp. 347-356.\n- Kanaan NC, Ray J, Stewart M, Russell KW, Fuller M, Bush SP, Caravati EM, Cardwell MD, Norris RL, Weinstein SA [2015]. Wilderness medical society practice guidelines for the treatment of pitviper envenomations in the united states and canada. Wilderness Environ Med, Vol. 26, No. 4, Dec, pp. 472-487.\n- Langley RL, Morrow WE [1997]. Deaths resulting from animal attacks in the united states. Wilderness Environ Med, Vol. 8, No. 1, Feb, pp. 8-16.\n- Spyres MB, Ruha AM, Seifert S, Onisko N, Padilla-Jones A, Smith EA [2016]. Occupational snake bites: A prospective case series of patients reported to the toxic north american snakebite registry. J Med Toxicol, Vol. 12, No. 4, Dec, pp. 365-369.\n- Torpy JM, Schwartz LA, Golub RM [2012]. JAMA patient page. Snakebite. JAMA, Vol. 307, No. 15, Apr 18, p. 1657."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html"
+   "sourceUrl": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html",
+   "aliases": "venomous snakes, rattlesnake bite, copperhead snake, cottonmouth snake, water moccasin, coral snake, is this snake poisonous, snake bite what to do, snake bite first aid, snakes in the US, how to identify a venomous snake, snake bite symptoms, dont cut snake bite, avoiding snakes outdoors, snake safety while working, snake in yard, venomous snake types"
   },
   {
    "title": "Venomous Spiders at Work",
@@ -323,7 +293,8 @@
      "body": "If a worker is bitten by a spider:\n\n- Stay calm.\n- Identify the type of spider if it is possible to do so safely to aid in medical treatment.\n- Wash the bite area with soap and water.\n- Apply a cloth dampened with cold water or filled with ice to the bite area to reduce swelling.\n- Elevate bite area if possible.\n- Do not attempt to remove venom.\n\nImmediately notify a supervisor and seek professional medical attention."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html"
+   "sourceUrl": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html",
+   "aliases": "black widow bite, brown recluse bite, spider bite what to do, poisonous spider, spider bite symptoms, bite with red ring, spider bite first aid, how to identify black widow, brown recluse look like, spider bite treatment, avoid spider bites, spider bite swelling, spider bite emergency, venomous spiders, spider in woodpile, spider bite getting worse, hourglass spider, fiddleback spider"
   },
   {
    "title": "What to Do After a Tick Bite",
@@ -342,11 +313,7 @@
     },
     {
      "heading": "Avoid: tick testing",
-     "body": "People who have removed a tick sometimes wonder if they should have it tested to see if it is infected. Although some commercial groups offer testing, in general this is not recommended, because:\n\n- Laboratories that conduct tick testing are not required to have the high standards of quality control used by clinical diagnostic laboratories. Results of tick testing should not be used for treatment decisions.\n- Positive results showing that the tick contains a disease-causing organism do not necessarily mean that you have been infected.\n- Negative results can lead to false assurance. You may have been unknowingly bitten by a different tick that was infected.\n- If you have been infected, you will probably develop symptoms before results of the tick test are available. If you do become ill, you should not wait for tick testing results before beginning appropriate treatment."
-    },
-    {
-     "heading": "Avoid: tick testing: Keep reading",
-     "body": "Learn where ticks that spread diseases can be found and steps to prevent tick bites."
+     "body": "People who have removed a tick sometimes wonder if they should have it tested to see if it is infected. Although some commercial groups offer testing, in general this is not recommended, because:\n\n- Laboratories that conduct tick testing are not required to have the high standards of quality control used by clinical diagnostic laboratories. Results of tick testing should not be used for treatment decisions.\n- Positive results showing that the tick contains a disease-causing organism do not necessarily mean that you have been infected.\n- Negative results can lead to false assurance. You may have been unknowingly bitten by a different tick that was infected.\n- If you have been infected, you will probably develop symptoms before results of the tick test are available. If you do become ill, you should not wait for tick testing results before beginning appropriate treatment.\n\n**Avoid: tick testing: Keep reading**\n\nLearn where ticks that spread diseases can be found and steps to prevent tick bites."
     },
     {
      "heading": "Follow-up",
@@ -357,7 +324,8 @@
      "body": "About the Tool\n\n- The Tick Bite Guide is an interactive tool that will assist individuals on removing attached ticks and determining when to seek health care, if appropriate, after a tick bite.\n- The online mobile-friendly tool asks a series of questions covering topics such as tick attachment time and symptoms. Based on the user's responses, the tool then provides information about recommended actions and resources."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+   "sourceUrl": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "aliases": "tick bite, how to remove a tick, tick embedded in skin, tick head stuck, pull out a tick, tick removal tweezers, tick bite what to do, tick testing, lyme disease rash, rash after tick bite, fever after tick bite, tick on kid, tick on dog, should I see a doctor tick bite, bullseye rash, tick bite symptoms, tick in ear, tick bite follow up"
   },
   {
    "title": "About Rabies",
@@ -368,11 +336,7 @@
     },
     {
      "heading": "Overview",
-     "body": "Rabies is a fatal but preventable viral disease. It can be spread to people and pets through the bites and scratches of an infected animal. Rabies primarily affects the central nervous system, leading to severe brain disease and death if medical care is not received before symptoms start.\n\nIf you may have been exposed to rabies, you should urgently seek medical attention. Medical care following a rabies exposure is called post-exposure prophylaxis (PEP). PEP includes wound care, human rabies immune globulin (HRIG), and a series of four or five rabies vaccines, which must be given as soon as possible after an exposure. You must get this care to prevent the disease from developing, and it's nearly 100% effective if you get it after exposure.\n\nThe disease is rare in people in the United States, with fewer than 10 deaths reported each year. But because it's found in wildlife throughout the country (except for Hawaii), rabies poses a serious public health threat."
-    },
-    {
-     "heading": "Overview: Rabies vaccination in people",
-     "body": "Each year, around 100,000 Americans are vaccinated against rabies after a potential rabies exposure."
+     "body": "Rabies is a fatal but preventable viral disease. It can be spread to people and pets through the bites and scratches of an infected animal. Rabies primarily affects the central nervous system, leading to severe brain disease and death if medical care is not received before symptoms start.\n\nIf you may have been exposed to rabies, you should urgently seek medical attention. Medical care following a rabies exposure is called post-exposure prophylaxis (PEP). PEP includes wound care, human rabies immune globulin (HRIG), and a series of four or five rabies vaccines, which must be given as soon as possible after an exposure. You must get this care to prevent the disease from developing, and it's nearly 100% effective if you get it after exposure.\n\nThe disease is rare in people in the United States, with fewer than 10 deaths reported each year. But because it's found in wildlife throughout the country (except for Hawaii), rabies poses a serious public health threat.\n\n**Overview: Rabies vaccination in people**\n\nEach year, around 100,000 Americans are vaccinated against rabies after a potential rabies exposure."
     },
     {
      "heading": "Signs and symptoms",
@@ -387,16 +351,8 @@
      "body": "Rabid dogs in the U.S. are uncommon because of effective rabies prevention and control programs. Around the world, domestic dogs are responsible for more than 95% of the estimated 70,000 human deaths each year."
     },
     {
-     "heading": "People at risk",
-     "body": "People who are at increased risk for rabies exposures may want to consider pre-exposure vaccination for increased protection."
-    },
-    {
      "heading": "People at risk: Travelers",
-     "body": "Since 1990, more than 80 people in the United States have died after being infected with rabies during travel. In Africa, Asia, and specific areas of Central and South America, rabies in dogs is still a major problem. Additionally, access to PEP may be hard to get in those places. As a result, tens of thousands of people die of the disease each year.\n\nWhen you're traveling, it is important to keep your distance from wild and unfamiliar animals, including dogs and cats.\n\nBefore you travel abroad, consult your doctor, a travel clinic, or your local or state health department to find out your risk rabies exposure."
-    },
-    {
-     "heading": "People at risk: Outdoor enthusiasts",
-     "body": "People who enjoy certain outdoor activities that may lead to contact with wildlife, like spelunking, camping, and hunting are at higher risk of being exposed to rabies."
+     "body": "People who are at increased risk for rabies exposures may want to consider pre-exposure vaccination for increased protection.\n\nSince 1990, more than 80 people in the United States have died after being infected with rabies during travel. In Africa, Asia, and specific areas of Central and South America, rabies in dogs is still a major problem. Additionally, access to PEP may be hard to get in those places. As a result, tens of thousands of people die of the disease each year.\n\nWhen you're traveling, it is important to keep your distance from wild and unfamiliar animals, including dogs and cats.\n\nBefore you travel abroad, consult your doctor, a travel clinic, or your local or state health department to find out your risk rabies exposure.\n\n**People at risk: Outdoor enthusiasts**\n\nPeople who enjoy certain outdoor activities that may lead to contact with wildlife, like spelunking, camping, and hunting are at higher risk of being exposed to rabies."
     },
     {
      "heading": "People at risk: Jobs with animals",
@@ -407,26 +363,19 @@
      "body": "Rabies prevention efforts by veterinary, wildlife management, and public health professionals mean that human cases of rabies in the U.S. are rare. Every year, wildlife management professionals distribute more than 5 million oral vaccines to wildlife through baits to control rabies at its source. Veterinarians vaccinate more than 90 million cats and dogs each year. These vaccinations significantly reduce the risk that you or your pets get rabies.\n\nYou can help prevent rabies by:\n\n- Making sure your pets are up to date on their rabies vaccines\n- Keeping wildlife wild - stay away from wildlife for both human and animal safety\n- Calling animal control to remove stray animals from your neighborhood\n- Washing bites or scratches immediately with soap and water after possible rabies exposure\n- Seeking medical care urgently if you may have been exposed to rabies\n\nAround the world, large-scale dog vaccination programs are the most effective way to prevent rabies. However, in many countries, there aren't enough resources to reach all the dogs that need it. CDC works with public and private partners to improve international vaccine access for people and animals, making travel safer and improving global health.\n\nPrevention\n\nNational Center for Emerging and Zoonotic Infectious Diseases (NCEZID)\n\nSources\n\n- International Rabies Taskforce"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/rabies/about/index.html"
+   "sourceUrl": "https://www.cdc.gov/rabies/about/index.html",
+   "aliases": "rabies risk, bitten by animal, bat in house, raccoon bite, dog bite rabies, rabies symptoms, rabies shot, rabies vaccine, bitten by bat, which animals carry rabies, rabies in humans, wild animal bite, fox bite, skunk bite, stray dog bite, rabies prevention, animal acting strange, rabies exposure"
   },
   {
    "title": "Diabetes Care During Emergencies",
    "sections": [
     {
-     "heading": "Key points",
-     "body": "- Managing diabetes can be difficult during a major storm, loss of electricity, or infectious disease outbreak.\n- Plan ahead so you can manage your diabetes during times of emergency."
-    },
-    {
      "heading": "Be prepared",
-     "body": "Natural disasters, disease outbreaks, and other emergencies can happen at any moment. They may cause widespread and long-lasting impacts on supplies, services, and health care systems. Planning ahead can help.\n\nHaving essential supplies, prescriptions, important paperwork, and practical skills will help you during an emergency. People with diabetes should also be prepared to manage their condition during any kind of emergency. This includes whether they have to shelter in place, evacuate, or protect themselves from an infectious disease."
-    },
-    {
-     "heading": "Diabetes care kit",
-     "body": "In addition to having basic emergency supplies, people with diabetes should also put together a diabetes care kit. Keep the kit in a waterproof bag or storage container."
+     "body": "**Key points**\n\n- Managing diabetes can be difficult during a major storm, loss of electricity, or infectious disease outbreak.\n- Plan ahead so you can manage your diabetes during times of emergency.\n\nNatural disasters, disease outbreaks, and other emergencies can happen at any moment. They may cause widespread and long-lasting impacts on supplies, services, and health care systems. Planning ahead can help.\n\nHaving essential supplies, prescriptions, important paperwork, and practical skills will help you during an emergency. People with diabetes should also be prepared to manage their condition during any kind of emergency. This includes whether they have to shelter in place, evacuate, or protect themselves from an infectious disease."
     },
     {
      "heading": "Diabetes care kit: Put your medical information in a sealed plastic bag, including:",
-     "body": "- Copies of any prescriptions, including eye health prescriptions.\n- Current dosages and times when you take medicines.\n- For insulin pumps: your basal rates, insulin-to-carbohydrate ratio, insulin sensitivity factor, blood sugar target, and correction factors.\n- Your pharmacy and doctor's name, address, and phone number.\n- The make, model, and serial number of your insulin pump or continuous glucose monitor.\n- A copy of your photo ID and health insurance card."
+     "body": "In addition to having basic emergency supplies, people with diabetes should also put together a diabetes care kit. Keep the kit in a waterproof bag or storage container.\n\n- Copies of any prescriptions, including eye health prescriptions.\n- Current dosages and times when you take medicines.\n- For insulin pumps: your basal rates, insulin-to-carbohydrate ratio, insulin sensitivity factor, blood sugar target, and correction factors.\n- Your pharmacy and doctor's name, address, and phone number.\n- The make, model, and serial number of your insulin pump or continuous glucose monitor.\n- A copy of your photo ID and health insurance card."
     },
     {
      "heading": "Diabetes care kit: Pack enough diabetes supplies to last at least 1 to 2 weeks, including:",
@@ -449,7 +398,8 @@
      "body": "If you have to go to a shelter during an emergency, look for one that can meet your medical needs. Do you:\n\n- Have a home health nurse?\n- Use a walker?\n- Use oxygen?\n- Need assistance to go to the bathroom?\n- Require wound care or medicine through an IV?\n\nIf you answered \"yes\" to any of these questions, then it's likely you should find a special medical needs shelter.\n\nWhen you get to the shelter, tell someone in charge about your diabetes and any other conditions, like being on dialysis. They can help you with medical care and insulin storage.\n\nTake Charge of Your Diabetes Medicines\n\nNational Center for Chronic Disease Prevention and Health Promotion; Diabetes"
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/diabetes/articles/diabetes-care-emergencies.html"
+   "sourceUrl": "https://www.cdc.gov/diabetes/articles/diabetes-care-emergencies.html",
+   "aliases": "diabetes emergency kit, insulin during disaster, keeping insulin cold without power, diabetic supplies for evacuation, diabetes in a hurricane, diabetic go bag, insulin in power outage, diabetes shelter, dialysis in emergency, diabetic evacuation plan, how much insulin to pack, diabetes supplies list, diabetic prepping, storing insulin, diabetes care kit"
   }
  ]
 }

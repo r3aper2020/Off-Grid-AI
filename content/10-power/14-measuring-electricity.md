@@ -1,5 +1,6 @@
 # Measuring Electricity: Watts, Kilowatts and Watthours (EIA)
 Source: https://www.eia.gov/energyexplained/electricity/measuring-electricity.php
+Aliases: what is a watt, watts vs kilowatts, kilowatt hour explained, watt hours, how much electricity does an appliance use, electricity usage calculation, how to read electric meter, kwh meaning, power consumption basics, watts to kwh, electricity measured how, how many watts, sizing a generator watts, battery watt hours
 
 ## Electricity is measured in Watts and kilowatts
 Electricity is measured in units of power called Watts, named after James Watt, the inventor of the steam engine. One Watt is a very small amount of power. Some devices need only a few Watts to operate, but other devices require larger amounts, and their consumption is measured in kilowatts (kW). One kilowatt is equal to 1,000 Watts.

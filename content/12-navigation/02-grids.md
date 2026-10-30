@@ -1,5 +1,6 @@
 # Map Symbols, Grids and Coordinates (FM 3-25.26 Ch. 3–4)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: map symbols, what do map symbols mean, map legend, map colors meaning, map margin info, map scale, grid coordinates, how to read grid coordinates, MGRS, military grid reference, UTM coordinates, latitude and longitude, geographic coordinates, find a point on a map, 8 digit grid, 6 digit grid, give my location on a map, grid reference box, GEOREF, topographic map symbols, read a topo map, map coordinate system
 
 ## CHAPTER 3 MARGINAL INFORMATION AND SYMBOLS
 A map could be compared to any piece of equipment, in that before it is placed into operation the user must read the instructions. It is important that you, as a soldier, know how to read these instructions. The most logical place to begin is the marginal information and symbols, where useful information telling about the map is located and explained. All maps are not the same, so it becomes necessary every time a different map is used to examine the marginal information carefully.

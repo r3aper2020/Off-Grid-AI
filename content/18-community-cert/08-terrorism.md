@@ -1,5 +1,6 @@
 # Terrorism, Active Shooter and CBRNE (CERT Basic Training, Unit 8)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: active shooter, run hide fight, terrorist attack, bomb explosion, suspicious activity, see something say something, shooting what to do, after an attack, hazmat decontamination, dirty bomb, nuclear attack, shelter in place, chemical attack, bomb threat, secondary explosion, police arriving active shooter, treating injured after attack, CBRNE attack, bioterrorism attack
 
 ## Unit Objectives
 **SECTION 1: UNIT 8 OVERVIEW**

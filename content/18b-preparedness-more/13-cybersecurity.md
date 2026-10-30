@@ -1,5 +1,6 @@
 # Cybersecurity and Cyberattacks (Ready.gov)
 Source: https://www.ready.gov/cybersecurity
+Aliases: cyberattack what to do, I got hacked, protect from hackers, strong passwords, two factor authentication, phishing email, scam emails, identity theft, computer virus, data breach, ransomware attack, online security, cyber attack what to do, secure my accounts, after being hacked, wifi security, protect my phone, cyber safety
 
 ## Overview
 Cyberattacks are malicious attempts to access or damage a computer or network system. Cyberattacks can lead to the loss of money or the theft of personal, financial and medical information. These attacks can damage your reputation and safety.

@@ -1,5 +1,6 @@
 # Light Search and Rescue Operations (CERT Basic Training, Unit 7)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: search and rescue, searching a collapsed building, finding people in rubble, trapped people in building, should I try a rescue, building damage assessment, is it safe to enter, light moderate heavy damage, search patterns, marking searched buildings, search markings, cribbing, leveraging and cribbing, lift heavy debris, lifting objects off a person, removing survivors, survivor carries, drag a person to safety, rescue size up, searching for survivors after earthquake, CERT search and rescue, rescue safety precautions
 
 ## Unit Objectives
 **SECTION 1: UNIT 7 OVERVIEW**

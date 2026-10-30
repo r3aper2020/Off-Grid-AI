@@ -1,5 +1,6 @@
 # Pipes and Fittings (TM 3-34.70 Ch. 6)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: pipes and fittings, types of pipe, cast iron pipe, copper pipe, PVC pipe, plastic pipe fittings, galvanized pipe, how to measure pipe, pipe fitting dimensions, joining pipe, soldering copper pipe, sweating copper pipe, pipe joint compound, pipe dope, teflon tape, solvent cement PVC, gluing PVC, cutting pipe, threading pipe, pipe traps, Y branch, elbows and tees, replacing a pipe, plumbing fittings explained, pipe repair
 
 ## Pipes and Fittings
 **Chapter 6**

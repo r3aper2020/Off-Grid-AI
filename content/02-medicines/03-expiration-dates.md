@@ -1,5 +1,6 @@
 # Expiration Dates: Questions and Answers (FDA)
 Source: https://www.fda.gov/drugs/pharmaceutical-quality-resources/expiration-dates-questions-and-answers
+Aliases: expired medicine, can I take expired pills, do medications expire, how long after expiration, expired drugs safe, expired antibiotics, expired epipen, expired insulin, medicine shelf life, stockpiling medications, drug expiration dates, old medicine still work, expired tylenol, expired aspirin, medication storage long term
 
 ## 1. Why are expiration dates important for consumers to pay attention to?
 

@@ -1,5 +1,6 @@
 # What to Do After a Tick Bite
 Source: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+Aliases: tick bite, how to remove a tick, tick embedded in skin, tick head stuck, pull out a tick, tick removal tweezers, tick bite what to do, tick testing, lyme disease rash, rash after tick bite, fever after tick bite, tick on kid, tick on dog, should I see a doctor tick bite, bullseye rash, tick bite symptoms, tick in ear, tick bite follow up
 
 ## Key points
 - If you find a tick attached to your skin, simply remove the tick as soon as possible.

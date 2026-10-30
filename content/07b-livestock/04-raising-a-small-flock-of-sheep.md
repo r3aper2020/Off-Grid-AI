@@ -1,5 +1,6 @@
 # Raising a Small Flock of Sheep (USDA Farmers' Bulletin 2222, rev. 1977)
 Source: https://archive.org/download/CAT87206120/farmbul2222rev1977.pdf
+Aliases: raising sheep, how to start with sheep, buying sheep, buying ewes, choosing a ram, sheep shelter, sheep fencing, sheep equipment, feeding sheep, sheep pasture, winter feed for sheep, sheep breeding, lambing, helping a ewe give birth, newborn lamb care, shearing sheep, selling wool, sheep health, sheep diseases, sheep parasites, butchering a lamb, lamb meat, small flock, backyard sheep, keeping sheep on a homestead
 
 ## Overview
 

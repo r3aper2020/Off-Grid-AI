@@ -1,5 +1,6 @@
 # Types of Septic Systems (EPA)
 Source: https://www.epa.gov/septic/types-septic-systems
+Aliases: septic system types, how does a septic tank work, what kind of septic do I have, drain field, leach field, mound septic system, aerobic septic system, septic chamber system, sand filter septic, septic for small lot, septic tank basics, community septic, septic drip system, septic system options, constructed wetland septic
 
 ## Overview
 The design and size of a septic system can vary widely, from within your neighborhood to across the country, due to a combination of factors. These factors include household size, soil type, site slope, lot size, proximity to sensitive water bodies, weather conditions, or even local regulations. Below are ten of the most common types of septic systems used, followed by illustrations and descriptions of each system. The list is not all-inclusive; there are many other types of septic systems.

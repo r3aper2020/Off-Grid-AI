@@ -1,5 +1,6 @@
 # Viral Gastroenteritis (Stomach Flu): Symptoms and Dehydration (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/digestive-diseases/viral-gastroenteritis/symptoms-causes
+Aliases: stomach flu, throwing up and diarrhea, vomiting diarrhea, norovirus symptoms, signs of dehydration, dehydrated baby, child wont stop vomiting, when to see a doctor for diarrhea, how does stomach bug spread, food poisoning or stomach flu, stomach virus symptoms, dry mouth no urine, rotavirus symptoms, sunken eyes no tears, stomach bug
 
 ## What are the symptoms of viral gastroenteritis?
 The symptoms of viral gastroenteritis include

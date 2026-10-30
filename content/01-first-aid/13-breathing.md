@@ -1,5 +1,6 @@
 # Breathing and Chest Injuries (ATP 4-02.11 Ch. 6)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: cant breathe after chest injury, sucking chest wound, chest seal, hole in chest how to cover, collapsed lung, tension pneumothorax, needle decompression, dont pack a chest wound, rescue breathing, mouth to mouth, chest compressions, stabbed in the chest, shot in the chest, penetrating chest wound, breathing problems after injury, how to help someone breathe, plastic over chest wound
 
 ## Respiration and Breathing Control: OVERVIEW OF RESPIRATION AND BREATHING
 **Chapter 6**

@@ -1,5 +1,6 @@
 # Bioterrorism (Ready.gov)
 Source: https://www.ready.gov/biohazard
+Aliases: bioterrorism what to do, biological attack, anthrax exposure, suspicious powder, biological weapon exposure, germ attack, how to protect from bio attack, exposed to biological agent, bioterrorism preparation, breathing in toxic agent, biological agent symptoms, bio attack plan, cover mouth nose attack, biohazard exposure, white powder in mail, smallpox attack, wash off after exposure, quarantine after attack
 
 ## Overview
 Biological agents are organisms or toxins that can kill or disable people, livestock and crops. Biological events can either be accidental or intentional. Both types of events can make you sick.

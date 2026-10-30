@@ -1,5 +1,6 @@
 # Compasses and Navigation Methods (FM 3-25.26 Ch. 9)
 Source: https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf
+Aliases: how to use a compass, lensatic compass, compass bearing, follow an azimuth, find north without compass, compass types, how to hold a compass, gps basics, navigate without gps, shadow stick method, finding direction by stars, watch as compass, set compass heading, compass declination, which way is north, orient a map with compass, compass at night, make a compass, compass near metal, north star navigation
 
 ## CHAPTER 9 NAVIGATION EQUIPMENT AND METHODS
 **PART TWO LAND NAVIGATION**

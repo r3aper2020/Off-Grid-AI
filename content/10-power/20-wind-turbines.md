@@ -1,5 +1,6 @@
 # How Do Wind Turbines Work? (DOE)
 Source: https://www.energy.gov/cmei/systems/how-do-wind-turbines-work
+Aliases: how do wind turbines work, wind power basics, home wind turbine, small wind turbine, wind generator, types of wind turbines, vertical wind turbine, off grid wind power, wind energy explained, windmill electricity, how wind makes electricity, distributed wind, wind turbine for homestead, offshore wind
 
 ## Overview
 Wind turbines work on a simple principle: instead of using electricity to make wind—like a fan—wind turbines use wind to make electricity. Wind turns the propeller-like blades of a turbine around a rotor, which spins a generator, which creates electricity.

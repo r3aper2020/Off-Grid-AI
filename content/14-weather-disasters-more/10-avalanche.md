@@ -1,5 +1,6 @@
 # Avalanche (Ready.gov)
 Source: https://www.ready.gov/avalanche
+Aliases: caught in an avalanche, avalanche safety, avalanche beacon, how to survive an avalanche, backcountry skiing safety, avalanche signs, buried in snow, avalanche rescue, snow slide, avalanche danger, swim in avalanche, air pocket in snow, avalanche probe shovel, after an avalanche, avalanche terrain
 
 ## Overview
 

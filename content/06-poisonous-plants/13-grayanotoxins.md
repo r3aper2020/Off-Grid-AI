@@ -1,5 +1,6 @@
 # Grayanotoxins (Honey Intoxication) (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: mad honey, honey made me sick, poisonous honey, rhododendron honey, grayanotoxin poisoning, honey from azaleas, dizzy after eating honey, wild honey safe to eat, honey intoxication, low heart rate after honey, toxic honey symptoms, mountain laurel honey, can honey be poisonous, honey poisoning, turkish honey sick
 
 ## 1. Toxin
 **Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________**

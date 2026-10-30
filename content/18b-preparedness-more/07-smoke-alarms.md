@@ -1,5 +1,6 @@
 # Smoke Alarms (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+Aliases: smoke alarm beeping, smoke detector chirping, where to put smoke alarms, how many smoke alarms, replace smoke alarm, smoke alarm battery, test smoke alarm, smoke detector types, smoke alarm goes off cooking, ionization vs photoelectric, smoke alarm 10 year, smoke alarm for deaf, smoke alarm questions, interconnected alarms, smoke alarm age, smoke alarm in bedroom, how often change smoke alarm battery
 
 ## Overview
 Installing smoke alarms in every bedroom, outside each separate sleeping area, and on every level of a home — including the basement — is a fire safety precaution that all homeowners and landlords in your community need to take to protect residents from fire.

@@ -300,3 +300,122 @@ fema.gov/FCC/many cdc.gov PDFs (bot walls), choking/anaphylaxis/drowning
 first aid from a current federal source, USAP Field Manual (contractor
 work), Aids to Survival (no official copy online), EFFAK (copyrighted),
 TM 9-243 and GTA 05-02-013 (CAC-only), bartering.
+
+## 2026-10-30 — The model is the instructor; the library is its evidence
+The chat read as a clerk reading scraps: 400-token replies, "about 2 to 6
+sentences", a 3,500-character passage budget, an instruction to base the
+answer on the excerpts and to open with "the offline guides don't cover
+it" whenever they didn't fit — which, with weak retrieval, was most of the
+time. The system prompt now casts the model as an experienced instructor
+who answers completely (first action, ordered steps with the detail needed
+to do them, what to watch for, when to get help; 150–350 words), and the
+grounding instruction makes the passages evidence: cite them where they
+back a sentence, prefer their specifics, defer to them on conflict, ignore
+irrelevant ones silently, and fill gaps from the model's own knowledge.
+Medicine doses and chemical amounts still must come from a passage. With
+no sources the model answers from its own knowledge and adds one line at
+the end that the reply wasn't checked against the library. Budgets: 800
+reply tokens, 6,500 characters / 8 passages, context 6144, the last two
+exchanges with earlier replies cut at 800 characters. The cost is prompt
+size (~2,500 tokens) and so first-token latency on a phone CPU; measure on
+device and offer a smaller model (roadmap).
+
+## 2026-10-30 — Query rewriting by the chat model
+"I'm lost, it's getting dark and cold" shares no useful word with "If You
+Get Lost" and follow-ups ("what if I don't have one?") carry no topic.
+Before searching, the controller asks the model (`InferenceEngine.complete`,
+~64 tokens, no streaming) for 2–3 plain search queries with references to
+earlier turns resolved (`Grounding.rewriteTurns`/`parseRewrites`). The
+user's words are always searched too and weigh more; the rankings are
+fused by reciprocal rank (`KnowledgeSearch.forQueries`). If no model can
+run, the old previous-question heuristic (`forMessage`) is used. Engines
+must never surface a `complete` result as an answer.
+
+## 2026-10-30 — Document aliases (retrieval-only text) and library-only documents
+The verbatim rule stays, but the library's wording ("isolated personnel",
+"Build A Kit", "potable water") is rarely the user's. Each document now
+carries `aliases`: 8–25 plain-language phrasings of what it answers
+("bug out bag, go bag, 72 hour kit"), written for every bundled document,
+stored in `pack_documents.aliases`, indexed in `passages_fts` with the
+title, counted in the coverage gate, and embedded as a document vector —
+never shown to the user or the model. They are indexing metadata, not
+content, so no review status applies; the verbatim text is unchanged.
+Documents may be `libraryOnly` (`Chat: library-only` in the source): the
+47 CFR radio regulation texts are, so they stay readable and searchable
+in the Library but never reach the model ("morse code for SOS" was
+answered with §97.3 definitions).
+
+## 2026-10-30 — Retrieval: document vectors, more candidates, expansion, dedupe
+Keyword search alone picked a 1911 passage on storing cucumbers "in a cool,
+dark cellar" for "lost, dark and cold". Changes: 80 BM25 candidates (20
+kept after the coverage gate) and 20 semantic candidates instead of 6;
+section similarity is lifted by the document's similarity (title +
+aliases), and a strongly matching document (≥ 0.80) admits its sections
+even below the section floor; "(part n)" sections bring the parts before
+and after them; near-duplicate passages (word-set Jaccard > 0.5, the same
+procedure in two manuals) are given once; a keyword match whose meaning
+is far from the question (cosine < 0.55: "hide" in "Run, Hide, Fight" for
+"tan a hide") is dropped. Calibrated on `tools/coverage/` with bge-base,
+whose similarities run lower than bge-small's: on-topic questions' best
+section scores median 0.74 (10th percentile 0.65), off-topic controls at
+most 0.62, so `semanticMin` = 0.64; best document scores median 0.67
+(10th percentile 0.57), controls at most 0.53, so a document lifts its
+sections from 0.60 (`docMin`, × 0.3) and admits loosely related ones
+(≥ 0.58) from 0.70 (`docStrong`). The semantic rank weight grows ×5 per
+unit above `semanticMin` (was ×10). Trust multipliers are now 1 / 0.5 /
+0.4 (verified / needs-review / historical): the Wikibooks CPR and choking
+pages scored 0.81 against the question and outranked the current Army
+chapter at 0.73 until the multiplier was this strong; unreviewed text
+still surfaces when nothing verified covers the topic. Result on the 197
+on-topic coverage questions: 5 find nothing (eye foreign body, ham radio
+basics, dirty bomb, garbage disposal, bartering — library gaps), 3 of 10
+off-topic controls find something (cookies → Army baking, stock → sheep
+"foundation stock", Eiffel → scout tower), down from 6.
+
+## 2026-10-30 — Embedder: bge-base-en-v1.5 (MIT, 118 MB) replaces bge-small
+bge-small (33M parameters) ranked "Planing the First End Square" for
+"close a deep cut without stitches". bge-base (110M, 768 dims, CompendiumLabs
+GGUF q8_0, sha256 ad1afe72…1173c) is bundled in `assets/models/`; query
+embedding takes ~0.1–0.3 s on a phone CPU. Vectors stay int8 (~770 B per
+section, ~4.9 MB total). Schema v7 nulls every stored passage vector
+(dimension changed) and reinstalls bundled packs. The bundle grows by
+~80 MB; still well under store limits.
+
+## 2026-10-30 — Corpus cleaning in the builder
+Of 7,280 sections, 993 were under 200 characters and ~200 were OCR noise
+("UJ cc", "TAPED ON,", diagram labels from the scanned NWSS appendices) or
+number-only table fragments; they polluted both indexes and filled the
+passage budget with junk. `build_pack.py` now drops unreadable sections
+(all-caps labels, < 40 % letters, dot leaders, > 30 % short non-words) and
+merges fragments into a neighbour, keeping their heading as a bold line.
+Result: 6,308 sections, every one ≥ 8 words or carrying an image. The
+build prints each change for review. Also removed: ATP 3-90.99 "Living and
+Staying Healthy in the Desert", whose page range had extracted the
+fratricide-reduction appendix instead.
+
+## 2026-10-30 — Graded chat eval
+`tools/eval/scenarios.tsv` holds 34 realistic conversations with the key
+points an instructor must cover (call 911, direct pressure, drop/cover/
+hold…); `chat_eval_test.dart` runs them through the real controller,
+search and model and writes `tools/eval/results/<label>.md` with a
+key-point score, length, time, sources and the full replies. Keyword
+scoring measures coverage of essentials, not prose; read the replies.
+Results for this change (Qwen3-4B Q4_K_M on an Intel i9 CPU, no GPU):
+
+| | before | after |
+|---|---|---|
+| mean key-point score | 83 % | 93 % |
+| mean reply length | 535 chars | 1,426 chars |
+| mean time per turn | 117 s | 322 s |
+| replies with a "not in your library" line | 6 / 34 | 1 / 34 (the off-topic control, at the end) |
+
+Replies went from "call a doctor" (for "we have no doctor") to warning
+signs, hydration and what not to give; "I'm lost" from a boating-weather
+citation to stop, shelter, layers, three whistle blasts and a ranger
+station. Known weaknesses seen in the run, left for follow-up: the 4B
+model doesn't branch on unknowns (choking: it assumed an unresponsive
+casualty instead of covering conscious back blows/abdominal thrusts
+first); trivial questions still get a numbered list; one citation came
+out as a paragraph number ("[4-31]"); and the per-turn time is ~2.75×
+the old pipeline's on this CPU, which is the price of a real answer and
+must be measured on a phone (roadmap).

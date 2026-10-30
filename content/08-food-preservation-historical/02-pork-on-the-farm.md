@@ -1,5 +1,6 @@
 # Pork on the Farm: Killing, Dressing and Cutting (USDA Farmers' Bulletin 1186, 1921)
 Source: https://archive.org/download/farmbul1186rev1921/farmbul1186rev1921.pdf
+Aliases: butchering a pig, slaughtering a hog, how to kill a pig, scalding a pig, scraping a hog, gutting a pig, cutting up a hog, pork cuts, curing ham, curing bacon, salt curing pork, rendering lard, making lard, pork curing brine, smoking ham, home butchering pig, hog slaughter equipment, salt pork, cooling a carcass, pig killing time of year
 
 ## Overview
 EVERY FARM should produce the pork and pork products which are consumed on that farm.

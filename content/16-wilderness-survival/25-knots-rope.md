@@ -1,5 +1,6 @@
 # Knot Tying and Rope Management (TC 3-97.61 Ch. 8)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45366-TC_3-97.61-000-WEB-1.pdf
+Aliases: climbing knots, figure eight knot, figure eight on a bight, how to tie a figure eight, prusik knot, friction hitch, bowline knot, clove hitch, munter hitch, water knot, double fisherman, rope types, static vs dynamic rope, carabiner types, locking carabiner, webbing and slings, rope terms bight loop, knots for climbing, rappel knots, tie into a harness, overhand safety knot, rope care, knot strength, girth hitch
 
 ## Knot Tying and Rope Management
 **Chapter 8**

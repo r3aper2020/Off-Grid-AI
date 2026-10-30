@@ -1,5 +1,6 @@
 # NOAA Weather Radio: Choosing and Programming a Receiver
 Source: https://www.weather.gov/nwr/nwr_receivers
+Aliases: weather radio, NOAA weather radio, which weather radio to buy, programming weather radio, SAME code, weather alert radio, weather radio for county, weather radio features, public alert radio, weather radio setup, emergency alert radio, radio for storms, hand crank weather radio, weather radio battery backup, all hazards radio
 
 ## Overview
 - Where to Buy a NOAA Weather Radio Receiver

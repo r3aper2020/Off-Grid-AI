@@ -1,5 +1,6 @@
 # Centrifugal Pumps (TM 3-34.70 Ch. 11)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: water pump not working, how to prime a pump, centrifugal pump, pump wont prime, pump losing pressure, submersible pump, pump impeller, pump seal leaking, pump bearings noise, pump troubleshooting, well pump problems, pump head lift, pump packing gland, foot valve check valve, pump maintenance, water pump repair, pump cavitation, pump installation, pump runs but no water, how high can a pump lift water
 
 ## Centrifugal Pumps
 **Chapter 11**

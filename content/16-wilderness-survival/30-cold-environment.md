@@ -1,5 +1,6 @@
 # Mountain and Cold Weather Environments (ATP 3-90.97 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_90x97.pdf
+Aliases: mountain environment, cold regions, arctic region, subarctic region, tundra terrain, permafrost ground, muskeg bog, glacier travel, boreal forest, overflow ice, ice fog, whiteout conditions, blizzard conditions, chinook winds, northern lights, mountain terrain types, elevation effects, cold weather terrain, river ice, mountain classifications, maritime vs continental cold, traveling in cold terrain, winter wilderness
 
 ## The Environment: PRESENT IMPERATIVE FOR MOUNTAIN DOCTRINE
 **Chapter 1**

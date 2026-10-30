@@ -1,5 +1,6 @@
 # People with Disabilities (Ready.gov)
 Source: https://www.ready.gov/people-disabilities
+Aliases: disability emergency plan, wheelchair user emergency, deaf emergency alerts, blind emergency kit, hard of hearing disaster, mobility disability evacuation, alzheimers emergency planning, dementia wandering disaster, intellectual disability emergency, speech disability emergency, medications in emergency kit, benefits direct deposit emergency, emergency kit for disabilities, special needs emergency plan, service animal emergency, people with disabilities heat, support network emergency, accessible evacuation, disability build a kit, medical equipment kit
 
 ## Overview
 Disability intersects every demographic group—there are people with disabilities of all ages, races, sex or national origin. And, disabilities can impact a person in a variety of ways—both visible and invisible. For people with disabilities and their families, it is important to consider individual circumstances and needs to effectively prepare for emergencies and disasters.

@@ -1,5 +1,6 @@
 # Principles of Home Canning (USDA Complete Guide, Guide 1)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf
+Aliases: home canning basics, how to can food, pressure canner vs water bath, canning jars and lids, jar didnt seal, reprocessing jars, canning altitude adjustment, how long to process jars, storing canned food, spoiled canned food, canning safety, testing jar seals, pickling vegetables, fermenting food, making jam, making jelly, canning for babies, how much to can, canning mistakes, canning botulism, reusing lids
 
 ## Why can foods?
 Canning can be a safe and economical way to preserve quality food at home. Disregarding the value of your labor, canning homegrown food may save you half the cost of buying commercially canned food. Canning favorite and special products to be enjoyed by family and friends is a fulfilling experience and a source of pride for many people.

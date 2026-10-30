@@ -1,5 +1,6 @@
 # Knots, Splices, Attachments and Ladders (TM 3-34.86 Ch. 2)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x86.pdf
+Aliases: how to tie knots, bowline knot, square knot, clove hitch, figure eight knot, sheet bend, two half hitches, timber hitch, best knot for tying down, knot that wont slip, loop knot, joining two ropes, rope splice, how to splice rope, rope hitches, knots for lashing, tying rope to a post, rope ladder, rope strength, basic knots everyone should know, knot for hauling, wire rope clips, knots for rigging, cats paw knot
 
 ## Knots, Splices, Attachments, and Ladders: SECTION I - KNOTS, HITCHES, AND LASHINGS
 **Chapter 2**

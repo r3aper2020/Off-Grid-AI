@@ -1,5 +1,6 @@
 # Starting the Plants (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: starting seeds, hotbed gardening, cold frame, starting plants early, seed starting soil, sowing seeds indoors, old fashioned seed starting, growing transplants, sowing seeds outside, when to plant seeds, preparing seed bed, starting vegetable plants, seed starting without electricity, spring planting
 
 ## Starting The Plants
 This beautifully prepared garden spot--or rather the plant food in it-- is to be transformed into good things for your table, through the ever wonderful agency of plant growth. The thread of life inhering in the tiniest seed, in the smallest plant, is the magic wand that may transmute the soil's dull metal into the gold of flower and fruit.

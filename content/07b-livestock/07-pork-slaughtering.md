@@ -1,5 +1,6 @@
 # Pork Slaughtering, Cutting, and Cooking on the Farm (USDA Farmers' Bulletin 2265, rev. 1981)
 Source: https://www.gutenberg.org/ebooks/62859
+Aliases: butchering a pig, how to slaughter a hog, home pig butchering, scalding and scraping a pig, cutting up a pig, pork cuts, rendering lard, making sausage at home, scrapple recipe, headcheese recipe, freezing pork, bleeding a pig, gutting a hog, pig carcass chilling, butchering equipment, how to kill a pig humanely, curing pork, wrapping meat for freezer, home slaughter laws, processing a hog, skinning a pig, pig butchering day, pork cooking temperature
 
 ## SELECTION AND CARE OF ANIMAL BEFORE SLAUGHTER
 

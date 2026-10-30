@@ -1,5 +1,6 @@
 # Outdoor Emergency Plan: If You Get Lost or Injured (National Park Service)
 Source: https://www.nps.gov/articles/gtgemergencyplan.htm
+Aliases: lost in the woods, what to do when lost, getting found, lost child in woods, hug a tree, lost hiking what to do, how to signal for help, whistle signal, mirror signal, trip plan, ten essentials, hurt on trail, stay put when lost, injured hiking no cell service, wait for rescue, lost on trail, before hike plan, meet up location, prevent getting lost, someone in group injured, tell someone where you are going, kids lost hiking, three whistle blasts, retrace your steps
 
 ## Overview
 Accidents happen. You may become lost or injured while recreating outdoors. Search and rescue can take hours or days depending on factor such as weather conditions, capacity, and resources whether you are lost or injured. Being prepared for an emergency improves your ability to quickly respond to the situation. It is very important that you practice your plan before you leave so you and anyone joining your adventure knows what to do in case of an emergency. Remember, each trip and activity may have special requirements so you may have to modify your outdoor emergency plan to fit your trip.

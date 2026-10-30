@@ -4,7 +4,7 @@
  "id": "navigation",
  "title": "Navigation & Map Reading",
  "category": "map",
- "version": "2026.10.29.3",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Army (FM 3-25.26, Map Reading and Land Navigation, 2001)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Reading topographic maps, grids and coordinates, measuring distance, azimuths and compass use, elevation and relief, terrain association, and orienteering. Superseded 2001 edition: fundamentals remain valid, military-specific details may be dated.",
@@ -77,7 +77,8 @@
      "body": "Accuracy is the degree of conformity with which horizontal positions and vertical values are represented on a map in relation to an established standard. This standard is determined by the DMA based on user requirements. A map can be considered to meet accuracy requirement standards unless otherwise specified in the marginal information."
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "how to read a map, topographic map basics, map scale explained, types of maps, taking care of a map, folding a map, waterproof map, military map, aerial photo as map, map accuracy, where to get maps, what is a topo map, map grid, reading a topo map, map legend, map substitutes, protect map from rain, what map to use hiking, map categories, old map still accurate"
   },
   {
    "title": "Map Symbols, Grids and Coordinates (FM 3-25.26 Ch. 3–4)",
@@ -326,7 +327,8 @@
      "body": "A disadvantage of any standard system of location is that the enemy, if he intercepts one of our messages using the system, can interpret the message and find our location. It is possible and can be eliminated by using an authorized low-level numerical code to express locations.\n\nArmy Regulation 380-40 outlines the procedures for obtaining authorized codes.\n\na. The authorized numerical code provides a capability for encrypting map references and other numerical information that requires short-term security protection when, for operational reasons, the remainder of the message is transmitted in plain language. The system is published in easy-to-use booklets with sufficient material in each for one month's operation. Sample training editions of this type of system are available through the unit's communications and electronics officer.\n\nb. The use of any encryption methods other than authorized codes is, by regulation,\n\nunauthorized and shall not be used."
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "map symbols, what do map symbols mean, map legend, map colors meaning, map margin info, map scale, grid coordinates, how to read grid coordinates, MGRS, military grid reference, UTM coordinates, latitude and longitude, geographic coordinates, find a point on a map, 8 digit grid, 6 digit grid, give my location on a map, grid reference box, GEOREF, topographic map symbols, read a topo map, map coordinate system"
   },
   {
    "title": "Scale and Distance (FM 3-25.26 Ch. 5)",
@@ -337,11 +339,7 @@
     },
     {
      "heading": "5-1. REPRESENTATIVE FRACTION",
-     "body": "The numerical scale of a map indicates the relationship of distance measured on a map and the corresponding distance on the ground. This scale is usually written as a fraction and is called the representative fraction. The RF is always written with the map distance as 1 and is independent of any unit of measure. (It could be yards, meters, inches, and so forth.) An RF of 1/50,000 or 1:50,000 means that one unit of measure on the map is equal to 50,000 units of the same measure on the ground.\n\na. The ground distance between two points is determined by measuring between the same two points on the map and then multiplying the map measurement by the denominator of the RF or scale (Figure 5-1, page 5-2).\n\nEXAMPLE:\n\nThe map scale is 1:50,000 RF = 1/50,000 The map distance from point A to point B is 5 units 5 x 50,000 = 250,000 units of ground distance b. Since the distance on most maps is marked in meters and the RF is expressed in this unit of measurement in most cases, a brief description of the metric system is needed. In the metric system, the standard unit of measurement is the meter.\n\n1 meter contains 100 centimeters (cm). 100 meters is a regular football field plus 10 meters. 1,000 meters is 1 kilometer (km). 10 kilometers is 10,000 meters.\n\nAppendix C contains the conversion tables.\n\nc. The situation may arise when a map or sketch has no RF or scale. To be able to determine ground distance on such a map, the RF must be determined. There are two ways to do this:\n\n(1) Comparison with Ground Distance. (a) Measure the distance between two points on the map—map distance (MD). (b) Determine the horizontal distance between these same two points on the ground—\n\nground distance (GD).\n\n(c) Use the RF formula and remember that RF must be in the general form:"
-    },
-    {
-     "heading": "X GD",
-     "body": "{{img:0}}\n\n(d) Both the MD and the GD must be in the same unit of measure and the MD must be\n\nreduced to 1.\n\nEXAMPLE:",
+     "body": "The numerical scale of a map indicates the relationship of distance measured on a map and the corresponding distance on the ground. This scale is usually written as a fraction and is called the representative fraction. The RF is always written with the map distance as 1 and is independent of any unit of measure. (It could be yards, meters, inches, and so forth.) An RF of 1/50,000 or 1:50,000 means that one unit of measure on the map is equal to 50,000 units of the same measure on the ground.\n\na. The ground distance between two points is determined by measuring between the same two points on the map and then multiplying the map measurement by the denominator of the RF or scale (Figure 5-1, page 5-2).\n\nEXAMPLE:\n\nThe map scale is 1:50,000 RF = 1/50,000 The map distance from point A to point B is 5 units 5 x 50,000 = 250,000 units of ground distance b. Since the distance on most maps is marked in meters and the RF is expressed in this unit of measurement in most cases, a brief description of the metric system is needed. In the metric system, the standard unit of measurement is the meter.\n\n1 meter contains 100 centimeters (cm). 100 meters is a regular football field plus 10 meters. 1,000 meters is 1 kilometer (km). 10 kilometers is 10,000 meters.\n\nAppendix C contains the conversion tables.\n\nc. The situation may arise when a map or sketch has no RF or scale. To be able to determine ground distance on such a map, the RF must be determined. There are two ways to do this:\n\n(1) Comparison with Ground Distance. (a) Measure the distance between two points on the map—map distance (MD). (b) Determine the horizontal distance between these same two points on the ground—\n\nground distance (GD).\n\n(c) Use the RF formula and remember that RF must be in the general form:\n\n**X GD**\n\n{{img:0}}\n\n(d) Both the MD and the GD must be in the same unit of measure and the MD must be\n\nreduced to 1.\n\nEXAMPLE:",
      "images": [
       {
        "asset": "assets/packs/images/navigation--03-distance--fig-5-1.webp",
@@ -352,11 +350,7 @@
     },
     {
      "heading": "RF = 1 or 1:50,000 50,000",
-     "body": "**MD = 4.32 centimeters**\n\n**GD = 2.16 kilometers (216,000 centimeters)**\n\n**X 216,000 216,000 = 50,000 4.32**\n\n**therefore**\n\n(2) Comparison With Another Map of the Same Area that Has an RF. (a) Select two points on the map with the unknown RF. Measure the distance (MD)\n\nbetween them.\n\n(b) Locate those same two points on the map that have the known RF. Measure the distance (MD) between them. Using the RF for this map, determine GD, which is the same for both maps.\n\n(c) Using the GD and the MD from the first map, determine the RF using the formula:"
-    },
-    {
-     "heading": "X GD",
-     "body": "d. Occasionally it may be necessary to determine map distance from a known ground\n\ndistance and the RF:"
+     "body": "**MD = 4.32 centimeters**\n\n**GD = 2.16 kilometers (216,000 centimeters)**\n\n**X 216,000 216,000 = 50,000 4.32**\n\n**therefore**\n\n(2) Comparison With Another Map of the Same Area that Has an RF. (a) Select two points on the map with the unknown RF. Measure the distance (MD)\n\nbetween them.\n\n(b) Locate those same two points on the map that have the known RF. Measure the distance (MD) between them. Using the RF for this map, determine GD, which is the same for both maps.\n\n(c) Using the GD and the MD from the first map, determine the RF using the formula:\n\n**X GD**\n\nd. Occasionally it may be necessary to determine map distance from a known ground\n\ndistance and the RF:"
     },
     {
      "heading": "MD = 4.4 centimeters",
@@ -425,11 +419,7 @@
     },
     {
      "heading": "5-3. OTHER METHODS",
-     "body": "Determining distance is the most common source of error encountered while moving either mounted or dismounted. There may be circumstances where you are unable to determine distance using your map or where you are without a map. It is therefore essential to learn methods by which you can accurately pace, measure, use subtense, or estimate distances on the ground.\n\na. Pace Count. Another way to measure ground distance is the pace count. A pace is equal to one natural step, about 30 inches long. To accurately use the pace count method, you must know how many paces it takes you to walk 100 meters. To determine this, you must walk an accurately measured course and count the number of paces you take. A pace course can be as short as 100 meters or as long as 600 meters. The pace course, regardless of length, must be on similar terrain to that you will be walking over. It does no good to walk a course on flat terrain and then try to use that pace count on hilly terrain. To determine your pace count on a 600-meter course, count the paces it takes you to walk the 600 meters, then divide the total paces by 6. The answer will give you the average paces it takes you to walk 100 meters. It is important that each person who navigates while dismounted knows his pace count.\n\n(1) There are many methods to keep track of the distance traveled when using the pace count. Some of these methods are: put a pebble in your pocket every time you have walked 100 meters according to your pace count; tie knots in a string; or put marks in a notebook.\n\nDo not try to remember the count; always use one of these methods or design your own method.\n\n(2) Certain conditions affect your pace count in the field, and you must allow for them\n\nby making adjustments.\n\n(a) Slopes. Your pace lengthens on a downslope and shortens on an upgrade. Keeping this in mind, if it normally takes you 120 paces to walk 100 meters, your pace count may increase to 130 or more when walking up a slope.\n\n(b) Winds. A head wind shortens the pace and a tail wind increases it. (c) Surfaces. Sand, gravel, mud, snow, and similar surface materials tend to shorten the\n\npace.\n\n(d) Elements. Falling snow, rain, or ice cause the pace to be reduced in length. (e) Clothing. Excess clothing and boots with poor traction affect the pace length. (f) Visibility. Poor visibility, such as in fog, rain, or darkness, will shorten your pace. b. Odometer. Distances can be measured by an odometer, which is standard equipment on most vehicles. Readings are recorded at the start and end of a course and the difference is the length of the course.\n\n(1) To convert kilometers to miles, multiply the number of kilometers by 0.62.\n\nEXAMPLE:"
-    },
-    {
-     "heading": "16 kilometers = 16 x 0.62 = 9.92 miles",
-     "body": "(2) To convert miles to kilometers, divided the number of miles by 0.62.\n\nEXAMPLE:"
+     "body": "Determining distance is the most common source of error encountered while moving either mounted or dismounted. There may be circumstances where you are unable to determine distance using your map or where you are without a map. It is therefore essential to learn methods by which you can accurately pace, measure, use subtense, or estimate distances on the ground.\n\na. Pace Count. Another way to measure ground distance is the pace count. A pace is equal to one natural step, about 30 inches long. To accurately use the pace count method, you must know how many paces it takes you to walk 100 meters. To determine this, you must walk an accurately measured course and count the number of paces you take. A pace course can be as short as 100 meters or as long as 600 meters. The pace course, regardless of length, must be on similar terrain to that you will be walking over. It does no good to walk a course on flat terrain and then try to use that pace count on hilly terrain. To determine your pace count on a 600-meter course, count the paces it takes you to walk the 600 meters, then divide the total paces by 6. The answer will give you the average paces it takes you to walk 100 meters. It is important that each person who navigates while dismounted knows his pace count.\n\n(1) There are many methods to keep track of the distance traveled when using the pace count. Some of these methods are: put a pebble in your pocket every time you have walked 100 meters according to your pace count; tie knots in a string; or put marks in a notebook.\n\nDo not try to remember the count; always use one of these methods or design your own method.\n\n(2) Certain conditions affect your pace count in the field, and you must allow for them\n\nby making adjustments.\n\n(a) Slopes. Your pace lengthens on a downslope and shortens on an upgrade. Keeping this in mind, if it normally takes you 120 paces to walk 100 meters, your pace count may increase to 130 or more when walking up a slope.\n\n(b) Winds. A head wind shortens the pace and a tail wind increases it. (c) Surfaces. Sand, gravel, mud, snow, and similar surface materials tend to shorten the\n\npace.\n\n(d) Elements. Falling snow, rain, or ice cause the pace to be reduced in length. (e) Clothing. Excess clothing and boots with poor traction affect the pace length. (f) Visibility. Poor visibility, such as in fog, rain, or darkness, will shorten your pace. b. Odometer. Distances can be measured by an odometer, which is standard equipment on most vehicles. Readings are recorded at the start and end of a course and the difference is the length of the course.\n\n(1) To convert kilometers to miles, multiply the number of kilometers by 0.62.\n\nEXAMPLE:\n\n**16 kilometers = 16 x 0.62 = 9.92 miles**\n\n(2) To convert miles to kilometers, divided the number of miles by 0.62.\n\nEXAMPLE:"
     },
     {
      "heading": "10 miles = 10 divided by 0.62 = 16.12 kilometers",
@@ -437,7 +427,7 @@
     },
     {
      "heading": "Tan (1/2) (in mils)",
-     "body": "**Distance = 1/2 (base in meters)**\n\nd. Estimation. At times, because of the tactical situation, it may be necessary to\n\nestimate range. There are two methods that may be used to estimate range or distance.\n\n(1) 100-Meter Unit-of-Measure Method. To use this method, the soldier must be able to visualize a distance of 100 meters on the ground. For ranges up to 500 meters, he determines the number of 100-meter increments between the two objects he wishes to measure. Beyond 500 meters, the soldier must select a point halfway to the object(s) and determine the number of 100-meter increments to the halfway point, then double it to find the range to the object(s) (Figure 5-9).\n\n{{img:0}}\n\n(2) Flash-To-Bang Method. To use this method to determine range to an explosion or enemy fire, begin to count when you see the flash. Count the seconds until you hear the weapon fire. This time interval may be measured with a stopwatch or by using a steady count, such as one-thousand-one, one-thousand-two, and so forth, for a three-second estimated count. If you must count higher than 10 seconds, start over with one. Multiply the number of seconds by 330 meters to get the approximate range (FA uses 350 meters instead).\n\n(3) Proficiency of Methods. The methods discussed above are used only to estimate range (Table 5-1). Proficiency in both methods requires constant practice. The best training technique is to require the soldier to pace the range after he has estimated the distance. In this way, the soldier discovers the actual range for himself, which makes a greater impression than if he is simply told the correct range.",
+     "body": "**Distance = 1/2 (base in meters)**\n\nd. Estimation. At times, because of the tactical situation, it may be necessary to\n\nestimate range. There are two methods that may be used to estimate range or distance.\n\n(1) 100-Meter Unit-of-Measure Method. To use this method, the soldier must be able to visualize a distance of 100 meters on the ground. For ranges up to 500 meters, he determines the number of 100-meter increments between the two objects he wishes to measure. Beyond 500 meters, the soldier must select a point halfway to the object(s) and determine the number of 100-meter increments to the halfway point, then double it to find the range to the object(s) (Figure 5-9).\n\n{{img:0}}\n\n(2) Flash-To-Bang Method. To use this method to determine range to an explosion or enemy fire, begin to count when you see the flash. Count the seconds until you hear the weapon fire. This time interval may be measured with a stopwatch or by using a steady count, such as one-thousand-one, one-thousand-two, and so forth, for a three-second estimated count. If you must count higher than 10 seconds, start over with one. Multiply the number of seconds by 330 meters to get the approximate range (FA uses 350 meters instead).\n\n(3) Proficiency of Methods. The methods discussed above are used only to estimate range (Table 5-1). Proficiency in both methods requires constant practice. The best training technique is to require the soldier to pace the range after he has estimated the distance. In this way, the soldier discovers the actual range for himself, which makes a greater impression than if he is simply told the correct range.\n\n**Factors Affecting Range Estimation**\n\nThe clearness of outline and details of the object.\n\nNature of terrain or position of the observer.",
      "images": [
       {
        "asset": "assets/packs/images/navigation--03-distance--fig-5-9.webp",
@@ -447,15 +437,12 @@
      ]
     },
     {
-     "heading": "Factors Affecting Range Estimation",
-     "body": "The clearness of outline and details of the object.\n\nNature of terrain or position of the observer."
-    },
-    {
      "heading": "Factors Causing Overestimation of Range",
      "body": "**Factors Causing Underestimation of Range**\n\nWhen most of the object is visible and offers a clear outline.\n\nWhen only a small part of the object can be seen or the object is small in relation to its surroundings.\n\nWhen looking across a depression that is mostly hidden from view.\n\nWhen looking across a depression that is totally visible.\n\nWhen looking downward from high ground.\n\nWhen vision is confined, as in streets, draws, or forest trails.\n\nWhen looking down a straight, open road or along a railroad.\n\nWhen looking from low ground toward high ground.\n\nLight and atmosphere\n\nWhen looking over uniform surfaces like water, snow, desert, or grain fields.\n\nIn bright light or when the sun is shining from behind the observer.\n\nWhen the object is in sharp contrast with is silhouetted the background or because of its size, shape, or color.\n\nWhen seen in the clear air of high altitudes.\n\nIn poor light, such as dawn and dusk; in rain, snow, fog; or when the sun is in the observer’s eyes.\n\nWhen object blends background or terrain.\n\ninto\n\nthe\n\n[Table 5-1. Factors of range estimation. — table layout not preserved; verify values against the original document]"
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "map scale, reading map scale, how far is it on the map, measuring distance on a map, miles to kilometers, bar scale, pace count, estimating distance, how far away is that, range estimation, map distance to real distance, 1:50000 map, time to walk distance, judging distance by eye, measuring curved road on map"
   },
   {
    "title": "Direction and Azimuths (FM 3-25.26 Ch. 6)",
@@ -634,7 +621,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "azimuth meaning, how to read a compass, compass bearing, magnetic declination, true north vs magnetic north, protractor on a map, find my location on a map, resection method, intersection method, back azimuth, finding where I am with compass, compass and map basics, grid north, taking a bearing, map direction, polar coordinates, compass directions, declination diagram"
   },
   {
    "title": "Compasses and Navigation Methods (FM 3-25.26 Ch. 9)",
@@ -747,7 +735,8 @@
      "body": "The GPS is a space-based, global, all-weather, continuously available, radio positioning navigation system. It is highly accurate in determining position location derived from signal triangulation from a satellite constellation system. It is capable of determining latitude, longitude, and altitude of the individual user. It is being fielded in hand-held, manpack, vehicular, aircraft, and watercraft configurations. The GPS receives and processes data from satellites on either a simultaneous or sequential basis. It measures the velocity and range with respect to each satellite, processes the data in terms of an earth-centered, earth-fixed coordinate system, and displays the information to the user in geographic or military grid coordinates.\n\na. The GPS can provide precise steering information, as well as position location. The receiver can accept many checkpoints entered in any coordinate system by the user and convert them to the desired coordinate system. The user then calls up the desired checkpoint and the receiver will display direction and distance to the checkpoint. The GPS does not\n\nhave inherent drift, an improvement over the Inertial Navigation System, and the receiver will automatically update its position. The receiver can also compute time to the next checkpoint.\n\nb. Specific uses for the GPS are position location; navigation; weapon location; target and sensor location; coordination of firepower; scout and screening operations; combat resupply; location of obstacles, barriers, and gaps; and communication support. The GPS also has the potential to allow units to train their soldiers and provide the following:\n\n- Performance feedback.\n\n- Knowledge of routes taken by the soldier.\n\n- Knowledge of errors committed by the soldier.\n\n- Comparison of planned versus executed routes.\n\n- Safety and control of lost and injured soldiers.\n\n(See Appendix J for more information of the GPS.)"
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "how to use a compass, lensatic compass, compass bearing, follow an azimuth, find north without compass, compass types, how to hold a compass, gps basics, navigate without gps, shadow stick method, finding direction by stars, watch as compass, set compass heading, compass declination, which way is north, orient a map with compass, compass at night, make a compass, compass near metal, north star navigation"
   },
   {
    "title": "Elevation and Relief (FM 3-25.26 Ch. 10)",
@@ -987,7 +976,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "contour lines, reading contour lines, elevation on a map, contour interval, how steep is a slope, percent slope, slope calculation, terrain features, hill saddle valley ridge, spur draw cliff, map terrain features, depression on map, finding high ground, elevation profile, how to read elevation on topo map, concave convex slope, land shape from map, topographic relief"
   },
   {
    "title": "Terrain Association (FM 3-25.26 Ch. 11)",
@@ -1028,8 +1018,8 @@
      ]
     },
     {
-     "heading": "11-1. ORIENTING THE MAP (part 2)",
-     "body": "{{img:0}}",
+     "heading": "11-2. LOCATIONS",
+     "body": "**11-1. ORIENTING THE MAP (part 2)**\n\n{{img:0}}\n\nThe key to success in land navigation is to know your location at all times. With this basic knowledge, you can decide what direction and what distance to travel.\n\na. Known Position. Most important of all is the initial location of the user before starting any movement in the field. If movement takes place without establishing the initial location, everything that is done in the field from there on is a gamble. Determine the initial location by referring to the last known position, by grid coordinates and terrain association, or by locating and orienting your position on the map and ground.",
      "images": [
       {
        "asset": "assets/packs/images/navigation--07-terrain--fig-11-6.webp",
@@ -1037,10 +1027,6 @@
        "kind": "figure"
       }
      ]
-    },
-    {
-     "heading": "11-2. LOCATIONS",
-     "body": "The key to success in land navigation is to know your location at all times. With this basic knowledge, you can decide what direction and what distance to travel.\n\na. Known Position. Most important of all is the initial location of the user before starting any movement in the field. If movement takes place without establishing the initial location, everything that is done in the field from there on is a gamble. Determine the initial location by referring to the last known position, by grid coordinates and terrain association, or by locating and orienting your position on the map and ground."
     },
     {
      "heading": "b. Known Point/Known Distance (Polar Plot). This location can be determined by",
@@ -1117,7 +1103,8 @@
      "body": "Darkness presents its own characteristics for land navigation because of limited or no visibility. However, the techniques and principles are the same as that used for day navigation. The success in nighttime land navigation depends on rehearsals during the planning phase before the movement, such as detailed analysis of the map to determine the type of terrain in which the navigation is going to take place and the predetermination of azimuths and distances. Night vision devices (Appendix H) can greatly enhance night navigation.\n\na. The basic technique used for nighttime land navigation is dead reckoning with several compasses recommended. The point man is in front of the navigator but just a few steps away for easy control of the azimuth. Smaller steps are taken during night navigation, so remember, the pace count is different. It is recommended that a pace count obtained by using a predetermined 100-meter pace course be used at night.\n\nb. Navigation using the stars is recommended in some areas; however, a thorough knowledge of constellations and location of stars is needed (paragraph 9-5c). The four cardinal directions can also be obtained at night by using the same technique described for the shadow-tip method. Just use the moon instead of the sun. In this case, the moon has to be bright enough to cast a shadow."
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "orient a map, match map to terrain, where am I on the map, finding your location, navigating by landmarks, terrain association, hills and valleys on map, choosing a route, navigating at night, map and compass basics, navigating without GPS, reading the land, resection with compass, picking a path through terrain, lost figure out position, use terrain to navigate, night navigation tips"
   },
   {
    "title": "Navigating Desert, Mountain, Jungle and Arctic Terrain (FM 3-25.26 Ch. 13)",
@@ -1192,7 +1179,8 @@
      "body": "operating in a built-up area, work hard to develop an understanding (mental map) of the entire area. This advantage will allow you to navigate over multiple routes to any location.\n\nIt will also preclude your getting lost whenever you miss a turn or are forced off the planned route by obstacles or the tactical situation.\n\n(3) Resection. Whenever you have a vantage point to two or more known features portrayed on the map, do not hesitate to use either estimated or plotted resection to pinpoint your position. These opportunities are often plentiful in an urban setting."
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "navigating in the desert, desert navigation, navigating in mountains, jungle navigation, arctic navigation, finding your way in snow, navigating in a city, navigating without landmarks, how far can you see in jungle, compass in mountains, navigation in whiteout, desert distance estimation, urban navigation, navigating different terrain, mirage in desert, city street navigation"
   },
   {
    "title": "Orienteering (FM 3-25.26 App. F)",
@@ -1287,11 +1275,7 @@
     },
     {
      "heading": "F-8. CONTROL POINT GUIDELINES",
-     "body": "When the control point is marked on the map as well as on the ground, the description of that point is prefaced by the definite article the; for example, the pond. When the control point is marked on the ground but is not shown on the map, then the description of the point is prefaced by the indefinite article a; for example, a trail junction. In this case, care must be taken to ensure that no similar control exists within at least 25 meters. If it does, then either the control must not be used or it must be specified by a directional note in parentheses; for example, a depression (northern). Other guidelines include:\n\na. Points of the compass are denoted by capital letters; for example, S, E, SE. b. Control points within 100 meters of each other or different courses are not to be on\n\nthe same features or on features of the same description or similar character.\n\nc. For large (up to 75 meters across) features or features that are not possible to see across, the position of the control marker on the control point should be given in the instructions. For example, the east side of the pond; the north side of the building.\n\nIf a very large (100 to 200 meters) feature is used, the control marker should be\n\nvisible from most directions from at least 25 meters.\n\nIf a control point is near but not on a conspicuous feature, this fact and the location of the marker should be clearly given; for example, 10 meters E of the junction. Avoid this kind of control point.\n\nf. Use trees in control descriptions only if they are prominent and a totally different\n\nspecies from those surrounding. Never use bushes and fauna as control points.\n\ng. Number control points in red on the master map. h. For cross-country events, join all control points by a red line indicating the course's\n\nshape."
-    },
-    {
-     "heading": "F-9. MAP SYMBOLS",
-     "body": "The map symbols in Figure F-9 are typical topographic and cultural symbols that can be selected for orienteering control points. The map cutouts have been selected from DMA maps.\n\n{{img:0}}\n\n{{img:1}}\n\n{{img:2}}\n\n{{img:3}}\n\n{{img:4}}\n\n{{img:5}}\n\n{{img:6}}\n\n{{img:7}}\n\n{{img:8}}",
+     "body": "When the control point is marked on the map as well as on the ground, the description of that point is prefaced by the definite article the; for example, the pond. When the control point is marked on the ground but is not shown on the map, then the description of the point is prefaced by the indefinite article a; for example, a trail junction. In this case, care must be taken to ensure that no similar control exists within at least 25 meters. If it does, then either the control must not be used or it must be specified by a directional note in parentheses; for example, a depression (northern). Other guidelines include:\n\na. Points of the compass are denoted by capital letters; for example, S, E, SE. b. Control points within 100 meters of each other or different courses are not to be on\n\nthe same features or on features of the same description or similar character.\n\nc. For large (up to 75 meters across) features or features that are not possible to see across, the position of the control marker on the control point should be given in the instructions. For example, the east side of the pond; the north side of the building.\n\nIf a very large (100 to 200 meters) feature is used, the control marker should be\n\nvisible from most directions from at least 25 meters.\n\nIf a control point is near but not on a conspicuous feature, this fact and the location of the marker should be clearly given; for example, 10 meters E of the junction. Avoid this kind of control point.\n\nf. Use trees in control descriptions only if they are prominent and a totally different\n\nspecies from those surrounding. Never use bushes and fauna as control points.\n\ng. Number control points in red on the master map. h. For cross-country events, join all control points by a red line indicating the course's\n\nshape.\n\n**F-9. MAP SYMBOLS**\n\nThe map symbols in Figure F-9 are typical topographic and cultural symbols that can be selected for orienteering control points. The map cutouts have been selected from DMA maps.\n\n{{img:0}}\n\n{{img:1}}\n\n{{img:2}}\n\n{{img:3}}\n\n{{img:4}}\n\n{{img:5}}\n\n{{img:6}}\n\n{{img:7}}\n\n{{img:8}}",
      "images": [
       {
        "asset": "assets/packs/images/navigation--09-orienteering--fig-f-9.webp",
@@ -1356,7 +1340,8 @@
      "body": "Civilian orienteering is conducted under the guidelines of the United States Orienteering Federation with at least 70 clubs currently affiliated. Although civilian orienteering is a form of land navigation, the terms, symbols, and techniques are different from the military.\n\na. An expert military map reader/land navigator is by no means ready to compete in a civilian orienteering event. However, military experience in navigating on the ground and reading maps will help individuals to become good orienteers. Several orienteering practices and complete familiarization with the map symbols and terms before participating in a real orienteering event is recommended.\n\n(1) Map. The standard orienteering map is a very detailed, 1:15,000-scale, colored topographical map. All orienteering maps contain only north-south lines that are\n\nmagnetically drawn; this eliminates any declination conversions. Because of the absence of horizontal lines, grid coordinates cannot be plotted and therefore are not needed.\n\n(2) Symbols (Legend). Despite standard orienteering symbols, the legend in orienteering maps has a tendency to change from map to map. A simple way to overcome this problem is to get familiar with the legend every time that a different map is used.\n\n(3) Scale. The scale of orienteering maps is 1:15,000. This requires an immediate adjustment for the military land navigator, especially while moving from point to point. It takes a while for a person that commonly uses a 1:50,000 scale to get used to the orienteering map.\n\n(4) Contours. The normal contour interval in an orienteering map is 5 meters. This interval, combined with the scale, makes the orienteering maps so meticulously detailed that a 1-meter boulder, a 3-meter shallow ditch, or a 1-meter depression will show on the map.\n\nThis may initially shock a new orienteer.\n\n(5) Terms and Description of Clues. The names of landforms are different from those commonly known to the military. For example, a valley or a draw is known as a reentrant; an intermittent stream is known as a dry ditch. These terms, with a description of clues indicating the position and location of the control points, are used instead of grid coordinates.\n\nb. The characteristics of the map, the absence of grid coordinates, the description of clues, and the methods used in finding the control points are what make civilian orienteering different from military land navigation."
     }
    ],
-   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf"
+   "sourceUrl": "https://archive.org/download/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+   "aliases": "orienteering basics, orienteering course, map and compass sport, orienteering map symbols, control points, orienteering techniques, finding checkpoints with map, how to set up an orienteering course, practice land navigation, orienteering for beginners, attack point handrail, pace counting navigation, thumbing the map, land nav practice, orienteering club, teach kids map and compass"
   }
  ]
 }

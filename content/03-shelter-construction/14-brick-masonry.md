@@ -1,5 +1,6 @@
 # Brick and Tile Masonry (TM 3-34.44 Ch. 9)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN33491-TM_3-34.44-001-WEB-3.pdf
+Aliases: how to lay brick, bricklaying basics, mortar mix for brick, brick wall how to build, brick bond patterns, laying footings for brick wall, corner leads, how to cut a brick, mortar joints finishing, tuckpointing, repointing brick, brick sizes, types of brick, building a brick wall, brick chimney, brick arch, brick veneer, masonry tools, mortar joint types, brick wall repair, clay tile masonry, laying brick in cold weather, brick fire resistance
 
 ## Brick and Tile Masonry
 **Chapter 9**

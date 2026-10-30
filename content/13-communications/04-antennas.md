@@ -1,5 +1,6 @@
 # Antennas and RF Safety (TC 9-64 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc9_64.pdf
+Aliases: how do antennas work, make a radio antenna, dipole antenna, antenna length for frequency, half wave antenna, quarter wave antenna, antenna polarization vertical horizontal, rf burns, antenna safety climbing, improve radio range antenna, directional antenna, yagi antenna, antenna radiation pattern, ground plane antenna, feeding an antenna coax, folded dipole, antenna arrays, rf exposure danger, build antenna from wire, antenna gain, antenna too close danger, longer antenna better range
 
 ## Antennas
 **Chapter 4**

@@ -4,7 +4,7 @@
  "id": "cold-weather",
  "title": "Cold Weather & Arctic Environments",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Army (ATP 3-90.96) and National Weather Service (NOAA)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Extreme cold, frostbite and hypothermia, arctic climates, snow, ice, avalanches, permafrost, weather (wind, white out, ice fog), wildlife and insects, and cold-weather hazards to people and equipment. The windchill and frostbite-time tables are not included.",
@@ -19,7 +19,8 @@
      "body": "Extremely cold air comes every winter into at least part of the country and affects millions of people across the United States. The arctic air can be dangerous. Combined with brisk winds, dangerously cold wind chill values can result. People exposed to extreme cold are susceptible to frostbite and can succumb to hypothermia in a matter of minutes. Areas most prone to frostbite are uncovered skin and the extremities, such as hands and feet. Hypothermia occurs when the body loses heat faster than it can produce it.\n\nCold weather can also affect crops. In late spring or early fall, cold air outbreaks can damage or kill produce for farmers, as well as residential plants and flowers. A freeze occurs when the temperature drops below 32°F. Freezes and their effects are significant during the growing season. Frost develops on clear, calm nights and can occur when the air temperature is in the mid-30s. Each plant species has a different tolerance to cold temperatures. You may also want to check out our winter safety site for snow and more cold season hazards information.\n\nRead our real-life stories from extreme cold survivors."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/cold"
+   "sourceUrl": "https://www.weather.gov/safety/cold",
+   "aliases": "extreme cold warning, dangerously cold weather, wind chill, how cold is too cold, cold weather safety, staying warm in extreme cold, frostbite how fast, cold weather advisory, protect from cold, extreme cold what to do, dress for extreme cold, cold warning, wind chill frostbite minutes, subzero temperatures, cold weather pets, cold weather car, exposed skin freezing time"
   },
   {
    "title": "What to Do During Extreme Cold: Frostbite and Hypothermia (NWS)",
@@ -45,7 +46,8 @@
      "body": "- Wear layers of loose-fitting, lightweight, warm clothing as well as hats, mittens, and blankets.\n- Close blinds or curtains to keep in some heat.\n- Close off rooms to avoid wasting heat.\n- Place towels or rags in cracks under doors.\n- Practice portable generator safety: use outdoors, at least 20 feet away from doors/windows/garages to avoid carbon monoxide poisoning. Follow instructions on proper use.\n- Once your family is safe, check on your neighbors and the vulnerable to make sure they are okay."
     }
    ],
-   "sourceUrl": "https://www.weather.gov/safety/cold-during"
+   "sourceUrl": "https://www.weather.gov/safety/cold-during",
+   "aliases": "frostbite, frostbite signs, frostbite first aid, numb fingers toes cold, white waxy skin cold, how to warm frostbite, dont rub frostbite, hypothermia, hypothermia signs, shivering confusion cold, warm someone up hypothermia, extreme cold what to do, cold weather power outage, heat without power winter, staying warm no heat, cold snap safety, windchill danger, cold weather tips, frostbite vs hypothermia, winter storm safety"
   },
   {
    "title": "Arctic Climates, Snow, Ice and Terrain (ATP 3-90.96 Ch. 1)",
@@ -100,19 +102,11 @@
     },
     {
      "heading": "Wet",
-     "body": "**Name**\n\n**Volume**\n\n**Description**\n\n**Dry**\n\n**Moist**\n\n0 percent water content by volume\n\nTemperature is usually below 32 °F. Snow grains have little ability to adhere to one another when compressed. It is difficult to make a snowball.\n\nless than 3 percent water content by volume\n\nTemperatures are typically near 32 °F. Snow tends to stick together when compressed, but liquid water is not visible even with a hand lens.\n\n3 to 8 percent water content by volume\n\nSnow temperature is 32 °F. This snow adheres well with moderate pressure and is the perfect snow for making snowballs."
-    },
-    {
-     "heading": "Very wet",
-     "body": "8 to 15 percent water content by volume\n\nWater can be squeezed out with moderate pressure, but the snow matrix still contains a considerable amount of air."
+     "body": "**Name**\n\n**Volume**\n\n**Description**\n\n**Dry**\n\n**Moist**\n\n0 percent water content by volume\n\nTemperature is usually below 32 °F. Snow grains have little ability to adhere to one another when compressed. It is difficult to make a snowball.\n\nless than 3 percent water content by volume\n\nTemperatures are typically near 32 °F. Snow tends to stick together when compressed, but liquid water is not visible even with a hand lens.\n\n3 to 8 percent water content by volume\n\nSnow temperature is 32 °F. This snow adheres well with moderate pressure and is the perfect snow for making snowballs.\n\n**Very wet**\n\n8 to 15 percent water content by volume\n\nWater can be squeezed out with moderate pressure, but the snow matrix still contains a considerable amount of air."
     },
     {
      "heading": "Slush",
-     "body": "more than 15 percent water content by volume\n\nThe snow is saturated with water and contains only isolated air bubbles. Cohesion is minimal and actually increases as water is pressed out. Water drips freely from sample.\n\n1-37. There are five categories of snow density (very soft, soft, medium, hard, and very hard). Density can be calculated from a weighed sample of known volume, or by electrical methods. However, the hand hardness test explained below provides quick means to estimate snow density. See Table 1-2 for snow density. For more information on the effects of snow depth and density on mobility, see Appendix B.\n\n[Table 1-2. Snow density — table layout not preserved; verify values against the original document]"
-    },
-    {
-     "heading": "Very Soft",
-     "body": "**Name**\n\n**Durability**\n\n**Trafficability**\n\nSnow can be broken with a fist.\n\nLow resistance and more trafficable as long as the snow depth does not exceed vehicle limitations."
+     "body": "more than 15 percent water content by volume\n\nThe snow is saturated with water and contains only isolated air bubbles. Cohesion is minimal and actually increases as water is pressed out. Water drips freely from sample.\n\n1-37. There are five categories of snow density (very soft, soft, medium, hard, and very hard). Density can be calculated from a weighed sample of known volume, or by electrical methods. However, the hand hardness test explained below provides quick means to estimate snow density. See Table 1-2 for snow density. For more information on the effects of snow depth and density on mobility, see Appendix B.\n\n[Table 1-2. Snow density — table layout not preserved; verify values against the original document]\n\n**Very Soft**\n\n**Name**\n\n**Durability**\n\n**Trafficability**\n\nSnow can be broken with a fist.\n\nLow resistance and more trafficable as long as the snow depth does not exceed vehicle limitations."
     },
     {
      "heading": "Hard",
@@ -184,11 +178,7 @@
     },
     {
      "heading": "Eskers",
-     "body": "[Figure 1-19. Pingo — diagram not included]\n\n1-71. An esker is a long, winding ridge formed after glaciers recede (see Figure 1-20 for an esker). Eskers can hinder mobility but offer cover and concealment. They are usually tall enough to give an advantage, but short enough to not be shown by the contour interval on a 1:50,000 map. The sides are generally quite steep, and the sand and gravel can create problems for tanks and similar vehicles. The tops are typically the easiest area to travel. Roads through these areas are mostly built on top of eskers. The lands around them often have many small kettle lakes that can range in size from a half-acre up to several acres. These areas can be fantastic areas for a deliberate defense if they are oriented in the correct direction.\n\n[Figure 1-20. Esker — diagram not included]"
-    },
-    {
-     "heading": "WATER CHARACTERISTICS",
-     "body": "1-72. Water features are a major consideration in the Arctic that can constitute either an obstacle or an aid to movement. Water features are separated into two categories:\n\nSaltwater.\n\nFreshwater."
+     "body": "[Figure 1-19. Pingo — diagram not included]\n\n1-71. An esker is a long, winding ridge formed after glaciers recede (see Figure 1-20 for an esker). Eskers can hinder mobility but offer cover and concealment. They are usually tall enough to give an advantage, but short enough to not be shown by the contour interval on a 1:50,000 map. The sides are generally quite steep, and the sand and gravel can create problems for tanks and similar vehicles. The tops are typically the easiest area to travel. Roads through these areas are mostly built on top of eskers. The lands around them often have many small kettle lakes that can range in size from a half-acre up to several acres. These areas can be fantastic areas for a deliberate defense if they are oriented in the correct direction.\n\n[Figure 1-20. Esker — diagram not included]\n\n**WATER CHARACTERISTICS**\n\n1-72. Water features are a major consideration in the Arctic that can constitute either an obstacle or an aid to movement. Water features are separated into two categories:\n\nSaltwater.\n\nFreshwater."
     },
     {
      "heading": "Saltwater",
@@ -211,7 +201,8 @@
      "body": "1-84. Navigation in the Arctic is difficult because of unique space and cyberspace domain considerations.\n\nSolar weather, limited satellite coverage, or enemy actions can frequently disable navigation technology in the Arctic. Because of this, Soldiers/Marines must be well versed in the fundamentals of navigation with compass, maps, pace count, and odometer readings.\n\n1-85. Compass navigation challenges troops in the Arctic. The declination of true north and magnetic north is significantly increased, making the margin of error much higher. Above 84°N, Soldiers and Marines must use universal polar stereograph maps instead of universal transverse Mercator maps. Magnetic storms can affect compass readings. Significant ferrous metal deposits can also skew compass readings. Pace count changes at different depths of snow or muskeg and can lead to miscalculations. The combined effect of these challenges can lead units far off their intended destination. This is especially true in the tundra, where few distinguishable terrain features exist."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf",
+   "aliases": "arctic conditions, deep snow travel, ice thickness safe, walking on ice, frozen lake safe, permafrost ground, avalanche terrain, tundra travel, overflow ice, glacier crevasse, muskeg bog, slush snow, snow types, sea ice, arctic weather, cold region terrain, snow drifts, frost heaves, thaw weakened ground, crossing frozen river, how thick ice to walk, subarctic conditions, boreal forest"
   },
   {
    "title": "Arctic Weather: Temperature, Wind, Light and Precipitation (ATP 3-90.96 Ch. 1)",
@@ -341,7 +332,8 @@
      "body": "1-146. In the Arctic, solar weather causes spacecraft charging and electromagnetic interference with satellites and cyberspace capabilities. This interference results from higher levels of energetic charged particles during geomagnetic and ionospheric storms. Units operating in the Arctic must be prepared and create contingencies to account for frequent disruptions in communication, tracking, navigation, and surveillance.\n\n1-147. The aurora borealis is caused by charged particles produced by a solar storm. The charged particles are trapped by the magnetosphere, diverted into the ionosphere, and drawn towards the poles along magnetic field lines. These charged particles create a light show in the sky and are most visible on cold clear nights (as seen in Figure 1-29). The aurora borealis occurs throughout the year. The aurora borealis signals the presence of a solar storm that can seriously degrade radio communications, satellite communications (SATCOM), and Global Positioning System (GPS) signals. Solar storms disrupt amplitude modulation communications but enhances frequency modulation communications."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf",
+   "aliases": "wind chill, how cold is too cold, whiteout conditions, blizzard conditions, ground blizzard, freezing rain, snow blindness, flat light, cold temperature zones, arctic weather, ice fog, temperature inversion, chinook wind, extreme cold, how wind makes cold worse, sunburn in snow, winter weather dangers, polar weather, ice on gear"
   },
   {
    "title": "Seasons, Wildlife and Environmental Hazards (ATP 3-90.96 Ch. 1)",
@@ -352,11 +344,7 @@
     },
     {
      "heading": "Fall (Freeze)",
-     "body": "**Season**\n\n**Light**\n\n**Winter**\n\n**Spring (Thaw or Break Up)**\n\n**Summer**\n\n24-hours of darkness during December 21\n\nDays begin to trend towards light\n\n24 hours of daylight during June 21\n\nDarkness occurs most of the day\n\n[Table 1-7. Season chart — table layout not preserved; verify values against the original document]"
-    },
-    {
-     "heading": "Temperature Zone",
-     "body": "Dry-cold or colder"
+     "body": "**Season**\n\n**Light**\n\n**Winter**\n\n**Spring (Thaw or Break Up)**\n\n**Summer**\n\n24-hours of darkness during December 21\n\nDays begin to trend towards light\n\n24 hours of daylight during June 21\n\nDarkness occurs most of the day\n\n[Table 1-7. Season chart — table layout not preserved; verify values against the original document]\n\n**Temperature Zone**\n\nDry-cold or colder"
     },
     {
      "heading": "Ice Condition",
@@ -435,7 +423,8 @@
      "body": "1-179. In the Arctic, basic operational principles still apply. However, success requires significant adjustments for the extreme environment. Adjustments are made—\n\n- Across all domains (land, sea, air, space, and cyberspace).\n\nThrough all dimensions (physical, information, and human).\n\nIn every warfighting function maneuver/maneuver, intelligence, fires, sustainment/logistics, and protection/force protection).\n\n(information, command and control, movement and\n\nOperations in the Arctic are simply more difficult. The remainder of this manual discusses the full depth of effects the arctic environment has on operations."
     }
    ],
-   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf"
+   "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf",
+   "aliases": "arctic seasons, cold region wildlife, bears in arctic, mosquitoes in arctic, black flies, dangerous animals cold regions, ice conditions, freeze up, breakup season, cold effects on body, cold weather mental effects, cold effects on equipment, fuel in extreme cold, frozen condensation gear, cold climate hazards, arctic bugs, polar bears, biting flies, sand fly deer fly bites, batteries die in cold, when is ice safe, arctic summer bugs"
   }
  ]
 }

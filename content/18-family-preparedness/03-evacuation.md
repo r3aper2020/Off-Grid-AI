@@ -1,5 +1,6 @@
 # Evacuation
 Source: https://www.ready.gov/evacuation
+Aliases: evacuation, evacuate or stay, when to evacuate, evacuation order, mandatory evacuation, what to bring when evacuating, evacuation checklist, evacuation routes, where to go in evacuation, evacuation plan family, evacuation with pets, go bag, bug out bag, leave the house in a hurry, after evacuation return home, evacuation zones, know your risks, evacuation information sources, prepare car to evacuate, shelter in place vs evacuate, fuel for evacuation
 
 ## Be in the Know
 We have all heard that knowledge is power. In an emergency, it can be lifesaving. This is why we are encouraging everyone to “Be in the Know” to evacuate safely.

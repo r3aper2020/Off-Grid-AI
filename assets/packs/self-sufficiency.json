@@ -4,7 +4,7 @@
  "id": "self-sufficiency",
  "title": "Home & Farmstead: Waste, Rats, Plumbing (USDA)",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Department of Agriculture",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Keeping rats out of homes, barns and food stores; septic tanks, privies and chemical toilets; disposing of garbage and trash by burning, burial and composting when collection stops; and fixing faucets, leaks, frozen pipes, toilets and clogged drains. Superseded bulletins from 1930–1972: methods are practical, but materials, codes and some advice (such as open burning) are dated — check local rules and current guidance.",
@@ -83,7 +83,8 @@
      "body": "Consideration should also be given to the sewer system. Although most modern sewers do not offer opportunity for the unrestricted breeding of rats, there are many still in use that furnish harbors for large numbers of these pests in sections of some cities. Of most importance is the corner catch basin, storm sewer, or street-drainage opening, which should be effectively remodeled, if necessary, to provide smooth interior vertical walls with a drop of at least 3 feet; rats are unable to jump 3 feet vertically or to climb smooth surfaces.\n\nAnother place that should receive attention is the city dumping ground, which frequently serves as an incubator for rats, and these soon overflow into near-by sections of the city. A study should be made of methods of disposing of waste materials and a system put into effect that will meet the requirements of the city and insure the destruction, removal, or adequate covering of all such food for rats. Any other conditions that may be found favorable for the breeding of rats, whether on public or on private property, should be declared a public nuisance and ordered corrected."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/62608"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/62608",
+   "aliases": "keep rats out, rat proof house, rats in barn, rats in chicken coop, rat proof grain storage, rodent proofing, block rat entry, rats in walls, rats eating feed, mice and rats in garage, rat proof foundation, rat proof corncrib, rodent control barn, seal holes rats, rats in warehouse, rat control city, prevent rats, rats under floor, rat proof building materials, how small hole can rat fit"
   },
   {
    "title": "Sewage and Garbage Disposal: Septic Tanks, Privies and Trash (USDA Farmers' Bulletin 1950, 1946)",
@@ -193,7 +194,8 @@
      "body": "Ashes and clinkers removed from furnaces should be placed in metal containers to eliminate fire hazard. Wood ashes may be spread on the lawn or garden, as they have some fertilizing value.\n\n[Illustration: Figure 16.--A satisfactory incinerator for household use. — not included]\n\n[Illustration: Figure 17.--Details of construction of the household incinerator pictured in figure 16. — not included]\n\nTrash burners of various designs suitable for burning small quantities of paper and rags are available or may be improvised. The main requirements are provision for adequate draft and for preventing the escape of burning paper or live embers."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/62605"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/62605",
+   "aliases": "septic tank, how a septic tank works, build a septic tank, concrete septic tank, septic drain field, septic tank maintenance, septic tank problems, septic tank freezing, grease trap, cesspool, outhouse, privy, how to build an outhouse, pit toilet, chemical toilet, composting toilet alternative, garbage disposal no service, burning trash, burying garbage, sewage disposal rural, protect well from sewage, drain cleaner septic, wastewater without sewer, no sewer system, septic site selection"
   },
   {
    "title": "Simple Plumbing Repairs for the Home and Farmstead (USDA Farmers' Bulletin 2202, 1972)",
@@ -243,7 +245,8 @@
      "body": "Grouped below are emergencies that may occur and the action to take. The name, address, and phone number of a plumber who offers 24-hour service should be posted in a conspicuous place.\n\nBurst pipe or tank.--Immediately cut off the flow of water by closing the shutoff valve nearest to the break. Then arrange for repair.\n\nWater closet overflow.--Do not use water closet until back in working order. Check for and remove stoppage in closet bowl outlet, drain line from closet to sewer, or sewer or septic tank. If stoppage is due to root entry into pipe, repair of pipe at that point is recommended.\n\nRumbling noise in hot water tank.--This is likely a sign of overheating which could lead to the development of explosive pressure (Another indication of overheating is hot water backing up in the cold-water supply pipe.) Cut off the burner immediately. Be sure that the pressure-relief valve is operative. Then check (with a thermometer) the temperature of the water at the nearest outlet. If above that for which the gage is set, check the thermostat that controls burner cutoff. If you cannot correct the trouble, call a plumber.\n\nCold house.--If the heating system fails (or if you close the house and turn off the heat) when there is a chance of subfreezing weather, completely drain the plumbing system. A drain valve is usually provided at the low point of the water supply piping for this purpose. A pump, storage tank, hot-water tank, water closet tank, water-treatment apparatus, and other water-system appliances or accessories should also be drained. Put antifreeze in all fixture and drain traps.\n\nHot-water and steam heating systems should also be drained when the house temperature may drop below freezing."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/59381"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/59381",
+   "aliases": "fix a leaky faucet, dripping faucet, leaking pipe, frozen pipes, thaw pipes, toilet keeps running, toilet repair, clogged drain, unclog a drain, water hammer, banging pipes, frostproof hydrant, pipe leak patch, toilet wont flush, plumbing tools, plumbing emergency, shut off water, leaking tank, plumbing spare parts, burst pipe what to do"
   }
  ]
 }

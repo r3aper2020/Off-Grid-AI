@@ -1,5 +1,6 @@
 # Get Tech Ready (Ready.gov)
 Source: https://www.ready.gov/get-tech-ready
+Aliases: charge phone in emergency, phone during disaster, backup phone battery, emergency alerts on phone, text instead of call, phone battery saving, digital copies of documents, cloud backup important files, social media in emergency, emergency contacts in phone, tech preparedness, car charger for phone, wireless emergency alerts, phone in power outage, keep phone charged, power bank for emergencies
 
 ## Overview
 Technology has made it easier than ever to prepare for emergencies, but it can be unreliable in an emergency if you haven’t kept your gadgets protected and powered up. Here are some tips to make sure you are tech ready:

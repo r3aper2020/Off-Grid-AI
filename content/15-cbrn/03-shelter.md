@@ -1,5 +1,6 @@
 # Fallout Shelter, Ventilation and Cooling (NWSS Ch. 5–6)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: fallout shelter how to build, nuclear shelter at home, basement fallout shelter, dirt shielding radiation, expedient shelter, trench shelter, shelter ventilation pump, kearny air pump, shelter too hot, radiation shielding materials, how thick dirt stops radiation, nuclear war shelter, protect from fallout, blast shelter, where to shelter nuclear attack, shelter air supply, cooling a shelter, underground shelter, build shelter in 2 days, car as fallout shelter, how much shielding is enough
 
 ## Chapter 5 Shelter, the Greatest Need: ADEQUATE SHELTER
 **Chapter 5 Shelter, the Greatest Need**

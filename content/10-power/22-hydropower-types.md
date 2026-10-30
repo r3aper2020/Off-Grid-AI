@@ -1,5 +1,6 @@
 # Types and Sizes of Hydropower Plants, Including Micro Hydropower (DOE)
 Source: https://www.energy.gov/cmei/water/types-hydropower-plants
+Aliases: hydropower, micro hydro, small hydro power, make electricity from a stream, water wheel electricity, creek power generation, hydro power at home, run of river hydro, types of hydropower, dam power, pumped storage, hydroelectric sizes, pico hydro, off grid hydro, generating power from water
 
 ## Overview
 There are three types of hydropower facilities: impoundment, diversion, and pumped storage. Some hydropower plants use dams and some do not.

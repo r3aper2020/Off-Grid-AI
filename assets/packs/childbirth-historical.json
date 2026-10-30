@@ -4,7 +4,7 @@
  "id": "childbirth-historical",
  "title": "Emergency Childbirth (1970, Historical)",
  "category": "medical",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Office of Civil Defense and Public Health Service (via Project Gutenberg #26923)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "A 1970 civil-defense guide to delivering a baby without medical help (fallout-shelter setting). Historical: written for 1960s conditions; some practices are outdated — get trained medical help whenever possible.",
@@ -67,7 +67,8 @@
      "body": "In emergency situations, identification will be particularly important, especially if the birth should take place in a group shelter rather than a family shelter, or in an evacuation situation.\n\nTwo wide strips of adhesive tape will be needed--one long enough to go around the mother's wrist, and the other long enough to go around the baby's ankle. Information should be written on these strips as shown below.\n\n[Illustration: For mother--Write parents' names, blood types, and mother's Rh factor, street address, and whether it is a first or later child. — not included]\n\n[Illustration: For baby--Write date and hour of birth and parents' names and address. — not included]"
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/26923"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/26923",
+   "aliases": "delivering a baby at home, baby coming no doctor, how to deliver a baby, wife in labor no hospital, emergency birth, stages of labor, water broke what now, contractions how far apart, when to push, cutting the umbilical cord, tying the cord, delivering the placenta, the afterbirth, bleeding after birth, miscarriage what to do, home birth kit, childbirth supplies list, newborn not breathing, breech baby, cord around neck, baby born in car"
   }
  ]
 }

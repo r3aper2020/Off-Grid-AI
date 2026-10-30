@@ -96,11 +96,23 @@ class DocumentData {
     required this.title,
     required this.sourceUrl,
     required this.sections,
+    this.aliases = '',
+    this.libraryOnly = false,
   });
 
   final String title;
   final String? sourceUrl;
   final List<SectionData> sections;
+
+  /// Plain-language phrasings of what the document answers ("bug out
+  /// bag, go bag, 72 hour kit"). Indexed for search, never shown: the
+  /// verbatim text stays verbatim, this only bridges vocabulary.
+  final String aliases;
+
+  /// Readable and searchable in the Library but never given to the model
+  /// (regulation text, reference tables): true when the pack sets
+  /// `"libraryOnly": true`.
+  final bool libraryOnly;
 
   factory DocumentData._fromJson(Object? json) {
     final m = _map(json, 'document');
@@ -112,6 +124,8 @@ class DocumentData {
       title: _str(m, 'title'),
       sourceUrl: _optStr(m, 'sourceUrl'),
       sections: [for (final s in sections) SectionData._fromJson(s)],
+      aliases: _optStr(m, 'aliases') ?? '',
+      libraryOnly: m['libraryOnly'] == true,
     );
   }
 }

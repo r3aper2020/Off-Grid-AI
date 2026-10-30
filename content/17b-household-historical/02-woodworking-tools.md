@@ -1,5 +1,6 @@
 # Woodworking Hand Tools and Sharpening (I. S. Griffith, Essentials of Woodworking, 1908)
 Source: https://www.gutenberg.org/ebooks/71855
+Aliases: sharpen a chisel, sharpen a plane blade, saw filing, sharpen a hand saw, how to use a hand plane, hand tools woodworking, try square, marking gauge, how to use a brace and bit, plane a board flat, square up a board, crosscut vs rip saw, woodworking without power tools, hand saw technique, setting a plane iron, old woodworking tools, sharpen hand tools, framing square, plane a chamfer, drill holes by hand, boring tools, oilstone sharpening, measure and mark wood, hand plane not cutting
 
 ## Chapter I: Laying-out Tools--their Uses: 1. The Rule
 The foot rule is used as a unit of measurement in woodwork. The rule ordinarily used is called a two-foot rule because of its length. Such rules are hinged so as to fold once or twice and are usually made of boxwood or maple. The divisions along the outer edges, the edges opposite the center hinge, are inches, halves, fourths, eighths, and on one side sixteenths also. Fig. 1.

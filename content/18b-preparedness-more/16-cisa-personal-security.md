@@ -1,5 +1,6 @@
 # Personal Security Considerations: Home, Situational Awareness and Online Safety (CISA)
 Source: https://www.cisa.gov/sites/default/files/2025-03/personal-security-considerations-action-guide-critical-infrastructure-workers_06-07-2024_508.pdf
+Aliases: personal security, home security tips, protect my home, situational awareness, suspicious activity, someone following me, home invasion prevention, threatening phone calls, doxing what to do, online safety, social media privacy, phishing, keep my address private, pepper spray personal protection, confrontation what to do, rideshare safety, pedestrian safety, car safety travel, active shooter home, arson threat, protests near home, visitors at the door, being harassed, stalker safety, cyber security basics
 
 ## PERSONAL SECURITY
 CONSIDERATIONS ACTION GUIDE:

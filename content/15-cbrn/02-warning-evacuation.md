@@ -1,5 +1,6 @@
 # Psychology, Warnings and Evacuation (NWSS Ch. 2–4)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: nuclear war what to do, nuclear attack warning, sirens going off, should I evacuate nuclear, nuclear evacuation checklist, what to take when evacuating, fleeing the city before attack, evacuating by car, evacuating on foot, keeping radio working after nuke, EMP radio, staying calm in nuclear attack, hiroshima survivors, nuclear panic, high risk areas nuclear, nuclear war survival skills, quick blast shelter
 
 ## Chapter 2 Psychological Preparations: LEARNING WHAT TO EXPECT
 **Chapter 2 Psychological Preparations**

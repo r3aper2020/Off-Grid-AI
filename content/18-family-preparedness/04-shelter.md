@@ -1,5 +1,6 @@
 # Shelter
 Source: https://www.ready.gov/shelter
+Aliases: shelter in place, where to shelter, emergency shelter, stay home or evacuate, red cross shelter, going to a shelter, what to bring to shelter, sheltering at home, mass shelter, pets at shelter, staying put during disaster, shelter in place how long, seal the room, public shelter, shelter supplies
 
 ## Overview
 If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov, or call the FEMA Helpline at 1-800-621-3362.

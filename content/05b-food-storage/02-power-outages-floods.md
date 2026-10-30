@@ -1,5 +1,6 @@
 # Food and Water Safety During Power Outages and Floods (FDA)
 Source: https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods
+Aliases: power out how long is food good, fridge without power, freezer without power, food after power outage, is my food still safe, refrigerator temperature power outage, flooded food, canned food in flood water, throw out food after outage, 4 hours fridge, 48 hours freezer, dry ice fridge, food poisoning symptoms, water after flood, food in flood, power outage food list, refreezing thawed food, flooded kitchen
 
 ## Overview
 

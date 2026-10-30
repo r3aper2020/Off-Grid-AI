@@ -1,5 +1,6 @@
 # Expedient Blast Shelters (NWSS App. D)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: blast shelter, build a blast shelter, nuclear blast shelter DIY, expedient blast shelter, pole covered trench shelter, shelter from nuclear blast, blast door how to build, log shelter nuclear, earth covered shelter, dig a shelter in the yard, shelter against bombs, protect from blast wave, blast shelter entrance, shelter construction principles, how to build a bunker, bunker with logs, backyard bunker, shelter for nuclear war, underground shelter build
 
 ## Appendix D Expedient Blast Shelters: INCREASING IMPORTANCE
 **Appendix D Expedient Blast Shelters**

@@ -1,5 +1,6 @@
 # Anchors and Guy Lines (TM 3-34.86 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x86.pdf
+Aliases: anchoring a rope to the ground, ground anchors, picket holdfast, stakes for guy lines, deadman anchor, buried log anchor, guy lines, guy wires tension, how to anchor a tower or pole, anchor for winch, tree as anchor, rock anchor, holding a heavy load with stakes, guy line size, how many guy lines, anchoring a tent in wind, anchor strength, pulling a vehicle anchor point, tie down anchors, staking out a line
 
 ## Anchors and Guy Lines: SECTION I. ANCHORS
 **Chapter 4**

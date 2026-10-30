@@ -1,5 +1,6 @@
 # Power Outages: Facts for Kids (Ready.gov Kids)
 Source: https://www.ready.gov/kids/disaster-facts/power-outages
+Aliases: power outage for kids, explain blackout to kids, kids power outage, what to do when lights go out, flashlight for kids, power out activities, kids scared of dark outage, blackout basics, teaching kids about outages, power outage words, am I at risk outage, kids prepare for outage, after power comes back, power outage simple
 
 ## Overview
 Power outages can happen anywhere, anytime! They can be caused by storms, accidents, or even too many people using electricity at once. When the power goes out, lights, TVs, and even refrigerators stop working. Sometimes, power comes back quickly, but other times, it can take days. Knowing what to do before, during, and after a power outage can help keep you and your family safe—and even make it a little fun!

@@ -4,7 +4,7 @@
  "id": "household-historical",
  "title": "Blacksmithing, Woodworking, Sewing, Soap & Candles (Historical)",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "Project Gutenberg editions of Ilgen (1912), Griffith (1908), Watson (1907), Beecher (1873) and U.S. Department of Agriculture Farmers' Bulletins 896 (1917) and 1408 (1926)",
  "license": "Public domain (published in the U.S. before 1929; USDA bulletins are U.S. Government works)",
  "description": "Forge and anvil work, welding iron, hardening and tempering tool steel; hand woodworking tools, saw filing and sharpening chisels and plane irons; hand sewing, patching and darning; washing clothes by hand, making lye and soap; lamps and candle making; controlling flies, rats and mice. 100–150 years old: lye, kerosene, cyanide (casehardening), benzine, gasoline and chloroform are handled in ways now considered unsafe — use modern safety precautions and never follow old chemical advice blindly.",
@@ -36,15 +36,7 @@
     },
     {
      "heading": "6. The ball peen hammer",
-     "body": "(A, Fig. 6), sometimes called a machinist’s hammer, is very conveniently shaped for forging, as the ball end is handy for drawing out points of scarfs or smoothing concave surfaces. A suitable weight of this kind of hammer is one and a half pounds, but lighter ones can be used to good advantage for fastening small rivets."
-    },
-    {
-     "heading": "7. The cross peen hammer",
-     "body": "(B, Fig. 6) is one of the older styles and is mostly employed in rough, heavy work or for spreading metal."
-    },
-    {
-     "heading": "8. The straight peen hammer",
-     "body": "(C, Fig. 6) is shaped similarly to the ball peen hammer, except that the peen is flattened straight with the eye. It is convenient for drawing metal lengthwise rapidly."
+     "body": "(A, Fig. 6), sometimes called a machinist’s hammer, is very conveniently shaped for forging, as the ball end is handy for drawing out points of scarfs or smoothing concave surfaces. A suitable weight of this kind of hammer is one and a half pounds, but lighter ones can be used to good advantage for fastening small rivets.\n\n**7. The cross peen hammer**\n\n(B, Fig. 6) is one of the older styles and is mostly employed in rough, heavy work or for spreading metal.\n\n**8. The straight peen hammer**\n\n(C, Fig. 6) is shaped similarly to the ball peen hammer, except that the peen is flattened straight with the eye. It is convenient for drawing metal lengthwise rapidly."
     },
     {
      "heading": "9. The sledges",
@@ -56,27 +48,15 @@
     },
     {
      "heading": "11. The flat-jawed tongs",
-     "body": "are shown at A, Fig. 8. They are made in various sizes to hold different thicknesses of material. Tongs of this kind hold the work more securely if there is a groove lengthwise on the inside of the jaw; the full length of the jaw always should grip the iron.\n\n[Illustration: FIG. 8.—THE TONGS. A, flat-jawed tongs; B, hollow bit tongs; C, pick-up tongs; D, side tongs; E, chisel tongs; F, link tongs; G, tool or box tongs. — not included]"
-    },
-    {
-     "heading": "12. The hollow bit tongs",
-     "body": ", shown at B, Fig. 8, are very handy for holding round iron or octagonal steel. They can be used also for holding square material, in which case the depressions in the jaws should be V-shaped."
+     "body": "are shown at A, Fig. 8. They are made in various sizes to hold different thicknesses of material. Tongs of this kind hold the work more securely if there is a groove lengthwise on the inside of the jaw; the full length of the jaw always should grip the iron.\n\n[Illustration: FIG. 8.—THE TONGS. A, flat-jawed tongs; B, hollow bit tongs; C, pick-up tongs; D, side tongs; E, chisel tongs; F, link tongs; G, tool or box tongs. — not included]\n\n**12. The hollow bit tongs**\n\n, shown at B, Fig. 8, are very handy for holding round iron or octagonal steel. They can be used also for holding square material, in which case the depressions in the jaws should be V-shaped."
     },
     {
      "heading": "13. The pick-up tongs",
-     "body": "(C, Fig. 8) are useful for picking up large or small pieces, as the points of the jaws are fitted closely together, and the two circular openings back of the point will securely grip larger pieces when seized from the side."
-    },
-    {
-     "heading": "14. The side tongs",
-     "body": "(D, Fig. 8) are used for holding flat iron from the side. Tongs for holding round iron from the side can be made in this form with circular jaws."
+     "body": "(C, Fig. 8) are useful for picking up large or small pieces, as the points of the jaws are fitted closely together, and the two circular openings back of the point will securely grip larger pieces when seized from the side.\n\n**14. The side tongs**\n\n(D, Fig. 8) are used for holding flat iron from the side. Tongs for holding round iron from the side can be made in this form with circular jaws."
     },
     {
      "heading": "15. The chisel tongs",
-     "body": "are shown at E, Fig. 8. One or more pairs of these are necessary in all forge shops. As the hot and cold cutters frequently get dull or broken, it will be necessary to draw them out and retemper them; and, as the heads of these cutters become battered considerably, they are difficult to hold without chisel tongs. The two projecting lugs at the ends of the jaws fit into the eye, and the circular bows back of them surround the battered head of the cutter, so that it can be held without any difficulty."
-    },
-    {
-     "heading": "16. The link tongs",
-     "body": "(F, Fig. 8) are as essential as anything else required in making chains or rings of round material. They can be made to fit any size of stock."
+     "body": "are shown at E, Fig. 8. One or more pairs of these are necessary in all forge shops. As the hot and cold cutters frequently get dull or broken, it will be necessary to draw them out and retemper them; and, as the heads of these cutters become battered considerably, they are difficult to hold without chisel tongs. The two projecting lugs at the ends of the jaws fit into the eye, and the circular bows back of them surround the battered head of the cutter, so that it can be held without any difficulty.\n\n**16. The link tongs**\n\n(F, Fig. 8) are as essential as anything else required in making chains or rings of round material. They can be made to fit any size of stock."
     },
     {
      "heading": "17. The tool or box tongs",
@@ -168,15 +148,7 @@
     },
     {
      "heading": "39. The scriber or scratch awl",
-     "body": "(C, Fig. 20) is used in marking holes, sawing, chipping, or in laying out distances, which can afterward be marked with a center punch if required. It should be made of a good quality of steel, and the point should be well hardened so that it will cut through the surface scale of the metal. A suitable-sized steel for making a scriber is 3/16 inch round and the length over all about 6 inches."
-    },
-    {
-     "heading": "40. The square",
-     "body": "(D, Fig. 20) is another indispensable tool when accurate work is to be produced. Convenient sizes for manual training work are the 8 × 12-inch, with a 16 × 24-inch for general use."
-    },
-    {
-     "heading": "41. The bevel",
-     "body": "(E, Fig. 20) should be used when bending and laying out angles of various degrees. When metal is to be bent to a given angle, the pupil should set and use the bevel."
+     "body": "(C, Fig. 20) is used in marking holes, sawing, chipping, or in laying out distances, which can afterward be marked with a center punch if required. It should be made of a good quality of steel, and the point should be well hardened so that it will cut through the surface scale of the metal. A suitable-sized steel for making a scriber is 3/16 inch round and the length over all about 6 inches.\n\n**40. The square**\n\n(D, Fig. 20) is another indispensable tool when accurate work is to be produced. Convenient sizes for manual training work are the 8 × 12-inch, with a 16 × 24-inch for general use.\n\n**41. The bevel**\n\n(E, Fig. 20) should be used when bending and laying out angles of various degrees. When metal is to be bent to a given angle, the pupil should set and use the bevel."
     },
     {
      "heading": "42. The hack saw",
@@ -463,15 +435,12 @@
      "body": "D, Fig. 98, is generally called a ship-smith eye, because it is commonly used in ship work where strength is essential. Special swages, convex lengthwise, are usually provided for shaping the concave curves where they are formed and welded. The eye should be circular between the places indicated by f in sketch D, and the lines from f to where it is welded should be as nearly straight as possible, to increase the strength.\n\nIn estimating the material, take two thirds of the length for a ring of the required diameter, and add to that the proper allowance for the stock which forms the portion from f to the weld, and also an amount sufficient for the scarf. This scarf is drawn similar to the one for the welded eye in Fig. 96, but it should be made convex through its smallest dimension with a top fuller, whose diameter is equal to that of the metal. This is done while the metal is held in a bottom swage of corresponding size. When the scarf is finished, bend the eye into shape and bring the scarf close up to the stem of the eye.\n\nHeat and weld with swages; if convex swages are not obtainable, others may be used by taking care to prevent marring the curves. This eye may also be welded with a large fuller while it is held over the horn of the anvil. If the curves are severely marred, the strength of the eye is lessened.\n\nA solid forged eye is shown at E. When eyes like this are drop-forged in special dies, as they generally are, they do not require much skill, but when made entirely by hand they require considerable experience.\n\nIn forging an eye of this kind, the volume of material needed must first be determined, making some extra allowance for the usual waste. A convenient size of material should then be selected (round is preferable) and the amount required for the eye marked off. The round stem should be drawn down to size and the part for the eye forged to a spherical shape, then flattened, punched, and enlarged to correct dimensions."
     },
     {
-     "heading": "110. Calipers",
-     "body": "The calipers shown in Fig. 99 may be easily made from the dimensions given; 3/4 × 1/8-inch stock should be used for the main piece, and 1/2 × 1/8-inch stock for the legs."
-    },
-    {
      "heading": "111. Stock Calculation for Bending",
-     "body": "In the expansion and contraction of metals during the operation of bending, there is a fixed line, where the metal is left undisturbed; in other words, where it is not increased or decreased in length. So all measurements taken to determine the length of material required for producing any bent shapes should be taken from that fixed or undisturbed location, in order to attain accurate results.\n\nAll materials which have a symmetrical cross section, such as round, square, octagonal, oval, or oblong, have the above line at their true centers, no matter which way they are bent. While the metal remains undisturbed at the center of any of the above sections, the rest of it undergoes a change; the inner portion, in the direction of bending, will contract and become thicker, and the outer portion will expand and become thinner.\n\n[Illustration: FIG. 99.—STEPS IN MAKING CALIPERS. — not included]\n\nOther conditions arise, however, to modify these rules. If the heat is unevenly distributed, or if the stock is not of a uniform thickness, the results will not be exactly as estimated. When a heavy ring is formed of oblong material and bent through its larger diameter, as shown in sketch A, Fig. 100, and the product is to be finished to a uniform thickness, the expansion of the outer portion will make it necessary to use somewhat thicker material, to provide for the decrease of metal which will take place. The inner half, then too thick, could be reduced to the required size, but this operation always alters natural conditions of bending, and changes the general results. These conditions are not very noticeable and do not require special attention when small-sized materials are operated upon, but they must be observed when large oblong or square stock is formed into a ring requiring exact dimensions.\n\n[Illustration: FIG. 100.—CALCULATIONS OF LENGTHS FOR RINGS. — not included]\n\nIn all cases of this kind, the required length must be established from the undisturbed center and the ends cut at an angle of 85 degrees. If the material is to be welded, it should be scarfed on opposite sides and lapped when bent.\n\nWhen hoops or bands of flat or oblong material are bent, scarfed, and welded through the small diameter, then both scarfs should be formed on the same side while straight, and bent as shown at B, Fig. 100; the scarfs then will fit more readily than if they were formed on opposite sides. Sometimes, in instances of this kind, only one end is scarfed, and the piece is bent in a similar manner, with the unscarfed end on the outside and just lapping enough to cover the heel of the inner scarf.\n\nAnother form of ring requiring a calculation of the area as well as of the length is one of a wedge-shaped section, as shown at C, Fig. 100. Here the area of the required section is found and the material supplied with the proper thickness and area. The length also must be computed, then cut, scarfed, and welded, as previously explained; after this the ring may be drawn to the form desired.\n\nThe circumference of a circle may be found by multiplying its diameter by 3.1416 (π). (See tables, pages 205-206.) For rings or bands the length of the center line, c, Fig. 100, should be found. Example: If a equals 5 inches and b equals 2 inches, c will equal 7 inches, and the length of stock for the ring will be 7 × 3.1416 = 21.991 inches,—practically 22 inches. 3-1/7 may be used for the value of π instead of 3.1416."
+     "body": "**110. Calipers**\n\nThe calipers shown in Fig. 99 may be easily made from the dimensions given; 3/4 × 1/8-inch stock should be used for the main piece, and 1/2 × 1/8-inch stock for the legs.\n\nIn the expansion and contraction of metals during the operation of bending, there is a fixed line, where the metal is left undisturbed; in other words, where it is not increased or decreased in length. So all measurements taken to determine the length of material required for producing any bent shapes should be taken from that fixed or undisturbed location, in order to attain accurate results.\n\nAll materials which have a symmetrical cross section, such as round, square, octagonal, oval, or oblong, have the above line at their true centers, no matter which way they are bent. While the metal remains undisturbed at the center of any of the above sections, the rest of it undergoes a change; the inner portion, in the direction of bending, will contract and become thicker, and the outer portion will expand and become thinner.\n\n[Illustration: FIG. 99.—STEPS IN MAKING CALIPERS. — not included]\n\nOther conditions arise, however, to modify these rules. If the heat is unevenly distributed, or if the stock is not of a uniform thickness, the results will not be exactly as estimated. When a heavy ring is formed of oblong material and bent through its larger diameter, as shown in sketch A, Fig. 100, and the product is to be finished to a uniform thickness, the expansion of the outer portion will make it necessary to use somewhat thicker material, to provide for the decrease of metal which will take place. The inner half, then too thick, could be reduced to the required size, but this operation always alters natural conditions of bending, and changes the general results. These conditions are not very noticeable and do not require special attention when small-sized materials are operated upon, but they must be observed when large oblong or square stock is formed into a ring requiring exact dimensions.\n\n[Illustration: FIG. 100.—CALCULATIONS OF LENGTHS FOR RINGS. — not included]\n\nIn all cases of this kind, the required length must be established from the undisturbed center and the ends cut at an angle of 85 degrees. If the material is to be welded, it should be scarfed on opposite sides and lapped when bent.\n\nWhen hoops or bands of flat or oblong material are bent, scarfed, and welded through the small diameter, then both scarfs should be formed on the same side while straight, and bent as shown at B, Fig. 100; the scarfs then will fit more readily than if they were formed on opposite sides. Sometimes, in instances of this kind, only one end is scarfed, and the piece is bent in a similar manner, with the unscarfed end on the outside and just lapping enough to cover the heel of the inner scarf.\n\nAnother form of ring requiring a calculation of the area as well as of the length is one of a wedge-shaped section, as shown at C, Fig. 100. Here the area of the required section is found and the material supplied with the proper thickness and area. The length also must be computed, then cut, scarfed, and welded, as previously explained; after this the ring may be drawn to the form desired.\n\nThe circumference of a circle may be found by multiplying its diameter by 3.1416 (π). (See tables, pages 205-206.) For rings or bands the length of the center line, c, Fig. 100, should be found. Example: If a equals 5 inches and b equals 2 inches, c will equal 7 inches, and the length of stock for the ring will be 7 × 3.1416 = 21.991 inches,—practically 22 inches. 3-1/7 may be used for the value of π instead of 3.1416."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/53854"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/53854",
+   "aliases": "blacksmithing basics, how to forge metal, build a forge, blacksmith tools, anvil basics, blacksmith hammer, tongs for forging, forge welding, tempering steel, hardening steel, heat treating, making knives, forging a knife, blacksmith fuel coal, forging iron, how to use an anvil, make tools from scrap metal, old blacksmith techniques, metalworking without electricity, making a chisel, drawing out metal, annealing metal, blacksmith vise"
   },
   {
    "title": "Woodworking Hand Tools and Sharpening (I. S. Griffith, Essentials of Woodworking, 1908)",
@@ -534,11 +503,7 @@
     },
     {
      "heading": "15. The Turning-saw",
-     "body": "The turning or bow-saw is used for cutting along curved lines. Fig. 37 illustrates the manner of holding this saw. The sides of the blade must be held at right angles to the surface of the wood. Either or both handles may be turned, thus turning the blade with reference to the frame. Avoid turning the blade, however, as much as possible and see that the blade is not twisted by turning one handle more than the other.\n\n[Illustration: FIG. 37. — not included]\n\nThis saw may be used for cutting enclosed curves by boring a hole, releasing one end of the blade and inserting it thru this hole then replacing it in the saw frame.\n\nAs the cut of the turning saw is not very smooth, it is advisable to leave about one-sixteenth of an inch between the kerf and the line, to be removed later with the spokeshave."
-    },
-    {
-     "heading": "16. The Compass Saw",
-     "body": "The compass saw, Fig. 38, is better suited for inside curve sawing. Its use requires a steady hand, else the thin blade will buckle and break.\n\n[Illustration: FIG. 38. — not included]"
+     "body": "The turning or bow-saw is used for cutting along curved lines. Fig. 37 illustrates the manner of holding this saw. The sides of the blade must be held at right angles to the surface of the wood. Either or both handles may be turned, thus turning the blade with reference to the frame. Avoid turning the blade, however, as much as possible and see that the blade is not twisted by turning one handle more than the other.\n\n[Illustration: FIG. 37. — not included]\n\nThis saw may be used for cutting enclosed curves by boring a hole, releasing one end of the blade and inserting it thru this hole then replacing it in the saw frame.\n\nAs the cut of the turning saw is not very smooth, it is advisable to leave about one-sixteenth of an inch between the kerf and the line, to be removed later with the spokeshave.\n\n**16. The Compass Saw**\n\nThe compass saw, Fig. 38, is better suited for inside curve sawing. Its use requires a steady hand, else the thin blade will buckle and break.\n\n[Illustration: FIG. 38. — not included]"
     },
     {
      "heading": "17. Saw Filing",
@@ -686,11 +651,7 @@
     },
     {
      "heading": "52. Grinding Beveled Edge Tools",
-     "body": "When edged tools become rounded over by repeated whettings or when they are nicked too deeply for the oilstone to remove the nicks, the grindstone is needed to cut the metal to the proper angle. Fig. 101 shows the manner of holding the chisel upon the stone. The tool must be held firmly and at the same angle. This angle will depend upon the temper of the tool and the kind of wood to be cut, whether hard or soft, soft wood allowing the use of a sharper angle. On plane-irons the length of bevel or grind should be three-sixteenths or one-fourth of an inch; on the chisels, three-eighths or one-half an inch. The tool should not be kept in the middle of the stone but should be moved from right to left and vice versa across it as the grinding proceeds, that the surface of the stone may be worn as evenly as possible.\n\n[Illustration: 20° to 25° FIG. 101. — not included]\n\nThe pressure of the left hand should be so applied that the stone shall cut straight across the blade. Examine the tool often, being careful to replace it each time as nearly as possible at the same angle. Fig. 102 shows the flat bevel which is to be obtained, also the rounded effect caused by frequent changing of the angle at which the tool is held.\n\n[Illustration: FIG. 102. — not included]\n\nGrindstones are usually turned towards the tool because in doing so they will cut faster.\n\nWater is caused to flow on the stone for two reasons: To keep the edge of the tool from being burned or softened by the heat which friction would generate, and to wash off the particles of steel and stone, thus keeping the cutting surface clean that it may cut the more freely."
-    },
-    {
-     "heading": "53. Whetting Beveled Edge Tools",
-     "body": "The grindstone does not sharpen tools; that is the work of the oilstone. No tool, after it has been ground, is ready for use until it has been whetted."
+     "body": "When edged tools become rounded over by repeated whettings or when they are nicked too deeply for the oilstone to remove the nicks, the grindstone is needed to cut the metal to the proper angle. Fig. 101 shows the manner of holding the chisel upon the stone. The tool must be held firmly and at the same angle. This angle will depend upon the temper of the tool and the kind of wood to be cut, whether hard or soft, soft wood allowing the use of a sharper angle. On plane-irons the length of bevel or grind should be three-sixteenths or one-fourth of an inch; on the chisels, three-eighths or one-half an inch. The tool should not be kept in the middle of the stone but should be moved from right to left and vice versa across it as the grinding proceeds, that the surface of the stone may be worn as evenly as possible.\n\n[Illustration: 20° to 25° FIG. 101. — not included]\n\nThe pressure of the left hand should be so applied that the stone shall cut straight across the blade. Examine the tool often, being careful to replace it each time as nearly as possible at the same angle. Fig. 102 shows the flat bevel which is to be obtained, also the rounded effect caused by frequent changing of the angle at which the tool is held.\n\n[Illustration: FIG. 102. — not included]\n\nGrindstones are usually turned towards the tool because in doing so they will cut faster.\n\nWater is caused to flow on the stone for two reasons: To keep the edge of the tool from being burned or softened by the heat which friction would generate, and to wash off the particles of steel and stone, thus keeping the cutting surface clean that it may cut the more freely.\n\n**53. Whetting Beveled Edge Tools**\n\nThe grindstone does not sharpen tools; that is the work of the oilstone. No tool, after it has been ground, is ready for use until it has been whetted."
     },
     {
      "heading": "54. Oilstones",
@@ -709,7 +670,8 @@
      "body": "Examine the cutting edge, holding the tool toward the light. If the tool is dull, the cutting edge will appear as a white line, the broader the line the blunter the edge. Fig. 107 A. If the tool is sharp, no white line can be seen. Fig. 107 B.\n\n[Illustration: FIG. 107. — not included]\n\n[Illustration: FIG. 108. — not included]\n\nA better way--the method a mechanic would use--is to test the edge by drawing the thumb along it lightly. Fig. 108. If the tool is sharp one can feel the edge “taking hold.” If dull, the thumb will slide along the edge as it would along the back of a knife blade.\n\nGood judgment is necessary in this test or a cut on the thumb may be the result. No pressure is required, just a touch along the edge at various points.\n\nWhat actually takes place is this: The cutting edge, if sharp, cuts the outer layer, the callous part of the ball of the thumb, just a little. The sense of feeling is so keen that the resulting friction, slight as it is, is transferred to the brain of the worker long before any injury need be done the thumb. If the tool is dull, no cut, hence no friction can result. Do not use the finger, as it is not calloused as is the thumb."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/71855"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/71855",
+   "aliases": "sharpen a chisel, sharpen a plane blade, saw filing, sharpen a hand saw, how to use a hand plane, hand tools woodworking, try square, marking gauge, how to use a brace and bit, plane a board flat, square up a board, crosscut vs rip saw, woodworking without power tools, hand saw technique, setting a plane iron, old woodworking tools, sharpen hand tools, framing square, plane a chamfer, drill holes by hand, boring tools, oilstone sharpening, measure and mark wood, hand plane not cutting"
   },
   {
    "title": "Hand Sewing, Patching and Darning (K. H. Watson, Textiles and Clothing, 1907)",
@@ -787,12 +749,8 @@
      "body": "(7) Overcasting is a slanting stitch used to keep raw edges from ravelling. This stitch, like oversewing, may be worked from right to left or from left to right.\n\nThe hem stitch and blind or slip stitch will be considered under hems."
     },
     {
-     "heading": "Ornamental Stitches",
-     "body": "Never use a knot in any embroidery, but start by running a few stitches along the line which is to be covered."
-    },
-    {
      "heading": "Ornamental Stitches: Outline Stitch",
-     "body": "(1) The outline stitch is the simplest of all embroidery stitches. Take a long stitch on the surface, with the needle pointing towards the chest in the line to be covered, and a short back stitch on the under side of the material. The effect of the under or wrong side of the material is exactly that of an ordinary back stitch. The beauty of this stitch depends upon its regularity and in always keeping the thread on the same side of the needle.\n\n[Illustration: ORNAMENTAL STITCHES a--Outline; b--Chain; c--Cat; c'--Catch; d--Single Feather; e--Double Feather; f--Tripple Feather; g--Modified Feather; h--Double Feather with Knots; i--French Knots and Outline; j--Herring Bone; k--Fancy Feather; l--Cat Stitch with French Knots. — not included]"
+     "body": "Never use a knot in any embroidery, but start by running a few stitches along the line which is to be covered.\n\n(1) The outline stitch is the simplest of all embroidery stitches. Take a long stitch on the surface, with the needle pointing towards the chest in the line to be covered, and a short back stitch on the under side of the material. The effect of the under or wrong side of the material is exactly that of an ordinary back stitch. The beauty of this stitch depends upon its regularity and in always keeping the thread on the same side of the needle.\n\n[Illustration: ORNAMENTAL STITCHES a--Outline; b--Chain; c--Cat; c'--Catch; d--Single Feather; e--Double Feather; f--Tripple Feather; g--Modified Feather; h--Double Feather with Knots; i--French Knots and Outline; j--Herring Bone; k--Fancy Feather; l--Cat Stitch with French Knots. — not included]"
     },
     {
      "heading": "Ornamental Stitches: Chain Stitch",
@@ -844,15 +802,7 @@
     },
     {
      "heading": "Hems: Folding Hems",
-     "body": "A hem is a fold of goods twice folded to protect a raw edge. The first turn or fold of the hem is the most important. It should be straight and even, folded to a thread, for upon it depends the beauty of the hem. The hem should always be turned towards the worker and creased firmly, but never pleated along the fold. First crease the narrow fold, then crease the second fold the desired width, marking by a measure and baste not too near the edge. The first fold along the woof threads should be at least one-fourth of an inch in width, as the woof threads give or stretch more than the warp threads; otherwise it will not lie flat."
-    },
-    {
-     "heading": "Hems: Sewing Hems",
-     "body": "In sewing the hem, the needle should take up only the edge to be hemmed down and just enough to hold on the cloth or lining. In white work the stitches should be fine, showing as little as possible."
-    },
-    {
-     "heading": "Hems: Bias Hem",
-     "body": "All bias and curved edges should have the first fold basted. In cloth or silk this first basting thread should match the material and not be taken out."
+     "body": "A hem is a fold of goods twice folded to protect a raw edge. The first turn or fold of the hem is the most important. It should be straight and even, folded to a thread, for upon it depends the beauty of the hem. The hem should always be turned towards the worker and creased firmly, but never pleated along the fold. First crease the narrow fold, then crease the second fold the desired width, marking by a measure and baste not too near the edge. The first fold along the woof threads should be at least one-fourth of an inch in width, as the woof threads give or stretch more than the warp threads; otherwise it will not lie flat.\n\n**Hems: Sewing Hems**\n\nIn sewing the hem, the needle should take up only the edge to be hemmed down and just enough to hold on the cloth or lining. In white work the stitches should be fine, showing as little as possible.\n\n**Hems: Bias Hem**\n\nAll bias and curved edges should have the first fold basted. In cloth or silk this first basting thread should match the material and not be taken out."
     },
     {
      "heading": "Hems: Faced hem",
@@ -1043,18 +993,15 @@
      "body": "In sewing gathers on a band they should also come next the \"feed,\" as it takes up the side next to it a little faster than the upper side. When the bias, or cross-way side of the seam, or gathers are next to the \"feed\" the material runs along smoothly, but if the straight side is towards it there is apt to be a pucker.\n\nStitching can be done more easily on the right of the presser foot with the bulk of the material lying to the left. The tendency of the \"feed\" or teeth is to crowd the work off the edge as well as forward and the stitching may be guided better on the right side.\n\nAll straight seams should be stretched to the full extent of their straight edge in stitching, as the work passes under the presser foot.\n\nWhen a large amount of machine sewing is to be done--such as household linen, sheets, pillow cases and underwear--it is a good plan to do all the basting and hand work first and keep the machine stitching for a rainy or a damp day, as the thread is then less apt to break. A current of air or a breeze from an open window on a dry day will often cause the thread to snap. For the same reason the machine should never stand near the fire or radiator."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/21534"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/21534",
+   "aliases": "hand sewing, sewing by hand, basic stitches, running stitch, back stitch, hemming by hand, how to hem, how to sew a button, mending clothes, patching a hole, how to patch jeans, darning socks, darning a hole, repairing torn clothes, sewing a seam by hand, basting, gathering fabric, overcasting edges, embroidery stitches, cross stitch, buttonhole stitch, fixing a rip, sewing without a machine, clothing repair, sewing basics"
   },
   {
    "title": "Care, Cleaning and Repair of Clothing (K. H. Watson, Textiles and Clothing, 1907)",
    "sections": [
     {
-     "heading": "Care Of Clothing",
-     "body": "Ruskin says, \"Clothes carefully cared for and rightly worn, show a balance of mind and self respect.\""
-    },
-    {
      "heading": "Care Of Clothing: Little Attentions",
-     "body": "The freshness of gown or wrap may be preserved by the little attentions bestowed upon it each time it is worn, which take but a few minutes and mean so much in all departments of dress. By carefully brushing and shaking into folds, removing all spots, hanging right side out, picking and pulling straight flowers, bows, and ribbons as soon as removed, adding buttons and taking up dropped stitches when needed,--all these little attentions if given promptly will keep a wardrobe fresh and in good order. New braid on the bottom of skirts, sponging and pressing, little alterations and addition of new trimming to collar and cuffs, will help to preserve the original freshness of the gown and cause the wearer to appear well dressed.\n\nWaists should be turned wrong side out when removed and allowed to air near a window. Shields should be cleansed with alcohol and water. Ribbons should be rolled up immediately when taken off and if treated in this way will last much longer and look much daintier.\n\nClothing if moist and dusty and tossed into a dark corner of a closet or trunk can never appear fresh again, and will betray the character of the wearer. It is not the wearing of clothes which tells so sadly upon them, but the manner in which they are cared for. A few garments nicely made, well fitted and properly cared for are far preferable to twice the number of inferior quality and make."
+     "body": "Ruskin says, \"Clothes carefully cared for and rightly worn, show a balance of mind and self respect.\"\n\nThe freshness of gown or wrap may be preserved by the little attentions bestowed upon it each time it is worn, which take but a few minutes and mean so much in all departments of dress. By carefully brushing and shaking into folds, removing all spots, hanging right side out, picking and pulling straight flowers, bows, and ribbons as soon as removed, adding buttons and taking up dropped stitches when needed,--all these little attentions if given promptly will keep a wardrobe fresh and in good order. New braid on the bottom of skirts, sponging and pressing, little alterations and addition of new trimming to collar and cuffs, will help to preserve the original freshness of the gown and cause the wearer to appear well dressed.\n\nWaists should be turned wrong side out when removed and allowed to air near a window. Shields should be cleansed with alcohol and water. Ribbons should be rolled up immediately when taken off and if treated in this way will last much longer and look much daintier.\n\nClothing if moist and dusty and tossed into a dark corner of a closet or trunk can never appear fresh again, and will betray the character of the wearer. It is not the wearing of clothes which tells so sadly upon them, but the manner in which they are cared for. A few garments nicely made, well fitted and properly cared for are far preferable to twice the number of inferior quality and make."
     },
     {
      "heading": "Care Of Clothing: Ruffled Skirts",
@@ -1066,23 +1013,15 @@
     },
     {
      "heading": "Care Of Clothing: Folding Garments",
-     "body": "To fold, lay all articles on the bed or table and fold on the seams if possible. Particular attention should be given to sleeves and collars. Coat lapels should be turned to lie flat, collars turned up, and the coat folded directly through the center seam.\n\nSkirts and coats with bias seams are not improved by hanging as the bias parts are apt to stretch out of shape."
-    },
-    {
-     "heading": "Care Of Clothing: Remove Pins",
-     "body": "No clothing should be put away for the night, even, without first removing all steel pins, as the least dampness may cause rust spots."
+     "body": "To fold, lay all articles on the bed or table and fold on the seams if possible. Particular attention should be given to sleeves and collars. Coat lapels should be turned to lie flat, collars turned up, and the coat folded directly through the center seam.\n\nSkirts and coats with bias seams are not improved by hanging as the bias parts are apt to stretch out of shape.\n\n**Care Of Clothing: Remove Pins**\n\nNo clothing should be put away for the night, even, without first removing all steel pins, as the least dampness may cause rust spots."
     },
     {
      "heading": "Care Of Clothing: Hangers",
      "body": "Clothes forms and hangers are so inexpensive that every gown and coat should have its own. Skirts should be hung exactly on the form and no part of the band should be allowed to sag.\n\nIf fancy waists are put in drawers or boxes, they should have the sleeves filled with tissue paper and the collars and bows should be pulled straight."
     },
     {
-     "heading": "Cleaning",
-     "body": "Large garments require the greatest care in handling and in order to be done successfully, they should be sent to the professional cleaner."
-    },
-    {
      "heading": "Cleaning: Fruit and Wine Stains",
-     "body": "All stains and spots should be removed as soon as possible. Fruit and wine stains may be removed by stretching the fabric over a vessel and pouring boiling water through the cloth from a height of a foot or two. The water must be boiling."
+     "body": "Large garments require the greatest care in handling and in order to be done successfully, they should be sent to the professional cleaner.\n\nAll stains and spots should be removed as soon as possible. Fruit and wine stains may be removed by stretching the fabric over a vessel and pouring boiling water through the cloth from a height of a foot or two. The water must be boiling."
     },
     {
      "heading": "Cleaning: Ink Stains",
@@ -1094,11 +1033,7 @@
     },
     {
      "heading": "Cleaning: Grease Spots",
-     "body": "Grease is one of the worst foes to garments and the greatest care is needed to remove such spots from delicate fabrics. If not done at once, the dust and grease together often prove ruinous. When the color and fabric will not be injured by it, warm water and soap is the best agent, otherwise absorbents may be used. French chalk or magnesia powdered, placed upon the spot, and allowed to remain for a time will often absorb the grease effectually. If the first application is not effective, brush off, and apply again until the spot disappears. Where water can be used without injuring the cloth, the chalk or magnesia can be made into a paste and spread over the spot. When dry, brush off with a soft brush.\n\nIn removing fresh grease spots, blotting paper with a warm iron may often be used effectively. If the heat changes the color of the cloth, the iron should be held above the goods."
-    },
-    {
-     "heading": "Cleaning: Blood Stains",
-     "body": "Blood stains may be removed by making a paste of starch and applying it to the spot. Several applications may be necessary."
+     "body": "Grease is one of the worst foes to garments and the greatest care is needed to remove such spots from delicate fabrics. If not done at once, the dust and grease together often prove ruinous. When the color and fabric will not be injured by it, warm water and soap is the best agent, otherwise absorbents may be used. French chalk or magnesia powdered, placed upon the spot, and allowed to remain for a time will often absorb the grease effectually. If the first application is not effective, brush off, and apply again until the spot disappears. Where water can be used without injuring the cloth, the chalk or magnesia can be made into a paste and spread over the spot. When dry, brush off with a soft brush.\n\nIn removing fresh grease spots, blotting paper with a warm iron may often be used effectively. If the heat changes the color of the cloth, the iron should be held above the goods.\n\n**Cleaning: Blood Stains**\n\nBlood stains may be removed by making a paste of starch and applying it to the spot. Several applications may be necessary."
     },
     {
      "heading": "Cleaning: Solvents, Cleaning Garments, Soap and Ammonia with Gasoline",
@@ -1122,11 +1057,7 @@
     },
     {
      "heading": "Repairing: Laundering and Repairs",
-     "body": "Laundering is the great ally to tears and not only doubles the size of the hole, but pulls the threads apart so that it is impossible to make the mended place neat and smooth, therefore all clothing should be mended before washing. Stockings and woven underwear are much worn by the rubbing on the washboard and thin places going into the washing frequently come out as holes, so that it is true economy of effort and time to \"run\" or darn the thin places before they are worn through. It requires much less time and the garments last longer.\n\nIt is a good plan, especially in knees of stockings and knitted underwear, to baste a piece of fine net over a worn or broken place and darn over it. (See Darning.) Thread used for darning should be as near as possible the size of the threads in the garment. Darning cotton, linen, wool, and silk of all shades can be bought, so that the problem of matching is no longer a difficult one."
-    },
-    {
-     "heading": "Repairing: Boys' Trowsers",
-     "body": "In mending the knees of boys' trousers a round patch should never be used. The seams should be ripped and the piece set in then, if the seams are pressed well, the patch will scarcely be noticeable."
+     "body": "Laundering is the great ally to tears and not only doubles the size of the hole, but pulls the threads apart so that it is impossible to make the mended place neat and smooth, therefore all clothing should be mended before washing. Stockings and woven underwear are much worn by the rubbing on the washboard and thin places going into the washing frequently come out as holes, so that it is true economy of effort and time to \"run\" or darn the thin places before they are worn through. It requires much less time and the garments last longer.\n\nIt is a good plan, especially in knees of stockings and knitted underwear, to baste a piece of fine net over a worn or broken place and darn over it. (See Darning.) Thread used for darning should be as near as possible the size of the threads in the garment. Darning cotton, linen, wool, and silk of all shades can be bought, so that the problem of matching is no longer a difficult one.\n\n**Repairing: Boys' Trowsers**\n\nIn mending the knees of boys' trousers a round patch should never be used. The seams should be ripped and the piece set in then, if the seams are pressed well, the patch will scarcely be noticeable."
     },
     {
      "heading": "Repairing: Sleeves",
@@ -1161,7 +1092,8 @@
      "body": "The mender should use good judgment as to the amount of work to be applied to each garment. She should substitute the machine needle whenever possible and not put tiny stitches by hand into half worn garments or in unseen places. Ripped tucks and bands can be sewed in a few minutes on the machine. Serviceable darning can be done on the machine.\n\nBefore putting away freshly laundered clothes it is a good plan to take out the clothes already in the drawers and lay the ones washed last on the bottom, thus all garments will wear alike, each article in its regular turn."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/21534"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/21534",
+   "aliases": "removing stains, blood stains, ink stains, grease stains, rust stains, fruit stains, wine stains, mending clothes, repairing clothes, patching pants, lengthening clothes, storing clothes, folding clothes, cleaning velvet, mending kit, darning socks, sewing repairs, extend hem, clothing care, stain removal, laundry and repairs"
   },
   {
    "title": "Washing, Ironing, Soap and Lye Making (C. E. Beecher, Housekeeper and Healthkeeper, 1873)",
@@ -1200,11 +1132,7 @@
     },
     {
      "heading": "Mixtures For Removing Stains And Grease: Stain Mixture",
-     "body": "Half an ounce of oxalic acid in a pint of soft water. This can be kept in a corked bottle and is infallible in removing iron-rust and ink-stains. It is very poisonous. The article must be spread with this mixture over the steam of hot water, and wet several times. This will also remove indelible ink. The article must be washed, or the mixture will injure it."
-    },
-    {
-     "heading": "Another Stain-Mixture",
-     "body": "is made by mixing one ounce of sal ammoniac, one ounce of salt of tartar, and one pint of soft water."
+     "body": "Half an ounce of oxalic acid in a pint of soft water. This can be kept in a corked bottle and is infallible in removing iron-rust and ink-stains. It is very poisonous. The article must be spread with this mixture over the steam of hot water, and wet several times. This will also remove indelible ink. The article must be washed, or the mixture will injure it.\n\n**Another Stain-Mixture**\n\nis made by mixing one ounce of sal ammoniac, one ounce of salt of tartar, and one pint of soft water."
     },
     {
      "heading": "To remove Grease",
@@ -1239,7 +1167,8 @@
      "body": "or Silk Gloves should be washed in warm suds made with white soap, and rinsed in cold water; they should then be stretched and rubbed with a hard-rolled flannel, till they are quite dry. Ironing them very much injures their looks. Wash-leather articles should have the grease removed from them by French chalk or magnesia; they should then be washed in warm suds, and rinsed in cold water. Light Kid Gloves should have the grease removed from them, and then wash them on the hands with borax water and soft flannel—a tea-spoonful to a tumbler of water. Then stretch and press them. Dark Kid Gloves wash in the same way."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/55734"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/55734",
+   "aliases": "how to make soap at home, lye soap, making lye from ashes, washing clothes by hand, laundry without machine, homemade starch, ironing without electricity, removing stains, getting grease out of clothes, ink stain removal, tar stain, whitening clothes, old fashioned laundry, homemade soap recipe, wood ash lye, washing clothes in emergency, making cleaning supplies, stain remover recipe"
   },
   {
    "title": "Fires, Lamps and Candle Making (C. E. Beecher, Housekeeper and Healthkeeper, 1873)",
@@ -1269,7 +1198,8 @@
      "body": "The nicest candles are those run in molds. For this purpose, melt together one quarter of a pound of white wax, one quarter of an ounce of camphor, two ounces of alum, and ten ounces of suet or mutton-tallow. Soak the wicks in lime-water and saltpetre, and when dry, fix them in the molds and pour in the melted tallow. Let them remain one night to cool; then warm them a little to loosen them, draw them out, and when they are hard, put them in a box in a dry and cool place.\n\nTo make dipped candles, cut the wicks of the right length, double them over rods, and twist them. They should first be dipped in lime-water or vinegar, and dried. Melt the tallow in a large kettle, filling it to the top with hot water, when the tallow is melted. Put in wax and powdered alum, to harden them. Keep the tallow hot over a portable furnace, and fill the kettle with hot water as fast as the tallow is used up. Lay two long strips of narrow board on which to hang the rods; and set flat pans under, on the floor, to catch the grease. Take several rods at once, and wet the wicks in the tallow; straighten and smooth them when cool. Then dip them as fast as they cool, until they become of the proper size. Plunge them obliquely and not perpendicularly; and when the bottoms are too large, hold them in the hot grease till a part melts off. Let them remain one night to cool; then cut off the bottoms, and keep them in a dry, cool place. Cheap lights are made by dipping rushes in tallow, the rushes being first stripped of nearly the whole of the hard outer covering, and the pith alone being retained with just enough of the tough bark to keep it stiff."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/55734"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/55734",
+   "aliases": "how to make candles, candle making at home, tallow candles, oil lamps, lamp wick, old fashioned lighting, make light without electricity, keep a fire going in stove, lighting without power, dipped candles, candle molds, homemade lamp, grate fire, fireplace fire tips, make candles from fat, lamp oil, historical lighting, kerosene lamp, trim a wick, coal fire stove, build a fire in a grate"
   },
   {
    "title": "The House Fly and How to Suppress It (USDA Farmers' Bulletin 1408, 1926)",
@@ -1355,7 +1285,8 @@
      "body": "Antifly crusades have been very numerous in recent years, and some have been noteworthy both in methods and in results. However, it will not be amiss here to emphasize the importance of concerted, organized effort on the part of whole communities, not only cities, but suburban and rural neighborhoods as well. By the most painstaking care one may prevent all fly breeding on his premises, but it will avail him little if his neighbors are not equally careful. Some sort of cooperation is necessary. One of the first and most important elements in any antifly crusade is a vigorous and continued educational campaign. It has been the experience of those who have undertaken such crusades that people generally regard the fly as a somewhat harmless nuisance and that the first work of the campaign was to bring the people to a realization of the dangers from flies and the possibility of getting rid of them. In the educational campaign every possible means of publicity can be employed, including newspapers, lectures, moving pictures, posters, handbills, cartoons, instruction in schools, etc.\n\nThe antifly crusade is a matter of public interest and should be supported by the community as a whole and engineered by the health officers. But health officers can do little toward the necessary work of inspection and elimination without funds, and therefore the support of the campaign must manifest itself in increased appropriations for public-health work. Very often it is lack of funds which prevents the health officers from taking the initiative in the antifly crusades, and there must necessarily be much agitation and education before they can profitably take up the work. Right here lies a field for civic associations, women's clubs, boards of trade, etc., to exercise their best energy, initiative, and leadership."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/18050"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/18050",
+   "aliases": "house flies, get rid of flies, fly control, where do flies breed, fly traps, make a fly trap, fly screens, fly spray, flies in the house, flies and disease, manure and flies, flies in barn, stable fly control, maggots in manure, flies in winter, garbage flies, fly problem farm, keeping flies out, flies spreading germs, fly prevention, maggot trap"
   },
   {
    "title": "House Rats and Mice: Rat-Proofing, Food Protection and Trapping (USDA Farmers' Bulletin 896, 1917)",
@@ -1414,11 +1345,7 @@
     },
     {
      "heading": "Garbage and waste",
-     "body": "Since much of the food of rats consists of garbage and other waste materials, it is not enough to bar the animals from markets, granaries, warehouses, and private food stores. Garbage and offal of all kinds must be so disposed of that rats can not obtain them.\n\nIn cities and towns an efficient system of garbage collection and disposal should be established by ordinances. Waste from markets, hotels, cafes and households should be collected in covered metal receptacles and frequently emptied. Garbage should never be dumped in or near towns, but should be utilized or promptly destroyed by fire.\n\nRats find abundant food in country slaughterhouses; reform in the management of these is badly needed. Such places are centers of rat propagation. It is a common practice to leave offal of slaughtered animals to be eaten by rats and swine, and this is the chief means of perpetuating trichinae in pork. The law should require that offal be promptly cremated or otherwise disposed of. Country slaughterhouses should be as cleanly and as constantly inspected as abattoirs.\n\nAnother important source of rat food is found in remnants of lunches left by employees in factories, stores, and public buildings. This food, which alone is sufficient to attract and sustain a small army of rats, is commonly left in waste baskets or other open receptacles. Strictly enforced rules requiring all remnants of food to be deposited in covered metal vessels would make trapping far more effective.\n\n[Illustration: FIG. 5.--Guillotine trap made entirely of metal. — not included]\n\nMilitary training camps, unless subjected to rigid discipline in the matter of disposal of garbage and waste, soon become centers of rat infestation. Waste from camps, deposited in covered metal cans and collected daily, should be removed far from the camp itself and either burned or utilized in approved modern ways."
-    },
-    {
-     "heading": "Destroying Rats And Mice",
-     "body": "The Biological Survey has made numerous laboratory and field experiments with various agencies for destroying rats and mice. The results form the chief basis for the following recommendations:"
+     "body": "Since much of the food of rats consists of garbage and other waste materials, it is not enough to bar the animals from markets, granaries, warehouses, and private food stores. Garbage and offal of all kinds must be so disposed of that rats can not obtain them.\n\nIn cities and towns an efficient system of garbage collection and disposal should be established by ordinances. Waste from markets, hotels, cafes and households should be collected in covered metal receptacles and frequently emptied. Garbage should never be dumped in or near towns, but should be utilized or promptly destroyed by fire.\n\nRats find abundant food in country slaughterhouses; reform in the management of these is badly needed. Such places are centers of rat propagation. It is a common practice to leave offal of slaughtered animals to be eaten by rats and swine, and this is the chief means of perpetuating trichinae in pork. The law should require that offal be promptly cremated or otherwise disposed of. Country slaughterhouses should be as cleanly and as constantly inspected as abattoirs.\n\nAnother important source of rat food is found in remnants of lunches left by employees in factories, stores, and public buildings. This food, which alone is sufficient to attract and sustain a small army of rats, is commonly left in waste baskets or other open receptacles. Strictly enforced rules requiring all remnants of food to be deposited in covered metal vessels would make trapping far more effective.\n\n[Illustration: FIG. 5.--Guillotine trap made entirely of metal. — not included]\n\nMilitary training camps, unless subjected to rigid discipline in the matter of disposal of garbage and waste, soon become centers of rat infestation. Waste from camps, deposited in covered metal cans and collected daily, should be removed far from the camp itself and either burned or utilized in approved modern ways.\n\n**Destroying Rats And Mice**\n\nThe Biological Survey has made numerous laboratory and field experiments with various agencies for destroying rats and mice. The results form the chief basis for the following recommendations:"
     },
     {
      "heading": "Traps",
@@ -1450,11 +1377,7 @@
     },
     {
      "heading": "Fence and battue",
-     "body": "In the rice fields of the Far East the natives build numerous piles of brush and rice straw, and leave them for several days until many rats have taken shelter in them. A portable bamboo inclosure several feet in height is then set up around each pile in succession and the straw and brush are thrown out over the top, while dogs and men kill the trapped rodents. Large numbers are destroyed in this way, and the plan with modifications may be utilized in America with satisfactory results. A wire netting of fine mesh may be used for the inclosure. The scheme is applicable at the removal of grain, straw, or haystacks, as well as brush piles.\n\nIn a large barn near Washington, a few years ago, piles of unhusked corn were left in the loft and were soon infested with rats. A wooden pen was set down surrounding the piles in turn and the corn thrown out until dogs were able to get at the rats. In this way several men and dogs killed 500 rats in a single day."
-    },
-    {
-     "heading": "Domestic Animals",
-     "body": "Among domestic animals employed to kill rats are the dog, the cat, and the ferret."
+     "body": "In the rice fields of the Far East the natives build numerous piles of brush and rice straw, and leave them for several days until many rats have taken shelter in them. A portable bamboo inclosure several feet in height is then set up around each pile in succession and the straw and brush are thrown out over the top, while dogs and men kill the trapped rodents. Large numbers are destroyed in this way, and the plan with modifications may be utilized in America with satisfactory results. A wire netting of fine mesh may be used for the inclosure. The scheme is applicable at the removal of grain, straw, or haystacks, as well as brush piles.\n\nIn a large barn near Washington, a few years ago, piles of unhusked corn were left in the loft and were soon infested with rats. A wooden pen was set down surrounding the piles in turn and the corn thrown out until dogs were able to get at the rats. In this way several men and dogs killed 500 rats in a single day.\n\n**Domestic Animals**\n\nAmong domestic animals employed to kill rats are the dog, the cat, and the ferret."
     },
     {
      "heading": "Dogs",
@@ -1489,7 +1412,8 @@
      "body": "The measures needed for repressing and eliminating rats and mice include the following:\n\n1. The requirement that all new buildings erected shall be made rat-proof under competent inspection.\n\n2. That all existing rat-proof buildings shall be closed against rats and mice by having all openings accessible to the animals, from foundation to roof, closed or screened by door, window, grating, or meshed wire netting.\n\n3. That all buildings not of rat-proof construction shall be made so by remodeling, by the use of materials that may not be pierced by rats, or by elevation.\n\n4. The protection of our native hawks, owls, and smaller predatory mammals--the natural enemies of rats.\n\n5. Greater cleanliness about markets, grocery stores, warehouses, courts, alleys, stables, and vacant lots in cities and villages, and like care on farms and suburban premises. This includes the storage of waste and garbage in tightly covered vessels and the prompt disposal of it each day.\n\n6. Care in the construction of drains and sewers, so as not to provide entrance and retreat for rats. Old brick sewers in cities should be replaced by concrete or tile.\n\n7. The early threshing and marketing of grains on farms, so that stacks and mows shall not furnish harborage and food for rats.\n\n8. Removal of outlying straw stacks and piles of trash or lumber that harbor rats in fields and vacant lots.\n\n9. The keeping of provisions, seed grain, and foodstuffs in rat-proof containers.\n\n10. Keeping effective rat dogs, especially on farms and in city warehouses.\n\n11. The systematic destruction of rats, whenever and wherever possible, by (a) trapping, (b) poisoning, and (c) organized hunts.\n\n12. The organization of clubs and other societies for systematic warfare against rats."
     }
    ],
-   "sourceUrl": "https://www.gutenberg.org/ebooks/35542"
+   "sourceUrl": "https://www.gutenberg.org/ebooks/35542",
+   "aliases": "rats in house, mice in house, rat proofing, keeping mice out, rat trap, mouse trap, trapping rats, protect food from rats, rats in barn, mouse proof storage, rat damage, cat for mice, dog for rats, ferrets rats, rat infestation, rats in garbage, rats in walls, getting rid of mice, homemade rat trap, barrel trap, pit trap, rodent control"
   }
  ]
 }

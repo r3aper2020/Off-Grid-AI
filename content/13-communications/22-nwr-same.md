@@ -1,5 +1,6 @@
 # NOAA Weather Radio: SAME Alerts and Coverage
 Source: https://www.weather.gov/nwr/nwrsame
+Aliases: NOAA weather radio, weather radio alerts, SAME code, program weather radio, weather alert radio county code, weather radio coverage, weather radio frequencies, emergency alert radio, weather radio setup, storm warnings on radio, tornado warning radio, weather radio for my area, all hazards radio, radio that wakes you for storms
 
 ## Explanation of NWR and SAME
 - Using NWR SAME

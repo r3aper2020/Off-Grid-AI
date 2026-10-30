@@ -1,5 +1,6 @@
 # Wildfires
 Source: https://www.ready.gov/wildfires
+Aliases: wildfire what to do, wildfire evacuation, smoke from wildfire, fire coming toward house, wildfire preparation, defensible space, wildfire air quality, returning home after wildfire, wildfire evacuation order, ash cleanup, fire season, trapped by wildfire, wildfire go bag, wildfire smoke mask, protect home from wildfire, embers on roof, n95 for smoke, forest fire near me, evacuation levels wildfire, pets wildfire evacuation
 
 ## Overview
 If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov or call the FEMA Helpline at 1-800-621-3362.

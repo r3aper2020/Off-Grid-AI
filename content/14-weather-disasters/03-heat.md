@@ -1,5 +1,6 @@
 # Extreme Heat
 Source: https://www.ready.gov/heat
+Aliases: extreme heat, heat wave, how to stay cool without AC, heat wave no power, staying cool in a heat wave, heat safety tips, hot weather what to do, heat index, cooling center, check on elderly in heat, kids and pets in hot cars, heat illness signs, heat stroke, heat exhaustion, drink water in heat, heat advisory, summer heat prep, preparing for extreme heat, keeping house cool
 
 ## Overview
 If you are a disaster survivor, please visit FEMA.gov for up-to-date information on current disaster declarations. If you have questions about your disaster assistance application, visit disasterassistance.gov, email AskIA@fema.dhs.gov or call the FEMA Helpline at 1-800-621-3362.

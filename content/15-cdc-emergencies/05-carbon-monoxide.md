@@ -1,5 +1,6 @@
 # Carbon Monoxide (CO) Poisoning Basics
 Source: https://www.cdc.gov/carbon-monoxide/about/index.html
+Aliases: carbon monoxide poisoning, CO poisoning, CO detector, carbon monoxide symptoms, headache dizzy nausea gas, generator inside, grill indoors, charcoal indoors, running car in garage, furnace carbon monoxide, chimney blocked, CO alarm going off, gas heater indoors, carbon monoxide signs, silent killer gas, propane heater indoors, CO poisoning what to do, carbon monoxide at night, camp stove in tent
 
 ## At a glance
 - Carbon monoxide (CO) is an odorless, colorless gas that can cause sudden illness and death if inhaled.

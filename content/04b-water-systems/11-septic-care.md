@@ -1,5 +1,6 @@
 # How to Care for Your Septic System (EPA)
 Source: https://www.epa.gov/septic/how-care-your-septic-system
+Aliases: septic tank, septic system care, how often pump septic, septic backing up, what not to flush septic, drainfield problems, septic smell, septic after flood, septic tank full, grease and septic, septic additives, toilet slow septic, leach field, septic system failing, septic maintenance, septic and water use
 
 ## Overview
 Septic system maintenance is not complicated, and it does not need to be expensive. Upkeep comes down to four key elements:

@@ -1,5 +1,6 @@
 # Plan for Locations: Home, School, Work, High-Rises and Vehicles (Ready.gov)
 Source: https://www.ready.gov/plan-for-locations
+Aliases: emergency plan for work, emergency plan for school, plan at home, high rise emergency, emergency in car, where to meet family, meeting place, apartment emergency plan, neighborhood plan, emergency plan by location, workplace evacuation, school emergency pickup, plan for commute, elevator emergency, condo emergency, stairwell escape, family plan locations
 
 ## Be Informed
 Many emergencies and disasters occur without any warning. Since you can’t predict where you will be for disasters, it is important to have plans and supplies for the places you and your household go to regularly. Planning ahead ensures that you and your family will know what to do and have the supplies you need to be safe wherever you are.

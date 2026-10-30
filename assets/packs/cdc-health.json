@@ -4,7 +4,7 @@
  "id": "cdc-health",
  "title": "Seizures, Caring for the Sick & Hygiene (CDC)",
  "category": "medical",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Centers for Disease Control and Prevention",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Seizure first aid and when to call 911, caring for someone sick at home and flu emergency warning signs, personal hygiene and wound protection when clean water is scarce, and staying safe after a disaster (floodwater, cleanup, power outages, animals, electrical hazards).",
@@ -15,12 +15,8 @@
    "title": "First Aid for Seizures",
    "sections": [
     {
-     "heading": "KEY POINTS",
-     "body": "- Seizures are common, affecting 1 in 10 people.\n- You can learn to recognize a seizure, keep someone safe during a seizure, and when to call 911 for help."
-    },
-    {
      "heading": "Overview",
-     "body": "Seizures are common. About 1 in 10 people in the United States may have a seizure in their lifetime. This means that someday you may need to help someone.\n\nThere are easy steps to help someone during and after a seizure."
+     "body": "**KEY POINTS**\n\n- Seizures are common, affecting 1 in 10 people.\n- You can learn to recognize a seizure, keep someone safe during a seizure, and when to call 911 for help.\n\nSeizures are common. About 1 in 10 people in the United States may have a seizure in their lifetime. This means that someday you may need to help someone.\n\nThere are easy steps to help someone during and after a seizure."
     },
     {
      "heading": "Recognizing a seizure: Seizures may not look like you'd expect.",
@@ -43,15 +39,12 @@
      "body": "- Don't hold the person down or stop their movements. This could injure you or them.\n- Don't put anything in their mouth. This can hurt their teeth or jaw.\n- Don't give mouth-to-mouth breaths during the seizure. People usually start breathing again on their own after a seizure.\n- Don't offer water or food until they are fully alert. This is not necessary and could cause them to choke."
     },
     {
-     "heading": "Get Seizure First Aid Training",
-     "body": "Some people may need to know how to provide more detailed help, especially those who:\n\n- Have loved ones with epilepsy.\n- Coach or lead groups.\n- Work in public settings such as schools."
-    },
-    {
      "heading": "Get Seizure First Aid Training: Free first aid training",
-     "body": "Free, online on-demand training is available through the Epilepsy Foundation."
+     "body": "Some people may need to know how to provide more detailed help, especially those who:\n\n- Have loved ones with epilepsy.\n- Coach or lead groups.\n- Work in public settings such as schools.\n\nFree, online on-demand training is available through the Epilepsy Foundation."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html"
+   "sourceUrl": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+   "aliases": "someone having a seizure, seizure what to do, convulsions help, dont put anything in mouth, turn on side seizure, how long seizure call 911, epileptic fit first aid, shaking on the ground, seizure safety, what not to do during seizure, after seizure confused, child seizure, seizure first aid steps, when is a seizure an emergency, time the seizure, seizure in water"
   },
   {
    "title": "Caring for Someone Sick",
@@ -73,7 +66,8 @@
      "body": "People experiencing these warning signs should obtain medical care right away.\n\n**In children**\n\n- Fast breathing or trouble breathing\n- Bluish lips or face\n- Ribs pulling in with each breath\n- Chest pain\n- Severe muscle pain (child refuses to walk)\n- Dehydration (no urine for 8 hours, dry mouth, no tears when crying)\n- Not alert or interacting when awake\n- Seizures\n- Fever above 104 degrees Fahrenheit that is not controlled by fever-reducing medicine\n- In children younger than 12 weeks, any fever\n- Fever or cough that improve but then return or worsen\n- Worsening of chronic medical conditions\n\n**In adults**\n\n- Difficulty breathing or shortness of breath\n- Persistent pain or pressure in the chest or abdomen\n- Persistent dizziness, confusion, inability to arouse\n- Seizures\n- Not urinating\n- Severe muscle pain\n- Severe weakness or unsteadiness\n- Fever or cough that improve but then return or worsen\n- Worsening of chronic medical conditions\n\nThese lists are not all inclusive. Please consult your medical provider for any other symptom that is severe or concerning."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/flu/takingcare/caring-for-someone.html"
+   "sourceUrl": "https://www.cdc.gov/flu/takingcare/caring-for-someone.html",
+   "aliases": "caring for someone with the flu, family member has flu, flu at home what to do, not catching flu from family, flu emergency warning signs, when to take flu to the hospital, fever and trouble breathing, sick kid flu, keeping sick person separate, flu fluids and rest, flu complications, caring for a sick person at home, flu in elderly, bluish lips flu, I have the flu what now"
   },
   {
    "title": "Guidelines for Personal Hygiene During an Emergency",
@@ -103,18 +97,15 @@
      "body": "It's always important to change diapers in a safe, germ-free way, but an emergency can make this difficult. Even a microscopic amount of poop can contain millions of germs. CDC has guidelines and checklists to help parents, childcare providers, emergency responders, and others learn how to safely change diapers in emergency situations."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html"
+   "sourceUrl": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+   "aliases": "washing hands no running water, staying clean during disaster, hand sanitizer vs soap, bathing in flood water, brushing teeth with unsafe water, keeping wounds clean, changing diapers safely, hygiene when water is out, no shower for days, staying clean without water, dirty water bathing, wound and flood water, hand washing steps, personal hygiene disaster"
   },
   {
    "title": "What to Do to Prevent Getting Hurt or Sick After a Disaster",
    "sections": [
     {
-     "heading": "KEY POINTS",
-     "body": "- After a disaster, there are a number of hazards that can make you sick or hurt you.\n- Know how to protect yourself and others from injury or illness after a disaster."
-    },
-    {
      "heading": "Stay out of floodwater",
-     "body": "Floodwater and standing water can be dangerous and can make you vulnerable to infectious diseases, chemical hazards, and injuries. Protect yourself and your loved ones from the risks brought by floodwater.\n\n- Never drive in flooded areas. Cars can be swept away or break down. Turn around, don't drown!\n- Stay out of floodwater—it can contain many things that can hurt you or make you sick.\n- Even experienced swimmers can drown in floodwater. Avoid moving water, regardless of depth or speed. If you are caught in an area where floodwater is rising, wear a life jacket or keep at hand another flotation device.\n- Do not let a wound touch floodwater. Immediately clean out all open wounds and cuts with soap and clean water."
+     "body": "**KEY POINTS**\n\n- After a disaster, there are a number of hazards that can make you sick or hurt you.\n- Know how to protect yourself and others from injury or illness after a disaster.\n\nFloodwater and standing water can be dangerous and can make you vulnerable to infectious diseases, chemical hazards, and injuries. Protect yourself and your loved ones from the risks brought by floodwater.\n\n- Never drive in flooded areas. Cars can be swept away or break down. Turn around, don't drown!\n- Stay out of floodwater—it can contain many things that can hurt you or make you sick.\n- Even experienced swimmers can drown in floodwater. Avoid moving water, regardless of depth or speed. If you are caught in an area where floodwater is rising, wear a life jacket or keep at hand another flotation device.\n- Do not let a wound touch floodwater. Immediately clean out all open wounds and cuts with soap and clean water."
     },
     {
      "heading": "Clean up safely",
@@ -133,7 +124,8 @@
      "body": "Take steps to protect yourself and others from electrical hazards after a disaster.\n\n- Never touch a fallen power line.\n- Do not drive through standing water if downed power lines are in the water.\n- If you believe someone has had electric shock, call or have someone else call 911 or emergency medical help."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/natural-disasters/response/index.html"
+   "sourceUrl": "https://www.cdc.gov/natural-disasters/response/index.html",
+   "aliases": "after a flood what to avoid, is floodwater dangerous, cleaning up after a flood, mold cleanup, generator carbon monoxide, downed power lines, stray animals after storm, mosquitoes after flood, staying safe after a hurricane, cleaning up debris, getting sick after a disaster, electrical hazards after flood, wet electrical wiring, power outage after storm, wading through floodwater"
   }
  ]
 }

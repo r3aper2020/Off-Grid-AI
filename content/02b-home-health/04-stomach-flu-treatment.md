@@ -1,5 +1,6 @@
 # Treating Viral Gastroenteritis (Stomach Flu) (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/digestive-diseases/viral-gastroenteritis/treatment
+Aliases: stomach flu what to do, vomiting and diarrhea, throwing up cant keep water down, how to rehydrate, oral rehydration drink, diarrhea treatment at home, stomach bug, norovirus treatment, kids with diarrhea, dehydration signs, what to eat after stomach flu, imodium pepto for stomach bug, prevent stomach flu spreading, gastroenteritis home care, when to see doctor vomiting, rotavirus vaccine, baby throwing up, diarrhea for days
 
 ## How can I treat viral gastroenteritis?
 In most cases, people with viral gastroenteritis get better on their own without medical treatment. You can treat viral gastroenteritis by replacing lost fluids and electrolytes to prevent dehydration. In some cases, over-the-counter medicines may help relieve your symptoms.

@@ -1,5 +1,6 @@
 # Diabetes Care During Emergencies
 Source: https://www.cdc.gov/diabetes/articles/diabetes-care-emergencies.html
+Aliases: diabetes emergency kit, insulin during disaster, keeping insulin cold without power, diabetic supplies for evacuation, diabetes in a hurricane, diabetic go bag, insulin in power outage, diabetes shelter, dialysis in emergency, diabetic evacuation plan, how much insulin to pack, diabetes supplies list, diabetic prepping, storing insulin, diabetes care kit
 
 ## Key points
 - Managing diabetes can be difficult during a major storm, loss of electricity, or infectious disease outbreak.

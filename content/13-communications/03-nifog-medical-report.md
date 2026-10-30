@@ -1,5 +1,6 @@
 # Reporting a Medical Emergency by Radio (CISA NIFOG v2.02)
 Source: https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf
+Aliases: how to call for help on radio, radio medical emergency, reporting an injury by radio, medevac request, what to say on radio in emergency, mayday on radio, calling for a helicopter, radio report format, medical report over radio, how to request medical help, radio distress call, ham radio emergency call, emergency radio script, describe injuries over radio
 
 ## EMERGENCY MEDICAL PROCEDURES
 ICS 206 – Block 8 – “Dutch Creek Protocol”

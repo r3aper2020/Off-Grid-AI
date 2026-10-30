@@ -82,6 +82,18 @@ class PackDocuments extends Table {
   TextColumn get title => text()();
   TextColumn get sourceUrl => text().nullable()();
   IntColumn get position => integer()();
+
+  /// Retrieval-only plain-language phrasings (see `DocumentData.aliases`);
+  /// indexed with the title in `passages_fts`.
+  TextColumn get aliases => text().withDefault(const Constant(''))();
+
+  /// Excluded from AI answers (regulation text, reference tables); still
+  /// readable and searchable in the Library.
+  BoolColumn get libraryOnly => boolean().withDefault(const Constant(false))();
+
+  /// Meaning vector of the title and aliases (int8, see `PassageVectors`),
+  /// so a question can match a document as a whole.
+  BlobColumn get embedding => blob().nullable()();
 }
 
 /// One section of a document: the unit that is searched and cited.
@@ -133,7 +145,7 @@ class AppDatabase extends _$AppDatabase {
     : super(executor ?? driftDatabase(name: 'offgrid'));
 
   @override
-  int get schemaVersion => 6;
+  int get schemaVersion => 7;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -171,10 +183,30 @@ class AppDatabase extends _$AppDatabase {
         await m.addColumn(passages, passages.images);
       }
       if (from >= 3 && from < 6) {
-        // v6: meaning vectors per passage. Bundled packs are removed so the
-        // startup sync reinstalls them with their vectors (foreign keys
-        // are off during migrations, so delete children explicitly).
+        // v6: meaning vectors per passage.
         await m.addColumn(passages, passages.embedding);
+      }
+      if (from >= 3 && from < 7) {
+        // v7: document aliases, library-only documents and document
+        // vectors; the search index also covers aliases. The embedding
+        // model changed (384 → 768 dims), so every stored vector is stale.
+        await m.addColumn(packDocuments, packDocuments.aliases);
+        await m.addColumn(packDocuments, packDocuments.libraryOnly);
+        await m.addColumn(packDocuments, packDocuments.embedding);
+        await customStatement('UPDATE passages SET embedding = NULL');
+        await customStatement('DROP TRIGGER IF EXISTS passages_ai');
+        await customStatement('DROP TRIGGER IF EXISTS passages_ad');
+        await customStatement('DROP TABLE IF EXISTS passages_fts');
+        await _createPassageIndex();
+        await customStatement('''
+          INSERT INTO passages_fts(rowid, title, heading, body)
+          SELECT p.id, d.title || ' ' || d.aliases, p.heading, p.body
+          FROM passages p JOIN pack_documents d ON d.id = p.document_id''');
+      }
+      if (from >= 3 && from < 7) {
+        // Bundled packs are removed so the startup sync reinstalls them
+        // with current vectors (foreign keys are off during migrations, so
+        // delete children explicitly).
         const bundled =
             "SELECT id FROM knowledge_packs WHERE source LIKE 'asset:%'";
         await customStatement(
@@ -195,10 +227,11 @@ class AppDatabase extends _$AppDatabase {
   );
 
   /// FTS5 index over passages with porter stemming ("boil" matches
-  /// "boiling"). Each row also carries its document's title, because a
-  /// section often never repeats its subject ("Remove any wet clothing"
-  /// sits under "Preventing Hypothermia"). Triggers keep it in sync,
-  /// including cascade deletes when a pack is removed.
+  /// "boiling"). Each row also carries its document's title and aliases,
+  /// because a section often never repeats its subject ("Remove any wet
+  /// clothing" sits under "Preventing Hypothermia") and the source's words
+  /// are rarely the user's ("Build A Kit" vs "bug out bag"). Triggers keep
+  /// it in sync, including cascade deletes when a pack is removed.
   Future<void> _createPassageIndex() async {
     await customStatement('''
       CREATE VIRTUAL TABLE passages_fts USING fts5(
@@ -210,7 +243,8 @@ class AppDatabase extends _$AppDatabase {
         INSERT INTO passages_fts(rowid, title, heading, body)
         VALUES (
           new.id,
-          (SELECT title FROM pack_documents WHERE id = new.document_id),
+          (SELECT title || ' ' || aliases FROM pack_documents
+           WHERE id = new.document_id),
           new.heading,
           new.body
         );

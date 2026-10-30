@@ -1,5 +1,6 @@
 # Tsunamis (Ready.gov)
 Source: https://www.ready.gov/tsunamis
+Aliases: tsunami warning, earthquake near the ocean, water pulling back from beach, tsunami what to do, run to high ground, tsunami evacuation, after a tsunami, tsunami signs, tsunami on a boat, how high to go tsunami, big wave coming, tsunami preparation, coast earthquake, tsunami safety, ocean roaring sound
 
 ## Overview
 

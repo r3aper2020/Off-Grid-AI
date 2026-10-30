@@ -1,5 +1,6 @@
 # Backyard Recreational Fires (EPA Burn Wise)
 Source: https://www.epa.gov/burnwise/backyard-recreational-fires
+Aliases: fire pit, backyard fire, fire pit rules, can I have a backyard fire, campfire in backyard, fire pit smoke neighbors, what to burn in fire pit, burn ban, outdoor fire laws, fire pit alternatives, propane fire pit, fire pit wood, recreational fire, fire pit safety
 
 ## Overview
 The Burn Wise Program ran from 2009 to 2025. The website serves as a historic record; EPA is no longer updating program content as of October 30, 2025.

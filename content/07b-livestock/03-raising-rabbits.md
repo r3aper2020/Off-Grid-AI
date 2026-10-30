@@ -1,5 +1,6 @@
 # Raising Rabbits (USDA Farmers' Bulletin 2131, rev. 1964)
 Source: https://archive.org/download/CAT87205715/farmbul2131rev1964.pdf
+Aliases: raising rabbits for meat, how to breed rabbits, rabbit hutch plans, what to feed rabbits, rabbit nest box, when to wean rabbits, rabbit pregnant how to tell, rabbit breeding schedule, rabbit hot weather care, rabbit diseases, butchering rabbits, rabbit pelts skins, backyard rabbits, meat rabbit breeds, rabbit kindling, rabbit feed hay grain pellets, raising rabbits for food, rabbit cages, rabbit sore hocks, rabbit water in winter, how many rabbits to start
 
 ## RAISING RABBITS
 

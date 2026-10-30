@@ -1,5 +1,6 @@
 # Landslides & Debris Flow (Ready.gov)
 Source: https://www.ready.gov/landslides-debris-flow
+Aliases: landslide, mudslide, debris flow, landslide warning signs, cracks in ground hillside, doors sticking landslide, is my house in a landslide area, heavy rain hillside danger, what to do during a landslide, after a landslide, mudslide after wildfire, slope failure, hillside moving, trees tilting ground shifting, evacuate landslide, landslide safety, rumbling sound hillside
 
 ## Overview
 

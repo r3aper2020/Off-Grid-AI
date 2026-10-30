@@ -1,5 +1,6 @@
 # What to Do During a Tsunami (NWS)
 Source: https://www.weather.gov/safety/tsunami-during
+Aliases: tsunami warning what to do, tsunami coming where to go, tsunami on a boat, earthquake near coast tsunami, run to high ground, tsunami how high to go, tsunami siren, water receding from beach, tsunami alert levels, tsunami advisory vs warning, tsunami after earthquake, tsunami waves how many, when is tsunami over, tsunami evacuation, tsunami watch, tsunami at the beach, tsunami in harbor
 
 ## Overview
 

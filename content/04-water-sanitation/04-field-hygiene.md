@@ -1,5 +1,6 @@
 # Field Hygiene: Disease Prevention, Waste and Heat/Cold Injury (TC 4-02.3)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc4_02x3.pdf
+Aliases: staying clean camping, washing without a shower, how to dig a latrine, camp toilet, hand washing no running water, laundry by hand, brushing teeth in the field, foot care, mosquito bed net, garbage disposal off grid, preventing disease in camp, heat injury prevention, cold injury prevention, bugs and rodents disease, sleep deprivation, hygiene without water, outhouse digging, lice prevention, athletes foot prevention, hearing protection noise, cat hole, where to go to the bathroom camping, staying healthy in the field
 
 ## Health Threats in Military Operations: DISEASE AND NONBATTLE INJURIES
 **Chapter 1**

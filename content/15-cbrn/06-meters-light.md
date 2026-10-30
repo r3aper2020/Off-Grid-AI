@@ -1,5 +1,6 @@
 # Fallout Meters and Light (NWSS Ch. 10–11)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: fallout meter, measuring radiation at home, homemade radiation detector, KFM meter, kearny fallout meter, geiger counter, dose rate, light without electricity, homemade oil lamp, cooking oil lamp, candles in shelter, jar lamp, shelter sanitation, toilet in shelter, bucket toilet, shelter hygiene, staying clean in shelter, emergency lighting, floating wick lamp, lamp from a jar
 
 ## Chapter 10 Fallout Meters: THE CRITICAL NEED
 **Chapter 10 Fallout Meters**

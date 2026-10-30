@@ -1,5 +1,6 @@
 # Seasons, Wildlife and Environmental Hazards (ATP 3-90.96 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf
+Aliases: arctic seasons, cold region wildlife, bears in arctic, mosquitoes in arctic, black flies, dangerous animals cold regions, ice conditions, freeze up, breakup season, cold effects on body, cold weather mental effects, cold effects on equipment, fuel in extreme cold, frozen condensation gear, cold climate hazards, arctic bugs, polar bears, biting flies, sand fly deer fly bites, batteries die in cold, when is ice safe, arctic summer bugs
 
 ## SEASONS
 [Figure 1-29. Aurora borealis — diagram not included]

@@ -1,5 +1,6 @@
 # Eye Injuries (ATP 4-02.11 Ch. 10)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
+Aliases: eye injury, something in my eye, chemical in eye, flush eyes with water, cut eyelid, eye popped out, eyeball injury, cover both eyes, object stuck in eye, dont remove object from eye, eye burn, splashed bleach in eye, eye trauma first aid, blurry vision after hit to eye, foreign body in eye, eye patch
 
 ## Eye Trauma: OVERVIEW OF EYE TRAUMA
 **Chapter 10**

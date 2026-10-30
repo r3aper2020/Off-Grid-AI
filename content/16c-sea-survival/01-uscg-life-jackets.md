@@ -1,5 +1,6 @@
 # Life Jackets (PFDs) and Engine Cut-Off Switches (USCG Boater's Guide)
 Source: https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf
+Aliases: life jacket, life jacket rules, do kids need life jackets, PFD types, life vest requirements, boat safety equipment, inflatable life jacket, engine kill switch, boat cut off switch, how many life jackets on boat, life jacket for child, life jacket law, boating requirements, wearing a life jacket, storing life jackets on boat, coast guard rules
 
 ## Equipment Requirements
 The United States Coast Guard sets minimum standards for recreational vessels and associated safety equipment. To meet these standards, required equipment must be U.S. Coast Guard “approved” or “certified.” This means that the equipment meets U.S. Coast Guard specifications, standards, and regulations for performance, construction, or materials. The Coast Guard does not regulate anchors, paddles, rearview mirrors, or diver/ski flags.

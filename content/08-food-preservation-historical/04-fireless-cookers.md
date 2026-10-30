@@ -1,5 +1,6 @@
 # Homemade Fireless Cookers and Their Use (USDA Farmers' Bulletin 771, 1916)
 Source: https://archive.org/download/CAT87202338/farmbul0771.pdf
+Aliases: hay box cooking, fireless cooker, cook without fuel, retained heat cooking, make a hay box, insulated cooking box, save fuel cooking, slow cook without stove, thermal cooker diy, cooking with less firewood, how to use a hay box, wonder box cooker, cook beans with little fuel, heat retention cooking, keep food cooking after fire out, homemade slow cooker no power
 
 ## Overview
 4 FIRELESS COOKER is a device for keeping food so hot after it has been taken from the stove that the process of cooking will be continued and completed.

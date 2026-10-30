@@ -1,5 +1,6 @@
 # How to Self-Decontaminate after a Radiation Emergency
 Source: https://www.cdc.gov/radiation-emergencies/prevention/self-decontaminate.html
+Aliases: radiation exposure what to do, wash off radiation, decontaminate after radiation, remove contaminated clothes, shower after nuclear, radioactive dust on me, fallout on clothes, can I use tap water after radiation, radiation decontamination, dirty bomb what to do, how to clean off fallout, radiation emergency steps, wash hair radiation, bag contaminated clothing
 
 ## What to know
 It is important to get radioactive material off your body as soon as possible to lower your risk of harm. Removing radioactive material from a person, object, or place is called decontamination. Decontaminating yourself will lower your exposure to harmful radioactive material.

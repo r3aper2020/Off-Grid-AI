@@ -1,5 +1,6 @@
 # Visual Distress Signals: Flares, Smoke, Distress Flag and Lights (USCG Boater's Guide)
 Source: https://www.uscgboating.org/assets/1/AssetManager/Boaters-Guide-to-Federal-Requirements-for-Receational-Boats-20231108.pdf
+Aliases: flares how to use, distress signals boat, signal for help on water, orange distress flag, emergency flares expired, smoke signal boat, sos light signal, boat distress signal required, hand held flare, parachute flare, electric distress light, how to signal a passing boat, visual distress signals, flare gun, signal rescue at sea, boat emergency signals, waving arms distress, how many flares do I need, flares at night vs day
 
 ## Visual Distress Signals
 Visual Distress Signals (33 CFR 175.101/140) https://www.ecfr.gov/current/title-33/chapter-I/subchapter-S/part- 175/subpart-C?toc=1

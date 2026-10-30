@@ -1,5 +1,6 @@
 # Treating Diarrhea at Home, Including Children (NIDDK)
 Source: https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment
+Aliases: bad diarrhea, diarrhea treatment at home, my kid has diarrhea, oral rehydration, rehydration drink, imodium for diarrhea, loperamide dose, diarrhea what to eat, diarrhea dehydration signs, baby diarrhea, toddler diarrhea, stomach bug, preventing diarrhea, probiotics for diarrhea, diarrhea for days, bloody diarrhea, electrolyte drink, runny poop, upset stomach
 
 ## How can I treat acute diarrhea at home?
 In most cases, you can treat acute diarrhea at home, without medical treatment.

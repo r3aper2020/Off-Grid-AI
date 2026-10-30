@@ -1,5 +1,6 @@
 # Building Layout and Foundations (TM 3-34.47 Ch. 4)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: laying out a building, square a foundation, batter boards, 3-4-5 method, 6-8-10 method, marking building corners, foundation for a cabin, post foundation, pier foundation, wall foundation, stakes and string lines, how to square corners, building a shed foundation, footing depth, diagonal method square, staking out a house, foundation layout
 
 ## Building Layout and Foundation
 **Chapter 4**

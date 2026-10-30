@@ -1,5 +1,6 @@
 # Venomous Snakes at Work
 Source: https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html
+Aliases: venomous snakes, rattlesnake bite, copperhead snake, cottonmouth snake, water moccasin, coral snake, is this snake poisonous, snake bite what to do, snake bite first aid, snakes in the US, how to identify a venomous snake, snake bite symptoms, dont cut snake bite, avoiding snakes outdoors, snake safety while working, snake in yard, venomous snake types
 
 ## Key points
 - Venomous snakes can pose a serious risk to outdoor workers.

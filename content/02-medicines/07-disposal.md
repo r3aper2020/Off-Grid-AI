@@ -1,5 +1,6 @@
 # Disposal of Unused Medicines (FDA)
 Source: https://www.fda.gov/drugs/safe-disposal-medicines/disposal-unused-medicines-what-you-should-know
+Aliases: throwing away old medicine, how to dispose of pills, flush medicine, drug take back, getting rid of expired drugs, dispose of opioids, old prescriptions, medicine in trash, dispose of needles, unused medication, disposing medicines safely, kids and old pills
 
 ## Video: How to Safely Dispose of Unused or Expired Medicine
 Drug disposal options to consider and instructions for getting rid of unused or expired medicines

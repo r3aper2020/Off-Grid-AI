@@ -1,5 +1,6 @@
 # Beef Slaughtering, Cutting, and Cooking on the Farm (USDA Farmers' Bulletin 2263, 1977)
 Source: https://www.gutenberg.org/ebooks/62848
+Aliases: butchering a cow, slaughtering cattle, how to kill a cow, skinning a cow, gutting a cow, hanging beef, aging beef, cutting up a beef carcass, beef cuts, sharpening knives, freezing beef, wrapping meat for freezer, ground beef at home, cooking beef cuts, cooking organ meat, chilling a carcass, home butchering beef, splitting a carcass, meat yield from steer
 
 ## SELECTION AND CARE OF ANIMAL BEFORE SLAUGHTER
 

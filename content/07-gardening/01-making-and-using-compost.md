@@ -1,5 +1,6 @@
 # Making and Using Compost (USDA Agriculture Fact Sheet 4-5-1, 1980)
 Source: https://archive.org/download/IND80100392/IND80100392.pdf
+Aliases: how to compost, composting at home, compost pile, what can I compost, compost bin, compost ingredients, kitchen scraps compost, manure compost, compost smells, how long to compost, turning compost, using compost in garden, making fertilizer, leaves and grass compost, compost heap, what not to compost, compost ratio
 
 ## What is Compost?
 

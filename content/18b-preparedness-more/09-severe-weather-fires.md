@@ -1,5 +1,6 @@
 # Fire Hazards During and After Severe Weather (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/
+Aliases: fire after storm, generator fire, downed power lines fire, candles during outage, storm fire hazards, flooded electrical fire, lightning fire, hurricane fire hazards, gas leak after storm, generator carbon monoxide, portable heater storm, power restored fire, fire risk after hurricane, outage candles safety
 
 ## Overview
 Severe weather can happen at any time, in any part of the country. That's why it's important for your community to be ready for severe weather events and to understand the fire risks that can come with them.

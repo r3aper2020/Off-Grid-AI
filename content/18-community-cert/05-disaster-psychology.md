@@ -1,5 +1,6 @@
 # Disaster Psychology (CERT Basic Training, Unit 5)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: stress after disaster, trauma reactions, helping someone in shock, what to say to a disaster survivor, what not to say, emotional support after disaster, disaster mental health, feeling numb after disaster, responder stress, self care in a crisis, dealing with death scene, listen protect connect, panic after disaster, fight flight freeze, coping after a disaster, helping kids after disaster, crisis listening
 
 ## SECTION 1: UNIT 5 OVERVIEW
 CERT volunteers encounter things during a disaster that are unpleasant and uncomfortable. In responding to both natural disasters and acts of violence, CERT volunteers must be prepared to deal with the psychological effects of the trauma. These may include fear, anger, intense sadness, frustration, and traumatic grief. Survivors and CERT volunteers alike are at risk for experiencing these psychological effects.

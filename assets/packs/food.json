@@ -4,7 +4,7 @@
  "id": "food",
  "title": "Food Safety & Emergency Food",
  "category": "guide",
- "version": "2026.10.29.2",
+ "version": "2026.10.30.1",
  "publisher": "CDC and Ready.gov (FEMA)",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Keeping food safe after power outages and floods, and stocking emergency food.",
@@ -32,19 +32,11 @@
     },
     {
      "heading": "Steps to take after a power outage",
-     "body": "- Never taste food to know if it is safe to eat. When in doubt, throw it out.\n- Throw out perishable food in your refrigerator (meat, fish, cut fruits and vegetables, eggs, milk, and leftovers) after 4 hours without power or without a cold source like ice. Throw out any food with an unusual smell, color, or texture.\n- If you have an appliance thermometer in your refrigerator, check to see if it is still at 40 °F or below.\n- Check temperatures of food kept in coolers or your refrigerator with an added cold source. Throw out food that has thawed or is above 40°.\n- You can safely refreeze or cook thawed frozen food that still contains ice crystals or is at 40 °F or below."
-    },
-    {
-     "heading": "Steps to take after a power outage: Resource",
-     "body": "Check this FoodSafety.gov chart for a list of what foods you should throw out and foods you can refreeze."
+     "body": "- Never taste food to know if it is safe to eat. When in doubt, throw it out.\n- Throw out perishable food in your refrigerator (meat, fish, cut fruits and vegetables, eggs, milk, and leftovers) after 4 hours without power or without a cold source like ice. Throw out any food with an unusual smell, color, or texture.\n- If you have an appliance thermometer in your refrigerator, check to see if it is still at 40 °F or below.\n- Check temperatures of food kept in coolers or your refrigerator with an added cold source. Throw out food that has thawed or is above 40°.\n- You can safely refreeze or cook thawed frozen food that still contains ice crystals or is at 40 °F or below.\n\n**Steps to take after a power outage: Resource**\n\nCheck this FoodSafety.gov chart for a list of what foods you should throw out and foods you can refreeze."
     },
     {
      "heading": "Steps to take after a flood: Throw away these foods",
-     "body": "- Perishable food that has not been refrigerated or frozen properly due to power outages\n- Food that may have come in contact with floodwater or stormwater\n- Food with an unusual smell, color, or texture\n- Food in packages that are not waterproof\n- Food in cardboard containers, including juice/milk/baby formula boxes\n- Food containers with screw caps, snap lids, crimped caps, twist caps, flip tops, and snap tops\n- Home-canned foods and canned foods or food containers that are bulging, open, or damaged\n- Throw out cans or food containers that spurt liquid or foam when you open them or contain food that is discolored, moldy, or smells bad"
-    },
-    {
-     "heading": "Steps to take after a flood: When in doubt, throw it out!",
-     "body": "Unsafe food can make you sick even if it looks and smells normal."
+     "body": "- Perishable food that has not been refrigerated or frozen properly due to power outages\n- Food that may have come in contact with floodwater or stormwater\n- Food with an unusual smell, color, or texture\n- Food in packages that are not waterproof\n- Food in cardboard containers, including juice/milk/baby formula boxes\n- Food containers with screw caps, snap lids, crimped caps, twist caps, flip tops, and snap tops\n- Home-canned foods and canned foods or food containers that are bulging, open, or damaged\n- Throw out cans or food containers that spurt liquid or foam when you open them or contain food that is discolored, moldy, or smells bad\n\n**Steps to take after a flood: When in doubt, throw it out!**\n\nUnsafe food can make you sick even if it looks and smells normal."
     },
     {
      "heading": "Steps to take after a flood: Clean and sanitize food-contact surfaces that have been flooded",
@@ -52,18 +44,15 @@
     },
     {
      "heading": "Steps to take after a flood: Steps to take",
-     "body": "- Wash\n- Wash with hot, soapy water.\n- Rinse\n- Rinse with clean, safe water.\n- Sanitize\n- Make a solution of 1 cup (8 oz/240 mL) of unscented household chlorine bleach in 5 gallons of clean water. Soak items for 1 minute in the beach solution (solution should completely cover the items). For items that you can't put in the solution (like countertops), apply solution with a cloth.\n- Dry\n- Allow to air dry."
-    },
-    {
-     "heading": "Steps to take after a flood: How to save commercially prepared food",
-     "body": "This includes food in cans, plastic, or metal pouches (like flexible, shelf stable juice packages)."
+     "body": "- Wash\n- Wash with hot, soapy water.\n- Rinse\n- Rinse with clean, safe water.\n- Sanitize\n- Make a solution of 1 cup (8 oz/240 mL) of unscented household chlorine bleach in 5 gallons of clean water. Soak items for 1 minute in the beach solution (solution should completely cover the items). For items that you can't put in the solution (like countertops), apply solution with a cloth.\n- Dry\n- Allow to air dry.\n\n**Steps to take after a flood: How to save commercially prepared food**\n\nThis includes food in cans, plastic, or metal pouches (like flexible, shelf stable juice packages)."
     },
     {
      "heading": "Steps to take after a flood: Steps to take",
      "body": "- Remove labels\n- Remove labels if possible. Note the expiration date.\n- Wipe away dirt\n- Brush or wipe away dirt or silt.\n- Wash\n- Wash cans and pouches with hot, soapy water.\n- Rinse\n- Rinse cans and pouches with clean, safe water.\n- Sanitize\n- Sanitize cans and pouches in one of two ways: Place them in a solution of 1 cup (8 oz/240 mL) of unscented household bleach in 5 gallons of water for 15 minutes, OR put them in a pot of water, bring to a boil, and continue boiling for 2 minutes.\n- Re-label\n- Re-label cans or pouches with a marker. Include the expiration date.\n- Use\n- Use food in cans or pouches as soon as possible."
     }
    ],
-   "sourceUrl": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+   "sourceUrl": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+   "aliases": "power out how long is food good, is my food safe after power outage, fridge without power, freezer without power, when to throw out food, food after flood, flooded food what to keep, canned food got wet, food safety after hurricane, keep fridge closed, dry ice for freezer, food in fridge 4 hours, sanitize cans after flood, throw out thawed meat, when in doubt throw it out, refreezing thawed food"
   },
   {
    "title": "Food",
@@ -97,7 +86,8 @@
      "body": "- Keep the refrigerator and freezer doors closed as much as possible.\n- The refrigerator will keep food cold for about four hours if it is unopened.\n- Refrigerated or frozen foods should be kept at 40 degrees Fahrenheit or below for proper food storage.\n- Use a refrigerator thermometer to check temperature.\n- Refrigerated food should be safe as long as the power was out for no more than four hours.\n- Discard any perishable food such as meat, poultry, fish, eggs or leftovers that have been above 40 degrees Fahrenheit for two hours or more.\n\nUsing Dry Ice:\n\n- Know where you can get dry ice prior to a power outage.\n- Twenty-five pounds of dry ice will keep a 10 cubic foot freezer below freezing for three to four days.\n- If you use dry ice to keep your food cold, make sure it does not come in direct contact with the food.\n- Use care when handling dry ice. Wear dry, heavy gloves to avoid injury.\n\nFor more information about food safety during an emergency visit FoodSafety.gov.\n\nReturn to top"
     }
    ],
-   "sourceUrl": "https://www.ready.gov/food"
+   "sourceUrl": "https://www.ready.gov/food",
+   "aliases": "emergency food supply, what food to stock up, power out how long is food good, fridge without power, freezer without power how long, food storage list, cooking without power, non perishable food list, is food safe after outage, canned food emergency, food safety after flood, throw out food after power outage, dry ice for freezer, cooking during blackout, food for 3 days emergency, stockpile food, long shelf life foods, when in doubt throw it out, keep fridge closed outage, emergency cooking indoors"
   }
  ]
 }

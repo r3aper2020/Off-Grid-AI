@@ -1,5 +1,6 @@
 # Wood Smoke and Your Health (EPA Burn Wise)
 Source: https://www.epa.gov/burnwise/wood-smoke-and-your-health
+Aliases: wood smoke health, is wood smoke bad, smoke from wood stove, wood smoke asthma, smoke in house, wood smoke kids, fireplace smoke lungs, wood stove air quality, breathing wood smoke, smoke and elderly, wood smoke pollution, coughing from wood smoke, wood smoke heart, campfire smoke health
 
 ## Overview
 The Burn Wise Program ran from 2009 to 2025. The website serves as a historic record; EPA is no longer updating program content as of October 30, 2025.

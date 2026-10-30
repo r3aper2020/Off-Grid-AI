@@ -1,5 +1,6 @@
 # Fire (ATP 3-50.21 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf
+Aliases: how to start a fire, start a fire without matches, build a campfire, fire without a lighter, fire with a battery, fire with a magnifying glass, bow drill, hand drill fire, flint and steel, ferro rod, metal match, fire plow, tinder, what to use as tinder, kindling, fire lays, teepee fire, log cabin fire, lean to fire, fire in the rain, fire reflector, keeping a fire going, carry fire fire bundle, campfire basics, fire starting methods
 
 ## Fire
 **Chapter 5**

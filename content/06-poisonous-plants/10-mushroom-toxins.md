@@ -1,5 +1,6 @@
 # Mushroom Toxins (FDA Bad Bug Book, 2nd ed., 2012)
 Source: https://www.fda.gov/media/83271/download
+Aliases: poisonous mushrooms, ate a wild mushroom, mushroom poisoning symptoms, death cap, amanita poisoning, deadly mushrooms, mushroom poisoning liver, mushroom lookalikes, is this mushroom safe to eat, mushroom poisoning how long, vomiting after eating mushrooms, hallucinogenic mushroom poisoning, mushrooms and alcohol reaction, muscarine poisoning, foraging mushrooms danger, wild mushrooms safe, kid ate a mushroom in yard, mushroom identification mistakes
 
 ## Bad Bug Book Foodborne Pathogenic Microorganisms and Natural Toxins ____________________
 Mushroom toxins: Amanitin, Gyromitrin, Orellanine,

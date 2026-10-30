@@ -1,5 +1,6 @@
 # Make A Plan
 Source: https://www.ready.gov/plan
+Aliases: family emergency plan, make a plan, emergency contact list, where to meet family, out of town contact, emergency plan template, family communication plan, practice emergency plan, household emergency plan, plan for kids pets elderly, what to include in emergency plan, how to make a disaster plan, evacuation plan family, meeting place, how will my family find each other, write down emergency plan, family drill
 
 ## Overview
 Make a plan today! Your family may not be together if a disaster strikes, so it is important to know which types of disasters could affect your area. Know how you’ll contact one another and reconnect if separated. Establish a family meeting place that’s familiar and easy to find.

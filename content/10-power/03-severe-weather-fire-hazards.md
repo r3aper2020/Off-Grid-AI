@@ -1,5 +1,6 @@
 # Fire Hazards During Severe Weather: Generators, Downed Lines and Outages (U.S. Fire Administration)
 Source: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/severe-weather/
+Aliases: generator safety, generator in garage, downed power lines, candles during power outage, fire during storm, generator carbon monoxide, generator placement, extension cord generator, flooded electrical, power lines in water, storm fire hazards, lightning fire, gas leak after storm, portable heater fire, outage fire safety
 
 ## Overview
 Severe weather can happen at any time, in any part of the country. That's why it's important for your community to be ready for severe weather events and to understand the fire risks that can come with them.

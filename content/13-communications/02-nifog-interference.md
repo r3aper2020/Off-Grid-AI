@@ -1,5 +1,6 @@
 # Radio Interference Management (CISA NIFOG v2.02)
 Source: https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf
+Aliases: radio interference, radio static, cant hear on radio, someone jamming radio, radio noise, interference from electronics, radio squelch, reduce radio interference, radio not receiving, intermod interference, radio garbled, radio jamming, interference fix, radio interference sources, bad radio reception
 
 ## Radio Frequency (RF) Interference
 **Interference Management**

@@ -1,5 +1,6 @@
 # What Is Drought? (NWS)
 Source: https://www.weather.gov/safety/drought
+Aliases: what is drought, drought explained, types of drought, meteorological drought, agricultural drought, hydrological drought, no rain for months, dry season water shortage, drought definition, drought conditions, how drought is measured, drought and crops, drought and water supply, long dry spell, socioeconomic drought
 
 ## Overview
 

@@ -1,5 +1,6 @@
 # Face Masks, Surgical Masks and N95 Respirators (FDA)
 Source: https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-face-masks-and-barrier-face-coverings
+Aliases: N95 mask, which mask is best, surgical mask vs N95, cloth mask, face covering, mask for smoke, mask for dust, respirator mask, KN95 mask, do masks work, mask for wildfire smoke, mask for sick person, mask fit, reuse N95, masks for ash, breathing protection, mask for virus
 
 ## Overview
 

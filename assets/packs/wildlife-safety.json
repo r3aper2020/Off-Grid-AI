@@ -4,7 +4,7 @@
  "id": "wildlife-safety",
  "title": "Bear Safety",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "National Park Service",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Avoiding bear encounters, what to do when a bear notices you, responding to brown/grizzly versus black bear attacks, and bear pepper spray.",
@@ -35,7 +35,8 @@
      "body": "Bear pepper spray can be an important thing to carry when exploring the back country. It is used defensively to stop an aggressive, charging, or attacking bear. Although it’s used in the same manner you would use mace on an attacking person, bear pepper spray and human pepper spray are not the same. Make sure you select an EPA approved product that is specifically designed to stop aggressive bears. It is not a repellent so do not apply to your body or equipment. Check with your national park to see if bear pepper spray is recommended or allowed for the activities you have planned. Learn more about using bear pepper spray in this introductory video.\n\nBear spray is proven to be highly successful at stopping aggressive behavior in bears. Bear Management Biologist Kerry Gunther walks through the steps to deploy bear spray."
     }
    ],
-   "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm"
+   "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm",
+   "aliases": "bear safety, I see a bear what to do, bear attack, bear spray, grizzly vs black bear attack, play dead bear, bear encounter, hiking in bear country, bear charging me, bear in camp, how to avoid bears, bear spray how to use, bear at campsite, fight back bear, make noise bears, bear in my yard"
   }
  ]
 }

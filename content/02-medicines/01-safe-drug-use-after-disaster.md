@@ -1,5 +1,6 @@
 # Safe Drug Use After a Natural Disaster (FDA)
 Source: https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster
+Aliases: are my pills still good after flood, medicine got wet, insulin without fridge, medicine left in heat, refrigerated medication power out, flood water touched medication, pills after disaster, medication storage emergency, drugs exposed to heat, can I take damp pills, mixing medicine with water after flood, prescription after hurricane, lifesaving medicine contaminated, keep medicines safe, insulin power outage, medicine in hot car
 
 ## Before a Natural Disaster
 An emergency plan is especially important if you have health concerns, particularly if the power goes out. Taking precautions for storing medicines and supplies is key to being prepared. You should:

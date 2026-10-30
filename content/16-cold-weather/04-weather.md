@@ -1,5 +1,6 @@
 # Arctic Weather: Temperature, Wind, Light and Precipitation (ATP 3-90.96 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46141-ATP_3-90.96-002-WEB-5.pdf
+Aliases: wind chill, how cold is too cold, whiteout conditions, blizzard conditions, ground blizzard, freezing rain, snow blindness, flat light, cold temperature zones, arctic weather, ice fog, temperature inversion, chinook wind, extreme cold, how wind makes cold worse, sunburn in snow, winter weather dangers, polar weather, ice on gear
 
 ## Overview
 1-86. Astronavigation (navigation by the stars) can be used to verify electronic or compass navigation, especially during long periods of darkness. Well-trained personnel can also use astronavigation as a reliable primary means of navigation.

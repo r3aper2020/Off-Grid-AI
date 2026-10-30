@@ -1,5 +1,6 @@
 # Homemade Fallout Meter, the KFM (NWSS App. C)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: homemade radiation detector, kfm fallout meter, make a geiger counter at home, measure radiation without meter, kearny fallout meter, diy radiation meter, build a dosimeter, how to measure fallout, radiation meter from tin can, aluminum foil radiation meter, detect fallout radiation, dose rate measurement, homemade dosimeter, radiation detector instructions, is it safe to go outside radiation, how much radiation outside, measure fallout with household items
 
 ## HOW TO MAKE AND USE IT: FOLLOWING THESE INSTRUCTIONS MAY SAVE YOUR LIFE
 **APPENDIX C**

@@ -1,5 +1,6 @@
 # Water Heaters (TM 3-34.70 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x70.pdf
+Aliases: water heater how it works, gas water heater, electric water heater, no hot water, water heater pilot light, heating water with wood stove, heat water off grid, range boiler, water heater pressure relief valve, water heater explosion danger, oil fired water heater, side arm heater, water heater sizes, hot water in field camp, water heater safety, immersion heater, heating water without electricity, water heater leaking, hot water from furnace coil
 
 ## Water Heaters
 **Chapter 5**

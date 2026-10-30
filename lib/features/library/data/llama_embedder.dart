@@ -7,7 +7,7 @@ import 'package:llamadart/llamadart.dart' as llama;
 import '../domain/passage_vectors.dart';
 import '../domain/text_embedder.dart';
 
-/// [TextEmbedder] running the bundled bge-small-en-v1.5 model (MIT, 37 MB)
+/// [TextEmbedder] running the bundled bge-base-en-v1.5 model (MIT, 118 MB)
 /// through llama.cpp. The model ships inside the app, so semantic search
 /// works offline from the first launch; it is copied out of the bundle
 /// once (llama.cpp needs a file path) and loaded on the first question.
@@ -27,8 +27,8 @@ class LlamaTextEmbedder implements TextEmbedder {
   final AssetBundle _bundle;
   final File? _modelFile;
 
-  static const asset = 'assets/models/bge-small-en-v1.5-q8_0.gguf';
-  static const sizeBytes = 36685152;
+  static const asset = 'assets/models/bge-base-en-v1.5-q8_0.gguf';
+  static const sizeBytes = 117974304;
 
   Future<llama.LlamaEngine?>? _engine;
 
@@ -71,7 +71,7 @@ class LlamaTextEmbedder implements TextEmbedder {
   /// Shared with the vector build tool so passages and questions are
   /// embedded identically. CPU only: GPU backends gave vectors that varied
   /// from call to call (cosine 0.7 for the same text on macOS Metal), and
-  /// the model is small enough that the CPU takes milliseconds.
+  /// the model is small enough that the CPU takes well under a second.
   static llama.ModelParams get params => llama.ModelParams(
     contextSize: 512,
     device: llama.ComputeDevice.cpu,

@@ -4,7 +4,7 @@
  "id": "vulnerable-groups",
  "title": "Older Adults, Disabilities, Dialysis & Pets",
  "category": "guide",
- "version": "2026.10.29.5",
+ "version": "2026.10.30.1",
  "publisher": "Ready.gov (FEMA) and Centers for Medicare & Medicaid Services",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Emergency planning for older adults, people with disabilities and pet owners, and what people on dialysis should do when they cannot get treatment. The dialysis emergency diet menus, shopping list and water-disinfection table are not included.",
@@ -15,12 +15,8 @@
    "title": "Older Adults (Ready.gov)",
    "sections": [
     {
-     "heading": "Overview",
-     "body": "As an older adult, you may have specific needs after a disaster. Use the information on this page to assess your needs and take simple, low-cost steps that help you get better prepared."
-    },
-    {
      "heading": "Take Control in 1, 2, 3",
-     "body": "The Disaster Preparedness Guide for Older Adults is intended to support older adults and their caregivers in preparing in three easy steps: assess your needs, create a plan and engage your network. The guide provides easy-to-read, user-friendly worksheets that walk individuals and caregivers through a self-assessment to identify specific needs and checklists that create a personalized plan.\n\nFirst, know your risk. Then, understand your needs during emergencies. This section guides you through a self-assessment process to identify your specific needs so that you can create a personalized emergency plan.\n\nDevelop a comprehensive emergency plan and emergency preparedness kit tailored to your unique needs. This section ensures you are well prepared to respond to various emergency scenarios.\n\nBuild a strong support network and include them in your emergency planning. This section provides recommendations for how you can engage your family, friends, caregivers, neighbors, fellow congregants from your place of worship, and others who can assist you during an emergency."
+     "body": "**Overview**\n\nAs an older adult, you may have specific needs after a disaster. Use the information on this page to assess your needs and take simple, low-cost steps that help you get better prepared.\n\nThe Disaster Preparedness Guide for Older Adults is intended to support older adults and their caregivers in preparing in three easy steps: assess your needs, create a plan and engage your network. The guide provides easy-to-read, user-friendly worksheets that walk individuals and caregivers through a self-assessment to identify specific needs and checklists that create a personalized plan.\n\nFirst, know your risk. Then, understand your needs during emergencies. This section guides you through a self-assessment process to identify your specific needs so that you can create a personalized emergency plan.\n\nDevelop a comprehensive emergency plan and emergency preparedness kit tailored to your unique needs. This section ensures you are well prepared to respond to various emergency scenarios.\n\nBuild a strong support network and include them in your emergency planning. This section provides recommendations for how you can engage your family, friends, caregivers, neighbors, fellow congregants from your place of worship, and others who can assist you during an emergency."
     },
     {
      "heading": "Get Prepared",
@@ -39,7 +35,8 @@
      "body": "A disaster can disrupt mail service for days or weeks. If you depend on Social Security or other regular benefits, switching to electronic payments is a simple, important way to protect yourself financially before disaster strikes. It also eliminates the risk of stolen checks. The U.S. Department of the Treasury recommends two safer ways to get federal benefits:\n\n- Direct deposit to a checking or savings account. If you get federal benefits you can sign up by calling 800-333-1795 or sign up online.\n- The Direct Express® prepaid debit card is designed as a safe and easy alternative to paper."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/older-adults"
+   "sourceUrl": "https://www.ready.gov/older-adults",
+   "aliases": "emergency plan for elderly, seniors disaster preparedness, elderly parent emergency, medication list elderly, older adults emergency kit, mobility emergency plan, support network elderly, social security direct deposit, prepare grandparents disaster, elderly evacuation, seniors emergency, caregiver emergency plan, elderly living alone emergency, hearing aids glasses emergency kit, benefits during disaster, elderly medical equipment power"
   },
   {
    "title": "People with Disabilities (Ready.gov)",
@@ -101,7 +98,8 @@
      "body": "People with disabilities, access and functional needs, and older adults may be at increased risk to extreme heat. For example:\n\n- People with spinal cord injuries are at higher risk during extreme heat because they may not be able to cool their body through sweating.\n- People with severe mental health conditions, including schizophrenia, are at risk because their medications may interfere with the body’s ability to cool itself.\n- People with cognitive, intellectual or developmental disabilities, including Alzheimer’s disease and dementia, are at risk because they may have trouble understanding and explaining how the heat affects them. This could prevent them from taking protective actions. It’s important to know that a person’s ability to perceive and communicate physical discomfort may vary with the stage of dementia or disease.\n\nIt is important to plan ahead, take precautions, have support, and be aware of the symptoms of heat exposure. Keep these tips in mind during extreme heat:\n\n- If you have a support network - caregivers, family and friends – ask them to help monitor and address your heat-related needs; have them check in with you regularly to ensure you are safe and healthy.\n- Read the side effects of medications and talk with your doctor about how heat exposure will interact with them.\n- Take a cool shower, bath or sponge bath to cool the body if you are experiencing heat exhaustion or heat stroke.\n- Ask your local energy utility for priority access in the event of power loss because power restoration is life-sustaining for someone in the home.\n- Monitor your local weather and emergency information alerts.\n- Have a plan that includes shade, hydration, sun protection, and limiting exposure time if you’re going to be outdoors.\n- Identify possible locations with air-conditioning and ensure needed accommodations ahead of time. This could include someone in your support network with air conditioning.\n- Coordinate accessible transportation to/from cooling options.\n- People with medical needs who can’t be accommodated at conventional cooling options may have to contact local hospitals or nursing homes to create contingency plans if they can’t stay at home."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/people-disabilities"
+   "sourceUrl": "https://www.ready.gov/people-disabilities",
+   "aliases": "disability emergency plan, wheelchair user emergency, deaf emergency alerts, blind emergency kit, hard of hearing disaster, mobility disability evacuation, alzheimers emergency planning, dementia wandering disaster, intellectual disability emergency, speech disability emergency, medications in emergency kit, benefits direct deposit emergency, emergency kit for disabilities, special needs emergency plan, service animal emergency, people with disabilities heat, support network emergency, accessible evacuation, disability build a kit, medical equipment kit"
   },
   {
    "title": "Pets and Animals (Ready.gov)",
@@ -131,7 +129,8 @@
      "body": "Being prepared and staying informed of current conditions. Here are some ways you can stay informed:\n\n- Pay attention to wireless emergency alerts for local alerts and warnings sent by state and local public safety officials.\n- Listen to local officials when told to evacuate or shelter in place.\n- Download the FEMA app and get weather alerts from the National Weather Service, for up to five different locations anywhere in the United States.\n- Always bring pets indoors at the first sign or warning of a storm or disaster."
     }
    ],
-   "sourceUrl": "https://www.ready.gov/pets"
+   "sourceUrl": "https://www.ready.gov/pets",
+   "aliases": "pets in emergency, evacuating with pets, pet emergency kit, pet go bag, dog disaster plan, cat disaster plan, pets and evacuation, pet carrier, pet shelter during disaster, horses in emergency, livestock evacuation, pet food supply, pet medications, lost pet after disaster, pets travel emergency, large animals disaster, pet ID tags, microchip pet"
   },
   {
    "title": "Getting Ready: A Guide for People on Dialysis (CMS)",
@@ -157,7 +156,8 @@
      "body": "□ Bottled or distilled water\n\n□ Small radio with batteries or a hand crank\n\n□ Flashlights and batteries\n\n□ First-aid kit\n\n□ Hand sanitizer\n\n□ Plain, unscented household chlorine bleach (How to Disinfect Water, page 27)\n\n□ Cell phone and charger\n\n□ Measuring cups, teaspoons, and tablespoons\n\n□ Manual can opener\n\n□ Cash\n\n□ Walking shoes and a change of clothes\n\n□ Food and water for your pets (if you have pets)\n\n□ Personal Information Form and Medical Supplies Checklist"
     }
    ],
-   "sourceUrl": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf"
+   "sourceUrl": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf",
+   "aliases": "dialysis emergency plan, dialysis during disaster, missed dialysis what to do, dialysis go kit, emergency diet for kidney failure, kidney patient disaster, dialysis center closed, 3 day emergency diet, dialysis evacuation, backup dialysis center, kidney disease emergency, dialysis supplies list, dialysis patient prep, what to eat if dialysis missed, renal diet shopping list"
   },
   {
    "title": "Medical ID and the Emergency Diet Plan: A Guide for People on Dialysis (CMS)",
@@ -168,14 +168,11 @@
     },
     {
      "heading": "3- Day Emergency Diet Plan",
-     "body": "Hemodialysis takes some of the water and wastes out of your blood. Waste and water build up between treatments. When you get three or more treatments a week, this build-up should not cause a problem. When you can’t get a treatment, the extra water and waste in your body can cause problems. When you can’t get your treatments, you will need to follow a special, strict diet to limit buildup of water, protein wastes, and potassium.\n\nThe 3-Day Emergency Diet Plan will help you follow an emergency diet. This diet does not take the place of dialysis, but you can reduce the waste that builds up in your blood if you follow the plan and change what you eat. This may save your life. Review the plan with your facility dietitian to see if you need to make changes based on your own personal needs. Ask questions before an emergency. If you are on peritoneal dialysis and can’t do your treatments, this diet may apply to you, too.\n\nIn an emergency or disaster situation, you should do everything you can to get your regular dialysis treatments. If you miss one or more treatments, follow the 3-Day Emergency Diet Plan until you can get treatment. You should always try to get dialysis within three days of your last treatment.\n\nThe best way to get ready for an emergency is to plan before one happens. Collect the foods on the 3-Day Emergency Diet Shopping List. Keep them someplace close in your home so you can get your emergency food easily. The list allows for six days of food and water so the 3-Day Emergency Diet can be repeated a second time if needed.\n\nIn an emergency situation, eat fresh foods first, while you have them. If you have diabetes, avoid the sweets in this plan. But do have some high sugar foods like hard candies on hand in case your sugar is low."
-    },
-    {
-     "heading": "Pediatric Dialysis Diet Plan",
-     "body": "Talk to your doctor and dietitian about what to feed infants, children, and teens who are on dialysis. Children’s food will need to be adjusted for their age and weight."
+     "body": "Hemodialysis takes some of the water and wastes out of your blood. Waste and water build up between treatments. When you get three or more treatments a week, this build-up should not cause a problem. When you can’t get a treatment, the extra water and waste in your body can cause problems. When you can’t get your treatments, you will need to follow a special, strict diet to limit buildup of water, protein wastes, and potassium.\n\nThe 3-Day Emergency Diet Plan will help you follow an emergency diet. This diet does not take the place of dialysis, but you can reduce the waste that builds up in your blood if you follow the plan and change what you eat. This may save your life. Review the plan with your facility dietitian to see if you need to make changes based on your own personal needs. Ask questions before an emergency. If you are on peritoneal dialysis and can’t do your treatments, this diet may apply to you, too.\n\nIn an emergency or disaster situation, you should do everything you can to get your regular dialysis treatments. If you miss one or more treatments, follow the 3-Day Emergency Diet Plan until you can get treatment. You should always try to get dialysis within three days of your last treatment.\n\nThe best way to get ready for an emergency is to plan before one happens. Collect the foods on the 3-Day Emergency Diet Shopping List. Keep them someplace close in your home so you can get your emergency food easily. The list allows for six days of food and water so the 3-Day Emergency Diet can be repeated a second time if needed.\n\nIn an emergency situation, eat fresh foods first, while you have them. If you have diabetes, avoid the sweets in this plan. But do have some high sugar foods like hard candies on hand in case your sugar is low.\n\n**Pediatric Dialysis Diet Plan**\n\nTalk to your doctor and dietitian about what to feed infants, children, and teens who are on dialysis. Children’s food will need to be adjusted for their age and weight."
     }
    ],
-   "sourceUrl": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf"
+   "sourceUrl": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf",
+   "aliases": "dialysis emergency diet, missed dialysis what to eat, kidney failure emergency food, medical id bracelet, dialysis patient disaster, 3 day emergency diet, cant get to dialysis, kidney diet emergency, child dialysis emergency, medical alert jewelry, low potassium emergency foods, renal diet disaster, dialysis preparedness, what should a dialysis patient eat, limit fluids missed dialysis, kidney patient food supply"
   },
   {
    "title": "When You Can't Get Dialysis, Sheltering and Evacuating: A Guide for People on Dialysis (CMS)",
@@ -198,11 +195,7 @@
     },
     {
      "heading": "Care of Your Access in an Emergency",
-     "body": "Once you are off of your machine, wait for someone in charge to tell you where to go. This could be a dialysis facility staff member or a paramedic, police officer, or fire fighter. Do not stop to pull out your needles until you have been checked by staff, or you are sure that you are out of\n\n**DANGER:** Be careful! Do not let someone who does not know you touch or inject something into your access. Healthcare workers who are not familiar with dialysis may not know what a fistula, graft, or catheter is, and could harm you."
-    },
-    {
-     "heading": "Medicare",
-     "body": "**To Learn More**\n\n- 1-800-MEDICARE (1-800-633-4227)\n\n- TTY: 1-877-486-2048\n\n- Medicare Website: www.medicare.gov"
+     "body": "Once you are off of your machine, wait for someone in charge to tell you where to go. This could be a dialysis facility staff member or a paramedic, police officer, or fire fighter. Do not stop to pull out your needles until you have been checked by staff, or you are sure that you are out of\n\n**DANGER:** Be careful! Do not let someone who does not know you touch or inject something into your access. Healthcare workers who are not familiar with dialysis may not know what a fistula, graft, or catheter is, and could harm you.\n\n**Medicare**\n\n**To Learn More**\n\n- 1-800-MEDICARE (1-800-633-4227)\n\n- TTY: 1-877-486-2048\n\n- Medicare Website: www.medicare.gov"
     },
     {
      "heading": "Dialysis facilities",
@@ -210,11 +203,7 @@
     },
     {
      "heading": "For More Information on Making an Emergency Plan",
-     "body": "This booklet highlights the most important items specifically needed for a dialysis patient. You can make personal emergency plans that are specific for your situation and include more details.\n\nThe following websites for the Kidney Health Analytics & Responsive Emergency Support (KHARES), Ready.gov, and the American Red Cross can help you plan in depth for an emergency."
-    },
-    {
-     "heading": "Kidney Health Analytics & Responsive Emergency Support (KHARES)",
-     "body": "Access resources for patients, providers, and other stakeholders that are geared toward preparing the dialysis community for emergencies and disasters.\n\n- KHARES"
+     "body": "This booklet highlights the most important items specifically needed for a dialysis patient. You can make personal emergency plans that are specific for your situation and include more details.\n\nThe following websites for the Kidney Health Analytics & Responsive Emergency Support (KHARES), Ready.gov, and the American Red Cross can help you plan in depth for an emergency.\n\n**Kidney Health Analytics & Responsive Emergency Support (KHARES)**\n\nAccess resources for patients, providers, and other stakeholders that are geared toward preparing the dialysis community for emergencies and disasters.\n\n- KHARES"
     },
     {
      "heading": "Ready.gov",
@@ -225,7 +214,8 @@
      "body": "This website can help you connect with family and household members in an emergency. Be sure they know where to look!\n\n- English:\n\n- Español:\n\no www.redcross.org/safeandwell o www.redcross.org\n\no https://www.redcross.org/cruz-roja/obtener-ayuda/contactar-y-ubicar-a-los-\n\nseres-queridos.html\n\no www.redcross.org/cruz-roja"
     }
    ],
-   "sourceUrl": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf"
+   "sourceUrl": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf",
+   "aliases": "dialysis in an emergency, cant get to dialysis, dialysis center closed, missed dialysis what to do, dialysis diet emergency, kidney patient disaster, how to stop dialysis machine emergency, disconnect from dialysis, home dialysis power outage, dialysis access care, protect fistula emergency, evacuating on dialysis, dialysis patient shelter, renal diet when stuck at home, kidney failure no dialysis, dialysis emergency plan, finding dialysis after evacuation, medicare dialysis emergency"
   }
  ]
 }

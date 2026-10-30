@@ -1,5 +1,6 @@
 # The Soil and Its Preparation (F. F. Rockwell, Home Vegetable Gardening, 1911)
 Source: https://www.gutenberg.org/ebooks/7123
+Aliases: preparing garden soil, plowing a field, harrowing soil, tilling the garden, soil types for vegetables, breaking new ground, turning over soil, clay soil garden, sandy soil garden, improving soil, raking soil fine, digging a garden bed, soil for vegetable garden, when to plow, garden soil prep, old fashioned gardening
 
 ## The Soil And Its Preparation
 Having considered, as thoroughly as the limited space available permitted, the matter of plant foods, we must proceed to the equally important one of how properly to set the table, on or rather in, which they must be placed, before the plants can use them.

@@ -1,5 +1,6 @@
 # Lifting and Moving Equipment (TM 3-34.86 Ch. 5)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tm3_34x86.pdf
+Aliases: lifting heavy objects, moving heavy things by hand, gin pole, tripod hoist, shear legs, derrick crane, hoisting without a crane, using a jack, hydraulic jack, screw jack, moving on rollers, moving on skids, raising a heavy beam, lift a log, rigging a tripod, lifting with rope, homemade crane, move a boulder, lever and rollers, lifting equipment
 
 ## Lifting and Moving Equipment: SECTION I - LIFTING EQUIPMENT
 **Chapter 5**

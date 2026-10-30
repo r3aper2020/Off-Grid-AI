@@ -1,5 +1,6 @@
 # Finish Carpentry (TM 3-34.47 Ch. 9)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: hanging drywall, how to install drywall, sheetrock install, drywall screws or nails, drywall tape and mud, joint compound, patching a hole in drywall, fixing drywall, baseboard trim, installing base molding, ceiling molding, crown molding, drywall corner bead, finishing drywall seams, interior wall panels, plywood wall paneling, drywall sizes, ceiling panels
 
 ## Finish Carpentry
 **Chapter 9**

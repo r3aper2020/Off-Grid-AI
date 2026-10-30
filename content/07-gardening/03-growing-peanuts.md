@@ -1,5 +1,6 @@
 # Growing Peanuts on an Acre or Less (USDA Agriculture Fact Sheet 8-3-1, 1979)
 Source: https://archive.org/download/CAT31376139/CAT31376139.pdf
+Aliases: how to grow peanuts, planting peanuts, peanut harvest when, peanuts in home garden, growing peanuts small plot, peanut varieties, peanut spacing planting depth, curing peanuts after harvest, roasting homegrown peanuts, peanut pests, peanut irrigation, peanut seed treatment, when to plant peanuts, peanut crop rotation, make peanut butter at home, peanuts for protein garden, dig up peanuts
 
 ## Overview
 

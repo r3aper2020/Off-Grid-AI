@@ -1,5 +1,6 @@
 # Disaster Medical Operations Part 2: Mass Casualties, Assessment and Public Health (CERT Basic Training, Unit 4)
 Source: https://em.uci.edu/training/_pdf/cert-participant-manual-english.pdf
+Aliases: many injured people, triage injured people, mass casualty, setting up treatment area, head to toe check, examining an injured person, neck injury stabilize, spinal injury dont move, checking for injuries, disaster medical help, hygiene in disaster, sanitation in disaster, purifying water disaster, CERT medical, who to treat first, volunteer rescue, injured neighbors, assess injuries
 
 ## Unit Objectives
 **SECTION 1: UNIT 4 OVERVIEW**

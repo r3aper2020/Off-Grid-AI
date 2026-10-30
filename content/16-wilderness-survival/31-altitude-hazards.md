@@ -1,5 +1,6 @@
 # Altitude and Environmental Hazards (ATP 3-90.97 App. A)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_90x97.pdf
+Aliases: altitude sickness symptoms, acute mountain sickness, headache at altitude, hape hace, high altitude illness, altitude sickness treatment, sunburn at altitude, snow blindness, carbon monoxide in tent, cold injuries mountain, sleep problems at altitude, dehydration at altitude, wounds heal slow altitude, mountain sickness prevention, how high is altitude sickness, altitude sickness go down, vision at altitude, confused at altitude, coughing at altitude, altitude sickness kids
 
 ## Altitude and Environmental Hazards: HIGH ALTITUDE ILLNESSES
 **Appendix A**

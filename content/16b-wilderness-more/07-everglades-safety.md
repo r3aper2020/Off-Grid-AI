@@ -1,5 +1,6 @@
 # Everglades Safety: Alligators, Crocodiles, Mosquitoes (National Park Service)
 Source: https://www.nps.gov/ever/planyourvisit/safety.htm
+Aliases: alligator danger, alligator safety, crocodile safety, mosquito bites, swamp safety, everglades hiking, gator attack, keep kids safe alligators, pets and alligators, dont feed wildlife, poisonous plants florida, swamp hiking, mosquito protection, alligator near me, florida wildlife dangers, wetland safety
 
 ## Safely Enjoy America's Everglades
 Plan your trip - as south Florida's subtropical climate brings significant seasonal changes.

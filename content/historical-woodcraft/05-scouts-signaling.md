@@ -1,5 +1,6 @@
 # Tracks, Trailing and Signaling (Boy Scouts Handbook, 1911)
 Source: https://www.gutenberg.org/ebooks/29558
+Aliases: tracking animals, reading tracks, following a trail, animal footprints, trailing a person, signaling with flags, semaphore flags, morse code, smoke signals, trail signs, wigwag signaling, tracking skills, identify animal tracks, signal across distance, scout signaling, wireless telegraphy, telegraph key, leaving trail markers, read footprints in mud, how old is a track, blaze a trail, signal with a lantern
 
 ## Tracks, Trailing And Signaling
 _By Ernest Thompson Seton, Chief Scout_

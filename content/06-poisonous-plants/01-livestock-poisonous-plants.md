@@ -1,5 +1,6 @@
 # Plants Poisonous to Livestock in the Western States (USDA ARS AIB 415, 2011)
 Source: https://www.ars.usda.gov/is/np/PoisonousPlants/PoisonousPlants.pdf
+Aliases: plants poisonous to cows, what plants kill horses, sheep ate poisonous plant, poisonous weeds in pasture, larkspur poisoning cattle, locoweed horses, death camas, water hemlock, poison hemlock, nightshade poison, yew poisoning, chokecherry cyanide, bracken fern, lupine sheep, oak poisoning cattle, goat ate toxic plant, pasture weeds dangerous, livestock poisoning symptoms, toxic plants western states, milkweed toxic, pine needles cattle abortion, sweet clover bleeding, halogeton sheep, tansy ragwort liver, nitrate poisoning livestock
 
 ## Economic Impact of Poisonous Plants on Livestock
 Direct losses (effects on animals) include the following:

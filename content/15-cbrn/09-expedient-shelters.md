@@ -1,5 +1,6 @@
 # Six Expedient Fallout Shelters (NWSS App. A)
 Source: https://www.osti.gov/servlets/purl/5866926
+Aliases: build a fallout shelter, backyard fallout shelter, trench shelter, dig a shelter fast, door covered trench, pole covered trench, fallout shelter plans, expedient shelter, homemade bomb shelter, shelter in 48 hours, earth covered shelter, fallout shelter ventilation, shelter with no basement, shelter entrance, crawl in shelter, fallout shelter diy, radiation shelter build, car over trench shelter, aboveground shelter, shelter drainage
 
 ## Appendix A Instructions for Six Expedient Fallout Shelters: SHELTER-BUILDING INSTRUCTIONS
 **Appendix A Instructions for Six Expedient Fallout Shelters**

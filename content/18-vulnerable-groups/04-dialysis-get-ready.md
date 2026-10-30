@@ -1,5 +1,6 @@
 # Getting Ready: A Guide for People on Dialysis (CMS)
 Source: https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf
+Aliases: dialysis emergency plan, dialysis during disaster, missed dialysis what to do, dialysis go kit, emergency diet for kidney failure, kidney patient disaster, dialysis center closed, 3 day emergency diet, dialysis evacuation, backup dialysis center, kidney disease emergency, dialysis supplies list, dialysis patient prep, what to eat if dialysis missed, renal diet shopping list
 
 ## Introduction
 It is important for people on dialysis to plan ahead for emergencies and disasters in order to stay safe.

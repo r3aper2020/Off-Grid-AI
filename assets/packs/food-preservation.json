@@ -4,7 +4,7 @@
  "id": "food-preservation",
  "title": "Home Canning (USDA Complete Guide)",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "U.S. Department of Agriculture, National Institute of Food and Agriculture",
  "license": "Public domain — U.S. Government work (17 U.S.C. § 105)",
  "description": "Safe home canning: principles, jars and canners, altitude adjustments, and tested recipes with process times for fruits, tomatoes, vegetables, meats and seafood, pickles and fermented foods, and jams and jellies.",
@@ -39,7 +39,8 @@
      "body": "It is important to know your approximate elevation or altitude above sea level in order to determine a safe processing time for canned foods. Since the boiling temperature of liquid is lower at higher elevations, it is critical that additional time be given for the safe processing of foods at altitudes above sea level.\n\nIt is not practical to include a list of altitudes in this guide, since there is wide variation within a State and even a county. For example, the State of Kansas has areas with altitudes varying between 75 ft to 4,039 ft above sea level. Kansas is not generally thought to have high altitudes, but there are many areas of the State where adjustments for altitude must be considered.\n\nColorado, on the other hand, has people living in areas between 3,000 and 10,000 ft above sea level. They tend to be more conscious of the need to make altitude adjustments in the various processing schedules. To list altitudes for specific counties may actually be misleading, due to the differences in geographic terrain within a county.\n\nIf you are unsure about the altitude where you will be canning foods, consult your county Extension agent. An alternative source of information would be your local district conservationist with the Soil Conservation Service."
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/INTRO_HomeCanrev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/INTRO_HomeCanrev0715.pdf",
+   "aliases": "home canning basics, how to can food, canning safety, botulism canning, is my canned food safe, canned food signs of spoilage, bulging lid canned food, altitude adjustment canning, canning at high altitude, canning guide, pressure canning vs water bath, getting started canning, canning mistakes, old canning methods unsafe, canned jars not sealed, tell if home canned food is bad"
   },
   {
    "title": "Principles of Home Canning (USDA Complete Guide, Guide 1)",
@@ -176,7 +177,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+   "aliases": "home canning basics, how to can food, pressure canner vs water bath, canning jars and lids, jar didnt seal, reprocessing jars, canning altitude adjustment, how long to process jars, storing canned food, spoiled canned food, canning safety, testing jar seals, pickling vegetables, fermenting food, making jam, making jelly, canning for babies, how much to can, canning mistakes, canning botulism, reusing lids"
   },
   {
    "title": "Canning Fruit and Fruit Products (USDA Complete Guide, Guide 2)",
@@ -503,7 +505,7 @@
     },
     {
      "heading": "MANGO SALSA",
-     "body": "6 cups diced unripe mango (about 3 to 4 large, hard green mangoes) 1-1/2 cups diced red bell pepper 1/2 cup finely chopped yellow onion 1/2 tsp crushed red pepper flakes 2 tsp finely chopped garlic 2 tsp finely chopped ginger 1 cup light brown sugar 1-1/4 cups cider vinegar (5%) 1/2 cup water\n\nCaution: Handling green mangoes may irritate the skin of some people in the same way as poison ivy. (They belong to the same plant family.) To avoid this reaction, wear plastic or rubber gloves while working with raw green mango. Do not touch your face, lips or eyes after touching or cutting raw green mangoes until all traces are washed away.\n\nYield: About 6 half-pint jars\n\nProcedure: Wash all produce well. Peel and chop mango into 1/2-inch cubes. Dice bell pepper into 1/2-inch pieces. Finely chop yellow onions. Combine all ingredients in an 8-quart Dutch oven or stockpot. Bring to a boil over high heat, stirring to dissolve sugar. Reduce to simmering, and simmer 5 minutes. Fill hot solids into hot half-pint jars, leaving 1/2-inch headspace. Cover with hot liquid, leaving 1/2-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.\n\n{{img:0}}",
+     "body": "6 cups diced unripe mango (about 3 to 4 large, hard green mangoes) 1-1/2 cups diced red bell pepper 1/2 cup finely chopped yellow onion 1/2 tsp crushed red pepper flakes 2 tsp finely chopped garlic 2 tsp finely chopped ginger 1 cup light brown sugar 1-1/4 cups cider vinegar (5%) 1/2 cup water\n\nCaution: Handling green mangoes may irritate the skin of some people in the same way as poison ivy. (They belong to the same plant family.) To avoid this reaction, wear plastic or rubber gloves while working with raw green mango. Do not touch your face, lips or eyes after touching or cutting raw green mangoes until all traces are washed away.\n\nYield: About 6 half-pint jars\n\nProcedure: Wash all produce well. Peel and chop mango into 1/2-inch cubes. Dice bell pepper into 1/2-inch pieces. Finely chop yellow onions. Combine all ingredients in an 8-quart Dutch oven or stockpot. Bring to a boil over high heat, stirring to dissolve sugar. Reduce to simmering, and simmer 5 minutes. Fill hot solids into hot half-pint jars, leaving 1/2-inch headspace. Cover with hot liquid, leaving 1/2-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.\n\n{{img:0}}\n\n**PEACH SALSA**\n\nProcedure: Follow directions for Mango Salsa using diced hard, underripe but yellow peaches in place of the mango.",
      "images": [
       {
        "asset": "assets/packs/images/food-preservation--02-fruit--tab-p24-1.webp",
@@ -511,10 +513,6 @@
        "kind": "table"
       }
      ]
-    },
-    {
-     "heading": "PEACH SALSA",
-     "body": "Procedure: Follow directions for Mango Salsa using diced hard, underripe but yellow peaches in place of the mango."
     },
     {
      "heading": "PEACH APPLE SALSA",
@@ -633,7 +631,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf",
+   "aliases": "canning fruit, how to can peaches, canning apples, applesauce canning, apple butter, canning pears, canning cherries, canning berries, canning pie filling, apple pie filling canning, canning fruit juice, grape juice canning, canning plums, canning without sugar, fruit salsa canning, canning rhubarb, water bath canning fruit, canning apricots, fruit puree canning, canning pineapple, mango chutney, cranberry sauce canning, canning figs"
   },
   {
    "title": "Canning Tomatoes and Tomato Products (USDA Complete Guide, Guide 3)",
@@ -1019,7 +1018,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE03_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE03_HomeCan_rev0715.pdf",
+   "aliases": "canning tomatoes, how to can tomato sauce, canning salsa recipe, tomato juice canning, add lemon juice to canned tomatoes, water bath tomatoes, pressure canning tomatoes, canning spaghetti sauce, homemade ketchup canning, canning hot sauce, tomatillo salsa canning, safe salsa canning recipe, canning tomatoes with peppers, preserving tomatoes, how long to process tomatoes, canning crushed tomatoes, tomato acidity canning, taco sauce canning, canning whole tomatoes, can I change a salsa recipe"
   },
   {
    "title": "Canning Vegetables and Vegetable Products (USDA Complete Guide, Guide 4)",
@@ -1318,7 +1318,7 @@
     },
     {
      "heading": "SPINACH AND OTHER GREENS",
-     "body": "Quantity: An average of 28 pounds is needed per canner load of 7 quarts; an average of 18 pounds is needed per canner load of 9 pints. A bushel weighs 18 pounds and yields 3 to 9 quarts—an average of 4 pounds per quart.\n\nQuality: Can only freshly harvested greens. Discard any wilted, discolored, diseased, or insect-damaged leaves. Leaves should be tender and attractive in color.\n\nProcedure: Wash only small amounts of greens at one time. Drain water and continue rinsing until water is clear and free of grit. Cut out tough stems and midribs. Place 1 pound of greens at a time in cheesecloth bag or blancher basket and steam 3 to 5 minutes or until well wilted. Add 1/2 teaspoon of salt to each quart jar, if desired. Fill hot jars loosely with greens and add fresh boiling water, leaving 1-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.\n\n{{img:0}}\n\n{{img:1}}",
+     "body": "Quantity: An average of 28 pounds is needed per canner load of 7 quarts; an average of 18 pounds is needed per canner load of 9 pints. A bushel weighs 18 pounds and yields 3 to 9 quarts—an average of 4 pounds per quart.\n\nQuality: Can only freshly harvested greens. Discard any wilted, discolored, diseased, or insect-damaged leaves. Leaves should be tender and attractive in color.\n\nProcedure: Wash only small amounts of greens at one time. Drain water and continue rinsing until water is clear and free of grit. Cut out tough stems and midribs. Place 1 pound of greens at a time in cheesecloth bag or blancher basket and steam 3 to 5 minutes or until well wilted. Add 1/2 teaspoon of salt to each quart jar, if desired. Fill hot jars loosely with greens and add fresh boiling water, leaving 1-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.\n\n{{img:0}}\n\n{{img:1}}\n\n**SQUASH, WINTER — CUBED**\n\nPrepare and process according to instructions for “Pumpkin” (see page 4-18).",
      "images": [
       {
        "asset": "assets/packs/images/food-preservation--04-vegetables--tab-p20-1.webp",
@@ -1331,10 +1331,6 @@
        "kind": "table"
       }
      ]
-    },
-    {
-     "heading": "SQUASH, WINTER — CUBED",
-     "body": "Prepare and process according to instructions for “Pumpkin” (see page 4-18)."
     },
     {
      "heading": "SUCCOTASH",
@@ -1353,7 +1349,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE04_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE04_HomeCan_rev0715.pdf",
+   "aliases": "canning vegetables, how to can green beans, canning corn, canning carrots, canning beets, canning peas, canning potatoes, canning pumpkin, canning squash, canning peppers, canning mushrooms, canning spinach greens, canning okra, canning soup, canning baked beans, canning dried beans, canning asparagus, canning mixed vegetables, canning sweet potatoes, pressure canning vegetables, processing time vegetables, canning lima beans, succotash canning, vegetables canning times"
   },
   {
    "title": "Canning Poultry, Red Meats and Seafoods (USDA Complete Guide, Guide 5)",
@@ -1551,7 +1548,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf",
+   "aliases": "canning meat, canning chicken, canning rabbit, canning ground beef, canning venison, canning broth, canning stock, canning chili, canning fish, canning tuna, canning clams, canning crab, canning oysters, canning smoked fish, pressure canning meat, how long to can meat, canning deer meat, meat in jars, raw pack meat, hot pack meat"
   },
   {
    "title": "Fermented Foods and Pickled Vegetables (USDA Complete Guide, Guide 6)",
@@ -1695,7 +1693,7 @@
     },
     {
      "heading": "PICKLED CARROTS",
-     "body": "2-3/4 lbs peeled carrots (about 3-1/2 lbs as purchased) 5-1/2 cups white vinegar (5%) 1 cup water 2 cups sugar 2 tsp canning salt 8 tsp mustard seed 4 tsp celery seed\n\nYield: About 4 pints\n\nProcedure: Wash and peel carrots. Cut into rounds that are approximately 1/2-inch thick.\n\nCombine vinegar, water, sugar and canning salt in an 8-quart Dutch oven or stockpot. Bring to a boil and boil 3 minutes. Add carrots and bring back to a boil. Then reduce heat to a simmer and heat until half-cooked (about 10 minutes). Meanwhile, place 2 teaspoons mustard seed and 1 teaspoon celery seed into each empty hot pint jar. Fill jars with hot carrots, leaving 1-inch headspace.\n\nFill with hot pickling liquid, leaving 1/2-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.\n\n{{img:0}}",
+     "body": "2-3/4 lbs peeled carrots (about 3-1/2 lbs as purchased) 5-1/2 cups white vinegar (5%) 1 cup water 2 cups sugar 2 tsp canning salt 8 tsp mustard seed 4 tsp celery seed\n\nYield: About 4 pints\n\nProcedure: Wash and peel carrots. Cut into rounds that are approximately 1/2-inch thick.\n\nCombine vinegar, water, sugar and canning salt in an 8-quart Dutch oven or stockpot. Bring to a boil and boil 3 minutes. Add carrots and bring back to a boil. Then reduce heat to a simmer and heat until half-cooked (about 10 minutes). Meanwhile, place 2 teaspoons mustard seed and 1 teaspoon celery seed into each empty hot pint jar. Fill jars with hot carrots, leaving 1-inch headspace.\n\nFill with hot pickling liquid, leaving 1/2-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.\n\n{{img:0}}\n\n**PICKLED BABY CARROTS**\n\nProcedure: Follow directions for Pickled Carrots, using 8-1/2 cups peeled baby carrots, leaving them whole, and use the same process time.",
      "images": [
       {
        "asset": "assets/packs/images/food-preservation--06-pickles--tab-p16-2.webp",
@@ -1703,10 +1701,6 @@
        "kind": "table"
       }
      ]
-    },
-    {
-     "heading": "PICKLED BABY CARROTS",
-     "body": "Procedure: Follow directions for Pickled Carrots, using 8-1/2 cups peeled baby carrots, leaving them whole, and use the same process time."
     },
     {
      "heading": "PICKLED CAULIFLOWER OR BRUSSELS SPROUTS",
@@ -1999,7 +1993,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf",
+   "aliases": "making pickles, how to make sauerkraut, dill pickles, fermenting vegetables, bread and butter pickles, pickled beets, pickled peppers, pickled jalapenos, pickle relish, pickling salt, fermenting crock, pickled green beans, pickled carrots, pickled okra, pickled asparagus, pickled mushrooms, pickled onions, canning pickles, pickling cucumbers, quick pickles, sweet pickles, pickled green tomatoes, relish recipes, piccalilli recipe, pickled horseradish"
   },
   {
    "title": "Jams and Jellies (USDA Complete Guide, Guide 7)",
@@ -2141,7 +2136,8 @@
      ]
     }
    ],
-   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf"
+   "sourceUrl": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf",
+   "aliases": "how to make jam, jelly without pectin, jam recipe, making jelly from fruit juice, pectin jam, low sugar jam, strawberry jam, grape jelly, pepper jelly, jam didnt set, fix runny jelly, remake soft jelly, canning jam, fruit spread no sugar, how to make preserves, jelly bag juice, pear apple jam, blueberry jam, jam with gelatin fridge, homemade jelly, jam too hard, sealing jam jars"
   }
  ]
 }

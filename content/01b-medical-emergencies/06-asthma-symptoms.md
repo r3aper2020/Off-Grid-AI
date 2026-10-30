@@ -1,5 +1,6 @@
 # Asthma Symptoms and Signs It Is Getting Worse (NHLBI)
 Source: https://www.nhlbi.nih.gov/health/asthma/symptoms
+Aliases: asthma attack, asthma symptoms, wheezing and cant breathe, asthma getting worse signs, inhaler not working, chest tight coughing at night, trouble breathing wheezing, when is asthma an emergency, asthma flare up, kid wheezing, peak flow dropping, lips turning blue asthma, severe asthma attack signs
 
 ## Overview
 Symptoms of asthma may include:

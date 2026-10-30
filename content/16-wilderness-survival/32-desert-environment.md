@@ -1,5 +1,6 @@
 # The Desert Environment (ATP 3-90.99 Ch. 1)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN44090-ATP_3-90.99-001-WEB-2.pdf
+Aliases: desert survival, surviving in the desert, desert heat, desert water needs, how much water in desert, desert water storage, finding water in desert, desert wildlife dangers, scorpions, desert snakes, flies and fleas desert, desert cold at night, desert wind, sandstorm, dust storm, desert types, sand dunes, desert acclimatization, desert sun protection, desert gear care, electronics in heat and dust, desert temperature swings, desert terrain, desert vegetation, desert navigation
 
 ## The Desert Environment
 **Chapter 1**

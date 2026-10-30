@@ -1,5 +1,6 @@
 # Canning Tomatoes and Tomato Products (USDA Complete Guide, Guide 3)
 Source: https://nchfp.uga.edu/papers/guide/GUIDE03_HomeCan_rev0715.pdf
+Aliases: canning tomatoes, how to can tomato sauce, canning salsa recipe, tomato juice canning, add lemon juice to canned tomatoes, water bath tomatoes, pressure canning tomatoes, canning spaghetti sauce, homemade ketchup canning, canning hot sauce, tomatillo salsa canning, safe salsa canning recipe, canning tomatoes with peppers, preserving tomatoes, how long to process tomatoes, canning crushed tomatoes, tomato acidity canning, taco sauce canning, canning whole tomatoes, can I change a salsa recipe
 
 ## General
 Quality: Select only disease-free, preferably vine-ripened, firm fruit for canning.

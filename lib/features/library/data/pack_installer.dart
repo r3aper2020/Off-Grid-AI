@@ -17,12 +17,14 @@ class PackInstaller {
   static const vectorsDir = 'assets/packs/vectors/';
 
   /// Installs [json], replacing any installed pack with the same id.
-  /// [vectors] (a `.vec` file, see [PassageVectors]) adds meaning vectors;
-  /// entries that don't match their section's text are ignored.
+  /// [vectors] (a `.vec` file, see [PassageVectors]) adds meaning vectors
+  /// for sections and [docVectors] (`.docs.vec`) for documents; entries
+  /// that don't match their text are ignored.
   Future<void> install(
     String json, {
     required String source,
     Uint8List? vectors,
+    Uint8List? docVectors,
   }) async {
     final Object? decoded;
     try {
@@ -40,6 +42,16 @@ class PackInstaller {
       if (hash != PassageVectors.sectionHash(section.heading, section.body)) {
         return null;
       }
+      return Uint8List.sublistView(v);
+    }
+
+    final docEntries = docVectors == null
+        ? null
+        : PassageVectors.decode(docVectors);
+    Uint8List? docVectorFor(int i, DocumentData doc) {
+      if (docEntries == null || i >= docEntries.length) return null;
+      final (hash, v) = docEntries[i];
+      if (hash != PassageVectors.docHash(doc.title, doc.aliases)) return null;
       return Uint8List.sublistView(v);
     }
 
@@ -72,6 +84,9 @@ class PackInstaller {
                 title: doc.title,
                 sourceUrl: Value(doc.sourceUrl),
                 position: di,
+                aliases: Value(doc.aliases),
+                libraryOnly: Value(doc.libraryOnly),
+                embedding: Value(docVectorFor(di, doc)),
               ),
             );
         await _db.batch((b) {
@@ -144,14 +159,19 @@ class PackInstaller {
           current.source == 'asset:$asset') {
         continue;
       }
-      final vecAsset =
-          '$vectorsDir${asset.substring(bundledDir.length).replaceFirst(RegExp(r'\.json$'), '.vec')}';
-      Uint8List? vectors;
-      if (manifest.listAssets().contains(vecAsset)) {
-        vectors = Uint8List.sublistView(await bundle.load(vecAsset));
-      }
+      final stem =
+          '$vectorsDir${asset.substring(bundledDir.length).replaceFirst(RegExp(r'\.json$'), '')}';
+      Future<Uint8List?> load(String name) async =>
+          manifest.listAssets().contains(name)
+          ? Uint8List.sublistView(await bundle.load(name))
+          : null;
       try {
-        await install(json, source: 'asset:$asset', vectors: vectors);
+        await install(
+          json,
+          source: 'asset:$asset',
+          vectors: await load('$stem.vec'),
+          docVectors: await load('$stem.docs.vec'),
+        );
       } on PackFormatException {
         continue;
       }

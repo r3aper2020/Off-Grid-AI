@@ -1,5 +1,6 @@
 # Solar Photovoltaic Technology Basics (DOE)
 Source: https://www.energy.gov/cmei/systems/solar-photovoltaic-technology-basics
+Aliases: how do solar panels work, solar panel basics, what is photovoltaic, parts of a solar system, solar cells explained, solar inverter what does it do, solar power for home basics, how solar makes electricity, solar panel system components, off grid solar basics, pv system, solar energy explained, do solar panels work on cloudy days, solar array, solar batteries and inverters, solar panel materials
 
 ## What Is Photovoltaic Technology?
 Photovoltaic (PV) materials and devices convert sunlight into electrical energy. A single PV device is known as a cell. An individual PV cell is usually small, typically producing about 1 or 2 watts of power. These cells are made of different semiconductor materials and are often less than the thickness of four human hairs. Cells are sandwiched between protective materials such as glass and/or plastic to withstand the outdoors for many years.

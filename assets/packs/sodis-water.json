@@ -4,7 +4,7 @@
  "id": "sodis-water",
  "title": "Solar Water Disinfection (SODIS)",
  "category": "guide",
- "version": "2026.10.29.6",
+ "version": "2026.10.30.1",
  "publisher": "Eawag – Swiss Federal Institute of Aquatic Science and Technology (Sandec, SODIS Reference Centre)",
  "license": "Copying and adapting permitted with acknowledgement: \"This document is an open-source document – copying and adapting is allowed provided that proper acknowledgement of the source is made.\"",
  "description": "Disinfecting drinking water with sunlight in clear PET bottles: the four steps, exposure times for sunny and cloudy days, bottle choice and safety, turbidity limit and the newspaper test, temperature, re-growth, and safe storage. Written for low-income-country programs; less effective against some viruses and protozoa.",
@@ -27,7 +27,8 @@
      "body": "- Limited effectiveness against certain pathogenic viruses and\n\nprotozoa\n\n- Dependent on access to sufficient numbers of PET-bottles\n\n- Dependent on sufficient sunlight\n\n- Relatively high daily labour demand\n\n- Relatively high treatment time\n\n- Limited aspirational appeal (poor people’s method)"
     }
    ],
-   "sourceUrl": "https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf"
+   "sourceUrl": "https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf",
+   "aliases": "purify water with sunlight, sodis method, plastic bottle water sun, clear water in sun to disinfect, uv water treatment bottle, water purification no fire, solar water disinfection, how long leave bottle in sun, pet bottle water purification, make water safe without boiling, sunlight kill germs water, cheap water purification, water purification without chemicals, sodis pros and cons"
   },
   {
    "title": "SODIS: Bottle Placement, Bottles, Turbidity, Temperature and Re-growth (Eawag SODIS Manual 2.2.3-2.2.8)",
@@ -65,7 +66,8 @@
      "body": "The available literature does not provide a conclusive picture as to whether pathogens do recover from the effects of solar radiation or increase in number after solar exposure, and under which conditions this could be expected. Based on lab experiments, Bosshard et al. postulate that the damage done to the cell as an effect of UV-A radiation is irreversible. Several studies found no re-growth after SODIS treatment (McGuigan et al. 1998; Boyle et al. 2008; Bosshard et al. 2009; Dessie et al. 2014). Wegelin at al. (1994) observed a regrowth of E.coli to original concentration within one week after a short (32 min) irradiation with artificial light, but no re-growth after 3 hours of irradiation with sunlight. Amin and Han (2009) observed only very limited regrowth of E-coli and total coliforms even for moderate treatment efficacy under weak sunlight conditions. Rincon and Pulgarin (2004a) observed re-growth of E-coli to initial levels within 24 hours after irradiation. Gelover, Gómez et al. (2006 ) found moderate regrowth of total coliform within the first day after SODIS treatment.\n\nSciacca, Rengifo-Herrera et al. (2010) observed re-growth of Salmonella sp. reaching initial concentrations within 18 hours after treatment, and further growth by about 1 log thereafter. AL-Gheethi, Norli et al. (2013) found decreasing concentrations of bacteria when the SODIS treated water was stored at room temperature, but re-growth if the treated water was stored at 37ºC. The presence of nutrients in the water and the origin (wild vs. laboratory cultured) and physiologi-cal state (steady state or exponential growth state) of pathogens are believed to influence if and to what extent bacteria populations can recover from solar irradiation. As E.coli and other faecal bacteria do not typically multiply in the environment (except, e.g., Salmonella), the apparent re-growth in water samples could indicate an incom-plete inactivation and sub-sequent repair of cells or could relate to the analytical procedures overestimating the inactivation effect (Reed 2004; Khaengraeng & Reed 2005).\n\nRe-growth or recovery as reported in some of these studies would seriously compromise the viability and potential health impact of the SODIS method. Water quality tests conducted in many SODIS pro-motion projects did not produce evidence for considerable re-growth, and instead indicate a substantial improvement of water quality. And yet, based on the inconclusive evidence, the re-growth of bacteria in SODIS treated water must be considered as a potential limitation to the efficacy of SODIS and could have health impacts in real life appli-cations. While the reasons and conditions for re-growth or revival are not yet completely clear, it is advisable to store SODIS treated water in a cool place and to consume it within a short time (a few hours up to one day) after treatment.\n\nProposed measures to inhibit re-growth, e.g., adding H2O2 or TiO2 to the water (Rincon & Pulgarin 2004b) may be technically viable, but do not seem realistic in practice due to the increased complexity of the treatment process, and the need to establish supply chains for such additives. If a chemical substance is added to the water, it may as well be one that disinfects the water without creating an additional need for irradiation (e.g., chlorination)."
     }
    ],
-   "sourceUrl": "https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf"
+   "sourceUrl": "https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf",
+   "aliases": "SODIS, purify water with sunlight, water bottle in the sun, how long leave water in sun, solar water disinfection how to, clear plastic bottles for water, PET bottles safe, glass bottles sun water, cloudy water sodis, water too murky for sun, water temperature sun purification, does sun kill bacteria in water, store sodis water how long, regrowth of germs in water, bottle on roof to purify water, shaking the bottle oxygen, sun purified water"
   },
   {
    "title": "SODIS: Rules for Applying Solar Water Disinfection (Eawag SODIS Manual 2.4)",
@@ -80,18 +82,15 @@
     },
     {
      "heading": "Material and size of bottles",
-     "body": "- Use bottles made of PET (other containers should be used only if\n\nthey are specifically approved for solar disinfection)\n\n- Use only bottles up to 2l of volume, i.e., that allow for a short pen-\n\netration depth for UV radiation"
-    },
-    {
-     "heading": "Turbidity and dissolved organic matter",
-     "body": "- Use SODIS for water with no or very low turbidity (maximum 30\n\nNTU)\n\n- Pre-treat turbid water before SODIS, e.g., by filtration, flocculation\n\nor settling."
+     "body": "- Use bottles made of PET (other containers should be used only if\n\nthey are specifically approved for solar disinfection)\n\n- Use only bottles up to 2l of volume, i.e., that allow for a short pen-\n\netration depth for UV radiation\n\n**Turbidity and dissolved organic matter**\n\n- Use SODIS for water with no or very low turbidity (maximum 30\n\nNTU)\n\n- Pre-treat turbid water before SODIS, e.g., by filtration, flocculation\n\nor settling."
     },
     {
      "heading": "Water storage",
      "body": "- Store SODIS water in the SODIS bottles themselves, as this reduc-\n\nes the risk of re-contamination.\n\n- Water should not be stored for long periods to minimize the risk of bacterial re-contamination or re-growth. Consumption within a day or two is recommended.\n\n- Water should be consumed directly from the bottles, or poured into a clean cup or glass. If another container is used for storage and/or cooling, the guidelines for safe storage must be followed: clean container, narrow opening, lid to cover the opening, water stored away from animals and small children, and withdrawal through a tap/spigot integrated in the storage container or with a clean ladle."
     }
    ],
-   "sourceUrl": "https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf"
+   "sourceUrl": "https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sandec/publikationen/SWP/SODIS_manual_2016.pdf",
+   "aliases": "purify water with sunlight, solar water disinfection, SODIS method, water in plastic bottle in sun, how long in sun to purify water, cloudy water sodis, pet bottle water, uv water purification, no fuel to boil water, cloudy day sodis, which bottles for sodis, turbid water, sun disinfect water, sunlight kill germs water, storing sodis water"
   }
  ]
 }

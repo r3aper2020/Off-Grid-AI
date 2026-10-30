@@ -1,5 +1,6 @@
 # Medical Devices Requiring Refrigeration During a Power Outage (FDA)
 Source: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/medical-devices-requiring-refrigeration
+Aliases: insulin no fridge, refrigerated medicine power outage, keep insulin cold, medical device power outage, medicine got warm, cpap no power, oxygen concentrator outage, refrigerated meds how long, insulin temperature, device exposed to heat, medical equipment outage, keeping meds cold no power, test strips heat, vaccines power outage
 
 ## FDA advice about medical devices that have been exposed to unusually high storage temperatures
 Many medical devices require specific storage conditions. The manufacturer’s instructions, in the product labeling will explain specific needs for refrigeration, freezing, or controlled room temperature.

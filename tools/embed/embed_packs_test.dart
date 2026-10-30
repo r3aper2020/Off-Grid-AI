@@ -1,7 +1,7 @@
-// Writes assets/packs/vectors/<pack>.vec for every bundled pack, using the
-// same model and llama.cpp runtime the app uses for questions. Packs whose
-// vectors already match their sections are skipped. Run after building
-// packs:
+// Writes assets/packs/vectors/<pack>.vec (sections) and <pack>.docs.vec
+// (documents: title + aliases) for every bundled pack, using the same
+// model and llama.cpp runtime the app uses for questions. Files whose
+// vectors already match their text are skipped. Run after building packs:
 //   flutter test tools/embed/embed_packs_test.dart
 import 'dart:convert';
 import 'dart:io';
@@ -33,28 +33,14 @@ void main() {
         for (final d in pack.documents)
           for (final s in d.sections) (d, s),
       ];
-      final name = f.uri.pathSegments.last.replaceFirst('.json', '.vec');
-      wanted.add(name);
-      final target = File('${out.path}/$name');
-      final hashes = [
-        for (final (_, s) in sections)
-          PassageVectors.sectionHash(s.heading, s.body),
-      ];
-      if (target.existsSync()) {
-        final old = PassageVectors.decode(target.readAsBytesSync());
-        if (old != null &&
-            old.length == hashes.length &&
-            [for (final (h, _) in old) h].join(',') == hashes.join(',')) {
-          continue;
-        }
-      }
-      final entries = <(int, List<double>)>[];
-      for (final (i, (d, s)) in sections.indexed) {
-        var text = PassageVectors.passageText(d.title, s.heading, s.body);
-        List<double>? v;
-        while (v == null) {
+      final stem = f.uri.pathSegments.last.replaceFirst('.json', '');
+      wanted.addAll(['$stem.vec', '$stem.docs.vec']);
+
+      Future<List<double>> embed(String input) async {
+        var text = input;
+        while (true) {
           try {
-            v = await engine.embed(text);
+            return await engine.embed(text);
           } on llama.LlamaException catch (e) {
             // Number-heavy text can exceed 512 tokens: keep the start.
             if (!e.message.contains('tokens') || text.length < 200) rethrow;
@@ -64,11 +50,53 @@ void main() {
             );
           }
         }
-        entries.add((hashes[i], v));
       }
-      target.writeAsBytesSync(PassageVectors.encode(entries));
-      // ignore: avoid_print
-      print('${pack.id}: ${entries.length} vectors');
+
+      Future<void> write(
+        String name,
+        List<int> hashes,
+        List<String> texts,
+      ) async {
+        final target = File('${out.path}/$name');
+        if (target.existsSync()) {
+          final old = PassageVectors.decode(target.readAsBytesSync());
+          if (old != null &&
+              old.length == hashes.length &&
+              [for (final (h, _) in old) h].join(',') == hashes.join(',')) {
+            return;
+          }
+        }
+        final entries = <(int, List<double>)>[];
+        for (final (i, text) in texts.indexed) {
+          entries.add((hashes[i], await embed(text)));
+        }
+        target.writeAsBytesSync(PassageVectors.encode(entries));
+        // ignore: avoid_print
+        print('$name: ${entries.length} vectors');
+      }
+
+      await write(
+        '$stem.vec',
+        [
+          for (final (_, s) in sections)
+            PassageVectors.sectionHash(s.heading, s.body),
+        ],
+        [
+          for (final (d, s) in sections)
+            PassageVectors.passageText(d.title, s.heading, s.body),
+        ],
+      );
+      await write(
+        '$stem.docs.vec',
+        [
+          for (final d in pack.documents)
+            PassageVectors.docHash(d.title, d.aliases),
+        ],
+        [
+          for (final d in pack.documents)
+            PassageVectors.docText(d.title, d.aliases),
+        ],
+      );
     }
     // Vectors of packs no longer bundled.
     for (final f in out.listSync().whereType<File>()) {

@@ -1,5 +1,6 @@
 # Construction Materials, Lumber and Fasteners (TM 3-34.47 Ch. 2)
 Source: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35831-TM_3-34.47-000-WEB-1.pdf
+Aliases: lumber sizes, 2x4 actual size, nominal vs actual lumber, what size nails to use, nail sizes penny, screws vs nails, lag screws, carriage bolts, wood screw sizes, types of lumber grades, building materials list, framing lumber, what wood for framing, how to pick lumber, construction hardware, bolts and fasteners, planning a building project, building a shed materials, timber connectors, expansion bolts anchors
 
 ## Construction Planning and Materials
 **Chapter 2**
