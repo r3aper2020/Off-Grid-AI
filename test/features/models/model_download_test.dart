@@ -37,15 +37,24 @@ void main() {
     await dir.delete(recursive: true);
   });
 
-  CatalogModel catalog({String? sha, int? size}) => CatalogModel(
-    displayName: 'Test Model',
-    fileName: 'test.gguf',
-    url: Uri.parse('http://127.0.0.1:${server.port}/test.gguf'),
-    sizeBytes: size ?? body.length,
-    sha256: sha ?? bodySha,
-    license: 'MIT',
-    summary: '',
-  );
+  CatalogModel catalog({String? sha, int? size, bool vision = false}) =>
+      CatalogModel(
+        displayName: 'Test Model',
+        fileName: 'test.gguf',
+        url: Uri.parse('http://127.0.0.1:${server.port}/test.gguf'),
+        sizeBytes: size ?? body.length,
+        sha256: sha ?? bodySha,
+        license: 'MIT',
+        summary: '',
+        projector: vision
+            ? CatalogProjector(
+                fileName: 'test-mmproj.gguf',
+                url: Uri.parse('http://127.0.0.1:${server.port}/mmproj.gguf'),
+                sizeBytes: body.length,
+                sha256: bodySha,
+              )
+            : null,
+      );
 
   List<FileSystemEntity> files() => dir.listSync();
 
@@ -55,6 +64,22 @@ void main() {
     expect(model.displayName, 'Test Model');
     expect(model.isActive, isTrue);
     expect(await store.fileFor(model).readAsBytes(), body);
+  });
+
+  test('a vision model downloads its projector too and deletes both', () async {
+    var progress = 0;
+    final model = await ModelDownload(
+      store,
+      catalog(vision: true),
+    ).run(onProgress: (w) => progress = w);
+
+    expect(model.projectorFileName, 'test-mmproj.gguf');
+    expect(await store.projectorFor(model)!.exists(), isTrue);
+    expect(progress, 2 * body.length);
+    expect(files().where((f) => f.path.endsWith('.gguf')), hasLength(2));
+
+    await store.delete(model);
+    expect(files().where((f) => f.path.endsWith('.gguf')), isEmpty);
   });
 
   test('checksum mismatch discards the file', () async {

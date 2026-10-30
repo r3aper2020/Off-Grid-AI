@@ -567,3 +567,29 @@ USDA-owned home-drying guide (USDA defers to a university site).
   stated intent cuts against AI use, so this is the pack to drop first
   if counsel objects.
 - **FM 21-76 (1992).** Distribution A (text). Photographs excluded.
+
+## 2026-10-30 — Photos in chat: a vision model, the same pipeline
+Users can attach one photo per message (camera or gallery). Design:
+- **Model.** The catalog offers Qwen3 VL 4B Instruct (Apache-2.0): the
+  Q4_0 text weights (2.4 GB) plus the F16 multimodal projector (836 MB),
+  downloaded one after the other with the same resume, size and SHA-256
+  checks; `installed_models.projector_file_name` (schema v8) records the
+  projector and `ModelStore.delete` removes both files. llamadart loads
+  the pair as `LlamaModel(source, projector:)` and `EngineReady.canSeeImages`
+  reports it. A text-only model stays usable for text.
+- **Honesty.** A photo sent while a text-only model is active gets a
+  `notice` saying the model can't see it and how to install one that can.
+  The app never describes a photo it didn't look at.
+- **Cost control.** Photos are resized to 768 px on the long side
+  (image_picker) before storage; a vision model reads a photo as hundreds
+  of tokens and each pass re-encodes it, so only the latest message's
+  photo is sent as an image and earlier ones become "[Photo attached]"
+  text. The query rewrite always runs when a photo is attached (the words
+  rarely say what the photo shows), so a photo costs two vision passes:
+  one to write the search queries, one to answer. Measure on device.
+- **Storage.** Photos live in the app's `photos/` directory and messages
+  store the file name (`messages.image_path`), as models do, so the
+  container can move. Deleting a conversation does not yet delete its
+  photos (roadmap).
+- **iOS** needs camera and photo-library usage strings (added);
+  image_picker needs no Android permission.

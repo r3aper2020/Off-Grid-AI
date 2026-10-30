@@ -109,6 +109,13 @@ Survival Coverage Matrix and Knowledge Management System (tooling),
 Emergency Scenario Explorer (with Milestone 6), regional plant/mushroom
 species database with images, and the three-layer medicine model.
 
+## 3b. Photos in chat — ✅ first cut (2026-10-30)
+Camera/gallery attachment, Qwen3 VL 4B in the catalog with its projector,
+honest notice on text-only models, photo sent only on the latest turn.
+Remaining: measure vision latency on the Pixel Fold; delete photos with
+their conversation; let the plant pack's edibility warning be injected
+whenever a photo question is about eating something.
+
 ## 4. Model & knowledge downloads
 Download manager (pause/resume, checksums, atomic install, versioning),
 storage checks, catalog. First feature allowed to use the network.

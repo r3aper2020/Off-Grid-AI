@@ -4,14 +4,23 @@ import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/widgets/screen_header.dart';
+import '../../../core/providers.dart';
 import '../chat_providers.dart';
 import 'chat_input.dart';
+import 'photo_picker.dart';
 
 class ChatHomeScreen extends ConsumerWidget {
   const ChatHomeScreen({super.key});
 
-  Future<void> _start(BuildContext context, WidgetRef ref, String text) async {
-    final id = await ref.read(chatRepositoryProvider).startConversation(text);
+  Future<void> _start(
+    BuildContext context,
+    WidgetRef ref,
+    String text,
+    String? imagePath,
+  ) async {
+    final id = await ref
+        .read(chatRepositoryProvider)
+        .startConversation(text, imagePath: imagePath);
     if (!context.mounted) return;
     context.go('/chat/c/$id');
     ref.read(generationControllerProvider.notifier).reply(id);
@@ -107,7 +116,13 @@ class ChatHomeScreen extends ConsumerWidget {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
-              child: ChatInput(onSend: (t) => _start(context, ref, t)),
+              child: ChatInput(
+                onSend: (t, image) => _start(context, ref, t, image),
+                onAttach: () =>
+                    PhotoPicker(ref.read(photosDirectoryProvider))
+                        .pick(context),
+                photosDirectory: ref.read(photosDirectoryProvider),
+              ),
             ),
           ],
         ),

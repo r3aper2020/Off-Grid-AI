@@ -384,6 +384,17 @@ class $MessagesTable extends Messages with TableInfo<$MessagesTable, Message> {
     type: DriftSqlType.string,
     requiredDuringInsert: false,
   );
+  static const VerificationMeta _imagePathMeta = const VerificationMeta(
+    'imagePath',
+  );
+  @override
+  late final GeneratedColumn<String> imagePath = GeneratedColumn<String>(
+    'image_path',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -393,6 +404,7 @@ class $MessagesTable extends Messages with TableInfo<$MessagesTable, Message> {
     status,
     createdAt,
     citations,
+    imagePath,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -442,6 +454,12 @@ class $MessagesTable extends Messages with TableInfo<$MessagesTable, Message> {
         citations.isAcceptableOrUnknown(data['citations']!, _citationsMeta),
       );
     }
+    if (data.containsKey('image_path')) {
+      context.handle(
+        _imagePathMeta,
+        imagePath.isAcceptableOrUnknown(data['image_path']!, _imagePathMeta),
+      );
+    }
     return context;
   }
 
@@ -483,6 +501,10 @@ class $MessagesTable extends Messages with TableInfo<$MessagesTable, Message> {
         DriftSqlType.string,
         data['${effectivePrefix}citations'],
       ),
+      imagePath: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}image_path'],
+      ),
     );
   }
 
@@ -509,6 +531,11 @@ class Message extends DataClass implements Insertable<Message> {
   /// where index 0 is citation [1]. `[]` means the library was searched and
   /// nothing matched; null means no search ran (e.g. older messages).
   final String? citations;
+
+  /// User messages only: a photo attached to the message, as a file name
+  /// inside the app's photos directory (not an absolute path, so the app
+  /// container can move between OS updates/restores).
+  final String? imagePath;
   const Message({
     required this.id,
     required this.conversationId,
@@ -517,6 +544,7 @@ class Message extends DataClass implements Insertable<Message> {
     required this.status,
     required this.createdAt,
     this.citations,
+    this.imagePath,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -536,6 +564,9 @@ class Message extends DataClass implements Insertable<Message> {
     if (!nullToAbsent || citations != null) {
       map['citations'] = Variable<String>(citations);
     }
+    if (!nullToAbsent || imagePath != null) {
+      map['image_path'] = Variable<String>(imagePath);
+    }
     return map;
   }
 
@@ -550,6 +581,9 @@ class Message extends DataClass implements Insertable<Message> {
       citations: citations == null && nullToAbsent
           ? const Value.absent()
           : Value(citations),
+      imagePath: imagePath == null && nullToAbsent
+          ? const Value.absent()
+          : Value(imagePath),
     );
   }
 
@@ -570,6 +604,7 @@ class Message extends DataClass implements Insertable<Message> {
       ),
       createdAt: serializer.fromJson<DateTime>(json['createdAt']),
       citations: serializer.fromJson<String?>(json['citations']),
+      imagePath: serializer.fromJson<String?>(json['imagePath']),
     );
   }
   @override
@@ -587,6 +622,7 @@ class Message extends DataClass implements Insertable<Message> {
       ),
       'createdAt': serializer.toJson<DateTime>(createdAt),
       'citations': serializer.toJson<String?>(citations),
+      'imagePath': serializer.toJson<String?>(imagePath),
     };
   }
 
@@ -598,6 +634,7 @@ class Message extends DataClass implements Insertable<Message> {
     MessageStatus? status,
     DateTime? createdAt,
     Value<String?> citations = const Value.absent(),
+    Value<String?> imagePath = const Value.absent(),
   }) => Message(
     id: id ?? this.id,
     conversationId: conversationId ?? this.conversationId,
@@ -606,6 +643,7 @@ class Message extends DataClass implements Insertable<Message> {
     status: status ?? this.status,
     createdAt: createdAt ?? this.createdAt,
     citations: citations.present ? citations.value : this.citations,
+    imagePath: imagePath.present ? imagePath.value : this.imagePath,
   );
   Message copyWithCompanion(MessagesCompanion data) {
     return Message(
@@ -618,6 +656,7 @@ class Message extends DataClass implements Insertable<Message> {
       status: data.status.present ? data.status.value : this.status,
       createdAt: data.createdAt.present ? data.createdAt.value : this.createdAt,
       citations: data.citations.present ? data.citations.value : this.citations,
+      imagePath: data.imagePath.present ? data.imagePath.value : this.imagePath,
     );
   }
 
@@ -630,7 +669,8 @@ class Message extends DataClass implements Insertable<Message> {
           ..write('content: $content, ')
           ..write('status: $status, ')
           ..write('createdAt: $createdAt, ')
-          ..write('citations: $citations')
+          ..write('citations: $citations, ')
+          ..write('imagePath: $imagePath')
           ..write(')'))
         .toString();
   }
@@ -644,6 +684,7 @@ class Message extends DataClass implements Insertable<Message> {
     status,
     createdAt,
     citations,
+    imagePath,
   );
   @override
   bool operator ==(Object other) =>
@@ -655,7 +696,8 @@ class Message extends DataClass implements Insertable<Message> {
           other.content == this.content &&
           other.status == this.status &&
           other.createdAt == this.createdAt &&
-          other.citations == this.citations);
+          other.citations == this.citations &&
+          other.imagePath == this.imagePath);
 }
 
 class MessagesCompanion extends UpdateCompanion<Message> {
@@ -666,6 +708,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
   final Value<MessageStatus> status;
   final Value<DateTime> createdAt;
   final Value<String?> citations;
+  final Value<String?> imagePath;
   const MessagesCompanion({
     this.id = const Value.absent(),
     this.conversationId = const Value.absent(),
@@ -674,6 +717,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
     this.status = const Value.absent(),
     this.createdAt = const Value.absent(),
     this.citations = const Value.absent(),
+    this.imagePath = const Value.absent(),
   });
   MessagesCompanion.insert({
     this.id = const Value.absent(),
@@ -683,6 +727,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
     required MessageStatus status,
     required DateTime createdAt,
     this.citations = const Value.absent(),
+    this.imagePath = const Value.absent(),
   }) : conversationId = Value(conversationId),
        role = Value(role),
        content = Value(content),
@@ -696,6 +741,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
     Expression<String>? status,
     Expression<DateTime>? createdAt,
     Expression<String>? citations,
+    Expression<String>? imagePath,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -705,6 +751,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
       if (status != null) 'status': status,
       if (createdAt != null) 'created_at': createdAt,
       if (citations != null) 'citations': citations,
+      if (imagePath != null) 'image_path': imagePath,
     });
   }
 
@@ -716,6 +763,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
     Value<MessageStatus>? status,
     Value<DateTime>? createdAt,
     Value<String?>? citations,
+    Value<String?>? imagePath,
   }) {
     return MessagesCompanion(
       id: id ?? this.id,
@@ -725,6 +773,7 @@ class MessagesCompanion extends UpdateCompanion<Message> {
       status: status ?? this.status,
       createdAt: createdAt ?? this.createdAt,
       citations: citations ?? this.citations,
+      imagePath: imagePath ?? this.imagePath,
     );
   }
 
@@ -756,6 +805,9 @@ class MessagesCompanion extends UpdateCompanion<Message> {
     if (citations.present) {
       map['citations'] = Variable<String>(citations.value);
     }
+    if (imagePath.present) {
+      map['image_path'] = Variable<String>(imagePath.value);
+    }
     return map;
   }
 
@@ -768,7 +820,8 @@ class MessagesCompanion extends UpdateCompanion<Message> {
           ..write('content: $content, ')
           ..write('status: $status, ')
           ..write('createdAt: $createdAt, ')
-          ..write('citations: $citations')
+          ..write('citations: $citations, ')
+          ..write('imagePath: $imagePath')
           ..write(')'))
         .toString();
   }
@@ -2559,6 +2612,18 @@ class $InstalledModelsTable extends InstalledModels
     type: DriftSqlType.dateTime,
     requiredDuringInsert: true,
   );
+  static const VerificationMeta _projectorFileNameMeta = const VerificationMeta(
+    'projectorFileName',
+  );
+  @override
+  late final GeneratedColumn<String> projectorFileName =
+      GeneratedColumn<String>(
+        'projector_file_name',
+        aliasedName,
+        true,
+        type: DriftSqlType.string,
+        requiredDuringInsert: false,
+      );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -2567,6 +2632,7 @@ class $InstalledModelsTable extends InstalledModels
     sizeBytes,
     isActive,
     installedAt,
+    projectorFileName,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -2627,6 +2693,15 @@ class $InstalledModelsTable extends InstalledModels
     } else if (isInserting) {
       context.missing(_installedAtMeta);
     }
+    if (data.containsKey('projector_file_name')) {
+      context.handle(
+        _projectorFileNameMeta,
+        projectorFileName.isAcceptableOrUnknown(
+          data['projector_file_name']!,
+          _projectorFileNameMeta,
+        ),
+      );
+    }
     return context;
   }
 
@@ -2660,6 +2735,10 @@ class $InstalledModelsTable extends InstalledModels
         DriftSqlType.dateTime,
         data['${effectivePrefix}installed_at'],
       )!,
+      projectorFileName: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}projector_file_name'],
+      ),
     );
   }
 
@@ -2679,6 +2758,10 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
   final int sizeBytes;
   final bool isActive;
   final DateTime installedAt;
+
+  /// Multimodal projector (mmproj GGUF) file name in the models directory,
+  /// when the model can see photos; null for text-only models.
+  final String? projectorFileName;
   const InstalledModel({
     required this.id,
     required this.displayName,
@@ -2686,6 +2769,7 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
     required this.sizeBytes,
     required this.isActive,
     required this.installedAt,
+    this.projectorFileName,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -2696,6 +2780,9 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
     map['size_bytes'] = Variable<int>(sizeBytes);
     map['is_active'] = Variable<bool>(isActive);
     map['installed_at'] = Variable<DateTime>(installedAt);
+    if (!nullToAbsent || projectorFileName != null) {
+      map['projector_file_name'] = Variable<String>(projectorFileName);
+    }
     return map;
   }
 
@@ -2707,6 +2794,9 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
       sizeBytes: Value(sizeBytes),
       isActive: Value(isActive),
       installedAt: Value(installedAt),
+      projectorFileName: projectorFileName == null && nullToAbsent
+          ? const Value.absent()
+          : Value(projectorFileName),
     );
   }
 
@@ -2722,6 +2812,9 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
       sizeBytes: serializer.fromJson<int>(json['sizeBytes']),
       isActive: serializer.fromJson<bool>(json['isActive']),
       installedAt: serializer.fromJson<DateTime>(json['installedAt']),
+      projectorFileName: serializer.fromJson<String?>(
+        json['projectorFileName'],
+      ),
     );
   }
   @override
@@ -2734,6 +2827,7 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
       'sizeBytes': serializer.toJson<int>(sizeBytes),
       'isActive': serializer.toJson<bool>(isActive),
       'installedAt': serializer.toJson<DateTime>(installedAt),
+      'projectorFileName': serializer.toJson<String?>(projectorFileName),
     };
   }
 
@@ -2744,6 +2838,7 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
     int? sizeBytes,
     bool? isActive,
     DateTime? installedAt,
+    Value<String?> projectorFileName = const Value.absent(),
   }) => InstalledModel(
     id: id ?? this.id,
     displayName: displayName ?? this.displayName,
@@ -2751,6 +2846,9 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
     sizeBytes: sizeBytes ?? this.sizeBytes,
     isActive: isActive ?? this.isActive,
     installedAt: installedAt ?? this.installedAt,
+    projectorFileName: projectorFileName.present
+        ? projectorFileName.value
+        : this.projectorFileName,
   );
   InstalledModel copyWithCompanion(InstalledModelsCompanion data) {
     return InstalledModel(
@@ -2764,6 +2862,9 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
       installedAt: data.installedAt.present
           ? data.installedAt.value
           : this.installedAt,
+      projectorFileName: data.projectorFileName.present
+          ? data.projectorFileName.value
+          : this.projectorFileName,
     );
   }
 
@@ -2775,14 +2876,22 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
           ..write('fileName: $fileName, ')
           ..write('sizeBytes: $sizeBytes, ')
           ..write('isActive: $isActive, ')
-          ..write('installedAt: $installedAt')
+          ..write('installedAt: $installedAt, ')
+          ..write('projectorFileName: $projectorFileName')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode =>
-      Object.hash(id, displayName, fileName, sizeBytes, isActive, installedAt);
+  int get hashCode => Object.hash(
+    id,
+    displayName,
+    fileName,
+    sizeBytes,
+    isActive,
+    installedAt,
+    projectorFileName,
+  );
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -2792,7 +2901,8 @@ class InstalledModel extends DataClass implements Insertable<InstalledModel> {
           other.fileName == this.fileName &&
           other.sizeBytes == this.sizeBytes &&
           other.isActive == this.isActive &&
-          other.installedAt == this.installedAt);
+          other.installedAt == this.installedAt &&
+          other.projectorFileName == this.projectorFileName);
 }
 
 class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
@@ -2802,6 +2912,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
   final Value<int> sizeBytes;
   final Value<bool> isActive;
   final Value<DateTime> installedAt;
+  final Value<String?> projectorFileName;
   const InstalledModelsCompanion({
     this.id = const Value.absent(),
     this.displayName = const Value.absent(),
@@ -2809,6 +2920,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
     this.sizeBytes = const Value.absent(),
     this.isActive = const Value.absent(),
     this.installedAt = const Value.absent(),
+    this.projectorFileName = const Value.absent(),
   });
   InstalledModelsCompanion.insert({
     this.id = const Value.absent(),
@@ -2817,6 +2929,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
     required int sizeBytes,
     this.isActive = const Value.absent(),
     required DateTime installedAt,
+    this.projectorFileName = const Value.absent(),
   }) : displayName = Value(displayName),
        fileName = Value(fileName),
        sizeBytes = Value(sizeBytes),
@@ -2828,6 +2941,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
     Expression<int>? sizeBytes,
     Expression<bool>? isActive,
     Expression<DateTime>? installedAt,
+    Expression<String>? projectorFileName,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -2836,6 +2950,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
       if (sizeBytes != null) 'size_bytes': sizeBytes,
       if (isActive != null) 'is_active': isActive,
       if (installedAt != null) 'installed_at': installedAt,
+      if (projectorFileName != null) 'projector_file_name': projectorFileName,
     });
   }
 
@@ -2846,6 +2961,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
     Value<int>? sizeBytes,
     Value<bool>? isActive,
     Value<DateTime>? installedAt,
+    Value<String?>? projectorFileName,
   }) {
     return InstalledModelsCompanion(
       id: id ?? this.id,
@@ -2854,6 +2970,7 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
       sizeBytes: sizeBytes ?? this.sizeBytes,
       isActive: isActive ?? this.isActive,
       installedAt: installedAt ?? this.installedAt,
+      projectorFileName: projectorFileName ?? this.projectorFileName,
     );
   }
 
@@ -2878,6 +2995,9 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
     if (installedAt.present) {
       map['installed_at'] = Variable<DateTime>(installedAt.value);
     }
+    if (projectorFileName.present) {
+      map['projector_file_name'] = Variable<String>(projectorFileName.value);
+    }
     return map;
   }
 
@@ -2889,7 +3009,8 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
           ..write('fileName: $fileName, ')
           ..write('sizeBytes: $sizeBytes, ')
           ..write('isActive: $isActive, ')
-          ..write('installedAt: $installedAt')
+          ..write('installedAt: $installedAt, ')
+          ..write('projectorFileName: $projectorFileName')
           ..write(')'))
         .toString();
   }
@@ -3234,6 +3355,7 @@ typedef $$MessagesTableCreateCompanionBuilder = MessagesCompanion Function({
   required MessageStatus status,
   required DateTime createdAt,
   Value<String?> citations,
+  Value<String?> imagePath,
 });
 typedef $$MessagesTableUpdateCompanionBuilder = MessagesCompanion Function({
   Value<int> id,
@@ -3243,6 +3365,7 @@ typedef $$MessagesTableUpdateCompanionBuilder = MessagesCompanion Function({
   Value<MessageStatus> status,
   Value<DateTime> createdAt,
   Value<String?> citations,
+  Value<String?> imagePath,
 });
 
 final class $$MessagesTableReferences
@@ -3309,6 +3432,11 @@ class $$MessagesTableFilterComposer
     builder: (column) => ColumnFilters(column),
   );
 
+  ColumnFilters<String> get imagePath => $composableBuilder(
+    column: $table.imagePath,
+    builder: (column) => ColumnFilters(column),
+  );
+
   $$ConversationsTableFilterComposer get conversationId {
     final $$ConversationsTableFilterComposer composer = $composerBuilder(
       composer: this,
@@ -3372,6 +3500,11 @@ class $$MessagesTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<String> get imagePath => $composableBuilder(
+    column: $table.imagePath,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   $$ConversationsTableOrderingComposer get conversationId {
     final $$ConversationsTableOrderingComposer composer = $composerBuilder(
       composer: this,
@@ -3422,6 +3555,9 @@ class $$MessagesTableAnnotationComposer
 
   GeneratedColumn<String> get citations =>
       $composableBuilder(column: $table.citations, builder: (column) => column);
+
+  GeneratedColumn<String> get imagePath =>
+      $composableBuilder(column: $table.imagePath, builder: (column) => column);
 
   $$ConversationsTableAnnotationComposer get conversationId {
     final $$ConversationsTableAnnotationComposer composer = $composerBuilder(
@@ -3482,6 +3618,7 @@ class $$MessagesTableTableManager
                 Value<MessageStatus> status = const Value.absent(),
                 Value<DateTime> createdAt = const Value.absent(),
                 Value<String?> citations = const Value.absent(),
+                Value<String?> imagePath = const Value.absent(),
               }) => MessagesCompanion(
                 id: id,
                 conversationId: conversationId,
@@ -3490,6 +3627,7 @@ class $$MessagesTableTableManager
                 status: status,
                 createdAt: createdAt,
                 citations: citations,
+                imagePath: imagePath,
               ),
           createCompanionCallback:
               ({
@@ -3500,6 +3638,7 @@ class $$MessagesTableTableManager
                 required MessageStatus status,
                 required DateTime createdAt,
                 Value<String?> citations = const Value.absent(),
+                Value<String?> imagePath = const Value.absent(),
               }) => MessagesCompanion.insert(
                 id: id,
                 conversationId: conversationId,
@@ -3508,6 +3647,7 @@ class $$MessagesTableTableManager
                 status: status,
                 createdAt: createdAt,
                 citations: citations,
+                imagePath: imagePath,
               ),
           withReferenceMapper: (p0) => p0
               .map(
@@ -4844,6 +4984,7 @@ typedef $$InstalledModelsTableCreateCompanionBuilder =
       required int sizeBytes,
       Value<bool> isActive,
       required DateTime installedAt,
+      Value<String?> projectorFileName,
     });
 typedef $$InstalledModelsTableUpdateCompanionBuilder =
     InstalledModelsCompanion Function({
@@ -4853,6 +4994,7 @@ typedef $$InstalledModelsTableUpdateCompanionBuilder =
       Value<int> sizeBytes,
       Value<bool> isActive,
       Value<DateTime> installedAt,
+      Value<String?> projectorFileName,
     });
 
 class $$InstalledModelsTableFilterComposer
@@ -4891,6 +5033,11 @@ class $$InstalledModelsTableFilterComposer
 
   ColumnFilters<DateTime> get installedAt => $composableBuilder(
     column: $table.installedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get projectorFileName => $composableBuilder(
+    column: $table.projectorFileName,
     builder: (column) => ColumnFilters(column),
   );
 }
@@ -4933,6 +5080,11 @@ class $$InstalledModelsTableOrderingComposer
     column: $table.installedAt,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<String> get projectorFileName => $composableBuilder(
+    column: $table.projectorFileName,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$InstalledModelsTableAnnotationComposer
@@ -4963,6 +5115,11 @@ class $$InstalledModelsTableAnnotationComposer
 
   GeneratedColumn<DateTime> get installedAt => $composableBuilder(
     column: $table.installedAt,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get projectorFileName => $composableBuilder(
+    column: $table.projectorFileName,
     builder: (column) => column,
   );
 }
@@ -5010,6 +5167,7 @@ class $$InstalledModelsTableTableManager
                 Value<int> sizeBytes = const Value.absent(),
                 Value<bool> isActive = const Value.absent(),
                 Value<DateTime> installedAt = const Value.absent(),
+                Value<String?> projectorFileName = const Value.absent(),
               }) => InstalledModelsCompanion(
                 id: id,
                 displayName: displayName,
@@ -5017,6 +5175,7 @@ class $$InstalledModelsTableTableManager
                 sizeBytes: sizeBytes,
                 isActive: isActive,
                 installedAt: installedAt,
+                projectorFileName: projectorFileName,
               ),
           createCompanionCallback:
               ({
@@ -5026,6 +5185,7 @@ class $$InstalledModelsTableTableManager
                 required int sizeBytes,
                 Value<bool> isActive = const Value.absent(),
                 required DateTime installedAt,
+                Value<String?> projectorFileName = const Value.absent(),
               }) => InstalledModelsCompanion.insert(
                 id: id,
                 displayName: displayName,
@@ -5033,6 +5193,7 @@ class $$InstalledModelsTableTableManager
                 sizeBytes: sizeBytes,
                 isActive: isActive,
                 installedAt: installedAt,
+                projectorFileName: projectorFileName,
               ),
           withReferenceMapper: (p0) => p0
               .map(

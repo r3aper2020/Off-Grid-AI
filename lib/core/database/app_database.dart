@@ -31,6 +31,11 @@ class Messages extends Table {
   /// where index 0 is citation [1]. `[]` means the library was searched and
   /// nothing matched; null means no search ran (e.g. older messages).
   TextColumn get citations => text().nullable()();
+
+  /// User messages only: a photo attached to the message, as a file name
+  /// inside the app's photos directory (not an absolute path, so the app
+  /// container can move between OS updates/restores).
+  TextColumn get imagePath => text().nullable()();
 }
 
 /// Category used by the Library filter chips.
@@ -128,6 +133,10 @@ class InstalledModels extends Table {
   IntColumn get sizeBytes => integer()();
   BoolColumn get isActive => boolean().withDefault(const Constant(false))();
   DateTimeColumn get installedAt => dateTime()();
+
+  /// Multimodal projector (mmproj GGUF) file name in the models directory,
+  /// when the model can see photos; null for text-only models.
+  TextColumn get projectorFileName => text().nullable()();
 }
 
 @DriftDatabase(
@@ -145,7 +154,7 @@ class AppDatabase extends _$AppDatabase {
     : super(executor ?? driftDatabase(name: 'offgrid'));
 
   @override
-  int get schemaVersion => 7;
+  int get schemaVersion => 8;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -202,6 +211,14 @@ class AppDatabase extends _$AppDatabase {
           INSERT INTO passages_fts(rowid, title, heading, body)
           SELECT p.id, d.title || ' ' || d.aliases, p.heading, p.body
           FROM passages p JOIN pack_documents d ON d.id = p.document_id''');
+      }
+      if (from < 8) {
+        // v8: photos on user messages; vision projector on installed models.
+        await m.addColumn(messages, messages.imagePath);
+        // A v1 database had installed_models created above with the column.
+        if (from >= 2) {
+          await m.addColumn(installedModels, installedModels.projectorFileName);
+        }
       }
       if (from >= 3 && from < 7) {
         // Bundled packs are removed so the startup sync reinstalls them

@@ -11,12 +11,14 @@ import 'package:offgrid_ai/features/chat/domain/inference_engine.dart';
 import '../../support/test_db.dart';
 
 class FakeEngine implements InferenceEngine {
-  FakeEngine(this.controller);
+  FakeEngine(this.controller, {this.canSeeImages = false});
   final StreamController<GenerationEvent> controller;
+  final bool canSeeImages;
   List<ChatTurn>? lastHistory;
 
   @override
-  Future<EngineStatus> status() async => const EngineReady('fake');
+  Future<EngineStatus> status() async =>
+      EngineReady('fake', canSeeImages: canSeeImages);
 
   @override
   Stream<GenerationEvent> generate(List<ChatTurn> history) {
@@ -139,5 +141,42 @@ void main() {
     final reply = (await messagesOf(c, id)).last;
     expect(reply.status, MessageStatus.failed);
     expect(reply.content, 'Out of memory');
+  });
+
+  test('a photo sent to a text-only model gets an honest notice', () async {
+    final stream = StreamController<GenerationEvent>();
+    final engine = FakeEngine(stream);
+    final c = containerWith(engine);
+    final id = await c
+        .read(chatRepositoryProvider)
+        .startConversation('what is this', imagePath: 'leaf.jpg');
+
+    await c.read(generationControllerProvider.notifier).reply(id);
+
+    final reply = (await messagesOf(c, id)).last;
+    expect(reply.status, MessageStatus.notice);
+    expect(reply.content, GenerationController.noVisionReason);
+    expect(engine.lastHistory, isNull);
+    // Never listened to, so close without waiting for it to drain.
+    unawaited(stream.close());
+  });
+
+  test('a vision model receives the photo on the latest turn', () async {
+    final stream = StreamController<GenerationEvent>();
+    final engine = FakeEngine(stream, canSeeImages: true);
+    final c = containerWith(engine);
+    final id = await c
+        .read(chatRepositoryProvider)
+        .startConversation('what is this', imagePath: 'leaf.jpg');
+
+    await c.read(generationControllerProvider.notifier).reply(id);
+    stream.add(const GenerationDone());
+    await stream.close();
+    await pumpEventQueue();
+
+    final user = engine.lastHistory!.lastWhere(
+      (t) => t.speaker == ChatSpeaker.user,
+    );
+    expect(user.imagePath, endsWith('/leaf.jpg'));
   });
 }

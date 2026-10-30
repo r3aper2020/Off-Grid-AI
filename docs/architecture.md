@@ -49,12 +49,13 @@ lib/
 |---|---|
 | `conversations` | Chat threads; title from first user message |
 | `messages` | `role` (user/assistant/system), `status` (complete/streaming/cancelled/failed/notice); cascades on conversation delete |
-| `installed_models` (v2) | Imported GGUF files: file name in `models/`, size, `isActive` (at most one) |
+| `installed_models` (v2) | Imported GGUF files: file name in `models/`, size, `isActive` (at most one); v8 `projectorFileName` for vision models |
 | `knowledge_packs` (v3) | Installed packs: metadata, publisher, license, attribution, source |
 | `pack_documents` (v3) | Documents in a pack, with source URL; v7 adds retrieval-only `aliases`, `libraryOnly` (never given to the model) and a document `embedding` |
 | `passages` (v3) | Sections: the unit searched, given to the model and cited; v5 `images`, v6 `embedding` (int8 vector) |
 | `passages_fts` (v3) | FTS5 index over passages (porter stemming) and their document's title + aliases, synced by triggers |
 | `messages.citations` (v3) | JSON passage ids given to the model for a reply; `[]` = searched, nothing matched |
+| `messages.imagePath` (v8) | Photo attached to a user message: file name in the app's `photos/` directory |
 
 ## Chat generation flow
 

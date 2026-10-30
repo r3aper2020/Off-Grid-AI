@@ -43,6 +43,18 @@ class ModelStore {
 
   File fileFor(InstalledModel model) => File(p.join(_dir.path, model.fileName));
 
+  /// The model's vision projector file, or null for a text-only model.
+  File? projectorFor(InstalledModel model) => model.projectorFileName == null
+      ? null
+      : File(p.join(_dir.path, model.projectorFileName!));
+
+  /// Records that [modelId] has the projector file [fileName] (already
+  /// written by [importFile]) and can therefore see photos.
+  Future<void> setProjector(int modelId, String fileName) {
+    return (_db.update(_db.installedModels)..where((m) => m.id.equals(modelId)))
+        .write(InstalledModelsCompanion(projectorFileName: Value(fileName)));
+  }
+
   /// Copies [bytes] into storage as [originalName]. The first model
   /// imported becomes active. [onProgress] receives bytes written so far.
   ///
@@ -53,6 +65,46 @@ class ModelStore {
     required Stream<List<int>> bytes,
     void Function(int written)? onProgress,
     String? displayName,
+    int? expectedSize,
+    String? expectedSha256,
+  }) async {
+    final (fileName, written) = await importFile(
+      originalName: originalName,
+      bytes: bytes,
+      onProgress: onProgress,
+      expectedSize: expectedSize,
+      expectedSha256: expectedSha256,
+    );
+
+    return _db.transaction(() async {
+      final hasActive = await (_db.select(
+        _db.installedModels,
+      )..where((m) => m.isActive.equals(true))).getSingleOrNull();
+      final id = await _db
+          .into(_db.installedModels)
+          .insert(
+            InstalledModelsCompanion.insert(
+              displayName: displayName ?? p.basenameWithoutExtension(fileName),
+              fileName: fileName,
+              sizeBytes: written,
+              isActive: Value(hasActive == null),
+              installedAt: DateTime.now(),
+            ),
+          );
+      return (_db.select(
+        _db.installedModels,
+      )..where((m) => m.id.equals(id))).getSingle();
+    });
+  }
+
+  /// Writes a GGUF file into the models directory without registering a
+  /// model (used for a vision projector): `.part` file, header check,
+  /// optional size and SHA-256 verification, atomic rename. Returns the
+  /// file name used and the bytes written.
+  Future<(String, int)> importFile({
+    required String originalName,
+    required Stream<List<int>> bytes,
+    void Function(int written)? onProgress,
     int? expectedSize,
     String? expectedSha256,
   }) async {
@@ -125,26 +177,7 @@ class ModelStore {
       await _discard(sink, part);
       rethrow;
     }
-
-    return _db.transaction(() async {
-      final hasActive = await (_db.select(
-        _db.installedModels,
-      )..where((m) => m.isActive.equals(true))).getSingleOrNull();
-      final id = await _db
-          .into(_db.installedModels)
-          .insert(
-            InstalledModelsCompanion.insert(
-              displayName: displayName ?? p.basenameWithoutExtension(fileName),
-              fileName: fileName,
-              sizeBytes: written,
-              isActive: Value(hasActive == null),
-              installedAt: DateTime.now(),
-            ),
-          );
-      return (_db.select(
-        _db.installedModels,
-      )..where((m) => m.id.equals(id))).getSingle();
-    });
+    return (fileName, written);
   }
 
   Future<void> setActive(int id) {
@@ -161,8 +194,9 @@ class ModelStore {
     await (_db.delete(
       _db.installedModels,
     )..where((m) => m.id.equals(model.id))).go();
-    final file = fileFor(model);
-    if (await file.exists()) await file.delete();
+    for (final file in [fileFor(model), ?projectorFor(model)]) {
+      if (await file.exists()) await file.delete();
+    }
   }
 
   /// Removes `.part` files left by imports that were interrupted.

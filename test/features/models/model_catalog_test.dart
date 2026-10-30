@@ -36,4 +36,13 @@ void main() {
       isFalse,
     );
   });
+
+  test('the vision model carries a verifiable projector', () {
+    final vision = ModelCatalog.models.firstWhere((m) => m.canSeeImages);
+    final proj = vision.projector!;
+    expect(proj.sha256, matches(RegExp(r'^[0-9a-f]{64}$')));
+    expect(proj.fileName, endsWith('.gguf'));
+    expect(vision.totalBytes, vision.sizeBytes + proj.sizeBytes);
+    expect(ModelCatalog.models.where((m) => m.canSeeImages), hasLength(1));
+  });
 }

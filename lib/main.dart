@@ -11,6 +11,7 @@ import 'app/app.dart';
 import 'features/chat/chat_providers.dart';
 import 'features/library/data/library_repository.dart';
 import 'features/library/data/llama_embedder.dart';
+import 'core/providers.dart';
 import 'features/models/model_providers.dart';
 
 Future<void> main() async {
@@ -22,6 +23,9 @@ Future<void> main() async {
     overrides: [
       modelsDirectoryProvider.overrideWithValue(
         Directory(p.join(support.path, 'models')),
+      ),
+      photosDirectoryProvider.overrideWithValue(
+        Directory(p.join(support.path, 'photos')),
       ),
       // Bundled embedding model for semantic search; loads on first use.
       textEmbedderProvider.overrideWithValue(

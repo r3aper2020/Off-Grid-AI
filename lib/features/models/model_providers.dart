@@ -67,7 +67,7 @@ class ModelDownloadController extends Notifier<DownloadState> {
     final download = ModelDownload(ref.read(modelStoreProvider), model);
     _download = download;
     _lastShown = 0;
-    state = DownloadState(written: 0, total: model.sizeBytes, model: model);
+    state = DownloadState(written: 0, total: model.totalBytes, model: model);
     try {
       final installed = await download.run(
         onProgress: (written) {
@@ -76,7 +76,7 @@ class ModelDownloadController extends Notifier<DownloadState> {
           _lastShown = written;
           state = DownloadState(
             written: written,
-            total: model.sizeBytes,
+            total: model.totalBytes,
             model: model,
           );
         },

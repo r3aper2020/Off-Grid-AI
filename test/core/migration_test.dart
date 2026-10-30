@@ -17,6 +17,11 @@ Future<void> dropV7Columns(AppDatabase db) async {
   for (final c in ['aliases', 'library_only', 'embedding']) {
     await db.customStatement('ALTER TABLE pack_documents DROP COLUMN $c');
   }
+  // v8 columns, added after these fixtures' versions.
+  await db.customStatement('ALTER TABLE messages DROP COLUMN image_path');
+  await db.customStatement(
+    'ALTER TABLE installed_models DROP COLUMN projector_file_name',
+  );
   await db.customStatement('''
     CREATE TRIGGER passages_ai AFTER INSERT ON passages BEGIN
       INSERT INTO passages_fts(rowid, title, heading, body)
@@ -169,6 +174,29 @@ void main() {
     expect(doc.libraryOnly, isFalse);
     // The rebuilt index still finds the old text.
     expect(await KnowledgeSearch(upgraded).search('old text'), hasLength(1));
+    await upgraded.close();
+    await dir.delete(recursive: true);
+  });
+
+  test('v7 database gains photo and projector columns', () async {
+    final dir = await Directory.systemTemp.createTemp('v7');
+    final f = File('${dir.path}/v7.sqlite');
+    final fresh = AppDatabase(NativeDatabase(f));
+    await fresh.customStatement('ALTER TABLE messages DROP COLUMN image_path');
+    await fresh.customStatement(
+      'ALTER TABLE installed_models DROP COLUMN projector_file_name',
+    );
+    await fresh.customStatement('PRAGMA user_version = 7');
+    await fresh.close();
+
+    final upgraded = AppDatabase(NativeDatabase(f));
+    await upgraded.customStatement(
+      "INSERT INTO installed_models (display_name, file_name, size_bytes, "
+      "is_active, installed_at, projector_file_name) VALUES ('m', 'm.gguf', "
+      "1, 1, 0, 'p.gguf')",
+    );
+    final model = await upgraded.select(upgraded.installedModels).getSingle();
+    expect(model.projectorFileName, 'p.gguf');
     await upgraded.close();
     await dir.delete(recursive: true);
   });

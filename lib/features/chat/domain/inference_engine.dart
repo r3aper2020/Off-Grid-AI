@@ -26,9 +26,18 @@ abstract interface class InferenceEngine {
 enum ChatSpeaker { user, assistant, system }
 
 class ChatTurn {
-  const ChatTurn(this.speaker, this.text);
+  const ChatTurn(this.speaker, this.text, {this.imagePath});
   final ChatSpeaker speaker;
   final String text;
+
+  /// Absolute path of a photo attached to a user turn, if any.
+  final String? imagePath;
+
+  ChatTurn copyWith({String? text, String? imagePath}) => ChatTurn(
+    speaker,
+    text ?? this.text,
+    imagePath: imagePath ?? this.imagePath,
+  );
 }
 
 sealed class EngineStatus {
@@ -36,8 +45,12 @@ sealed class EngineStatus {
 }
 
 class EngineReady extends EngineStatus {
-  const EngineReady(this.modelName);
+  const EngineReady(this.modelName, {this.canSeeImages = false});
   final String modelName;
+
+  /// Whether photos attached to messages reach the model (a vision model
+  /// with its projector installed).
+  final bool canSeeImages;
 }
 
 /// No usable model. [reason] is shown to the user verbatim.

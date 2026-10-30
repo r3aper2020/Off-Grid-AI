@@ -36,30 +36,46 @@ class ChatRepository {
         .get();
   }
 
-  /// Creates a conversation seeded with the user's first message.
-  Future<int> startConversation(String firstMessage) {
+  /// Creates a conversation seeded with the user's first message, which
+  /// may carry a photo ([imagePath], a file name in the photos directory).
+  Future<int> startConversation(String firstMessage, {String? imagePath}) {
     return _db.transaction(() async {
       final now = DateTime.now();
       final id = await _db
           .into(_db.conversations)
           .insert(
             ConversationsCompanion.insert(
-              title: _titleFrom(firstMessage),
+              title: _titleFrom(
+                firstMessage.trim().isEmpty && imagePath != null
+                    ? 'Photo'
+                    : firstMessage,
+              ),
               createdAt: now,
               updatedAt: now,
             ),
           );
-      await _insert(id, MessageRole.user, firstMessage, MessageStatus.complete);
+      await _insert(
+        id,
+        MessageRole.user,
+        firstMessage,
+        MessageStatus.complete,
+        imagePath: imagePath,
+      );
       return id;
     });
   }
 
-  Future<int> addUserMessage(int conversationId, String text) {
+  Future<int> addUserMessage(
+    int conversationId,
+    String text, {
+    String? imagePath,
+  }) {
     return _insert(
       conversationId,
       MessageRole.user,
       text,
       MessageStatus.complete,
+      imagePath: imagePath,
     );
   }
 
@@ -109,6 +125,7 @@ class ChatRepository {
     String text,
     MessageStatus status, {
     List<int>? citations,
+    String? imagePath,
   }) async {
     final id = await _db
         .into(_db.messages)
@@ -120,6 +137,7 @@ class ChatRepository {
             status: status,
             createdAt: DateTime.now(),
             citations: Value(citations == null ? null : jsonEncode(citations)),
+            imagePath: Value(imagePath),
           ),
         );
     await (_db.update(_db.conversations)

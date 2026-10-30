@@ -1,9 +1,12 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/database/app_database.dart';
+import '../../../core/providers.dart';
 import '../../library/data/knowledge_search.dart';
 import '../../library/library_providers.dart';
 import '../../library/domain/pack_format.dart';
@@ -14,6 +17,7 @@ import '../domain/grounding.dart';
 import '../domain/inference_engine.dart';
 import 'chat_input.dart';
 import 'message_text.dart';
+import 'photo_picker.dart';
 import 'thinking_indicator.dart';
 
 class ConversationScreen extends ConsumerWidget {
@@ -21,8 +25,10 @@ class ConversationScreen extends ConsumerWidget {
 
   final int conversationId;
 
-  Future<void> _send(WidgetRef ref, String text) async {
-    await ref.read(chatRepositoryProvider).addUserMessage(conversationId, text);
+  Future<void> _send(WidgetRef ref, String text, String? imagePath) async {
+    await ref
+        .read(chatRepositoryProvider)
+        .addUserMessage(conversationId, text, imagePath: imagePath);
     ref.read(generationControllerProvider.notifier).reply(conversationId);
   }
 
@@ -57,6 +63,7 @@ class ConversationScreen extends ConsumerWidget {
                   itemBuilder: (context, i) => _MessageBubble(
                     message: list[list.length - 1 - i],
                     phase: phase,
+                    photosDirectory: ref.read(photosDirectoryProvider),
                   ),
                 ),
               ),
@@ -65,7 +72,11 @@ class ConversationScreen extends ConsumerWidget {
               padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
               child: ChatInput(
                 generating: generating,
-                onSend: (t) => _send(ref, t),
+                onSend: (t, image) => _send(ref, t, image),
+                onAttach: () =>
+                    PhotoPicker(ref.read(photosDirectoryProvider))
+                        .pick(context),
+                photosDirectory: ref.read(photosDirectoryProvider),
                 onStop: () => ref
                     .read(generationControllerProvider.notifier)
                     .cancel(conversationId),
@@ -79,9 +90,14 @@ class ConversationScreen extends ConsumerWidget {
 }
 
 class _MessageBubble extends StatelessWidget {
-  const _MessageBubble({required this.message, this.phase});
+  const _MessageBubble({
+    required this.message,
+    this.phase,
+    required this.photosDirectory,
+  });
 
   final Message message;
+  final Directory photosDirectory;
 
   /// Progress of the reply in this conversation, if one is running.
   final GenerationPhase? phase;
@@ -144,10 +160,17 @@ class _MessageBubble extends StatelessWidget {
                     ],
                   ),
                 ),
+              if (message.imagePath != null)
+                Padding(
+                  padding: EdgeInsets.only(bottom: text.isEmpty ? 0 : 8),
+                  child: _Photo(
+                    file: File('${photosDirectory.path}/${message.imagePath}'),
+                  ),
+                ),
               if (waiting)
                 ThinkingIndicator(phase: phase)
               else if (isUser || isNotice)
-                SelectableText(text)
+                (text.isEmpty ? const SizedBox.shrink() : SelectableText(text))
               else
                 MessageText(text),
               // While the model is still reading or writing, show what it
@@ -176,6 +199,61 @@ class _MessageBubble extends StatelessWidget {
                   ),
                 ),
             ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// A photo attached to a message; tap to view it full screen.
+class _Photo extends StatelessWidget {
+  const _Photo({required this.file});
+
+  final File file;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => showDialog<void>(
+        context: context,
+        builder: (context) => Dialog.fullscreen(
+          backgroundColor: Colors.black,
+          child: Stack(
+            children: [
+              Center(
+                child: InteractiveViewer(
+                  maxScale: 5,
+                  child: Image.file(file, fit: BoxFit.contain),
+                ),
+              ),
+              Positioned(
+                top: 8,
+                right: 8,
+                child: SafeArea(
+                  child: IconButton(
+                    tooltip: 'Close',
+                    onPressed: () => Navigator.pop(context),
+                    icon: const Icon(Icons.close_rounded, color: Colors.white),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(10),
+        child: Image.file(
+          file,
+          width: 220,
+          fit: BoxFit.cover,
+          errorBuilder: (_, _, _) => const Padding(
+            padding: EdgeInsets.all(8),
+            child: Text(
+              'Photo no longer available',
+              style: TextStyle(fontSize: 11, color: AppColors.textTertiary),
+            ),
           ),
         ),
       ),

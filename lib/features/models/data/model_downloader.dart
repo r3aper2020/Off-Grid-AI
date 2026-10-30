@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:drift/drift.dart' show Value;
+
 import '../../../core/database/app_database.dart';
 import 'model_catalog.dart';
 import 'model_store.dart';
@@ -47,16 +49,31 @@ class ModelDownload {
   static Duration _defaultDelay(int attempt) =>
       Duration(seconds: [2, 4, 8, 15, 30, 30][(attempt - 1).clamp(0, 5)]);
 
+  /// Downloads the model and, for a vision model, its projector after it.
+  /// [onProgress] counts bytes across both files (see
+  /// [CatalogModel.totalBytes]). A failed projector download leaves the
+  /// model installed as text-only and reports the error.
   Future<InstalledModel> run({void Function(int written)? onProgress}) async {
     try {
-      return await _store.import(
+      final installed = await _store.import(
         originalName: model.fileName,
         displayName: model.displayName,
-        bytes: _resumableBytes(),
+        bytes: _resumableBytes(model.url, model.sizeBytes),
         onProgress: onProgress,
         expectedSize: model.sizeBytes,
         expectedSha256: model.sha256,
       );
+      final projector = model.projector;
+      if (projector == null) return installed;
+      final (fileName, _) = await _store.importFile(
+        originalName: projector.fileName,
+        bytes: _resumableBytes(projector.url, projector.sizeBytes),
+        onProgress: (written) => onProgress?.call(model.sizeBytes + written),
+        expectedSize: projector.sizeBytes,
+        expectedSha256: projector.sha256,
+      );
+      await _store.setProjector(installed.id, fileName);
+      return installed.copyWith(projectorFileName: Value(fileName));
     } on ModelImportException {
       if (_cancelled) throw const DownloadCancelled();
       rethrow;
@@ -76,18 +93,18 @@ class ModelDownload {
     _client.close(force: true);
   }
 
-  Stream<List<int>> _resumableBytes() async* {
+  Stream<List<int>> _resumableBytes(Uri url, int sizeBytes) async* {
     var received = 0;
     var failures = 0;
     while (true) {
       try {
-        final response = await _open(from: received);
+        final response = await _open(url, from: received);
         await for (final chunk in response.timeout(_stallTimeout)) {
           received += chunk.length;
           failures = 0;
           yield chunk;
         }
-        if (received >= model.sizeBytes) return;
+        if (received >= sizeBytes) return;
         // The server ended the body early without an error.
         throw const HttpException('Connection closed before the file ended');
       } on ModelImportException {
@@ -110,10 +127,10 @@ class ModelDownload {
     }
   }
 
-  /// GET [model.url] starting at byte [from]. Redirects are followed by
-  /// hand so the Range header is sent to the final (CDN) host too.
-  Future<HttpClientResponse> _open({required int from}) async {
-    var uri = model.url;
+  /// GET [url] starting at byte [from]. Redirects are followed by hand so
+  /// the Range header is sent to the final (CDN) host too.
+  Future<HttpClientResponse> _open(Uri url, {required int from}) async {
+    var uri = url;
     for (var hop = 0; hop <= _maxRedirects; hop++) {
       final request = await _client.getUrl(uri)
         ..followRedirects = false;

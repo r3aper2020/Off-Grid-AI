@@ -60,8 +60,9 @@ abstract final class Grounding {
       'topic and the specific thing asked (for example: "lost in the woods '
       'what to do first", "staying warm overnight without a tent", '
       '"improvised tourniquet with a belt"). Resolve references to earlier '
-      'messages into the actual topic. Output only the queries, nothing '
-      'else.';
+      'messages into the actual topic. If a photo is attached, name what it '
+      'shows (the plant, animal, injury, device or label) in the queries. '
+      'Output only the queries, nothing else.';
 
   /// Turns for the rewrite call: the previous exchange for context and
   /// the latest message to rewrite.
@@ -148,9 +149,8 @@ abstract final class Grounding {
 
     final turns = [...history];
     if (hits.isNotEmpty) {
-      turns[lastUser] = ChatTurn(
-        ChatSpeaker.user,
-        '${_passages(hits)}\n\nMy message: ${history[lastUser].text}',
+      turns[lastUser] = history[lastUser].copyWith(
+        text: '${_passages(hits)}\n\nMy message: ${history[lastUser].text}',
       );
     }
     return [

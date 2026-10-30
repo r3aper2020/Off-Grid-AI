@@ -30,6 +30,7 @@ final inferenceEngineProvider = Provider<InferenceEngine>((ref) {
   final engine = LlamaInferenceEngine(
     modelFile: store.fileFor(model),
     modelName: active.name,
+    projectorFile: store.projectorFor(model),
   );
   ref.onDispose(engine.dispose);
   return engine;
@@ -94,19 +95,42 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
       return;
     }
 
+    final photos = ref.read(photosDirectoryProvider);
     final history = (await _repo.messages(conversationId))
         .where((m) => m.status == MessageStatus.complete)
-        .map((m) => ChatTurn(_speaker(m.role), m.content))
+        .map(
+          (m) => ChatTurn(
+            _speaker(m.role),
+            m.content,
+            imagePath: m.imagePath == null
+                ? null
+                : '${photos.path}/${m.imagePath}',
+          ),
+        )
         .toList();
     final asked = [
       for (final t in history)
-        if (t.speaker == ChatSpeaker.user) t.text,
+        if (t.speaker == ChatSpeaker.user) t,
     ];
-    final question = asked.isEmpty ? '' : asked.last;
-    final previous = asked.length > 1 ? asked[asked.length - 2] : null;
+    final latest = asked.isEmpty ? null : asked.last;
+    final question = latest?.text ?? '';
+    final hasPhoto = latest?.imagePath != null;
+    final previous = asked.length > 1 ? asked[asked.length - 2].text : null;
+
+    // A photo needs a model that can see it; never pretend to look.
+    if (hasPhoto && status is EngineReady && !status.canSeeImages) {
+      await _repo.addAssistantMessage(
+        conversationId,
+        noVisionReason,
+        MessageStatus.notice,
+      );
+      return;
+    }
+
     // "Hi", "thanks", "ok" carry no topic: reply like a person, without
     // library lookups or a "not from the library" disclaimer.
-    final conversational = KnowledgeSearch.termsOf(question).isEmpty;
+    final conversational =
+        !hasPhoto && KnowledgeSearch.termsOf(question).isEmpty;
 
     // Show the reply bubble (and allow Stop) before any slow work starts.
     final messageId = await _repo.addAssistantMessage(
@@ -121,7 +145,13 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
     final hits = conversational
         ? const <PassageHit>[]
         : Grounding.select(
-            await _sourcesFor(engine, history, question, previous),
+            await _sourcesFor(
+              engine,
+              history,
+              question,
+              previous,
+              hasPhoto: hasPhoto,
+            ),
           );
     if (active.cancelled) return;
     if (!conversational) {
@@ -185,11 +215,14 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
     InferenceEngine engine,
     List<ChatTurn> history,
     String question,
-    String? previous,
-  ) async {
+    String? previous, {
+    bool hasPhoto = false,
+  }) async {
     try {
       final search = ref.read(knowledgeSearchProvider);
-      final direct = await search.forMessage(question, previous: previous);
+      final direct = question.trim().isEmpty
+          ? const <PassageHit>[]
+          : await search.forMessage(question, previous: previous);
       final followUp =
           previous != null &&
           KnowledgeSearch.termsOf(question).length <=
@@ -197,9 +230,12 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
       final confident =
           direct.isNotEmpty &&
           (direct.first.similarity ?? 1) >= KnowledgeSearch.confidentSimilarity;
+      // With a photo the words alone rarely say what it shows, so the
+      // model (which sees it) always writes the queries.
       if (direct.length >= Grounding.rewriteBelowHits &&
           confident &&
-          !followUp) {
+          !followUp &&
+          !hasPhoto) {
         return direct;
       }
       final rewrites = Grounding.parseRewrites(
@@ -207,11 +243,20 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
         question,
       );
       if (rewrites.isEmpty) return direct;
-      return await search.forQueries([question, ...rewrites]);
+      return await search.forQueries([
+        if (question.trim().isNotEmpty) question,
+        ...rewrites,
+      ]);
     } catch (_) {
       return const [];
     }
   }
+
+  /// Stored as a notice when a photo is sent to a text-only model.
+  static const noVisionReason =
+      'I can\'t see photos with the current AI model. Install "Qwen3 VL 4B '
+      'Instruct (vision)" from Settings → AI model and make it active, or '
+      'describe what you\'re looking at in words.';
 
   Future<void> cancel(int conversationId) async {
     final active = _active[conversationId];

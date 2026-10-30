@@ -1,3 +1,19 @@
+/// A second GGUF a vision model needs: the multimodal projector (mmproj)
+/// that turns a photo into tokens the model can read.
+class CatalogProjector {
+  const CatalogProjector({
+    required this.fileName,
+    required this.url,
+    required this.sizeBytes,
+    required this.sha256,
+  });
+
+  final String fileName;
+  final Uri url;
+  final int sizeBytes;
+  final String sha256;
+}
+
 /// A model the app knows how to download and verify.
 class CatalogModel {
   const CatalogModel({
@@ -9,6 +25,7 @@ class CatalogModel {
     required this.license,
     required this.summary,
     this.minMemoryGb = 8,
+    this.projector,
   });
 
   final String displayName;
@@ -21,6 +38,14 @@ class CatalogModel {
 
   /// Phone memory the model needs with its context cache.
   final int minMemoryGb;
+
+  /// Present when the model can see photos (downloaded alongside).
+  final CatalogProjector? projector;
+
+  bool get canSeeImages => projector != null;
+
+  /// Bytes to download in all.
+  int get totalBytes => sizeBytes + (projector?.sizeBytes ?? 0);
 }
 
 /// Built-in catalog. Size and SHA-256 come from the Hugging Face LFS
@@ -46,6 +71,33 @@ abstract final class ModelCatalog {
       summary:
           'Best balance for most phones: the same 4B model in the build '
           'phone processors run fastest, so it starts answering sooner.',
+    ),
+    CatalogModel(
+      displayName: 'Qwen3 VL 4B Instruct (vision)',
+      fileName: 'Qwen3-VL-4B-Instruct-Q4_0.gguf',
+      url: Uri.parse(
+        'https://huggingface.co/unsloth/Qwen3-VL-4B-Instruct-GGUF/resolve/'
+        'main/Qwen3-VL-4B-Instruct-Q4_0.gguf',
+      ),
+      sizeBytes: 2375774496,
+      sha256:
+          '09965766e92778b591ab9da5209463b843d000449b38d909055b399d8dbd3d76',
+      license: 'Apache-2.0',
+      summary:
+          'Sees photos: snap a plant, a wound, a device or a label and ask '
+          'about it. Same size and speed as the fast model for text, plus '
+          'an 836 MB vision file; reading a photo adds time before the '
+          'first word.',
+      projector: CatalogProjector(
+        fileName: 'Qwen3-VL-4B-mmproj-F16.gguf',
+        url: Uri.parse(
+          'https://huggingface.co/unsloth/Qwen3-VL-4B-Instruct-GGUF/resolve/'
+          'main/mmproj-F16.gguf',
+        ),
+        sizeBytes: 836180640,
+        sha256:
+            '1b9f4e92f0fbda14d7d7b58baed86039b8a980fe503d9d6a9393f25c0028f1fc',
+      ),
     ),
     CatalogModel(
       displayName: 'Qwen3 4B Instruct (standard)',

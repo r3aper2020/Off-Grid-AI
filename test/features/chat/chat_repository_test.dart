@@ -55,4 +55,15 @@ void main() {
 
     expect(await repo.messages(id), isEmpty);
   });
+
+  test(
+    'a photo on a message is kept, and a photo-only message gets a title',
+    () async {
+      final id = await repo.startConversation('', imagePath: 'a.jpg');
+      await repo.addUserMessage(id, 'what plant is this', imagePath: 'b.jpg');
+      final msgs = await repo.messages(id);
+      expect(msgs.map((m) => m.imagePath), ['a.jpg', 'b.jpg']);
+      expect((await db.select(db.conversations).getSingle()).title, 'Photo');
+    },
+  );
 }

@@ -11,10 +11,17 @@ import '../domain/inference_engine.dart';
 /// [release] (memory pressure) or [dispose] (model switched or deleted).
 /// llamadart runs llama.cpp on its own isolate, so the UI stays responsive.
 class LlamaInferenceEngine implements InferenceEngine {
-  LlamaInferenceEngine({required this.modelFile, required this.modelName});
+  LlamaInferenceEngine({
+    required this.modelFile,
+    required this.modelName,
+    this.projectorFile,
+  });
 
   final File modelFile;
   final String modelName;
+
+  /// Multimodal projector for a vision model; null for text-only models.
+  final File? projectorFile;
 
   /// Room for the instructions (~400 tokens), ~4,000 characters of
   /// passages (~1,000), the last two exchanges and a full reply. Every
@@ -70,7 +77,11 @@ class LlamaInferenceEngine implements InferenceEngine {
         'AI model.',
       );
     }
-    return EngineReady(modelName);
+    final projector = projectorFile;
+    return EngineReady(
+      modelName,
+      canSeeImages: projector != null && await projector.exists(),
+    );
   }
 
   @override
@@ -164,8 +175,14 @@ class LlamaInferenceEngine implements InferenceEngine {
 
   Future<llama.LlamaEngine> _load() async {
     try {
+      final projector = projectorFile;
       final engine = await llama.LlamaEngine.load(
-        llama.LlamaModel(llama.ModelSource.path(modelFile.path)),
+        llama.LlamaModel(
+          llama.ModelSource.path(modelFile.path),
+          projector: projector != null && await projector.exists()
+              ? llama.ModelSource.path(projector.path)
+              : null,
+        ),
         params: llama.ModelParams(
           contextSize: _contextTokens,
           // Phone CPUs mix fast and slow cores; llama.cpp's default uses
@@ -194,6 +211,16 @@ class LlamaInferenceEngine implements InferenceEngine {
   static List<llama.LlamaChatMessage> _toMessages(
     List<ChatTurn> history, {
     bool withSystemPrompt = true,
+  }) => toMessages(history, withSystemPrompt: withSystemPrompt);
+
+  /// The llama.cpp chat messages for [history]: the base system prompt
+  /// (unless [withSystemPrompt] is false) plus any system turns, then the
+  /// latest message and the exchange before it. A photo on the latest
+  /// user turn is sent as image content; photos on earlier turns are not
+  /// re-sent (each one costs a full vision pass) and are noted in text.
+  static List<llama.LlamaChatMessage> toMessages(
+    List<ChatTurn> history, {
+    bool withSystemPrompt = true,
   }) {
     // System turns (e.g. citation rules) extend the base system prompt.
     final instructions = [
@@ -211,7 +238,9 @@ class LlamaInferenceEngine implements InferenceEngine {
       for (final t in turns.reversed.skip(1).take(_priorTurns))
         t.speaker == ChatSpeaker.assistant
             ? ChatTurn(t.speaker, trimReply(t.text))
-            : t,
+            : t.imagePath == null
+            ? t
+            : ChatTurn(t.speaker, '[Photo attached] ${t.text}'),
     ];
     if (turns.isNotEmpty) kept.insert(0, turns.last);
 
@@ -221,12 +250,21 @@ class LlamaInferenceEngine implements InferenceEngine {
         text: instructions,
       ),
       for (final turn in kept.reversed)
-        llama.LlamaChatMessage.fromText(
-          role: turn.speaker == ChatSpeaker.user
-              ? llama.LlamaChatRole.user
-              : llama.LlamaChatRole.assistant,
-          text: turn.text,
-        ),
+        if (turn.imagePath != null && identical(turn, turns.last))
+          llama.LlamaChatMessage.withContent(
+            role: llama.LlamaChatRole.user,
+            content: [
+              llama.LlamaImageContent(path: turn.imagePath),
+              llama.LlamaTextContent(turn.text),
+            ],
+          )
+        else
+          llama.LlamaChatMessage.fromText(
+            role: turn.speaker == ChatSpeaker.user
+                ? llama.LlamaChatRole.user
+                : llama.LlamaChatRole.assistant,
+            text: turn.text,
+          ),
     ];
   }
 
