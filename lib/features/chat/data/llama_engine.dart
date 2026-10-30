@@ -31,7 +31,9 @@ class LlamaInferenceEngine implements InferenceEngine {
   /// blending older questions into new answers, or every reply slowing.
   static const _priorTurns = 4;
 
-  /// Earlier replies are cut to this length; enough to know what was said.
+  /// Earlier replies are cut to this length; enough to know what was
+  /// said. The end is kept (see [trimReply]): that is where the reply's
+  /// clarifying question lives, and "yes" only makes sense next to it.
   static const _priorReplyChars = 600;
 
   static const systemPrompt =
@@ -50,6 +52,8 @@ class LlamaInferenceEngine implements InferenceEngine {
       'message.\n'
       'If someone is badly hurt or in danger, the first sentence says to '
       'call 911 (or local emergency services) if they can.\n'
+      'When the latest message answers a question you asked, continue '
+      'from there: use the answer, don\'t repeat the earlier steps.\n'
       'Never invent facts; if unsure, say so briefly and give the safest '
       'course.';
 
@@ -205,8 +209,8 @@ class LlamaInferenceEngine implements InferenceEngine {
     ];
     final kept = [
       for (final t in turns.reversed.skip(1).take(_priorTurns))
-        t.speaker == ChatSpeaker.assistant && t.text.length > _priorReplyChars
-            ? ChatTurn(t.speaker, '${t.text.substring(0, _priorReplyChars)}…')
+        t.speaker == ChatSpeaker.assistant
+            ? ChatTurn(t.speaker, trimReply(t.text))
             : t,
     ];
     if (turns.isNotEmpty) kept.insert(0, turns.last);
@@ -224,6 +228,16 @@ class LlamaInferenceEngine implements InferenceEngine {
           text: turn.text,
         ),
     ];
+  }
+
+  /// An earlier reply shortened for context: its opening (the main
+  /// action) and its ending (where a clarifying question sits), with the
+  /// middle elided.
+  static String trimReply(String text, {int limit = _priorReplyChars}) {
+    if (text.length <= limit) return text;
+    final tail = limit ~/ 3;
+    return '${text.substring(0, limit - tail).trimRight()}…\n…'
+        '${text.substring(text.length - tail).trimLeft()}';
   }
 
   static String _loadFailureMessage(Object error) {

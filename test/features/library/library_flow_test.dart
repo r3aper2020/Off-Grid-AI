@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -35,6 +36,14 @@ class CitingEngine implements InferenceEngine {
   Future<void> dispose() async {}
 }
 
+/// Engine that stays "reading" until the test lets it finish.
+class HoldingEngine extends CitingEngine {
+  final events = StreamController<GenerationEvent>();
+
+  @override
+  Stream<GenerationEvent> generate(List<ChatTurn> history) => events.stream;
+}
+
 void main() {
   late AppDatabase db;
 
@@ -47,7 +56,7 @@ void main() {
   });
   tearDown(() => db.close());
 
-  Future<void> pumpApp(WidgetTester tester) async {
+  Future<void> pumpApp(WidgetTester tester, {InferenceEngine? engine}) async {
     tester.view.physicalSize = const Size(1179, 2556);
     tester.view.devicePixelRatio = 3;
     addTearDown(tester.view.reset);
@@ -58,7 +67,7 @@ void main() {
           modelsDirectoryProvider.overrideWithValue(
             Directory('${Directory.systemTemp.path}/offgrid_test_models'),
           ),
-          inferenceEngineProvider.overrideWithValue(CitingEngine()),
+          inferenceEngineProvider.overrideWithValue(engine ?? CitingEngine()),
         ],
         child: const OffgridApp(),
       ),
@@ -117,5 +126,33 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Fixture Water Guide'), findsOneWidget);
     expect(find.textContaining('rolling boil before drinking'), findsOneWidget);
+  });
+
+  testWidgets('the passages being read are tappable before the reply', (
+    tester,
+  ) async {
+    final engine = HoldingEngine();
+    await pumpApp(tester, engine: engine);
+    await tester.enterText(
+      find.byType(TextField),
+      'How long should I boil water?',
+    );
+    await tester.pump();
+    await tester.tap(find.byTooltip('Send'));
+    // The thinking indicator animates forever, so pump by hand.
+    for (var i = 0; i < 10; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
+
+    expect(find.textContaining('Reading from your library'), findsOneWidget);
+    expect(find.widgetWithText(ActionChip, 'Boiling water'), findsOneWidget);
+
+    engine.events
+      ..add(const GenerationToken('Boil it [1].'))
+      ..add(const GenerationDone());
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Reading from your library'), findsNothing);
+    expect(find.widgetWithText(ActionChip, 'Boiling water'), findsOneWidget);
+    await engine.events.close();
   });
 }

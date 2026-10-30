@@ -433,3 +433,36 @@ is a short follow-up, since the aliases and document vectors already
 handle most paraphrases. The eval numbers above were measured with the
 larger budget; re-run `tools/eval` after device testing settles the
 budget. Prompt caching in the bridge (or a 1.7B model) is the real fix.
+
+## 2026-10-30 — Model catalog: three choices, Q4_0 by default, switchable
+One minute to the first word on the Pixel Fold with the trimmed prompt is
+still the phone's CPU reading ~1,450 tokens. The catalog now offers three
+GGUFs and the AI model screen lists, downloads and switches between any of
+them (several can be installed; one is active):
+- **Qwen3 4B Instruct (fast)** — Q4_0 (2.4 GB, sha256 e0ba675d…13be2),
+  recommended. llama.cpp repacks Q4_0 weights into its ARM dot-product /
+  i8mm kernels, so prompt processing is far faster on phones than Q4_K_M
+  for a small loss in wording quality.
+- **Qwen3 4B Instruct (standard)** — the Q4_K_M build shipped before.
+- **Qwen3 1.7B (small)** — Q4_0 (1.1 GB, sha256 c876f159…e81c5, Apache-2.0)
+  for 6 GB phones: roughly half the wait, thinner answers; `enableThinking`
+  stays off so the hybrid model answers directly.
+Installs from the old single-entry catalog ("Qwen3 4B Instruct") are
+recognised as the standard build so they aren't offered again.
+
+## 2026-10-30 — Show the sources while the model is still reading
+Retrieval takes a second or two; the model then reads for up to a minute.
+The reply bubble now shows the passages it was given as tappable chips as
+soon as they are known ("Reading from your library — tap to open"), or
+says nothing matched, so the wait is useful and honest. When the reply
+completes, the chips narrow to the passages the model actually cited, as
+before.
+
+## 2026-10-30 — Earlier replies keep their ending
+A reply that ends with a clarifying question ("Do you have a whistle?")
+was cut to its first 600 characters before being sent back as context, so
+the question was exactly what the model lost, and "yes" made it answer the
+original question all over again. `LlamaInferenceEngine.trimReply` now
+keeps the opening and the last third of the budget (the ending) with the
+middle elided, and the system prompt says to continue from an answered
+question rather than repeat the steps.

@@ -167,10 +167,7 @@ void main() {
       'Someone is choking and cannot breathe, what do I do?',
     );
     expect(hits.first.documentTitle, contains('Airway'));
-    expect(
-      hits.map((h) => h.body.toLowerCase()).join(' '),
-      contains('thrust'),
-    );
+    expect(hits.map((h) => h.body.toLowerCase()).join(' '), contains('thrust'));
   });
 
   test(

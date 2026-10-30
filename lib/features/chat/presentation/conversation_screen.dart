@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/database/app_database.dart';
+import '../../library/data/knowledge_search.dart';
 import '../../library/library_providers.dart';
 import '../../library/domain/pack_format.dart';
 import '../../library/presentation/passage_body.dart';
@@ -149,6 +150,13 @@ class _MessageBubble extends StatelessWidget {
                 SelectableText(text)
               else
                 MessageText(text),
+              // While the model is still reading or writing, show what it
+              // was given: the passages are known within a second or two,
+              // and the user can read them long before the reply arrives.
+              if (message.role == MessageRole.assistant &&
+                  message.status == MessageStatus.streaming &&
+                  message.citations != null)
+                _ReadingSources(citationsJson: message.citations!),
               if (message.role == MessageRole.assistant &&
                   message.status == MessageStatus.complete &&
                   message.citations != null)
@@ -170,6 +178,62 @@ class _MessageBubble extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// The passages given to the model for a reply still in progress, as
+/// tappable chips, so the wait for the first word is useful: the user can
+/// open the Forest Service page while the model is still reading it.
+class _ReadingSources extends ConsumerWidget {
+  const _ReadingSources({required this.citationsJson});
+
+  final String citationsJson;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final sources = ref.watch(citationSourcesProvider(citationsJson)).value;
+    if (sources == null) return const SizedBox.shrink();
+    final hits = sources.whereType<PassageHit>().toList();
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            hits.isEmpty
+                ? 'Nothing in the offline library matched; answering from '
+                      'general knowledge'
+                : 'Reading from your library — tap to open:',
+            style: const TextStyle(fontSize: 11, color: AppColors.textTertiary),
+          ),
+          if (hits.isNotEmpty) ...[
+            const SizedBox(height: 6),
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: [
+                for (final hit in hits)
+                  ActionChip(
+                    visualDensity: VisualDensity.compact,
+                    label: Text(
+                      hit.heading,
+                      style: const TextStyle(fontSize: 12),
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    tooltip: '${hit.documentTitle} — ${hit.heading}',
+                    onPressed: () => context.push(
+                      '/doc/${hit.documentId}?passage=${hit.passageId}',
+                    ),
+                    side: hit.reviewStatus == ReviewStatus.verified
+                        ? null
+                        : const BorderSide(color: AppColors.warning),
+                  ),
+              ],
+            ),
+          ],
+        ],
       ),
     );
   }

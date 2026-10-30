@@ -32,7 +32,10 @@ final activeModelProvider = StreamProvider<InstalledModel?>(
 /// Download state shown on the AI model screen. Lives in a provider so a
 /// download keeps going if the user leaves the screen.
 class DownloadState {
-  const DownloadState({this.written, this.total, this.message});
+  const DownloadState({this.written, this.total, this.message, this.model});
+
+  /// The catalog entry being downloaded, while one is.
+  final CatalogModel? model;
 
   /// Non-null while a download is running.
   final int? written;
@@ -64,14 +67,18 @@ class ModelDownloadController extends Notifier<DownloadState> {
     final download = ModelDownload(ref.read(modelStoreProvider), model);
     _download = download;
     _lastShown = 0;
-    state = DownloadState(written: 0, total: model.sizeBytes);
+    state = DownloadState(written: 0, total: model.sizeBytes, model: model);
     try {
       final installed = await download.run(
         onProgress: (written) {
           // Rebuild roughly every 8 MB, not on every network chunk.
           if (written - _lastShown < 8 << 20) return;
           _lastShown = written;
-          state = DownloadState(written: written, total: model.sizeBytes);
+          state = DownloadState(
+            written: written,
+            total: model.sizeBytes,
+            model: model,
+          );
         },
       );
       state = DownloadState(message: 'Downloaded ${installed.displayName}');

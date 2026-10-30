@@ -80,8 +80,10 @@ Remaining:
   (hits Drupal/NHLBI/DOE pages) and all `<button>` text (accordion
   titles) — fix to whole-token match; move the agents' recipe-local
   converters (gtext, pg2md, djvu2md, capfig) into `tools/packs/`.
-- Offer a smaller, faster model option in the catalog for slower phones
-  (more pressing now that prompts are ~2,500 tokens: see decisions).
+- ✅ Model catalog with a fast Q4_0 default, the standard build and a
+  1.7B option; install several, switch on the AI model screen.
+- Prompt caching in the llama bridge (reuse the system-prompt prefix
+  between replies) — the remaining lever on first-word latency.
 - Measure first-token latency on the Pixel Fold with the larger prompt
   and the rewrite step; tune `Grounding.passageBudgetChars` if needed.
 - Prompt follow-ups from the eval: ask the model to cover both branches

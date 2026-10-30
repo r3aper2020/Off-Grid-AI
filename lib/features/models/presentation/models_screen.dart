@@ -118,10 +118,13 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
     final progress = _progress;
     final download = ref.watch(modelDownloadProvider);
     final busy = progress != null || download.active;
-    final recommended = ModelCatalog.recommended;
-    final hasRecommended = models.any(
-      (m) => m.displayName == recommended.displayName,
-    );
+    final available = [
+      for (final c in ModelCatalog.models)
+        if (!models.any(
+          (m) => ModelCatalog.isInstalled(c, m.fileName, m.displayName),
+        ))
+          c,
+    ];
 
     ref.listen(modelDownloadProvider.select((d) => d.message), (_, message) {
       if (message != null) {
@@ -144,17 +147,32 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
           const SizedBox(height: 20),
           if (download.active)
             _ImportProgress(
-              label: 'Downloading ${recommended.displayName}…',
+              label: 'Downloading ${download.model?.displayName ?? 'model'}…',
               written: download.written!,
               total: download.total,
               onCancel: ref.read(modelDownloadProvider.notifier).cancel,
-            )
-          else if (!hasRecommended)
-            _RecommendedCard(
-              model: recommended,
-              onDownload: busy ? null : () => _download(recommended),
             ),
-          const SizedBox(height: 16),
+          if (available.isNotEmpty && !download.active) ...[
+            const Text(
+              'DOWNLOAD',
+              style: TextStyle(
+                fontSize: 11,
+                letterSpacing: 0.8,
+                fontWeight: FontWeight.w700,
+                color: AppColors.textTertiary,
+              ),
+            ),
+            const SizedBox(height: 8),
+            for (final c in available) ...[
+              _CatalogCard(
+                model: c,
+                recommended: c == ModelCatalog.recommended,
+                onDownload: busy ? null : () => _download(c),
+              ),
+              const SizedBox(height: 8),
+            ],
+          ],
+          const SizedBox(height: 8),
           if (progress != null)
             _ImportProgress(
               label: 'Importing model…',
@@ -196,7 +214,7 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
                       subtitle: Text(
                         m.isActive
                             ? '${formatBytes(m.sizeBytes)} • Active'
-                            : formatBytes(m.sizeBytes),
+                            : '${formatBytes(m.sizeBytes)} • Tap to use',
                         style: Theme.of(context).textTheme.bodySmall,
                       ),
                       onTap: m.isActive
@@ -219,10 +237,15 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
   }
 }
 
-class _RecommendedCard extends StatelessWidget {
-  const _RecommendedCard({required this.model, required this.onDownload});
+class _CatalogCard extends StatelessWidget {
+  const _CatalogCard({
+    required this.model,
+    required this.recommended,
+    required this.onDownload,
+  });
 
   final CatalogModel model;
+  final bool recommended;
   final VoidCallback? onDownload;
 
   @override
@@ -233,16 +256,18 @@ class _RecommendedCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'RECOMMENDED',
-              style: TextStyle(
-                fontSize: 11,
-                letterSpacing: 0.8,
-                fontWeight: FontWeight.w700,
-                color: AppColors.accent,
+            if (recommended) ...[
+              const Text(
+                'RECOMMENDED',
+                style: TextStyle(
+                  fontSize: 11,
+                  letterSpacing: 0.8,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.accent,
+                ),
               ),
-            ),
-            const SizedBox(height: 6),
+              const SizedBox(height: 6),
+            ],
             Text(
               model.displayName,
               style: Theme.of(context).textTheme.titleMedium,
@@ -251,7 +276,8 @@ class _RecommendedCard extends StatelessWidget {
             Text(model.summary, style: Theme.of(context).textTheme.bodySmall),
             const SizedBox(height: 4),
             Text(
-              '${formatBytes(model.sizeBytes)} • ${model.license} license',
+              '${formatBytes(model.sizeBytes)} • ${model.license} license • '
+              'needs ${model.minMemoryGb} GB+ phone',
               style: const TextStyle(
                 fontSize: 12,
                 color: AppColors.textTertiary,
@@ -260,11 +286,17 @@ class _RecommendedCard extends StatelessWidget {
             const SizedBox(height: 14),
             SizedBox(
               width: double.infinity,
-              child: FilledButton.icon(
-                onPressed: onDownload,
-                icon: const Icon(Icons.download_rounded),
-                label: const Text('Download'),
-              ),
+              child: recommended
+                  ? FilledButton.icon(
+                      onPressed: onDownload,
+                      icon: const Icon(Icons.download_rounded),
+                      label: const Text('Download'),
+                    )
+                  : OutlinedButton.icon(
+                      onPressed: onDownload,
+                      icon: const Icon(Icons.download_rounded),
+                      label: const Text('Download'),
+                    ),
             ),
           ],
         ),
