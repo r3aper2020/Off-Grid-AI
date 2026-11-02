@@ -128,9 +128,18 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
     }
 
     // "Hi", "thanks", "ok" carry no topic: reply like a person, without
-    // library lookups or a "not from the library" disclaimer.
+    // library lookups or a "not from the library" disclaimer. An answer
+    // to the assistant's own question ("I think it's 1%") is not that.
+    final lastReply = history.lastIndexWhere(
+      (t) => t.speaker == ChatSpeaker.assistant,
+    );
     final conversational =
-        !hasPhoto && KnowledgeSearch.termsOf(question).isEmpty;
+        !hasPhoto &&
+        Grounding.isSmallTalk(
+          question,
+          previous: previous,
+          lastReply: lastReply < 0 ? null : history[lastReply].text,
+        );
 
     // Show the reply bubble (and allow Stop) before any slow work starts.
     final messageId = await _repo.addAssistantMessage(

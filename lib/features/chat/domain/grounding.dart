@@ -3,12 +3,14 @@ import '../../library/data/knowledge_search.dart';
 import '../../library/domain/pack_format.dart';
 import 'inference_engine.dart';
 
-/// Builds the turns sent to the model so answers are grounded in the
-/// offline library: numbered passages are attached to the latest question,
-/// and a system instruction says how to use them. The model is the
-/// instructor and the passages are its evidence — it answers fully from
-/// what it knows, cites the passages where they back it up, and defers to
-/// them where they disagree.
+/// Builds the turns sent to the model so answers are checked against the
+/// offline library. The model is the instructor: it answers from its own
+/// expertise, and the numbered passages ride along in the system
+/// instruction as a check on that answer — a place to take an exact
+/// amount or order of steps from, and to cite when it does — never as a
+/// text to summarise. They are deliberately kept out of the user's
+/// message: a small model given notes ahead of the question answers the
+/// notes, not the person.
 abstract final class Grounding {
   /// Total passage text given to the model (~1,000 tokens). Every prompt
   /// token is re-read on the phone's CPU before the first word appears
@@ -23,20 +25,28 @@ abstract final class Grounding {
   static const maxPassages = 3;
 
   static const citeInstruction =
-      'Reference passages from the user\'s offline library are attached to '
-      'their message, numbered [1], [2] and so on. They are notes for you, '
-      'not a script: answer the person in front of you, in your own words, '
-      'applied to their exact situation. A passage may be written for '
-      'someone else (a parent, a group leader, a soldier); translate its '
-      'advice, don\'t repeat it. Take specifics (amounts, times, order of '
-      'steps, warnings) from the passages and follow them where they '
-      'disagree with you. Put a bracketed number after a sentence only when '
-      'it takes a specific fact from that passage, a few times at most, and '
-      'never use the numbers as list numbering. Ignore passages that don\'t '
-      'fit; never mention them or say what the library covers. Medicine '
-      'doses and chemical amounts only from a passage; if none gives them, '
-      'say the exact amount isn\'t in their library. Say so if you rely on a '
-      'passage marked UNREVIEWED or HISTORICAL. For a [Table image], don\'t '
+      'You answer from your own expertise, like an instructor who has done '
+      'this many times. Below are passages a search pulled from the user\'s '
+      'offline library for their latest message, numbered [1], [2] and so '
+      'on. They are a check on your answer, not its source, and some may '
+      'be off-topic. Decide what you would tell this person, in your own '
+      'words, for their exact situation; then compare it with the passages '
+      'that are about that same situation. Where such a passage gives a '
+      'specific (an amount, a time, an order of steps, a warning) that '
+      'differs from what you were going to say, use the passage\'s and put '
+      'its number after that sentence. A passage about a different setting '
+      '(a woodstove when they\'re outdoors, a hospital when they\'re not) '
+      'changes nothing. A number '
+      'marks a specific fact taken from a passage, a few at most, never as '
+      'list numbering. A passage written for someone else (a parent, a '
+      'group leader, a soldier) is translated, never repeated. The user '
+      'never sees the passages: don\'t describe them, compare them, or say '
+      'which you relied on, and ignore ones that don\'t fit without a word '
+      'about them or about what the library covers. Medicine doses and '
+      'chemical amounts come only from a passage; if none gives them, say '
+      'the exact amount isn\'t in their library. If a fact comes from a '
+      'passage marked UNREVIEWED or HISTORICAL, add a few words saying it '
+      'is from an unreviewed or old source. For a [Table image], don\'t '
       'guess its values; say to tap the source.';
 
   static const noSourceInstruction =
@@ -46,6 +56,34 @@ abstract final class Grounding {
       'doses or chemical amounts from memory. If the message asks for '
       'facts or instructions, end with one short sentence noting this '
       'wasn\'t checked against their library.';
+
+  /// True for a message with no topic of its own that is not an answer
+  /// to the assistant's last question: "hi", "thanks", "ok". Those get a
+  /// plain reply with no library lookup. A short answer to a question the
+  /// assistant asked ("I think it's 1%", "yes, he's awake") continues the
+  /// topic, so it is grounded against the [previous] question instead —
+  /// a dose for 1% bleach must still come from a passage, not memory.
+  static bool isSmallTalk(
+    String message, {
+    String? previous,
+    String? lastReply,
+  }) {
+    if (KnowledgeSearch.termsOf(message).isNotEmpty) return false;
+    if (previous == null) return true;
+    if (RegExp(r'\d').hasMatch(message)) return false;
+    final words = message
+        .toLowerCase()
+        .split(RegExp(r'[^a-z]+'))
+        .where((w) => w.isNotEmpty);
+    if (words.every(_pleasantries.contains)) return true;
+    return !(lastReply?.trimRight().endsWith('?') ?? false);
+  }
+
+  static const _pleasantries = {
+    'hi', 'hello', 'hey', 'thanks', 'thank', 'you', 'thx', 'ty', 'ok',
+    'okay', 'cool', 'great', 'nice', 'awesome', 'got', 'it', 'bye',
+    'cheers', 'good', 'perfect', 'sure', 'alright', 'understood',
+  };
 
   /// Asks the model for search queries that would find what the user
   /// needs, in the library's plainer vocabulary and with references to
@@ -135,8 +173,10 @@ abstract final class Grounding {
   }
 
   /// [hits] must already be [select]ed; their order defines [1], [2], ….
-  /// A [conversational] message (a greeting, thanks) gets no library
-  /// instruction at all, so the model just replies like a person.
+  /// The passages go into the system turn with the citation rules; the
+  /// user's message is sent exactly as written. A [conversational]
+  /// message (a greeting, thanks) gets no library instruction at all, so
+  /// the model just replies like a person.
   static List<ChatTurn> apply(
     List<ChatTurn> history,
     List<PassageHit> hits, {
@@ -147,24 +187,22 @@ abstract final class Grounding {
     );
     if (lastUser < 0) return history;
 
-    final turns = [...history];
-    if (hits.isNotEmpty) {
-      turns[lastUser] = history[lastUser].copyWith(
-        text: '${_passages(hits)}\n\nMy message: ${history[lastUser].text}',
-      );
-    }
     return [
       if (!conversational)
         ChatTurn(
           ChatSpeaker.system,
-          hits.isEmpty ? noSourceInstruction : citeInstruction,
+          hits.isEmpty
+              ? noSourceInstruction
+              : '$citeInstruction\n\n${_passages(hits)}',
         ),
-      ...turns,
+      ...history,
     ];
   }
 
   static String _passages(List<PassageHit> hits) {
-    final b = StringBuffer('Reference passages from my offline library:');
+    final b = StringBuffer(
+      'Passages from the user\'s offline library for their latest message:',
+    );
     for (final (i, h) in hits.indexed) {
       final flag = switch (h.reviewStatus) {
         ReviewStatus.verified => '',

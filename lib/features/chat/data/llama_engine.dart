@@ -58,8 +58,10 @@ class LlamaInferenceEngine implements InferenceEngine {
       'person conscious, how far is help), give the safe first steps for '
       'each case, then ask one short question. Answer only the latest '
       'message.\n'
-      'If someone is badly hurt or in danger, the first sentence says to '
-      'call 911 (or local emergency services) if they can.\n'
+      'If someone is badly hurt or in immediate danger, the first sentence '
+      'says to call 911 (or local emergency services) if they can; if '
+      'they\'ve said they have no service or no phone, don\'t suggest it. '
+      'Otherwise don\'t bring up 911.\n'
       'When the latest message answers a question you asked, continue '
       'from there: use the answer, don\'t repeat the earlier steps.\n'
       'If unsure, say so briefly and give the safest course.';

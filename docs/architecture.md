@@ -70,11 +70,12 @@ lib/
    IDF coverage, fused with section- and document-level meaning vectors;
    library-only documents excluded; split parts and sub-sections pulled
    in; near-duplicates dropped). `Grounding.select` keeps whole passages
-   within ~6,500 characters (at most 8) and `Grounding.apply` attaches
-   them, numbered, with the citation rules (or the "answer from your own
-   knowledge" rule when nothing matched). It inserts an empty `streaming`
-   assistant message recording those passage ids, and subscribes to
-   `generate()`.
+   within 4,500 characters (at most 3) and `Grounding.apply` puts them,
+   numbered, into the system turn with the rules for using them as a
+   check (or the "answer from your own knowledge" rule when nothing
+   matched); the user's message itself is sent as written. It inserts an
+   empty `streaming` assistant message recording those passage ids, and
+   subscribes to `generate()`.
 4. Tokens accumulate in memory and flush to SQLite every ~120 ms; the UI
    watches the messages stream.
 5. Done → `complete`; failure → `failed`; Stop → subscription cancelled,

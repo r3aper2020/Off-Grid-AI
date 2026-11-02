@@ -33,3 +33,6 @@ ridge-lightning	I'm caught in a thunderstorm on a ridge	descend|get down|lower|o
 find-north	how do I find north without a compass	shadow|stick;north star|polaris|big dipper;sun|watch	
 fire-then-water	I'm in the middle of nowhere how do I start a fire || how do I make sure my water is clean to drink	boil;minute|rolling;filter|cloth|settle|clear	
 capital-france	what is the capital of France	Paris	
+fire-dark-cold	I'm in the middle of nowhere and I need to start a fire it's getting dark and cold	tinder;kindling;dry|dead|standing;wind|shelter|lee	flashlight reflector|cigarette|woodstove|stove
+lost-no-service	it's getting dark I'm lost in the woods what do I do first. I have no cell service either	stay put|stay where|stop|don't wander|do not wander;shelter;insulat|dry|layer|ground;signal|whistle|fire	ranger station|hug a tree|gauze|park bench
+bleach-1pct	I'm trying to figure out how much bleach I need to add to my water || I think it's 1%	40 drops|2½ ml|2.5 ml|2 1/2;30 minutes|half an hour	8 drops

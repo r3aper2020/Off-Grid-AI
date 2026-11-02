@@ -273,15 +273,23 @@ class KnowledgeSearch {
     final total = weights.values.fold(0.0, (a, b) => a + b);
     final q = await _queryVector(question);
     final vectors = q == null ? null : await _vectors();
+    final docSims = q == null ? null : await _docSimilarities(q);
     final lexical = <PassageHit>[];
     for (final hit in await _query(_orQuery(terms), lexicalCandidates)) {
       // A keyword match that means something else entirely ("hide" in
       // "Run, Hide, Fight" for "how do I tan a hide") is far from the
-      // question in meaning; when vectors are available, drop it.
+      // question in meaning; when vectors are available, drop it. So is
+      // a match whose whole document is about something else ("fields of
+      // fire" in a terrain chapter for "start a fire") unless the section
+      // itself is close.
       final v = vectors?[hit.passageId];
-      if (v != null &&
-          PassageVectors.similarity(q!, v.vector) < lexicalSemanticFloor) {
-        continue;
+      if (v != null) {
+        final sim = PassageVectors.similarity(q!, v.vector);
+        if (sim < lexicalSemanticFloor) continue;
+        if (sim < semanticMin &&
+            (docSims![hit.documentId] ?? 0) < lexicalDocFloor) {
+          continue;
+        }
       }
       final titled = _matchedTerms(
         '${hit.documentTitle} ${hit.aliases} ${hit.heading}',
@@ -300,6 +308,12 @@ class KnowledgeSearch {
   /// Keyword matches further than this from the question in meaning are
   /// not sources (calibrated with [semanticMin]).
   static const lexicalSemanticFloor = 0.55;
+
+  /// A keyword match that is not itself close ([semanticMin]) also needs
+  /// its document to be at least this related to the question. Off-topic
+  /// documents that share a word score 0.41–0.47 on the questions that
+  /// exposed this; the right chapter scored 0.58.
+  static const lexicalDocFloor = 0.50;
 
   /// BM25 candidates fetched and, of those, kept after the coverage gate.
   static const lexicalCandidates = 80;
@@ -372,10 +386,7 @@ class KnowledgeSearch {
   ) async {
     final q = await _queryVector(question);
     if (q == null) return const [];
-    final docSims = <int, double>{
-      for (final MapEntry(:key, :value) in (await _docVectors()).entries)
-        key: PassageVectors.similarity(q, value),
-    };
+    final docSims = await _docSimilarities(q);
     final scored = <(int, double)>[];
     for (final MapEntry(:key, :value) in (await _vectors()).entries) {
       final sim = PassageVectors.similarity(q, value.vector);
@@ -537,6 +548,12 @@ class KnowledgeSearch {
         ),
     };
   }
+
+  /// How well each document as a whole matches the query vector [q].
+  Future<Map<int, double>> _docSimilarities(Int8List q) async => {
+    for (final MapEntry(:key, :value) in (await _docVectors()).entries)
+      key: PassageVectors.similarity(q, value),
+  };
 
   Future<Map<int, Int8List>> _docVectors() async {
     final key = await _libraryKey();

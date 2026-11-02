@@ -595,3 +595,45 @@ Users can attach one photo per message (camera or gallery). Design:
   photos (roadmap).
 - **iOS** needs camera and photo-library usage strings (added);
   image_picker needs no Android permission.
+
+## 2026-11-02 — Passages are a check on the model's answer, not its source
+Even after the instructor prompt, replies on the phone still led with the
+library: whatever the search returned was paraphrased first and the
+model's own knowledge filled in around it, so the answer was only as good
+as the retrieval. Two causes. The passages were spliced into the user's
+message ahead of the question ("Reference passages… My message: …"), and
+a 4B model given notes before a question answers the notes. And the
+instruction said to take specifics from the passages, which read as "base
+the answer on them". Now `Grounding.apply` leaves the user's message
+untouched and puts the numbered passages in the system turn, after a
+rule that says: decide what you would tell this person from your own
+expertise, then compare with the passages, and only where a passage gives
+a different specific (amount, time, order, warning) use the passage's and
+cite it. Doses and chemical amounts still come only from a passage, and
+off-topic passages are still ignored silently. Citation chips are
+unchanged ([n] in the reply). Checked against the graded eval before
+shipping (`tools/eval/results/`).
+
+
+## 2026-11-02 — A short answer to the assistant's question is not small talk
+"I think it's 1%" after "what strength is your bleach?" had no topic word
+of its own, so it took the small-talk path (no library lookup, no
+grounding instruction) and the model gave the 5% dose from memory. Now
+`Grounding.isSmallTalk` treats a term-less message as small talk only
+when it has no digits and is either a pleasantry ("ok thanks") or does
+not follow a reply that ended with a question. Anything else is a
+follow-up: searched with the previous question, rewritten by the model,
+and grounded — so the dose comes from the passage.
+
+## 2026-11-02 — Keyword matches need a related document, not just a word
+"Start a fire" pulled "Observation and Fields of Fire" from a terrain
+chapter and "Prepping the Fire" from a woodstove page; "signal mirror"
+pulled "Turning Left" from the driving manual (mirror checks). Each
+section was close enough in meaning to pass the 0.55 section floor, but
+its document scored 0.41–0.47 against the question where the right
+chapter scored 0.58. `KnowledgeSearch._rank` now drops a keyword match
+whose section is below `semanticMin` and whose document is below
+`lexicalDocFloor` (0.50). Coverage audit: 14 of 256 questions changed,
+all for the better or neutral; three off-topic questions ("best stock to
+buy", "chocolate chip cookies", "Eiffel tower") now find nothing instead
+of sheep, smokers and a scout tower.

@@ -71,19 +71,21 @@ void main() {
       ChatTurn(ChatSpeaker.user, 'How do I boil water?'),
     ];
 
-    test('attaches numbered passages to the latest question only', () {
+    test('puts numbered passages in the system turn, not the message', () {
       final turns = Grounding.apply(history, [
         hit(10, 'Boiling', 'Boil it.'),
         hit(11, 'Storing', 'Store it.'),
       ]);
 
       expect(turns.first.speaker, ChatSpeaker.system);
-      expect(turns.first.text, Grounding.citeInstruction);
+      final rules = turns.first.text;
+      expect(rules, startsWith(Grounding.citeInstruction));
+      expect(rules, contains('[1] Doc — Boiling\nBoil it.'));
+      expect(rules, contains('[2] Doc — Storing\nStore it.'));
       expect(turns[1].text, 'old question');
-      final last = turns.last.text;
-      expect(last, contains('[1] Doc — Boiling\nBoil it.'));
-      expect(last, contains('[2] Doc — Storing\nStore it.'));
-      expect(last, endsWith('My message: How do I boil water?'));
+      // The user's own words reach the model untouched, last.
+      expect(turns.last.speaker, ChatSpeaker.user);
+      expect(turns.last.text, 'How do I boil water?');
     });
 
     test('without passages, instructs the model to say so', () {
@@ -98,7 +100,7 @@ void main() {
         hit(2, 'Snares', 'Tie a loop.', review: ReviewStatus.historical),
         hit(3, 'Boil', 'Boil it.'),
       ]);
-      final text = turns.last.text;
+      final text = turns.first.text;
       expect(text, contains('[1] Doc — CPR (UNREVIEWED SOURCE'));
       expect(text, contains('[2] Doc — Snares (HISTORICAL SOURCE'));
       expect(text, contains('[3] Doc — Boil\nBoil it.'));
@@ -123,7 +125,7 @@ void main() {
           SectionImage(asset: 'b.webp', caption: 'Fire lays', isTable: false),
         ],
       );
-      final text = Grounding.apply(history, [h]).last.text;
+      final text = Grounding.apply(history, [h]).first.text;
       expect(text, contains('[Table image: Process times'));
       expect(text, contains('not available as text'));
       expect(text, contains('[Figure: Fire lays]'));
@@ -133,7 +135,7 @@ void main() {
     test('passages are never truncated', () {
       final body = '${'x' * 2500} final dosage line';
       final turns = Grounding.apply(history, [hit(1, 'Long', body)]);
-      expect(turns.last.text, contains('final dosage line'));
+      expect(turns.first.text, contains('final dosage line'));
     });
 
     test('select keeps whole passages within budget, best first', () {
@@ -184,6 +186,26 @@ void main() {
       expect(turns.last.text, contains("what if I don't have one?"));
     });
 
+    test('isSmallTalk: greetings yes, answers to the assistant no', () {
+      expect(Grounding.isSmallTalk('Hi there!'), isTrue);
+      expect(Grounding.isSmallTalk('how do I boil water'), isFalse);
+      const q = 'how much bleach per gallon';
+      const asked = 'Add 8 drops. What strength is your bleach?';
+      expect(
+        Grounding.isSmallTalk("I think it's 1%", previous: q, lastReply: asked),
+        isFalse,
+      );
+      expect(Grounding.isSmallTalk('yes', previous: q, lastReply: asked), isFalse);
+      expect(
+        Grounding.isSmallTalk('ok thanks!', previous: q, lastReply: asked),
+        isTrue,
+      );
+      expect(
+        Grounding.isSmallTalk('yes', previous: q, lastReply: 'Add 8 drops.'),
+        isTrue,
+      );
+    });
+
     test('citedNumbers finds bracketed numbers in order of first use', () {
       expect(Grounding.citedNumbers('Do A [2]. Then B [1][2]. Not [x].'), [
         2,
@@ -232,7 +254,7 @@ void main() {
       expect(ids, isNotEmpty);
       final cited = await KnowledgeSearch(db).byIds(ids);
       expect(cited.first!.heading, 'Boiling water');
-      expect(engine.history!.last.text, contains('[1] Fixture Water Guide'));
+      expect(engine.history!.first.text, contains('[1] Fixture Water Guide'));
       expect(reply.status, MessageStatus.complete);
     });
 
@@ -255,6 +277,34 @@ void main() {
       final cited = await KnowledgeSearch(db).byIds(ids);
       expect(cited.map((h) => h!.heading), contains('Boiling water'));
       expect(engine.rewriteRequest!.first.text, Grounding.rewriteInstruction);
+    });
+
+    test('an answer to the assistant\'s question is still grounded', () async {
+      final engine = RecordingEngine(
+        'Boil it [1]. Is the water cloudy?',
+        rewrite: 'boiling cloudy water',
+      );
+      final c = ProviderContainer(
+        overrides: [
+          databaseProvider.overrideWithValue(db),
+          inferenceEngineProvider.overrideWithValue(engine),
+        ],
+      );
+      addTearDown(c.dispose);
+      final repo = c.read(chatRepositoryProvider);
+      final controller = c.read(generationControllerProvider.notifier);
+      final id = await repo.startConversation('How long should I boil water?');
+      await controller.reply(id);
+      await pumpEventQueue();
+
+      await repo.addUserMessage(id, 'yes');
+      await controller.reply(id);
+      await pumpEventQueue();
+
+      final reply = (await db.select(db.messages).get()).last;
+      expect(reply.citations, isNotNull);
+      expect(engine.history!.first.speaker, ChatSpeaker.system);
+      expect(engine.history!.first.text, contains('[1] Fixture Water Guide'));
     });
 
     test('greetings and thanks get a plain reply, no library lookup', () async {
