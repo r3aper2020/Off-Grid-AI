@@ -186,6 +186,14 @@ void main() {
       expect(turns.last.text, contains("what if I don't have one?"));
     });
 
+    test('rewriteTurns keeps the photo on the message being rewritten', () {
+      final turns = Grounding.rewriteTurns(const [
+        ChatTurn(ChatSpeaker.user, 'what is this', imagePath: '/p/fern.jpg'),
+      ]);
+      expect(turns.last.imagePath, '/p/fern.jpg');
+      expect(turns.last.text, contains('what is this'));
+    });
+
     test('isSmallTalk: greetings yes, answers to the assistant no', () {
       expect(Grounding.isSmallTalk('Hi there!'), isTrue);
       expect(Grounding.isSmallTalk('how do I boil water'), isFalse);

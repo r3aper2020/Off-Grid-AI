@@ -115,11 +115,10 @@ abstract final class Grounding {
     return [
       const ChatTurn(ChatSpeaker.system, rewriteInstruction),
       for (final t in recent)
+        // copyWith keeps a photo on the message, so a vision model
+        // writes queries from what it shows, not just the words.
         t == recent.last
-            ? ChatTurn(
-                ChatSpeaker.user,
-                'Message to turn into queries: ${t.text}',
-              )
+            ? t.copyWith(text: 'Message to turn into queries: ${t.text}')
             : t,
     ];
   }
