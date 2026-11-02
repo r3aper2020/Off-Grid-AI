@@ -214,8 +214,12 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
                       subtitle: Text(
                         [
                           formatBytes(m.sizeBytes),
-                          if (m.projectorFileName != null) 'sees photos',
-                          m.isActive ? 'Active' : 'Tap to use',
+                          if (m.isActive)
+                            'Active'
+                          else if (m.projectorFileName != null)
+                            'Used for photos • Tap to use for everything'
+                          else
+                            'Tap to use',
                         ].join(' • '),
                         style: Theme.of(context).textTheme.bodySmall,
                       ),

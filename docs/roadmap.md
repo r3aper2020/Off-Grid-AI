@@ -111,7 +111,10 @@ species database with images, and the three-layer medicine model.
 
 ## 3b. Photos in chat — ✅ first cut (2026-10-30)
 Camera/gallery attachment, Qwen3 VL 4B in the catalog with its projector,
-honest notice on text-only models, photo sent only on the latest turn.
+honest notice when no vision model is installed, photo sent only on the
+latest turn. The app picks the model itself (2026-11-02): a conversation
+with a photo runs on the installed vision model, everything else on the
+model the user chose.
 Remaining: measure vision latency on the Pixel Fold; delete photos with
 their conversation; let the plant pack's edibility warning be injected
 whenever a photo question is about eating something.

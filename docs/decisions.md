@@ -637,3 +637,17 @@ whose section is below `semanticMin` and whose document is below
 all for the better or neutral; three off-topic questions ("best stock to
 buy", "chocolate chip cookies", "Eiffel tower") now find nothing instead
 of sheep, smokers and a scout tower.
+
+## 2026-11-02 — The app picks the vision model for photos
+Sending a photo while a text model was active produced a notice telling
+the user to go and switch models. The owner's view: the app should know
+which model to use. Now the user's chosen model is for everyday text, and
+`visionEngineProvider` offers an engine for an installed vision model
+whenever the active one can't see photos. `GenerationController.engineFor`
+routes a conversation that contains a photo to it and keeps it there
+(the vision model answers text as well, and every switch reloads a
+model); new text conversations go back to the active model. The engine
+not in use is released, so one model is in memory at a time. The notice
+remains only when no vision model is installed at all. Tapping the
+vision model on the models screen still makes it the model for
+everything.

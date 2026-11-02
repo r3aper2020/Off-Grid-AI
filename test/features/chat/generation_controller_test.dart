@@ -15,6 +15,7 @@ class FakeEngine implements InferenceEngine {
   final StreamController<GenerationEvent> controller;
   final bool canSeeImages;
   List<ChatTurn>? lastHistory;
+  var released = 0;
 
   @override
   Future<EngineStatus> status() async =>
@@ -31,7 +32,7 @@ class FakeEngine implements InferenceEngine {
       null;
 
   @override
-  Future<void> release() async {}
+  Future<void> release() async => released++;
 
   @override
   Future<void> dispose() async {}
@@ -40,11 +41,15 @@ class FakeEngine implements InferenceEngine {
 void main() {
   late AppDatabase db;
 
-  ProviderContainer containerWith(InferenceEngine engine) {
+  ProviderContainer containerWith(
+    InferenceEngine engine, {
+    InferenceEngine? vision,
+  }) {
     final c = ProviderContainer(
       overrides: [
         databaseProvider.overrideWithValue(db),
         inferenceEngineProvider.overrideWithValue(engine),
+        visionEngineProvider.overrideWithValue(vision),
       ],
     );
     addTearDown(c.dispose);
@@ -179,4 +184,50 @@ void main() {
     );
     expect(user.imagePath, endsWith('/leaf.jpg'));
   });
+
+  test('a photo is routed to the installed vision model', () async {
+    final text = FakeEngine(StreamController<GenerationEvent>());
+    final stream = StreamController<GenerationEvent>();
+    final vision = FakeEngine(stream, canSeeImages: true);
+    final c = containerWith(text, vision: vision);
+    final id = await c
+        .read(chatRepositoryProvider)
+        .startConversation('what is this', imagePath: 'leaf.jpg');
+
+    await c.read(generationControllerProvider.notifier).reply(id);
+    stream.add(const GenerationDone());
+    await stream.close();
+    await pumpEventQueue();
+
+    expect(text.lastHistory, isNull);
+    expect(text.released, 1);
+    expect(vision.lastHistory, isNotNull);
+    final reply = (await messagesOf(c, id)).last;
+    expect(reply.status, MessageStatus.complete);
+    unawaited(text.controller.close());
+  });
+
+  test(
+    'a text conversation uses the active model and frees the vision one',
+    () async {
+      final stream = StreamController<GenerationEvent>();
+      final text = FakeEngine(stream);
+      final vision = FakeEngine(
+        StreamController<GenerationEvent>(),
+        canSeeImages: true,
+      );
+      final c = containerWith(text, vision: vision);
+      final id = await c.read(chatRepositoryProvider).startConversation('hi');
+
+      await c.read(generationControllerProvider.notifier).reply(id);
+      stream.add(const GenerationDone());
+      await stream.close();
+      await pumpEventQueue();
+
+      expect(text.lastHistory, isNotNull);
+      expect(vision.lastHistory, isNull);
+      expect(vision.released, 1);
+      unawaited(vision.controller.close());
+    },
+  );
 }

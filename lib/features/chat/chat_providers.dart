@@ -36,6 +36,38 @@ final inferenceEngineProvider = Provider<InferenceEngine>((ref) {
   return engine;
 });
 
+/// Engine for an installed model that can see photos, when the active
+/// model can't; null otherwise. The controller loads it only for a
+/// conversation with a photo in it ([GenerationController.engineFor]), so
+/// the user never has to switch models by hand to send a photo.
+final visionEngineProvider = Provider<InferenceEngine?>((ref) {
+  final vision = ref.watch(
+    installedModelsProvider.select((a) {
+      for (final m in a.value ?? const <InstalledModel>[]) {
+        if (m.projectorFileName != null) return (id: m.id, name: m.displayName);
+      }
+      return null;
+    }),
+  );
+  final activeSees = ref.watch(
+    activeModelProvider.select((a) => a.value?.projectorFileName != null),
+  );
+  if (vision == null || activeSees) return null;
+
+  final store = ref.read(modelStoreProvider);
+  final model = ref
+      .read(installedModelsProvider)
+      .requireValue
+      .firstWhere((m) => m.id == vision.id);
+  final engine = LlamaInferenceEngine(
+    modelFile: store.fileFor(model),
+    modelName: vision.name,
+    projectorFile: store.projectorFor(model),
+  );
+  ref.onDispose(engine.dispose);
+  return engine;
+});
+
 final engineStatusProvider = FutureProvider<EngineStatus>(
   (ref) => ref.watch(inferenceEngineProvider).status(),
 );
@@ -83,17 +115,6 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
 
   Future<void> reply(int conversationId) async {
     if (_active.containsKey(conversationId)) return;
-    final engine = ref.read(inferenceEngineProvider);
-
-    final status = await engine.status();
-    if (status is EngineUnavailable) {
-      await _repo.addAssistantMessage(
-        conversationId,
-        status.reason,
-        MessageStatus.notice,
-      );
-      return;
-    }
 
     final photos = ref.read(photosDirectoryProvider);
     final history = (await _repo.messages(conversationId))
@@ -116,6 +137,17 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
     final question = latest?.text ?? '';
     final hasPhoto = latest?.imagePath != null;
     final previous = asked.length > 1 ? asked[asked.length - 2].text : null;
+
+    final engine = await engineFor(history);
+    final status = await engine.status();
+    if (status is EngineUnavailable) {
+      await _repo.addAssistantMessage(
+        conversationId,
+        status.reason,
+        MessageStatus.notice,
+      );
+      return;
+    }
 
     // A photo needs a model that can see it; never pretend to look.
     if (hasPhoto && status is EngineReady && !status.canSeeImages) {
@@ -210,6 +242,27 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
         );
   }
 
+  /// The engine for this conversation: the active model, unless the
+  /// conversation has a photo in it, the active model can't see photos
+  /// and another installed one can. A conversation with a photo stays on
+  /// the vision model (its text answers are as good, and every switch
+  /// reloads a model), and a new text conversation goes back to the
+  /// active one. The other engine is released so only one model is in
+  /// memory.
+  Future<InferenceEngine> engineFor(List<ChatTurn> history) async {
+    final text = ref.read(inferenceEngineProvider);
+    final vision = ref.read(visionEngineProvider);
+    final hasPhoto = history.any(
+      (t) => t.speaker == ChatSpeaker.user && t.imagePath != null,
+    );
+    if (vision == null || !hasPhoto) {
+      await vision?.release();
+      return text;
+    }
+    await text.release();
+    return vision;
+  }
+
   /// Library passages for [question]. The user's own words are searched
   /// first (a short follow-up together with the [previous] question). Only
   /// when that finds fewer than [Grounding.rewriteBelowHits] passages, or
@@ -263,9 +316,10 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
 
   /// Stored as a notice when a photo is sent to a text-only model.
   static const noVisionReason =
-      'I can\'t see photos with the current AI model. Install "Qwen3 VL 4B '
-      'Instruct (vision)" from Settings → AI model and make it active, or '
-      'describe what you\'re looking at in words.';
+      'I can\'t see photos with the AI model on this phone. Install "Qwen3 '
+      'VL 4B Instruct (vision)" from Settings → AI model and I\'ll use it '
+      'for photos automatically, or describe what you\'re looking at in '
+      'words.';
 
   Future<void> cancel(int conversationId) async {
     final active = _active[conversationId];
