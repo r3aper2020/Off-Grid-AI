@@ -154,7 +154,7 @@ class AppDatabase extends _$AppDatabase {
     : super(executor ?? driftDatabase(name: 'offgrid'));
 
   @override
-  int get schemaVersion => 8;
+  int get schemaVersion => 9;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -220,6 +220,20 @@ class AppDatabase extends _$AppDatabase {
           await m.addColumn(installedModels, installedModels.projectorFileName);
         }
       }
+      if (from >= 3 && from < 9) {
+        // v9: the search index also covers figure and table captions, so
+        // "square knot" finds the splinting section whose figure shows one.
+        await customStatement('DROP TRIGGER IF EXISTS passages_ai');
+        await customStatement('DROP TRIGGER IF EXISTS passages_ad');
+        await customStatement('DROP TABLE IF EXISTS passages_fts');
+        await _createPassageIndex();
+        await customStatement('''
+          INSERT INTO passages_fts(rowid, title, heading, body)
+          SELECT p.id, d.title || ' ' || d.aliases || ' ' ||
+                 ${_captionsSql('p.images')},
+                 p.heading, p.body
+          FROM passages p JOIN pack_documents d ON d.id = p.document_id''');
+      }
       if (from >= 3 && from < 7) {
         // Bundled packs are removed so the startup sync reinstalls them
         // with current vectors (foreign keys are off during migrations, so
@@ -243,12 +257,21 @@ class AppDatabase extends _$AppDatabase {
     },
   );
 
+  /// SQL for the captions of a passage's figures and tables (its `images`
+  /// JSON column), space-separated; '' when it has none.
+  static String _captionsSql(String imagesColumn) =>
+      "COALESCE((SELECT group_concat(json_extract(j.value, '\$.caption'), ' ') "
+      "FROM json_each($imagesColumn) j), '')";
+
   /// FTS5 index over passages with porter stemming ("boil" matches
-  /// "boiling"). Each row also carries its document's title and aliases,
-  /// because a section often never repeats its subject ("Remove any wet
-  /// clothing" sits under "Preventing Hypothermia") and the source's words
-  /// are rarely the user's ("Build A Kit" vs "bug out bag"). Triggers keep
-  /// it in sync, including cascade deletes when a pack is removed.
+  /// "boiling"). Each row also carries its document's title, aliases and
+  /// figure captions, because a section often never repeats its subject
+  /// ("Remove any wet clothing" sits under "Preventing Hypothermia"), the
+  /// source's words are rarely the user's ("Build A Kit" vs "bug out
+  /// bag"), and a figure can show what the text never names ("Square
+  /// knots tied away from the casualty" under a splinting procedure).
+  /// Triggers keep it in sync, including cascade deletes when a pack is
+  /// removed.
   Future<void> _createPassageIndex() async {
     await customStatement('''
       CREATE VIRTUAL TABLE passages_fts USING fts5(
@@ -261,7 +284,7 @@ class AppDatabase extends _$AppDatabase {
         VALUES (
           new.id,
           (SELECT title || ' ' || aliases FROM pack_documents
-           WHERE id = new.document_id),
+           WHERE id = new.document_id) || ' ' || ${_captionsSql('new.images')},
           new.heading,
           new.body
         );

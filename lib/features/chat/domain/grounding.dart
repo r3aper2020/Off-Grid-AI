@@ -46,8 +46,10 @@ abstract final class Grounding {
       'chemical amounts come only from a passage; if none gives them, say '
       'the exact amount isn\'t in their library. If a fact comes from a '
       'passage marked UNREVIEWED or HISTORICAL, add a few words saying it '
-      'is from an unreviewed or old source. For a [Table image], don\'t '
-      'guess its values; say to tap the source.';
+      'is from an unreviewed or old source. The user sees each [Figure] '
+      'and [Table image] from these passages next to your answer, so when '
+      'one shows what you\'re describing, point to it by its caption '
+      '("see Figure A-8"); don\'t guess a table\'s values, say to tap it.';
 
   static const noSourceInstruction =
       'Nothing in the user\'s offline library matched their latest message. '

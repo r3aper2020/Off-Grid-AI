@@ -317,9 +317,11 @@ class _ReadingSources extends ConsumerWidget {
   }
 }
 
-/// Tappable sources under an assistant reply: one chip per citation the
-/// model actually used. Replies citing nothing are labelled as such so
-/// users can tell library-backed answers from general knowledge.
+/// What the reply was checked against, under it: the passages the model
+/// was given as tappable chips (the ones it cited carry their number and
+/// come first), then their figures and tables, so a "how do I" answer
+/// shows the picture. A reply given no passages is labelled as general
+/// knowledge, so users can tell the two apart.
 class _Sources extends ConsumerWidget {
   const _Sources({required this.citationsJson, required this.cited});
 
@@ -331,13 +333,15 @@ class _Sources extends ConsumerWidget {
     final sources = ref.watch(citationSourcesProvider(citationsJson)).value;
     if (sources == null) return const SizedBox.shrink();
 
-    final used = [
+    final shown = <(int?, PassageHit)>[
       for (final n in cited)
         if (n >= 1 && n <= sources.length && sources[n - 1] != null)
           (n, sources[n - 1]!),
+      for (final (i, hit) in sources.indexed)
+        if (hit != null && !cited.contains(i + 1)) (null, hit),
     ];
 
-    if (used.isEmpty) {
+    if (shown.isEmpty) {
       return const Padding(
         padding: EdgeInsets.only(top: 8),
         child: Row(
@@ -360,7 +364,7 @@ class _Sources extends ConsumerWidget {
       );
     }
 
-    final flagged = used
+    final flagged = shown
         .map((u) => u.$2.reviewStatus)
         .where((s) => s != ReviewStatus.verified)
         .toSet();
@@ -370,21 +374,30 @@ class _Sources extends ConsumerWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Text(
+            cited.isEmpty
+                ? 'Checked against your library:'
+                : 'From your library:',
+            style: const TextStyle(fontSize: 11, color: AppColors.textTertiary),
+          ),
+          const SizedBox(height: 6),
           Wrap(
             spacing: 6,
             runSpacing: 6,
             children: [
-              for (final (n, hit) in used)
+              for (final (n, hit) in shown)
                 ActionChip(
                   visualDensity: VisualDensity.compact,
-                  avatar: Text(
-                    '$n',
-                    style: const TextStyle(
-                      fontSize: 11,
-                      fontWeight: FontWeight.w700,
-                      color: AppColors.accent,
-                    ),
-                  ),
+                  avatar: n == null
+                      ? null
+                      : Text(
+                          '$n',
+                          style: const TextStyle(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.accent,
+                          ),
+                        ),
                   label: Text(
                     hit.heading,
                     style: const TextStyle(fontSize: 12),
@@ -405,10 +418,8 @@ class _Sources extends ConsumerWidget {
               padding: const EdgeInsets.only(top: 8),
               child: ReviewBadge(status: status),
             ),
-          // Diagrams and tables from the cited passages, so a "how do I"
-          // answer shows the picture, and table values stay exact.
           _CitedImages(
-            passageIds: [for (final (_, hit) in used) hit.passageId],
+            passageIds: [for (final (_, hit) in shown) hit.passageId],
           ),
         ],
       ),

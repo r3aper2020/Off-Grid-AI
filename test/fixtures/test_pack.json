@@ -13,15 +13,34 @@
       "title": "Fixture Water Guide",
       "sourceUrl": "https://example.test/water",
       "sections": [
-        {"heading": "Boiling water", "body": "TEST FIXTURE. Bring water to a rolling boil before drinking it."},
-        {"heading": "Storing water", "body": "TEST FIXTURE. Keep stored water in clean sealed containers away from sunlight."}
+        {
+          "heading": "Boiling water",
+          "body": "TEST FIXTURE. Bring water to a rolling boil before drinking it."
+        },
+        {
+          "heading": "Storing water",
+          "body": "TEST FIXTURE. Keep stored water in clean sealed containers away from sunlight."
+        }
       ]
     },
     {
       "title": "Fixture Fire Guide",
       "sections": [
-        {"heading": "Building a campfire", "body": "TEST FIXTURE. Gather tinder, kindling and fuel wood before lighting a fire."},
-        {"heading": "Putting out a fire", "body": "TEST FIXTURE. Drown the fire with water and stir the ashes until cold."}
+        {
+          "heading": "Building a campfire",
+          "body": "TEST FIXTURE. Gather tinder, kindling and fuel wood before lighting a fire. {{img:0}}",
+          "images": [
+            {
+              "asset": "assets/packs/images/fixture-teepee.webp",
+              "caption": "Figure 2. Teepee fire lay",
+              "kind": "figure"
+            }
+          ]
+        },
+        {
+          "heading": "Putting out a fire",
+          "body": "TEST FIXTURE. Drown the fire with water and stir the ashes until cold."
+        }
       ]
     }
   ]

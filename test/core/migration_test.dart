@@ -78,12 +78,14 @@ void main() {
     final dir = await Directory.systemTemp.createTemp('v3');
     final f = File('${dir.path}/v3.sqlite');
     final fresh = AppDatabase(NativeDatabase(f));
+    // First, so the v9 trigger (which reads images) is gone before the
+    // column is.
+    await dropV7Columns(fresh);
     await fresh.customStatement(
       'ALTER TABLE knowledge_packs DROP COLUMN review_status',
     );
     await fresh.customStatement('ALTER TABLE passages DROP COLUMN images');
     await fresh.customStatement('ALTER TABLE passages DROP COLUMN embedding');
-    await dropV7Columns(fresh);
     await fresh.customStatement(
       "INSERT INTO knowledge_packs (id, title, description, category, version, "
       "publisher, license, attribution, size_bytes, source, installed_at) "
@@ -197,6 +199,35 @@ void main() {
     );
     final model = await upgraded.select(upgraded.installedModels).getSingle();
     expect(model.projectorFileName, 'p.gguf');
+    await upgraded.close();
+    await dir.delete(recursive: true);
+  });
+
+  test('v8 database reindexes with figure captions', () async {
+    final dir = await Directory.systemTemp.createTemp('v8');
+    final f = File('${dir.path}/v8.sqlite');
+    final fresh = AppDatabase(NativeDatabase(f));
+    // The v8 trigger indexed title and aliases, not captions.
+    await fresh.customStatement('DROP TRIGGER passages_ai');
+    await fresh.customStatement('''
+      CREATE TRIGGER passages_ai AFTER INSERT ON passages BEGIN
+        INSERT INTO passages_fts(rowid, title, heading, body)
+        VALUES (new.id,
+          (SELECT title || ' ' || aliases FROM pack_documents
+           WHERE id = new.document_id),
+          new.heading, new.body);
+      END''');
+    await PackInstaller(fresh).install(
+      File('test/fixtures/test_pack.json').readAsStringSync(),
+      source: 'file:x',
+    );
+    expect(await KnowledgeSearch(fresh).search('teepee'), isEmpty);
+    await fresh.customStatement('PRAGMA user_version = 8');
+    await fresh.close();
+
+    final upgraded = AppDatabase(NativeDatabase(f));
+    final hits = await KnowledgeSearch(upgraded).search('teepee');
+    expect(hits.map((h) => h.heading), ['Building a campfire']);
     await upgraded.close();
     await dir.delete(recursive: true);
   });

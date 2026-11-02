@@ -651,3 +651,21 @@ not in use is released, so one model is in memory at a time. The notice
 remains only when no vision model is installed at all. Tapping the
 vision model on the models screen still makes it the model for
 everything.
+
+
+## 2026-11-02 — Show the pictures: figures under every reply
+The product promise is to show someone what they're looking at and how
+to do the task, and the library already holds 704 figures and tables
+(shelters, knots, splints, fire lays, navigation, canning). They were
+shown only under passages the reply cited with [n], and since the model
+now cites only specifics that differ from its own answer, that was
+almost never. Now `_Sources` shows every passage the reply was checked
+against (cited ones numbered, first) and `_CitedImages` their figures
+and tables, with "Checked against your library" when nothing was cited
+and "Not from the offline library" only when no passage was given.
+Figure and table captions are indexed with the document title in
+`passages_fts` (schema v9) and count toward keyword coverage, so a
+question can find a section by what its picture shows. The grounding
+rule tells the model the user sees those figures, so it can point to one
+by caption. Section vectors still embed body text only; re-embedding
+with captions is a later, measured change.

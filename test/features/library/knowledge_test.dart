@@ -123,6 +123,14 @@ void main() {
     });
   });
 
+  group('figure captions', () {
+    test('a section is found by what its figure shows', () async {
+      final hits = await search.forQuestion('teepee fire');
+      expect(hits.map((h) => h.heading), contains('Building a campfire'));
+      expect(hits.first.captions, 'Figure 2. Teepee fire lay');
+    });
+  });
+
   group('forQuestion', () {
     test('finds the passage that answers the question', () async {
       final hits = await search.forQuestion('How long should I boil water?');

@@ -63,7 +63,11 @@ class PassageHit {
   );
 
   /// Everything a question's words may match against.
-  String get searchable => '$documentTitle $aliases $heading $body';
+  /// Captions of the passage's figures and tables, indexed with the title
+  /// so a question can find a section by what its picture shows.
+  String get captions => images.map((i) => i.caption).join(' ');
+
+  String get searchable => '$documentTitle $aliases $heading $captions $body';
 }
 
 /// Search over installed passages: SQLite FTS5 (BM25) keywords fused with
@@ -292,7 +296,7 @@ class KnowledgeSearch {
         }
       }
       final titled = _matchedTerms(
-        '${hit.documentTitle} ${hit.aliases} ${hit.heading}',
+        '${hit.documentTitle} ${hit.aliases} ${hit.heading} ${hit.captions}',
         terms,
       ).toSet();
       final covered = _matchedTerms(hit.searchable, terms).fold(

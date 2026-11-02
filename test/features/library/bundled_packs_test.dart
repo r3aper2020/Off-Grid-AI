@@ -218,6 +218,11 @@ void main() {
 
     test('tying a bowline knot', () async {
       expect(await topDocs('How do I tie a bowline knot?'), contains('Knots'));
+      // The reply shows the figures of the passages it was given.
+      final figures = await search.figuresFor(
+        await given('How do I tie a bowline knot?'),
+      );
+      expect(figures.map((f) => f.caption), contains(contains('Bowline knot')));
     });
 
     test('finding direction without a compass', () async {

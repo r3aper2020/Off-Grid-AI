@@ -15,15 +15,15 @@ import 'package:offgrid_ai/features/models/model_providers.dart';
 import '../../support/test_db.dart';
 
 class CitingEngine implements InferenceEngine {
+  CitingEngine([this.reply = 'Bring it to a rolling boil [1].']);
+  final String reply;
+
   @override
   Future<EngineStatus> status() async => const EngineReady('fake');
 
   @override
   Stream<GenerationEvent> generate(List<ChatTurn> history) =>
-      Stream.fromIterable(const [
-        GenerationToken('Bring it to a rolling boil [1].'),
-        GenerationDone(),
-      ]);
+      Stream.fromIterable([GenerationToken(reply), const GenerationDone()]);
 
   @override
   Future<String?> complete(List<ChatTurn> turns, {int maxTokens = 64}) async =>
@@ -154,5 +154,25 @@ void main() {
     expect(find.textContaining('Reading from your library'), findsNothing);
     expect(find.widgetWithText(ActionChip, 'Boiling water'), findsOneWidget);
     await engine.events.close();
+  });
+
+  testWidgets('the passages checked and their figures show under a reply', (
+    tester,
+  ) async {
+    // No [n] in the reply: the passages it was checked against still show.
+    await pumpApp(tester, engine: CitingEngine('Use dry kindling.'));
+    await tester.enterText(find.byType(TextField), 'how do I build a campfire');
+    await tester.pump();
+    await tester.tap(find.byTooltip('Send'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Use dry kindling.'), findsOneWidget);
+    expect(find.textContaining('Checked against your library'), findsOneWidget);
+    expect(
+      find.widgetWithText(ActionChip, 'Building a campfire'),
+      findsOneWidget,
+    );
+    expect(find.text('Figure 2. Teepee fire lay'), findsOneWidget);
+    expect(find.text('Not from the offline library'), findsNothing);
   });
 }
