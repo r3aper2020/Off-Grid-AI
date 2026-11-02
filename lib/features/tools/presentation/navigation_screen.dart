@@ -1,21 +1,75 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:maplibre_gl/maplibre_gl.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/widgets/screen_header.dart';
 import '../../../core/widgets/topo_background.dart';
+import '../../maps/domain/location_source.dart';
+import '../../maps/domain/map_style.dart';
+import '../../maps/map_providers.dart';
+import '../../maps/presentation/map_view.dart';
 
-/// Navigation shell. Map tiles (MapLibre), GPS and compass are wired in the
-/// navigation milestone; until then readings show as unavailable.
-class NavigationScreen extends StatelessWidget {
+/// Offline map of the installed regions with the phone's position and
+/// heading. Without a region the screen still shows GPS readings, and
+/// says where to get a map.
+class NavigationScreen extends ConsumerStatefulWidget {
   const NavigationScreen({super.key});
 
   @override
+  ConsumerState<NavigationScreen> createState() => _NavigationScreenState();
+}
+
+class _NavigationScreenState extends ConsumerState<NavigationScreen> {
+  MapLibreMapController? _controller;
+  bool _follow = false;
+  double? _compass;
+
+  @override
   Widget build(BuildContext context) {
+    final regions = ref.watch(mapRegionsProvider).value ?? const [];
+    final style = ref.watch(mapStyleProvider).value;
+    final access = ref.watch(locationAccessProvider).value;
+    final fix = ref.watch(positionProvider).value;
+    final granted = access == LocationAccess.granted;
+    final heading = _compass ?? fix?.heading;
+
+    Widget map;
+    if (style != null && regions.isNotEmpty) {
+      final first = regions.first;
+      map = ref.watch(mapViewBuilderProvider)(
+        MapViewSpec(
+          style: style,
+          centerLat: fix?.latitude ?? (first.minLat + first.maxLat) / 2,
+          centerLon: fix?.longitude ?? (first.minLon + first.maxLon) / 2,
+          zoom: fix == null ? 9 : 13,
+          locationEnabled: granted,
+          followHeading: _follow,
+          onMapCreated: (c) => setState(() => _controller = c),
+          onHeading: (h) {
+            if (h != _compass && mounted) setState(() => _compass = h);
+          },
+          onFollowDismissed: () {
+            if (_follow && mounted) setState(() => _follow = false);
+          },
+        ),
+      );
+    } else {
+      _controller = null;
+      map = const TopoBackground();
+    }
+
     return Scaffold(
       body: Stack(
         children: [
-          const Positioned.fill(child: TopoBackground()),
-          const Center(child: _PositionMarker()),
+          Positioned.fill(child: map),
+          if (style == null)
+            Center(
+              child: _NoMapCard(
+                onAdd: () => context.push('/settings/maps'),
+              ),
+            ),
           SafeArea(
             child: Column(
               children: [
@@ -25,18 +79,47 @@ class NavigationScreen extends StatelessWidget {
                     const Expanded(
                       child: ScreenHeader(title: Text('Navigation')),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.only(right: 12),
+                      child: HeaderIconButton(
+                        icon: Icons.layers_outlined,
+                        tooltip: 'Offline maps',
+                        onPressed: () => context.push('/settings/maps'),
+                      ),
+                    ),
                   ],
                 ),
                 const Spacer(),
-                const Align(
+                Align(
                   alignment: Alignment.centerRight,
                   child: Padding(
-                    padding: EdgeInsets.only(right: 16),
-                    child: _MapControls(),
+                    padding: const EdgeInsets.only(right: 16),
+                    child: _MapControls(
+                      enabled: _controller != null,
+                      following: _follow,
+                      canCenter: granted,
+                      onFollow: _toggleFollow,
+                      onCenter: () => _center(fix),
+                      onZoomIn: () =>
+                          _controller?.animateCamera(CameraUpdate.zoomIn()),
+                      onZoomOut: () =>
+                          _controller?.animateCamera(CameraUpdate.zoomOut()),
+                    ),
                   ),
                 ),
-                const SizedBox(height: 16),
-                const _ReadingsBar(),
+                const SizedBox(height: 8),
+                if (style != null)
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20, bottom: 6),
+                    child: Align(
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        mapAttribution,
+                        style: Theme.of(context).textTheme.labelSmall,
+                      ),
+                    ),
+                  ),
+                _ReadingsBar(fix: fix, access: access, heading: heading),
               ],
             ),
           ),
@@ -44,24 +127,63 @@ class NavigationScreen extends StatelessWidget {
       ),
     );
   }
+
+  Future<void> _toggleFollow() async {
+    final c = _controller;
+    if (c == null) return;
+    setState(() => _follow = !_follow);
+    await c.updateMyLocationTrackingMode(
+      _follow ? MyLocationTrackingMode.trackingCompass : MyLocationTrackingMode.none,
+    );
+  }
+
+  Future<void> _center(Fix? fix) async {
+    final c = _controller;
+    if (c == null) return;
+    final target = fix != null
+        ? LatLng(fix.latitude, fix.longitude)
+        : await c.requestMyLocationLatLng();
+    if (target == null) return;
+    await c.animateCamera(CameraUpdate.newLatLngZoom(target, 14));
+  }
 }
 
-class _PositionMarker extends StatelessWidget {
-  const _PositionMarker();
+class _NoMapCard extends StatelessWidget {
+  const _NoMapCard({required this.onAdd});
+  final VoidCallback onAdd;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 30,
-      height: 30,
+      margin: const EdgeInsets.symmetric(horizontal: 32),
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        border: Border.all(color: AppColors.accent, width: 4),
-        boxShadow: [
-          BoxShadow(
-            color: AppColors.accent.withValues(alpha: 0.45),
-            blurRadius: 28,
-            spreadRadius: 6,
+        color: AppColors.surface.withValues(alpha: 0.95),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: AppColors.border),
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const Icon(Icons.map_outlined, size: 36, color: AppColors.accent),
+          const SizedBox(height: 12),
+          Text(
+            'No offline map on this phone',
+            style: Theme.of(context).textTheme.titleMedium,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 6),
+          Text(
+            'Add a map region made with the Protomaps extract tool and it '
+            'will show here, with your position, without any connection.',
+            style: Theme.of(context).textTheme.bodySmall,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 14),
+          FilledButton.icon(
+            onPressed: onAdd,
+            icon: const Icon(Icons.add_rounded),
+            label: const Text('Add a map region'),
           ),
         ],
       ),
@@ -70,26 +192,45 @@ class _PositionMarker extends StatelessWidget {
 }
 
 class _MapControls extends StatelessWidget {
-  const _MapControls();
+  const _MapControls({
+    required this.enabled,
+    required this.following,
+    required this.canCenter,
+    required this.onFollow,
+    required this.onCenter,
+    required this.onZoomIn,
+    required this.onZoomOut,
+  });
+
+  final bool enabled;
+  final bool following;
+  final bool canCenter;
+  final VoidCallback onFollow;
+  final VoidCallback onCenter;
+  final VoidCallback onZoomIn;
+  final VoidCallback onZoomOut;
 
   @override
   Widget build(BuildContext context) {
-    // Disabled until a map and location source exist.
-    const controls = [
-      (Icons.near_me_outlined, 'Follow heading'),
-      (Icons.my_location_rounded, 'Center on me'),
-      (Icons.add_rounded, 'Zoom in'),
-      (Icons.remove_rounded, 'Zoom out'),
+    final controls = [
+      (
+        following ? Icons.near_me_rounded : Icons.near_me_outlined,
+        'Follow heading',
+        enabled && canCenter ? onFollow : null,
+      ),
+      (Icons.my_location_rounded, 'Center on me', enabled && canCenter ? onCenter : null),
+      (Icons.add_rounded, 'Zoom in', enabled ? onZoomIn : null),
+      (Icons.remove_rounded, 'Zoom out', enabled ? onZoomOut : null),
     ];
     return Column(
       children: [
-        for (final (icon, label) in controls)
+        for (final (icon, label, onPressed) in controls)
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
             child: HeaderIconButton(
               icon: icon,
               tooltip: label,
-              onPressed: null,
+              onPressed: onPressed,
             ),
           ),
       ],
@@ -98,10 +239,28 @@ class _MapControls extends StatelessWidget {
 }
 
 class _ReadingsBar extends StatelessWidget {
-  const _ReadingsBar();
+  const _ReadingsBar({
+    required this.fix,
+    required this.access,
+    required this.heading,
+  });
+
+  final Fix? fix;
+  final LocationAccess? access;
+  final double? heading;
 
   @override
   Widget build(BuildContext context) {
+    final f = fix;
+    final status = switch (access) {
+      null => 'Checking location access…',
+      LocationAccess.servicesOff => 'Location services are off',
+      LocationAccess.denied => 'Location permission denied',
+      LocationAccess.deniedForever =>
+        'Location permission denied — allow it in system settings',
+      LocationAccess.granted when f == null => 'Waiting for a GPS fix…',
+      LocationAccess.granted => formatCoordinates(f!.latitude, f.longitude),
+    };
     return Container(
       margin: const EdgeInsets.fromLTRB(16, 0, 16, 12),
       padding: const EdgeInsets.symmetric(vertical: 14),
@@ -112,27 +271,42 @@ class _ReadingsBar extends StatelessWidget {
       ),
       child: Column(
         children: [
-          const Row(
+          Row(
             children: [
-              _Reading(label: 'Elevation'),
-              _Reading(label: 'Accuracy'),
-              _Reading(label: 'Heading'),
+              _Reading(
+                label: 'Elevation',
+                value: f?.altitude == null ? null : '${f!.altitude!.round()} m',
+              ),
+              _Reading(
+                label: 'Accuracy',
+                value: f?.accuracy == null ? null : '±${f!.accuracy!.round()} m',
+              ),
+              _Reading(
+                label: 'Heading',
+                value: heading == null ? null : '${heading!.round() % 360}°',
+              ),
             ],
           ),
           const SizedBox(height: 10),
-          Text(
-            'Location and offline maps are not set up yet',
-            style: Theme.of(context).textTheme.bodySmall,
-          ),
+          Text(status, style: Theme.of(context).textTheme.bodySmall),
         ],
       ),
     );
   }
 }
 
+/// "35.60000° N, 83.47500° W": what you'd read out over a radio.
+String formatCoordinates(double lat, double lon) {
+  final ns = lat >= 0 ? 'N' : 'S';
+  final ew = lon >= 0 ? 'E' : 'W';
+  return '${lat.abs().toStringAsFixed(5)}° $ns, '
+      '${lon.abs().toStringAsFixed(5)}° $ew';
+}
+
 class _Reading extends StatelessWidget {
-  const _Reading({required this.label});
+  const _Reading({required this.label, this.value});
   final String label;
+  final String? value;
 
   @override
   Widget build(BuildContext context) {
@@ -141,7 +315,7 @@ class _Reading extends StatelessWidget {
         children: [
           Text(label, style: Theme.of(context).textTheme.bodySmall),
           const SizedBox(height: 4),
-          Text('—', style: Theme.of(context).textTheme.titleMedium),
+          Text(value ?? '—', style: Theme.of(context).textTheme.titleMedium),
         ],
       ),
     );

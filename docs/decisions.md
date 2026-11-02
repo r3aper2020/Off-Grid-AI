@@ -682,3 +682,33 @@ question can find a section by what its picture shows. The grounding
 rule tells the model the user sees those figures, so it can point to one
 by caption. Section vectors still embed body text only; re-embedding
 with captions is a later, measured change.
+
+## 2026-11-02 — Offline maps: MapLibre drawing Protomaps regions from the phone
+The owner moved the navigation milestone ahead of downloads, preparedness
+and emergency mode. First cut, with no network code at all:
+- **Renderer:** `maplibre_gl` 0.27 (MapLibre Native 13.5 on Android, 6.28
+  on iOS), which reads a PMTiles archive on the phone directly as
+  `pmtiles://file://<path>`. Bundled assets can't be used for tiles (the
+  asset reader has no byte ranges), so regions live in the app's `maps/`
+  directory like models do.
+- **Tiles:** Protomaps basemap builds (OpenStreetMap data, ODbL Produced
+  Work; attribution "© OpenStreetMap contributors · Protomaps" is drawn on
+  the map and in the regions screen). A region is cut from the daily
+  planet build on a computer with `tools/maps/extract_region.sh` (the
+  `pmtiles` CLI) and imported from a file, exactly like a GGUF model.
+  Downloading regions in the app waits for the download manager
+  (milestone 4), which will reuse `MapStore.import`.
+- **Style:** the Protomaps basemap layers (BSD-3, dark flavor, English
+  labels) generated once by `tools/maps/build_style.mjs` into
+  `assets/maps/layers-dark.json`; `buildMapStyle` repeats them per
+  installed region. Fonts (Noto, OFL; Latin glyph ranges only for now)
+  and sprites (BSD-3) are bundled and copied beside the regions on first
+  use, because the renderer loads them as `file://` paths.
+- **Position:** `geolocator` for permission and fixes (asked only when
+  the Navigation tool opens, never at startup; the permission text says
+  the location never leaves the phone), MapLibre's own puck for the dot
+  and compass heading. The screen talks to a `LocationSource` interface
+  so it is tested with a fake.
+- **Not yet:** contour lines and hillshade (the basemap has none),
+  magnetic declination (headings are what the platform reports), UTM/MGRS
+  grids, routes and waypoints, and in-app downloads.

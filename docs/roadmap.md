@@ -130,8 +130,14 @@ Household profile, supply inventory, checklists, personalized plans.
 Quick-access procedures, guided workflows, low-battery UI, deterministic
 (non-AI) fallbacks.
 
-## 7. Offline navigation & utilities
-MapLibre with downloadable regions, GPS, compass, conversions.
+## 7. Offline navigation & utilities — 🚧 first cut (2026-11-02)
+Pulled ahead of 4–6 by the owner. Done: MapLibre draws imported Protomaps
+`.pmtiles` regions from the phone (no network), GPS position and heading,
+elevation/accuracy readings, coordinates, Settings → Offline maps to
+import and delete regions, `tools/maps/extract_region.sh` to make them.
+Remaining: in-app region downloads (with milestone 4), contours and
+hillshade, declination, UTM/MGRS, waypoints and routes, compass screen
+without a map, conversions.
 
 ## 8. Production readiness
 Device matrix testing, performance, security review, accessibility, store

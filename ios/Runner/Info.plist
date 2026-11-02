@@ -53,6 +53,8 @@
 	<string>Take a photo of a plant, injury, device or label to ask the offline assistant about it.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Choose a photo to ask the offline assistant about it.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Show your position and heading on the offline map. Your location never leaves the phone.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

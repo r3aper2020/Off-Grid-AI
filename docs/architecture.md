@@ -11,7 +11,8 @@ Feature domain interfaces
   ModelStore             (models)        — imported GGUF files + registry
   KnowledgeSearch        (library)       — SQLite FTS5 search + retrieval
   PackInstaller          (library)       — installs knowledge packs
-  (preparedness, emergency, navigation)  — later milestones
+  MapStore / LocationSource (maps)      — PMTiles regions, GPS fixes
+  (preparedness, emergency)              — later milestones
         │
         ▼
 Local storage (app-private)
@@ -38,12 +39,14 @@ lib/
       presentation/          home, conversation, history, composer
       chat_providers.dart    providers + GenerationController
     library/                 packs, FTS5 search, Library/pack/reader/search UI
-    tools/                   Tools list + Navigation shell
+    maps/                    MapStore (import/delete regions), style builder,
+                             LocationSource (geolocator), Offline maps screen
+    tools/                   Tools list + Navigation (MapLibre map, readings)
     models/                  ModelStore (import/activate/delete), AI model screen
     settings/                status overview, data controls
 ```
 
-## Data model (schema v9)
+## Data model (schema v10)
 
 | Table | Purpose |
 |---|---|
@@ -56,6 +59,7 @@ lib/
 | `passages_fts` (v3) | FTS5 index over passages (porter stemming) and their document's title + aliases (v7) + figure captions (v9), synced by triggers |
 | `messages.citations` (v3) | JSON passage ids given to the model for a reply; `[]` = searched, nothing matched |
 | `messages.imagePath` (v8) | Photo attached to a user message: file name in the app's `photos/` directory |
+| `map_regions` (v10) | Imported PMTiles archives: file name in `maps/`, size, bounds and zoom range from the header |
 
 ## Chat generation flow
 

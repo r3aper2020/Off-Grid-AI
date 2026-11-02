@@ -7,6 +7,7 @@ import '../../../core/widgets/screen_header.dart';
 import '../../chat/chat_providers.dart';
 import '../../chat/domain/inference_engine.dart';
 import '../../library/data/library_repository.dart';
+import '../../maps/map_providers.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -38,6 +39,7 @@ class SettingsScreen extends ConsumerWidget {
     final engine = ref.watch(engineStatusProvider).value;
     final packCount = ref.watch(packsProvider(null)).value?.length ?? 0;
     final chatCount = ref.watch(conversationsProvider).value?.length ?? 0;
+    final regionCount = ref.watch(mapRegionsProvider).value?.length ?? 0;
 
     final modelSummary = switch (engine) {
       EngineReady(:final modelName) => modelName,
@@ -67,6 +69,25 @@ class SettingsScreen extends ConsumerWidget {
                           color: AppColors.textTertiary,
                         ),
                         onTap: () => context.go('/settings/models'),
+                      ),
+                    ],
+                  ),
+                  _Section(
+                    title: 'Offline maps',
+                    children: [
+                      ListTile(
+                        leading: const Icon(Icons.map_outlined),
+                        title: const Text('Map regions'),
+                        subtitle: Text(
+                          regionCount == 0
+                              ? 'None installed — tap to import'
+                              : '$regionCount installed',
+                        ),
+                        trailing: const Icon(
+                          Icons.chevron_right_rounded,
+                          color: AppColors.textTertiary,
+                        ),
+                        onTap: () => context.go('/settings/maps'),
                       ),
                     ],
                   ),

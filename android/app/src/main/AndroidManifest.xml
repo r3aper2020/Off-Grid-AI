@@ -2,6 +2,10 @@
     <!-- Used only when the user taps Download on the AI model screen.
          Core features never touch the network (see docs/decisions.md). -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Asked for only when the Navigation tool is opened: the position
+         and heading shown on the offline map. Never sent anywhere. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <application
         android:label="OFFGRID AI"
         android:name="${applicationName}"

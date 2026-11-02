@@ -44,6 +44,8 @@ dependencies:
   file_picker: ^13.3.0
   image_picker: ^1.2.4
   crypto: ^3.0.8
+  maplibre_gl: ^0.27.1
+  geolocator: ^14.0.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -73,6 +75,12 @@ flutter:
     - assets/packs/images/
     - assets/packs/vectors/
     - assets/models/
+    - assets/maps/
+    - assets/maps/fonts/
+    - assets/maps/fonts/Noto Sans Regular/
+    - assets/maps/fonts/Noto Sans Medium/
+    - assets/maps/fonts/Noto Sans Italic/
+    - assets/maps/sprites/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

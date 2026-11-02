@@ -3016,6 +3016,657 @@ class InstalledModelsCompanion extends UpdateCompanion<InstalledModel> {
   }
 }
 
+class $MapRegionsTable extends MapRegions
+    with TableInfo<$MapRegionsTable, MapRegion> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $MapRegionsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _displayNameMeta = const VerificationMeta(
+    'displayName',
+  );
+  @override
+  late final GeneratedColumn<String> displayName = GeneratedColumn<String>(
+    'display_name',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _fileNameMeta = const VerificationMeta(
+    'fileName',
+  );
+  @override
+  late final GeneratedColumn<String> fileName = GeneratedColumn<String>(
+    'file_name',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways('UNIQUE'),
+  );
+  static const VerificationMeta _sizeBytesMeta = const VerificationMeta(
+    'sizeBytes',
+  );
+  @override
+  late final GeneratedColumn<int> sizeBytes = GeneratedColumn<int>(
+    'size_bytes',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _minLonMeta = const VerificationMeta('minLon');
+  @override
+  late final GeneratedColumn<double> minLon = GeneratedColumn<double>(
+    'min_lon',
+    aliasedName,
+    false,
+    type: DriftSqlType.double,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _minLatMeta = const VerificationMeta('minLat');
+  @override
+  late final GeneratedColumn<double> minLat = GeneratedColumn<double>(
+    'min_lat',
+    aliasedName,
+    false,
+    type: DriftSqlType.double,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _maxLonMeta = const VerificationMeta('maxLon');
+  @override
+  late final GeneratedColumn<double> maxLon = GeneratedColumn<double>(
+    'max_lon',
+    aliasedName,
+    false,
+    type: DriftSqlType.double,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _maxLatMeta = const VerificationMeta('maxLat');
+  @override
+  late final GeneratedColumn<double> maxLat = GeneratedColumn<double>(
+    'max_lat',
+    aliasedName,
+    false,
+    type: DriftSqlType.double,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _minZoomMeta = const VerificationMeta(
+    'minZoom',
+  );
+  @override
+  late final GeneratedColumn<int> minZoom = GeneratedColumn<int>(
+    'min_zoom',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _maxZoomMeta = const VerificationMeta(
+    'maxZoom',
+  );
+  @override
+  late final GeneratedColumn<int> maxZoom = GeneratedColumn<int>(
+    'max_zoom',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _installedAtMeta = const VerificationMeta(
+    'installedAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> installedAt = GeneratedColumn<DateTime>(
+    'installed_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    displayName,
+    fileName,
+    sizeBytes,
+    minLon,
+    minLat,
+    maxLon,
+    maxLat,
+    minZoom,
+    maxZoom,
+    installedAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'map_regions';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<MapRegion> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('display_name')) {
+      context.handle(
+        _displayNameMeta,
+        displayName.isAcceptableOrUnknown(
+          data['display_name']!,
+          _displayNameMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_displayNameMeta);
+    }
+    if (data.containsKey('file_name')) {
+      context.handle(
+        _fileNameMeta,
+        fileName.isAcceptableOrUnknown(data['file_name']!, _fileNameMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_fileNameMeta);
+    }
+    if (data.containsKey('size_bytes')) {
+      context.handle(
+        _sizeBytesMeta,
+        sizeBytes.isAcceptableOrUnknown(data['size_bytes']!, _sizeBytesMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_sizeBytesMeta);
+    }
+    if (data.containsKey('min_lon')) {
+      context.handle(
+        _minLonMeta,
+        minLon.isAcceptableOrUnknown(data['min_lon']!, _minLonMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_minLonMeta);
+    }
+    if (data.containsKey('min_lat')) {
+      context.handle(
+        _minLatMeta,
+        minLat.isAcceptableOrUnknown(data['min_lat']!, _minLatMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_minLatMeta);
+    }
+    if (data.containsKey('max_lon')) {
+      context.handle(
+        _maxLonMeta,
+        maxLon.isAcceptableOrUnknown(data['max_lon']!, _maxLonMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_maxLonMeta);
+    }
+    if (data.containsKey('max_lat')) {
+      context.handle(
+        _maxLatMeta,
+        maxLat.isAcceptableOrUnknown(data['max_lat']!, _maxLatMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_maxLatMeta);
+    }
+    if (data.containsKey('min_zoom')) {
+      context.handle(
+        _minZoomMeta,
+        minZoom.isAcceptableOrUnknown(data['min_zoom']!, _minZoomMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_minZoomMeta);
+    }
+    if (data.containsKey('max_zoom')) {
+      context.handle(
+        _maxZoomMeta,
+        maxZoom.isAcceptableOrUnknown(data['max_zoom']!, _maxZoomMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_maxZoomMeta);
+    }
+    if (data.containsKey('installed_at')) {
+      context.handle(
+        _installedAtMeta,
+        installedAt.isAcceptableOrUnknown(
+          data['installed_at']!,
+          _installedAtMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_installedAtMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  MapRegion map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return MapRegion(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      displayName: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}display_name'],
+      )!,
+      fileName: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}file_name'],
+      )!,
+      sizeBytes: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}size_bytes'],
+      )!,
+      minLon: attachedDatabase.typeMapping.read(
+        DriftSqlType.double,
+        data['${effectivePrefix}min_lon'],
+      )!,
+      minLat: attachedDatabase.typeMapping.read(
+        DriftSqlType.double,
+        data['${effectivePrefix}min_lat'],
+      )!,
+      maxLon: attachedDatabase.typeMapping.read(
+        DriftSqlType.double,
+        data['${effectivePrefix}max_lon'],
+      )!,
+      maxLat: attachedDatabase.typeMapping.read(
+        DriftSqlType.double,
+        data['${effectivePrefix}max_lat'],
+      )!,
+      minZoom: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}min_zoom'],
+      )!,
+      maxZoom: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}max_zoom'],
+      )!,
+      installedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}installed_at'],
+      )!,
+    );
+  }
+
+  @override
+  $MapRegionsTable createAlias(String alias) {
+    return $MapRegionsTable(attachedDatabase, alias);
+  }
+}
+
+class MapRegion extends DataClass implements Insertable<MapRegion> {
+  final int id;
+  final String displayName;
+
+  /// File name inside the maps directory (not an absolute path).
+  final String fileName;
+  final int sizeBytes;
+  final double minLon;
+  final double minLat;
+  final double maxLon;
+  final double maxLat;
+  final int minZoom;
+  final int maxZoom;
+  final DateTime installedAt;
+  const MapRegion({
+    required this.id,
+    required this.displayName,
+    required this.fileName,
+    required this.sizeBytes,
+    required this.minLon,
+    required this.minLat,
+    required this.maxLon,
+    required this.maxLat,
+    required this.minZoom,
+    required this.maxZoom,
+    required this.installedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['display_name'] = Variable<String>(displayName);
+    map['file_name'] = Variable<String>(fileName);
+    map['size_bytes'] = Variable<int>(sizeBytes);
+    map['min_lon'] = Variable<double>(minLon);
+    map['min_lat'] = Variable<double>(minLat);
+    map['max_lon'] = Variable<double>(maxLon);
+    map['max_lat'] = Variable<double>(maxLat);
+    map['min_zoom'] = Variable<int>(minZoom);
+    map['max_zoom'] = Variable<int>(maxZoom);
+    map['installed_at'] = Variable<DateTime>(installedAt);
+    return map;
+  }
+
+  MapRegionsCompanion toCompanion(bool nullToAbsent) {
+    return MapRegionsCompanion(
+      id: Value(id),
+      displayName: Value(displayName),
+      fileName: Value(fileName),
+      sizeBytes: Value(sizeBytes),
+      minLon: Value(minLon),
+      minLat: Value(minLat),
+      maxLon: Value(maxLon),
+      maxLat: Value(maxLat),
+      minZoom: Value(minZoom),
+      maxZoom: Value(maxZoom),
+      installedAt: Value(installedAt),
+    );
+  }
+
+  factory MapRegion.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return MapRegion(
+      id: serializer.fromJson<int>(json['id']),
+      displayName: serializer.fromJson<String>(json['displayName']),
+      fileName: serializer.fromJson<String>(json['fileName']),
+      sizeBytes: serializer.fromJson<int>(json['sizeBytes']),
+      minLon: serializer.fromJson<double>(json['minLon']),
+      minLat: serializer.fromJson<double>(json['minLat']),
+      maxLon: serializer.fromJson<double>(json['maxLon']),
+      maxLat: serializer.fromJson<double>(json['maxLat']),
+      minZoom: serializer.fromJson<int>(json['minZoom']),
+      maxZoom: serializer.fromJson<int>(json['maxZoom']),
+      installedAt: serializer.fromJson<DateTime>(json['installedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'displayName': serializer.toJson<String>(displayName),
+      'fileName': serializer.toJson<String>(fileName),
+      'sizeBytes': serializer.toJson<int>(sizeBytes),
+      'minLon': serializer.toJson<double>(minLon),
+      'minLat': serializer.toJson<double>(minLat),
+      'maxLon': serializer.toJson<double>(maxLon),
+      'maxLat': serializer.toJson<double>(maxLat),
+      'minZoom': serializer.toJson<int>(minZoom),
+      'maxZoom': serializer.toJson<int>(maxZoom),
+      'installedAt': serializer.toJson<DateTime>(installedAt),
+    };
+  }
+
+  MapRegion copyWith({
+    int? id,
+    String? displayName,
+    String? fileName,
+    int? sizeBytes,
+    double? minLon,
+    double? minLat,
+    double? maxLon,
+    double? maxLat,
+    int? minZoom,
+    int? maxZoom,
+    DateTime? installedAt,
+  }) => MapRegion(
+    id: id ?? this.id,
+    displayName: displayName ?? this.displayName,
+    fileName: fileName ?? this.fileName,
+    sizeBytes: sizeBytes ?? this.sizeBytes,
+    minLon: minLon ?? this.minLon,
+    minLat: minLat ?? this.minLat,
+    maxLon: maxLon ?? this.maxLon,
+    maxLat: maxLat ?? this.maxLat,
+    minZoom: minZoom ?? this.minZoom,
+    maxZoom: maxZoom ?? this.maxZoom,
+    installedAt: installedAt ?? this.installedAt,
+  );
+  MapRegion copyWithCompanion(MapRegionsCompanion data) {
+    return MapRegion(
+      id: data.id.present ? data.id.value : this.id,
+      displayName: data.displayName.present
+          ? data.displayName.value
+          : this.displayName,
+      fileName: data.fileName.present ? data.fileName.value : this.fileName,
+      sizeBytes: data.sizeBytes.present ? data.sizeBytes.value : this.sizeBytes,
+      minLon: data.minLon.present ? data.minLon.value : this.minLon,
+      minLat: data.minLat.present ? data.minLat.value : this.minLat,
+      maxLon: data.maxLon.present ? data.maxLon.value : this.maxLon,
+      maxLat: data.maxLat.present ? data.maxLat.value : this.maxLat,
+      minZoom: data.minZoom.present ? data.minZoom.value : this.minZoom,
+      maxZoom: data.maxZoom.present ? data.maxZoom.value : this.maxZoom,
+      installedAt: data.installedAt.present
+          ? data.installedAt.value
+          : this.installedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('MapRegion(')
+          ..write('id: $id, ')
+          ..write('displayName: $displayName, ')
+          ..write('fileName: $fileName, ')
+          ..write('sizeBytes: $sizeBytes, ')
+          ..write('minLon: $minLon, ')
+          ..write('minLat: $minLat, ')
+          ..write('maxLon: $maxLon, ')
+          ..write('maxLat: $maxLat, ')
+          ..write('minZoom: $minZoom, ')
+          ..write('maxZoom: $maxZoom, ')
+          ..write('installedAt: $installedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    displayName,
+    fileName,
+    sizeBytes,
+    minLon,
+    minLat,
+    maxLon,
+    maxLat,
+    minZoom,
+    maxZoom,
+    installedAt,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is MapRegion &&
+          other.id == this.id &&
+          other.displayName == this.displayName &&
+          other.fileName == this.fileName &&
+          other.sizeBytes == this.sizeBytes &&
+          other.minLon == this.minLon &&
+          other.minLat == this.minLat &&
+          other.maxLon == this.maxLon &&
+          other.maxLat == this.maxLat &&
+          other.minZoom == this.minZoom &&
+          other.maxZoom == this.maxZoom &&
+          other.installedAt == this.installedAt);
+}
+
+class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
+  final Value<int> id;
+  final Value<String> displayName;
+  final Value<String> fileName;
+  final Value<int> sizeBytes;
+  final Value<double> minLon;
+  final Value<double> minLat;
+  final Value<double> maxLon;
+  final Value<double> maxLat;
+  final Value<int> minZoom;
+  final Value<int> maxZoom;
+  final Value<DateTime> installedAt;
+  const MapRegionsCompanion({
+    this.id = const Value.absent(),
+    this.displayName = const Value.absent(),
+    this.fileName = const Value.absent(),
+    this.sizeBytes = const Value.absent(),
+    this.minLon = const Value.absent(),
+    this.minLat = const Value.absent(),
+    this.maxLon = const Value.absent(),
+    this.maxLat = const Value.absent(),
+    this.minZoom = const Value.absent(),
+    this.maxZoom = const Value.absent(),
+    this.installedAt = const Value.absent(),
+  });
+  MapRegionsCompanion.insert({
+    this.id = const Value.absent(),
+    required String displayName,
+    required String fileName,
+    required int sizeBytes,
+    required double minLon,
+    required double minLat,
+    required double maxLon,
+    required double maxLat,
+    required int minZoom,
+    required int maxZoom,
+    required DateTime installedAt,
+  }) : displayName = Value(displayName),
+       fileName = Value(fileName),
+       sizeBytes = Value(sizeBytes),
+       minLon = Value(minLon),
+       minLat = Value(minLat),
+       maxLon = Value(maxLon),
+       maxLat = Value(maxLat),
+       minZoom = Value(minZoom),
+       maxZoom = Value(maxZoom),
+       installedAt = Value(installedAt);
+  static Insertable<MapRegion> custom({
+    Expression<int>? id,
+    Expression<String>? displayName,
+    Expression<String>? fileName,
+    Expression<int>? sizeBytes,
+    Expression<double>? minLon,
+    Expression<double>? minLat,
+    Expression<double>? maxLon,
+    Expression<double>? maxLat,
+    Expression<int>? minZoom,
+    Expression<int>? maxZoom,
+    Expression<DateTime>? installedAt,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (displayName != null) 'display_name': displayName,
+      if (fileName != null) 'file_name': fileName,
+      if (sizeBytes != null) 'size_bytes': sizeBytes,
+      if (minLon != null) 'min_lon': minLon,
+      if (minLat != null) 'min_lat': minLat,
+      if (maxLon != null) 'max_lon': maxLon,
+      if (maxLat != null) 'max_lat': maxLat,
+      if (minZoom != null) 'min_zoom': minZoom,
+      if (maxZoom != null) 'max_zoom': maxZoom,
+      if (installedAt != null) 'installed_at': installedAt,
+    });
+  }
+
+  MapRegionsCompanion copyWith({
+    Value<int>? id,
+    Value<String>? displayName,
+    Value<String>? fileName,
+    Value<int>? sizeBytes,
+    Value<double>? minLon,
+    Value<double>? minLat,
+    Value<double>? maxLon,
+    Value<double>? maxLat,
+    Value<int>? minZoom,
+    Value<int>? maxZoom,
+    Value<DateTime>? installedAt,
+  }) {
+    return MapRegionsCompanion(
+      id: id ?? this.id,
+      displayName: displayName ?? this.displayName,
+      fileName: fileName ?? this.fileName,
+      sizeBytes: sizeBytes ?? this.sizeBytes,
+      minLon: minLon ?? this.minLon,
+      minLat: minLat ?? this.minLat,
+      maxLon: maxLon ?? this.maxLon,
+      maxLat: maxLat ?? this.maxLat,
+      minZoom: minZoom ?? this.minZoom,
+      maxZoom: maxZoom ?? this.maxZoom,
+      installedAt: installedAt ?? this.installedAt,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (displayName.present) {
+      map['display_name'] = Variable<String>(displayName.value);
+    }
+    if (fileName.present) {
+      map['file_name'] = Variable<String>(fileName.value);
+    }
+    if (sizeBytes.present) {
+      map['size_bytes'] = Variable<int>(sizeBytes.value);
+    }
+    if (minLon.present) {
+      map['min_lon'] = Variable<double>(minLon.value);
+    }
+    if (minLat.present) {
+      map['min_lat'] = Variable<double>(minLat.value);
+    }
+    if (maxLon.present) {
+      map['max_lon'] = Variable<double>(maxLon.value);
+    }
+    if (maxLat.present) {
+      map['max_lat'] = Variable<double>(maxLat.value);
+    }
+    if (minZoom.present) {
+      map['min_zoom'] = Variable<int>(minZoom.value);
+    }
+    if (maxZoom.present) {
+      map['max_zoom'] = Variable<int>(maxZoom.value);
+    }
+    if (installedAt.present) {
+      map['installed_at'] = Variable<DateTime>(installedAt.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('MapRegionsCompanion(')
+          ..write('id: $id, ')
+          ..write('displayName: $displayName, ')
+          ..write('fileName: $fileName, ')
+          ..write('sizeBytes: $sizeBytes, ')
+          ..write('minLon: $minLon, ')
+          ..write('minLat: $minLat, ')
+          ..write('maxLon: $maxLon, ')
+          ..write('maxLat: $maxLat, ')
+          ..write('minZoom: $minZoom, ')
+          ..write('maxZoom: $maxZoom, ')
+          ..write('installedAt: $installedAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -3027,6 +3678,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $InstalledModelsTable installedModels = $InstalledModelsTable(
     this,
   );
+  late final $MapRegionsTable mapRegions = $MapRegionsTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -3038,6 +3690,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     packDocuments,
     passages,
     installedModels,
+    mapRegions,
   ];
   @override
   StreamQueryUpdateRules get streamUpdateRules => const StreamQueryUpdateRules([
@@ -5229,6 +5882,322 @@ typedef $$InstalledModelsTableProcessedTableManager =
       InstalledModel,
       PrefetchHooks Function()
     >;
+typedef $$MapRegionsTableCreateCompanionBuilder = MapRegionsCompanion Function({
+  Value<int> id,
+  required String displayName,
+  required String fileName,
+  required int sizeBytes,
+  required double minLon,
+  required double minLat,
+  required double maxLon,
+  required double maxLat,
+  required int minZoom,
+  required int maxZoom,
+  required DateTime installedAt,
+});
+typedef $$MapRegionsTableUpdateCompanionBuilder = MapRegionsCompanion Function({
+  Value<int> id,
+  Value<String> displayName,
+  Value<String> fileName,
+  Value<int> sizeBytes,
+  Value<double> minLon,
+  Value<double> minLat,
+  Value<double> maxLon,
+  Value<double> maxLat,
+  Value<int> minZoom,
+  Value<int> maxZoom,
+  Value<DateTime> installedAt,
+});
+
+class $$MapRegionsTableFilterComposer
+    extends Composer<_$AppDatabase, $MapRegionsTable> {
+  $$MapRegionsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get displayName => $composableBuilder(
+    column: $table.displayName,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get fileName => $composableBuilder(
+    column: $table.fileName,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sizeBytes => $composableBuilder(
+    column: $table.sizeBytes,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<double> get minLon => $composableBuilder(
+    column: $table.minLon,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<double> get minLat => $composableBuilder(
+    column: $table.minLat,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<double> get maxLon => $composableBuilder(
+    column: $table.maxLon,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<double> get maxLat => $composableBuilder(
+    column: $table.maxLat,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get minZoom => $composableBuilder(
+    column: $table.minZoom,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get maxZoom => $composableBuilder(
+    column: $table.maxZoom,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get installedAt => $composableBuilder(
+    column: $table.installedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$MapRegionsTableOrderingComposer
+    extends Composer<_$AppDatabase, $MapRegionsTable> {
+  $$MapRegionsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get displayName => $composableBuilder(
+    column: $table.displayName,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get fileName => $composableBuilder(
+    column: $table.fileName,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sizeBytes => $composableBuilder(
+    column: $table.sizeBytes,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<double> get minLon => $composableBuilder(
+    column: $table.minLon,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<double> get minLat => $composableBuilder(
+    column: $table.minLat,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<double> get maxLon => $composableBuilder(
+    column: $table.maxLon,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<double> get maxLat => $composableBuilder(
+    column: $table.maxLat,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get minZoom => $composableBuilder(
+    column: $table.minZoom,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get maxZoom => $composableBuilder(
+    column: $table.maxZoom,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get installedAt => $composableBuilder(
+    column: $table.installedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$MapRegionsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $MapRegionsTable> {
+  $$MapRegionsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get displayName => $composableBuilder(
+    column: $table.displayName,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get fileName =>
+      $composableBuilder(column: $table.fileName, builder: (column) => column);
+
+  GeneratedColumn<int> get sizeBytes =>
+      $composableBuilder(column: $table.sizeBytes, builder: (column) => column);
+
+  GeneratedColumn<double> get minLon =>
+      $composableBuilder(column: $table.minLon, builder: (column) => column);
+
+  GeneratedColumn<double> get minLat =>
+      $composableBuilder(column: $table.minLat, builder: (column) => column);
+
+  GeneratedColumn<double> get maxLon =>
+      $composableBuilder(column: $table.maxLon, builder: (column) => column);
+
+  GeneratedColumn<double> get maxLat =>
+      $composableBuilder(column: $table.maxLat, builder: (column) => column);
+
+  GeneratedColumn<int> get minZoom =>
+      $composableBuilder(column: $table.minZoom, builder: (column) => column);
+
+  GeneratedColumn<int> get maxZoom =>
+      $composableBuilder(column: $table.maxZoom, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get installedAt => $composableBuilder(
+    column: $table.installedAt,
+    builder: (column) => column,
+  );
+}
+
+class $$MapRegionsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $MapRegionsTable,
+          MapRegion,
+          $$MapRegionsTableFilterComposer,
+          $$MapRegionsTableOrderingComposer,
+          $$MapRegionsTableAnnotationComposer,
+          $$MapRegionsTableCreateCompanionBuilder,
+          $$MapRegionsTableUpdateCompanionBuilder,
+          (
+            MapRegion,
+            BaseReferences<_$AppDatabase, $MapRegionsTable, MapRegion>,
+          ),
+          MapRegion,
+          PrefetchHooks Function()
+        > {
+  $$MapRegionsTableTableManager(_$AppDatabase db, $MapRegionsTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$MapRegionsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$MapRegionsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$MapRegionsTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> displayName = const Value.absent(),
+                Value<String> fileName = const Value.absent(),
+                Value<int> sizeBytes = const Value.absent(),
+                Value<double> minLon = const Value.absent(),
+                Value<double> minLat = const Value.absent(),
+                Value<double> maxLon = const Value.absent(),
+                Value<double> maxLat = const Value.absent(),
+                Value<int> minZoom = const Value.absent(),
+                Value<int> maxZoom = const Value.absent(),
+                Value<DateTime> installedAt = const Value.absent(),
+              }) => MapRegionsCompanion(
+                id: id,
+                displayName: displayName,
+                fileName: fileName,
+                sizeBytes: sizeBytes,
+                minLon: minLon,
+                minLat: minLat,
+                maxLon: maxLon,
+                maxLat: maxLat,
+                minZoom: minZoom,
+                maxZoom: maxZoom,
+                installedAt: installedAt,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String displayName,
+                required String fileName,
+                required int sizeBytes,
+                required double minLon,
+                required double minLat,
+                required double maxLon,
+                required double maxLat,
+                required int minZoom,
+                required int maxZoom,
+                required DateTime installedAt,
+              }) => MapRegionsCompanion.insert(
+                id: id,
+                displayName: displayName,
+                fileName: fileName,
+                sizeBytes: sizeBytes,
+                minLon: minLon,
+                minLat: minLat,
+                maxLon: maxLon,
+                maxLat: maxLat,
+                minZoom: minZoom,
+                maxZoom: maxZoom,
+                installedAt: installedAt,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$MapRegionsTable, MapRegion>(table),
+                  BaseReferences<_$AppDatabase, $MapRegionsTable, MapRegion>(
+                    db,
+                    table,
+                    e,
+                  ),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$MapRegionsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $MapRegionsTable,
+      MapRegion,
+      $$MapRegionsTableFilterComposer,
+      $$MapRegionsTableOrderingComposer,
+      $$MapRegionsTableAnnotationComposer,
+      $$MapRegionsTableCreateCompanionBuilder,
+      $$MapRegionsTableUpdateCompanionBuilder,
+      (MapRegion, BaseReferences<_$AppDatabase, $MapRegionsTable, MapRegion>),
+      MapRegion,
+      PrefetchHooks Function()
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -5245,4 +6214,6 @@ class $AppDatabaseManager {
       $$PassagesTableTableManager(_db, _db.passages);
   $$InstalledModelsTableTableManager get installedModels =>
       $$InstalledModelsTableTableManager(_db, _db.installedModels);
+  $$MapRegionsTableTableManager get mapRegions =>
+      $$MapRegionsTableTableManager(_db, _db.mapRegions);
 }

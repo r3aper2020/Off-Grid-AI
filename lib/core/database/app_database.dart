@@ -139,6 +139,24 @@ class InstalledModels extends Table {
   TextColumn get projectorFileName => text().nullable()();
 }
 
+/// Offline map regions: PMTiles archives imported into app-private
+/// storage, with the bounds and zoom range read from the archive header.
+class MapRegions extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  TextColumn get displayName => text()();
+
+  /// File name inside the maps directory (not an absolute path).
+  TextColumn get fileName => text().unique()();
+  IntColumn get sizeBytes => integer()();
+  RealColumn get minLon => real()();
+  RealColumn get minLat => real()();
+  RealColumn get maxLon => real()();
+  RealColumn get maxLat => real()();
+  IntColumn get minZoom => integer()();
+  IntColumn get maxZoom => integer()();
+  DateTimeColumn get installedAt => dateTime()();
+}
+
 @DriftDatabase(
   tables: [
     Conversations,
@@ -147,6 +165,7 @@ class InstalledModels extends Table {
     PackDocuments,
     Passages,
     InstalledModels,
+    MapRegions,
   ],
 )
 class AppDatabase extends _$AppDatabase {
@@ -154,7 +173,7 @@ class AppDatabase extends _$AppDatabase {
     : super(executor ?? driftDatabase(name: 'offgrid'));
 
   @override
-  int get schemaVersion => 9;
+  int get schemaVersion => 10;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -233,6 +252,10 @@ class AppDatabase extends _$AppDatabase {
                  ${_captionsSql('p.images')},
                  p.heading, p.body
           FROM passages p JOIN pack_documents d ON d.id = p.document_id''');
+      }
+      if (from < 10) {
+        // v10: offline map regions (navigation milestone).
+        await m.createTable(mapRegions);
       }
       if (from >= 3 && from < 7) {
         // Bundled packs are removed so the startup sync reinstalls them

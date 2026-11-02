@@ -13,6 +13,7 @@ import 'package:offgrid_ai/features/library/data/pack_installer.dart';
 /// library-only flag or vectors, and the index trigger that only knew
 /// document titles.
 Future<void> dropV7Columns(AppDatabase db) async {
+  await dropV10Tables(db);
   await db.customStatement('DROP TRIGGER passages_ai');
   for (final c in ['aliases', 'library_only', 'embedding']) {
     await db.customStatement('ALTER TABLE pack_documents DROP COLUMN $c');
@@ -30,6 +31,10 @@ Future<void> dropV7Columns(AppDatabase db) async {
         new.heading, new.body);
     END''');
 }
+
+/// Removes what v10 added, so a fresh database can pose as an older one.
+Future<void> dropV10Tables(AppDatabase db) =>
+    db.customStatement('DROP TABLE map_regions');
 
 void main() {
   late File file;
@@ -184,6 +189,7 @@ void main() {
     final dir = await Directory.systemTemp.createTemp('v7');
     final f = File('${dir.path}/v7.sqlite');
     final fresh = AppDatabase(NativeDatabase(f));
+    await dropV10Tables(fresh);
     await fresh.customStatement('ALTER TABLE messages DROP COLUMN image_path');
     await fresh.customStatement(
       'ALTER TABLE installed_models DROP COLUMN projector_file_name',
@@ -207,6 +213,7 @@ void main() {
     final dir = await Directory.systemTemp.createTemp('v8');
     final f = File('${dir.path}/v8.sqlite');
     final fresh = AppDatabase(NativeDatabase(f));
+    await dropV10Tables(fresh);
     // The v8 trigger indexed title and aliases, not captions.
     await fresh.customStatement('DROP TRIGGER passages_ai');
     await fresh.customStatement('''
@@ -228,6 +235,26 @@ void main() {
     final upgraded = AppDatabase(NativeDatabase(f));
     final hits = await KnowledgeSearch(upgraded).search('teepee');
     expect(hits.map((h) => h.heading), ['Building a campfire']);
+    await upgraded.close();
+    await dir.delete(recursive: true);
+  });
+
+  test('v9 database gains the map regions table', () async {
+    final dir = await Directory.systemTemp.createTemp('v9');
+    final f = File('${dir.path}/v9.sqlite');
+    final fresh = AppDatabase(NativeDatabase(f));
+    await dropV10Tables(fresh);
+    await fresh.customStatement('PRAGMA user_version = 9');
+    await fresh.close();
+
+    final upgraded = AppDatabase(NativeDatabase(f));
+    await upgraded.customStatement(
+      "INSERT INTO map_regions (display_name, file_name, size_bytes, min_lon, "
+      "min_lat, max_lon, max_lat, min_zoom, max_zoom, installed_at) VALUES "
+      "('r', 'r.pmtiles', 1, -1, -1, 1, 1, 0, 14, 0)",
+    );
+    final region = await upgraded.select(upgraded.mapRegions).getSingle();
+    expect(region.displayName, 'r');
     await upgraded.close();
     await dir.delete(recursive: true);
   });

@@ -12,6 +12,7 @@ import 'features/chat/chat_providers.dart';
 import 'features/library/data/library_repository.dart';
 import 'features/library/data/llama_embedder.dart';
 import 'core/providers.dart';
+import 'features/maps/map_providers.dart';
 import 'features/models/model_providers.dart';
 
 Future<void> main() async {
@@ -23,6 +24,9 @@ Future<void> main() async {
     overrides: [
       modelsDirectoryProvider.overrideWithValue(
         Directory(p.join(support.path, 'models')),
+      ),
+      mapsDirectoryProvider.overrideWithValue(
+        Directory(p.join(support.path, 'maps')),
       ),
       photosDirectoryProvider.overrideWithValue(
         Directory(p.join(support.path, 'photos')),
@@ -37,6 +41,7 @@ Future<void> main() async {
   );
   await container.read(chatRepositoryProvider).recoverInterrupted();
   await container.read(modelStoreProvider).cleanUpPartials();
+  await container.read(mapStoreProvider).cleanUpPartials();
   // Install or update the reference packs bundled with the app (offline).
   // Install or update bundled references in the background so the app
   // opens immediately; the Library shows progress meanwhile.
