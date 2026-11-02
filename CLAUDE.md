@@ -37,6 +37,7 @@ flutter test tools/embed/embed_packs_test.dart                          # then r
 flutter test tools/coverage/coverage_report_test.dart                   # retrieval audit
 CHAT_MODEL=~/.cache/offgrid/Qwen3-4B-Instruct-2507-Q4_K_M.gguf EVAL_LABEL=x \
   flutter test tools/eval/chat_eval_test.dart                           # graded chat eval
+tools/maps/extract_region.sh <name> <minLon> <minLat> <maxLon> <maxLat>  # offline map region
 ```
 
 Don't run two `flutter test` processes in this checkout at once: they
@@ -56,4 +57,6 @@ share `build/native_assets` and the llama.cpp library gets clobbered.
   needs one.
 - Bump `schemaVersion` and add a migration for any table change.
 - In widget tests, call `tester.pump()` after `enterText` before tapping a
-  button whose enabled state depends on the text.
+  button whose enabled state depends on the text. File and asset I/O never
+  completes inside a `testWidgets` body (fake async): wrap it in
+  `tester.runAsync` or override the provider that does it.
