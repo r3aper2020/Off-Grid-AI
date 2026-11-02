@@ -115,6 +115,8 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
   @override
   Widget build(BuildContext context) {
     final models = ref.watch(installedModelsProvider).value ?? const [];
+    final textModel = ref.watch(textModelProvider);
+    final visionModel = ref.watch(visionModelProvider);
     final progress = _progress;
     final download = ref.watch(modelDownloadProvider);
     final busy = progress != null || download.active;
@@ -203,10 +205,11 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
                   for (final m in models)
                     ListTile(
                       leading: Icon(
-                        m.isActive
+                        m.id == textModel?.id || m.id == visionModel?.id
                             ? Icons.radio_button_checked_rounded
                             : Icons.radio_button_unchecked_rounded,
-                        color: m.isActive
+                        color:
+                            m.id == textModel?.id || m.id == visionModel?.id
                             ? AppColors.accent
                             : AppColors.textTertiary,
                       ),
@@ -214,12 +217,7 @@ class _ModelsScreenState extends ConsumerState<ModelsScreen> {
                       subtitle: Text(
                         [
                           formatBytes(m.sizeBytes),
-                          if (m.isActive)
-                            'Active'
-                          else if (m.projectorFileName != null)
-                            'Used for photos • Tap to use for everything'
-                          else
-                            'Tap to use',
+                          _roleOf(m, textModel, visionModel),
                         ].join(' • '),
                         style: Theme.of(context).textTheme.bodySmall,
                       ),
@@ -359,4 +357,21 @@ class _ImportProgress extends StatelessWidget {
       ),
     );
   }
+}
+
+/// What a model does on this phone. The app picks models by kind, so the
+/// user only ever chooses a preference, never switches by hand.
+String _roleOf(
+  InstalledModel m,
+  InstalledModel? textModel,
+  InstalledModel? visionModel,
+) {
+  final answersText = m.id == textModel?.id;
+  final answersPhotos = m.id == visionModel?.id;
+  if (answersText && answersPhotos) return 'Answers text and photos';
+  if (answersText) return 'Answers text';
+  if (answersPhotos) return 'Answers photos';
+  return m.projectorFileName != null
+      ? 'Tap to use for photos'
+      : 'Tap to use for text';
 }

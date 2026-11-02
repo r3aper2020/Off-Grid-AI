@@ -29,6 +29,50 @@ final activeModelProvider = StreamProvider<InstalledModel?>(
   (ref) => ref.watch(modelStoreProvider).watchActive(),
 );
 
+/// The model that answers text: the active one when it is text-only,
+/// otherwise the largest installed text-only model (a vision model is a
+/// weaker instructor), otherwise the active one, which answers text too.
+/// Null with nothing installed.
+InstalledModel? textModelOf(List<InstalledModel> models) {
+  if (models.isEmpty) return null;
+  final active = models.where((m) => m.isActive).firstOrNull;
+  if (active != null && active.projectorFileName == null) return active;
+  return _largest(models.where((m) => m.projectorFileName == null)) ?? active;
+}
+
+/// The model that answers photos: the active one when it can see them,
+/// otherwise the largest installed vision model. Null without one.
+InstalledModel? visionModelOf(List<InstalledModel> models) {
+  final active = models.where((m) => m.isActive).firstOrNull;
+  if (active != null && active.projectorFileName != null) return active;
+  return _largest(models.where((m) => m.projectorFileName != null));
+}
+
+InstalledModel? _largest(Iterable<InstalledModel> models) {
+  InstalledModel? best;
+  for (final m in models) {
+    if (best == null ||
+        m.sizeBytes > best.sizeBytes ||
+        (m.sizeBytes == best.sizeBytes &&
+            m.displayName.compareTo(best.displayName) < 0)) {
+      best = m;
+    }
+  }
+  return best;
+}
+
+/// The user never switches models by hand: text goes to [textModelProvider]
+/// and a photo to [visionModelProvider]. The active flag is the user's
+/// preference within its kind.
+final textModelProvider = Provider<InstalledModel?>(
+  (ref) => textModelOf(ref.watch(installedModelsProvider).value ?? const []),
+);
+
+final visionModelProvider = Provider<InstalledModel?>(
+  (ref) =>
+      visionModelOf(ref.watch(installedModelsProvider).value ?? const []),
+);
+
 /// Download state shown on the AI model screen. Lives in a provider so a
 /// download keeps going if the user leaves the screen.
 class DownloadState {

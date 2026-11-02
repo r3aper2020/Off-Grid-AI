@@ -13,52 +13,43 @@ import 'data/no_model_engine.dart';
 import 'domain/grounding.dart';
 import 'domain/inference_engine.dart';
 
-/// llama.cpp engine for the active model, or [NoModelEngine] when none is
-/// installed. Rebuilt (and the old model freed) only when the active model
-/// actually changes.
+/// llama.cpp engine for the model that answers text
+/// ([textModelProvider]), or [NoModelEngine] when none is installed.
+/// Rebuilt (and the old model freed) only when that model changes.
 final inferenceEngineProvider = Provider<InferenceEngine>((ref) {
-  final active = ref.watch(
-    activeModelProvider.select((a) {
-      final m = a.value;
-      return m == null ? null : (id: m.id, name: m.displayName);
-    }),
+  final text = ref.watch(
+    textModelProvider.select(
+      (m) => m == null ? null : (id: m.id, name: m.displayName),
+    ),
   );
-  if (active == null) return const NoModelEngine();
+  if (text == null) return const NoModelEngine();
 
   final store = ref.read(modelStoreProvider);
-  final model = ref.read(activeModelProvider).requireValue!;
+  final model = ref.read(textModelProvider)!;
   final engine = LlamaInferenceEngine(
     modelFile: store.fileFor(model),
-    modelName: active.name,
+    modelName: text.name,
     projectorFile: store.projectorFor(model),
   );
   ref.onDispose(engine.dispose);
   return engine;
 });
 
-/// Engine for an installed model that can see photos, when the active
-/// model can't; null otherwise. The controller loads it only for a
-/// conversation with a photo in it ([GenerationController.engineFor]), so
-/// the user never has to switch models by hand to send a photo.
+/// Engine for the model that answers photos ([visionModelProvider]) when
+/// it is a different model from the text one; null otherwise. The
+/// controller loads it only for a conversation with a photo in it
+/// ([GenerationController.engineFor]), so the user never switches models.
 final visionEngineProvider = Provider<InferenceEngine?>((ref) {
   final vision = ref.watch(
-    installedModelsProvider.select((a) {
-      for (final m in a.value ?? const <InstalledModel>[]) {
-        if (m.projectorFileName != null) return (id: m.id, name: m.displayName);
-      }
-      return null;
-    }),
+    visionModelProvider.select(
+      (m) => m == null ? null : (id: m.id, name: m.displayName),
+    ),
   );
-  final activeSees = ref.watch(
-    activeModelProvider.select((a) => a.value?.projectorFileName != null),
-  );
-  if (vision == null || activeSees) return null;
+  final textId = ref.watch(textModelProvider.select((m) => m?.id));
+  if (vision == null || vision.id == textId) return null;
 
   final store = ref.read(modelStoreProvider);
-  final model = ref
-      .read(installedModelsProvider)
-      .requireValue
-      .firstWhere((m) => m.id == vision.id);
+  final model = ref.read(visionModelProvider)!;
   final engine = LlamaInferenceEngine(
     modelFile: store.fileFor(model),
     modelName: vision.name,
@@ -242,13 +233,12 @@ class GenerationController extends Notifier<Map<int, GenerationPhase>> {
         );
   }
 
-  /// The engine for this conversation: the active model, unless the
-  /// conversation has a photo in it, the active model can't see photos
-  /// and another installed one can. A conversation with a photo stays on
-  /// the vision model (its text answers are as good, and every switch
-  /// reloads a model), and a new text conversation goes back to the
-  /// active one. The other engine is released so only one model is in
-  /// memory.
+  /// The engine for this conversation: the text model, unless the
+  /// conversation has a photo in it and a separate vision model is
+  /// installed. A conversation with a photo stays on the vision model
+  /// (every switch reloads a model), and a new text conversation goes
+  /// back to the text one. The other engine is released so only one
+  /// model is in memory.
   Future<InferenceEngine> engineFor(List<ChatTurn> history) async {
     final text = ref.read(inferenceEngineProvider);
     final vision = ref.read(visionEngineProvider);

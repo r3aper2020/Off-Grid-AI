@@ -49,7 +49,7 @@ lib/
 |---|---|
 | `conversations` | Chat threads; title from first user message |
 | `messages` | `role` (user/assistant/system), `status` (complete/streaming/cancelled/failed/notice); cascades on conversation delete |
-| `installed_models` (v2) | Imported GGUF files: file name in `models/`, size, `isActive` (at most one); v8 `projectorFileName` for vision models |
+| `installed_models` (v2) | Imported GGUF files: file name in `models/`, size, `isActive` (at most one: the preferred model within its kind, see `textModelOf`/`visionModelOf`); v8 `projectorFileName` for vision models |
 | `knowledge_packs` (v3) | Installed packs: metadata, publisher, license, attribution, source |
 | `pack_documents` (v3) | Documents in a pack, with source URL; v7 adds retrieval-only `aliases`, `libraryOnly` (never given to the model) and a document `embedding` |
 | `passages` (v3) | Sections: the unit searched, given to the model and cited; v5 `images`, v6 `embedding` (int8 vector) |

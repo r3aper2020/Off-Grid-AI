@@ -648,9 +648,22 @@ routes a conversation that contains a photo to it and keeps it there
 (the vision model answers text as well, and every switch reloads a
 model); new text conversations go back to the active model. The engine
 not in use is released, so one model is in memory at a time. The notice
-remains only when no vision model is installed at all. Tapping the
-vision model on the models screen still makes it the model for
-everything.
+remains only when no vision model is installed at all.
+
+## 2026-11-02 — Text goes to a text model, photos to a vision model, always
+The phone still had the vision model set as the model for everything
+(chosen before photo routing existed), and its text replies were worse:
+a desert trench for a cold night in the woods, 911 tails. The owner's
+rule: "if it needs only text use the text model, if there is an image
+use the vision model; the user shouldn't need to switch." So the active
+flag is now a preference within its kind, not a switch: `textModelOf`
+answers text with the active model if it is text-only, otherwise the
+largest installed text-only model; `visionModelOf` answers photos with
+the active model if it can see, otherwise the largest installed vision
+model. A lone vision model still answers everything. The models screen
+says what each model does ("Answers text", "Answers photos", "Tap to use
+for text"). Tapping sets the preference, and the other kind falls back
+to its default.
 
 
 ## 2026-11-02 — Show the pictures: figures under every reply

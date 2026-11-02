@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:offgrid_ai/core/database/app_database.dart';
 import 'package:offgrid_ai/core/providers.dart';
 import 'package:offgrid_ai/features/chat/chat_providers.dart';
+import 'package:offgrid_ai/features/chat/data/llama_engine.dart';
 import 'package:offgrid_ai/features/chat/domain/inference_engine.dart';
 import 'package:offgrid_ai/features/models/model_providers.dart';
 
@@ -68,14 +69,23 @@ void main() {
     expect(await engine!.status(), isA<EngineUnavailable>());
   });
 
-  test(
-    'nothing is offered when the active model already sees photos',
-    () async {
-      await install('vision', active: true, projector: 'mmproj.gguf');
-      await settle();
-      expect(c.read(visionEngineProvider), isNull);
-    },
-  );
+  test('a lone vision model answers everything, so nothing extra', () async {
+    await install('vision', active: true, projector: 'mmproj.gguf');
+    await settle();
+    expect(c.read(visionEngineProvider), isNull);
+    final text = c.read(inferenceEngineProvider) as LlamaInferenceEngine;
+    expect(text.modelName, 'vision');
+  });
+
+  test('an active vision model still leaves text to the text model', () async {
+    await install('vision', active: true, projector: 'mmproj.gguf');
+    await install('text');
+    await settle();
+    final text = c.read(inferenceEngineProvider) as LlamaInferenceEngine;
+    expect(text.modelName, 'text');
+    final vision = c.read(visionEngineProvider) as LlamaInferenceEngine;
+    expect(vision.modelName, 'vision');
+  });
 
   test('nothing is offered without a vision model', () async {
     await install('text', active: true);
