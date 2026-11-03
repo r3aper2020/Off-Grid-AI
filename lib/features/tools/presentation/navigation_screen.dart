@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/widgets/screen_header.dart';
+import '../../../core/database/app_database.dart';
 import '../../../core/widgets/topo_background.dart';
 import '../../maps/domain/location_source.dart';
 import '../../maps/domain/map_style.dart';
@@ -96,8 +97,11 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
                       padding: const EdgeInsets.only(right: 12),
                       child: HeaderIconButton(
                         icon: Icons.layers_outlined,
-                        tooltip: 'Offline maps',
-                        onPressed: () => context.push('/settings/maps'),
+                        tooltip: 'Map layers',
+                        onPressed: () => showModalBottomSheet<void>(
+                          context: context,
+                          builder: (_) => const MapLayersSheet(),
+                        ),
                       ),
                     ),
                   ],
@@ -158,6 +162,80 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
         : await m.myLocation();
     if (target == null) return;
     await m.moveTo(target.$1, target.$2, 14);
+  }
+}
+
+/// Streets, topo or satellite, plus hillshade: whichever layers the
+/// installed regions have. The rest point at Offline maps.
+class MapLayersSheet extends ConsumerWidget {
+  const MapLayersSheet({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final regions = ref.watch(mapRegionsProvider).value ?? const [];
+    final available = availableLayerKinds(regions);
+    final choice = ref.watch(mapLayerChoiceProvider);
+    final controller = ref.read(mapLayerChoiceProvider.notifier);
+    final theme = Theme.of(context);
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(20, 16, 20, 12),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Map layers', style: theme.textTheme.titleMedium),
+            const SizedBox(height: 12),
+            SegmentedButton<MapLayerKind>(
+              segments: [
+                const ButtonSegment(
+                  value: MapLayerKind.streets,
+                  label: Text('Streets'),
+                ),
+                ButtonSegment(
+                  value: MapLayerKind.topo,
+                  label: const Text('Topo'),
+                  enabled: available.contains(MapLayerKind.topo),
+                ),
+                ButtonSegment(
+                  value: MapLayerKind.imagery,
+                  label: const Text('Satellite'),
+                  enabled: available.contains(MapLayerKind.imagery),
+                ),
+              ],
+              selected: {choice.basemap},
+              showSelectedIcon: false,
+              onSelectionChanged: (s) => controller.setBasemap(s.first),
+            ),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: const Text('Hillshade'),
+              subtitle: Text(
+                available.contains(MapLayerKind.terrain)
+                    ? 'Shaded relief from elevation data'
+                    : 'Add elevation to a region to turn this on',
+                style: theme.textTheme.bodySmall,
+              ),
+              value: choice.hillshade,
+              onChanged: available.contains(MapLayerKind.terrain)
+                  ? controller.setHillshade
+                  : null,
+            ),
+            Align(
+              alignment: Alignment.centerRight,
+              child: TextButton.icon(
+                onPressed: () {
+                  Navigator.pop(context);
+                  context.push('/settings/maps');
+                },
+                icon: const Icon(Icons.download_rounded),
+                label: const Text('Offline maps'),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
 

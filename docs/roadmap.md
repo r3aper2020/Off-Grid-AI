@@ -138,8 +138,11 @@ import and delete regions, `tools/maps/extract_region.sh` to make them.
 In-app downloads (2026-11-03): pan to an area, exact size, download
 straight from the Protomaps planet build by byte range; bundled world
 overview so the map is never empty.
-Remaining: contours and hillshade, declination, UTM/MGRS, waypoints and
-routes, compass screen without a map, conversions.
+Layers (2026-11-03): USGS Topo and Satellite and global hillshade as
+per-region downloads, switched with the layers button.
+Remaining: contour lines outside the US, elevation reading from the
+terrain layer, declination, UTM/MGRS, waypoints and routes, compass
+screen without a map, conversions, persisting the layer choice.
 
 ## 8. Production readiness
 Device matrix testing, performance, security review, accessibility, store

@@ -68,6 +68,20 @@ void main() {
         ),
         throwsA(isA<MapImportException>()),
       );
+      // Raster is fine for an extra layer, which always has a parent.
+      final parent = await store.import(
+        originalName: 'v.pmtiles',
+        bytes: Stream.value(fakePmtiles()),
+      );
+      final topo = await store.import(
+        originalName: 'v-topo.pmtiles',
+        bytes: Stream.value(fakePmtiles(tileType: 3)),
+        kind: MapLayerKind.topo,
+        parentId: parent.id,
+      );
+      expect(topo.kind, MapLayerKind.topo);
+      expect(topo.parentId, parent.id);
+      await store.delete(parent);
       await pumpEventQueue();
       expect(dir.listSync(), isEmpty);
       expect(await store.regions(), isEmpty);

@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:drift/drift.dart' show Value;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:offgrid_ai/core/database/app_database.dart';
@@ -35,6 +36,12 @@ Future<void> dropV7Columns(AppDatabase db) async {
 /// Removes what v10 added, so a fresh database can pose as an older one.
 Future<void> dropV10Tables(AppDatabase db) =>
     db.customStatement('DROP TABLE map_regions');
+
+/// Removes the v11 columns so a database can pose as v10.
+Future<void> dropV11Columns(AppDatabase db) async {
+  await db.customStatement('ALTER TABLE map_regions DROP COLUMN kind');
+  await db.customStatement('ALTER TABLE map_regions DROP COLUMN parent_id');
+}
 
 void main() {
   late File file;
@@ -255,6 +262,48 @@ void main() {
     );
     final region = await upgraded.select(upgraded.mapRegions).getSingle();
     expect(region.displayName, 'r');
+    expect(region.kind, MapLayerKind.streets);
+    await upgraded.close();
+    await dir.delete(recursive: true);
+  });
+
+  test('v10 database gains layer kind and parent; old rows are streets', () async {
+    final dir = await Directory.systemTemp.createTemp('v10');
+    final f = File('${dir.path}/v10.sqlite');
+    final fresh = AppDatabase(NativeDatabase(f));
+    await dropV11Columns(fresh);
+    await fresh.customStatement(
+      "INSERT INTO map_regions (display_name, file_name, size_bytes, min_lon, "
+      "min_lat, max_lon, max_lat, min_zoom, max_zoom, installed_at) VALUES "
+      "('r', 'r.pmtiles', 1, -1, -1, 1, 1, 0, 14, 0)",
+    );
+    await fresh.customStatement('PRAGMA user_version = 10');
+    await fresh.close();
+
+    final upgraded = AppDatabase(NativeDatabase(f));
+    final region = await upgraded.select(upgraded.mapRegions).getSingle();
+    expect(region.kind, MapLayerKind.streets);
+    expect(region.parentId, isNull);
+    await upgraded
+        .into(upgraded.mapRegions)
+        .insert(
+          MapRegionsCompanion.insert(
+            displayName: 'r topo',
+            kind: const Value(MapLayerKind.topo),
+            parentId: Value(region.id),
+            fileName: 'r-topo.pmtiles',
+            sizeBytes: 1,
+            minLon: -1,
+            minLat: -1,
+            maxLon: 1,
+            maxLat: 1,
+            minZoom: 7,
+            maxZoom: 14,
+            installedAt: DateTime(2026),
+          ),
+        );
+    final rows = await upgraded.select(upgraded.mapRegions).get();
+    expect(rows.map((r) => r.kind), [MapLayerKind.streets, MapLayerKind.topo]);
     await upgraded.close();
     await dir.delete(recursive: true);
   });

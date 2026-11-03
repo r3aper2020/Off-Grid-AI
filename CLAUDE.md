@@ -12,8 +12,8 @@ later milestone early.
 
 - **Offline after setup.** No network calls on startup or in any core flow.
   The only network code is `ModelDownload`
-  (`lib/features/models/data/model_downloader.dart`) and `RegionDownload`
-  (`lib/features/maps/data/region_download.dart`), run only when the user
+  (`lib/features/models/data/model_downloader.dart`), `RegionDownload` and
+  `RasterLayerDownload` (`lib/features/maps/data/`), run only when the user
   taps Download. Any new network use needs an entry in `docs/decisions.md`.
 - **Never fake an answer.** If no model, no source, or no data exists, say so
   plainly. App-generated assistant text is stored as `MessageStatus.notice`

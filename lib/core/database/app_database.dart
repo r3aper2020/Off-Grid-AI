@@ -139,11 +139,21 @@ class InstalledModels extends Table {
   TextColumn get projectorFileName => text().nullable()();
 }
 
-/// Offline map regions: PMTiles archives imported into app-private
-/// storage, with the bounds and zoom range read from the archive header.
+/// What a map archive draws. `streets` is the Protomaps vector region;
+/// the others are raster layers downloaded for a streets region.
+/// Stored by name: never rename, only add.
+enum MapLayerKind { streets, topo, imagery, terrain }
+
+/// Offline map regions: PMTiles archives in app-private storage, with
+/// the bounds and zoom range read from the archive header. A raster
+/// layer row points at its streets region through [parentId].
 class MapRegions extends Table {
   IntColumn get id => integer().autoIncrement()();
   TextColumn get displayName => text()();
+  TextColumn get kind => textEnum<MapLayerKind>().withDefault(
+    const Constant('streets'),
+  )();
+  IntColumn get parentId => integer().nullable()();
 
   /// File name inside the maps directory (not an absolute path).
   TextColumn get fileName => text().unique()();
@@ -173,7 +183,7 @@ class AppDatabase extends _$AppDatabase {
     : super(executor ?? driftDatabase(name: 'offgrid'));
 
   @override
-  int get schemaVersion => 10;
+  int get schemaVersion => 11;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -256,6 +266,11 @@ class AppDatabase extends _$AppDatabase {
       if (from < 10) {
         // v10: offline map regions (navigation milestone).
         await m.createTable(mapRegions);
+      }
+      if (from >= 10 && from < 11) {
+        // v11: raster layers (topo, imagery, terrain) hang off a region.
+        await m.addColumn(mapRegions, mapRegions.kind);
+        await m.addColumn(mapRegions, mapRegions.parentId);
       }
       if (from >= 3 && from < 7) {
         // Bundled packs are removed so the startup sync reinstalls them

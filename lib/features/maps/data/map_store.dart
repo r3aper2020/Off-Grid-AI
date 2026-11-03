@@ -37,12 +37,16 @@ class MapStore {
 
   /// Copies [bytes] into storage as [originalName] and registers the
   /// region with the bounds from the archive header. [onProgress]
-  /// receives bytes written so far.
+  /// receives bytes written so far. A streets region must hold vector
+  /// tiles; a raster layer ([kind] other than streets) belongs to the
+  /// streets region [parentId].
   Future<MapRegion> import({
     required String originalName,
     required Stream<List<int>> bytes,
     void Function(int written)? onProgress,
     String? displayName,
+    MapLayerKind kind = MapLayerKind.streets,
+    int? parentId,
   }) async {
     if (p.extension(originalName).toLowerCase() != '.pmtiles') {
       throw const MapImportException(
@@ -69,7 +73,7 @@ class MapStore {
                 'That file isn\'t a PMTiles v3 archive.',
               );
             }
-            if (!header.isVector) {
+            if (kind == MapLayerKind.streets && !header.isVector) {
               throw const MapImportException(
                 'Only vector (MVT) PMTiles archives are supported.',
               );
@@ -98,6 +102,8 @@ class MapStore {
         .insert(
           MapRegionsCompanion.insert(
             displayName: displayName ?? _nameFrom(originalName),
+            kind: Value(kind),
+            parentId: Value(parentId),
             fileName: fileName,
             sizeBytes: written,
             minLon: h.minLon,
@@ -114,7 +120,14 @@ class MapStore {
     )..where((r) => r.id.equals(id))).getSingle();
   }
 
+  /// Removes a region and, for a streets region, its raster layers.
   Future<void> delete(MapRegion region) async {
+    final children = await (_db.select(
+      _db.mapRegions,
+    )..where((r) => r.parentId.equals(region.id))).get();
+    for (final c in children) {
+      await delete(c);
+    }
     await (_db.delete(
       _db.mapRegions,
     )..where((r) => r.id.equals(region.id))).go();

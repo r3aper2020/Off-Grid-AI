@@ -17,5 +17,10 @@ the same thing `pmtiles extract` does. These tools are for the rest:
 - `test/fixtures/smokies_z10-12.pmtiles` — a CLI-made archive the PMTiles
   reader/writer tests check themselves against.
 
+Topo and satellite layers come from USGS The National Map (public
+domain, US only); hillshade from Terrain Tiles on AWS (Mapzen, global).
+Both download per region in the app.
+
 Licences: tiles ODbL (show "© OpenStreetMap contributors"), Protomaps
-style and sprites BSD-3, Noto fonts OFL. See docs/decisions.md.
+style and sprites BSD-3, Noto fonts OFL, USGS public domain, Terrain
+Tiles attribution required. See docs/decisions.md.

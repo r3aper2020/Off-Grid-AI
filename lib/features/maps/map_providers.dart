@@ -6,12 +6,16 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path/path.dart' as p;
 
 import '../../core/database/app_database.dart';
+import '../../core/keep_awake.dart';
 import '../../core/providers.dart';
 import 'data/geolocator_source.dart';
 import 'data/map_store.dart';
+import 'data/region_download.dart' show RegionTooLargeException;
 import 'data/range_reader.dart';
+import 'data/raster_download.dart';
 import 'domain/location_source.dart';
 import 'domain/map_style.dart';
+import 'domain/raster_sources.dart';
 
 /// App-private directory holding region archives and the copied map
 /// assets. Overridden in `main`; tests get a temp directory by default.
@@ -63,9 +67,37 @@ final mapLayersProvider = FutureProvider<List<dynamic>>((ref) async {
       as List<dynamic>;
 });
 
-/// The style for the world overview plus every installed region.
+/// What the map shows: which basemap and whether hillshade is on.
+/// In memory only; the app opens on streets.
+class MapLayerChoice {
+  const MapLayerChoice({
+    this.basemap = MapLayerKind.streets,
+    this.hillshade = false,
+  });
+  final MapLayerKind basemap;
+  final bool hillshade;
+}
+
+class MapLayerChoiceController extends Notifier<MapLayerChoice> {
+  @override
+  MapLayerChoice build() => const MapLayerChoice();
+
+  void setBasemap(MapLayerKind kind) =>
+      state = MapLayerChoice(basemap: kind, hillshade: state.hillshade);
+  void setHillshade(bool on) =>
+      state = MapLayerChoice(basemap: state.basemap, hillshade: on);
+}
+
+final mapLayerChoiceProvider =
+    NotifierProvider<MapLayerChoiceController, MapLayerChoice>(
+      MapLayerChoiceController.new,
+    );
+
+/// The style for the world overview plus every installed region, in the
+/// chosen layer mode.
 final mapStyleProvider = FutureProvider<String>((ref) async {
   final regions = await ref.watch(mapRegionsProvider.future);
+  final choice = ref.watch(mapLayerChoiceProvider);
   final store = ref.watch(mapStoreProvider);
   final assets = await ref.watch(mapAssetsProvider.future);
   final layers = await ref.watch(mapLayersProvider.future);
@@ -75,8 +107,127 @@ final mapStyleProvider = FutureProvider<String>((ref) async {
     worldPath: p.join(assets.path, 'world.pmtiles'),
     assetsPath: assets.path,
     layers: layers,
+    basemap: choice.basemap,
+    hillshade: choice.hillshade,
   );
 });
+
+/// Tile services for raster layers; tests point them at a local server.
+final rasterSourcesProvider = Provider<Map<MapLayerKind, RasterTileSource>>(
+  (ref) => rasterSources,
+);
+
+/// One raster layer download at a time, kept outside any screen so
+/// leaving the regions list doesn't cancel it.
+class LayerDownloadState {
+  const LayerDownloadState({
+    this.regionId,
+    this.kind,
+    this.estimating = false,
+    this.tiles = 0,
+    this.tilesTotal = 0,
+    this.bytes = 0,
+    this.message,
+  });
+
+  final int? regionId;
+  final MapLayerKind? kind;
+  final bool estimating;
+  final int tiles;
+  final int tilesTotal;
+  final int bytes;
+
+  /// Outcome to show once (success or error); null while running.
+  final String? message;
+
+  bool get active => regionId != null && message == null;
+  bool isFor(MapRegion parent, MapLayerKind k) =>
+      active && regionId == parent.id && kind == k;
+}
+
+class LayerDownloadController extends Notifier<LayerDownloadState> {
+  RasterLayerDownload? _download;
+
+  @override
+  LayerDownloadState build() {
+    ref.onDispose(() => _download?.cancel());
+    return const LayerDownloadState();
+  }
+
+  RasterLayerDownload _make(MapLayerKind kind) => RasterLayerDownload(
+    ref.read(mapStoreProvider),
+    ref.read(rasterSourcesProvider)[kind]!,
+  );
+
+  /// Samples the service to size the layer; null (with [state].message
+  /// set) when it can't.
+  Future<RasterPlan?> estimate(MapRegion parent, MapLayerKind kind) async {
+    if (state.active) return null;
+    final download = _make(kind);
+    state = LayerDownloadState(
+      regionId: parent.id,
+      kind: kind,
+      estimating: true,
+    );
+    try {
+      return await download.estimate(parent);
+    } on MapImportException catch (e) {
+      state = LayerDownloadState(message: e.message);
+    } on RegionTooLargeException catch (e) {
+      state = LayerDownloadState(message: e.toString());
+    } on Object catch (e) {
+      state = LayerDownloadState(message: networkMessage(e));
+    } finally {
+      download.close();
+      if (state.estimating) state = const LayerDownloadState();
+    }
+    return null;
+  }
+
+  Future<void> start(RasterPlan plan) async {
+    if (_download != null) return;
+    final download = _make(plan.source.kind);
+    _download = download;
+    state = LayerDownloadState(
+      regionId: plan.parent.id,
+      kind: plan.source.kind,
+      tilesTotal: plan.tileCount,
+    );
+    await keepAwake(true);
+    var lastShown = 0;
+    try {
+      final region = await download.run(
+        plan,
+        onProgress: (tiles, bytes) {
+          if (tiles - lastShown < 8 && tiles != plan.tileCount) return;
+          lastShown = tiles;
+          state = LayerDownloadState(
+            regionId: plan.parent.id,
+            kind: plan.source.kind,
+            tiles: tiles,
+            tilesTotal: plan.tileCount,
+            bytes: bytes,
+          );
+        },
+      );
+      state = LayerDownloadState(message: 'Added ${region.displayName}');
+    } on RegionDownloadCancelled {
+      state = const LayerDownloadState(message: 'Download cancelled');
+    } on MapImportException catch (e) {
+      state = LayerDownloadState(message: e.message);
+    } finally {
+      _download = null;
+      await keepAwake(false);
+    }
+  }
+
+  void cancel() => _download?.cancel();
+}
+
+final layerDownloadProvider =
+    NotifierProvider<LayerDownloadController, LayerDownloadState>(
+      LayerDownloadController.new,
+    );
 
 /// Opens the newest Protomaps planet build for byte-range reads. Only
 /// the download screen calls it, when the user taps Check size; tests

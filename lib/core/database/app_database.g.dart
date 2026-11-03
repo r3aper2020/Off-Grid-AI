@@ -3046,6 +3046,27 @@ class $MapRegionsTable extends MapRegions
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
+  @override
+  late final GeneratedColumnWithTypeConverter<MapLayerKind, String> kind =
+      GeneratedColumn<String>(
+        'kind',
+        aliasedName,
+        false,
+        type: DriftSqlType.string,
+        requiredDuringInsert: false,
+        defaultValue: const Constant('streets'),
+      ).withConverter<MapLayerKind>($MapRegionsTable.$converterkind);
+  static const VerificationMeta _parentIdMeta = const VerificationMeta(
+    'parentId',
+  );
+  @override
+  late final GeneratedColumn<int> parentId = GeneratedColumn<int>(
+    'parent_id',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
   static const VerificationMeta _fileNameMeta = const VerificationMeta(
     'fileName',
   );
@@ -3142,6 +3163,8 @@ class $MapRegionsTable extends MapRegions
   List<GeneratedColumn> get $columns => [
     id,
     displayName,
+    kind,
+    parentId,
     fileName,
     sizeBytes,
     minLon,
@@ -3177,6 +3200,12 @@ class $MapRegionsTable extends MapRegions
       );
     } else if (isInserting) {
       context.missing(_displayNameMeta);
+    }
+    if (data.containsKey('parent_id')) {
+      context.handle(
+        _parentIdMeta,
+        parentId.isAcceptableOrUnknown(data['parent_id']!, _parentIdMeta),
+      );
     }
     if (data.containsKey('file_name')) {
       context.handle(
@@ -3270,6 +3299,16 @@ class $MapRegionsTable extends MapRegions
         DriftSqlType.string,
         data['${effectivePrefix}display_name'],
       )!,
+      kind: $MapRegionsTable.$converterkind.fromSql(
+        attachedDatabase.typeMapping.read(
+          DriftSqlType.string,
+          data['${effectivePrefix}kind'],
+        )!,
+      ),
+      parentId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}parent_id'],
+      ),
       fileName: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}file_name'],
@@ -3313,11 +3352,16 @@ class $MapRegionsTable extends MapRegions
   $MapRegionsTable createAlias(String alias) {
     return $MapRegionsTable(attachedDatabase, alias);
   }
+
+  static JsonTypeConverter2<MapLayerKind, String, String> $converterkind =
+      const EnumNameConverter<MapLayerKind>(MapLayerKind.values);
 }
 
 class MapRegion extends DataClass implements Insertable<MapRegion> {
   final int id;
   final String displayName;
+  final MapLayerKind kind;
+  final int? parentId;
 
   /// File name inside the maps directory (not an absolute path).
   final String fileName;
@@ -3332,6 +3376,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
   const MapRegion({
     required this.id,
     required this.displayName,
+    required this.kind,
+    this.parentId,
     required this.fileName,
     required this.sizeBytes,
     required this.minLon,
@@ -3347,6 +3393,14 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
     final map = <String, Expression>{};
     map['id'] = Variable<int>(id);
     map['display_name'] = Variable<String>(displayName);
+    {
+      map['kind'] = Variable<String>(
+        $MapRegionsTable.$converterkind.toSql(kind),
+      );
+    }
+    if (!nullToAbsent || parentId != null) {
+      map['parent_id'] = Variable<int>(parentId);
+    }
     map['file_name'] = Variable<String>(fileName);
     map['size_bytes'] = Variable<int>(sizeBytes);
     map['min_lon'] = Variable<double>(minLon);
@@ -3363,6 +3417,10 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
     return MapRegionsCompanion(
       id: Value(id),
       displayName: Value(displayName),
+      kind: Value(kind),
+      parentId: parentId == null && nullToAbsent
+          ? const Value.absent()
+          : Value(parentId),
       fileName: Value(fileName),
       sizeBytes: Value(sizeBytes),
       minLon: Value(minLon),
@@ -3383,6 +3441,10 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
     return MapRegion(
       id: serializer.fromJson<int>(json['id']),
       displayName: serializer.fromJson<String>(json['displayName']),
+      kind: $MapRegionsTable.$converterkind.fromJson(
+        serializer.fromJson<String>(json['kind']),
+      ),
+      parentId: serializer.fromJson<int?>(json['parentId']),
       fileName: serializer.fromJson<String>(json['fileName']),
       sizeBytes: serializer.fromJson<int>(json['sizeBytes']),
       minLon: serializer.fromJson<double>(json['minLon']),
@@ -3400,6 +3462,10 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
     return <String, dynamic>{
       'id': serializer.toJson<int>(id),
       'displayName': serializer.toJson<String>(displayName),
+      'kind': serializer.toJson<String>(
+        $MapRegionsTable.$converterkind.toJson(kind),
+      ),
+      'parentId': serializer.toJson<int?>(parentId),
       'fileName': serializer.toJson<String>(fileName),
       'sizeBytes': serializer.toJson<int>(sizeBytes),
       'minLon': serializer.toJson<double>(minLon),
@@ -3415,6 +3481,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
   MapRegion copyWith({
     int? id,
     String? displayName,
+    MapLayerKind? kind,
+    Value<int?> parentId = const Value.absent(),
     String? fileName,
     int? sizeBytes,
     double? minLon,
@@ -3427,6 +3495,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
   }) => MapRegion(
     id: id ?? this.id,
     displayName: displayName ?? this.displayName,
+    kind: kind ?? this.kind,
+    parentId: parentId.present ? parentId.value : this.parentId,
     fileName: fileName ?? this.fileName,
     sizeBytes: sizeBytes ?? this.sizeBytes,
     minLon: minLon ?? this.minLon,
@@ -3443,6 +3513,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
       displayName: data.displayName.present
           ? data.displayName.value
           : this.displayName,
+      kind: data.kind.present ? data.kind.value : this.kind,
+      parentId: data.parentId.present ? data.parentId.value : this.parentId,
       fileName: data.fileName.present ? data.fileName.value : this.fileName,
       sizeBytes: data.sizeBytes.present ? data.sizeBytes.value : this.sizeBytes,
       minLon: data.minLon.present ? data.minLon.value : this.minLon,
@@ -3462,6 +3534,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
     return (StringBuffer('MapRegion(')
           ..write('id: $id, ')
           ..write('displayName: $displayName, ')
+          ..write('kind: $kind, ')
+          ..write('parentId: $parentId, ')
           ..write('fileName: $fileName, ')
           ..write('sizeBytes: $sizeBytes, ')
           ..write('minLon: $minLon, ')
@@ -3479,6 +3553,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
   int get hashCode => Object.hash(
     id,
     displayName,
+    kind,
+    parentId,
     fileName,
     sizeBytes,
     minLon,
@@ -3495,6 +3571,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
       (other is MapRegion &&
           other.id == this.id &&
           other.displayName == this.displayName &&
+          other.kind == this.kind &&
+          other.parentId == this.parentId &&
           other.fileName == this.fileName &&
           other.sizeBytes == this.sizeBytes &&
           other.minLon == this.minLon &&
@@ -3509,6 +3587,8 @@ class MapRegion extends DataClass implements Insertable<MapRegion> {
 class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
   final Value<int> id;
   final Value<String> displayName;
+  final Value<MapLayerKind> kind;
+  final Value<int?> parentId;
   final Value<String> fileName;
   final Value<int> sizeBytes;
   final Value<double> minLon;
@@ -3521,6 +3601,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
   const MapRegionsCompanion({
     this.id = const Value.absent(),
     this.displayName = const Value.absent(),
+    this.kind = const Value.absent(),
+    this.parentId = const Value.absent(),
     this.fileName = const Value.absent(),
     this.sizeBytes = const Value.absent(),
     this.minLon = const Value.absent(),
@@ -3534,6 +3616,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
   MapRegionsCompanion.insert({
     this.id = const Value.absent(),
     required String displayName,
+    this.kind = const Value.absent(),
+    this.parentId = const Value.absent(),
     required String fileName,
     required int sizeBytes,
     required double minLon,
@@ -3556,6 +3640,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
   static Insertable<MapRegion> custom({
     Expression<int>? id,
     Expression<String>? displayName,
+    Expression<String>? kind,
+    Expression<int>? parentId,
     Expression<String>? fileName,
     Expression<int>? sizeBytes,
     Expression<double>? minLon,
@@ -3569,6 +3655,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
     return RawValuesInsertable({
       if (id != null) 'id': id,
       if (displayName != null) 'display_name': displayName,
+      if (kind != null) 'kind': kind,
+      if (parentId != null) 'parent_id': parentId,
       if (fileName != null) 'file_name': fileName,
       if (sizeBytes != null) 'size_bytes': sizeBytes,
       if (minLon != null) 'min_lon': minLon,
@@ -3584,6 +3672,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
   MapRegionsCompanion copyWith({
     Value<int>? id,
     Value<String>? displayName,
+    Value<MapLayerKind>? kind,
+    Value<int?>? parentId,
     Value<String>? fileName,
     Value<int>? sizeBytes,
     Value<double>? minLon,
@@ -3597,6 +3687,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
     return MapRegionsCompanion(
       id: id ?? this.id,
       displayName: displayName ?? this.displayName,
+      kind: kind ?? this.kind,
+      parentId: parentId ?? this.parentId,
       fileName: fileName ?? this.fileName,
       sizeBytes: sizeBytes ?? this.sizeBytes,
       minLon: minLon ?? this.minLon,
@@ -3617,6 +3709,14 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
     }
     if (displayName.present) {
       map['display_name'] = Variable<String>(displayName.value);
+    }
+    if (kind.present) {
+      map['kind'] = Variable<String>(
+        $MapRegionsTable.$converterkind.toSql(kind.value),
+      );
+    }
+    if (parentId.present) {
+      map['parent_id'] = Variable<int>(parentId.value);
     }
     if (fileName.present) {
       map['file_name'] = Variable<String>(fileName.value);
@@ -3653,6 +3753,8 @@ class MapRegionsCompanion extends UpdateCompanion<MapRegion> {
     return (StringBuffer('MapRegionsCompanion(')
           ..write('id: $id, ')
           ..write('displayName: $displayName, ')
+          ..write('kind: $kind, ')
+          ..write('parentId: $parentId, ')
           ..write('fileName: $fileName, ')
           ..write('sizeBytes: $sizeBytes, ')
           ..write('minLon: $minLon, ')
@@ -5885,6 +5987,8 @@ typedef $$InstalledModelsTableProcessedTableManager =
 typedef $$MapRegionsTableCreateCompanionBuilder = MapRegionsCompanion Function({
   Value<int> id,
   required String displayName,
+  Value<MapLayerKind> kind,
+  Value<int?> parentId,
   required String fileName,
   required int sizeBytes,
   required double minLon,
@@ -5898,6 +6002,8 @@ typedef $$MapRegionsTableCreateCompanionBuilder = MapRegionsCompanion Function({
 typedef $$MapRegionsTableUpdateCompanionBuilder = MapRegionsCompanion Function({
   Value<int> id,
   Value<String> displayName,
+  Value<MapLayerKind> kind,
+  Value<int?> parentId,
   Value<String> fileName,
   Value<int> sizeBytes,
   Value<double> minLon,
@@ -5925,6 +6031,17 @@ class $$MapRegionsTableFilterComposer
 
   ColumnFilters<String> get displayName => $composableBuilder(
     column: $table.displayName,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnWithTypeConverterFilters<MapLayerKind, MapLayerKind, String> get kind =>
+      $composableBuilder(
+        column: $table.kind,
+        builder: (column) => ColumnWithTypeConverterFilters(column),
+      );
+
+  ColumnFilters<int> get parentId => $composableBuilder(
+    column: $table.parentId,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -5993,6 +6110,16 @@ class $$MapRegionsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<String> get kind => $composableBuilder(
+    column: $table.kind,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get parentId => $composableBuilder(
+    column: $table.parentId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<String> get fileName => $composableBuilder(
     column: $table.fileName,
     builder: (column) => ColumnOrderings(column),
@@ -6055,6 +6182,12 @@ class $$MapRegionsTableAnnotationComposer
     column: $table.displayName,
     builder: (column) => column,
   );
+
+  GeneratedColumnWithTypeConverter<MapLayerKind, String> get kind =>
+      $composableBuilder(column: $table.kind, builder: (column) => column);
+
+  GeneratedColumn<int> get parentId =>
+      $composableBuilder(column: $table.parentId, builder: (column) => column);
 
   GeneratedColumn<String> get fileName =>
       $composableBuilder(column: $table.fileName, builder: (column) => column);
@@ -6119,6 +6252,8 @@ class $$MapRegionsTableTableManager
               ({
                 Value<int> id = const Value.absent(),
                 Value<String> displayName = const Value.absent(),
+                Value<MapLayerKind> kind = const Value.absent(),
+                Value<int?> parentId = const Value.absent(),
                 Value<String> fileName = const Value.absent(),
                 Value<int> sizeBytes = const Value.absent(),
                 Value<double> minLon = const Value.absent(),
@@ -6131,6 +6266,8 @@ class $$MapRegionsTableTableManager
               }) => MapRegionsCompanion(
                 id: id,
                 displayName: displayName,
+                kind: kind,
+                parentId: parentId,
                 fileName: fileName,
                 sizeBytes: sizeBytes,
                 minLon: minLon,
@@ -6145,6 +6282,8 @@ class $$MapRegionsTableTableManager
               ({
                 Value<int> id = const Value.absent(),
                 required String displayName,
+                Value<MapLayerKind> kind = const Value.absent(),
+                Value<int?> parentId = const Value.absent(),
                 required String fileName,
                 required int sizeBytes,
                 required double minLon,
@@ -6157,6 +6296,8 @@ class $$MapRegionsTableTableManager
               }) => MapRegionsCompanion.insert(
                 id: id,
                 displayName: displayName,
+                kind: kind,
+                parentId: parentId,
                 fileName: fileName,
                 sizeBytes: sizeBytes,
                 minLon: minLon,

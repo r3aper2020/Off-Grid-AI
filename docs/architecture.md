@@ -41,7 +41,10 @@ lib/
     library/                 packs, FTS5 search, Library/pack/reader/search UI
     maps/                    MapStore (import/delete regions), RegionDownload
                              (cuts a region out of the Protomaps planet by byte
-                             range), PMTiles reader/writer, style builder,
+                             range), RasterLayerDownload (USGS topo/imagery and
+                             elevation tiles into raster PMTiles), PMTiles
+                             reader/writer, style builder (streets/topo/
+                             imagery/hillshade modes),
                              LocationSource (geolocator), MapHandle (map
                              abstraction), Offline maps + Download screens
     tools/                   Tools list + Navigation (MapLibre map, readings)
@@ -49,7 +52,7 @@ lib/
     settings/                status overview, data controls
 ```
 
-## Data model (schema v10)
+## Data model (schema v11)
 
 | Table | Purpose |
 |---|---|
@@ -62,7 +65,7 @@ lib/
 | `passages_fts` (v3) | FTS5 index over passages (porter stemming) and their document's title + aliases (v7) + figure captions (v9), synced by triggers |
 | `messages.citations` (v3) | JSON passage ids given to the model for a reply; `[]` = searched, nothing matched |
 | `messages.imagePath` (v8) | Photo attached to a user message: file name in the app's `photos/` directory |
-| `map_regions` (v10) | Downloaded or imported PMTiles archives: file name in `maps/`, size, bounds and zoom range from the header |
+| `map_regions` (v10, v11) | Downloaded or imported PMTiles archives: file name in `maps/`, size, bounds and zoom range from the header; v11 adds `kind` (streets/topo/imagery/terrain) and `parent_id` for raster layers of a streets region |
 
 ## Chat generation flow
 

@@ -752,3 +752,36 @@ download in the app. Now Settings → Offline maps → Download a region
   and wait up to about half an hour for the network to return. A failed
   download still deletes its `.part`; resuming a download after the app
   is killed is a follow-up.
+
+## 2026-11-03 — Topo, satellite and hillshade layers per region
+The owner expected "topography and satellite" with a map download. Those
+are different data from OpenStreetMap, so each is an extra layer a
+region can download (Settings → Offline maps → Add Topo / Satellite /
+Hillshade), chosen on the map with the layers button.
+- Sources, all free to redistribute: **USGS Topo** and **USGS Imagery**
+  tile services from The National Map (public domain; "Map services and
+  data available from U.S. Geological Survey, National Geospatial
+  Program"; US only, 256 px JPEG, zoom to 16) and **Terrain Tiles** on
+  AWS Open Data (Terrarium-encoded elevation PNGs, global, built by
+  Mapzen from NASA SRTM, USGS 3DEP and others; attribution required).
+  Google, Apple, Esri and Mapbox imagery cannot be stored offline;
+  EOX Sentinel-2 cloudless is global but non-commercial, so it was left
+  out. Outside the US only hillshade applies for now.
+- `RasterLayerDownload` fetches every tile of the region's box from zoom
+  7 to the region's max zoom (capped by the service: 16, or 12 for
+  elevation since hillshade overzooms well and zoom 12 is 1/16 the
+  tiles), four at a time in tile-id order, and writes a clustered
+  PMTiles raster archive; identical tiles (blank sea, no data) are
+  stored once. Size is estimated from 12 sample tiles, since tile
+  services don't say sizes up front. USGS publishes no tile-use policy
+  beyond "no restrictions"; the app sends a user agent and stays at
+  four concurrent requests.
+- Rows: `map_regions.kind` (streets/topo/imagery/terrain) and
+  `parent_id` (schema v11). Deleting a region deletes its layers.
+- Style modes (`buildMapStyle`): topo/imagery replace a region's street
+  layers with its raster (imagery keeps the street labels on top);
+  hillshade is a `raster-dem` source with `encoding: terrarium` drawn
+  above a region's fills and below its lines. Regions without the chosen
+  layer fall back to streets; the world overview stays underneath.
+- Layer choice is in memory (the app opens on streets); there is no
+  settings store yet.
