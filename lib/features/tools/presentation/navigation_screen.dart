@@ -9,6 +9,7 @@ import '../../../core/widgets/topo_background.dart';
 import '../../maps/domain/location_source.dart';
 import '../../maps/domain/map_style.dart';
 import '../../maps/map_providers.dart';
+import '../../maps/presentation/map_legend.dart';
 import '../../maps/presentation/map_view.dart';
 
 /// Offline map of the bundled world overview and the installed regions,
@@ -38,6 +39,7 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
       m.moveTo(fix.latitude, fix.longitude, 11);
     });
     final regions = ref.watch(mapRegionsProvider).value ?? const [];
+    final choice = ref.watch(mapLayerChoiceProvider);
     final style = ref.watch(mapStyleProvider).value;
     final access = ref.watch(locationAccessProvider).value;
     final fix = ref.watch(positionProvider).value;
@@ -111,20 +113,42 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
                     onDownload: () => context.push('/settings/maps/download'),
                   ),
                 const Spacer(),
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: Padding(
-                    padding: const EdgeInsets.only(right: 16),
-                    child: _MapControls(
-                      enabled: _map != null,
-                      following: _follow,
-                      canCenter: granted,
-                      onFollow: _toggleFollow,
-                      onCenter: () => _center(fix),
-                      onZoomIn: () => _map?.zoomIn(),
-                      onZoomOut: () => _map?.zoomOut(),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    Expanded(
+                      child: choice.legend
+                          ? Padding(
+                              padding: const EdgeInsets.only(left: 16),
+                              child: Align(
+                                alignment: Alignment.bottomLeft,
+                                child: MapLegendPanel(
+                                  legend: legendFor(
+                                    choice.basemap,
+                                    ref.watch(mapLayersProvider).value ??
+                                        const [],
+                                  ),
+                                  onClose: () => ref
+                                      .read(mapLayerChoiceProvider.notifier)
+                                      .setLegend(false),
+                                ),
+                              ),
+                            )
+                          : const SizedBox.shrink(),
                     ),
-                  ),
+                    Padding(
+                      padding: const EdgeInsets.only(right: 16),
+                      child: _MapControls(
+                        enabled: _map != null,
+                        following: _follow,
+                        canCenter: granted,
+                        onFollow: _toggleFollow,
+                        onCenter: () => _center(fix),
+                        onZoomIn: () => _map?.zoomIn(),
+                        onZoomOut: () => _map?.zoomOut(),
+                      ),
+                    ),
+                  ],
                 ),
                 const SizedBox(height: 8),
                 if (style != null)
@@ -206,6 +230,16 @@ class MapLayersSheet extends ConsumerWidget {
               selected: {choice.basemap},
               showSelectedIcon: false,
               onSelectionChanged: (s) => controller.setBasemap(s.first),
+            ),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: const Text('Legend'),
+              subtitle: Text(
+                'What the lines and colours mean',
+                style: theme.textTheme.bodySmall,
+              ),
+              value: choice.legend,
+              onChanged: controller.setLegend,
             ),
             SwitchListTile(
               contentPadding: EdgeInsets.zero,

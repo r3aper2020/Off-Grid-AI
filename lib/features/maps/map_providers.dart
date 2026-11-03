@@ -73,19 +73,32 @@ class MapLayerChoice {
   const MapLayerChoice({
     this.basemap = MapLayerKind.streets,
     this.hillshade = false,
+    this.legend = false,
   });
   final MapLayerKind basemap;
   final bool hillshade;
+
+  /// The legend panel is open on the map.
+  final bool legend;
+
+  MapLayerChoice copyWith({
+    MapLayerKind? basemap,
+    bool? hillshade,
+    bool? legend,
+  }) => MapLayerChoice(
+    basemap: basemap ?? this.basemap,
+    hillshade: hillshade ?? this.hillshade,
+    legend: legend ?? this.legend,
+  );
 }
 
 class MapLayerChoiceController extends Notifier<MapLayerChoice> {
   @override
   MapLayerChoice build() => const MapLayerChoice();
 
-  void setBasemap(MapLayerKind kind) =>
-      state = MapLayerChoice(basemap: kind, hillshade: state.hillshade);
-  void setHillshade(bool on) =>
-      state = MapLayerChoice(basemap: state.basemap, hillshade: on);
+  void setBasemap(MapLayerKind kind) => state = state.copyWith(basemap: kind);
+  void setHillshade(bool on) => state = state.copyWith(hillshade: on);
+  void setLegend(bool on) => state = state.copyWith(legend: on);
 }
 
 final mapLayerChoiceProvider =

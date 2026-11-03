@@ -23,4 +23,18 @@ abstract final class AppColors {
   static const danger = Color(0xFFEF5B5B);
 
   static const topoLine = Color(0xFF242A26);
+
+  /// USGS topographic map conventions, used only by the map legend so
+  /// swatches match what the USGS Topo layer draws. Shown on [usgsPaper].
+  static const usgsPaper = Color(0xFFF3F0E7);
+  static const usgsContour = Color(0xFFC08A5C);
+  static const usgsIndexContour = Color(0xFF8E5A2E);
+  static const usgsWater = Color(0xFF3F8BD0);
+  static const usgsWoodland = Color(0xFFB9DBA4);
+  static const usgsHighway = Color(0xFFD9382C);
+  static const usgsRoad = Color(0xFF7A7A7A);
+  static const usgsTrail = Color(0xFF262626);
+  static const usgsBuilding = Color(0xFF1C1C1C);
+  static const usgsBoundary = Color(0xFF4A4A4A);
+  static const usgsRelief = Color(0xFFA8A49B);
 }

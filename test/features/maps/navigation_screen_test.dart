@@ -179,6 +179,29 @@ void main() {
     expect(spec.style, contains('file://${maps.path}/assets/sprites/dark'));
   });
 
+  testWidgets('the layers sheet toggles a legend drawn from the style', (
+    tester,
+  ) async {
+    await pumpNavigation(tester);
+    await tester.tap(find.byTooltip('Map layers'));
+    await tester.pumpAndSettle();
+    expect(find.text('Map layers'), findsOneWidget);
+    // Nothing but streets is installed, so topo stays off.
+    final topo = tester.widget<SegmentedButton<MapLayerKind>>(
+      find.byType(SegmentedButton<MapLayerKind>),
+    );
+    expect(topo.segments[1].enabled, isFalse);
+    await tester.tap(find.text('Legend'));
+    await tester.pumpAndSettle();
+    await tester.tapAt(const Offset(10, 10)); // close the sheet
+    await tester.pumpAndSettle();
+    expect(find.text('Streets legend'), findsOneWidget);
+    expect(find.text('Path or trail'), findsOneWidget);
+    await tester.tap(find.byTooltip('Hide legend'));
+    await tester.pumpAndSettle();
+    expect(find.text('Streets legend'), findsNothing);
+  });
+
   testWidgets('permission denied is said plainly', (tester) async {
     location = FakeLocation(LocationAccess.deniedForever);
     await pumpNavigation(tester);

@@ -785,3 +785,9 @@ Hillshade), chosen on the map with the layers button.
   layer fall back to streets; the world overview stays underneath.
 - Layer choice is in memory (the app opens on streets); there is no
   settings store yet.
+- Legend (same day): the layers sheet has a Legend switch and the panel
+  has a close button. The Streets legend reads its colours from
+  `layers-dark.json` at runtime (`styleColor`), so it cannot drift from
+  the map; the Topo legend uses USGS US Topo conventions from
+  `AppColors.usgs*` on a paper-coloured swatch, with three
+  contour-reading tips; Satellite only explains the overlaid labels.
