@@ -225,9 +225,9 @@ class MapLegendPanel extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Container(
-      width: 236,
+      width: 186,
       constraints: BoxConstraints(
-        maxHeight: MediaQuery.sizeOf(context).height * 0.42,
+        maxHeight: MediaQuery.sizeOf(context).height * 0.3,
       ),
       decoration: BoxDecoration(
         color: AppColors.surface.withValues(alpha: 0.95),
@@ -239,19 +239,24 @@ class MapLegendPanel extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(14, 6, 4, 0),
+            padding: const EdgeInsets.fromLTRB(10, 2, 0, 0),
             child: Row(
               children: [
                 Expanded(
                   child: Text(
                     '${legend.title} legend',
-                    style: theme.textTheme.titleSmall,
+                    style: theme.textTheme.labelMedium,
                   ),
                 ),
                 IconButton(
                   tooltip: 'Hide legend',
                   visualDensity: VisualDensity.compact,
-                  icon: const Icon(Icons.close_rounded, size: 18),
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints.tightFor(
+                    width: 32,
+                    height: 28,
+                  ),
+                  icon: const Icon(Icons.close_rounded, size: 16),
                   color: AppColors.textTertiary,
                   onPressed: onClose,
                 ),
@@ -261,26 +266,32 @@ class MapLegendPanel extends StatelessWidget {
           Flexible(
             child: ListView(
               shrinkWrap: true,
-              padding: const EdgeInsets.fromLTRB(14, 0, 14, 12),
+              padding: const EdgeInsets.fromLTRB(10, 0, 10, 8),
               children: [
                 for (final e in legend.entries)
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 3),
+                    padding: const EdgeInsets.symmetric(vertical: 1.5),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         _Swatch(entry: e, paper: legend.paper),
-                        const SizedBox(width: 10),
+                        const SizedBox(width: 8),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(e.label, style: theme.textTheme.bodySmall),
+                              Text(
+                                e.label,
+                                style: theme.textTheme.labelSmall?.copyWith(
+                                  color: AppColors.textPrimary,
+                                ),
+                              ),
                               if (e.note != null)
                                 Text(
                                   e.note!,
                                   style: theme.textTheme.labelSmall?.copyWith(
                                     color: AppColors.textTertiary,
+                                    fontSize: 10,
                                   ),
                                 ),
                             ],
@@ -291,11 +302,12 @@ class MapLegendPanel extends StatelessWidget {
                   ),
                 for (final tip in legend.tips)
                   Padding(
-                    padding: const EdgeInsets.only(top: 6),
+                    padding: const EdgeInsets.only(top: 4),
                     child: Text(
                       '• $tip',
                       style: theme.textTheme.labelSmall?.copyWith(
                         color: AppColors.textSecondary,
+                        fontSize: 10,
                       ),
                     ),
                   ),
@@ -316,8 +328,8 @@ class _Swatch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 40,
-      height: 18,
+      width: 30,
+      height: 14,
       margin: const EdgeInsets.only(top: 1),
       decoration: BoxDecoration(
         color: paper,
@@ -344,18 +356,18 @@ class _SwatchPainter extends CustomPainter {
           paint,
         );
       case LegendSwatch.dot:
-        canvas.drawCircle(Offset(size.width / 2, y), 4, paint);
+        canvas.drawCircle(Offset(size.width / 2, y), 3, paint);
       case LegendSwatch.line:
       case LegendSwatch.thickLine:
         paint
-          ..strokeWidth = entry.swatch == LegendSwatch.thickLine ? 4 : 2
+          ..strokeWidth = entry.swatch == LegendSwatch.thickLine ? 3 : 1.5
           ..strokeCap = StrokeCap.round;
         canvas.drawLine(Offset(4, y), Offset(size.width - 4, y), paint);
       case LegendSwatch.dashedLine:
       case LegendSwatch.dottedLine:
-        final dash = entry.swatch == LegendSwatch.dashedLine ? 6.0 : 2.0;
+        final dash = entry.swatch == LegendSwatch.dashedLine ? 4.0 : 1.5;
         paint
-          ..strokeWidth = 2
+          ..strokeWidth = 1.5
           ..strokeCap = StrokeCap.round;
         for (var x = 4.0; x < size.width - 4; x += dash * 2) {
           canvas.drawLine(Offset(x, y), Offset(x + dash, y), paint);
