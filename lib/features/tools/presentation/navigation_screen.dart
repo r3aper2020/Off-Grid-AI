@@ -24,9 +24,18 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
   MapHandle? _map;
   bool _follow = false;
   double? _compass;
+  bool _jumpedToFix = false;
 
   @override
   Widget build(BuildContext context) {
+    // The map opens on the world; the first fix brings it to the phone.
+    ref.listen(positionProvider, (_, next) {
+      final fix = next.value;
+      final m = _map;
+      if (fix == null || m == null || _jumpedToFix) return;
+      _jumpedToFix = true;
+      m.moveTo(fix.latitude, fix.longitude, 11);
+    });
     final regions = ref.watch(mapRegionsProvider).value ?? const [];
     final style = ref.watch(mapStyleProvider).value;
     final access = ref.watch(locationAccessProvider).value;
@@ -49,7 +58,14 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
           zoom: fix != null ? 13 : (first != null ? 9 : 1),
           locationEnabled: granted,
           followHeading: _follow,
-          onMapCreated: (m) => setState(() => _map = m),
+          onMapCreated: (m) {
+            setState(() => _map = m);
+            final f = ref.read(positionProvider).value;
+            if (f != null && !_jumpedToFix) {
+              _jumpedToFix = true;
+              m.moveTo(f.latitude, f.longitude, 11);
+            }
+          },
           onHeading: (h) {
             if (h != _compass && mounted) setState(() => _compass = h);
           },

@@ -9,6 +9,7 @@ import 'package:offgrid_ai/core/database/app_database.dart';
 import 'package:offgrid_ai/core/providers.dart';
 import 'package:offgrid_ai/features/maps/data/map_store.dart';
 import 'package:offgrid_ai/features/maps/domain/location_source.dart';
+import 'package:offgrid_ai/features/maps/domain/map_bounds.dart';
 import 'package:offgrid_ai/features/maps/domain/map_style.dart';
 import 'package:offgrid_ai/features/maps/map_providers.dart';
 import 'package:offgrid_ai/features/maps/presentation/map_view.dart';
@@ -26,16 +27,36 @@ class FakeLocation implements LocationSource {
   Stream<Fix> fixes() => fixes_.stream;
 }
 
+class FakeMap implements MapHandle {
+  final moves = <(double, double, double)>[];
+  @override
+  Future<void> zoomIn() async {}
+  @override
+  Future<void> zoomOut() async {}
+  @override
+  Future<void> moveTo(double lat, double lon, double zoom) async =>
+      moves.add((lat, lon, zoom));
+  @override
+  Future<void> setFollowHeading(bool on) async {}
+  @override
+  Future<(double, double)?> myLocation() async => null;
+  @override
+  Future<MapBounds> visibleBounds() async =>
+      const MapBounds(minLon: 0, minLat: 0, maxLon: 1, maxLat: 1);
+}
+
 void main() {
   late AppDatabase db;
   late Directory maps;
   late FakeLocation location;
+  late FakeMap map;
   MapViewSpec? shown;
 
   setUp(() async {
     db = testDatabase();
     maps = await Directory.systemTemp.createTemp('nav');
     location = FakeLocation(LocationAccess.granted);
+    map = FakeMap();
     shown = null;
   });
   tearDown(() async {
@@ -74,6 +95,7 @@ void main() {
           ),
           locationSourceProvider.overrideWithValue(location),
           mapViewBuilderProvider.overrideWithValue((spec) {
+            if (shown == null) scheduleMicrotask(() => spec.onMapCreated(map));
             shown = spec;
             return const ColoredBox(color: Colors.black, key: Key('map'));
           }),
@@ -117,6 +139,21 @@ void main() {
     expect(find.text('610 m'), findsOneWidget);
     expect(find.text('±8 m'), findsOneWidget);
     expect(find.text('92°'), findsOneWidget);
+    // The first fix brings the map to the phone, once.
+    expect(map.moves, [(35.6, -83.475, 11.0)]);
+    location.fixes_.add(
+      Fix(
+        latitude: 35.7,
+        longitude: -83.4,
+        altitude: null,
+        accuracy: null,
+        heading: null,
+        speed: null,
+        time: DateTime(2026),
+      ),
+    );
+    await tester.pumpAndSettle();
+    expect(map.moves, hasLength(1));
   });
 
   testWidgets('with a region: the map is shown with the credit', (
