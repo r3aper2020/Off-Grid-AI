@@ -18,11 +18,13 @@ class RegionDownloadCancelled implements Exception {
 
 /// Byte ranges of one URL over HTTP, with the same reconnect-and-resume
 /// behaviour as the model downloader: a dropped connection continues
-/// from the last byte received, up to [maxRetries] times in a row.
+/// from the last byte received, up to [maxRetries] times in a row. The
+/// default waits about half an hour for the network to come back (the
+/// phone sleeping is the usual cause) before giving up.
 class HttpRangeReader implements RangeReader {
   HttpRangeReader(
     this.url, {
-    this.maxRetries = 6,
+    this.maxRetries = 60,
     Duration Function(int attempt)? retryDelay,
   }) : _retryDelay = retryDelay ?? _defaultDelay;
 

@@ -746,3 +746,9 @@ download in the app. Now Settings → Offline maps → Download a region
 - Screens talk to the map through `MapHandle`, not the MapLibre
   controller, so the download and navigation screens are widget-tested
   with a fake map.
+- First real download (524 MB) died when the phone slept: Android drops
+  the network and the reader gave up after six retries (~90 s). Now both
+  downloaders keep the screen on (`wakelock_plus`, `core/keep_awake.dart`)
+  and wait up to about half an hour for the network to return. A failed
+  download still deletes its `.part`; resuming a download after the app
+  is killed is a follow-up.

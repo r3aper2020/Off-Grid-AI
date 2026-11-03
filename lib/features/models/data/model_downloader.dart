@@ -25,14 +25,15 @@ class ModelDownload {
   ModelDownload(
     this._store,
     this.model, {
-    this.maxRetries = 6,
+    this.maxRetries = 60,
     Duration Function(int attempt)? retryDelay,
   }) : _retryDelay = retryDelay ?? _defaultDelay;
 
   final ModelStore _store;
   final CatalogModel model;
 
-  /// Consecutive failed reconnects allowed (reset whenever bytes arrive).
+  /// Consecutive failed reconnects allowed (reset whenever bytes arrive);
+  /// the default waits about half an hour for the network to come back.
   final int maxRetries;
   final Duration Function(int attempt) _retryDelay;
 

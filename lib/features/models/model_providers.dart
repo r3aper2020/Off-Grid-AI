@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/database/app_database.dart';
+import '../../core/keep_awake.dart';
 import '../../core/providers.dart';
 import 'data/model_catalog.dart';
 import 'data/model_downloader.dart';
@@ -112,6 +113,7 @@ class ModelDownloadController extends Notifier<DownloadState> {
     _download = download;
     _lastShown = 0;
     state = DownloadState(written: 0, total: model.totalBytes, model: model);
+    await keepAwake(true);
     try {
       final installed = await download.run(
         onProgress: (written) {
@@ -132,6 +134,7 @@ class ModelDownloadController extends Notifier<DownloadState> {
       state = DownloadState(message: e.message);
     } finally {
       _download = null;
+      await keepAwake(false);
     }
   }
 

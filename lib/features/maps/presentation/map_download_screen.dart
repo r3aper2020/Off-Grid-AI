@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/format.dart';
+import '../../../core/keep_awake.dart';
 import '../../../core/widgets/screen_header.dart';
 import '../../../core/widgets/topo_background.dart';
 import '../data/map_store.dart';
@@ -104,6 +105,7 @@ class _MapDownloadScreenState extends ConsumerState<MapDownloadScreen> {
       _error = null;
     });
     var lastShown = 0;
+    await keepAwake(true);
     try {
       final region = await download.run(
         plan,
@@ -127,6 +129,7 @@ class _MapDownloadScreenState extends ConsumerState<MapDownloadScreen> {
     } catch (e) {
       _fail('Download failed: $e');
     } finally {
+      await keepAwake(false);
       if (mounted) {
         setState(() {
           _progress = null;
