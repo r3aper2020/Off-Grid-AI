@@ -6,26 +6,27 @@ import '../../../core/database/app_database.dart';
 /// Produced Work under the ODbL, built by Protomaps.
 const mapAttribution = '© OpenStreetMap contributors · Protomaps';
 
-/// Builds a MapLibre style (JSON) that draws every installed region from
-/// its own archive on the phone. Each region is a `pmtiles://file://`
-/// vector source; the Protomaps basemap [layers] are repeated per region
-/// with the region's id in each layer id. Glyphs and the sprite are
-/// `file://` paths under [assetsPath], where the bundled fonts and
-/// sprites were copied, so nothing is fetched from anywhere.
+/// Builds a MapLibre style (JSON) that draws the bundled world overview
+/// at [worldPath] and every installed region from its own archive on
+/// the phone. Each is a `pmtiles://file://` vector source; the Protomaps
+/// basemap [layers] are repeated per source, regions after the world so
+/// they draw on top. Glyphs and the sprite are `file://` paths under
+/// [assetsPath], where the bundled fonts and sprites were copied, so
+/// nothing is fetched from anywhere.
 String buildMapStyle({
   required List<MapRegion> regions,
   required String Function(MapRegion) pathFor,
+  required String worldPath,
   required String assetsPath,
   required List<dynamic> layers,
 }) {
   final sources = <String, dynamic>{};
   final styled = <dynamic>[];
   var background = false;
-  for (final region in regions) {
-    final source = 'region-${region.id}';
+  void addSource(String source, String path) {
     sources[source] = {
       'type': 'vector',
-      'url': 'pmtiles://file://${pathFor(region)}',
+      'url': 'pmtiles://file://$path',
       'attribution': mapAttribution,
     };
     for (final layer in layers.cast<Map<String, dynamic>>()) {
@@ -40,6 +41,11 @@ String buildMapStyle({
         if (layer.containsKey('source')) 'source': source,
       });
     }
+  }
+
+  addSource('world', worldPath);
+  for (final region in regions) {
+    addSource('region-${region.id}', pathFor(region));
   }
   return jsonEncode({
     'version': 8,

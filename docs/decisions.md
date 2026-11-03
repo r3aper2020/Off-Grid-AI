@@ -712,3 +712,37 @@ and emergency mode. First cut, with no network code at all:
 - **Not yet:** contour lines and hillshade (the basemap has none),
   magnetic declination (headings are what the platform reports), UTM/MGRS
   grids, routes and waypoints, and in-app downloads.
+
+## 2026-11-03 — Map regions download straight from the Protomaps planet build
+The owner asked why a region had to be made on a computer when models
+download in the app. Now Settings → Offline maps → Download a region
+(`MapDownloadScreen`) does it on the phone:
+- The phone does what `pmtiles extract` does (`RegionDownload`): reads
+  the planet's 127-byte header, root directory and the leaf directories
+  that cover the area (a few hundred KB), then fetches only the tile byte
+  ranges, joining neighbours closer than 128 KB into one request, and
+  writes a fresh clustered archive through `MapStore.import`. The size
+  shown before downloading is exact. A dropped connection resumes from
+  the last byte (`HttpRangeReader`), like the model downloader.
+- Source: the newest `https://build.protomaps.com/YYYYMMDD.pmtiles` of
+  the last week (one HEAD per day back). This is the second and last
+  network use after `ModelDownload`; it runs only when the user taps Check
+  size or Download. Nothing is hosted for the app: pre-cut regions would
+  mean multi-GB files to keep fresh, and the build server is what
+  Protomaps' own CLI reads from. User agent `offgrid-ai`.
+- Picking an area: pan the map until the area fills it, choose a detail
+  level (deepest zoom 12, 14 or 15), Check size, Download. Over 300,000
+  tiles the app asks to zoom in rather than start a multi-GB job.
+- `assets/maps/world.pmtiles` (planet zoom 0–5, 15 MB) is bundled and
+  copied with the fonts, so the map always shows coastlines, countries
+  and big cities, the picker has something to frame on, and the
+  navigation screen never sits empty. Refresh it with
+  `pmtiles extract https://build.protomaps.com/<build>.pmtiles
+  assets/maps/world.pmtiles --maxzoom=5` and bump `mapAssetsVersion`.
+- The PMTiles reader/writer (`lib/features/maps/domain/pmtiles.dart`) is
+  checked against an archive the Protomaps CLI made
+  (`test/fixtures/smokies_z10-12.pmtiles`): same Hilbert tile ids, same
+  directory encoding, and `pmtiles verify` accepts what the app writes.
+- Screens talk to the map through `MapHandle`, not the MapLibre
+  controller, so the download and navigation screens are widget-tested
+  with a fake map.

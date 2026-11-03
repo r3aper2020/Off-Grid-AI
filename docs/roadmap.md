@@ -135,9 +135,11 @@ Pulled ahead of 4–6 by the owner. Done: MapLibre draws imported Protomaps
 `.pmtiles` regions from the phone (no network), GPS position and heading,
 elevation/accuracy readings, coordinates, Settings → Offline maps to
 import and delete regions, `tools/maps/extract_region.sh` to make them.
-Remaining: in-app region downloads (with milestone 4), contours and
-hillshade, declination, UTM/MGRS, waypoints and routes, compass screen
-without a map, conversions.
+In-app downloads (2026-11-03): pan to an area, exact size, download
+straight from the Protomaps planet build by byte range; bundled world
+overview so the map is never empty.
+Remaining: contours and hillshade, declination, UTM/MGRS, waypoints and
+routes, compass screen without a map, conversions.
 
 ## 8. Production readiness
 Device matrix testing, performance, security review, accessibility, store

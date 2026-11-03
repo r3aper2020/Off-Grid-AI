@@ -47,30 +47,32 @@ void main() {
     expect(names, unorderedEquals(['x.pmtiles', 'x-2.pmtiles']));
   });
 
-  test('rejects the wrong extension, a non-PMTiles file and raster tiles',
-      () async {
-    expect(
-      () => store.import(originalName: 'x.gguf', bytes: Stream.value([1])),
-      throwsA(isA<MapImportException>()),
-    );
-    expect(
-      () => store.import(
-        originalName: 'x.pmtiles',
-        bytes: Stream.value(List.filled(200, 0)),
-      ),
-      throwsA(isA<MapImportException>()),
-    );
-    expect(
-      () => store.import(
-        originalName: 'png.pmtiles',
-        bytes: Stream.value(fakePmtiles(tileType: 2)),
-      ),
-      throwsA(isA<MapImportException>()),
-    );
-    await pumpEventQueue();
-    expect(dir.listSync(), isEmpty);
-    expect(await store.regions(), isEmpty);
-  });
+  test(
+    'rejects the wrong extension, a non-PMTiles file and raster tiles',
+    () async {
+      expect(
+        () => store.import(originalName: 'x.gguf', bytes: Stream.value([1])),
+        throwsA(isA<MapImportException>()),
+      );
+      expect(
+        () => store.import(
+          originalName: 'x.pmtiles',
+          bytes: Stream.value(List.filled(200, 0)),
+        ),
+        throwsA(isA<MapImportException>()),
+      );
+      expect(
+        () => store.import(
+          originalName: 'png.pmtiles',
+          bytes: Stream.value(fakePmtiles(tileType: 2)),
+        ),
+        throwsA(isA<MapImportException>()),
+      );
+      await pumpEventQueue();
+      expect(dir.listSync(), isEmpty);
+      expect(await store.regions(), isEmpty);
+    },
+  );
 
   test('delete removes the row and the file', () async {
     final region = await store.import(

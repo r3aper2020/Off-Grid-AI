@@ -80,7 +80,7 @@ class SettingsScreen extends ConsumerWidget {
                         title: const Text('Map regions'),
                         subtitle: Text(
                           regionCount == 0
-                              ? 'None installed — tap to import'
+                              ? 'None installed — tap to download'
                               : '$regionCount installed',
                         ),
                         trailing: const Icon(

@@ -9,6 +9,7 @@ import '../../core/database/app_database.dart';
 import '../../core/providers.dart';
 import 'data/geolocator_source.dart';
 import 'data/map_store.dart';
+import 'data/range_reader.dart';
 import 'domain/location_source.dart';
 import 'domain/map_style.dart';
 
@@ -19,21 +20,25 @@ final mapsDirectoryProvider = Provider<Directory>(
 );
 
 final mapStoreProvider = Provider<MapStore>(
-  (ref) => MapStore(ref.watch(databaseProvider), ref.watch(mapsDirectoryProvider)),
+  (ref) =>
+      MapStore(ref.watch(databaseProvider), ref.watch(mapsDirectoryProvider)),
 );
 
 final mapRegionsProvider = StreamProvider<List<MapRegion>>(
   (ref) => ref.watch(mapStoreProvider).watchRegions(),
 );
 
-/// Bundled glyphs and sprites, copied once into the maps directory so the
-/// renderer can read them as plain files (its asset reader can't serve
-/// byte ranges, and iOS keeps Flutter assets out of the main bundle).
-/// Bump [mapAssetsVersion] when the bundled files change.
-const mapAssetsVersion = 1;
+/// Bundled glyphs, sprites and the world overview (zoom 0–5), copied once
+/// into the maps directory so the renderer can read them as plain files
+/// (its asset reader can't serve byte ranges, and iOS keeps Flutter
+/// assets out of the main bundle). Bump [mapAssetsVersion] when the
+/// bundled files change.
+const mapAssetsVersion = 2;
 
 final mapAssetsProvider = FutureProvider<Directory>((ref) async {
-  final dir = Directory(p.join(ref.watch(mapsDirectoryProvider).path, 'assets'));
+  final dir = Directory(
+    p.join(ref.watch(mapsDirectoryProvider).path, 'assets'),
+  );
   final stamp = File(p.join(dir.path, '.v$mapAssetsVersion'));
   if (await stamp.exists()) return dir;
   final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
@@ -43,7 +48,9 @@ final mapAssetsProvider = FutureProvider<Directory>((ref) async {
     final data = await rootBundle.load(asset);
     final target = File(p.join(dir.path, rel));
     await target.parent.create(recursive: true);
-    await target.writeAsBytes(data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes));
+    await target.writeAsBytes(
+      data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes),
+    );
   }
   await stamp.writeAsString('');
   return dir;
@@ -56,20 +63,30 @@ final mapLayersProvider = FutureProvider<List<dynamic>>((ref) async {
       as List<dynamic>;
 });
 
-/// The style for the installed regions, or null when there are none.
-final mapStyleProvider = FutureProvider<String?>((ref) async {
+/// The style for the world overview plus every installed region.
+final mapStyleProvider = FutureProvider<String>((ref) async {
   final regions = await ref.watch(mapRegionsProvider.future);
-  if (regions.isEmpty) return null;
   final store = ref.watch(mapStoreProvider);
   final assets = await ref.watch(mapAssetsProvider.future);
   final layers = await ref.watch(mapLayersProvider.future);
   return buildMapStyle(
     regions: regions,
     pathFor: (r) => store.fileFor(r).path,
+    worldPath: p.join(assets.path, 'world.pmtiles'),
     assetsPath: assets.path,
     layers: layers,
   );
 });
+
+/// Opens the newest Protomaps planet build for byte-range reads. Only
+/// the download screen calls it, when the user taps Check size; tests
+/// override it with an in-memory archive.
+typedef PlanetOpener = Future<RangeReader> Function();
+
+final planetOpenerProvider = Provider<PlanetOpener>(
+  (ref) =>
+      () async => HttpRangeReader(await latestPlanetBuild()),
+);
 
 /// Where positions come from; tests override it with a fake.
 final locationSourceProvider = Provider<LocationSource>(

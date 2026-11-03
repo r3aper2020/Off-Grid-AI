@@ -1,6 +1,7 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/database/app_database.dart';
@@ -10,7 +11,8 @@ import '../data/map_store.dart';
 import '../domain/map_style.dart';
 import '../map_providers.dart';
 
-/// Installed offline map regions: import a .pmtiles file, delete one.
+/// Installed offline map regions: download one, import a .pmtiles file,
+/// delete one.
 class MapRegionsScreen extends ConsumerStatefulWidget {
   const MapRegionsScreen({super.key});
 
@@ -29,7 +31,9 @@ class _MapRegionsScreenState extends ConsumerState<MapRegionsScreen> {
     try {
       picked = await FilePicker.pickFile();
     } catch (e) {
-      messenger.showSnackBar(SnackBar(content: Text('Couldn\'t open file: $e')));
+      messenger.showSnackBar(
+        SnackBar(content: Text('Couldn\'t open file: $e')),
+      );
       return;
     }
     if (picked == null) return;
@@ -105,10 +109,11 @@ class _MapRegionsScreenState extends ConsumerState<MapRegionsScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              'A map region is a .pmtiles file made on a computer with the '
-              'Protomaps extract tool (tools/maps/extract_region.sh in the '
-              'project). Copy it to this phone and import it here; the map '
-              'then works with no connection at all.',
+              'The world overview (coastlines, countries, big cities) is '
+              'built in. For roads, trails and towns, download the area you '
+              'need while you have a connection, or import a .pmtiles file '
+              'made on a computer (tools/maps/extract_region.sh in the '
+              'project). After that the map needs no connection at all.',
               style: Theme.of(context).textTheme.bodySmall,
             ),
             const SizedBox(height: 16),
@@ -128,12 +133,19 @@ class _MapRegionsScreenState extends ConsumerState<MapRegionsScreen> {
                   ),
                 ],
               )
-            else
+            else ...[
               FilledButton.icon(
+                onPressed: () => context.push('/settings/maps/download'),
+                icon: const Icon(Icons.download_rounded),
+                label: const Text('Download a region'),
+              ),
+              const SizedBox(height: 8),
+              OutlinedButton.icon(
                 onPressed: _import,
                 icon: const Icon(Icons.file_open_outlined),
-                label: const Text('Import a .pmtiles region'),
+                label: const Text('Import a .pmtiles file'),
               ),
+            ],
             const SizedBox(height: 24),
             if (regions.isNotEmpty) ...[
               const Text(

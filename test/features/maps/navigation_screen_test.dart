@@ -88,12 +88,17 @@ void main() {
     await tester.pumpAndSettle();
   }
 
-  testWidgets('without a region: says so, still shows GPS readings', (
+  testWidgets('without a region: world overview, a nudge, GPS readings', (
     tester,
   ) async {
     await pumpNavigation(tester);
-    expect(find.text('No offline map on this phone'), findsOneWidget);
-    expect(find.byKey(const Key('map')), findsNothing);
+    expect(find.text('Only the world overview is installed'), findsOneWidget);
+    expect(find.byKey(const Key('map')), findsOneWidget);
+    expect(
+      shown!.style,
+      contains('pmtiles://file://${maps.path}/assets/world.pmtiles'),
+    );
+    expect(shown!.zoom, 1);
     expect(find.text('Waiting for a GPS fix…'), findsOneWidget);
 
     location.fixes_.add(
@@ -125,10 +130,13 @@ void main() {
     );
     await pumpNavigation(tester);
     expect(find.byKey(const Key('map')), findsOneWidget);
-    expect(find.text('No offline map on this phone'), findsNothing);
+    expect(find.text('Only the world overview is installed'), findsNothing);
     expect(find.text(mapAttribution), findsOneWidget);
     final spec = shown!;
-    expect(spec.style, contains('pmtiles://file://${maps.path}/smokies.pmtiles'));
+    expect(
+      spec.style,
+      contains('pmtiles://file://${maps.path}/smokies.pmtiles'),
+    );
     expect(spec.locationEnabled, isTrue);
     expect(spec.centerLat, closeTo(35.6, 1e-6));
     expect(spec.style, contains('file://${maps.path}/assets/sprites/dark'));

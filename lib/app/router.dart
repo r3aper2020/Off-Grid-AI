@@ -11,6 +11,7 @@ import '../features/library/presentation/pack_screen.dart';
 import '../features/library/presentation/search_screen.dart';
 import '../features/models/presentation/models_screen.dart';
 import '../features/settings/presentation/settings_screen.dart';
+import '../features/maps/presentation/map_download_screen.dart';
 import '../features/maps/presentation/map_regions_screen.dart';
 import '../features/tools/presentation/navigation_screen.dart';
 import '../features/tools/presentation/tools_screen.dart';
@@ -108,6 +109,11 @@ GoRouter buildRouter() => GoRouter(
                   path: 'maps',
                   parentNavigatorKey: _rootKey,
                   builder: (_, _) => const MapRegionsScreen(),
+                ),
+                GoRoute(
+                  path: 'maps/download',
+                  parentNavigatorKey: _rootKey,
+                  builder: (_, _) => const MapDownloadScreen(),
                 ),
               ],
             ),

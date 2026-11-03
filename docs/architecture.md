@@ -11,7 +11,7 @@ Feature domain interfaces
   ModelStore             (models)        — imported GGUF files + registry
   KnowledgeSearch        (library)       — SQLite FTS5 search + retrieval
   PackInstaller          (library)       — installs knowledge packs
-  MapStore / LocationSource (maps)      — PMTiles regions, GPS fixes
+  MapStore / RegionDownload / LocationSource (maps) — PMTiles regions, GPS fixes
   (preparedness, emergency)              — later milestones
         │
         ▼
@@ -39,8 +39,11 @@ lib/
       presentation/          home, conversation, history, composer
       chat_providers.dart    providers + GenerationController
     library/                 packs, FTS5 search, Library/pack/reader/search UI
-    maps/                    MapStore (import/delete regions), style builder,
-                             LocationSource (geolocator), Offline maps screen
+    maps/                    MapStore (import/delete regions), RegionDownload
+                             (cuts a region out of the Protomaps planet by byte
+                             range), PMTiles reader/writer, style builder,
+                             LocationSource (geolocator), MapHandle (map
+                             abstraction), Offline maps + Download screens
     tools/                   Tools list + Navigation (MapLibre map, readings)
     models/                  ModelStore (import/activate/delete), AI model screen
     settings/                status overview, data controls
@@ -59,7 +62,7 @@ lib/
 | `passages_fts` (v3) | FTS5 index over passages (porter stemming) and their document's title + aliases (v7) + figure captions (v9), synced by triggers |
 | `messages.citations` (v3) | JSON passage ids given to the model for a reply; `[]` = searched, nothing matched |
 | `messages.imagePath` (v8) | Photo attached to a user message: file name in the app's `photos/` directory |
-| `map_regions` (v10) | Imported PMTiles archives: file name in `maps/`, size, bounds and zoom range from the header |
+| `map_regions` (v10) | Downloaded or imported PMTiles archives: file name in `maps/`, size, bounds and zoom range from the header |
 
 ## Chat generation flow
 

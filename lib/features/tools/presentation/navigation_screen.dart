@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:maplibre_gl/maplibre_gl.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/widgets/screen_header.dart';
@@ -11,9 +10,9 @@ import '../../maps/domain/map_style.dart';
 import '../../maps/map_providers.dart';
 import '../../maps/presentation/map_view.dart';
 
-/// Offline map of the installed regions with the phone's position and
-/// heading. Without a region the screen still shows GPS readings, and
-/// says where to get a map.
+/// Offline map of the bundled world overview and the installed regions,
+/// with the phone's position and heading. Without a region the screen
+/// still shows the world and GPS readings, and says where to get a map.
 class NavigationScreen extends ConsumerStatefulWidget {
   const NavigationScreen({super.key});
 
@@ -22,7 +21,7 @@ class NavigationScreen extends ConsumerStatefulWidget {
 }
 
 class _NavigationScreenState extends ConsumerState<NavigationScreen> {
-  MapLibreMapController? _controller;
+  MapHandle? _map;
   bool _follow = false;
   double? _compass;
 
@@ -36,17 +35,21 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
     final heading = _compass ?? fix?.heading;
 
     Widget map;
-    if (style != null && regions.isNotEmpty) {
-      final first = regions.first;
+    if (style != null) {
+      final first = regions.firstOrNull;
       map = ref.watch(mapViewBuilderProvider)(
         MapViewSpec(
           style: style,
-          centerLat: fix?.latitude ?? (first.minLat + first.maxLat) / 2,
-          centerLon: fix?.longitude ?? (first.minLon + first.maxLon) / 2,
-          zoom: fix == null ? 9 : 13,
+          centerLat:
+              fix?.latitude ??
+              (first == null ? 20 : (first.minLat + first.maxLat) / 2),
+          centerLon:
+              fix?.longitude ??
+              (first == null ? 0 : (first.minLon + first.maxLon) / 2),
+          zoom: fix != null ? 13 : (first != null ? 9 : 1),
           locationEnabled: granted,
           followHeading: _follow,
-          onMapCreated: (c) => setState(() => _controller = c),
+          onMapCreated: (m) => setState(() => _map = m),
           onHeading: (h) {
             if (h != _compass && mounted) setState(() => _compass = h);
           },
@@ -56,7 +59,7 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
         ),
       );
     } else {
-      _controller = null;
+      _map = null;
       map = const TopoBackground();
     }
 
@@ -64,12 +67,6 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
       body: Stack(
         children: [
           Positioned.fill(child: map),
-          if (style == null)
-            Center(
-              child: _NoMapCard(
-                onAdd: () => context.push('/settings/maps'),
-              ),
-            ),
           SafeArea(
             child: Column(
               children: [
@@ -89,21 +86,23 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
                     ),
                   ],
                 ),
+                if (regions.isEmpty)
+                  _NoRegionBanner(
+                    onDownload: () => context.push('/settings/maps/download'),
+                  ),
                 const Spacer(),
                 Align(
                   alignment: Alignment.centerRight,
                   child: Padding(
                     padding: const EdgeInsets.only(right: 16),
                     child: _MapControls(
-                      enabled: _controller != null,
+                      enabled: _map != null,
                       following: _follow,
                       canCenter: granted,
                       onFollow: _toggleFollow,
                       onCenter: () => _center(fix),
-                      onZoomIn: () =>
-                          _controller?.animateCamera(CameraUpdate.zoomIn()),
-                      onZoomOut: () =>
-                          _controller?.animateCamera(CameraUpdate.zoomOut()),
+                      onZoomIn: () => _map?.zoomIn(),
+                      onZoomOut: () => _map?.zoomOut(),
                     ),
                   ),
                 ),
@@ -129,62 +128,58 @@ class _NavigationScreenState extends ConsumerState<NavigationScreen> {
   }
 
   Future<void> _toggleFollow() async {
-    final c = _controller;
-    if (c == null) return;
+    final m = _map;
+    if (m == null) return;
     setState(() => _follow = !_follow);
-    await c.updateMyLocationTrackingMode(
-      _follow ? MyLocationTrackingMode.trackingCompass : MyLocationTrackingMode.none,
-    );
+    await m.setFollowHeading(_follow);
   }
 
   Future<void> _center(Fix? fix) async {
-    final c = _controller;
-    if (c == null) return;
+    final m = _map;
+    if (m == null) return;
     final target = fix != null
-        ? LatLng(fix.latitude, fix.longitude)
-        : await c.requestMyLocationLatLng();
+        ? (fix.latitude, fix.longitude)
+        : await m.myLocation();
     if (target == null) return;
-    await c.animateCamera(CameraUpdate.newLatLngZoom(target, 14));
+    await m.moveTo(target.$1, target.$2, 14);
   }
 }
 
-class _NoMapCard extends StatelessWidget {
-  const _NoMapCard({required this.onAdd});
-  final VoidCallback onAdd;
+/// Shown over the world overview until a region is installed.
+class _NoRegionBanner extends StatelessWidget {
+  const _NoRegionBanner({required this.onDownload});
+  final VoidCallback onDownload;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 32),
-      padding: const EdgeInsets.all(20),
+      margin: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+      padding: const EdgeInsets.fromLTRB(14, 10, 8, 10),
       decoration: BoxDecoration(
         color: AppColors.surface.withValues(alpha: 0.95),
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(14),
         border: Border.all(color: AppColors.border),
       ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
+      child: Row(
         children: [
-          const Icon(Icons.map_outlined, size: 36, color: AppColors.accent),
-          const SizedBox(height: 12),
-          Text(
-            'No offline map on this phone',
-            style: Theme.of(context).textTheme.titleMedium,
-            textAlign: TextAlign.center,
+          const Icon(Icons.map_outlined, color: AppColors.accent),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Only the world overview is installed',
+                  style: Theme.of(context).textTheme.titleSmall,
+                ),
+                Text(
+                  'Download a region for roads, trails and towns.',
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ],
+            ),
           ),
-          const SizedBox(height: 6),
-          Text(
-            'Add a map region made with the Protomaps extract tool and it '
-            'will show here, with your position, without any connection.',
-            style: Theme.of(context).textTheme.bodySmall,
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 14),
-          FilledButton.icon(
-            onPressed: onAdd,
-            icon: const Icon(Icons.add_rounded),
-            label: const Text('Add a map region'),
-          ),
+          TextButton(onPressed: onDownload, child: const Text('Download')),
         ],
       ),
     );
@@ -218,7 +213,11 @@ class _MapControls extends StatelessWidget {
         'Follow heading',
         enabled && canCenter ? onFollow : null,
       ),
-      (Icons.my_location_rounded, 'Center on me', enabled && canCenter ? onCenter : null),
+      (
+        Icons.my_location_rounded,
+        'Center on me',
+        enabled && canCenter ? onCenter : null,
+      ),
       (Icons.add_rounded, 'Zoom in', enabled ? onZoomIn : null),
       (Icons.remove_rounded, 'Zoom out', enabled ? onZoomOut : null),
     ];
@@ -279,7 +278,9 @@ class _ReadingsBar extends StatelessWidget {
               ),
               _Reading(
                 label: 'Accuracy',
-                value: f?.accuracy == null ? null : '±${f!.accuracy!.round()} m',
+                value: f?.accuracy == null
+                    ? null
+                    : '±${f!.accuracy!.round()} m',
               ),
               _Reading(
                 label: 'Heading',

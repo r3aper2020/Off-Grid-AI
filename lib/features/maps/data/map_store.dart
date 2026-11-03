@@ -115,8 +115,9 @@ class MapStore {
   }
 
   Future<void> delete(MapRegion region) async {
-    await (_db.delete(_db.mapRegions)..where((r) => r.id.equals(region.id)))
-        .go();
+    await (_db.delete(
+      _db.mapRegions,
+    )..where((r) => r.id.equals(region.id))).go();
     final f = fileFor(region);
     if (await f.exists()) await f.delete();
   }
@@ -138,8 +139,7 @@ class MapStore {
     var candidate = name;
     var n = 2;
     while (await File(p.join(_dir.path, candidate)).exists()) {
-      candidate =
-          '${p.basenameWithoutExtension(name)}-$n${p.extension(name)}';
+      candidate = '${p.basenameWithoutExtension(name)}-$n${p.extension(name)}';
       n++;
     }
     return candidate;
